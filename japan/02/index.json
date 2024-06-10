@@ -1,0 +1,30 @@
+{
+    "date": "2月 February",
+    "url": "?month=02",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "初牛大祭「音頭奉納・福餅まき」",
+            "src": "https://lh3.googleusercontent.com/ggs/AF1QipPSS49Mg6luEzE9OmxLYoeEW8_z0R1nirlMwdrV=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "鵜殿のヨシ原焼き",
+            "src": "https://lh3.googleusercontent.com/ggs/AF1QipMXOltsxFYQguqRN6MGEl2z3H9Aai5u-1IOWuxd=m18",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "初牛大祭「音頭奉納・福餅まき」 瓢箪山稲荷神社",
+            "url": "hyotanyama-hatsuushi",
+            "target": "_self"
+        },
+        {
+            "text": "鵜殿のヨシ原焼き 高槻市鵜殿 ~ 上牧",
+            "url": "udono-yoshihara",
+            "target": "_self"
+        }
+    ]
+}

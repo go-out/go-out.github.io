@@ -1,0 +1,28 @@
+{
+    "title": "🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹",
+    "description": "【VR】ウォーキング・サイクリング・ドライブ映像 | #車窓動画 #画面分割",
+    "directory": "",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "bike",
+            "poster": "https://ia601303.us.archive.org/35/items/tezukayama/tezukayama.thumbs/000_000001.jpg",
+            "src": [
+                "https://ia601303.us.archive.org/35/items/tezukayama/001A.mp4"
+            ]
+        },
+        {
+            "id": "ferry",
+            "poster": "https://ia601303.us.archive.org/27/items/Tempozan/Tempozan.thumbs/103_000010.jpg",
+            "src": [
+                "https://ia601303.us.archive.org/27/items/Tempozan/201.mp4",
+                "https://ia601201.us.archive.org/22/items/chitose/004.mp4"
+            ]
+        }
+    ],
+    "markdown": "README.md",
+    "links": [
+        ""
+    ]
+}

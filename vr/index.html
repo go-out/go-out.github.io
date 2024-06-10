@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title>🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹</title>
+    <meta content="🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹" property="og:title">
+    <meta content="【VR】ウォーキング・サイクリング・ドライブ映像 | #車窓動画 #画面分割" name="description">
+    <meta content="【VR】ウォーキング・サイクリング・ドライブ映像 | #車窓動画 #画面分割" property="og:description">
+
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://creative-community.space/map/vr/" property="og:url">
+    <meta content="https://creative-community.space/map/vr/index.png" property="og:image">
+    <meta content="https://creative-community.space/map/vr/index.png" name="twitter:image:src">
+
+    <link rel="icon" href="../date/img/favicon.png">
+    <link rel="icon" href="../date/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../date/img/mobile.png" sizes="180x180">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js?v=1.0"></script>
+    <script>
+        // ?id=ID&area=エリア&name=名前
+        const urlParam = location.search.substring(1)
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+            const json = paramArr.area + "/" + paramArr.name + '.json'
+            indexJSON("../" + paramArr.id + "/" + json)
+        } else {
+            indexJSON('index.json');
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body class="start">
+    <main>
+        <header>
+            <small id="year"></small>
+            <h1>
+                <strong>Go Out</strong>
+            </h1>
+            <h2>
+                <strong id="month"></strong>
+                <strong id="day"></strong>
+            </h2>
+            <button id="play" type="button"></button>
+        </header>
+    </main>
+
+    <article>
+        <h3>
+            <strong id="title"></strong>
+        </h3>
+        <section id="info"></section>
+        <div id="links" hidden>
+            <h3>関連ページ Related Pages</h3>
+        </div>
+    </article>
+
+    <footer>
+        <button onclick="history.back()">↩︎</button>
+    </footer>
+</body>
+
+</html>

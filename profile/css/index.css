@@ -1,0 +1,241 @@
+main,
+main::after,
+footer {
+    position: fixed;
+}
+
+#title,
+header {
+    position: absolute;
+}
+
+#title button {
+    position: relative;
+}
+
+#title,
+header,
+main {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    background-color: rgba(135, 206, 235, 0.55);
+}
+
+main::after {
+    content: "×";
+    display: block;
+    bottom: 0;
+    left: 0;
+    font-weight: 900;
+    text-shadow:
+        -1px 1px 0 skyblue,
+        -2px 2px 0 skyblue,
+        -3px 3px 0 skyblue,
+        -4px 4px 0 skyblue;
+}
+
+main {
+    z-index: 50;
+}
+
+#title,
+#title button,
+header,
+footer {
+    z-index: 100;
+}
+
+header,
+#title,
+#map,
+footer {
+    pointer-events: none;
+    user-select: none;
+}
+
+h3 b {
+    background: lightskyblue;
+    color: lemonchiffon;
+}
+
+main::after {
+    color: lemonchiffon;
+}
+
+h3 u {
+    text-decoration: lightskyblue wavy underline;
+}
+
+header h3 {
+    padding: 0;
+    margin: 0.25rem 0;
+}
+
+main::after {
+    padding: 0 1.25rem;
+    margin: 0;
+}
+
+header,
+footer {
+    padding: 0.5rem;
+}
+
+#close {
+    padding: 0;
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+main::after {
+    font-size: 500%;
+}
+
+#title strong {
+    font-size: 300%;
+}
+
+#title {
+    font-size: 250%;
+}
+
+h2,
+address strong,
+#close {
+    font-size: 200%;
+}
+
+h3,
+h3 b {
+    font-size: 150%;
+}
+
+#datetime,
+h3 u {
+    font-size: 125%;
+}
+
+dialog a {
+    font-size: 111%;
+}
+
+dialog,
+address {
+    font-size: 100%;
+}
+
+#title button,
+small {
+    font-size: 75%;
+}
+
+#title button,
+h3,
+h3 b,
+h3 u {
+    font-weight: 500;
+}
+
+address strong {
+    word-break: all;
+}
+
+#title strong {
+    margin: 7.5rem 0 -5rem;
+    line-height: 100%;
+}
+
+#title button {
+    background: #fff;
+    border: solid 0.15rem;
+    border-radius: 50%;
+    padding: 0.25rem 1rem;
+}
+
+#close {
+    display: block;
+    float: right;
+}
+
+body,
+#title,
+main {
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    display: flex;
+}
+
+footer {
+    flex-flow: row-reverse;
+}
+
+#map,
+main,
+article {
+    width: 100%;
+}
+
+header {
+    width: calc(100% - 4.5rem);
+}
+
+dialog {
+    width: calc(100% - 2rem);
+    max-width: 500px;
+}
+
+#title {
+    height: 100vh;
+    max-height: 125vw;
+}
+
+#map {
+    height: calc(100vh - 4rem);
+    max-height: 125vw;
+}
+
+main {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+}
+
+#player {
+    border-radius: 1rem;
+    width: 92.5vw;
+    max-width: 1000px;
+    height: 52.5vw;
+    max-height: 565px;
+}
+
+footer button {
+    background: transparent;
+    background-image: url(../../profile/img/mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: 50%;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+header address {
+    display: inline;
+}
+
+[hidden],
+#title[hidden] {
+    display: none;
+}

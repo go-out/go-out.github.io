@@ -1,0 +1,20 @@
+{
+    "date": "1月 January",
+    "url": "?month=01",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "毎年一月第三日曜日",
+            "src": "https://lh3.googleusercontent.com/ggms/AF1QipNvYruDEHIphB-mhhLSoyQivQ9R6yE12Tv1QKMC=m18",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "綱引神事 難波八阪神社",
+            "url": "tsunahiki-shingi",
+            "target": "_self"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+header h2,
+article p {
+    font-family: "Kristina", 'Kikai', 'Zen Maru Gothic', cursive;
+}
+
+article #title,
+article p {
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.relax,
+header h1,
+header button,
+article p a,
+article section,
+#randomdraggable button {
+    font-family: "DiaPro", sans-serif;
+}
+
+article p a {
+    color: #bc002d;
+}
+
+#title,
+#title a:hover,
+article p u,
+article p a:hover,
+article section u {
+    color: #fff;
+}
+
+#title a,
+article section a:hover {
+    color: #bc002d;
+    background-color: #fff;
+}
+
+article,
+footer,
+#title a:hover,
+article p u,
+article p a:hover {
+    background-color: #bc002d;
+}
+
+article p {
+    background: #fff;
+    max-width: 95%;
+    height: 65vh;
+    overflow: auto;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-text-orientation: mixed;
+    text-orientation: mixed;
+}

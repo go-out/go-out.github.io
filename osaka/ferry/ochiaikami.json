@@ -1,0 +1,42 @@
+{
+    "title": "落合上（おちあいかみ）渡船場",
+    "description": "大正区千島（たいしょうくちしま）⇄ 西成区北津守（にしなりくきたつもり）",
+    "year": "2022",
+    "month": "10",
+    "day": "20",
+    "info": [
+        "木津川（大正区千島1丁目 ⇄ 西成区北津守4丁目）を 10 ~ 15分毎 運航",
+        "岸壁間100メートル。利用者は1日平均434人。渡船「北斗」「福崎丸」が就航しています。",
+        "<br>",
+        "<u>所在地</u>",
+        "千島側 <u>大阪市大正区千島1丁目29‐41</u>",
+        "北津守側 <u>大阪市西成区北津守4丁目15‐1</u>",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8' target='_blank'>千島ガーデンモール</a> <a href='https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9' target='_blank'>セブンイレブン　大阪三軒家東4丁目店</a>"
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011254.html' target='_blank'>大阪市：4.落合上（おちあいかみ）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/h63fx75foDrtQVjp8' target='_blank'>落合上渡船場（大正区千島側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/VFFRP7tDNjgQ3PfN8' target='_blank'>落合上渡船場（西成区北津守側） - Google マップ</a>"
+    ],
+    "directory": "https://ia601300.us.archive.org/4/items/ochiaikami/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "ochiaikami.thumbs/001_000001.jpg",
+            "src": [
+                "001.mp4",
+                "002.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "ochiaikami.thumbs/000_000044.jpg",
+            "src": [
+                "000.mp4"
+            ]
+        }
+    ]
+}

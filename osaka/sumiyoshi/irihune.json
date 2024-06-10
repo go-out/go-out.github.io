@@ -1,0 +1,37 @@
+{
+    "title": "いりふね温泉",
+    "description": "営業時間 15:00~23:30 | 定休日 火曜日・第一月曜日",
+    "url": "relax/?id=osaka&area=sumiyoshi&name=irihune",
+    "style": "relax",
+    "info": {
+        "title": "Irihune Onsen 🇯🇵 Osaka, Japan",
+        "address": "大阪府大阪市阿倍野区西田辺町１丁目２−２２",
+        "google": "https://maps.app.goo.gl/rC9ExxoX7Qjs1Nx76",
+        "text": [
+            "ナニワ施工にもかかわらず、装飾は最低限という感じで、とてもシンプルで上品。",
+            "かといってなにもないわけではなく、洗い場とお風呂の曲線であったり、丸い照明など、派手にしなくてもかっこよさがあります。",
+            "銭湯自体は小さめですが、お風呂の種類は豊富で、清潔感もあって、落ち着きます。",
+            "水風呂健康法を推しているようで、水風呂がキンキンに冷たいです。そのためが、お風呂のお湯も少し熱めな気がします。",
+            "ロビーには駄菓子や生ビールが売ってて、グラスビールは190円！常連さんで賑わってる銭湯もいいけど、ここは静かにしっぽり入る感じでとてもよかったです。",
+            "",
+            "<u>アクセス</u>",
+            "Osaka Metro 御堂筋線「西田辺」2号出口から東へ徒歩約1分",
+            "JR 阪和線「鶴ヶ丘駅」から徒歩約5分"
+        ]
+    },
+    "links": [
+        "<a href='https://irifune-onsen.net/' target='_blank'>いりふね温泉公式ホームページ ランナーの聖地、長居公園のランステ（ランニングステーション）</a>",
+        "<a href='https://e-sento.com/%E3%81%84%E3%82%8A%E3%81%B5%E3%81%AD%E6%B8%A9%E6%B3%89/' target='_blank'>いりふね温泉・阿倍野区西田辺町1-2-22 - いい銭湯どっとこむ</a>"
+    ],
+    "width": "0.75",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/p/",
+    "img": [
+        "AF1QipMQML0uLIiLsRXUeZ7uL1GkogQzcw2x1zV0amjy=s0",
+        "AF1QipOhJlMEAg9UW25TiZjY-7UDBfdpvw5syH9azoZz=s0",
+        "AF1QipPDmKJH3tjObIfeCl_AuSTrNLz0be9ag_YUtfly=s0",
+        "AF1QipN_OVxqn4poLcNtpag6aU1wa22ELH2PR9Di48xn=s0",
+        "AF1QipNQYlv9-weWkfWzeTxi-a3G7w20qzbDvRUVXXyD=s0",
+        "AF1QipNr9mzC0Lsde8m3KiDbfa6GT1_w2op5Iei_jtbp=s0"
+    ]
+}

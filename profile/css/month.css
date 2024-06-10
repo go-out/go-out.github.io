@@ -1,0 +1,128 @@
+#month nav {
+    position: sticky;
+    top: 0;
+}
+
+#month nav,
+#month section {
+    display: flex;
+    flex-flow: wrap;
+    gap: 0.25rem;
+}
+
+#thismonth,
+#month section h4,
+#feature {
+    width: 100%;
+}
+
+#month section h4 {
+    flex: 1 100%;
+}
+
+#month section div {
+    flex: 1 350px;
+}
+
+article h2,
+article h4,
+#month nav,
+#month section div {
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+#feature {
+    padding: 0 0.5rem;
+    margin: 0;
+}
+
+#feature section p {
+    padding: 0.5rem;
+}
+
+#month section div h3,
+#month section div p {
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+#month section u,
+#month nav label,
+#feature section p a {
+    padding: 0.25rem;
+}
+
+article h4 {
+    font-size: 175%;
+}
+
+aside b {
+    font-size: 150%;
+}
+
+#month nav label,
+#feature section p,
+#feature section p a {
+    font-size: 125%;
+}
+
+#month section div,
+#feature section p,
+#feature section p strong {
+    line-height: 200%;
+}
+
+#month nav label {
+    letter-spacing: 0.1rem;
+}
+
+#thismonth strong {
+    letter-spacing: 0.25rem;
+}
+
+#month section u {
+    color: lightskyblue;
+}
+
+#month nav input:checked+label {
+    background: lightskyblue;
+    color: lemonchiffon;
+}
+
+article h4 small {
+    color: lightskyblue;
+    text-decoration: underline wavy lightskyblue;
+}
+
+#month section u,
+#month nav label {
+    background: lemonchiffon;
+    border: 0.1rem solid lightskyblue;
+}
+
+#month section u,
+#month nav label,
+#feature section p a {
+    border-radius: 0.25rem;
+}
+
+#feature section {
+    background: #fff;
+}
+
+#month nav label:hover {
+    cursor: pointer;
+}
+
+#month article[hidden],
+#month nav input {
+    display: none;
+}
+
+#month section a,
+#month section u,
+#feature section p a,
+#feature section p u {
+    text-decoration: none;
+}

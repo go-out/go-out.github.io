@@ -1,0 +1,198 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 2vw;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 3vw;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+#map {
+    padding: 0;
+    margin: 0;
+}
+
+address {
+    display: inline-block;
+}
+
+body,
+dialog {
+    background: lemonchiffon;
+}
+
+#title,
+#close {
+    color: lightskyblue;
+}
+
+.shadow {
+    color: lemonchiffon;
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+address {
+    background: lemonchiffon;
+    color: lightskyblue;
+}
+
+dialog {
+    border: solid 0.25rem lightskyblue;
+    overflow-x: hidden;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#datetime a {
+    font-size: 150%;
+    border-radius: 2.5rem;
+    padding: 0.25rem 0.5rem;
+}
+
+a,
+button,
+input[type="button"],
+textarea {
+    transition: 1s;
+    pointer-events: auto;
+    user-select: auto;
+}
+
+button,
+input[type="button"],
+textarea {
+    appearance: none;
+    color: #000;
+    outline: none;
+}
+
+#close {
+    background: transparent;
+    border: none;
+}
+
+button:hover,
+input[type="button"]:hover {
+    cursor: pointer;
+    filter: sepia(1);
+}
+
+@font-face {
+    font-family: "Kristina";
+    src: url("fonts/Kristina-Bold.otf") format("opentype"),
+        url("fonts/Kristina-Fine.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "KikaiChokoku";
+    src: url("fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
+        url("fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
+        url("fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
+}
+
+.goout,
+header .submit,
+.mapboxgl-ctrl-attrib-inner {
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+.ja {
+    font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+.goout a,
+article section a:hover {
+    color: lemonchiffon;
+    background-color: lightskyblue;
+}
+
+.goout a:hover,
+article section a {
+    color: lightskyblue;
+    background-color: lemonchiffon;
+}
+
+@font-face {
+    font-family: "DiaPro";
+    src: url("fonts/DiaPro-Regular.eot") format("embedded-opentype"),
+        url("fonts/DiaPro-Regular.otf") format("opentype"),
+        url("fonts/DiaPro-Regular.woff") format("woff");
+}
+
+.relax {
+    font-family: "DiaPro", sans-serif;
+}
+
+.relax a {
+    color: #000;
+    background-color: #ebd809;
+}
+
+.relax a:hover {
+    color: #ebd809;
+    background-color: #000;
+}
+
+.sports {
+    font-weight: 500;
+    font-size: 75%;
+    font-family: "Gill Sans";
+    text-transform: uppercase;
+}
+
+.sports a {
+    animation: 2s linear infinite alternate sports;
+}
+
+.sports a:hover {
+    animation: .25s linear infinite alternate sports;
+}
+
+@keyframes sports {
+    0% {
+        color: #333;
+        background: #DCF7EE;
+    }
+
+    100% {
+        color: #DCF7EE;
+        background: #333;
+    }
+}
+
+@-webkit-keyframes sports {
+    0% {
+        color: #333;
+        background: #DCF7EE;
+    }
+
+    100% {
+        color: #DCF7EE;
+        background: #333;
+    }
+}
+
+.pehu {
+    font-family: "MS Mincho", "SimSong", serif;
+}

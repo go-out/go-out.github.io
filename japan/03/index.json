@@ -1,0 +1,73 @@
+{
+    "date": "3月 March",
+    "u": "春のお彼岸",
+    "strong": "The Spring Equinox",
+    "readme": "03/README.md",
+    "url": "?month=03",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "桜（サクラ）",
+            "src": "https://lh3.googleusercontent.com/ggms/AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "桃（モモ）",
+            "src": "https://lh3.googleusercontent.com/ggms/AF1QipM_TUQT25Py95sLDRZcS6tsIt8OOnorf7gGhf7U=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "辛夷（コブシ）",
+            "src": "https://lh3.googleusercontent.com/ggms/AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "白木蓮（ハクモクレン）",
+            "src": "https://lh3.googleusercontent.com/ggms/AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "春分の日",
+            "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html#shunbun",
+            "target": "_blank"
+        },
+        {
+            "text": "何年後かの春分の日・秋分の日はわかるの？",
+            "url": "https://www.nao.ac.jp/faq/a0301.html",
+            "target": "_blank"
+        },
+        {
+            "text": "上本町（谷九・上六）",
+            "url": "../osaka/vr/?area=minami&name=uehonmachi",
+            "target": "_self"
+        },
+        {
+            "text": "高津宮",
+            "url": "../relax/?id=legacy&area=osaka&name=kouzu",
+            "target": "_self"
+        },
+        {
+            "text": "毛馬桜之宮公園",
+            "url": "../osaka/vr/?area=kita&name=sakuranomiya",
+            "target": "_self"
+        },
+        {
+            "text": "桃ヶ池公園",
+            "url": "../relax/?id=park&area=osaka&name=momogaike",
+            "target": "_self"
+        },
+        {
+            "text": "東淀川区",
+            "url": "../osaka/vr/?area=kita&name=higashi-yodogawa",
+            "target": "_self"
+        },
+        {
+            "text": "北港（桜島・舞洲）",
+            "url": "../osaka/vr/?area=bayarea&name=hokko",
+            "target": "_self"
+        }
+    ]
+}

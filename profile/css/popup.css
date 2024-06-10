@@ -1,0 +1,69 @@
+.mapboxgl-popup {
+    z-index: 11;
+}
+
+.mapboxgl-popup strong {
+    font-size: 125%;
+}
+
+.mapboxgl-popup.goout {
+    font-size: 150%;
+}
+
+.mapboxgl-popup-content a,
+.mapboxgl-popup-close-button {
+    appearance: none;
+    outline: none;
+}
+
+.mapboxgl-popup-content strong {
+    display: inline-block;
+    margin: 0.25rem 0;
+}
+
+.mapboxgl-popup.heard {
+    font-family: 'Libre Baskerville', 'Zen Maru Gothic', serif;
+    font-size: 0.75rem;
+    filter: invert(90%);
+}
+
+.heard .mapboxgl-popup-content {
+    color: #000;
+    text-align: center;
+}
+
+.heard .mapboxgl-popup-content a {
+    color: #000;
+    display: block;
+    font-size: 100%;
+    line-height: 150%;
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+.heard .mapboxgl-popup-content p {
+    font-size: 55%;
+    line-height: 200%;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.mapboxgl-popup-close-button {
+    background: transparent;
+    border: none;
+    padding: 0 0.25rem;
+    margin: 0;
+    font-size: 200%;
+}
+
+@media screen and (max-width: 550px) {
+    .mapboxgl-popup.heard {
+        font-size: 3vw;
+        width: 55%;
+        min-width: 55%;
+        max-width: 55%;
+    }
+
+    .mapboxgl-popup.goout {
+        font-size: 4.5vw;
+    }
+}

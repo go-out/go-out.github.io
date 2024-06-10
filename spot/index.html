@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title>Fancy and Relaxin' | 優雅にゆっくり憩える場所</title>
+    <meta content="Fancy and Relaxin' | 優雅にゆっくり憩える場所" property="og:title">
+    <meta content="__" name="description">
+    <meta content="__" property="og:description">
+
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://creative-community.space/members/map/relax/" property="og:url">
+    <meta content="https://creative-community.space/members/map/relax/index.png" property="og:image">
+    <meta content="https://creative-community.space/members/map/relax/index.png" name="twitter:image:src">
+
+    <link rel="icon" href="../date/img/favicon.png">
+    <link rel="icon" href="../date/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../date/img/mobile.png" sizes="180x180">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="index.js?v=1.0"></script>
+    <script>
+        // ?id=ID&area=エリア&name=名前
+
+        const urlParam = location.search.substring(1)
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+            let json = paramArr.area + "/" + paramArr.name + '.json'
+            indexJSON("../" + paramArr.id + "/" + json)
+        } else {
+            indexJSON('index.json')
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body class="start">
+    <main>
+        <header>
+            <h1>
+                <strong>Fancy and Relaxin'</strong>
+                <small id="year"></small>
+            </h1>
+            <button id="play" type="button"></button>
+            <h2>
+                <strong id="month"></strong>
+                <strong id="day"></strong>
+            </h2>
+        </header>
+        <canvas></canvas>
+        <fieldset></fieldset>
+    </main>
+
+    <article>
+        <h3 id="title">I'll play it first and tell you what it is later.</h3>
+    </article>
+</body>
+
+</html>
