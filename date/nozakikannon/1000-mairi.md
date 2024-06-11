@@ -1,6 +1,6 @@
 千日まいり 🇯🇵 1000 Days Mairi
 
-場所：野崎観音 ⛩️ Nozaki Kannon
+場所：野崎観音 Nozaki Kannon
 
 実施日：毎年七月九日 午後七時
 Date: July 9th every year start at 7PM

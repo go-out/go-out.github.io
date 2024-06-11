@@ -1,0 +1,49 @@
+{
+    "date": "2024.5.5 (Sun)",
+    "u": "ビルの谷間の鯉のぼり 🎏",
+    "strong": "<small>Shin Umeda City</small><br>新梅田シティ",
+    "readme": "koinobori.md",
+    "url": "shin-umeda-city/#20240505",
+    "youtube": "wNq8BidHmTc",
+    "directory": "https://ia800303.us.archive.org/25/items/new-umeda/",
+    "cover": "new-umeda.thumbs/20240505/005_000087.jpg",
+    "video": [
+        {
+            "title": "花野〜新・里山〜",
+            "src": "20240505/001.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "ウェスティンホテル大阪",
+            "src": "20240505/002.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "中自然の森",
+            "src": "20240505/003.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "大滝・列柱滝",
+            "src": "20240505/004.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "こいのぼり",
+            "src": "20240505/000.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "ワンダースクエア",
+            "src": "20240505/005.ia.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "リンク",
+            "url": "___",
+            "target": "_self"
+        }
+    ]
+}

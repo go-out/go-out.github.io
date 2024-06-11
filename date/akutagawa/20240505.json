@@ -1,0 +1,37 @@
+{
+    "date": "2024.5.5 (Sun)",
+    "readme": "1000-koinobori.md",
+    "url": "akutagawa/#20240505",
+    "youtube": "GHfvP9C2DQo",
+    "directory": "https://archive.org/download/akutagawa/",
+    "cover": "akutagawa.thumbs/2024/1000_000237.jpg",
+    "video": [
+        {
+            "title": "第32回 こいのぼりフェスタ1000",
+            "src": "2024/1000.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "芥川商店街 Akutagawa Shotengai",
+            "src": "2024/002.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "芥川公園 Akutagawa Park",
+            "src": "2024/001.ia.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "こいのぼりフェスタ１０００",
+            "url": "https://koinoborifesta1000.jimdofree.com/",
+            "target": "_blank"
+        },
+        {
+            "text": "芥川商店街",
+            "url": "https://akutagawa-shop.jp/",
+            "target": "_blank"
+        }
+    ]
+}

@@ -1,6 +1,9 @@
 {
     "date": "YYYY.MM.DD (WEEK)",
-    "url": "1000-mairi/",
+    "u": "タイトル 🇯🇵 場所",
+    "strong": "Title <small>Venue</small>",
+    "readme": "README.md",
+    "url": ".sample/",
     "youtube": "___",
     "directory": "",
     "cover": "",
@@ -8,7 +11,7 @@
         {
             "title": "チャプタータイトル",
             "src": "___.mp4",
-            "track": "___/000.vtt"
+            "track": "../000.vtt"
         }
     ],
     "link": [
