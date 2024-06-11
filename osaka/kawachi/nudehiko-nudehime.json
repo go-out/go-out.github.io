@@ -1,0 +1,47 @@
+{
+    "title": "鐸比古鐸比賣神社 ぬでひこ ぬでひめ じんじゃ",
+    "description": "高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "spot": "?id=osaka&area=kawachi&name=nudehiko-nudehime",
+    "style": "legacy",
+    "info": {
+        "title": "Nudehiko Nudehime Jinja ⛩ Kashiwara Osaka, Japan",
+        "address": "大阪府柏原市大県４丁目６−１",
+        "google": "https://maps.app.goo.gl/LnedKPD52urGvTD68",
+        "text": [
+            "生駒山地の最南端付近にある「<ruby>高尾山<rp>（</rp><rt>たかおやま</rt><rp>）</rp></ruby>」をご神体、神奈備とする神社",
+            "創建は<ruby>151年<rp>（</rp><rt>成務天皇二十一年</rt><rp>）</rp></ruby>とされるが、実際の年代は不明",
+            "神社に祀られる<ruby>祭神<rp>（</rp><rt>さいじん</rt><rp>）</rp></ruby>「<ruby>鐸比古<rp>（</rp><rt>ぬでひこ</rt><rp>）</rp></ruby>・<ruby>鐸比賣<rp>（</rp><rt>ぬでひめ</rt><rp>）</rp></ruby>」は、いずれも記紀（日本神話・古事記）などの資料に登場しない詳細不明の神",
+            "<small>元々は鐸比古・鐸比賣それぞれ別々の神社で高尾山の山頂に祀られていたが、中世に現在の地へ遷る</small>",
+            "",
+            "<b>高尾山創造の森</b>",
+            "鐸比古鐸比賣神社のある高尾山の山麓から山頂付近にかけて、約27万平方メートルの一帯が整備され、<ruby>1998年<rp>（</rp><rt>平成十年</rt><rp>）</rp></ruby>に大阪府民が参加しながら森作りを行う「高尾山創造の森（府民参加の森）」が完成",
+            "高尾山の山頂には、かつて神が住まわれたとされる場所を示す祠・社のほか、巨大な岩場・巨岩など、古神道における岩に対する信仰「<ruby>磐座<rp>（</rp><rt>いわくら</rt><rp>）</rp></ruby>」の跡が残っている",
+            "",
+            "<u>七月三十・三十一日</u><br><b>大県神社夏祭り</b><br>三十日 宵宮 午後八時より布団太鼓の階段下り<br>三十一日 夕方より神輿渡御・午後九時までに階段上り<br>",
+            "<u>毎年九月中旬 土日</u><br><b>法善寺夏まつり</b><br>",
+            "<u>アクセス</u><br>JR大和路線「柏原」から徒歩約20分<br>JR大和路線 各停 天王寺から約20分<br>",
+            "<u>最寄りのレンタサイクル</u><br>柏原駅東自転車・柏原駅西口第２駐輪場<br><small>営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）</small>",
+            "<small>※ 御朱印は、柏原駅の西側にある「柏原黒田神社」で頂けます。</small>"
+        ]
+    },
+    "links": [
+        "<a href='http://www.city.kashiwara.osaka.jp/_files/00037716/c5r.pdf' target='_blank'>ぬでひこぬでひめじんじゃ - ①鐸比古鐸比売神社</a>",
+        "<a href='http://www.city.kashiwara.osaka.jp/docs/2020110200013/' target='_blank'>身近な憩いの場「高尾山創造の森」</a>",
+        "<a href='https://maps.app.goo.gl/Px915warcv8kyWDh9' target='_blank'>柏原黒田神社 - Google マップ</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNrN2-0wmx6UKQYQ7b8vlQt2f0YCZ0gi8kak1Kx=w575-h325-p-k-no",
+            "src": [
+                "ggs/AF1QipNrN2-0wmx6UKQYQ7b8vlQt2f0YCZ0gi8kak1Kx=m18"
+            ]
+        }
+    ]
+}

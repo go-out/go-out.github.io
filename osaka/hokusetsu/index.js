@@ -31,7 +31,8 @@ const osakaHokusetsu = {
             'properties': {
                 'title': '新屋坐天照御魂神社',
                 'address': '神・自然・人の共生 心身再生の神をまつる',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=hokusetsu&name=niiyajinja',
                 'zoom': 15.5
             }
         },
@@ -63,21 +64,6 @@ const osakaHokusetsu = {
                 'address': '伊丹空港へ着陸する飛行機が間近に見える魅力スポット、飛行機撮影の聖地',
                 'date': '',
                 'zoom': 15.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'area': 'hokusetsu',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47673994618629, 34.77027482703227]
-            },
-            'properties': {
-                'title': 'さわ病院',
-                'address': '',
-                'date': '',
-                'zoom': 16.5
             }
         },
         {
@@ -162,7 +148,8 @@ const osakaHokusetsu = {
             'properties': {
                 'title': '若山神社',
                 'address': '自然環境保全地域となっている千年以上の森の中にある神社',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=hokusetsu&name=wakayamajinja',
                 'zoom': 17
             }
         }

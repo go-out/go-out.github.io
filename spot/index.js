@@ -22,10 +22,12 @@ function playThis(obj) {
     const description = document.querySelector("meta[name='description']")
     description.content = obj.description;
 
-    const link = document.createElement('link')
-    link.href = 'css/' + obj.style + '.css?d=' + new Date()
-    link.setAttribute('rel', 'stylesheet')
-    document.head.appendChild(link)
+    if (obj.style) {
+        const link = document.createElement('link')
+        link.href = 'css/' + obj.style + '.css?d=' + new Date()
+        link.setAttribute('rel', 'stylesheet')
+        document.head.appendChild(link)
+    }
 
     const year = document.querySelector("#year")
     if (obj.year) {

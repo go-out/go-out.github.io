@@ -215,7 +215,8 @@ const osakaIndex = {
             'properties': {
                 'title': '高津宮',
                 'address': '大阪市歌の一番で歌われる、由緒あるお宮<br>「高津の宮の昔より、よよの栄を重ねきて、民のかまどに立つ煙」',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=kouzu',
                 'youtube': 'oYLY36voXiw',
                 'iconSize': ['osaka/chuo/icon/chuo.png', '3.5rem', '3.5rem'],
                 'zoom': 17.5

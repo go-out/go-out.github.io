@@ -1,7 +1,7 @@
 {
   "title": "ゆぽぽ大運橋温泉",
   "description": "営業時間 14:00~23:00 | 定休日 木曜日（祝日の場合も休み）",
-  "url": "spot/?id=osaka&area=bayarea&name=yupopo",
+  "spot": "?id=osaka&area=bayarea&name=yupopo",
   "style": "relax",
   "info": {
     "title": "Yupopo 🇯🇵 Osaka, Japan",

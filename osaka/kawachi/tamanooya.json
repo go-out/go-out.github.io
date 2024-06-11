@@ -1,0 +1,41 @@
+{
+    "title": "玉祖神社 たまのおやじんじゃ",
+    "description": "山口県周防国の「玉祖神社」本社から分霊された神社",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "spot": "?id=osaka&area=kawachi&name=tamanooya",
+    "style": "legacy",
+    "info": {
+        "title": "Tamanooya Jinja ⛩ Yao Osaka, Japan",
+        "address": "大阪府八尾市神立５丁目５−９３",
+        "google": "https://maps.app.goo.gl/ZFWsMC3w7ymTkYzP6",
+        "text": [
+            "生駒山系である高安山の山腹に鎮座する、山口県防府市の元社から分霊された神社",
+            "<small>境内で飼育さてれいる国指定の天然記念物「<ruby>長鳴鶏<rp>（</rp><rt>ながなきどり</rt><rp>）</rp></ruby>」は、山口県周防国の「玉祖神社」本社に伝わる国指定天然記念物「黒柏鶏」の子孫</small>",
+            "",
+            "社頭から一望する大阪平野は絶景（参道の石段の脇に生えるご神木「玉祖神社のくす」は、大阪府天然記念物・八尾市保全樹木）",
+            "山頂まで続く背後の<ruby>樹叢<rp>（</rp><rt>じゅそう</rt><rp>）</rp></ruby>（植生によらない、自生した樹木が密生している林地）の森には、岩に対する信仰の依り代「<ruby>磐座<rp>（</rp><rt>いわくら</rt><rp>）</rp></ruby>」が座しているらしいが、神聖な場所であるため詳細な場所は公にされていない",
+            "",
+            "<u>アクセス</u><br>近鉄信貴線「服部川」から徒歩約30分<br>近鉄 大阪難波から約30分"
+        ]
+    },
+    "links": [
+        "<a href='https://www.kawati-tamanooya.net/' target='_blank'>河内国（大阪府八尾市）玉祖神社</a>",
+        "<a href='http://www.yaomania.jp/data/InfoDetail.asp?id=1442' target='_blank'>たまのおやじんじゃ 玉祖神社</a>",
+        "<a href='https://www.satodukuri.jp/posts/32373615?categoryIds=4893511' target='_blank'>vol. 6 玉祖神社　宮司さん | 八尾廃校SATODUKURI BASE</a>",
+        "<a href='https://yao.goguynet.jp/2019/09/09/takiginou/' target='_blank'>秋といえば…今年も玉祖神社で高安薪能</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3=w575-h325-p-k-no",
+            "src": [
+                "ggs/AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3=m18"
+            ]
+        }
+    ]
+}

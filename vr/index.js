@@ -154,22 +154,6 @@ function videoAll(obj) {
         }
     }
 
-    if (obj.vr) {
-        const vr = document.createElement('iframe')
-        vr.id = "vr";
-        vr.src = obj.vr;
-        vr.style.height = `calc(100vw * ${obj.height})`;
-        vr.style.maxWidth = `calc(95vh / ${obj.height})`;
-        vr.setAttribute('allowfullscreen', '')
-        vr.setAttribute('loading', 'lazy')
-        vr.setAttribute('referrerpolicy', 'no-referrer-when-downgrade')
-        main.appendChild(vr)
-
-        document.querySelector("header").addEventListener('click', function () {
-            document.querySelector("header").remove()
-        }, false)
-    }
-
     if (obj.info && !obj.markdown) {
         for (const infoP of obj.info) {
             const info = document.querySelector("#info")

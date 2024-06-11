@@ -1,0 +1,88 @@
+{
+    "title": "聖天山 しょうてんやま",
+    "description": "聖天山（しょうてんやま）古墳の墳丘（標高は14m）<br>山頂は、天下茶屋の聖天さん「正圓寺（しょうえんじ）」の境内",
+    "year": "2024",
+    "month": "1",
+    "day": "11",
+    "spot": "?id=osaka&area=minami&name=shoutenyama",
+    "style": "legacy",
+    "info": {
+        "title": "Shotenyama（Shoenji） 🇯🇵 Osaka, Japan",
+        "address": "大阪府大阪市阿倍野区松虫通３丁目２−２",
+        "google": "https://maps.app.goo.gl/DSsMiw6UeU5d3LWr7",
+        "text": [
+            "「大阪五低山」の一つ、<ruby>聖天山古墳<rp>（</rp><rt>しょうてんやまこふん</rt><rp>）</rp></ruby>の墳丘（標高14m）<br><small>聖天山の周辺は、<ruby>昭和25年<rp>（</rp><rt>1950年</rt><rp>）</rp></ruby>まで原生林のような手つかずの荒れ地だったらしい</small>",
+            "聖天山の山頂は、天下茶屋の聖天さん「<ruby>正圓寺<rp>（</rp><rt>しょうえんじ</rt><rp>）</rp></ruby>」の境内にあり、社務所で登山証明書が発行される",
+            "",
+            "正圓寺は荒々しい神の気配がする、ここだけが異世界のような雰囲気。霊験あらたか",
+            "特に、山門（正門）に背を向け左に進んだ先にある聖天山奥院はおどろおどろしい",
+            "（毎年二月・五月の一日の十四時から、奥院の<ruby>浪切不動明王<rp>（</rp><rt>なみきりふどうみょうおう</rt><rp>）</rp></ruby>の前で、柴灯護摩供養・火渡り供養が執行される）",
+            "",
+            "<u>二月一日〜十日</u><br><b>節分やくよけ星まつり祈願祭</b>",
+            "<u>五月一日</u><br><b>春季大法要大般若六百巻転読法要</b>",
+            "<u>八月十五日</u><br><b>萬燈会お経木流し法要</b>",
+            "<u>八月十六日</u><br><b>盂蘭盆施餓鬼法要</b>",
+            "",
+            "<u>アクセス</u><br>阪堺線 「北天下茶屋」から徒歩約3分、「聖天坂」から徒歩約7分<br>南海本線・高野線・Osaka Metro 堺筋線「天下茶屋」から徒歩約10分",
+            "",
+            "<small>余談:正圓寺の住職らは、寺の土地・権利にまつわる事件で複数人逮捕（2018年10月、2023年10月）された</small>",
+            "<small>隣接する敷地にある廃墟は、資金難により未成となった建設途中の老人ホーム</small>"
+        ]
+    },
+    "links": [
+        "<a href='https://shoenji.jp/' target='_blank'>聖天山正圓寺「天下茶屋の聖天さん」公式サイト</a>",
+        "<a href='https://www.yomiuri.co.jp/national/20231005-OYT1T50167/' target='_blank'>兼好ゆかりの古刹「正圓寺」僧侶ら３人、売買装い虚偽登記容疑で大阪府警逮捕 : 読売新聞</a>",
+        "<a href='https://www.yomiuri.co.jp/national/20231204-OYT1T50100/' target='_blank'>「正圓寺」乗っ取り、新たな不動産会社代表の男を詐欺容疑などで逮捕…複数のルートで寺を「食い物」にしたか : 読売新聞</a>",
+        "<a href='https://haikyo.info/s/16388.html' target='_blank'>聖天山正圓寺の未成建築 - 廃墟検索地図</a>"
+    ],
+    "width": "0.7525",
+    "height": "1",
+    "directory": "https://ia601206.us.archive.org/29/items/shoutenyama/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "shoutenyama.thumbs/000_000001.jpg",
+            "src": [
+                "000.ia.mp4",
+                "001.ia.mp4",
+                "002.ia.mp4",
+                "003.ia.mp4",
+                "004.ia.mp4",
+                "005.ia.mp4",
+                "006.ia.mp4",
+                "007.ia.mp4",
+                "008.ia.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "shoutenyama.thumbs/010_000001.jpg",
+            "src": [
+                "010.ia.mp4",
+                "011.ia.mp4",
+                "012.ia.mp4",
+                "013.ia.mp4",
+                "014.ia.mp4",
+                "015.ia.mp4",
+                "016.ia.mp4",
+                "017.ia.mp4"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "shoutenyama.thumbs/021_000020.jpg",
+            "src": [
+                "020.ia.mp4",
+                "021.ia.mp4",
+                "022.ia.mp4",
+                "023.ia.mp4",
+                "024.ia.mp4",
+                "025.ia.mp4",
+                "026.ia.mp4",
+                "027.ia.mp4",
+                "028.ia.mp4",
+                "029.ia.mp4"
+            ]
+        }
+    ]
+}

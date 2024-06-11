@@ -15,7 +15,7 @@ const osakaMinami = {
                 'title': '生國魂神社',
                 'address': '約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ 通称「いくたまさん」',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=ikutamajinja',
+                'href': 'spot/?id=osaka&area=minami&name=ikutamajinja',
                 'zoom': 16.5
             }
         },
@@ -41,7 +41,7 @@ const osakaMinami = {
                 'title': '四天王寺',
                 'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=shitennoji',
+                'href': 'spot/?id=osaka&area=minami&name=shitennoji',
                 'youtube': 'oIKZdbq4isU',
                 'zoom': 16
             }
@@ -125,7 +125,7 @@ const osakaMinami = {
                 'title': '難波八阪神社',
                 'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=nambayasaka',
+                'href': 'spot/?id=osaka&area=minami&name=nambayasaka',
                 'youtube': 'OO_7X8aM9BQ',
                 'zoom': 17.5
             }
@@ -159,7 +159,7 @@ const osakaMinami = {
                 'title': '聖天山',
                 'address': '聖天山（しょうてんやま）古墳の墳丘。標高は14m。<br>山頂は、天下茶屋の聖天さん「正圓寺（しょうえんじ）」の境内。',
                 'date': 'more info',
-                'href': 'relax/?id=legacy&area=osaka&name=shoutenyama',
+                'href': 'spot/?id=osaka&area=minami&name=shoutenyama',
                 'youtube': 'KbfZTxipYFQ',
                 'zoom': 16.5,
             }
@@ -182,7 +182,7 @@ const osakaMinami = {
                 'title': '天神ノ森天満宮',
                 'address': '樹齢七百年ともいわれる楠木の大樹が境内に生い茂る、神聖な空気が漂う小さな天満宮',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=tenjinnomori',
+                'href': 'spot/?id=osaka&area=minami&name=tenjinnomori',
                 'youtube': 'dZRBkoIMVg0',
                 'zoom': 18
             }
@@ -213,10 +213,10 @@ const osakaMinami = {
                 'coordinates': [135.49956152262018, 34.62833854382005]
             },
             'properties': {
-                'title': '阿倍野神社',
+                'title': '阿部野神社',
                 'address': '境内にあるお茶室「中今亭庭園」とそのお庭は、毎月第1・第3日曜日に限定公開',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=abenojinja',
+                'href': 'spot/?id=osaka&area=minami&name=abenojinja',
                 'youtube': 'Ctf_xTeaNFM',
                 'zoom': 17.5
             }
@@ -233,7 +233,7 @@ const osakaMinami = {
                 'title': '阿倍王子神社・安倍晴明神社',
                 'address': '大阪府下に唯一現存する熊野権現の王子社',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=abeouji',
+                'href': 'spot/?id=osaka&area=minami&name=abeouji',
                 'zoom': 16.5
             }
         },

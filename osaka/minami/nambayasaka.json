@@ -1,0 +1,64 @@
+{
+    "title": "難波八阪神社 なんばやさかじんじゃ",
+    "description": "大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神",
+    "year": "2024",
+    "month": "1",
+    "day": "21",
+    "spot": "?id=osaka&area=minami&name=nambayasaka",
+    "style": "legacy",
+    "info": {
+        "title": "Nambayasaka Shrine 🇯🇵 Osaka, Japan",
+        "address": "大阪府大阪市浪速区元町２丁目９−１９",
+        "google": "https://maps.app.goo.gl/HWeDDZYxWiMNCbYE7",
+        "text": [
+            "大きな獅子の頭の形をした舞台「<ruby>獅子殿<rp>（</rp><rt>ししでん</rt><rp>）</rp></ruby>」で知られる難波一帯の産土神",
+            "",
+            "<u>主な祭事</u>",
+            "<u>一月第三日曜日</u><br><b><a href='/map/date/tsunahiki-shingi/'>綱引神事</a></b> <small>※ 大阪市指定 無形民俗文化財</small>",
+            "<u>二月節分日</u><br><b>節分祭</b>",
+            "<u>四月第二日曜日</u><br><b>春の大祭</b>",
+            "<u>七月十三・十四日</u><br><b>夏祭・船渡御</b>",
+            "<u>十月十四日</u><br><b>秋の大祭</b>",
+            "",
+            "<u>アクセス</u><br>Osaka Metro・南海「難波」から徒歩約6分<br>Osaka Metro 御堂筋線・四つ橋線「大国町」から徒歩約7分"
+        ]
+    },
+    "links": [
+        "<a href='https://nambayasaka.jp/' target='_blank'>難波八阪神社公式ホームページ</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNDosgACOhJk7vQh4XeSopU6hWmLqBekQdKL3tQ=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNDosgACOhJk7vQh4XeSopU6hWmLqBekQdKL3tQ=m18",
+                "ggms/AF1QipNIZJsM7yF6ifxv2-sXSCnSXz9w-pq4ScXvEjZj=m18",
+                "ggms/AF1QipPwrKB1P3OQ0TfFL7NUMt7GdkS88JuIRfKv3w4G=m18",
+                "ggms/AF1QipMd25SRRfkvGWa828yG2KEIAXlqz94CWWpb9C_i=m18",
+                "ggms/AF1QipPAj1jP52KUQ82Hq8GsxjuYhZ00UAnRT7XqHxnL=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipN1aWKKLbIq048is0yQ6zm9rn_TCnAMCU7WJXZD=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipN1aWKKLbIq048is0yQ6zm9rn_TCnAMCU7WJXZD=m18",
+                "ggms/AF1QipMHHe5t0FtwsXKRqZTTatnntBxlv46-4j4vaSwb=m18",
+                "ggms/AF1QipOIcqlNpx_kLdpTzFrk2X0GFeRD8GWiVCgdbjUu=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipMYenYR9eiTKN80xSulnzg7CvWssXiR8Ck6R2D1=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMYenYR9eiTKN80xSulnzg7CvWssXiR8Ck6R2D1=m18",
+                "ggms/AF1QipO8iEbBFmWpHPk99Ww46B5WnE8BBlbxagGgbNj5=m18",
+                "ggms/AF1QipN6tc6Pe04Smye58djF9qhz6W5XChp0YAPe3Tsn=m18",
+                "ggms/AF1QipNvYruDEHIphB-mhhLSoyQivQ9R6yE12Tv1QKMC=m18"
+            ]
+        }
+    ]
+}

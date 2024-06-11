@@ -15,7 +15,7 @@ const osakaChuo = {
                 'title': '高津公園',
                 'address': '「高津宮」に隣接する公園 公園内の梅林は、中央区の花「梅」の名所',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=kouzu',
+                'href': 'date/kouzugu/',
                 'zoom': 17.5
             }
         },

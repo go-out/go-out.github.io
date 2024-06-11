@@ -1,7 +1,7 @@
 {
     "title": "リバーサイドスパ",
     "description": "営業時間 6:00~24:00（金土日祝 25:00）| 通常料金 ￥2,000+入湯税（￥150）",
-    "url": "spot/?id=osaka&area=bayarea&name=riverside-spa",
+    "spot": "?id=osaka&area=bayarea&name=riverside-spa",
     "style": "relax",
     "info": {
         "title": "RIVERSIDE SPA 🇯🇵 Osaka, Japan",
