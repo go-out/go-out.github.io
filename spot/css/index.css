@@ -21,22 +21,22 @@ fieldset button {
 
 @font-face {
     font-family: "Kristina";
-    src: url("../../date/css/fonts/Kristina-Bold.otf") format("opentype"),
-        url("../../date/css/fonts/Kristina-Fine.otf") format("opentype");
+    src: url("../../profile/css/fonts/Kristina-Bold.otf") format("opentype"),
+        url("../../profile/css/fonts/Kristina-Fine.otf") format("opentype");
 }
 
 @font-face {
     font-family: "DiaPro";
-    src: url("../../date/css/fonts/DiaPro-Regular.eot") format("embedded-opentype"),
-        url("../../date/css/fonts/DiaPro-Regular.otf") format("opentype"),
-        url("../../date/css/fonts/DiaPro-Regular.woff") format("woff");
+    src: url("../../profile/css/fonts/DiaPro-Regular.eot") format("embedded-opentype"),
+        url("../../profile/css/fonts/DiaPro-Regular.otf") format("opentype"),
+        url("../../profile/css/fonts/DiaPro-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: "Kikai";
-    src: url("../../date/css/fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
-        url("../../date/css/fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
-        url("../../date/css/fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
+    src: url("../../profile/css/fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
+        url("../../profile/css/fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
+        url("../../profile/css/fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
 }
 
 #title a,
