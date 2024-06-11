@@ -15,15 +15,15 @@ header h2 {
 
 @font-face {
     font-family: "Kristina";
-    src: url("../date/css/fonts/Kristina-Bold.otf") format("opentype"),
-        url("../date/css/fonts/Kristina-Fine.otf") format("opentype");
+    src: url("../profile/css/fonts/Kristina-Bold.otf") format("opentype"),
+        url("../profile/css/fonts/Kristina-Fine.otf") format("opentype");
 }
 
 @font-face {
     font-family: "KikaiChokoku";
-    src: url("../date/css/fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
-        url("../date/css/fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
-        url("../date/css/fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
+    src: url("../profile/css/fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
+        url("../profile/css/fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
+        url("../profile/css/fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
 }
 
 header,
