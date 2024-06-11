@@ -221,7 +221,7 @@ main {
 
 footer button {
     background: transparent;
-    background-image: url(../../profile/img/mobile.png);
+    background-image: url(../img/mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

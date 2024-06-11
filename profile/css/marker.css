@@ -17,26 +17,26 @@
 }
 
 .mapboxgl-marker.bicycle {
-    background-image: url(../../profile/img/bicycle.png);
+    background-image: url(../img/bicycle.png);
     width: 3.33rem;
     height: 3.33rem;
 }
 
 .mapboxgl-marker.hello {
-    background-image: url(../../profile/img/hello.jpg);
+    background-image: url(../img/hello.jpg);
     border-radius: 50%;
     width: 2.22rem;
     height: 2.22rem;
 }
 
 .mapboxgl-marker.yu {
-    background-image: url(../../profile/img/1010.png);
+    background-image: url(../img/1010.png);
     width: 2.5rem;
     height: 2.5rem;
 }
 
 .mapboxgl-marker.onsen {
-    background-image: url(../../profile/img/onsen.png);
+    background-image: url(../img/onsen.png);
     width: 2.22rem;
     height: 2.22rem;
 }
