@@ -1,0 +1,11 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:01.000 --> 00:00:11.000 size:75%
+胴に矢を刺し、<ruby>素盞鳴尊<rt> すさのおのみこと </rt></ruby>が
+<ruby>八岐大蛇<rt> やまたのおろち </rt></ruby>を退治した様子に

@@ -1,0 +1,40 @@
+{
+    "title": "飯盛山 ハイキングコース",
+    "description": "野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社",
+    "url": "relax/?id=legacy&area=osaka&name=iimoriyama",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "info": {
+        "title": "Iimoriyama Hike ⛰ Shijonawate ~ Daito Osaka, Japan",
+        "address": "四條畷市 ~ 大東市",
+        "google": "https://maps.app.goo.gl/Qsczia8cxTxsBQgp8",
+        "text": [
+            "生駒山地の北端「飯盛山」の山麓、「四條畷神社」と「野崎観音」間",
+            "<small>ハイキングコース「野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社」（所要時間約3時間）</small>",
+            "",
+            "<u>野崎観音</u> JR東西線・学研都市線「野崎」から徒歩約5分",
+            "<u>四條畷神社</u> JR東西線・学研都市線「四條畷」から徒歩約10分"
+        ]
+    },
+    "links": [
+        "<a href='https://www.nozakikannon.or.jp/' target='_blank'>野崎観音｜慈眼寺</a>",
+        "<a href='https://www.nozakikannon.or.jp/hiking/' target='_blank'>野崎観音周辺のハイキングコース</a>",
+        "<a href='https://www.shijonawatejinja.or.jp/' target='_blank'>四條畷神社</a>",
+        "<a href='https://www.city.daito.lg.jp/site/iju/2045.html' target='_blank'>飯盛山ハイキングコース - 大東市ホームページ</a>",
+        "<a href='https://www.city.shijonawate.lg.jp/site/mottoshijonawate/6927.html' target='_blank'>四條畷の名所をめぐる　飯盛山ハイキング</a>",
+        "<a href='https://www.pref.osaka.lg.jp/attach/217/00022817/06iimori.pdf' target='_blank'>飯盛山・野崎観音コース - 地図使用承認C昭文社第07W046号</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipOR66IqvVOqJxkJf-E3dk6Szrso4rge3bKj6fzH",
+            "src": [
+                "AF1QipOR66IqvVOqJxkJf-E3dk6Szrso4rge3bKj6fzH=m18"
+            ]
+        }
+    ]
+}

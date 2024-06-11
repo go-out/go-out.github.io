@@ -1,0 +1,10 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:03.500 --> 00:00:17.500 line:50%
+<ruby>福はうち <rt>Fuku-wa-Uchi </rt></ruby>

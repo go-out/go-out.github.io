@@ -1,0 +1,21 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "url": "temmangu/",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "鎮花祭 🇯🇵 Chinka Festival",
+            "url": "../temmangu/#chinka",
+            "target": "_self"
+        }
+    ]
+}

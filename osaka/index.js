@@ -71,11 +71,7 @@ const osakaIndex = {
                 },
                 {
                     'month': 10,
-                    'text': '10月中旬~11月上旬、北区の花が咲き誇る「バラ園」が秋の見頃を迎える'
-                },
-                {
-                    'month': 11,
-                    'text': '10月中旬~11月上旬、北区の花が咲き誇る「バラ園」が秋の見頃を迎える'
+                    'text': '10月中旬~下旬、北区の花が咲き誇る「バラ園」が秋の見頃を迎える'
                 }
             ],
             'geometry': {
@@ -247,15 +243,11 @@ const osakaIndex = {
             'feature': [
                 {
                     'month': 5,
-                    'text': '5月上旬から6月上旬、「バラ園」が春の見頃を迎える'
-                },
-                {
-                    'month': 6,
-                    'text': '5月上旬から6月上旬、「バラ園」が春の見頃を迎える'
+                    'text': '5月上旬~下旬、「バラ園」が春の見頃を迎える'
                 },
                 {
                     'month': 10,
-                    'text': '10月上旬から10月下旬、「バラ園」が秋の見頃を迎える'
+                    'text': '10月上旬~下旬、「バラ園」が秋の見頃を迎える'
                 }
             ],
             'geometry': {
@@ -381,7 +373,7 @@ const osakaIndex = {
                 'address': '',
                 'date': 'More Info',
                 'href': 'park/?area=osaka&name=tengachaya',
-                'iconSize': ['date/img/mobile.png', '4rem', '4rem'],
+                'iconSize': ['profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 17.5
             }
         },
@@ -610,10 +602,6 @@ const osakaIndex = {
             'tags': 'spot',
             'area': 'sumiyoshi',
             'feature': [
-                {
-                    'month': 7,
-                    'text': '7月下旬、平野区の花「わたの花」が隣接する「区民わた畑」で開花する'
-                },
                 {
                     'month': 8,
                     'text': '8月上旬~下旬、平野区の花「わたの花」が隣接する「区民わた畑」で見頃を迎える'

@@ -1,0 +1,11 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:04.000 --> 00:00:17.000
+石舞台の前には、
+正午過ぎから集まったたくさんの人

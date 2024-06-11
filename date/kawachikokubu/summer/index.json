@@ -1,0 +1,29 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "u": "夏祭り 🇯🇵 国分神社",
+    "strong": "Kokubu Summer Festival",
+    "readme": "summer/README.md",
+    "url": "kawachikokubu/?id=summer&date=2024",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "河内音頭 国分会 | Facebook",
+            "url": "https://www.facebook.com/kawachiond/",
+            "target": "_blank"
+        },
+        {
+            "text": "河内かしわら/国分ふれあい祭り実行委員会 | Facebook",
+            "url": "https://www.facebook.com/fureaimatsuri/",
+            "target": "_blank"
+        }
+    ]
+}

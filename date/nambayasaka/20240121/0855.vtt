@@ -1,0 +1,16 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:00.750 --> 00:00:12.250 line:10% position:95%
+午
+前
+九
+時
+
+00:00:05.750 --> 00:00:12.250
+「<ruby>八岐大蛇<rt> やまたのおろち </rt></ruby>」形の綱作り開始

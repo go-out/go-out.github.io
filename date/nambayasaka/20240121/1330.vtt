@@ -1,0 +1,10 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:05.200 --> 00:00:14.800 size:75%
+出来上がった<ruby>八岐大蛇<rt> やまたのおろち </rt></ruby>を地車の上へ

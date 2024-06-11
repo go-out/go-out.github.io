@@ -1,0 +1,76 @@
+{
+    "date": "とみながりゅう なにわかぐら",
+    "url": "naniwa-kagura/",
+    "youtube": "7dAYI5I4YtU",
+    "directory": "https://archive.org/download/naniwa-kagura/",
+    "cover": "naniwa-kagura.thumbs/kochoazuma_000237.jpg",
+    "video": [
+        {
+            "title": "浦安の舞 Urayasu no Mai",
+            "src": "urayasu-no-mai.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "豊栄舞 Toyosaka no Mai",
+            "src": "toyosaka-no-mai.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "紅わらべ Beni Warabe",
+            "src": "beniwarabe.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "胡蝶吾妻 Kocho Azuma",
+            "src": "kochoazuma.ia.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "令和六年 🇯🇵 神楽祭 ⛩️ 佐備神社",
+            "url": "../naniwa-kagura/#2024",
+            "target": "_self"
+        },
+        {
+            "text": "冨永流浪速神楽",
+            "url": "https://sabijinja.site/%E7%A5%9E%E5%89%8D%E7%A5%9E%E6%A5%BD",
+            "target": "_blank"
+        },
+        {
+            "text": "神楽のお稽古",
+            "url": "https://sabijinja.site/%e6%b5%aa%e9%80%9f%e7%a5%9e%e6%a5%bd%e3%81%ae%e6%8c%87%e5%b0%8e",
+            "target": "_blank"
+        },
+        {
+            "text": "神楽いろいろ",
+            "url": "https://sabijinja.site/archives/350",
+            "target": "_blank"
+        },
+        {
+            "text": "浪速神楽 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%B5%AA%E9%80%9F%E7%A5%9E%E6%A5%BD",
+            "target": "_blank"
+        },
+        {
+            "text": "神楽 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E6%A5%BD",
+            "target": "_blank"
+        },
+        {
+            "text": "巫女舞 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E5%B7%AB%E5%A5%B3%E8%88%9E",
+            "target": "_blank"
+        },
+        {
+            "text": "浦安の舞 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%B5%A6%E5%AE%89%E3%81%AE%E8%88%9E",
+            "target": "_blank"
+        },
+        {
+            "text": "近代に作られた神楽 - Wikisource",
+            "url": "https://ja.wikisource.org/wiki/%E8%BF%91%E4%BB%A3%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%9F%E7%A5%9E%E6%A5%BD",
+            "target": "_blank"
+        }
+    ]
+}

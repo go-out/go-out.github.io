@@ -1,0 +1,21 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "url": "1000-mairi/",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "リンク",
+            "url": "___",
+            "target": "_self"
+        }
+    ]
+}

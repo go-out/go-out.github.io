@@ -1,0 +1,39 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "u": "四天王寺 🇯🇵 聖霊会",
+    "strong": "<small>Shouryoue Bugaku</small><br>聖霊会の舞楽",
+    "url": "shitennoji/#shoryue",
+    "readme": "shoryue/README.md",
+    "youtube": "___",
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": "p/AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD=w1280-h720-k-no",
+    "video": [
+        {
+            "title": "とんど焼き",
+            "src": "ggms/AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD=m18",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "四天王寺 🇯🇵 Shitennouji",
+            "url": "../../legacy/?area=osaka&name=shitennoji",
+            "target": "_self"
+        },
+        {
+            "text": "4月22日 12時30分～ 聖霊会",
+            "url": "https://www.shitennoji.or.jp/%E8%81%96%E9%9C%8A%E4%BC%9A%E8%88%9E%E6%A5%BD%E5%A4%A7%E6%B3%95%E8%A6%81/",
+            "target": "_blank"
+        },
+        {
+            "text": "聖霊会の舞楽｜文化遺産データベース",
+            "url": "https://bunka.nii.ac.jp/db/heritages/detail/136637",
+            "target": "_blank"
+        },
+        {
+            "text": "聖霊会の舞楽｜文化デジタルライブラリー",
+            "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc27/genre/toraigei-butaigei/bugaku/arts09.html",
+            "target": "_blank"
+        }
+    ]
+}

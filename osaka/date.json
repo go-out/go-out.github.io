@@ -161,6 +161,12 @@
             "en": "June",
             "events": [
                 {
+                    "area": "chuo",
+                    "title": "菖蒲神事 Shoubu (Iris flower) Shinji",
+                    "venue": "難波神社 Namba Jinja",
+                    "date": "六月八日 June 8th 午前十一時"
+                },
+                {
                     "area": "sumiyoshi",
                     "title": "御田植神事 Otaue Shinji (Sacred Rice Planting)",
                     "venue": "住吉大社 第一本宮~御田 Sumiyoshi Taisha",
@@ -405,6 +411,12 @@
                     "title": "御火焚の饗神事（大阪府無形民俗文化財）",
                     "venue": "海老江八坂神社 Ebie-Yasaka Jinja",
                     "date": "十二月十五日 December 15th 日没から"
+                },
+                {
+                    "area": "kita",
+                    "title": "終天神 献湯大祭",
+                    "venue": "大阪天満宮 Osaka Temmangu",
+                    "date": "十二月二十五日 December 25th 10AM~"
                 }
             ]
         }

@@ -1,0 +1,61 @@
+{
+    "date": "こうづぐう",
+    "url": "kouzugu/",
+    "youtube": "___",
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": "p/AF1QipM0cPNglSyKQn2XBJCkeeHN4V8LKhKN8CYNPEPu=w575-h325-p-k-no",
+    "video": [
+        {
+            "title": "高津宮",
+            "src": "ggms/AF1QipM0cPNglSyKQn2XBJCkeeHN4V8LKhKN8CYNPEPu=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "本殿",
+            "src": "ggms/AF1QipMC8yizR3i5P3dxZHKkva2IQ4fE2_1YrgBY75Qu=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "高津の富亭 神輿庫",
+            "src": "ggms/AF1QipPLyCjL5w7hFjchnzNiRdJx5wFdIdIJZJQMXxpr=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "大阪市歌の碑 絵馬殿 ",
+            "src": "ggms/AF1QipPUHXebZkdEmqiikXWNdkrt-izfksbwv9aqtNKk=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "高津公園",
+            "src": "ggms/AF1QipODTQEF4bX-kB4I0kmIHPIpDTtiSsGq7HNneftC=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "招魂碑",
+            "src": "ggms/AF1QipOADUSMTwQ-0KVXnv2uUwRIysH8ltHG_BQoi8o7=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "高津梅林",
+            "src": "ggms/AF1QipPJsMz3kFIIXIv4ze3m13b399nKEokSjRfGXfsp=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "大神 陰陽石",
+            "src": "ggms/AF1QipPlBhaBuJnsSCg87SLYEzV9eA1D5X7IjAH1cF54=m18",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "高津宮 ⛩️ Kouzugu",
+            "url": "../../legacy/?area=osaka&name=kouzu",
+            "target": "_self"
+        },
+        {
+            "text": "春の奉納演舞会 🌸 Sakura Live",
+            "url": "../kouzugu/#20240407",
+            "target": "_self"
+        }
+    ]
+}

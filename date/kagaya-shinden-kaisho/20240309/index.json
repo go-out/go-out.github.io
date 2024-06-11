@@ -1,0 +1,46 @@
+{
+    "date": "2024.3.9 (Sat)",
+    "url": "kagaya-shinden-kaisho/",
+    "youtube": "zAZUC1x1-H0",
+    "directory": "https://ia801201.us.archive.org/25/items/kagayaryokuchi/",
+    "cover": "kagayaryokuchi.thumbs/20240309/002_000054.jpg",
+    "video": [
+        {
+            "title": "古見堂〜玄関",
+            "src": "20240309/001.ia.mp4",
+            "track": "20240309/001.vtt"
+        },
+        {
+            "title": "東池・飛び石",
+            "src": "20240309/002.ia.mp4",
+            "track": "20240309/002.vtt"
+        },
+        {
+            "title": "西池・木橋",
+            "src": "20240309/003.ia.mp4",
+            "track": "20240309/003.vtt"
+        },
+        {
+            "title": "明霞亭・偶然亭・鳳鳴亭",
+            "src": "20240309/004.ia.mp4",
+            "track": "20240309/004.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "加賀屋新田会所跡 Kagaya Shinden Kaisho Garden",
+            "url": "../../park/?area=osaka&name=kagayaryokuchi",
+            "target": "_self"
+        },
+        {
+            "text": "加賀屋緑地 大阪市指定文化財 加賀屋新田会所跡",
+            "url": "https://www.city.osaka.lg.jp/suminoe/cmsfiles/contents/0000547/547432/2203.pdf",
+            "target": "_blank"
+        },
+        {
+            "text": "加賀屋新田会所庭園 ― 大阪市指定文化財…大阪市住之江区の庭園。 | 庭園情報メディア【おにわさん】",
+            "url": "https://oniwa.garden/kagaya-shinden-kaisho/",
+            "target": "_blank"
+        }
+    ]
+}

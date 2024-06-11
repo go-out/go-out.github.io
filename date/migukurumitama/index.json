@@ -1,0 +1,47 @@
+{
+    "date": "2024.4.4 (Wed)",
+    "readme": "README.md",
+    "url": "migukurumitama/",
+    "youtube": "KDmLabOMiF8",
+    "directory": "https://archive.org/download/migukurumitama/",
+    "cover": "migukurumitama.thumbs/20240404/003_000089.jpg",
+    "video": [
+        {
+            "title": "美具久留御魂神社",
+            "src": "20240404/001.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "涙だれの梅庭園",
+            "src": "20240404/002.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "一ノ宮参拝道",
+            "src": "20240404/003.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "支子稲荷神社",
+            "src": "20240404/004.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "地蔵尊 嘉喜門院御廟所",
+            "src": "20240404/005.ia.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "美具久留御魂神社 ⛩️ Migukurumitama Jinja",
+            "url": "../../legacy/?area=osaka&name=migukurumitama",
+            "target": "_self"
+        },
+        {
+            "text": "境内案内 | 美具久留御魂神社",
+            "url": "https://www.migukurumitama.com/%E5%A2%83%E5%86%85%E6%A1%88%E5%86%85/",
+            "target": "_blank"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:05.000 --> 00:00:15.500
+きなこ餅の振る舞いは、先着１０００個

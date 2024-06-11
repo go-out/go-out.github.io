@@ -1,0 +1,10 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:02:00.000 --> 00:02:10.000
+← 阪急宝塚本線「三国駅」

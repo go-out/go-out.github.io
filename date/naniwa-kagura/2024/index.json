@@ -1,0 +1,74 @@
+{
+    "date": "2024.4.4 (Thu)",
+    "u": "神楽祭 🇯🇵 佐備神社",
+    "strong": "Kagura Festival",
+    "youtube": "fEXIXYd1hbM",
+    "directory": "https://archive.org/download/naniwa-kagura/",
+    "cover": "naniwa-kagura.thumbs/2024/003_000074.jpg",
+    "url": "naniwa-kagura/#2024",
+    "readme": "2024/README.md",
+    "video": [
+        {
+            "title": "令和六年 四月四日",
+            "src": "2024/001.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "佐備神社",
+            "src": "000.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "午後二時 祭典",
+            "src": "2024/002.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "神楽殿にて",
+            "src": "2024/003.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "関西雅楽松風会",
+            "src": "2024/004.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "浪速神楽の八乙女",
+            "src": "2024/005.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "豊栄舞 とよさかのまい",
+            "src": "toyosaka-no-mai.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "紅わらべ べにわらべ",
+            "src": "beniwarabe.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "胡蝶吾妻 こちょうあずま",
+            "src": "kochoazuma.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "浦安の舞 うらやすのまい",
+            "src": "urayasu-no-mai.ia.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "浪速神楽 🇯🇵 Naniwa Kagura",
+            "url": "../naniwa-kagura/",
+            "target": "_self"
+        },
+        {
+            "text": "令和6年神楽祭のお知らせ",
+            "url": "https://sabijinja.site/archives/364",
+            "target": "_blank"
+        }
+    ]
+}

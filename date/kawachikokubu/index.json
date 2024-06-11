@@ -1,0 +1,26 @@
+{
+    "date": "Whach The Video",
+    "url": "kawachikokubu/",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "国分神社の夏祭り Kokubu Summer Festival",
+            "url": "../kawachikokubu/?id=summer",
+            "target": "_self"
+        },
+        {
+            "text": "国分ふれあい祭り Kokubu Fureai Festival",
+            "url": "../kawachikokubu/?id=fureai",
+            "target": "_self"
+        }
+    ]
+}
