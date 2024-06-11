@@ -1,6 +1,7 @@
 {
     "title": "🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹",
     "description": "【VR】ウォーキング・サイクリング・ドライブ映像 | #車窓動画 #画面分割",
+    "url": "?id=ID&area=エリア&name=名前",
     "directory": "",
     "landscape": "repeat(2, 1fr)",
     "portrait": "repeat(2, 1fr)",
@@ -21,8 +22,5 @@
             ]
         }
     ],
-    "markdown": "README.md",
-    "links": [
-        ""
-    ]
+    "markdown": "index.md"
 }

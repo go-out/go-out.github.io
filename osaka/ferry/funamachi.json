@@ -1,6 +1,7 @@
 {
     "title": "船町（ふなまち）渡船場",
     "description": "大正区鶴町（つるまち）⇄ 同区船町（たいしょうくふなまち）",
+    "url": "?id=osaka&area=ferry&name=funamachi",
     "info": [
         "木津川運河（大正区鶴町1丁目 ⇄ 同区船町1丁目）を 10 ~ 20分毎 運航",
         "岸壁間75メートル。渡船「ふなづる」「しおかぜ」が就航しています。",
@@ -9,11 +10,6 @@
         "<u>所在地</u>",
         "鶴町側 <u>大阪市大正区鶴町1丁目16‐61</u>",
         "船町側 <u>大阪市大正区船町1丁目3‐117</u>"
-    ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011260.html' target='_blank'>大阪市：7.船町（ふなまち）渡船場 （…>川・橋>渡船場）</a>",
-        "<a href='https://maps.app.goo.gl/6aug19W8ToprBCfq8' target='_blank'>船町渡船場（大正区鶴町側） - Google マップ</a>",
-        "<a href='https://maps.app.goo.gl/CBWAJVFvvzmuPhWX9' target='_blank'>船町渡船場（大正区船町側） - Google マップ</a>"
     ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(2, 1fr)",
@@ -50,6 +46,11 @@
             ]
         }
     ],
+    "youtube": "Z8Von0j_br8",
     "height": "0.55",
-    "youtube": "Z8Von0j_br8"
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011260.html' target='_blank'>大阪市：7.船町（ふなまち）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/6aug19W8ToprBCfq8' target='_blank'>船町渡船場（大正区鶴町側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/CBWAJVFvvzmuPhWX9' target='_blank'>船町渡船場（大正区船町側） - Google マップ</a>"
+    ]
 }

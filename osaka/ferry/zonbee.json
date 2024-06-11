@@ -1,6 +1,7 @@
 {
     "title": "甚兵衛（じんべえ）渡船場",
     "description": "大正区泉尾（たいしょうくいずお）⇄ 港区福崎（みなとくふくざき）",
+    "url": "?id=osaka&area=ferry&name=zonbee",
     "year": "2022",
     "month": "10",
     "day": "20",
@@ -14,11 +15,6 @@
         "福崎側 <u>大阪市港区福崎1丁目3-50</u>",
         "<u>最寄りのHELLO CYCLING</u>",
         "<a href='https://maps.app.goo.gl/dFgQiP7XdzFyKsLs6' target='_blank'>大阪ベイタワー</a> <a href='https://maps.app.goo.gl/FyM356NmJnVWw1q36' target='_blank'>べんてんひろば駐輪場</a>"
-    ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011251.html' target='_blank'>大阪市：2.甚兵衛（じんべえ）渡船場 （…>川・橋>渡船場）</a>",
-        "<a href='https://maps.app.goo.gl/P7nLoHUnYrk2t9Kf6' target='_blank'>甚兵衛渡船場（大正区泉尾側） - Google マップ</a>",
-        "<a href='https://maps.app.goo.gl/bhYCLdEyn9oHftZ79' target='_blank'>甚兵衛渡船場（港区福崎側） - Google マップ</a>"
     ],
     "directory": "https://ia601204.us.archive.org/0/items/zinbee/",
     "landscape": "repeat(1, 1fr)",
@@ -45,5 +41,10 @@
                 "107.ia.mp4"
             ]
         }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011251.html' target='_blank'>大阪市：2.甚兵衛（じんべえ）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/P7nLoHUnYrk2t9Kf6' target='_blank'>甚兵衛渡船場（大正区泉尾側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/bhYCLdEyn9oHftZ79' target='_blank'>甚兵衛渡船場（港区福崎側） - Google マップ</a>"
     ]
 }

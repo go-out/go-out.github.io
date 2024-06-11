@@ -1,0 +1,57 @@
+{
+    "title": "毛馬桜之宮公園",
+    "description": "Kema Sakuranomiya Park",
+    "href": "?id=osaka&area=kita&name=sakuranomiya",
+    "info": [
+        "大川の流れに沿ったプロムナード 全長4.2kmのリバーサイドパーク",
+        "大阪を代表する桜の名所の一つ 大川沿全域に都島区の花「サクラ」が咲き誇る",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/aiCX42yJVJWfezrR8' target='_blank'>大阪ふれあいの水辺</a> <small>誰もが利用できる自由なリバービーチ 水辺空間</small>",
+        "<a href='https://maps.app.goo.gl/BG4CrnKKFi3jD4xp9' target='_blank'>大阪アメニティパーク</a> <small>OAPタワー・帝国ホテル大阪</small>",
+        "<a href='https://maps.app.goo.gl/6XnJSjqn2p4xwp8j8' target='_blank'>櫻宮（桜宮神社）</a> <small>櫻花祭（おうかさい）は4月中旬日曜日・夏季大祭は7月20日と21日</small>",
+        "<a href='https://maps.app.goo.gl/1tVM5sJ1x5u4ovyBA' target='_blank'>櫻宮御旅所</a> <small>境内にある「渡辺綱・駒つなぎの樟」と呼ばれるクスノキの大樹は、大阪府史蹟名勝天然記念物第一号（戦災により現在枯死状態）</small>",
+        "<a href='https://maps.app.goo.gl/a4ZTPgh913B1o8Qo9' target='_blank'>都島神社</a> <small>夏季大祭は7月22日と23日・秋季大祭は10月19日と20日</small>",
+        "<a href='https://maps.app.goo.gl/BbR2T79n717UV9jh8' target='_blank'>飛翔橋</a> <small>他に例のない二重のアーチ橋（ニールセン・ローゼ桁）の歩行者専用橋</small>",
+        "",
+        "<u>レンタサイクル</u>",
+        "<a href='https://maps.app.goo.gl/pbnWCDSDTYokEe5KA' target='_blank'>グリーンフラッグ 桜ノ宮店</a><br><small>営業時間 平日5:30~24:15 土日祝7時~19時 | 利用料 1日 150円<small>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "landscape": "repeat(4, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMqpREMvFLiwkCbVTxhiF93p48nyjubsuhQ9Qc=w325-h575-p-k-no",
+            "src": [
+                "AF1QipMqpREMvFLiwkCbVTxhiF93p48nyjubsuhQ9Qc=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipMwvnS4i-YMcK79j1kssEyE4bhXZNLrHdAVVQMm=w325-h575-p-k-no",
+            "src": [
+                "AF1QipMwvnS4i-YMcK79j1kssEyE4bhXZNLrHdAVVQMm=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "AF1QipPvWGU9xjQAEIh7j2Ca_1rXrIIo7sCgZIe2-KU=w325-h575-p-k-no",
+            "src": [
+                "AF1QipPvWGU9xjQAEIh7j2Ca_1rXrIIo7sCgZIe2-KU=m18"
+            ]
+        },
+        {
+            "id": "four",
+            "poster": "AF1QipMSJPrALsKHb8wKWEHGwTAtWpiutqhFmN_eKws-=w325-h575-p-k-no",
+            "src": [
+                "AF1QipMSJPrALsKHb8wKWEHGwTAtWpiutqhFmN_eKws-=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://www.osakapark.osgf.or.jp/kema_sakuranomiya/' target='_blank'>大阪市花と緑の情報サイト : 毛馬桜之宮公園</a>",
+        "<a href='https://www.pref.osaka.lg.jp/nishiosaka/shore/shore-oriver.html' target='_blank'>大阪府／大阪ふれあいの水辺</a>"
+    ]
+}

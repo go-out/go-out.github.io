@@ -1,0 +1,36 @@
+{
+    "title": "萩之茶屋",
+    "description": "釜ヶ崎・あいりん地区",
+    "href": "?id=osaka&area=minami&name=haginochaya",
+    "info": [
+        "日本最大の日雇い労働者の街（ドヤ街） 釜ヶ崎・あいりん地区",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/aWq1SF1vCkpVGsJV6' target='_blank'>萩之茶屋中公園</a>（通称 四角公園） <small>11時・17時に炊き出し</small>",
+        "<a href='https://maps.app.goo.gl/HQ3KmFefwEXBMbov6' target='_blank'>萩之茶屋南公園</a>（通称 三角公園） <small>街頭テレビがある</small>",
+        "<a href='https://maps.app.goo.gl/Bf4TxKRa6uqhws6a9' target='_blank'>あいりんシェルター</a> <small>あいりん臨時夜間緊急避難所 今の定員は450人で、利用者は210人ほど</small>",
+        "<a href='https://maps.app.goo.gl/Rr9CETen6YYNBHDJ6' target='_blank'>あいりん総合センター</a> <small>かつての日雇い労働市場跡地</small>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipPSR7gHDPjYn4XINkRx6rMpPT_ddk78kEq0KEGI=w575-h325-p-k-no",
+            "src": [
+                "AF1QipPSR7gHDPjYn4XINkRx6rMpPT_ddk78kEq0KEGI=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipMMiMu6LVQGgQ_8w6GdPIaGBS28GxVQW1esyRqA=w575-h325-p-k-no",
+            "src": [
+                "AF1QipMMiMu6LVQGgQ_8w6GdPIaGBS28GxVQW1esyRqA=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%84%E3%82%8A%E3%82%93%E5%9C%B0%E5%8C%BA' target='_blank'>あいりん地区 - Wikipedia</a>",
+        "<a href='https://shin-imamiya-osaka.com/history/kamagasaki/' target='_blank'>釜ヶ崎の歴史 | 新今宮ワンダーランド</a>"
+    ]
+}

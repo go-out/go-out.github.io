@@ -1,6 +1,7 @@
 {
     "title": "木津川（きづがわ）渡船場",
     "description": "大正区船町（たいしょうくふなまち） ⇄ 住之江区平林北（すみのえくひらばやしきた）",
+    "url": "?id=osaka&area=ferry&name=kizugawa",
     "info": [
         "新木津川大橋の補完として、木津川（大正区船町1丁目 ⇄ 住之江区平林北1丁目）を 10 ~ 45分毎 運航",
         "岸壁間238メートル。渡船「松丸」「第二松丸」が就航しています。",
@@ -11,11 +12,6 @@
         "平林北側 <u>大阪市住之江区平林北1丁目1</u>",
         "<u>最寄りのHELLO CYCLING</u>",
         "<a href='https://maps.app.goo.gl/H4ngonKhXimYdKEM6' target='_blank'>サイクルベースあさひ北加賀屋店</a>"
-    ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011261.html' target='_blank'>大阪市：8.木津川（きづがわ）渡船場 （…>川・橋>渡船場）</a>",
-        "<a href='https://maps.app.goo.gl/gmzDvN83FqWbWcGN7' target='_blank'>木津川渡船場（大正区船町側） - Google マップ</a>",
-        "<a href='https://maps.app.goo.gl/vWnebhdgzVLJyk9c6' target='_blank'>木津川渡船場（住之江区平林北側） - Google マップ</a>"
     ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(2, 1fr)",
@@ -56,5 +52,10 @@
         }
     ],
     "height": "0.55",
-    "youtube": "JDQjc70a1T8"
+    "youtube": "JDQjc70a1T8",
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011261.html' target='_blank'>大阪市：8.木津川（きづがわ）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/gmzDvN83FqWbWcGN7' target='_blank'>木津川渡船場（大正区船町側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/vWnebhdgzVLJyk9c6' target='_blank'>木津川渡船場（住之江区平林北側） - Google マップ</a>"
+    ]
 }

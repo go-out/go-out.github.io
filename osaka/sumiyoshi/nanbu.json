@@ -1,0 +1,124 @@
+{
+    "title": "住吉区南部",
+    "description": "大阪市の最南部、大和川を隔てて堺市と隣接する住吉区の南部",
+    "href": "?id=osaka&area=sumiyoshi&name=nanbu",
+    "info": [
+        "大阪市の最南部、大和川を隔てて堺市と隣接する住吉区の南部",
+        "長居公園通沿いの小川（細江川）のせせらぎや浅香中央公園の水辺には、住吉区の花「かきつばた（杜若）」が咲く（5月中旬頃が見頃）",
+        "",
+        "個性あふれる銭湯が数多くある地域で、JR阪和線「我孫子町」近くには、大阪・関西の次世代銭湯を創造するナニワ工務店があり、御堂筋線「あびこ」駅近くには、ナニワ工務店の施工による傑作銭湯「錦温泉」「玉乃湯」があります。",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "墨江 <small><a href='https://maps.app.goo.gl/kWfis2fysnKSdajcA' target='_blank'>住吉行宮跡</a></small>",
+        "清水丘 <small><a href='https://maps.app.goo.gl/czNJSjkGfuVJqLTWA' target='_blank'>清水丘商店街</a></small>",
+        "・遠里小野 <small><a href='https://maps.app.goo.gl/YeaRHPXVphVZDg3u8' target='_blank'>開発公園</a></small>",
+        "・千躰 <small>はやし源・鳥まさ</small>",
+        "殿辻 <small><a href='https://maps.app.goo.gl/SvZxhwTsmhVrZLWXA' target='_blank'>沢ノ町駅</a></small>",
+        "沢之町 <small><a href='https://maps.app.goo.gl/bjsfHDQZX2DLiq9f7' target='_blank'>止止呂支比賣命神社（若松神社）</a></small>",
+        "南住吉 <small><a href='https://maps.app.goo.gl/37psjevtj2yZhexp8' target='_blank'>細江川のせせらぎ</a>・<a href='https://maps.app.goo.gl/MxKbT49NFBAYTQGb6' target='_blank'>沢之町公園</a></small>",
+        "山之内<small><a href='https://maps.app.goo.gl/3tYsaMdHHs9FUoEK8' target='_blank'>山之内公園</a>・<a href='https://maps.app.goo.gl/HfJowqvqsKU629Eb9' target='_blank'>ナニワ工務店</a></small>",
+        "・我孫子・我孫子西・我孫子東 <small><a href='https://maps.app.goo.gl/f31VYdY9zP5WhUPM9' target='_blank'>大聖観音寺</a></small>",
+        "・苅田 <small>あびこ駅・<a href='https://maps.app.goo.gl/WWNjvqWCgLMW1geh9' target='_blank'>錦温泉</a></small>",
+        "・杉本 <small>大阪公立大学 杉本キャンパス・<a href='https://maps.app.goo.gl/jBkbChEiHTpqsYWh9' target='_blank'>玉乃湯</a></small>",
+        "・浅香 <small><a href='https://maps.app.goo.gl/ujGpLw7GWqrbYkdp8' target='_blank'>浅香中央公園</a>・<a href='https://maps.app.goo.gl/vwN8TPpkJJJkKegx7' target='_blank'>住吉スポーツセンター</a></small>",
+        "・庭井 <small>大依羅神社</small>",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/wQSeH9pv7a86eEJ7A' target='_blank'>セブンイレブン 大阪長居東4丁目店</a><br><small>JR阪和線・Osaka Metro 御堂筋線「長居」から徒歩約5分<small>",
+        "<a href='https://maps.app.goo.gl/rHig1fyKotAg6R7YA' target='_blank'>あびこ駅前ビル</a><br><small>Osaka Metro 御堂筋線「あびこ」から徒歩すぐ<small>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(3, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "anguu",
+            "poster": "p/AF1QipO1CvJ8Rokvv07fXrskW8sri_8GrW9tgoe9HCB4=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipO1CvJ8Rokvv07fXrskW8sri_8GrW9tgoe9HCB4=m18",
+                "ggms/AF1QipMMEUQYmHTkGgW3U1T-U8DL2ZrnHzuUV15IUcwX=m18",
+                "ggms/AF1QipMphXulZK2ETDETxb5jgGa_O97OA7-2QwOHS9qM=m18",
+                "ggms/AF1QipPruDGtdLtb9STefsMC3HmH7LA9ZdQD6_Y56ZzS=m18",
+                "ggms/AF1QipOSUvP23BrEUXP7v2cEx8gi5ZFA3iUU4Jrpsr0J=m18",
+                "ggms/AF1QipNeu8otJwm6qHH-cLav7rNlb5M_yvYAjeN8dI9o=m18"
+            ]
+        },
+        {
+            "id": "sumie-sawanomachi",
+            "poster": "p/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j=m18",
+                "ggms/AF1QipOHawy_vNG3IPDUdOiJvwzKTegUf3ZdNg91nsaN=m18",
+                "ggms/AF1QipNQtahGcdP9terxdpi_gRPbHipIB1gKm9dVWbEY=m18",
+                "ggms/AF1QipNMMafjmDyKehFGkAFr8723ce6RF_rOz_wrEkkd=m18",
+                "ggms/AF1QipO0AwGq0grZG510q_wNZ2yTJiQ2bI4wJX0qIdpq=m18"
+            ]
+        },
+        {
+            "id": "simizuoka",
+            "poster": "p/AF1QipNi9wdMVMEgAScsHGjdXoeDoEuSsuoY6vfNtbEv=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNi9wdMVMEgAScsHGjdXoeDoEuSsuoY6vfNtbEv=m18",
+                "ggms/AF1QipMsuPoD4TSkPEGaxnyt_4C7VIJkNkmlzyzrNVV7=m18",
+                "ggms/AF1QipM6mnYsvIoQ7i_Dga_l65nHiCHNjqD97EhPUNFV=m18"
+            ]
+        },
+        {
+            "id": "oriono",
+            "poster": "p/AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr=m18",
+                "ggms/AF1QipP5kf-43a9epWNXDt6ei2kMYIDlt2nOBMdYIHxq=m18",
+                "ggms/AF1QipPZdscbBpMUxHw7-4WiqcsgNWzuaAm_JT8xlq9C=m18",
+                "ggms/AF1QipPm4Rkk-ZEWZLPNYnsdMt1ddwVq7vFmRF2tVF3j=m18"
+            ]
+        },
+        {
+            "id": "yamanouchi",
+            "poster": "p/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE=m18",
+                "ggms/AF1QipMdq6HWj403cNvQiiN3Q-q_XR0DtjOsAa1PJ0VJ=m18",
+                "ggms/AF1QipOXhVJtX5eD13FHmXRGFb7G1ttUGGy8LJyU-B9m=m18"
+            ]
+        },
+        {
+            "id": "minamisumiyoshi-tonotsuji",
+            "poster": "p/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMEzKQ3RW_YXtA3EnViLsz5QzAs2wlO_7gbCGAt=m18",
+                "ggms/AF1QipNZ9Rmbg6mZbxEhDBuNQ_KrspN6zOYGjXJ7UyXp=m18",
+                "ggms/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC=m18",
+                "ggms/AF1QipMKiyCj094HNYj7vOqQSmY-XIC2J3ix6rXqshzj=m18",
+                "ggms/AF1QipOmPRZc1uG2YFxQUPGiXW-cvzqS8UH5cJkxd2_W=m18"
+            ]
+        },
+        {
+            "id": "abiko",
+            "poster": "p/AF1QipMIOS4om1UYrjmJyXSJa2KWf0Wg55DBX2E7ZXqv=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNrXLl80tF5WQP5oStOvPGigeviPqdKVBB2cwa6=m18",
+                "ggms/AF1QipMKiyCj094HNYj7vOqQSmY-XIC2J3ix6rXqshzj=m18",
+                "ggms/AF1QipMmB6qoqUsnzpMnpZiyvFG5jK0-F7nMaK6XJt5m=m18",
+                "ggms/AF1QipMIOS4om1UYrjmJyXSJa2KWf0Wg55DBX2E7ZXqv=m18",
+                "ggms/AF1QipO1WJ_9f2J2rRHgo2XkVxixosmVyR0u_kGUiaa4=m18",
+                "ggms/AF1QipMGVMaNUyW-3HBvA0mHBcUXjNklDl2FgKDVk8Ym=m18"
+            ]
+        },
+        {
+            "id": "asaka",
+            "poster": "p/AF1QipO_oxP5ufTnbLUxWDXPYIkvACDqoZTIVibbTc3s=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPD13HyHX78w11T2d0kqjAilZk15fcZ4sgtbdh3=m18",
+                "ggms/AF1QipOC5MkofGNQuMhrEczwZeJdUqV7ZPRFSNL2yBRu=m18",
+                "ggms/AF1QipNRL_KQEkiv69nwe5nTgF6W6RXIO32kY-rqzYbm=m18",
+                "ggms/AF1QipO_oxP5ufTnbLUxWDXPYIkvACDqoZTIVibbTc3s=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E4%BD%8F%E5%90%89%E5%8C%BA' target='_blank'>住吉区 - Wikipedia</a>",
+        "<a href='https://www.city.osaka.lg.jp/sumiyoshi/' target='_blank'>大阪市住吉区：トップページ</a>",
+        "<a href='https://kknaniwa.co.jp/' target='_blank'>株式会社 ナニワ工務店</a>"
+    ]
+}

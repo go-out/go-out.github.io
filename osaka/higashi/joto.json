@@ -1,0 +1,34 @@
+{
+    "title": "城東区",
+    "description": "Joto",
+    "href": "vr/?id=osaka&area=higashi&name=joto",
+    "info": [
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/eGndSHYLhQGLn3qd9' target='_blank'>城東区役所</a> <small>大阪市城東区中央3-5-45（城東区複合庁舎）</small>",
+        "<a href='https://maps.app.goo.gl/e3yVm3Ab2dXJNPbx8' target='_blank'>中浜公園</a> <small>区の花「モクレン」の花の名所公園（3月中旬から4月が見頃）</small>",
+        "<a href='https://maps.app.goo.gl/77VJ18GULTktVvcB8' target='_blank'>中浜せせらぎの里</a> <small>「さくら」をはじめ、「アジサイ」や「ツツジ」など、花と緑があふれる「憩いの場」</small>",
+        "",
+        "<u>アクセス</u>",
+        "Osaka Metro・JR「鴫野」",
+        "Osaka Metro「蒲生四丁目」",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/Po1wP1USBZTztYHDA' target='_blank'>新・鴫野西駐輪場</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/joto/page/0000023827.html' target='_blank'>大阪市城東区：区の花</a>",
+        "<a href='https://www.city.osaka.lg.jp/joto/page/0000000720.html' target='_blank'>大阪市城東区：中浜公園<モクレン></a>"
+    ]
+}

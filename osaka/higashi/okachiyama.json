@@ -1,0 +1,32 @@
+{
+    "title": "御勝山",
+    "description": "Okachiyama",
+    "href": "?id=osaka&area=higashi&name=okachiyama",
+    "info": [
+        "御勝山（おかちやま）古墳の後円部（標高14mの墳丘）は、「大阪五低山」の一つ",
+        "古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」として整備されている",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/___' target='_blank'>___</a> <small>___</small>",
+        "",
+        "<u>アクセス</u>",
+        "Osaka Metro・JR「__」から徒歩約__分",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/___' target='_blank'>___</a>"
+    ],
+    "links": [
+        "<a href='___' target='_blank'>___</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNA1f2ksGJtL_1yz9nYOAPBysLtDu_VDpkElh7k=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNA1f2ksGJtL_1yz9nYOAPBysLtDu_VDpkElh7k=m18"
+            ]
+        }
+    ]
+}

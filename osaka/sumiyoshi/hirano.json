@@ -1,0 +1,89 @@
+{
+    "title": "大阪市平野区",
+    "description": "平野元町・平野宮町・平野市町・平野上町・平野本町・平野東・西脇・背戸口・平野西・流町",
+    "href": "?id=osaka&area=sumiyoshi&name=hirano",
+    "info": [
+        "大阪府のほぼ中央・大阪市の東南部に位置する市内で最も人口の多い区<br><small>（東は八尾市、西は東住吉区、南は松原市、北は生野区及び東大阪市）</small>",
+        "中央部の平野地域は古い家々と多数の神社・仏閣が存在する",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/skYcqFSmUiKhmGFN6' target='_blank'>サンアレイ平野</a> <small>平野本町通商店街・平野東商店会</small>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "landscape": "repeat(3, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "chuou-nishi",
+            "poster": "AF1QipMnBRRLiXVpyxCKpgnq1GvFCr3TLK7ws-mnlxW6=w575-h325-p-k-no",
+            "src": [
+                "AF1QipM88HJ5YAeVU5_V4Lw0XpeV1n1lc9DM67cklaVo=m18",
+                "AF1QipMnBRRLiXVpyxCKpgnq1GvFCr3TLK7ws-mnlxW6=m18",
+                "AF1QipPRwawSFa4xgFfI8cxfIrJWB_5vQUoikQjmu3p0=m18",
+                "AF1QipNCnTO5x54w4Wj7hpiwyYAyfFDyoS3KoAMgfPY5=m18"
+            ]
+        },
+        {
+            "id": "chuou-higashi",
+            "poster": "AF1QipMH2zlxtYPSmNRThiP9JR2ufL3BXaXJQwlwWoBk=w575-h325-p-k-no",
+            "src": [
+                "AF1QipMWegL6dgTyLQyz2KhqZYVt6vrZgpQW1gUMQpDo=m18",
+                "AF1QipMzEK9xNpdhNEcuEhq_z9oxl7OFP_kzUxzb6tZR=m18",
+                "AF1QipMH2zlxtYPSmNRThiP9JR2ufL3BXaXJQwlwWoBk=m18",
+                "AF1QipNZ2evcT0fipEidVIiuhlie1X2CDd7UfjRklRZQ=m18"
+            ]
+        },
+        {
+            "id": "dainenbutsuji",
+            "poster": "AF1QipOuL20oSqrwlaga_Dr2GYXtTRhuuo4817-c0VVd=w575-h325-p-k-no",
+            "src": [
+                "AF1QipOuL20oSqrwlaga_Dr2GYXtTRhuuo4817-c0VVd=m18",
+                "AF1QipO8z5fk7HwgJAXszsnCjKvDRPSowN0h2Ss-oHxO=m18",
+                "AF1QipNq9CzP1fPPCDMdDz1bs466UK3QWF24_HE7AU5K=m18",
+                "AF1QipOSl2FVFCHT41OkkJ3kTqMrRneaiO5sdFBk6an8=m18",
+                "AF1QipNmT8SMZ1hUQ7eIaReNuVLBXcZ3d92OvOmwzmox=m18"
+            ]
+        },
+        {
+            "id": "kumata",
+            "poster": "AF1QipNNGeIqFcVPzKrUCd3DUmew4FmdBwg66tDcA4pX=w575-h325-p-k-no",
+            "src": [
+                "AF1QipOQrR3TRGJyrGqekrJytjQX4WqGGJeU4QqWniNy=m18",
+                "AF1QipNNGeIqFcVPzKrUCd3DUmew4FmdBwg66tDcA4pX=m18",
+                "AF1QipOoFWSfTM1AMNTXTZRQ3ctHrztRVzNEBARp7-vr=m18",
+                "AF1QipPA5c_S1SZvVHZyA5N50L06gpT28d-MvaX7H39p=m18",
+                "AF1QipN3GoUJpkbIiyNn2fI00igdLVVcI99uXpn12IBr=m18"
+            ]
+        },
+        {
+            "id": "kouen",
+            "poster": "AF1QipOidYwZC3GHrUMJQtp2PXYYGbCpuHsYWmAfNUqo=w575-h325-p-k-no",
+            "src": [
+                "AF1QipOGnqYPeb1ueGO5J8ycOTSKlzEpWVsN9cXCuoBu=m18",
+                "AF1QipPZw_BoISw3E2BUbsjW4alvHhCAMTPQ6eqVPzKq=m18",
+                "AF1QipO9SQtFyn1k5oniEDz6L3K3VVGGKHo3XBdOJHmn=m18",
+                "AF1QipNirLjojeh7e2OTBSPKZjGKqwgRK71wvS8Zan87=m18",
+                "AF1QipPw9XrdIuYDevuncu7qexcvB4Um9etV6o4n1VKe=m18",
+                "AF1QipOidYwZC3GHrUMJQtp2PXYYGbCpuHsYWmAfNUqo=m18",
+                "AF1QipOJsWzewYFkZDX3FnfCQ1FfrYvg2S9uCe_vTiAc=m18"
+            ]
+        },
+        {
+            "id": "etc",
+            "poster": "AF1QipN_rj6EIXHuUkQpHyAigmxThWNCTWUlApnRHLlG=w575-h325-p-k-no",
+            "src": [
+                "AF1QipN_rj6EIXHuUkQpHyAigmxThWNCTWUlApnRHLlG=m18",
+                "AF1QipPXFY9j3E5j8_qOP4z-Ysws4tX8uZVj0wcNY2ak=m18",
+                "AF1QipMXTt78S5CKjGd1WES79h3ePYTObJj0IlUKaJ_T=m18",
+                "AF1QipO1Hn2FHFXjusKQDyKStjGcy6i2UrWRAEXbB_nM=m18",
+                "AF1QipNwnUlIeP9GE0Y_GLzhB2AgSFFpsU7VdB2j_ueP=m18",
+                "AF1QipOv7HWff6mfEVS6n50hF4hMMwLXdWb49O616PyC=m18",
+                "AF1QipNM5j7_ujG4-cJmhbU4-vX86aHeVkUbgzVIxL9W=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/hirano/page/0000002046.html' target='_blank'>大阪市平野区：区の概要</a>",
+        "<a href='https://hirano.goguynet.jp/' target='_blank'>号外NET 平野区 | 大阪市平野区のニュースサイト</a>"
+    ]
+}

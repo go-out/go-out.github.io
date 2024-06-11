@@ -2,7 +2,7 @@
     "date": "2024.5.11 (Sat)",
     "readme": "README.md",
     "url": "toyonaka-chubu/#20240511",
-    "youtube": "___",
+    "youtube": "mKcFF3wTRRg",
     "directory": "https://ia903205.us.archive.org/12/items/toyonaka-chubu/",
     "cover": "toyonaka-chubu.thumbs/20240511/shokeien_000001.jpg",
     "video": [
@@ -27,13 +27,13 @@
             "track": "../000.vtt"
         },
         {
-            "title": "豊島公園",
-            "src": "20240511/teshimapark.ia.mp4",
+            "title": "ふれあい緑地",
+            "src": "20240511/fureairyokuchi.ia.mp4",
             "track": "../000.vtt"
         },
         {
-            "title": "ふれあい緑地",
-            "src": "20240511/fureairyokuchi.ia.mp4",
+            "title": "豊島公園",
+            "src": "20240511/teshimapark.ia.mp4",
             "track": "../000.vtt"
         }
     ],

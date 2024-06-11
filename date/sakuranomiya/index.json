@@ -1,7 +1,7 @@
 {
     "date": "2024.5.16 (Thu)",
-    "u": "桜ノ宮・大川 サイクリングロード",
-    "strong": "<small>Okawa Riverside</small><br>Sakuranomiya Cycling Road",
+    "u": "桜ノ宮（大川）サイクルライン",
+    "strong": "<small>Okawa Riverside</small><br>Sakuranomiya Cycle Road",
     "readme": "README.md",
     "url": "sakuranomiya/",
     "youtube": "___",
@@ -9,7 +9,7 @@
     "cover": "sakuranomiya.thumbs/20240516/002_000482.jpg",
     "video": [
         {
-            "title": "JR桜ノ宮駅 ~ 毛馬閘門",
+            "title": "桜ノ宮 ~ 毛馬閘門",
             "src": "20240516/001.ia.mp4",
             "track": "../000.vtt"
         },
@@ -19,7 +19,7 @@
             "track": "../000.vtt"
         },
         {
-            "title": "川崎橋 ~ JR桜ノ宮駅",
+            "title": "川崎橋 ~ 桜ノ宮",
             "src": "20240516/003.ia.mp4",
             "track": "../000.vtt"
         }

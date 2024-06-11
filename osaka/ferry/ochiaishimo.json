@@ -1,6 +1,7 @@
 {
     "title": "落合下（おちあいしも）渡船場",
     "description": "大正区平尾（たいしょうくひらお）⇄ 西成区津守（にしなりくつもり）",
+    "url": "?id=osaka&area=ferry&name=ochiaishimo",
     "info": [
         "木津川（大正区平尾1丁目 ⇄ 西成区津守2丁目）を 10 ~ 15分毎 運航",
         "岸壁間138メートル。利用者は1日平均380人。渡船「さざなみ」「みどり丸」が就航しています。",
@@ -10,11 +11,6 @@
         "津守側 <u>大阪市西成区津守2丁目8‐21</u>",
         "<u>最寄りのHELLO CYCLING</u>",
         "<a href='https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8' target='_blank'>千島ガーデンモール</a>"
-    ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011256.html' target='_blank'>大阪市：5.落合下（おちあいしも）渡船場 （…>川・橋>渡船場）</a>",
-        "<a href='https://maps.app.goo.gl/hwFYw3kcC3ZgTDJW6' target='_blank'>落合下渡船場（大正区平尾側） - Google マップ</a>",
-        "<a href='https://maps.app.goo.gl/efLdahaJnSZP42RCA' target='_blank'>落合下渡船場（西成区津守側） - Google マップ</a>"
     ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(1, 1fr)",
@@ -38,5 +34,10 @@
                 "ggs/AF1QipOXGhSQQw_UEKXGXJtRvXmU3tfxOrF6rktQ454U=m18"
             ]
         }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011256.html' target='_blank'>大阪市：5.落合下（おちあいしも）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/hwFYw3kcC3ZgTDJW6' target='_blank'>落合下渡船場（大正区平尾側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/efLdahaJnSZP42RCA' target='_blank'>落合下渡船場（西成区津守側） - Google マップ</a>"
     ]
 }

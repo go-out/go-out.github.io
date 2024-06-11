@@ -9,11 +9,6 @@
         "都市施設が整備された今、多くの渡船は廃止されたが、現在でも8か所の渡船場（15隻の船）が、地域の人々に利用されていて、繁華街や観光地では見られない大阪に触れることができるスポットとしても、静かな人気を呼んでいます。",
         "<small>昭和10年頃には渡船場31ヶ所、保有船舶数69隻（機械船32隻、手漕ぎ船37隻）、年間利用者は歩行者が約5752万人、自転車等が約1442万台とピークに達しました。</small><br><small>その後、渡船の利用は次第に減少し、平成元年（1989年）に現在の渡船場の数（8ヶ所）となり、利用者数は約152万人にまで減少しました。</small>"
     ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011242.html' target='_blank'>大阪市：大阪　渡船場マップ</a>",
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011278.html' target='_blank'>大阪市：運航時刻表（各渡船場詰所側発）</a>",
-        "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E5%B8%82%E3%81%AE%E5%85%AC%E5%96%B6%E6%B8%A1%E8%88%B9' target='_blank'>大阪市の公営渡船 - Wikipedia</a>"
-    ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(3, 1fr)",
     "portrait": "repeat(2, 1fr)",
@@ -84,8 +79,7 @@
             "src": [
                 "ggs/AF1QipMEt89FqQvLGZgEVcdAq3NKsEdxIKusNTXd55xV=m18",
                 "ggs/AF1QipMH3iD8j5ne75rpuZ5YU_RXud-Tt8GdKKYSvpZg=m18",
-                "
-                ggs/AF1QipMVyCNlYMJnwvdwPcrDNxmdvFh-O3QPomDPdTdK=m18"
+                "ggs/AF1QipMVyCNlYMJnwvdwPcrDNxmdvFh-O3QPomDPdTdK=m18"
             ]
         }
     ],
@@ -134,5 +128,10 @@
             "name": "yunocky",
             "id": "114041566317225788134"
         }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011242.html' target='_blank'>大阪市：大阪　渡船場マップ</a>",
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011278.html' target='_blank'>大阪市：運航時刻表（各渡船場詰所側発）</a>",
+        "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E5%B8%82%E3%81%AE%E5%85%AC%E5%96%B6%E6%B8%A1%E8%88%B9' target='_blank'>大阪市の公営渡船 - Wikipedia</a>"
     ]
 }

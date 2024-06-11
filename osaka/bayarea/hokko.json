@@ -1,0 +1,89 @@
+{
+    "title": "北港（夢洲・舞洲）",
+    "description": "Hokko (Yumeshima Maishima)",
+    "url": "?id=osaka&area=bayarea&name=hokko",
+    "info": [
+        "大阪市の最西端にに浮かぶ2つの人工島とその周辺",
+        "<small>夢洲（ゆめしま）は、2025年日本国際博覧会のメイン会場</small>",
+        "<small>舞洲（まいしま）は、大阪のスポーツ拠点として生まれ変わりつつある</small>",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "大阪広域環境施設組合 舞洲工場 <small>開館時間 月～土曜日（祝祭日を除く） *事前申込要</small>",
+        "舞洲緑地 <small>芝生広場、灯台、噴水、2つの池、せせらぎ、大型遊具・シーサイドプロムナード</small>",
+        "新夕陽ヶ丘 <small>New Sunset Hill</small>",
+        "常吉大橋 <small>大阪市此花区常吉と舞洲を結ぶ大阪港に架かる橋</small>",
+        "常吉臨港緑地 <small>大阪北港マリーナ 北港ヨットハーバー</small>",
+        "此花大橋 <small>___</small>",
+        "北港運河公園 <small>___</small>",
+        "此花西部臨港緑地 <small>___</small>",
+        "",
+        "<u>舞洲へのアクセス</u>",
+        "JRゆめ咲線桜島駅より「舞洲アクティブバス」<small>北港観光バス</small>",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/x1ct4zJCXANuUbe88' target='_blank'>北港緑地２丁目１</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(3, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "maishima-1",
+            "poster": "p/AF1QipMGKdK-sRort-yIw5sMiUw7ElB24bITyvZVDRVw=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMGKdK-sRort-yIw5sMiUw7ElB24bITyvZVDRVw=m18",
+                "ggms/AF1QipOdWrRPa5UYusbpt9TslVi7wBRmUqGzXAB86YQ_=m18",
+                "ggms/AF1QipMJmBJIilQ7wovDvnhJgTNlGjvWLKSFyGpZ1Fxo=m18"
+            ]
+        },
+        {
+            "id": "maishima-2",
+            "poster": "p/AF1QipPqa0ctEsoRCjc08GNlfwDyKNRCM9ctVHBh2SAJ=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPqa0ctEsoRCjc08GNlfwDyKNRCM9ctVHBh2SAJ=m18",
+                "ggms/AF1QipMEwvZeSiIqY9-HdyyGYl3NXi0H3wsH7Sunw_ez=m18"
+            ]
+        },
+        {
+            "id": "tsuneyoshi-1",
+            "poster": "p/AF1QipNLWol5GxmZpCJMzVj25ek9ArWfDfz-6loXw0TW=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMiBwtEz7mLEJfSYnfiSP1VvmV2O5U2YKv8jhDM=m18",
+                "ggms/AF1QipP3Clz3IDY5DKMW2gpkuvBmfvE_RkO9-IT5YnBu=m18",
+                "ggms/AF1QipNLWol5GxmZpCJMzVj25ek9ArWfDfz-6loXw0TW=m18"
+            ]
+        },
+        {
+            "id": "tsuneyoshi-2",
+            "poster": "p/AF1QipMl2VWaDsU-JnfmKTb62jlo5ZX0AJVjVN25qkIk=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMl2VWaDsU-JnfmKTb62jlo5ZX0AJVjVN25qkIk=m18",
+                "ggms/AF1QipONtVfC6d7R3vjjQ53wR_zv5Kzzb1ZXlePdDCLw=m18",
+                "ggms/AF1QipNdXIm01acMrj7i39vjQoDJXc3RtQ4L-RNamPii=m18"
+            ]
+        },
+        {
+            "id": "ryokuchi-1",
+            "poster": "p/AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMxNLpPHChjdzamla7SIp3i-2Je9ApV0Q4BIjHI=m18",
+                "ggms/AF1QipPECe6JUY00MsnG8XX4cXqKVn8wu6vXLc7cOGBc=m18",
+                "ggms/AF1QipO7d7q3dSml69X-5f8XwZkt18zGuGYi8xk6Qbn0=m18"
+            ]
+        },
+        {
+            "id": "ryokuchi-2",
+            "poster": "p/AF1QipMSrzQG0hFPYXDbPDT4y1V8enKuxh5TzeX7Jvx7=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=m18",
+                "ggms/AF1QipMSrzQG0hFPYXDbPDT4y1V8enKuxh5TzeX7Jvx7=m18",
+                "ggms/AF1QipPIjTuG-7YYGuI2ytqLiRrJSKLXSAlUUJxsg9qI=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A2%E6%B4%B2' target='_blank'>夢洲 - Wikipedia</a>",
+        "<a href='https://ja.wikipedia.org/wiki/%E8%88%9E%E6%B4%B2' target='_blank'>舞洲 - Wikipedia</a>",
+        "<a href='https://archive.maishima.osaka/' target='_blank'>舞洲プロジェクト</a>"
+    ]
+}

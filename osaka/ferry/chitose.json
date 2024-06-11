@@ -1,6 +1,7 @@
 {
     "title": "千歳（ちとせ）渡船場",
     "description": "大正区鶴町（たいしょうくつるまち）⇄ 同区北恩加島（きたおかじま）",
+    "url": "?id=osaka&area=ferry&name=chitose",
     "year": "2022",
     "month": "10",
     "day": "20",
@@ -11,11 +12,6 @@
         "<u>所在地</u>",
         "北恩加島側 <u>大阪市大正区北恩加島2丁目5‐25</u>",
         "鶴町側 <u>大阪市大正区鶴町4丁目1‐69</u>"
-    ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011253.html' target='_blank'>大阪市：3.千歳（ちとせ）渡船場 （…>川・橋>渡船場）</a>",
-        "<a href='https://maps.app.goo.gl/pVqVHDeuBcQtLn3f6' target='_blank'>千歳渡船場（大正区北恩加島側） - Google マップ</a>",
-        "<a href='https://maps.app.goo.gl/JCmbQqnWYC1zKBNDA' target='_blank'>千歳渡船場（大正区鶴町側） - Google マップ</a>"
     ],
     "directory": "https://ia601201.us.archive.org/22/items/chitose/",
     "landscape": "repeat(1, 1fr)",
@@ -38,5 +34,10 @@
                 "004.mp4"
             ]
         }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011253.html' target='_blank'>大阪市：3.千歳（ちとせ）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/pVqVHDeuBcQtLn3f6' target='_blank'>千歳渡船場（大正区北恩加島側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/JCmbQqnWYC1zKBNDA' target='_blank'>千歳渡船場（大正区鶴町側） - Google マップ</a>"
     ]
 }

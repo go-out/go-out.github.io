@@ -1,0 +1,58 @@
+{
+    "title": "中之島 なかのしま",
+    "description": "Nakanoshima 🌹 Osaka, Japan",
+    "href": "?id=osaka&area=kita&name=nakanoshima",
+    "info": [
+        "堂島川と土佐堀川に挟まれた中洲「中之島」<br>大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/n98W45pnRi1gx9QL6' target='_blank'>中之島公園</a> <small>大阪市初の市営公園 緑あふれる都心のオアシス</small>",
+        "<a href='https://maps.app.goo.gl/C3CiXhhdGzGqAbWj6' target='_blank'>バラ園</a> <small>例年5月中旬~下旬・10月中旬~11月上旬、北区の花が咲き誇る</small>",
+        "<a href='https://maps.app.goo.gl/vhehs5MsdbALm4qx9' target='_blank'>剣先噴水</a> <small>芝生広場の先にある噴水 10時～20時30分までの毎時0分・30分に約5分間放水する</small>",
+        "<a href='https://maps.app.goo.gl/pyT7ZnmnVtxX7Fzx8' target='_blank'>みおつくしプロムナード</a> <small>大阪市役所の南側にあるケヤキ並木の遊歩道（例年12月、イルミネーションが装飾される）</small>",
+        "<a href='https://maps.app.goo.gl/pHF9sipfgoE27txNA' target='_blank'>アートエリアB1</a> <small>京阪電車「なにわ橋」地下1階に位置するコミュニティ・スペース</small>",
+        "<a href='https://maps.app.goo.gl/pUHpXtJ21CsoFWDHA' target='_blank'>こども本の森 中之島</a> <small>本や芸術文化を通じて子どもたちが豊かな創造力を育むための文化施設</small>",
+        "<a href='https://maps.app.goo.gl/MRV7vffKR9HTCqNs5' target='_blank'>中之島ガーデンブリッジ</a> <small>くつろぎ空間が確保されている歩行者専用橋</small>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipN3aph3gNc0Nq0D-qi_gD7vp9smqLRF663a7xdD=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipN3aph3gNc0Nq0D-qi_gD7vp9smqLRF663a7xdD=m18",
+                "ggms/AF1QipNDyCsXEBnh-8zLISwMbEWApJ8AaHhTfMH8Ni40=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipNxb0ADY5EePyIfxqxIIvGeLoDOU1HL5Pp31QTz=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNxb0ADY5EePyIfxqxIIvGeLoDOU1HL5Pp31QTz=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipMtiDh1Odz1HMCSTH7ncRQ16izFZyFROjGXe9AJ=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMtiDh1Odz1HMCSTH7ncRQ16izFZyFROjGXe9AJ=m18"
+            ]
+        },
+        {
+            "id": "four",
+            "poster": "p/AF1QipMHEhFpByPOCX6x9ayruhWYSEg5vdM5xeP3hkc=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMHEhFpByPOCX6x9ayruhWYSEg5vdM5xeP3hkc=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://www.osakapark.osgf.or.jp/nakanoshima/'>大阪市花と緑の情報サイト : 中之島公園</a>",
+        "<a href='https://www.pref.osaka.lg.jp/nishiosaka/shore/light-up.html'>大阪府／水の回廊ライトアップ</a>",
+        "<a href='https://artarea-b1.jp/'>アートエリア B1</a>",
+        "<a href='https://kodomohonnomori.osaka/'>こども本の森 中之島</a>",
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000026036.html'>大阪市：中之島ガーデンブリッジ（なかのしまがーでんぶりっじ）</a>"
+    ]
+}

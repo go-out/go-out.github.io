@@ -1,0 +1,32 @@
+{
+    "title": "東成区",
+    "description": "Higashinari",
+    "href": "?id=osaka&area=higashi&name=higashinari",
+    "info": [
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/8XFdqFcctUPJFPJZA' target='_blank'>東成区役所</a> <small>東成区の花「バラ」「パンジー」の花壇がある</small>",
+        "<a href='https://maps.app.goo.gl/EJhtYFKkTCjxxxfA9' target='_blank'>平戸公園</a> <small>小さなバラ園がある</small>",
+        "<a href='https://maps.app.goo.gl/edYxv2vcJDSaYd459' target='_blank'>比賣許曾神社</a> <small>___</small>",
+        "",
+        "<u>アクセス</u>",
+        "Osaka Metro・JR「__」から徒歩約__分",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/Pr62Hi46hwDTp7xu6' target='_blank'>JR玉造駅</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNA1f2ksGJtL_1yz9nYOAPBysLtDu_VDpkElh7k=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNA1f2ksGJtL_1yz9nYOAPBysLtDu_VDpkElh7k=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='___' target='_blank'>___</a>"
+    ]
+}

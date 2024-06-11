@@ -1,0 +1,88 @@
+{
+    "title": "大阪市阿倍野区",
+    "description": "阪堺上町線より東・南海通より北・阪和線より西",
+    "href": "?id=osaka&area=minami&name=abeno",
+    "info": [
+        "阿倍野元町・王子町・阪南町・昭和町・桃ケ池町・長池町・文の里・松崎町",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='../legacy/?area=osaka&name=abeouji'>阿倍王子神社・安倍晴明神社</a> <small>大阪府下に唯一現存する熊野権現の王子社</small>",
+        "<a href='../park/?area=osaka&name=momogaike'>桃ヶ池公園</a> <small>阿倍野区の花「モモ」の名所（見頃は3月中旬〜4月下旬）</small>",
+        "<a href='../park/?area=osaka&name=nawasiroda'>苗代田公園</a> <small>開門午前九時 閉門夕方午後五時</small>",
+        "<a href='https://maps.app.goo.gl/cES9dCQ6xhmPr4cc9' target='_blank'>日本基督教団 南大阪教会</a> <small>大阪を代表する建築家 村野藤吾が設計した教会建築</small>",
+        "<a href='https://maps.app.goo.gl/u3rzCSaFtm3Y97Ea7' target='_blank'>カトリック阿倍野教会</a> <small>ノアの箱舟をかたどった教会</small>",
+        "<a href='https://maps.app.goo.gl/peWge7x3G7myMvVn6' target='_blank'>大阪聖アンデレ教会</a> <small>日本聖公会大阪教区の教会</small>",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/4BKzNrmPHvirX9jk6' target='_blank'>セブンイレブン 大阪阪南町3丁目店</a><br><small>Osaka Metro 御堂筋線「昭和町」から徒歩約10分<small>",
+        "<a href='https://maps.app.goo.gl/XRUmaERpiERrp9rs5' target='_blank'>コーナン天王寺店</a><br><small>Osaka Metro・JR「天王寺」から徒歩約10分<small>"
+    ],
+    "directory": "https://ia801206.us.archive.org/24/items/abeno-osaka/",
+    "landscape": "repeat(3, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "abenomotomachi",
+            "poster": "abeno-osaka.thumbs/abenomotomachi/001_000001.jpg",
+            "src": [
+                "abenomotomachi/001.mp4",
+                "abenomotomachi/002.mp4",
+                "abenomotomachi/003.mp4",
+                "abenomotomachi/103.mp4",
+                "abenomotomachi/101.mp4",
+                "abenomotomachi/102.mp4"
+            ]
+        },
+        {
+            "id": "hannan",
+            "poster": "abeno-osaka.thumbs/hannan/103_000001.jpg",
+            "src": [
+                "hannan/103.mp4",
+                "hannan/104.mp4",
+                "hannan/105.mp4"
+            ]
+        },
+        {
+            "id": "nagaike",
+            "poster": "abeno-osaka.thumbs/nagaike/001_000001.jpg",
+            "src": [
+                "nagaike/001.mp4",
+                "nagaike/002.mp4",
+                "nagaike/003.mp4",
+                "nagaike/004.mp4",
+                "nagaike/005.mp4"
+            ]
+        },
+        {
+            "id": "ouji",
+            "poster": "abeno-osaka.thumbs/ouji/101_000001.jpg",
+            "src": [
+                "ouji/101.mp4",
+                "ouji/102.mp4",
+                "ouji/201.mp4",
+                "ouji/202.mp4"
+            ]
+        },
+        {
+            "id": "showa",
+            "poster": "abeno-osaka.thumbs/showa-fuminosato/001_000001.jpg",
+            "src": [
+                "showa-fuminosato/001.mp4"
+            ]
+        },
+        {
+            "id": "fuminosato",
+            "poster": "abeno-osaka.thumbs/showa-fuminosato/002_000001.jpg",
+            "src": [
+                "showa-fuminosato/002.mp4",
+                "showa-fuminosato/003.mp4",
+                "showa-fuminosato/004.mp4",
+                "showa-fuminosato/005.mp4",
+                "showa-fuminosato/006.mp4"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/toshikeikaku/page/0000363622.html' target='_blank'>阿倍野区の都市景観資源紹介（わがまちナイススポット）</a>"
+    ]
+}

@@ -1,6 +1,7 @@
 {
     "title": "落合上（おちあいかみ）渡船場",
     "description": "大正区千島（たいしょうくちしま）⇄ 西成区北津守（にしなりくきたつもり）",
+    "url": "?id=osaka&area=ferry&name=ochiaikami",
     "year": "2022",
     "month": "10",
     "day": "20",
@@ -13,11 +14,6 @@
         "北津守側 <u>大阪市西成区北津守4丁目15‐1</u>",
         "<u>最寄りのHELLO CYCLING</u>",
         "<a href='https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8' target='_blank'>千島ガーデンモール</a> <a href='https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9' target='_blank'>セブンイレブン　大阪三軒家東4丁目店</a>"
-    ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011254.html' target='_blank'>大阪市：4.落合上（おちあいかみ）渡船場 （…>川・橋>渡船場）</a>",
-        "<a href='https://maps.app.goo.gl/h63fx75foDrtQVjp8' target='_blank'>落合上渡船場（大正区千島側） - Google マップ</a>",
-        "<a href='https://maps.app.goo.gl/VFFRP7tDNjgQ3PfN8' target='_blank'>落合上渡船場（西成区北津守側） - Google マップ</a>"
     ],
     "directory": "https://ia601300.us.archive.org/4/items/ochiaikami/",
     "landscape": "repeat(1, 1fr)",
@@ -38,5 +34,10 @@
                 "000.mp4"
             ]
         }
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011254.html' target='_blank'>大阪市：4.落合上（おちあいかみ）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/h63fx75foDrtQVjp8' target='_blank'>落合上渡船場（大正区千島側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/VFFRP7tDNjgQ3PfN8' target='_blank'>落合上渡船場（西成区北津守側） - Google マップ</a>"
     ]
 }

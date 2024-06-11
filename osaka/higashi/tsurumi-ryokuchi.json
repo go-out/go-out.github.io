@@ -1,0 +1,30 @@
+{
+    "title": "鶴見緑地公園",
+    "description": "Tsurumi Ryokuchi",
+    "href": "vr/?id=osaka&area=higashi&name=tsurumi-ryokuchi",
+    "info": [
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/___' target='_blank'>___</a> <small>___</small>",
+        "",
+        "<u>アクセス</u>",
+        "Osaka Metro・JR「__」から徒歩約__分",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/Po1wP1USBZTztYHDA' target='_blank'>新・鴫野西駐輪場</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2=m18"
+            ]
+        }
+    ],
+    "links": [
+        "<a href='___' target='_blank'>___</a>"
+    ]
+}

@@ -1,6 +1,7 @@
 {
     "title": "千本松（せんぼんまつ）渡船場",
     "description": "大正区南恩加島（たいしょうくみなみおかじま）⇄ 西成区南津守（にしなりくみなみつもり）",
+    "url": "?id=osaka&area=ferry&name=senbonmatsu",
     "info": [
         "千本松大橋の補完として、木津川（大正区南恩加島1丁目 ⇄ 西成区南津守2丁目）を 10 ~ 15分毎 運航",
         "岸壁間230メートル。渡船「はるかぜ」「ちづる」が就航が就航しています。",
@@ -11,11 +12,6 @@
         "南津守側 <u>大阪市西成区南津守2丁目4-88</u>",
         "<u>最寄りのHELLO CYCLING</u>",
         "<a href='https://maps.app.goo.gl/H4ngonKhXimYdKEM6' target='_blank'>サイクルベースあさひ北加賀屋店</a>"
-    ],
-    "links": [
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011258.html' target='_blank'>大阪市：6.千本松（せんぼんまつ）渡船場 （…>川・橋>渡船場）</a>",
-        "<a href='https://maps.app.goo.gl/eRgKv4cm7KHMWkcSA' target='_blank'>千本松渡船場（大正区南恩加島側） - Google マップ</a>",
-        "<a href='https://maps.app.goo.gl/ZqULrwQX4Cc78aSf7' target='_blank'>千本松渡船場（西成区南津守側） - Google マップ</a>"
     ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(2, 1fr)",
@@ -51,5 +47,10 @@
         }
     ],
     "height": "0.55",
-    "youtube": "SNw7eE2K0c0"
+    "youtube": "SNw7eE2K0c0",
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011258.html' target='_blank'>大阪市：6.千本松（せんぼんまつ）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/eRgKv4cm7KHMWkcSA' target='_blank'>千本松渡船場（大正区南恩加島側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/ZqULrwQX4Cc78aSf7' target='_blank'>千本松渡船場（西成区南津守側） - Google マップ</a>"
+    ]
 }

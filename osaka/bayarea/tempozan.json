@@ -1,0 +1,30 @@
+{
+    "title": "天保山",
+    "description": "Tempozan Harbor Village",
+    "href": "?id=osaka&area=bayarea&name=tempozan",
+    "info": [
+        "「大阪五低山」の一つ、日本一低い山として知られる築山（標高4.53m）",
+        "周辺は、海遊館・大観覧車・遊覧船などがあるベイエリアを代表する観光スポット",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/___' target='_blank'>___</a> <small>___</small>",
+        "",
+        "<u>最寄りのレンタサイクル</u> <small>___</small>",
+        "利用時間 午前9時半から午後5時まで"
+    ],
+    "links": [
+        "<a href='http://___/' target='_blank'>___</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipMgd6vWf4GMSVvBhm4uXn9A4uFWysacM58VE_-7=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMgd6vWf4GMSVvBhm4uXn9A4uFWysacM58VE_-7=m18"
+            ]
+        }
+    ]
+}
