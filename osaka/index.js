@@ -228,6 +228,22 @@ const osakaIndex = {
             'area': 'chuo',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.49821528169355, 34.69200708466718]
+            },
+            'properties': {
+                'title': '住友ビルデイング（現・三井住友銀行大阪本店ビル）',
+                'address': '近代建築を代表する規模と美しさを誇る大規模建築',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=sumitomo',
+                'zoom': 18
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.5308529947035, 34.69272530891007]
             },
             'properties': {
@@ -258,7 +274,8 @@ const osakaIndex = {
             'properties': {
                 'title': '靱公園',
                 'address': '西区を象徴する「バラ園」がある、ビジネス街の憩いの場・スポーツの場',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=utsubo-park',
                 'iconSize': ['osaka/chuo/icon/nishi.gif', '2.75rem', '2.75rem'],
                 'zoom': 15,
             }
@@ -373,7 +390,7 @@ const osakaIndex = {
                 'title': '天下茶屋',
                 'address': '',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=tengachaya',
+                'href': 'spot/?id=osaka&area=minami&name=tengachaya',
                 'iconSize': ['profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 17.5
             }
@@ -538,7 +555,7 @@ const osakaIndex = {
                 'title': '住之江公園',
                 'address': '花と緑とふれあう、スポーツを楽しめる公園',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=suminoe',
+                'href': 'spot/?id=osaka&area=sumiyoshi&name=suminoe',
                 'iconSize': ['osaka/sumiyoshi/icon/suminoe.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5
             }
@@ -592,8 +609,9 @@ const osakaIndex = {
             },
             'properties': {
                 'title': '久宝寺緑地',
-                'address': '',
+                'address': '大阪4大緑地のひとつ 甲子園球場の約10倍もの広さを誇る大阪府営の緑地公園',
                 'date': 'More Info',
+                'href': 'spot/?id=osaka&area=sumiyoshi&name=kyuhouji',
                 'href': 'park/?area=osaka&name=kyuhouji',
                 'zoom': 15
             }
@@ -647,9 +665,10 @@ const osakaIndex = {
                 'coordinates': [135.42281018597942, 34.63336377556088]
             },
             'properties': {
-                'title': '南港・咲洲',
+                'title': '南港（咲洲）',
                 'address': '大阪市ベイエリアの南側一体「南港（なんこう）」・人工島「咲洲（さきしま）」',
-                'date': '',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=bayarea&name=port-town',
                 'youtube': '8az_VW2ssbs',
                 'zoom': 15.5
             }
@@ -671,7 +690,8 @@ const osakaIndex = {
             'properties': {
                 'title': '北港（舞洲・桜島）',
                 'address': '大阪市の最西端に浮かぶ人工島「舞洲（まいしま）」と埋立地「桜島」',
-                'date': '',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=bayarea&name=hokko',
                 'youtube': 'RGVn0OmDrJA',
                 'iconSize': ['osaka/bayarea/icon/konohana.png', '4rem', '4rem'],
                 'zoom': 15
@@ -702,7 +722,8 @@ const osakaIndex = {
             'properties': {
                 'title': '千島公園',
                 'address': '大正区役所のすぐ隣に整備されている大きな公園 港の見える丘',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=bayarea&name=chishima-park',
                 'iconSize': ['osaka/bayarea/icon/taisho.gif', '3.5rem', '3.5rem'],
                 'zoom': 16
             }
@@ -724,7 +745,8 @@ const osakaIndex = {
             'properties': {
                 'title': '大正区 平尾',
                 'address': '大阪市のリトル沖縄 大正区の中でも沖縄の雰囲気が特に色濃い地域',
-                'date': '',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=bayarea&name=hirao',
                 'iconSize': ['profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5
             }
@@ -842,7 +864,8 @@ const osakaIndex = {
             'properties': {
                 'title': '服部緑地',
                 'address': '大阪府下最大級の公園',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi',
                 'zoom': 14
             }
         },
@@ -1085,7 +1108,7 @@ if (location.search) {
                     //
                 });
             }
-        } else {
+        } else if (!params.get("area")) {
             jsArr = [
                 ["osaka", "cycling"],
                 ["osaka", "268"],

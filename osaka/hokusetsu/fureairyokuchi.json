@@ -1,0 +1,44 @@
+{
+    "title": "ふれあい緑地（ふれあいりょくち）界隈",
+    "description": "服部西町5丁目、服部寿町3・5丁目",
+    "spot": "?id=osaka&area=hokusetsu&name=fureairyokuchi",
+    "style": "style",
+    "info": {
+        "title": "Fureai Ryokuchi 🌲 Toyonaka Osaka, Japan",
+        "address": "大阪府豊中市",
+        "google": "https://maps.app.goo.gl/ERA2FaQ99x3v8zuk9",
+        "text": [
+            "",
+            "<u>___</u>",
+            "___",
+            "<small>___</small>",
+            "",
+            "<u>アクセス</u><br>___",
+            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/qZegPVRhoqeYhS7fA' target='_blank'>阪急曽根駐輪センター</a> <small>貸出時間は7:00～21:00 | 普通車 320円 電動車 420円 (1日)</small>"
+        ]
+    },
+    "links": [
+        "<a href='https://www.city.toyonaka.osaka.jp/shisetsu/koen/seibu/fureairyokuchi.html' target='_blank'>ふれあい緑地（ふれあいりょくち）　豊中市</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNhUjRtgZ80WUrMYPsYbWKFhKurLKqkigyQj44d=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNhUjRtgZ80WUrMYPsYbWKFhKurLKqkigyQj44d=m18",
+                "ggms/AF1QipNwf8guuGAPUHjfjirHA7XdVhO7nbT8XFbHQ4fy=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=m18",
+                "ggms/AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo=m18"
+            ]
+        }
+    ]
+}

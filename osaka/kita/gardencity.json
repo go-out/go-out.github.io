@@ -10,10 +10,11 @@
         "<a href='https://maps.app.goo.gl/v2wpiXZhPNaYGBfJ9' target='_blank'>ハービスPLAZA</a> <small>シアターオルガン自動演奏 演奏時間 11:02 / 12:00 / 15:00 / 18:00 / 19:55</small>",
         "<a href='https://maps.app.goo.gl/pbaXYPGavyEhNHrJ8' target='_blank'>ザ・リッツ・カールトン大阪</a> <small>英国の大邸宅の優雅さと日本の幽玄の美が融合した5つ星ホテル</small>",
         "<a href='https://maps.app.goo.gl/NA2CpJnwe8QqyyEZ9' target='_blank'>ホテルモントレ大阪</a> <small>ウィーンの貴族の館を再現、華麗なオーストリア宮廷文化の世界</small>",
-        "<a href='https://maps.app.goo.gl/qi6pFwoUSPJyTEtv7' target='_blank'>TKPゲートタワービル</a> <small>ビルに高速道路が貫通している</small>"
+        "<a href='https://maps.app.goo.gl/qi6pFwoUSPJyTEtv7' target='_blank'>TKPゲートタワービル</a> <small>ビルに高速道路が貫通している</small>",
+        "<a href='__' target='_blank'>テレパーク</a> <small>__</small>"
     ],
     "directory": "https://lh3.googleusercontent.com/",
-    "landscape": "repeat(2, 1fr)",
+    "landscape": "repeat(3, 1fr)",
     "portrait": "repeat(2, 1fr)",
     "video": [
         {
@@ -42,6 +43,22 @@
             "poster": "p/AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0=w575-h325-p-k-no",
             "src": [
                 "ggms/AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0=m18"
+            ]
+        },
+        {
+            "id": "ntt-park1",
+            "poster": "p/AF1QipOMvERU-huZRAGXGiYl_3Pq3kofWsw6q30h7q2t=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipOMvERU-huZRAGXGiYl_3Pq3kofWsw6q30h7q2t=m18",
+                "ggms/AF1QipNrs0U3o1jmG4blPkikWY6O8w8mpM_41yS5hawM=m18"
+            ]
+        },
+        {
+            "id": "ntt-park2",
+            "poster": "p/AF1QipPP2nabYi80XPNdzyVS2ZhuY9VIJRL-R5nar5_g=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPP2nabYi80XPNdzyVS2ZhuY9VIJRL-R5nar5_g=m18",
+                "ggms/AF1QipMqm-ORxey-Bk7HmnSzH6YKoiObEFk45os1dzp9=m18"
             ]
         }
     ],

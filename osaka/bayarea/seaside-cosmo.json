@@ -1,0 +1,25 @@
+{
+    "title": "シーサイドコスモ",
+    "description": "コスモスクエア海浜緑地",
+    "spot": "?id=osaka&area=bayarea&name=seaside-cosmo",
+    "style": "style",
+    "year": "2022",
+    "month": "5",
+    "day": "3",
+    "info": {
+        "title": "Seaside Cosmo 🇯🇵 Osaka, Japan",
+        "address": "大阪市住之江区南港北1丁目29~33 と 2丁目5~9",
+        "google": "https://maps.app.goo.gl/KH4ACfycThQq2rgk7",
+        "text": [
+            "大阪南港の人工島「<ruby>咲洲<rp>（</rp><rt>さきしま</rt><rp>）</rp></ruby>」の玄関口、コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道",
+            "東側には遊具もある広い芝生、西側には「なにわの海の時空館」の跡地がある",
+            "",
+            "<u>アクセス</u><br>Osaka Metro 中央線・ニュートラム「コスモスクエア」からすぐ"
+        ]
+    },
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E3%81%AA%E3%81%AB%E3%82%8F%E3%81%AE%E6%B5%B7%E3%81%AE%E6%99%82%E7%A9%BA%E9%A4%A8' target='_blank'>なにわの海の時空館 - Wikipedia</a>"
+    ],
+    "youtube": "EoFg1eMWADg",
+    "height": "0.65"
+}

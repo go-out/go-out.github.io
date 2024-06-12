@@ -1,0 +1,48 @@
+{
+    "title": "舞洲緑地 まいしまりょくち",
+    "description": "芝生広場、灯台、大型遊具があるグリーンスペースと釣り解放区シーサイドプロムナード",
+    "year": "2024",
+    "month": "4",
+    "day": "7",
+    "spot": "?id=osaka&area=bayarea&name=maishima-ryokuchi",
+    "style": "style",
+    "info": {
+        "title": "Maishima Ryokuchi 🇯🇵 Konhana Osaka, Japan",
+        "address": "此花区北港緑地２丁目",
+        "google": "https://maps.app.goo.gl/3U2vBeaREcwWk6b57",
+        "text": [
+            "芝生広場、灯台、大型遊具があるグリーンスペースと釣り解放区シーサイドプロムナード",
+            "",
+            "<u>アクセス</u><br>＿＿「駅名」"
+        ]
+    },
+    "links": [
+        "<a href='../vr/?id=osaka&area=bayarea&name=hokko'>北港（舞洲・桜島） | Hokko (Yumeshima Sakurajima)</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMSrzQG0hFPYXDbPDT4y1V8enKuxh5TzeX7Jvx7=w575-h325-p-k-no",
+            "src": [
+                "AF1QipMIqTbSrVYQImaykFZLMNmzSPAAlcyTSYy6y1kZ=m18",
+                "AF1QipO9F_dRmByBDPF46hSbwVydArDlTzhxGHHpRcb3=m18",
+                "AF1QipMSrzQG0hFPYXDbPDT4y1V8enKuxh5TzeX7Jvx7=m18",
+                "AF1QipPIjTuG-7YYGuI2ytqLiRrJSKLXSAlUUJxsg9qI=m18",
+                "AF1QipNNUH6og0AVnk8bVv-d4mPchtxSfCIOP0ElCwfq=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=w575-h325-p-k-no",
+            "src": [
+                "AF1QipMxNLpPHChjdzamla7SIp3i-2Je9ApV0Q4BIjHI=m18",
+                "AF1QipPECe6JUY00MsnG8XX4cXqKVn8wu6vXLc7cOGBc=m18",
+                "AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=m18",
+                "AF1QipO7d7q3dSml69X-5f8XwZkt18zGuGYi8xk6Qbn0=m18"
+            ]
+        }
+    ]
+}

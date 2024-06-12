@@ -132,23 +132,6 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
-            'area': 'minami',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.48446852567756, 34.66987890602696]
-            },
-            'properties': {
-                'title': '西区南堀江４丁目６',
-                'address': '「道頓堀川水門」付近から汐見橋まで続く、道頓堀川沿の遊歩道',
-                'date': 'More Info',
-                'href': 'park/?area=osaka&name=minamihorie-4-6',
-                'iconSize': ['date/img/mobile.png', '4rem', '4rem'],
-                'zoom': 17.5
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'legacy',
             'area': 'minami',
             'geometry': {
@@ -199,7 +182,7 @@ const osakaMinami = {
                 'title': '天下茶屋公園',
                 'address': '大きな樹木が茂る林に覆われた大阪市営公園',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=tengachaya',
+                'href': 'spot/?id=osaka&area=minami&name=tengachaya',
                 'youtube': 'T3dnf2uGUw0',
                 'zoom': 17.5
             }
@@ -247,9 +230,9 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '苗代田公園',
-                'address': '',
-                'date': '',
-                'href': '',
+                'address': '開門午前九時 閉門夕方午後五時',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=minami&name=nawasiroda',
                 'zoom': 17
             }
         },
@@ -275,7 +258,7 @@ const osakaMinami = {
                 'title': '西成公園',
                 'address': '東側は学生や地域の人たちの憩いの場 西側は不法投棄ゴミ・不法占拠家屋群',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=nishinari',
+                'href': 'spot/?id=osaka&area=minami&name=nishinari-park',
                 'zoom': 16.5
             }
         }

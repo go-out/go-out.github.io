@@ -1,14 +1,14 @@
 {
     "title": "豊中 中部",
     "description": "___",
-    "href": "vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu",
+    "vr": "?id=osaka&area=hokusetsu&name=toyonaka-chubu",
     "info": [
         "",
         "",
         "<u>ランドマーク・お気に入りの場所</u>",
-        "<a href='../park/?area=osaka&name=hattori-ryokuchi'>服部緑地</a> <small>___</small>",
-        "<a href='../park/?area=osaka&name=tenjikugawa'>天竺川</a> <small>___</small>",
-        "<a href='../park/?area=osaka&name=fureairyokuchi'>ふれあい緑地界隈</a> <small>___</small>",
+        "<a href='../spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi'>服部緑地</a> <small>___</small>",
+        "<a href='../spot/?id=osaka&area=hokusetsu&name=tenjikugawa'>天竺川の松並木</a> <small>___</small>",
+        "<a href='../spot/?id=osaka&area=hokusetsu&name=fureairyokuchi'>ふれあい緑地界隈</a> <small>___</small>",
         "<a href='../relax/?id=spot&area=osaka&name=hokuto-kai'>さわ病院</a> <small>___</small>"
     ],
     "directory": "https://lh3.googleusercontent.com/",

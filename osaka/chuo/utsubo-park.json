@@ -1,0 +1,43 @@
+{
+    "title": "靭公園 うつぼこうえん",
+    "description": "場所の説明",
+    "year": "2024",
+    "month": "5",
+    "day": "DD",
+    "spot": "?id=osaka&area=chuo&name=utsubo-park",
+    "style": "style",
+    "info": {
+        "title": "Utsubo Park 🇯🇵 Osaka, Japan",
+        "address": "大阪市西区靱本町",
+        "google": "https://maps.app.goo.gl/WEg5UtLSkMyeH7UR6",
+        "text": [
+            "サクラ、バラ。ケヤキ並木の紅葉",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「本町」「阿波座」"
+        ]
+    },
+    "links": [
+        "<a href='https://www.osakapark.osgf.or.jp/utsubo/' target='_blank'>大阪市花と緑の情報サイト : 靭公園</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipOhlV4VOsPxk39JsuKeMcADkCHDyaZp-Twbxkdi=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMg75HJR1u_pece8TxUATZXddvLnrzeobFTi10r=m18",
+                "ggms/AF1QipOhlV4VOsPxk39JsuKeMcADkCHDyaZp-Twbxkdi=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipMJdmUBjV_3CzlILlNuSH6Wj5Cu_5jEjVsbfyTF=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMJdmUBjV_3CzlILlNuSH6Wj5Cu_5jEjVsbfyTF=m18",
+                "ggms/AF1QipOnjykypE19KFRxjEQA9PG_eqPAaYHdpD8W2vSU=m18"
+            ]
+        }
+    ]
+}

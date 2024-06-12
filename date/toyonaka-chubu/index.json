@@ -39,8 +39,18 @@
     ],
     "link": [
         {
-            "text": "リンク",
-            "url": "___",
+            "text": "服部緑地",
+            "url": "../../spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi",
+            "target": "_self"
+        },
+        {
+            "text": "天竺川の松並木",
+            "url": "../../spot/?id=osaka&area=hokusetsu&name=tenjikugawa",
+            "target": "_self"
+        },
+        {
+            "text": "ふれあい緑地界隈",
+            "url": "../../spot/?id=osaka&area=hokusetsu&name=fureairyokuchi",
             "target": "_self"
         }
     ]

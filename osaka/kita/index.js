@@ -26,6 +26,10 @@ const osakaKita = {
             'area': 'kita',
             'feature': [
                 {
+                    'month': 5,
+                    'text': '5月下旬、流れるせせらぎにホタルが舞う'
+                },
+                {
                     'month': 6,
                     'text': '6月上旬、流れるせせらぎにホタルが舞う'
                 }
@@ -38,7 +42,7 @@ const osakaKita = {
                 'title': '中自然の森',
                 'address': '新梅田シティの敷地内にある庭園施設 都会に生まれた鎮守の森',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=skybldg',
+                'href': 'spot/?id=osaka&area=kita&name=skybldg',
                 'zoom': 17.5
             }
         },

@@ -46,8 +46,9 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': 'ふれあい緑地',
-                'address': 'マリンフード豊中スイミングスタジアム',
-                'date': '',
+                'address': '服部西町5丁目、服部寿町3・5丁目',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=hokusetsu&name=fureairyokuchi',
                 'zoom': 15.5
             }
         },
@@ -61,8 +62,9 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': '千里川土手',
-                'address': '伊丹空港へ着陸する飛行機が間近に見える魅力スポット、飛行機撮影の聖地',
-                'date': '',
+                'address': '飛行機撮影の聖地 伊丹空港へ着陸する飛行機が間近に見える魅力スポット',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=hokusetsu&name=itami-airport',
                 'zoom': 15.5
             }
         },

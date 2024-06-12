@@ -1,0 +1,44 @@
+{
+    "title": "中自然の森 ちゅうしぜんのもり",
+    "description": "New Umeda City",
+    "spot": "?id=osaka&area=kita&name=skybldg",
+    "style": "style",
+    "info": {
+        "title": "Oyodonaka Kita-ku 🌹 Osaka, Japan",
+        "address": "大阪市北区大淀中１丁目１−８８",
+        "google": "https://maps.app.goo.gl/Xyq2XRTxKam6kqUA9",
+        "text": [
+            "梅田スカイビルとウェスティンホテルからなる複合都市「新梅田シティ」の敷地内にある庭園施設",
+            "「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所",
+            "都会に生まれた鎮守の森。5月下旬から6月上旬になると、流れるせせらぎにホタルが舞う",
+            "",
+            "正時に流れる大滝は、夏は午後6時から9時の4回、冬は午後4時から9時の6回、夜の中自然を幻想的にライトアップ"
+        ]
+    },
+    "links": [
+        "<a href='https://www.skybldg.co.jp/'>【公式】梅田スカイビル・空中庭園展望台</a>",
+        "<a href='https://www.sekisuihouse.co.jp/exterior/ext02/'>新梅田シティ 新・里山 | 積水ハウスの庭づくり | 積水ハウス</a>",
+        "<a href='https://www.takimikoji.jp/chushizen/index.html'>中自然の森｜レトロ食堂街 滝見小路</a>",
+        "<a href='https://www.youtube.com/watch?v=VJX86C08G8Q'>新梅田シティ音頭らくらくレッスン - YouTube</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipOoNaFubjk79ebtgxAwRTUERt527udAF3P6cE_c=w575-h325-p-k-no",
+            "src": [
+                "AF1QipOoNaFubjk79ebtgxAwRTUERt527udAF3P6cE_c=m18",
+                "AF1QipOHYSDl2BUaEqALcXMwySh1qgSZ-EdjcNNnJwM5=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipOJGrK3zFTdrZiO_t1Mab8H9A4B-xnSZhSwyk2h=w575-h325-p-k-no",
+            "src": [
+                "AF1QipOJGrK3zFTdrZiO_t1Mab8H9A4B-xnSZhSwyk2h=m18"
+            ]
+        }
+    ]
+}

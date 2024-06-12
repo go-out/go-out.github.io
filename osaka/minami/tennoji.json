@@ -1,0 +1,81 @@
+{
+    "title": "茶臼山・慶沢園",
+    "description": "2024年3月20日 の 茶臼山・慶沢園",
+    "year": "2024",
+    "month": "3",
+    "day": "20",
+    "spot": "?id=osaka&area=minami&name=tennoji",
+    "style": "style",
+    "info": {
+        "title": "Chausuyama-cho Tennoji-ku 🇯🇵 Osaka, Japan",
+        "address": "大阪市天王寺区茶臼山町",
+        "google": "https://maps.app.goo.gl/UmxAiETR1fpCb9XG6",
+        "text": [
+            "<b><ruby>茶臼山<rp>（</rp><rt>ちゃうすやま</rt><rp>）</rp></ruby></b>",
+            "「大阪五低山」の一つ、天王寺公園内の北東部に位置する茶臼山古墳の墳丘（標高 26m）",
+            "古墳内にも遊歩道が整備されていて、公園の一部として自由に立ち入れる",
+            "<u>花ごよみ</u>",
+            "ツバキ <small>11月~12月、2月~4月（品種による）</small>",
+            "",
+            "北側には、骨仏の信仰習俗（大阪市無形民俗文化財）で知られる「<ruby>一心寺<rp>（</rp><rt>いっしんじ</rt><rp>）</rp></ruby>」が隣接",
+            "<small>一心寺の講堂「<a href='https://maps.app.goo.gl/bJvVquKGfEer6g4N9' target='_blank'><ruby>三千佛堂<rp>（</rp><rt>さんぜんぶつどう</rt><rp>）</rp></ruby></a>」では、茶臼山登頂証明書（発行料100円）を発行している</small>",
+            "茶臼山の南側にある「<ruby>河底池<rp>（</rp><rt>かわぞこいけ 通称ちゃぶいけ</rt><rp>）</rp></ruby>」を越えると、慶沢園・大阪市立美術館などがある",
+            "",
+            "<hr>",
+            "<a href='../date/tennoji/#keitakuen' target='_self'><ruby>慶沢園<rp>（</rp><rt>けいたくえん</rt><rp>）</rp></ruby></a>",
+            "大阪市立美術館に燐する林泉回遊式庭園<br>茶臼山と共に、自然景観を楽しめる天王寺公園内のオアシス",
+            "<u>花ごよみ</u>",
+            "アヤメ <small>5月</small>",
+            "アジサイ <small>5月~7月</small>",
+            "サツキ <small>6月上旬</small>",
+            "ハナショウブ <small>6月~7月</small>",
+            "スイレン <small>6月上旬~9月上旬</small>",
+            "<small>入園料 大人150円／開園時間 9:30~17:00 （※ 5・7・8・9月の週末に開園時間の延長あり）</small>",
+            "",
+            "JR、Osaka Metro御堂筋線・谷町線「天王寺」・近鉄「大阪阿部野橋」から徒歩約5分"
+        ]
+    },
+    "links": [
+        "<a href='https://www.osakapark.osgf.or.jp/tennoji/' target='_blank'>大阪市花と緑の情報サイト : 天王寺公園</a>",
+        "<a href='https://www.osakapark.osgf.or.jp/tennoji_flower/' target='_blank'>大阪市花と緑の情報サイト : 天王寺公園－花ごよみ</a>",
+        "<a href='https://ja.wikipedia.org/wiki/%E8%8C%B6%E8%87%BC%E5%B1%B1%E5%8F%A4%E5%A2%B3_(%E5%A4%A7%E9%98%AA%E5%B8%82)' target='_blank'>茶臼山古墳（大阪市） - Wikipedia</a>",
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000524172.html' target='_blank'>慶沢園・茶臼山 - 大阪市</a>",
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000103457.html' target='_blank'>大阪市：長生庵（茶室）</a>",
+        "<a href='https://www.osaka-art-museum.jp/' target='_blank'>大阪市立美術館</a>",
+        "<a href='https://www.tennoji-park.jp/' target='_blank'>大阪天王寺公園エントランスエリア“てんしば”</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "chausuyama",
+            "poster": "p/AF1QipPZP2Y9QtLOYjqf_mNQ7Sm5DeZqh8tK5qipB8kL=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPZP2Y9QtLOYjqf_mNQ7Sm5DeZqh8tK5qipB8kL=m18",
+                "ggms/AF1QipMzLNGii4mmHnsB5sE83pMbSgKBxjAWjb0jHNnW=m18",
+                "ggms/AF1QipMYLpwP9_hgbWKOvs4VcHGCADkyV4KQWC1YkdP3=m18",
+                "ggms/AF1QipOGbn3o3ZdOhfmnu3DM4tCqkuOq10sxR5p3lqr2=m18"
+            ]
+        },
+        {
+            "id": "keitakuen",
+            "poster": "p/AF1QipMASw6j4qRcSdBZHXfcJtGN12G3aUVA3pRjT2Y0=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMASw6j4qRcSdBZHXfcJtGN12G3aUVA3pRjT2Y0=m18",
+                "ggms/AF1QipPOw7S5VaPwRz2XrxmHWgSMsahh9XlhA1LbhJBA=m18",
+                "ggms/AF1QipNqYzmobGpa2qBLr7XKM6_tZdPpDU8XxW_RG6rO=m18",
+                "ggms/AF1QipPEONxVRB6hOAsx2yRe0M_28fHrxVAF3wEUlGIZ=m18"
+            ]
+        },
+        {
+            "id": "osaka-art-museum",
+            "poster": "p/AF1QipO4rdYUIpcG-o0oE72NTaWSkJKQedTUTRZv4Duq=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipO4rdYUIpcG-o0oE72NTaWSkJKQedTUTRZv4Duq=m18",
+                "ggms/AF1QipPs8_-GbKJhSvwm0Rt7makEOO0Wv6JTiMsuEN9I=m18",
+                "ggms/AF1QipOhUp3g67W-Wp484grN6NG_0x9jMyCHxT-qG1Kg=m18"
+            ]
+        }
+    ]
+}

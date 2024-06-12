@@ -10,3 +10,5 @@ http://zenyoku-shimbun.org/
 
 https://yuru-to.net/
 https://e-sento.com/
+
+https://www.google.com/maps/contrib/104493917977768716042

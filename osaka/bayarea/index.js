@@ -14,7 +14,8 @@ const osakaBayarea = {
             'properties': {
                 'title': 'シーサイドコスモ（コスモスクエア海浜緑地）',
                 'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=bayarea&name=seaside-cosmo',
                 'youtube': 'EoFg1eMWADg',
                 'zoom': 16.5
             }
@@ -93,7 +94,8 @@ const osakaBayarea = {
             'properties': {
                 'title': '咲洲コンテナターミナル',
                 'address': '咲洲の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=bayarea&name=container_berth',
                 'youtube': 'rlfyH_v-fTk',
                 'iconSize': ['date/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5

@@ -1,0 +1,50 @@
+{
+    "title": "浅香中央公園 あさかちゅうおうこうえん",
+    "description": "2024年5月9日 の 浅香中央公園",
+    "year": "2024",
+    "month": "5",
+    "day": "9",
+    "spot": "?id=osaka&area=sumiyoshi&name=asakachuo-park",
+    "style": "style",
+    "info": {
+        "title": "Asaka Chuo Park 🇯🇵 Osaka, Japan",
+        "address": "大阪市住吉区浅香１丁目６",
+        "google": "https://maps.app.goo.gl/hZb379NCfrMW9Qkd6",
+        "text": [
+            "JR杉本町駅・大阪公立大学付近 広々とした芝生広場がある都市公園",
+            "（公園に隣接して、屋内プール場がある「住吉スポーツセンター」・野球場「浅香中央運動場」がある）",
+            "",
+            "芝生広場・シンボル像「獅子が空を翔ぶ日に」がある丘の周りは桜並木",
+            "公園内の道（園道）・廃線跡がある中央プロムナードにはベンチがたくさん",
+            "<small>金・土・日曜日と祝日（午前10時~午後3時）のみ営業の売店・福祉の店「わぁくわぁく浅香」がある</small>"
+        ]
+    },
+    "links": [
+        "<a href='../vr/?id=osaka&area=sumiyoshi&name=nanbu'>住吉区南部</a>",
+        "<a href='http://fukushinomise.waku-waku-asaka.pigboat.jp/' target='_blank'>わぁくわぁく浅香へようこそ</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipO6fgAzuNpbCUS3sx-qQDs5yaypRrJB-rHD7u-q=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipO6fgAzuNpbCUS3sx-qQDs5yaypRrJB-rHD7u-q=m18",
+                "ggms/AF1QipNGNAuNbpmwV8jbN-9Nt19o6UQWSsMKwIMAj-zj=m18",
+                "ggms/AF1QipMw-pqsTlKUBj_HoN8uazljASv1jiJWx2B1inlV=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipOC5MkofGNQuMhrEczwZeJdUqV7ZPRFSNL2yBRu=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPD13HyHX78w11T2d0kqjAilZk15fcZ4sgtbdh3=m18",
+                "ggms/AF1QipOC5MkofGNQuMhrEczwZeJdUqV7ZPRFSNL2yBRu=m18",
+                "ggms/AF1QipNRL_KQEkiv69nwe5nTgF6W6RXIO32kY-rqzYbm=m18",
+                "ggms/AF1QipMAPBcPv01STBzQ-8W2OMH4iCiHl3fcl2C_47rL=m18"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "title": "天竺川 の 松並木",
+    "description": "松並木",
+    "year": "2024",
+    "month": "5",
+    "day": "11",
+    "spot": "?id=osaka&area=hokusetsu&name=tenjikugawa",
+    "style": "style",
+    "info": {
+        "title": "Tenjikugawa 🌲 Toyonaka Osaka, Japan",
+        "address": "大阪府豊中市",
+        "google": "https://maps.app.goo.gl/ERA2FaQ99x3v8zuk9",
+        "text": [
+            "",
+            "<u>___</u>",
+            "___",
+            "<small>___</small>",
+            "",
+            "<u>アクセス</u><br>___",
+            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/poayp1BqUkgbty2G6' target='_blank'>住之江公園 管理事務所</a> <small>貸出時間は午前8時30分から午後5時</small>"
+        ]
+    },
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%AB%BA%E5%B7%9D' target='_blank'>天竺川 - Wikipedia</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNF07LkBNNFiyJjNQ0n6-VgywP5zqxnOlveIzlr=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNF07LkBNNFiyJjNQ0n6-VgywP5zqxnOlveIzlr=m18",
+                "ggms/AF1QipNTL5t3n6Y986xZVGnWkLKXxydGs8FUq7avplF7=m18",
+                "ggms/AF1QipPBjHsx6Q0rhxYml_lbOW740TVg7BhL99MUG17l=m18",
+                "ggms/AF1QipP0SdWRTxZE3psaERFuXQQb1QFsTAU3kBxNt-G4=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipOBpmSEusumdJ3Kox51va5VFXsbmgOAHCemuMvP=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipOYXqwm_Ko-8iIH9UOxeJx4NnwmPTbALUBt2w-X=m18",
+                "ggms/AF1QipPewUB25JylXLPUHsD2eRyM8_8B4I1rqzZA3uTl=m18",
+                "ggms/AF1QipOBpmSEusumdJ3Kox51va5VFXsbmgOAHCemuMvP=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipNfRwY1flqLYrCrtmQ3po-F3TAgfEq4b47Kn67J=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNfRwY1flqLYrCrtmQ3po-F3TAgfEq4b47Kn67J=m18",
+                "ggms/AF1QipOD_2z0aPv9wpNbQrzyt5Dg1dV453dVFpbpqttH=m18",
+                "ggms/AF1QipMmUE0zIqMNiPlviheDaStlXwxVtUztoEzeyBvD=m18"
+            ]
+        }
+    ]
+}

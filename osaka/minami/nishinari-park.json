@@ -1,0 +1,48 @@
+{
+    "title": "西成公園 にしなりこうえん",
+    "description": "2024年4月30日 の 西成公園",
+    "year": "2024",
+    "month": "4",
+    "day": "30",
+    "spot": "?id=osaka&area=minami&name=nishinari-park",
+    "style": "style",
+    "info": {
+        "title": "Nishinari Park 🇯🇵 Osaka, Japan",
+        "address": "大阪市西成区津守１丁目１３",
+        "google": "https://maps.app.goo.gl/vkCsB1csNEcp4AQX6",
+        "text": [
+            "南海汐見橋線「津守」からすぐ（渡船場「落合上」「落合下」まで徒歩圏内）",
+            "東側（津守駅側）は緑あふれる憩いの場・西側（渡船場側）は不法投棄ゴミ・不法占拠家屋群",
+            "東西を横切るメタセコイアの並木道は、例年11月下旬から12月上旬に美しく紅葉する",
+            "",
+            "公園の西側へ抜ける小道、ブルーシートハウス群、木津川沿い一帯の工場地帯はここならではな異質な雰囲気",
+            "<small>渡し船で木津川を渡った「大正区 千島〜平尾」は、沖縄の雰囲気が特に色濃い地域 大阪市のリトル沖縄</small>"
+        ]
+    },
+    "links": [
+        "<a href='../osaka/ferry/'>渡し船に乗ろう Osaka Ferry Virtual Cruise</a>",
+        "<a href='../vr/?id=osaka&area=bayarea&name=hirao'>大正区 平尾 Hirao Taisho, Osaka</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipPxQeJHth9h6GYo3dkcfCczZCtLVOpGlgb4213n=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipP0Hcv_1LV8z29At3rmdUUz91omwc0A7IWbFaJc=m18",
+                "ggms/AF1QipPxQeJHth9h6GYo3dkcfCczZCtLVOpGlgb4213n=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipOcyjFJoXCsN-R9OYbB2PscFxk9xjfw38ieD3N1=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMmLof59_s0U-yu_7wwW2uvuLTAWt6W96B9RuHe=m18",
+                "ggms/AF1QipOcyjFJoXCsN-R9OYbB2PscFxk9xjfw38ieD3N1=m18",
+                "ggms/AF1QipNidnrt9OlcQP1oRO9HTZy144j2rhc2EMrpcooL=m18"
+            ]
+        }
+    ]
+}

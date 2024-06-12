@@ -15,7 +15,7 @@ const osakaSakai = {
                 'title': '大仙公園',
                 'address': '世界最大の墳墓「大仙陵古墳」の南に位置する総合公園',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=daisenkouen',
+                'href': 'spot/?id=osaka&area=senboku&name=daisenkouen',
                 'zoom': 15.5
             }
         },
@@ -56,6 +56,22 @@ const osakaSakai = {
                 'title': '浅香山緑道',
                 'address': '浅香山公園と大和川公園を結ぶ緑道',
                 'date': '',
+                'zoom': 15.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'senboku',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52757071534165, 34.56483655987844]
+            },
+            'properties': {
+                'title': '大泉緑地',
+                'address': '約200種32万本もの樹木が植えられた一大森林公園',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=senboku&name=oizumi',
                 'zoom': 15.5
             }
         },

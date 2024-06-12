@@ -1,0 +1,54 @@
+{
+    "title": "千里川土手 せんりがわどて",
+    "description": "飛行機撮影の聖地 伊丹空港へ着陸する飛行機が間近に見える魅力スポット",
+    "year": "2024",
+    "month": "5",
+    "day": "11",
+    "spot": "?id=osaka&area=hokusetsu&name=itami-airport",
+    "style": "style",
+    "info": {
+        "title": "Name 🇯🇵 Area, Japan",
+        "address": "住所",
+        "google": "https://maps.app.goo.gl/___",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "",
+            "<b>祭事</b><br><u>日時</u><br>詳細",
+            "",
+            "<u>アクセス</u><br>＿＿「駅名」"
+        ]
+    },
+    "links": [
+        "<a href='../vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu'>豊中 中部</a>",
+        "<a href='___' target='_blank'>リンク</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNLlosJ43linBrxf4oKUwphc4_g1VI5mtIX8i9X=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNUznjIeEjhBiMfo--eP2DPVbsL5yHp1nd7ZO5o=m18",
+                "ggms/AF1QipNLlosJ43linBrxf4oKUwphc4_g1VI5mtIX8i9X=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipOiCXZvlush22KD0OdFeqD6LaK33dU12_HzZScy=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNZbmgavaoyHPDPVkuvUTaIL_jL-CkxYtDgfBpj=m18",
+                "ggms/AF1QipOiCXZvlush22KD0OdFeqD6LaK33dU12_HzZScy=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipOyIVnEiPfAIsxM1jTjW02Q32yEOulqcYt-rLG3=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipOyIVnEiPfAIsxM1jTjW02Q32yEOulqcYt-rLG3=m18",
+                "ggms/AF1QipPhmRjMTAIo7vBZqi6h_5y4hbNcgqr9qaOKN0wE=m18"
+            ]
+        }
+    ]
+}

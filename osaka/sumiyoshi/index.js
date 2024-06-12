@@ -32,7 +32,7 @@ const osakaSumiyoshi = {
                 'title': '住吉公園 花と水の広場',
                 'address': 'ウォーターカーテン（噴水）は、毎日10:30・13:00・15:30の3回20分',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=sumiyoshi',
+                'href': 'spot/?id=osaka&area=sumiyoshi&name=sumiyoshi',
                 'youtube': 'gfwP_viCeZg',
                 'zoom': 17.5
             }
@@ -49,7 +49,7 @@ const osakaSumiyoshi = {
                 'title': '住吉公園 心字池',
                 'address': 'かつて浜であった公園開設当初の佇まいを今に伝える場所',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=sumiyoshi',
+                'href': 'spot/?id=osaka&area=sumiyoshi&name=sumiyoshi',
                 'youtube': 'mkioDOspLbs',
                 'zoom': 17.25
             }
@@ -116,7 +116,8 @@ const osakaSumiyoshi = {
             'properties': {
                 'title': '浅香中央公園',
                 'address': '広々とした芝生広場「獅子が空を翔ぶ日に」',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=sumiyoshi&name=asakachuo-park',
                 'zoom': 16
             }
         },
