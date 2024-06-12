@@ -15,7 +15,7 @@ const osakaKawachi = {
                 'title': '八尾空港',
                 'address': '定期便の就航はない「その他の空港」に位置づけられる国管理空港',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=yao-airport',
+                'href': 'spot/?id=osaka&area=kawachi&name=yao-airport',
                 'youtube': 'geqXiPdwMvw',
                 'zoom': 14
             }

@@ -2,7 +2,7 @@
     "title": "場所の名前 よみ",
     "description": "場所の説明",
     "spot": "?id=ID&area=エリア&name=名前",
-    "style": "__",
+    "style": "relax",
     "info": {
         "title": "Name 🇯🇵 Area, Japan",
         "address": "住所",

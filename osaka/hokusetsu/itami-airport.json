@@ -7,9 +7,9 @@
     "spot": "?id=osaka&area=hokusetsu&name=itami-airport",
     "style": "style",
     "info": {
-        "title": "Name 🇯🇵 Area, Japan",
-        "address": "住所",
-        "google": "https://maps.app.goo.gl/___",
+        "title": "Snrigawa Dote ✈ Toyonaka Osaka, Japan",
+        "address": "大阪府豊中市原田中２丁目",
+        "google": "https://maps.app.goo.gl/3nGSHpnGYqkqHByc7",
         "text": [
             "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
             "",
@@ -20,7 +20,7 @@
     },
     "links": [
         "<a href='../vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu'>豊中 中部</a>",
-        "<a href='___' target='_blank'>リンク</a>"
+        "<a href='https://www.city.toyonaka.osaka.jp/machi/kukou/kuko/access.html' target='_blank'>飛行機が間近に見える魅力スポット「千里川土手」　豊中市</a>"
     ],
     "width": "0.575",
     "height": "1",

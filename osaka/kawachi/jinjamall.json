@@ -1,0 +1,33 @@
+{
+    "title": "ジンジャモール瓢箪山",
+    "description": "近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街",
+    "spot": "?id=osaka&area=kawachi&name=jinjamall",
+    "style": "style",
+    "info": {
+        "title": "Jinja Mall Hyotanyama 🇯🇵 Higashi Osaka, Japan",
+        "address": "大阪府東大阪市神田町",
+        "google": "https://maps.app.goo.gl/jerofJXdvQh5Ck5g8",
+        "text": [
+            "商店街の至る所にマスコットキャラクターのお稲荷さんのおつかいキツネ「ひょこタン」がいる"
+        ]
+    },
+    "links": [
+        "<a href='../legacy/?area=osaka&name=hyotanyama-inari'>瓢箪山稲荷神社 ⛩ Hyoutan-yama Inari</a>",
+        "<a href='https://www.jinjyamall.com/' target='_blank'>商店街 | ジンジャモール瓢箪山 | 東大阪市</a>",
+        "<a href='http://blog.livedoor.jp/jinjamall/' target='_blank'>ジンジャモール瓢箪山 - ライブドアブログ</a>"
+    ],
+    "width": "0.75",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/p/",
+    "img": [
+        "AF1QipPfhspJqEHq3Nzx_nFkDEqo58dcfVPjDjbanixr=s0",
+        "AF1QipOxmVuTcdtVqOZyangvFi5Nun0RijoCjfKA1TEj=s0",
+        "AF1QipPm8ORm-20PvII6sDmcFwZyTCUGj6DCasB5lU7K=s0",
+        "AF1QipPkv15UA2GXQPngG_c5P0zCi1kfnEtoYZhTlRdw=s0",
+        "AF1QipOvMNnMO9V36xiaX5RRIi4pA3_WJScmCCnZcAkX=s0",
+        "AF1QipMNKu6iGFS-p5EGTX1cuSSWqGMGBq77YwBNKDQU=s0",
+        "AF1QipNjn76quP70F5EEA0NdGvGaoDjFbJ0spEv1tZh5=s0",
+        "AF1QipObvsZ4B0s9w6GOopkNGm0_0zG9ZLaXEk-Uxmai=s0",
+        "AF1QipM5B1S8sn8C04hKhaB5bJzV7Ye8Yeq96e1yQBMr=s0"
+    ]
+}

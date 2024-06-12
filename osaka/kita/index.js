@@ -15,7 +15,7 @@ const osakaKita = {
                 'title': '阪急梅田コンコース',
                 'address': '阪急うめだ本店の阪急電車側、人々が行き交うコンコースを眺められる場所。',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=hankyu-umeda',
+                'href': 'spot/?id=osaka&area=kita&name=hankyu-umeda',
                 'youtube': 'qzIy_qtpNh8',
                 'zoom': 17.5
             }

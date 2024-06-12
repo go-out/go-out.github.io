@@ -1,0 +1,21 @@
+{
+    "title": "阪急梅田コンコース",
+    "description": "阪急うめだ本店の阪急電車側、人々が行き交うコンコースを眺められる場所。",
+    "spot": "?id=osaka&area=kita&name=hankyu-umeda",
+    "style": "relax",
+    "info": {
+        "title": "阪急梅田コンコース",
+        "address": "大阪市北区角田町８",
+        "google": "https://maps.app.goo.gl/u6UphUJpESfYb9436",
+        "text": [
+            "<a href='https://maps.app.goo.gl/JwXTaFHuWGssB2Vr8' target='_blank'>梅田新歩道橋</a> から阪急「大阪梅田」駅方面、<a href='https://maps.app.goo.gl/r7JGGku8CUGL15fH6' target='_blank'>梅田イス・UMEDAオブジェ</a> のあるサン広場へ抜ける、人通りの少ない歩道",
+            "この歩道から、人が行き交うコンコースを眺めていると、ここにいるのにいないような気持ちになれる"
+        ]
+    },
+    "links": [
+        "<a href='https://www.hankyu.co.jp/company/news/pdf/ER201204123N2.pdf' target='_blank'>2012年4月12日 阪急うめだ本店前コンコースが、この秋、全面開通します</a>",
+        "<br><small>旧阪急うめだコンコースの象徴であったアーチ型天井は、阪急うめだ本店13階に移設し、再現されています</small>"
+    ],
+    "youtube": "qzIy_qtpNh8",
+    "height": "0.55"
+}

@@ -1,0 +1,43 @@
+{
+    "title": "日本聖公会 川口基督教会",
+    "description": "Kawaguchi Christ Church Cathedral",
+    "spot": "?id=osaka&area=chuo&name=kawaguchi-church",
+    "style": "style",
+    "info": {
+        "title": "Kawaguchi Church  🇯🇵 Osaka, Japan",
+        "address": "西区川口１丁目３−８",
+        "google": "https://maps.app.goo.gl/Uk9pK49yxLqWxkdq8",
+        "text": [
+            "カトリックの伝統を大切に保ちながら、カトリック教会とプロテスタント教会の中道を歩む「橋渡しの教会」日本聖公会に属する教会",
+            "創立120周年記念に設置されたパイプオルガンがある",
+            "",
+            "<u>___</u>",
+            "<strong>___</strong><br>___",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「阿波座」⑦号出口（西郵便局横手）より徒歩約7分"
+        ]
+    },
+    "links": [
+        "<a href='https://www.nskk.org/osaka/church/kawaguchi/' target='_blank'>日本聖公会 川口基督教会 トップページ</a>",
+        "<a href='https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%8F%A3%E5%9F%BA%E7%9D%A3%E6%95%99%E4%BC%9A' target='_blank'>川口基督教会 - Wikipedia</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipODjj1Q2CgIl6ErhJZr9e_OSkwTCyhmHWn0TcGv=w575-h325-p-k-no",
+            "src": [
+                "ggs/AF1QipODjj1Q2CgIl6ErhJZr9e_OSkwTCyhmHWn0TcGv=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipPU9l0GbHvwttJphdZnwKzUWRo_PPbCO5EPs4y1=w575-h325-p-k-no",
+            "src": [
+                "ggs/AF1QipPU9l0GbHvwttJphdZnwKzUWRo_PPbCO5EPs4y1=m18"
+            ]
+        }
+    ]
+}

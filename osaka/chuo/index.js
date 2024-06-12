@@ -46,7 +46,8 @@ const osakaChuo = {
             'properties': {
                 'title': '日本基督教団 大阪教会',
                 'address': '国の登録有形文化財 生きた建築ミュージアム・大阪セレクション 大阪府指定有形文化財 ',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=osaka-church',
                 'zoom': 18
             }
         },
@@ -142,7 +143,8 @@ const osakaChuo = {
             'properties': {
                 'title': '日本基督教団 浪花教会',
                 'address': '隔月第一金曜日 12時15分~45分 礼拝堂にてオルガンコンサートが開催される（夏季はお休み）',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=naniwachurch',
                 'zoom': 18.5
             }
         },
@@ -157,7 +159,8 @@ const osakaChuo = {
             'properties': {
                 'title': '日本聖公会 川口基督教会',
                 'address': '創立120周年記念に設置されたパイプオルガンがある',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=kawaguchi-church',
                 'zoom': 17
             }
         },

@@ -109,7 +109,7 @@ const osakaMinami = {
                 'title': 'やすらぎ天空館',
                 'address': '穏やかでやすらぎに満ちた天空に飛び立てるようにとの願いが込められた大阪市の公営斎場',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=tennkukan',
+                'href': 'spot/?id=osaka&area=minami&name=tennkukan',
                 'zoom': 16.5
             }
         },

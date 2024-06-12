@@ -31,7 +31,8 @@ const osakaBayarea = {
             'properties': {
                 'title': '大阪府咲洲庁舎（さきしまコスモタワー）',
                 'address': '1階広場「フェスパ」 何をする訳でもなく、ただぼーっと過ごす',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=bayarea&name=wtc-cosmotower',
                 'youtube': '9E8UZio4SJM',
                 'zoom': 17.5
             }
@@ -78,7 +79,8 @@ const osakaBayarea = {
             'properties': {
                 'title': '南港魚つり園護岸',
                 'address': '南港南の西の果て 大きな空と海を一望できる気持ちのいい場所',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=bayarea&name=nankou-uotsuri-en',
                 'youtube': '9DRiQ5CVcjE',
                 'zoom': 16
             }
@@ -128,7 +130,8 @@ const osakaBayarea = {
             'properties': {
                 'title': '大阪広域環境施設組合 舞洲工場',
                 'address': '建物内の見学は事前予約制<br>1階エントランスホールは月曜日から金曜日（年末年始、祝日は除く）9時から17時のみ一般開放',
-                'date': '',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=bayarea&name=maishimakojo-kojo',
                 'youtube': 'mJw6qQt_T9o',
                 'zoom': 16.5
             }
