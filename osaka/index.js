@@ -53,9 +53,9 @@ const osakaIndex = {
             },
             'properties': {
                 'title': '毛馬桜之宮公園',
-                'address': '大川の流れに沿ったプロムナード 全長4.2kmのリバーサイドパーク',
+                'address': '大川の流れに沿ったプロムナード・リバーサイドパーク',
                 'date': 'More Info',
-                'href': 'vr/?id=osaka&area=kita&name=sakuranomiya',
+                'href': 'date/sakuranomiya/',
                 'iconSize': ['osaka/kita/icon/miyakojima.gif', '3.5rem', '3.5rem'],
                 'zoom': 14
             }
@@ -80,7 +80,7 @@ const osakaIndex = {
             },
             'properties': {
                 'title': '中之島',
-                'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水する',
+                'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水',
                 'date': 'More Info',
                 'href': 'vr/?id=osaka&area=kita&name=nakanoshima',
                 'iconSize': ['osaka/kita/icon/kita.png', '3.5rem', '3.5rem'],
@@ -231,10 +231,10 @@ const osakaIndex = {
                 'coordinates': [135.49821528169355, 34.69200708466718]
             },
             'properties': {
-                'title': '住友ビルデイング（現・三井住友銀行大阪本店ビル）',
-                'address': '近代建築を代表する規模と美しさを誇る大規模建築',
+                'title': '住友村',
+                'address': '旧住友財閥（住友グループ）系のオフィスビルなど、レトロビルが立ち並ぶ地域',
                 'date': 'More Info',
-                'href': 'spot/?id=osaka&area=chuo&name=sumitomo',
+                'href': 'vr/?id=osaka&area=chuo&name=retro-building',
                 'zoom': 18
             }
         },

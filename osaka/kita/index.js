@@ -52,6 +52,51 @@ const osakaKita = {
             'area': 'kita',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.4930162286209, 34.698976243867584]
+            },
+            'properties': {
+                'title': 'HERBIS PLAZA 1F オルガン広場',
+                'address': 'シアターオルガン自動演奏 時間 11:02 / 12:00 / 15:00 / 18:00 / 19:55',
+                'date': '',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'kita',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49170770887977, 34.69506595772344]
+            },
+            'properties': {
+                'title': 'NTTテレパーク堂島',
+                'address': '__',
+                'date': '',
+                'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'kita',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5243151742358, 34.6947685223501]
+            },
+            'properties': {
+                'title': '中之島ガーデンブリッジ',
+                'address': '堂島川（大江橋と渡辺橋の間）に架かる歩行者専用の橋<br>橋の中央には憩い空間・松岡阜の彫刻「そよかぜ」がある',
+                'date': '',
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'kita',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.52321201539763, 34.71184263555778]
             },
             'properties': {
@@ -67,11 +112,11 @@ const osakaKita = {
             'area': 'kita',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.52089606493735, 34.71124351717242]
+                'coordinates': [135.5156774806331, 34.71950905756793]
             },
             'properties': {
-                'title': '飛翔橋',
-                'address': '他に例のない二重のアーチ橋（ニールセン・ローゼ桁）の歩行者専用橋',
+                'title': '淀川旧分流施設',
+                'address': '淀川河川公園（長柄河畔地区） 毛馬第一閘門および洗堰',
                 'date': '',
                 'zoom': 16.5
             }
@@ -87,21 +132,6 @@ const osakaKita = {
             'properties': {
                 'title': '藤田邸跡公園（旧藤田邸庭園）',
                 'address': '大阪経済の基礎を築いた関西実業界の中心人物 藤田傳三郎（藤田財閥）の大邸宅の跡に開かれた都市公園',
-                'date': '',
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'area': 'kita',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5243151742358, 34.6947685223501]
-            },
-            'properties': {
-                'title': '中之島ガーデンブリッジ',
-                'address': '堂島川（大江橋と渡辺橋の間）に架かる歩行者専用の橋<br>橋の中央には憩い空間・松岡阜の彫刻「そよかぜ」がある',
                 'date': '',
                 'zoom': 16.5
             }

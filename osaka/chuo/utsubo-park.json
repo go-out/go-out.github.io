@@ -1,9 +1,9 @@
 {
-    "title": "靭公園 うつぼこうえん",
-    "description": "場所の説明",
+    "title": "靭公園 バラ園",
+    "description": "Utsubo Park Rose Garden",
     "year": "2024",
     "month": "5",
-    "day": "DD",
+    "day": "17",
     "spot": "?id=osaka&area=chuo&name=utsubo-park",
     "style": "style",
     "info": {
@@ -11,7 +11,7 @@
         "address": "大阪市西区靱本町",
         "google": "https://maps.app.goo.gl/WEg5UtLSkMyeH7UR6",
         "text": [
-            "サクラ、バラ。ケヤキ並木の紅葉",
+            "バラ園の見頃は5月中旬と10月中旬から下旬",
             "",
             "<u>アクセス</u><br>Osaka Metro「本町」「阿波座」"
         ]

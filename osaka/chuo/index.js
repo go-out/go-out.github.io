@@ -23,68 +23,6 @@ const osakaChuo = {
             'type': 'Feature',
             'tags': 'draft',
             'area': 'chuo',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.50696954332957, 34.689792725138346]
-            },
-            'properties': {
-                'title': '三井住友銀行 大阪中央支店',
-                'address': '堺筋に面して建つ大規模な銀行建築 北浜のランドマーク ',
-                'date': 'More Info',
-                'href': 'spot/?id=osaka&area=chuo&name=sumitomo',
-                'zoom': 18.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'area': 'chuo',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49353508094396, 34.689391369622015]
-            },
-            'properties': {
-                'title': '日本基督教団 大阪教会',
-                'address': '国の登録有形文化財 生きた建築ミュージアム・大阪セレクション 大阪府指定有形文化財 ',
-                'date': 'More Info',
-                'href': 'spot/?id=osaka&area=chuo&name=osaka-church',
-                'zoom': 18
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'area': 'chuo',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5003017289354, 34.688056935194446]
-            },
-            'properties': {
-                'title': '大阪ガスビルディング',
-                'address': '大阪のシンボル・ストリート御堂筋に面して建つガスビル',
-                'date': '',
-                'zoom': 18.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'area': 'chuo',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4985386129209, 34.69064889005804]
-            },
-            'properties': {
-                'title': 'アンティカ オステリア ダル ポンピエーレ',
-                'address': '1925年建築の旧消防署を改装して造られたイタリア料理店<br>アンティカ オステリア（古い食堂）ダル ポンピエーレ（消防士）',
-                'date': '',
-                'zoom': 18
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'area': 'chuo',
             'feature': [
                 {
                     'month': 6,
@@ -108,27 +46,13 @@ const osakaChuo = {
             'area': 'chuo',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5298673963837, 34.68177091192358]
+                'coordinates': [135.49353508094396, 34.689391369622015]
             },
             'properties': {
-                'title': '大阪国際平和センター（ピースおおさか）',
-                'address': '大阪空襲を語り継ぐ平和ミュージアム<br>時間 9:30~17:00 休館日 月曜日（ただし、祝日の翌日および月末が日曜日にあたるときは、その翌々日の火曜日）',
-                'date': '',
-                'zoom': 17.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'area': 'chuo',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.52168463501457, 34.67483293882476]
-            },
-            'properties': {
-                'title': 'NEXT21',
-                'address': '近未来の都市型住宅のあり方について、環境・エネルギー・暮らしの面から実証・提案することを目的とした実験集合住宅',
-                'date': '',
+                'title': '日本基督教団 大阪教会',
+                'address': '国の登録有形文化財 大阪府指定有形文化財<br>毎週木曜日 12時15分～12時45分 パイプオルガンの演奏とともに​正午礼拝が行われる',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=osaka-church',
                 'zoom': 18
             }
         },
@@ -170,6 +94,52 @@ const osakaChuo = {
             'area': 'chuo',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.50696954332957, 34.689792725138346]
+            },
+            'properties': {
+                'title': '三井住友銀行 大阪中央支店',
+                'address': '堺筋に面して建つ大規模な銀行建築 北浜のランドマーク',
+                'date': 'More Info',
+                'href': 'spot/?id=osaka&area=chuo&name=sumitomo',
+                'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5003017289354, 34.688056935194446]
+            },
+            'properties': {
+                'title': '大阪ガスビルディング',
+                'address': '大阪のシンボル・ストリート御堂筋に面して建つガスビル',
+                'date': '',
+                'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4985386129209, 34.69064889005804]
+            },
+            'properties': {
+                'title': 'アンティカ オステリア ダル ポンピエーレ',
+                'address': '1925年建築の旧消防署を改装して造られたイタリア料理店<br>アンティカ オステリア（古い食堂）ダル ポンピエーレ（消防士）',
+                'date': '',
+                'zoom': 18
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.486595777065, 34.67605160655378]
             },
             'properties': {
@@ -177,6 +147,36 @@ const osakaChuo = {
                 'address': '',
                 'date': '',
                 'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5298673963837, 34.68177091192358]
+            },
+            'properties': {
+                'title': '大阪国際平和センター（ピースおおさか）',
+                'address': '大阪空襲を語り継ぐ平和ミュージアム<br>時間 9:30~17:00 休館日 月曜日（ただし、祝日の翌日および月末が日曜日にあたるときは、その翌々日の火曜日）',
+                'date': '',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52168463501457, 34.67483293882476]
+            },
+            'properties': {
+                'title': 'NEXT21',
+                'address': '近未来の都市型住宅のあり方について、環境・エネルギー・暮らしの面から実証・提案することを目的とした実験集合住宅',
+                'date': '',
+                'zoom': 18
             }
         },
         {

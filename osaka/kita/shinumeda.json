@@ -1,17 +1,16 @@
 {
     "title": "新梅田シティ",
     "description": "Shin Umeda City",
-    "href": "?id=osaka&area=kita&name=shinumeda",
+    "vr": "?id=osaka&area=kita&name=shinumeda",
     "info": [
         "梅田スカイビル、ウェスティンホテル大阪を中心とする複合都市",
         "",
         "<u>ランドマーク・お気に入りの場所</u>",
-        "<a href='https://maps.app.goo.gl/qULgRM5SdvAUnXYYA' target='_blank'>梅田スカイビル</a> <small>屋上に空中庭園展望台を備える2棟連結の超高層ビル</small>",
         "<a href='https://maps.app.goo.gl/B4b1qZT5AkHQkaHD6' target='_blank'>ワンダースクエア</a> <small>梅田スカイビルの2つの棟にはさまれた1F中央広場 巨大吹き抜け空間</small>",
-        "<a href='https://maps.app.goo.gl/wZiXa7gmKvv5o8CH7' target='_blank'>大滝・列柱滝</a> <small>大滝は毎時・列柱滝は20〜30分に10分間放水（夏は午後6時から9時の4回、冬は午後4時から9時の6回ライトアップ）</small>",
+        "<a href='../spot/?id=osaka&area=kita&name=skybldg'>大滝・列柱滝</a> <small>大滝は毎時・列柱滝は20〜30分に10分間放水（夏は午後6時から9時の4回、冬は午後4時から9時の6回ライトアップ）</small>",
         "<a href='https://maps.app.goo.gl/KG1UAv6weuFoeEqq8' target='_blank'>中自然の森</a> <small>大滝や渓流、渓谷など自然に囲まれた都会に生まれた鎮守の森</small>",
         "<a href='https://maps.app.goo.gl/K5n6BSJEhxsszVWx5' target='_blank'>花野〜新・里山〜</a> <small>梅田スカイビルの北側 「自然との共存」をテーマとした新・里山</small>",
-        "<a href='https://maps.app.goo.gl/3j8qQ565cXFqiWzVA' target='_blank'>ウェスティンホテル大阪</a> <small>__</small>"
+        "<a href='../spot/?id=osaka&area=kita&name=westin'>ウェスティンホテル大阪</a> <small>__</small>"
     ],
     "directory": "https://lh3.googleusercontent.com/ggms/",
     "landscape": "repeat(3, 1fr)",

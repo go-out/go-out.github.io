@@ -1,7 +1,7 @@
 {
     "title": "オオサカガーデンシティ",
     "description": "OSAKA GARDEN CITY",
-    "href": "?id=osaka&area=kita&name=gardencity",
+    "vr": "?id=osaka&area=kita&name=gardencity",
     "info": [
         "西梅田地区の大半を占める、オフィスビル・商業施設・ホテル・専門学校などで構成される超高層ビル群",
         "",
@@ -10,8 +10,7 @@
         "<a href='https://maps.app.goo.gl/v2wpiXZhPNaYGBfJ9' target='_blank'>ハービスPLAZA</a> <small>シアターオルガン自動演奏 演奏時間 11:02 / 12:00 / 15:00 / 18:00 / 19:55</small>",
         "<a href='https://maps.app.goo.gl/pbaXYPGavyEhNHrJ8' target='_blank'>ザ・リッツ・カールトン大阪</a> <small>英国の大邸宅の優雅さと日本の幽玄の美が融合した5つ星ホテル</small>",
         "<a href='https://maps.app.goo.gl/NA2CpJnwe8QqyyEZ9' target='_blank'>ホテルモントレ大阪</a> <small>ウィーンの貴族の館を再現、華麗なオーストリア宮廷文化の世界</small>",
-        "<a href='https://maps.app.goo.gl/qi6pFwoUSPJyTEtv7' target='_blank'>TKPゲートタワービル</a> <small>ビルに高速道路が貫通している</small>",
-        "<a href='__' target='_blank'>テレパーク</a> <small>__</small>"
+        "<a href='https://maps.app.goo.gl/qi6pFwoUSPJyTEtv7' target='_blank'>TKPゲートタワービル</a> <small>ビルに高速道路が貫通している</small>"
     ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(3, 1fr)",

@@ -1,7 +1,7 @@
 {
     "title": "中之島 なかのしま",
     "description": "Nakanoshima 🌹 Osaka, Japan",
-    "href": "?id=osaka&area=kita&name=nakanoshima",
+    "vr": "?id=osaka&area=kita&name=nakanoshima",
     "info": [
         "堂島川と土佐堀川に挟まれた中洲「中之島」<br>大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア",
         "",
@@ -9,10 +9,11 @@
         "<a href='https://maps.app.goo.gl/n98W45pnRi1gx9QL6' target='_blank'>中之島公園</a> <small>大阪市初の市営公園 緑あふれる都心のオアシス</small>",
         "<a href='https://maps.app.goo.gl/C3CiXhhdGzGqAbWj6' target='_blank'>バラ園</a> <small>例年5月中旬~下旬・10月中旬~11月上旬、北区の花が咲き誇る</small>",
         "<a href='https://maps.app.goo.gl/vhehs5MsdbALm4qx9' target='_blank'>剣先噴水</a> <small>芝生広場の先にある噴水 10時～20時30分までの毎時0分・30分に約5分間放水する</small>",
-        "<a href='https://maps.app.goo.gl/pyT7ZnmnVtxX7Fzx8' target='_blank'>みおつくしプロムナード</a> <small>大阪市役所の南側にあるケヤキ並木の遊歩道（例年12月、イルミネーションが装飾される）</small>",
         "<a href='https://maps.app.goo.gl/pHF9sipfgoE27txNA' target='_blank'>アートエリアB1</a> <small>京阪電車「なにわ橋」地下1階に位置するコミュニティ・スペース</small>",
         "<a href='https://maps.app.goo.gl/pUHpXtJ21CsoFWDHA' target='_blank'>こども本の森 中之島</a> <small>本や芸術文化を通じて子どもたちが豊かな創造力を育むための文化施設</small>",
-        "<a href='https://maps.app.goo.gl/MRV7vffKR9HTCqNs5' target='_blank'>中之島ガーデンブリッジ</a> <small>くつろぎ空間が確保されている歩行者専用橋</small>"
+        "<a href='https://maps.app.goo.gl/MRV7vffKR9HTCqNs5' target='_blank'>中之島ガーデンブリッジ</a> <small>くつろぎ空間が確保されている歩行者専用橋</small>",
+        "<a href='https://maps.app.goo.gl/6mb1rydiCQHph4Jb9' target='_blank'>中之島緑道</a> <small>公募より選定された「水・緑・光」がテーマの10点の彫刻作品が設置されている自然とパブリックアートが共存した散歩道/small>",
+        "<a href='https://maps.app.goo.gl/oDEJ9bDCh4qMoquK9' target='_blank'>錦橋</a> <small>江戸末期から明治初期に画かれた大阪の橋をテーマにした錦絵が展示されている歩行者専用橋</small>"
     ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(2, 1fr)",
@@ -53,6 +54,8 @@
         "<a href='https://www.pref.osaka.lg.jp/nishiosaka/shore/light-up.html'>大阪府／水の回廊ライトアップ</a>",
         "<a href='https://artarea-b1.jp/'>アートエリア B1</a>",
         "<a href='https://kodomohonnomori.osaka/'>こども本の森 中之島</a>",
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000026036.html'>大阪市：中之島ガーデンブリッジ（なかのしまがーでんぶりっじ）</a>"
+        "<a href='https://public-art.jp/archives/category/museums/nakanoshimagreenroad'>中之島緑道 | Public ART</a>",
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000026036.html'>大阪市：中之島ガーデンブリッジ（なかのしまがーでんぶりっじ）</a>",
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000023833.html'>大阪市：錦橋（にしきばし）</a>"
     ]
 }

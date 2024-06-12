@@ -1,18 +1,19 @@
 {
-    "title": "中自然の森 ちゅうしぜんのもり",
-    "description": "New Umeda City",
+    "title": "新梅田シティ 大滝・列柱滝",
+    "description": "大滝は毎時・列柱滝は20〜30分に10分間放水",
     "spot": "?id=osaka&area=kita&name=skybldg",
-    "style": "style",
+    "style": "relax",
     "info": {
         "title": "Oyodonaka Kita-ku 🌹 Osaka, Japan",
         "address": "大阪市北区大淀中１丁目１−８８",
-        "google": "https://maps.app.goo.gl/Xyq2XRTxKam6kqUA9",
+        "google": "https://maps.app.goo.gl/kUSGiuYtAFFzCbBf7",
         "text": [
             "梅田スカイビルとウェスティンホテルからなる複合都市「新梅田シティ」の敷地内にある庭園施設",
             "「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所",
             "都会に生まれた鎮守の森。5月下旬から6月上旬になると、流れるせせらぎにホタルが舞う",
             "",
-            "正時に流れる大滝は、夏は午後6時から9時の4回、冬は午後4時から9時の6回、夜の中自然を幻想的にライトアップ"
+            "大滝は毎時・列柱滝は20〜30分に10分間放水",
+            "（夏は午後6時から9時の4回、冬は午後4時から9時の6回ライトアップ）"
         ]
     },
     "links": [
@@ -27,17 +28,23 @@
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipOoNaFubjk79ebtgxAwRTUERt527udAF3P6cE_c=w575-h325-p-k-no",
+            "poster": "AF1QipOmLrl5AcWFlm924LLIHUns0vYps_VHCXJHllZa=w575-h325-p-k-no",
             "src": [
-                "AF1QipOoNaFubjk79ebtgxAwRTUERt527udAF3P6cE_c=m18",
-                "AF1QipOHYSDl2BUaEqALcXMwySh1qgSZ-EdjcNNnJwM5=m18"
+                "AF1QipMVWUZzTu3Zd-VF_TnafUwkZ2SuaUbHmSTOcKeJ=m18",
+                "AF1QipMF4nR82GySuqbZeC7T0O9I8Y83Ivz-NIp_Ro8q=m18",
+                "AF1QipPa4LbsXkLDKJJEnvQTxC7sIEr8tugIdH7i6K_l=m18",
+                "AF1QipPM6c06dUHsYHjireDiBscCZ_1fMU4RBy5k5l-I=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipOJGrK3zFTdrZiO_t1Mab8H9A4B-xnSZhSwyk2h=w575-h325-p-k-no",
+            "poster": "AF1QipOoiCZ1A8ZPtxlPxtKUyAfHeO25OKsBapWxj5_o=w575-h325-p-k-no",
             "src": [
-                "AF1QipOJGrK3zFTdrZiO_t1Mab8H9A4B-xnSZhSwyk2h=m18"
+                "AF1QipObI_yPzYyTJjrMlA1ROaau36RaNi43BAM8jb2p=m18",
+                "AF1QipOCRs5IgRNj9dYVLe4YXlNJg2jVTtx9aFwq8L8y=m18",
+                "AF1QipOmLrl5AcWFlm924LLIHUns0vYps_VHCXJHllZa=m18",
+                "AF1QipNXcXTgmP84UYjt1lE65moviFPBLgDNRbsvZ1Mn=m18",
+                "AF1QipOoiCZ1A8ZPtxlPxtKUyAfHeO25OKsBapWxj5_o=m18"
             ]
         }
     ]
