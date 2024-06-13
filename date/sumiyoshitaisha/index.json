@@ -1,16 +1,38 @@
 {
-    "date": "YYYY.MM.DD (WEEK)",
-    "u": "タイトル 🇯🇵 場所",
-    "strong": "Title <small>Venue</small>",
-    "readme": "README.md",
+    "date": "全国の住吉神社の総本社",
     "url": "sumiyoshitaisha/",
     "youtube": "___",
-    "directory": "",
-    "cover": "",
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": "p/AF1QipO6MiOWJKWgClmV51xNxo4vNnJrzgL2i1fh-sIS=w1280-h720-k-no",
     "video": [
         {
-            "title": "チャプタータイトル",
-            "src": "___.mp4",
+            "title": "阪堺線 「住吉鳥居前駅」",
+            "src": "ggms/AF1QipNICtQP02ra6LidM4epVq80BhcwJgQapCCrxeR_=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "一の鳥居（住吉大社西大鳥居）",
+            "src": "ggms/AF1QipO6MiOWJKWgClmV51xNxo4vNnJrzgL2i1fh-sIS=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "表参道",
+            "src": "ggms/AF1QipNvOjirCuOQFh9L6WmHjCCxowU5fPb3JcYQYElM=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "反橋 そりはし",
+            "src": "ggms/AF1QipPWpIDAV6PK0VO1GBnHYQG9G5UAimNNVyjy520l=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "通称 太鼓橋 たいこばし",
+            "src": "ggms/AF1QipN1o__SGebyiTzIQ9SDvulEq2Ma77hlLV_eknMV=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "住吉大社角鳥居",
+            "src": "ggms/AF1QipOw6eI9XW7X3lPmYZbF3WczgVWPAe1-BTIqSyZN=m18",
             "track": "../000.vtt"
         }
     ],
@@ -18,6 +40,11 @@
         {
             "text": "住吉大社 ⛩ Sumiyoshi Taisha",
             "url": "../../spot/?id=osaka&area=sumiyoshi&name=sumiyoshitaisha",
+            "target": "_self"
+        },
+        {
+            "text": "令和六年 卯之葉神事",
+            "url": "?id=unohana&date=20240503",
             "target": "_self"
         }
     ]

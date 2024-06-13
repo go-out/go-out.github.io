@@ -2,7 +2,7 @@
     "date": "2024.3.4 (Mon)",
     "u": "Iwato Oku-no-In",
     "strong": "岩谷奥之院",
-    "url": "amaterasu-iwato/",
+    "url": "amaterasu-iwato/?date=oku-no-in",
     "readme": "oku-no-in/README.md",
     "youtube": "vdHhpqCRcbI",
     "directory": "https://ia600204.us.archive.org/27/items/amaterasu-iwato/",
@@ -37,7 +37,7 @@
     "link": [
         {
             "text": "天照大神高座神社・岩戸神社 ⛩ Amaterasu-Okami Takakura Jinja",
-            "url": "../../legacy/?area=osaka&name=amaterasu-iwato",
+            "url": "../../spot/?id=osaka&area=kawachi&name=amaterasu-iwato",
             "target": "_self"
         },
         {

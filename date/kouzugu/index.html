@@ -56,10 +56,10 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        const hash = location.hash;
-        if (hash) {
-            let thisDate = hash.replace('#', '')
-            indexJSON(thisDate + "/index.json")
+        // ?date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("date")) {
+            indexJSON(params.get("date") + "/index.json")
         } else {
             indexJSON("index.json")
         }

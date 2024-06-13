@@ -1,25 +1,30 @@
 {
-    "date": "Shitennoji",
+    "date": "Grand head temple SHITENNOUJI",
     "url": "shitennoji/",
     "youtube": "___",
-    "directory": "https://lh3.googleusercontent.com/ggms/",
-    "cover": "AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD",
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": "p/AF1QipMRMCcS5fgB0kJyo4dDZdMKjqng_VTGnnJvXnO3=w1280-h720-k-no",
     "video": [
         {
-            "title": "とんど焼き",
-            "src": "AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD=m18",
+            "title": "二河白道",
+            "src": "ggms/AF1QipPQ-hXd6RohS_offZIZbeRzjGFeIdj987lcAnS9=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "瑠璃光の池",
+            "src": "ggms/AF1QipMRMCcS5fgB0kJyo4dDZdMKjqng_VTGnnJvXnO3=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "極楽の池",
+            "src": "ggms/AF1QipPdDLox99BGnDcRYxnNzaUnKWaW7R7w3CXTAsMg=m18",
             "track": "../000.vtt"
         }
     ],
     "link": [
         {
-            "text": "どやどや Doya Doya",
-            "url": "../shitennoji/#doyadoya",
-            "target": "_self"
-        },
-        {
-            "text": "聖霊会の舞楽 Shouryoue Bugaku",
-            "url": "../shitennoji/#shoryue",
+            "text": "四天王寺 🇯🇵 本坊庭園",
+            "url": "?id=honbo-garden",
             "target": "_self"
         }
     ]

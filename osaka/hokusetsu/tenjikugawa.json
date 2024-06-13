@@ -1,6 +1,6 @@
 {
     "title": "天竺川 の 松並木",
-    "description": "松並木",
+    "description": "服部緑地の西端 天竺川橋から広田橋付近にかけて続く松並木",
     "year": "2024",
     "month": "5",
     "day": "11",
@@ -8,19 +8,19 @@
     "style": "style",
     "info": {
         "title": "Tenjikugawa 🌲 Toyonaka Osaka, Japan",
-        "address": "大阪府豊中市",
+        "address": "大阪府豊中市 天竺川橋〜広田橋",
         "google": "https://maps.app.goo.gl/ERA2FaQ99x3v8zuk9",
         "text": [
+            "服部緑地の西端 天竺川橋から広田橋付近にかけて続く松並木",
+            "「とよなか百景」にも選ばれている松の名所",
+            "<small>春は、ユキヤナギと桜</small>",
             "",
-            "<u>___</u>",
-            "___",
-            "<small>___</small>",
-            "",
-            "<u>アクセス</u><br>___",
-            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/poayp1BqUkgbty2G6' target='_blank'>住之江公園 管理事務所</a> <small>貸出時間は午前8時30分から午後5時</small>"
+            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/acmbCYo1ti6oXo6x6' target='_blank'>阪急曽根駐輪センター</a> <small>営業時間 7:00～21:00 | 普通車 1日320円 / 電動車 1日420円</small>",
+            "<u>Hello Cycling</u><br>北大阪急行電鉄「緑地公園」周辺・服部緑地公園内にポート多数あり"
         ]
     },
     "links": [
+        "<a href='../vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu'>豊中市 🌹 中部・東部・西部</a>",
         "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%AB%BA%E5%B7%9D' target='_blank'>天竺川 - Wikipedia</a>"
     ],
     "width": "0.575",

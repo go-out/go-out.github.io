@@ -13,9 +13,9 @@
     <meta property="og:title" content="住吉大社 ⛩️ Sumiyoshi Taisha">
     <meta name="twitter:title" content="住吉大社 ⛩️ Sumiyoshi Taisha">
 
-    <meta name="description" content="大阪市住吉区住吉 2-9-89 | Sumiyoshi, Sumiyoshi-ku, Osaka">
-    <meta property="og:description" content="大阪市住吉区住吉 2-9-89 | Sumiyoshi, Sumiyoshi-ku, Osaka">
-    <meta name="twitter:description" content="大阪市住吉区住吉 2-9-89 | Sumiyoshi, Sumiyoshi-ku, Osaka">
+    <meta name="description" content="大阪市住吉区住吉２丁目 | 2-9-89 Sumiyoshi Sumiyoshi-ku, Osaka">
+    <meta property="og:description" content="大阪市住吉区住吉２丁目 | 2-9-89 Sumiyoshi Sumiyoshi-ku, Osaka">
+    <meta name="twitter:description" content="大阪市住吉区住吉２丁目 | 2-9-89 Sumiyoshi Sumiyoshi-ku, Osaka">
 
     <meta property="og:url" content="https://creative-community.space/map/date/sumiyoshitaisha/">
     <meta property="twitter:url" content="https://creative-community.space/map/date/sumiyoshitaisha/">
@@ -56,12 +56,14 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        const hash = location.hash;
-        if (hash) {
-            let thisDate = hash.replace('#', '')
-            indexJSON(thisDate + "/index.json")
+        // ?id=ID&date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("id") && params.get("date")) {
+            indexJSON(params.get("id") + "/" + params.get("date") + ".json")
+        } else if (params.get("id")) {
+            indexJSON(params.get("id") + "/index.json")
         } else {
-            indexJSON("20240503/index.json")
+            indexJSON("index.json")
         }
     </script>
 </head>
@@ -79,8 +81,8 @@
                 <strong>Sumiyoshi Taisha</strong>
             </h1>
             <h2>
-                大阪市住吉区住吉 2-9-89<br>
-                <small>Sumiyoshi Sumiyoshi-ku, Osaka</small>
+                大阪市住吉区住吉２丁目<br>
+                <small>2-9-89 Sumiyoshi Sumiyoshi-ku, Osaka</small>
             </h2>
         </section>
     </article>

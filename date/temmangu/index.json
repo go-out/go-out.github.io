@@ -1,5 +1,5 @@
 {
-    "date": "YYYY.MM.DD (WEEK)",
+    "date": "〒 530-0041",
     "url": "temmangu/",
     "youtube": "___",
     "directory": "",
@@ -14,7 +14,7 @@
     "link": [
         {
             "text": "鎮花祭 🇯🇵 Chinka Festival",
-            "url": "../temmangu/#chinka",
+            "url": "../temmangu/?id=chinka",
             "target": "_self"
         }
     ]

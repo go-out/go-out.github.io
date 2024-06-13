@@ -56,19 +56,16 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        // ?id=ID
-        const urlParam = location.search.substring(1)
-        if (urlParam) {
-            let paramArr = [],
-                param = urlParam.split('&')
-            for (arr = 0; arr < param.length; arr++) {
-                var paramItem = param[arr].split('=')
-                paramArr[paramItem[0]] = paramItem[1]
-            }
-            const json = paramArr.id + "/" + 'index.json'
-            indexJSON(json)
+        // ?id=ID&date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("id") && params.get("date")) {
+            indexJSON(params.get("id") + "/" + params.get("date") + ".json")
+        } else if (params.get("id")) {
+            indexJSON(params.get("id") + "/index.json")
+        } else if (params.get("date")) {
+            indexJSON(params.get("date") + ".json")
         } else {
-            indexJSON("index.json")
+            indexJSON("20240318.json")
         }
     </script>
 </head>

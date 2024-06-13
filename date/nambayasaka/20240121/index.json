@@ -3,7 +3,7 @@
     "u": "綱引神事 ⛩️ 難波八阪神社",
     "strong": "Tsunahiki Shinji <small>(Great Tug-of-War Festival)</small>",
     "readme": "tsunahiki-shingi.md",
-    "url": "nambayasaka/#20240121",
+    "url": "nambayasaka/?date=20240121",
     "youtube": "OO_7X8aM9BQ",
     "directory": "https://ia601301.us.archive.org/3/items/nambayasaka/",
     "cover": "nambayasaka.thumbs/20240121/0001_000001.jpg",
@@ -162,7 +162,7 @@
     "link": [
         {
             "text": "難波八阪神社 ⛩ Nambayasaka Shrine",
-            "url": "../../legacy/?area=osaka&name=nambayasaka",
+            "url": "../../spot/?id=osaka&area=minami&name=nambayasaka",
             "target": "_self"
         },
         {

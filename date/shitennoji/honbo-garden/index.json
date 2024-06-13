@@ -3,7 +3,7 @@
     "u": "四天王寺 🇯🇵 本坊庭園",
     "strong": "<small>Shitennoji Honbo Garden</small><br>極楽浄土の庭",
     "readme": "honbo-garden/README.md",
-    "url": "shitennoji/#honbo-garden",
+    "url": "shitennoji/?id=honbo-garden",
     "youtube": "oIKZdbq4isU",
     "directory": "https://lh3.googleusercontent.com/",
     "cover": "p/AF1QipMRMCcS5fgB0kJyo4dDZdMKjqng_VTGnnJvXnO3=w1280-h720-k-no",
@@ -37,7 +37,7 @@
     "link": [
         {
             "text": "四天王寺 🇯🇵 Shitennouji",
-            "url": "../../legacy/?area=osaka&name=shitennoji",
+            "url": "../../spot/?id=osaka&area=minami&name=shitennoji",
             "target": "_self"
         },
         {

@@ -845,27 +845,28 @@ const osakaIndex = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'area': 'hokusetsu',
             'feature': [
                 {
                     'month': 5,
-                    'text': '円形花壇などで、豊中市の花「バラ」が春の見頃を迎える'
+                    'text': '豊中市の花「バラ」が春の見頃を迎える'
                 },
                 {
                     'month': 10,
-                    'text': '園内各所に植えられた、豊中市の木「キンモクセイ」やギンモクセイ、秋の「バラ」が見頃を迎える'
+                    'text': '豊中市の木「キンモクセイ」やギンモクセイ、豊中市の花「バラ」が秋の見頃を迎える'
                 }
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4842513604408, 34.7763142625666]
+                'coordinates': [135.4772407584678, 34.76998564565496]
             },
             'properties': {
-                'title': '服部緑地',
-                'address': '大阪府下最大級の公園',
+                'title': '豊中市 🌹 中部・東部・西部',
+                'address': '中部は市街地（曽根・桜塚・長興寺等は高級住宅街）・東部は服部緑地',
                 'date': 'More Info',
-                'href': 'spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi',
+                'href': 'vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu',
+                'iconSize': ['profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14
             }
         },
@@ -901,7 +902,7 @@ const osakaIndex = {
             'feature': [
                 {
                     'month': 5,
-                    'text': '5月上旬、五月山周辺・城跡公園の「つつじ」が見頃を迎える'
+                    'text': '5月上旬、五月山周辺・城跡公園などで池田市の花「さつきつつじ」が見頃を迎える'
                 },
                 {
                     'month': 9,

@@ -40,16 +40,26 @@ const osakaHokusetsu = {
             'type': 'Feature',
             'tags': 'draft',
             'area': 'hokusetsu',
+            'feature': [
+                {
+                    'month': 5,
+                    'text': '円形花壇などで、豊中市の花「バラ」が春の見頃を迎える'
+                },
+                {
+                    'month': 10,
+                    'text': '園内各所に植えられた、豊中市の木「キンモクセイ」やギンモクセイ、秋の「バラ」が見頃を迎える'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.46533033614946, 34.762307028804365]
+                'coordinates': [135.4842513604408, 34.7763142625666]
             },
             'properties': {
-                'title': 'ふれあい緑地',
-                'address': '服部西町5丁目、服部寿町3・5丁目',
+                'title': '服部緑地',
+                'address': '緑豊かな森や庭、10以上の池、自然に満ちた大阪府下最大級の緑地公園',
                 'date': 'More Info',
-                'href': 'spot/?id=osaka&area=hokusetsu&name=fureairyokuchi',
-                'zoom': 15.5
+                'href': 'spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi',
+                'zoom': 14
             }
         },
         {
@@ -100,7 +110,7 @@ const osakaHokusetsu = {
             'feature': [
                 {
                     'month': 6,
-                    'text': '例年6月になると約60種6000株のハナショウブが見頃を迎える'
+                    'text': '6月上旬、約60種6000株のハナショウブが見頃を迎える'
                 }
             ],
             'geometry': {

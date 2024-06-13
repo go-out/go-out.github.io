@@ -13,7 +13,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '住吉大社',
-                'address': '全国に2300社ある住吉神社の総本社 年間百三十回をもこえる神事が執り行われる',
+                'address': '全国に約2300社ある住吉神社の総本社 年間百三十回をもこえる神事が執り行われる',
                 'date': 'More Info',
                 'href': 'spot/?id=osaka&area=sumiyoshi&name=sumiyoshitaisha',
                 'youtube': 'wbOguTvuV0Q',

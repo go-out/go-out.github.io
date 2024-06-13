@@ -2,7 +2,7 @@
     "date": "2024.2.18 (Sun)",
     "u": "鵜殿のヨシ原焼き 🔥 高槻市鵜殿",
     "strong": "<small>Controlled burn at</small><br>Udono Yoshihara <small>(Yodogawa riverside)</small>",
-    "url": "udono-yoshihara/",
+    "url": "udono-yoshihara/?date=20240218",
     "youtube": "0ncmnMdeRCw",
     "directory": "https://archive.org/download/udono.yoshihara/",
     "cover": "udono.yoshihara.thumbs/20240218/009_000001.jpg",
@@ -10,54 +10,37 @@
         {
             "title": "二〇二四年二月十八日",
             "src": "20240218/002.ia.mp4",
-            "track": "20240218/001.vtt"
+            "track": "20240218/date.vtt"
         },
         {
             "title": "午前九時 火入れ",
             "src": "20240218/004.ia.mp4",
-            "track": "20240218/002.vtt"
+            "track": "20240218/0900.vtt"
         },
         {
             "title": "鵜殿葭の原",
             "src": "20240218/005.ia.mp4",
-            "track": "20240218/003.vtt"
+            "track": "100-50.vtt"
         },
         {
             "title": "３０㌶ １.５㌖",
             "src": "20240218/006.ia.mp4",
-            "track": "20240218/004.vtt"
+            "track": "controlledburn.vtt"
         },
         {
             "title": "午前十一時",
             "src": "20240218/008.ia.mp4",
-            "track": "20240218/005.vtt"
+            "track": "20240218/1100.vtt"
         },
         {
             "title": "ヨシ原焼き",
             "src": "20240218/009.ia.mp4",
-            "track": "20240218/000.vtt"
+            "track": "../000.vtt"
         },
         {
             "title": "正午 完了",
             "src": "20240218/010.ia.mp4",
-            "track": "20240218/006.vtt"
-        }
-    ],
-    "link": [
-        {
-            "text": "鵜殿のヨシ原 Udono Yoshihara",
-            "url": "../../spot/?id=osaka&area=hokusetsu&name=udono-yoshihara",
-            "target": "_self"
-        },
-        {
-            "text": "鵜殿のヨシ原保存会",
-            "url": "https://www.udono-hozon.com/",
-            "target": "_blank"
-        },
-        {
-            "text": "鵜殿のヨシ原保存会(@udono.yoshihara) - Instagram",
-            "url": "https://www.instagram.com/udono.yoshihara/",
-            "target": "_blank"
+            "track": "1200.vtt"
         }
     ]
 }

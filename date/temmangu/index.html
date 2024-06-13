@@ -13,9 +13,9 @@
     <meta property="og:title" content="大阪天満宮 ⛩️ Osaka Temmangu">
     <meta name="twitter:title" content="大阪天満宮 ⛩️ Osaka Temmangu">
 
-    <meta name="description" content="大阪市北区天神橋 Tenjinbashi, Kita-ku, Osaka">
-    <meta property="og:description" content="大阪市北区天神橋 Tenjinbashi, Kita-ku, Osaka">
-    <meta name="twitter:description" content="大阪市北区天神橋 Tenjinbashi, Kita-ku, Osaka">
+    <meta name="description" content="大阪市北区天神橋２丁目 | 2-1-8 Tenjinbashi Kita-ku, Osaka">
+    <meta property="og:description" content="大阪市北区天神橋２丁目 | 2-1-8 Tenjinbashi Kita-ku, Osaka">
+    <meta name="twitter:description" content="大阪市北区天神橋２丁目 | 2-1-8 Tenjinbashi Kita-ku, Osaka">
 
     <meta property="og:url" content="https://creative-community.space/map/date/temmangu/">
     <meta property="twitter:url" content="https://creative-community.space/map/date/temmangu/">
@@ -56,10 +56,12 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        const hash = location.hash;
-        if (hash) {
-            let thisDate = hash.replace('#', '')
-            indexJSON(thisDate + "/index.json")
+        // ?id=ID&date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("id") && params.get("date")) {
+            indexJSON(params.get("id") + "/" + params.get("date") + ".json")
+        } else if (params.get("id")) {
+            indexJSON(params.get("id") + "/index.json")
         } else {
             indexJSON("index.json")
         }
@@ -79,8 +81,8 @@
                 <strong>Osaka Temmangu</strong>
             </h1>
             <h2>
-                大阪市北区天神橋<br>
-                <small>Tenjinbashi, Kita-ku, Osaka</small>
+                大阪市北区天神橋２丁目<br>
+                <small>2-1-8 Tenjinbashi Kita-ku, Osaka</small>
             </h2>
         </section>
     </article>

@@ -8,20 +8,19 @@
     "style": "style",
     "info": {
         "title": "Hattori Well-being Park 🌳 Toyonaka Osaka, Japan",
-        "address": "大阪府豊中市服部緑地",
+        "address": "大阪府豊中市服部緑地・寺内",
         "google": "https://maps.app.goo.gl/YvSJ9fnmbGkDiQNx8",
         "text": [
+            "緑豊かな森や庭、10以上の池、自然に満ちた大阪府下最大級の緑地公園",
+            "<small>日本の都市公園100選や日本の歴史公園100選にも選出されている</small>",
             "",
-            "<u>___</u>",
-            "___",
-            "<small>___</small>",
-            "",
-            "<u>アクセス</u><br>___",
-            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/poayp1BqUkgbty2G6' target='_blank'>住之江公園 管理事務所</a> <small>貸出時間は午前8時30分から午後5時</small>"
+            "<u>アクセス</u><br>北大阪急行電鉄「緑地公園」",
+            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/acmbCYo1ti6oXo6x6' target='_blank'>阪急曽根駐輪センター</a> <small>営業時間 7:00～21:00 | 普通車 1日320円 / 電動車 1日420円</small>",
+            "<u>Hello Cycling</u><br>北大阪急行電鉄「緑地公園」周辺・服部緑地公園内にポート多数あり"
         ]
     },
     "links": [
-        "<a href='../vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu'>豊中 中部</a>",
+        "<a href='../vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu'>豊中市 🌹 中部・東部・西部</a>",
         "<a href='https://hattori-ryokuchi.com/' target='_blank'>ホーム | 服部緑地</a>"
     ],
     "width": "0.575",

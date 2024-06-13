@@ -9,13 +9,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="creative-community.space">
 
-    <title>豊中市 中部 🌹 The Central Part of Toyonaka City</title>
-    <meta property="og:title" content="豊中市 中部 🌹 The Central Part of Toyonaka City">
-    <meta name="twitter:title" content="豊中市 中部 🌹 The Central Part of Toyonaka City">
+    <title>豊中市 🌹 中部・東部・西部 🌹 The Central Part of Toyonaka City</title>
+    <meta property="og:title" content="豊中市 🌹 中部・東部・西部 🌹 The Central Part of Toyonaka City">
+    <meta name="twitter:title" content="豊中市 🌹 中部・東部・西部 🌹 The Central Part of Toyonaka City">
 
-    <meta name="description" content="場所：場所の名前 ⛩️ Venue | 実施日：毎年 月 日 時 から 時">
-    <meta property="og:description" content="___">
-    <meta name="twitter:description" content="___">
+    <meta name="description" content="岡町 曽根 服部天神 緑地公園 | Okamachi - Sone - Hattori Tenjin">
+    <meta property="og:description" content="岡町 曽根 服部天神 緑地公園 | Okamachi - Sone - Hattori Tenjin">
+    <meta name="twitter:description" content="岡町 曽根 服部天神 緑地公園 | Okamachi - Sone - Hattori Tenjin">
 
     <meta property="og:url" content="https://creative-community.space/map/date/toyonaka-chubu/">
     <meta property="twitter:url" content="https://creative-community.space/map/date/toyonaka-chubu/">
@@ -56,10 +56,10 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        const hash = location.hash;
-        if (hash) {
-            let thisDate = hash.replace('#', '')
-            indexJSON(thisDate + "/index.json")
+        // ?date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("date")) {
+            indexJSON(params.get("date") + "/index.json")
         } else {
             indexJSON("index.json")
         }
@@ -75,12 +75,12 @@
     <article id="cover">
         <section>
             <h1>
-                <u>豊中市 🌹 中部</u><br>
+                <u>豊中市 🌹 中部・東部・西部</u><br>
                 <strong><small>The Central Part of</small><br>Toyonaka City</strong>
             </h1>
             <h2>
-                曽根 服部天神 緑地公園<br>
-                <small>Sone - Hattori Tenjin - Ryokuchi Koen</small>
+                岡町 曽根 服部天神 緑地公園<br>
+                <small>Okamachi - Sone - Hattori Tenjin</small>
             </h2>
         </section>
     </article>

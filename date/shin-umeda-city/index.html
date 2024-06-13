@@ -56,10 +56,10 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        const hash = location.hash;
-        if (hash) {
-            let thisDate = hash.replace('#', '')
-            indexJSON(thisDate + ".json")
+        // ?date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("date")) {
+            indexJSON(params.get("date") + ".json")
         } else {
             indexJSON("20240505.json")
         }
@@ -79,7 +79,7 @@
                 <strong>Shin Umeda City</strong>
             </h1>
             <h2>
-                大阪市北区大淀中一丁目<br>
+                大阪市北区大淀中１丁目<br>
                 <small>1-1-88 Oyodonaka Kita-ku, Osaka</small>
             </h2>
         </section>

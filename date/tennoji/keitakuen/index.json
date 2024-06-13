@@ -2,8 +2,8 @@
     "date": "2024.3.20 (Wed)",
     "u": "天王寺公園 🇯🇵 Tennoji Park",
     "strong": "<small>keitakuen</small><br>慶沢園",
-    "readme": "keitakuen/README.md",
-    "url": "tennoji/#keitakuen",
+    "readme": "keitakuen.md",
+    "url": "tennoji/?id=keitakuen",
     "youtube": "___",
     "directory": "https://lh3.googleusercontent.com/",
     "cover": "p/AF1QipMASw6j4qRcSdBZHXfcJtGN12G3aUVA3pRjT2Y0=w1280-h640-k-no",
@@ -47,8 +47,13 @@
     "link": [
         {
             "text": "天王寺公園 🇯🇵 Tennoji Park",
-            "url": "../../park/?area=osaka&name=tennoji",
+            "url": "../tennoji/",
             "target": "_self"
+        },
+        {
+            "text": "大阪市立美術館",
+            "url": "https://www.osaka-art-museum.jp/",
+            "target": "_blank"
         },
         {
             "text": "大阪市：慶沢園 | 大阪市指定文化財",

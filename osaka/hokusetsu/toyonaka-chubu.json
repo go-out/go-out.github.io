@@ -1,15 +1,24 @@
 {
-    "title": "豊中 中部",
-    "description": "___",
+    "title": "豊中市 🌹 中部・東部・西部",
+    "description": "The Central Part of Toyonaka City",
     "vr": "?id=osaka&area=hokusetsu&name=toyonaka-chubu",
     "info": [
-        "",
+        "<small>伊丹空港より東・北大阪急行電鉄より西</small>",
+        "中部は市街地（曽根・桜塚・長興寺等は高級住宅街）・東部は服部緑地",
+        "緑化計画により整備された西部（大阪国際空港周辺）にも水と緑が多数",
         "",
         "<u>ランドマーク・お気に入りの場所</u>",
-        "<a href='../spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi'>服部緑地</a> <small>___</small>",
-        "<a href='../spot/?id=osaka&area=hokusetsu&name=tenjikugawa'>天竺川の松並木</a> <small>___</small>",
-        "<a href='../spot/?id=osaka&area=hokusetsu&name=fureairyokuchi'>ふれあい緑地界隈</a> <small>___</small>",
-        "<a href='../relax/?id=spot&area=osaka&name=hokuto-kai'>さわ病院</a> <small>___</small>"
+        "<a href='../spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi'>服部緑地</a> <small>緑豊かな森や庭、10以上の池、自然に満ちた大阪府下最大級の緑地公園</small>",
+        "<a href='../spot/?id=osaka&area=hokusetsu&name=tenjikugawa'>天竺川の松並木</a> <small>服部緑地の西端 天竺川橋から広田橋付近にかけて続く松並木</small>",
+        "<a href='../spot/?id=osaka&area=hokusetsu&name=fureairyokuchi'>ふれあい緑地界隈</a> <small>みどり豊かな文化・スポーツの中心エリア</small>",
+        "<a href='../spot/?id=osaka&area=hokusetsu&name=itami-airport'>千里川土手</a> <small>伊丹空港へ着陸する飛行機が間近に見える「飛行機撮影の聖地」</small>",
+        "<a href='../date/toyonaka/?date=hokuto-kai'>さわ病院</a> <small>社会医療法人北斗会</small>",
+        "",
+        "<u>アクセス</u><br>阪急宝塚線「岡町」「曽根」「服部天神」",
+        "<u>レンタサイクル</u>",
+        "<a href='https://maps.app.goo.gl/acmbCYo1ti6oXo6x6' target='_blank'>阪急曽根駐輪センター</a> <small>営業時間 7:00～21:00 | 普通車 1日320円 / 電動車 1日420円</small>",
+        "<a href='https://maps.app.goo.gl/pwckMpbs5f3CSrNz8' target='_blank'>阪急岡町北駐輪センター</a> <small>営業時間 6:30～22:00 | 普通車 1日320円 / 電動車 1日420円</small>",
+        "<u>Hello Cycling</u><br>北大阪急行電鉄「緑地公園」周辺・服部緑地公園内にポート多数あり"
     ],
     "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(3, 1fr)",
@@ -49,16 +58,6 @@
             ]
         },
         {
-            "id": "fureairyokuchi",
-            "poster": "p/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=w575-h325-p-k-no",
-            "src": [
-                "ggms/AF1QipNhUjRtgZ80WUrMYPsYbWKFhKurLKqkigyQj44d=m18",
-                "ggms/AF1QipNwf8guuGAPUHjfjirHA7XdVhO7nbT8XFbHQ4fy=m18",
-                "ggms/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=m18",
-                "ggms/AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo=m18"
-            ]
-        },
-        {
             "id": "tenjiku_1",
             "poster": "p/AF1QipOBpmSEusumdJ3Kox51va5VFXsbmgOAHCemuMvP=w575-h325-p-k-no",
             "src": [
@@ -91,27 +90,37 @@
             ]
         },
         {
-            "id": "hokuto-kai",
-            "poster": "p/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=w575-h325-p-k-no",
+            "id": "fureairyokuchi",
+            "poster": "p/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=m18",
-                "ggms/AF1QipP2CbbM3CEExSUJP59j63cWz-hlgOOYLDPRdOuu=m18",
-                "ggms/AF1QipM-xUa1hvGQzQXeXKlIqE_iEZScksZLOfeWx4mv=m18",
-                "ggms/AF1QipMwSTn6sP-I5oDRqFtAMsu6POSuidtQdMzMSS_R=m18",
-                "ggms/AF1QipOe-gnb0jZz4kC1v1mAx2moH5UpC5S-rfppkxJa=m18",
-                "ggms/AF1QipP-JBxHMzLgY7cVGh9z5w_jKK0skweHMrTX6jD3=m18"
+                "ggms/AF1QipNhUjRtgZ80WUrMYPsYbWKFhKurLKqkigyQj44d=m18",
+                "ggms/AF1QipNwf8guuGAPUHjfjirHA7XdVhO7nbT8XFbHQ4fy=m18",
+                "ggms/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=m18",
+                "ggms/AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo=m18"
+            ]
+        },
+        {
+            "id": "itami",
+            "poster": "p/AF1QipPhmRjMTAIo7vBZqi6h_5y4hbNcgqr9qaOKN0wE=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNUznjIeEjhBiMfo--eP2DPVbsL5yHp1nd7ZO5o=m18",
+                "ggms/AF1QipNZbmgavaoyHPDPVkuvUTaIL_jL-CkxYtDgfBpj=m18",
+                "ggms/AF1QipOyIVnEiPfAIsxM1jTjW02Q32yEOulqcYt-rLG3=m18",
+                "ggms/AF1QipPhmRjMTAIo7vBZqi6h_5y4hbNcgqr9qaOKN0wE=m18",
+                "ggms/AF1QipNLlosJ43linBrxf4oKUwphc4_g1VI5mtIX8i9X=m18",
+                "ggms/AF1QipOiCXZvlush22KD0OdFeqD6LaK33dU12_HzZScy=m18"
             ]
         },
         {
             "id": "hattorichuo",
             "poster": "p/AF1QipNg_9GdR_r0k5J1WQ13JxXr0qo09plG5TpYv8ps=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipPf3lIGe5kEHlAyqbLD_SLaQhg5XSUaAQ8Hq87W=m18",
-                "ggms/AF1QipMxjY4wBK5J0Lllb3ZawDpOeqfCgG6HDDBBTxhW=m18",
-                "ggms/AF1QipP8474tv7zIu6nEydp48keKDdxSpz0nMFVs2trv=m18",
                 "ggms/AF1QipNg_9GdR_r0k5J1WQ13JxXr0qo09plG5TpYv8ps=m18",
                 "ggms/AF1QipMGq51K6j7XE0W-3umSdwzLVAs1loZHU0JAeu6k=m18",
-                "ggms/AF1QipOrb8wHU3zxTXeErVqsBhJ5hvX2LW_RUp9u_XLL=m18"
+                "ggms/AF1QipOrb8wHU3zxTXeErVqsBhJ5hvX2LW_RUp9u_XLL=m18",
+                "ggms/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=m18",
+                "ggms/AF1QipP2CbbM3CEExSUJP59j63cWz-hlgOOYLDPRdOuu=m18",
+                "ggms/AF1QipM-xUa1hvGQzQXeXKlIqE_iEZScksZLOfeWx4mv=m18"
             ]
         }
     ]

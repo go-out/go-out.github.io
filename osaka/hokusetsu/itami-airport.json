@@ -1,6 +1,6 @@
 {
     "title": "千里川土手 せんりがわどて",
-    "description": "飛行機撮影の聖地 伊丹空港へ着陸する飛行機が間近に見える魅力スポット",
+    "description": "伊丹空港へ着陸する飛行機が間近に見える「飛行機撮影の聖地」",
     "year": "2024",
     "month": "5",
     "day": "11",
@@ -11,15 +11,14 @@
         "address": "大阪府豊中市原田中２丁目",
         "google": "https://maps.app.goo.gl/3nGSHpnGYqkqHByc7",
         "text": [
-            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "伊丹空港へ着陸する飛行機が間近に見える「飛行機撮影の聖地」",
             "",
-            "<b>祭事</b><br><u>日時</u><br>詳細",
-            "",
-            "<u>アクセス</u><br>＿＿「駅名」"
+            "<u>アクセス</u><br>阪急宝塚線「曽根」から徒歩約25分",
+            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/acmbCYo1ti6oXo6x6' target='_blank'>阪急曽根駐輪センター</a> <small>営業時間 7:00～21:00 | 普通車 1日320円 / 電動車 1日420円</small>"
         ]
     },
     "links": [
-        "<a href='../vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu'>豊中 中部</a>",
+        "<a href='../vr/?id=osaka&area=hokusetsu&name=toyonaka-chubu'>豊中市 🌹 中部・東部・西部</a>",
         "<a href='https://www.city.toyonaka.osaka.jp/machi/kukou/kuko/access.html' target='_blank'>飛行機が間近に見える魅力スポット「千里川土手」　豊中市</a>"
     ],
     "width": "0.575",

@@ -1,7 +1,7 @@
 {
     "date": "2024.5.11 (Sat)",
     "readme": "README.md",
-    "url": "toyonaka-chubu/#20240511",
+    "url": "toyonaka/?date=20240511",
     "youtube": "mKcFF3wTRRg",
     "directory": "https://ia903205.us.archive.org/12/items/toyonaka-chubu/",
     "cover": "toyonaka-chubu.thumbs/20240511/shokeien_000001.jpg",
@@ -39,17 +39,22 @@
     ],
     "link": [
         {
-            "text": "服部緑地",
+            "text": "豊中市 🌹 中部・東部・西部",
+            "url": "../toyonaka/",
+            "target": "_self"
+        },
+        {
+            "text": "服部緑地 Hattori Well-being Park",
             "url": "../../spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi",
             "target": "_self"
         },
         {
-            "text": "天竺川の松並木",
+            "text": "天竺川の松並木 Tenjikugawa",
             "url": "../../spot/?id=osaka&area=hokusetsu&name=tenjikugawa",
             "target": "_self"
         },
         {
-            "text": "ふれあい緑地界隈",
+            "text": "ふれあい緑地界隈 Fureai Ryokuchi",
             "url": "../../spot/?id=osaka&area=hokusetsu&name=fureairyokuchi",
             "target": "_self"
         }

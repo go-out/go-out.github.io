@@ -56,12 +56,14 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        const hash = location.hash;
-        if (hash) {
-            let thisDate = hash.replace('#', '')
-            indexJSON(thisDate + "/index.json")
+        // ?id=ID&date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("id") && params.get("date")) {
+            indexJSON(params.get("id") + "/" + params.get("date") + ".json")
+        } else if (params.get("id")) {
+            indexJSON(params.get("id") + "/index.json")
         } else {
-            indexJSON("honbo-garden/index.json")
+            indexJSON("index.json")
         }
     </script>
 </head>

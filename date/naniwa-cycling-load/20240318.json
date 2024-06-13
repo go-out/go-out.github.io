@@ -3,7 +3,7 @@
     "u": "なにわ自転車道 🚲 Naniwa Cycling Load",
     "strong": "大阪府道803号旭西淀川自転車道線",
     "readme": "README.md",
-    "url": "naniwa-cycling-load/",
+    "url": "naniwa-cycling-load/?date=20240318",
     "youtube": "CDfqGiXwjcc",
     "directory": "https://ia600207.us.archive.org/1/items/naniwa-cycling-load/",
     "cover": "naniwa-cycling-load.thumbs/yodogawa/001_000001.jpg",
@@ -67,12 +67,12 @@
     "link": [
         {
             "text": "淀川右岸 (the Right bank of Yodogawa)",
-            "url": "../naniwa-cycling-load/?id=yodogawa",
+            "url": "../naniwa-cycling-load/?id=yodogawa&date=20240318",
             "target": "_self"
         },
         {
             "text": "神崎川左岸 (the left bank of Kanzakigawa)",
-            "url": "../naniwa-cycling-load/?id=kanzakigawa",
+            "url": "../naniwa-cycling-load/?id=kanzakigawa&date=20240318",
             "target": "_self"
         },
         {

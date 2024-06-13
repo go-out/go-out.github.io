@@ -1,0 +1,63 @@
+{
+    "date": "2024.5.11 (Sat)",
+    "readme": "hokuto-kai/README.md",
+    "u": "社会医療法人 北斗会",
+    "strong": "さわ病院",
+    "url": "toyonaka/?date=hokuto-kai",
+    "directory": "https://lh5.googleusercontent.com/",
+    "cover": "p/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=w1280-h720-p-k-no",
+    "video": [
+        {
+            "title": "正面口",
+            "src": "ggms/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "螺旋階段（上り）",
+            "src": "ggms/AF1QipP2CbbM3CEExSUJP59j63cWz-hlgOOYLDPRdOuu=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "螺旋階段（下り）",
+            "src": "ggms/AF1QipM-xUa1hvGQzQXeXKlIqE_iEZScksZLOfeWx4mv=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "１階 ロビー",
+            "src": "ggms/AF1QipMwSTn6sP-I5oDRqFtAMsu6POSuidtQdMzMSS_R=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "バラ",
+            "src": "ggms/AF1QipOe-gnb0jZz4kC1v1mAx2moH5UpC5S-rfppkxJa=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "一眞堂（売店）",
+            "src": "ggms/AF1QipP-JBxHMzLgY7cVGh9z5w_jKK0skweHMrTX6jD3=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "中庭 裏口",
+            "src": "ggms/AF1QipPf3lIGe5kEHlAyqbLD_SLaQhg5XSUaAQ8Hq87W=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "大阪府豊中市城山町1-9-1",
+            "src": "ggms/AF1QipMxjY4wBK5J0Lllb3ZawDpOeqfCgG6HDDBBTxhW=m18",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "北斗会",
+            "src": "ggms/AF1QipP8474tv7zIu6nEydp48keKDdxSpz0nMFVs2trv=m18",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "豊中市 🌹 中部・東部・西部",
+            "url": "../toyonaka/",
+            "target": "_self"
+        }
+    ]
+}
