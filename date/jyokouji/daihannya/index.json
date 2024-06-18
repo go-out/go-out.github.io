@@ -2,8 +2,8 @@
     "date": "2024.4.28 (SUN)",
     "u": "八尾地蔵お練り供養",
     "strong": "大般若会 👹 Daihannya-e",
-    "readme": "daihannya.md",
-    "url": "jyokouji/?date=20240428",
+    "readme": "daihannya/README.md",
+    "url": "jyokouji/?id=daihannya",
     "youtube": "DuqJJv4XA6I",
     "directory": "https://ia600305.us.archive.org/11/items/Jyokouji/",
     "cover": "Jyokouji.thumbs/003_000001.jpg",
@@ -11,32 +11,32 @@
         {
             "title": "令和六年四月二十八日",
             "src": "000.ia.mp4",
-            "track": "../000.vtt"
+            "track": "daihannya/date.vtt"
         },
         {
             "title": "赤青鬼・閻魔大王",
             "src": "001.ia.mp4",
-            "track": "../000.vtt"
+            "track": "daihannya/001.vtt"
         },
         {
             "title": "親鸞、稚児、小坊主",
             "src": "002.ia.mp4",
-            "track": "../000.vtt"
+            "track": "daihannya/002.vtt"
         },
         {
             "title": "七如来・地蔵菩薩",
             "src": "003.ia.mp4",
-            "track": "../000.vtt"
+            "track": "daihannya/003.vtt"
         },
         {
             "title": "大般若経",
             "src": "004.ia.mp4",
-            "track": "../000.vtt"
+            "track": "daihannya/004.vtt"
         },
         {
             "title": "練り返し 開運餅まき",
             "src": "005.ia.mp4",
-            "track": "../000.vtt"
+            "track": "daihannya/005.vtt"
         }
     ],
     "link": [

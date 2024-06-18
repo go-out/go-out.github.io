@@ -1,0 +1,54 @@
+{
+    "date": "2024.6.14 2PM~",
+    "u": "御田植神事 🌾 住吉大社",
+    "strong": "Otaue Shinji <small>(Sacred Rice Planting)</small>",
+    "readme": "otaue/README.md",
+    "url": "sumiyoshitaisha/?id=otaue&date=20240614",
+    "youtube": "__",
+    "directory": "https://ia904608.us.archive.org/3/items/sumiyoshitaisha/",
+    "cover": "sumiyoshitaisha.thumbs/20240614/003_000687.jpg",
+    "video": [
+        {
+            "title": "令和六年六月十四日",
+            "src": "20240614/001.ia.mp4",
+            "track": "otaue/date.vtt"
+        },
+        {
+            "title": "修祓・早苗の授与",
+            "src": "20240614/002.ia.mp4",
+            "track": "otaue/1400.vtt"
+        },
+        {
+            "title": "田舞（八乙女舞）",
+            "src": "20240614/003.ia.mp4",
+            "track": "otaue/tamai.vtt"
+        },
+        {
+            "title": "神田代舞",
+            "src": "20240614/004.ia.mp4",
+            "track": "otaue/mitoshiro-mai.vtt"
+        },
+        {
+            "title": "田植踊",
+            "src": "20240614/005.ia.mp4",
+            "track": "otaue/taue-odori.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "御田植神事 | 特別な祭 | 祭りと年中行事",
+            "url": "https://www.sumiyoshitaisha.net/events/special.html#anchor01",
+            "target": "_self"
+        },
+        {
+            "text": "Sumiyoshi Taisha | Rituals and Ceremonies",
+            "url": "https://www.sumiyoshitaisha.net/en/rituals.html",
+            "target": "_self"
+        },
+        {
+            "text": "Otaue Shinji (Sacred Rice Planting)",
+            "url": "https://www.mlit.go.jp/tagengo-db/en/R3-00160.html",
+            "target": "_self"
+        }
+    ]
+}

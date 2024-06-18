@@ -1,0 +1,19 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:45.000 --> 00:00:55.000 line:50%
+<ruby>鈴扇<rt> Suzu Ougi </rt></ruby>
+
+00:00:45.000 --> 00:00:55.000
+鈴と扇を持ち、緩やかに舞う
+
+00:01:34.000 --> 00:01:44.000
+舞納めた巫女は、参拝者に御神鈴を授けて舞台を降りる
+
+
+すめがみの　今日の神楽に　あう人は　千とせのよわい　延ぶというなり

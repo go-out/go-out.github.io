@@ -53,10 +53,13 @@ function playThis(obj) {
         }
     }
 
-    if (obj.u && obj.strong) {
+    if (obj.u) {
         const u = document.querySelector('h1 u')
-        const strong = document.querySelector('h1 strong')
         u.textContent = obj.u;
+    }
+
+    if (obj.strong) {
+        const strong = document.querySelector('h1 strong')
         strong.innerHTML = obj.strong;
     }
 

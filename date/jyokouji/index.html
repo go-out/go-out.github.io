@@ -56,12 +56,14 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        // ?date=YYYYMMDD
+        // ?id=ID&date=YYYYMMDD
         let params = new URLSearchParams(location.search)
-        if (params.get("date")) {
-            indexJSON(params.get("date") + "/index.json")
+        if (params.get("id") && params.get("date")) {
+            indexJSON(params.get("id") + "/" + params.get("date") + ".json")
+        } else if (params.get("id")) {
+            indexJSON(params.get("id") + "/index.json")
         } else {
-            indexJSON("20240428/index.json")
+            indexJSON("daihannya/index.json")
         }
     </script>
 </head>

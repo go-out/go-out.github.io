@@ -923,228 +923,218 @@ const osakaIndex = {
     ]
 }
 
-window.addEventListener("load", () => {
-    addMarker(osakaIndex.features)
-}, false)
-
 // ?id=osaka&area=エリア
 if (location.search) {
-    const queryString = location.search;
-    const params = new URLSearchParams(queryString)
-
-    if (params.get("id") === 'osaka') {
-        if (params.get("area")) {
-            if (params.get("area") === 'bayarea') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/bayarea", "index"],
-                    ["osaka/ferry", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.42872404242706, 34.65462309365647];
-                bounds = [
-                    [135.3437243596614, 34.60829846093506], // 南西座標
-                    [135.48218612903673, 34.68547442174669] // 北東座標
-                ]
-                zoom = 12.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'chuo') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/chuo", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.50987338526778, 34.681187142064886];
-                bounds = [
-                    [135.47958780746262, 34.667871638990064], // 南西座標
-                    [135.535959773211, 34.69576884875232] // 北東座標
-                ]
-                zoom = 14.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'higashi') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/higashi", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.5598338602805, 34.68751557507677];
-                bounds = [
-                    [135.52373491013066, 34.63311462122401], // 南西座標
-                    [135.60260767024874, 34.742944833281726] // 北東座標
-                ]
-                zoom = 14;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'hokusetsu') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/hokusetsu", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.55905251463872, 34.830078046438615];
-                bounds = [
-                    [135.35370889521238, 34.736950169429704], // 南西座標
-                    [135.73123768093225, 35.02741818806101] // 北東座標
-                ]
-                zoom = 12.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'kawachi') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/kawachi", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.65072330853974, 34.66994460100712];
-                bounds = [
-                    [135.58371367188641, 34.571122022], // 南西座標
-                    [135.74940772762903, 34.89676688490299] // 北東座標
-                ]
-                zoom = 12.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'kita') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/kita", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.49768172955453, 34.703197524345484];
-                bounds = [
-                    [135.40982161628477, 34.670631768604935], // 南西座標
-                    [135.56077328151952, 34.7573560429971] // 北東座標
-                ]
-                zoom = 13.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'minami') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/minami", "index"],
-                    ["osaka/ferry", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.5062480893037, 34.652403484554824];
-                bounds = [
-                    [135.47596673180095, 34.620797469125364], // 南西座標
-                    [135.53350023221066, 34.67560335965379] // 北東座標
-                ]
-                zoom = 14.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'senboku') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/senboku", "index"],
-                    ["osaka/ferry", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.50012524849802, 34.5239972993108];
-                bounds = [
-                    [135.38526278033711, 34.40613068725279], // 南西座標
-                    [135.6752160271494, 34.60276528719615] // 北東座標
-                ]
-                zoom = 12.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'senshu') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/senshu", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.31714877542356, 34.41112732960826];
-                bounds = [
-                    [135.0948588569328, 34.27236024823], // 南西座標
-                    [135.67799380900885, 34.52583422863785] // 北東座標
-                ]
-                zoom = 11.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            } else if (params.get("area") === 'sumiyoshi') {
-                jsArr = [
-                    ["osaka", "cycling"],
-                    ["osaka", "268"],
-                    ["osaka/sumiyoshi", "index"],
-                    ["osaka/ferry", "index"],
-                    ["osaka", "line"]
-                ]
-
-                center = [135.52014912493667, 34.61246680749784];
-                bounds = [
-                    [135.4632947758127, 34.58751531219775], // 南西座標
-                    [135.58565488963143, 34.645628700753576] // 北東座標
-                ]
-                zoom = 13.5;
-                window.addEventListener("DOMContentLoaded", () => {
-                    //
-                });
-            }
-        } else if (!params.get("area")) {
+    if (params.get("id") === 'osaka' && params.get("area")) {
+        if (params.get("area") === 'bayarea') {
             jsArr = [
                 ["osaka", "cycling"],
                 ["osaka", "268"],
-                ["osaka/ferry", "index"],
                 ["osaka/bayarea", "index"],
-                ["osaka/chuo", "index"],
-                ["osaka/higashi", "index"],
-                ["osaka/hokusetsu", "index"],
-                ["osaka/kawachi", "index"],
-                ["osaka/kita", "index"],
-                ["osaka/minami", "index"],
-                ["osaka/senboku", "index"],
-                ["osaka/senshu", "index"],
-                ["osaka/sumiyoshi", "index"]
+                ["osaka/ferry", "index"],
+                ["osaka", "line"]
             ]
 
-            center = [135.5020763952882, 34.69376772507822];
+            center = [135.42872404242706, 34.65462309365647];
             bounds = [
-                [135.0948588569328, 34.27236024823], // 南西座標
+                [135.3437243596614, 34.60829846093506], // 南西座標
+                [135.48218612903673, 34.68547442174669] // 北東座標
+            ]
+            zoom = 12.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'chuo') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/chuo", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.50987338526778, 34.681187142064886];
+            bounds = [
+                [135.47958780746262, 34.667871638990064], // 南西座標
+                [135.535959773211, 34.69576884875232] // 北東座標
+            ]
+            zoom = 14.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'higashi') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/higashi", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.5598338602805, 34.68751557507677];
+            bounds = [
+                [135.52373491013066, 34.63311462122401], // 南西座標
+                [135.60260767024874, 34.742944833281726] // 北東座標
+            ]
+            zoom = 14;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'hokusetsu') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/hokusetsu", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.55905251463872, 34.830078046438615];
+            bounds = [
+                [135.35370889521238, 34.736950169429704], // 南西座標
                 [135.73123768093225, 35.02741818806101] // 北東座標
             ]
-            zoom = 12.3;
+            zoom = 12.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'kawachi') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/kawachi", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.65072330853974, 34.66994460100712];
+            bounds = [
+                [135.58371367188641, 34.571122022], // 南西座標
+                [135.74940772762903, 34.89676688490299] // 北東座標
+            ]
+            zoom = 12.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'kita') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/kita", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.49768172955453, 34.703197524345484];
+            bounds = [
+                [135.40982161628477, 34.670631768604935], // 南西座標
+                [135.56077328151952, 34.7573560429971] // 北東座標
+            ]
+            zoom = 13.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'minami') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/minami", "index"],
+                ["osaka/ferry", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.5062480893037, 34.652403484554824];
+            bounds = [
+                [135.47596673180095, 34.620797469125364], // 南西座標
+                [135.53350023221066, 34.67560335965379] // 北東座標
+            ]
+            zoom = 14.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'senboku') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/senboku", "index"],
+                ["osaka/ferry", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.50012524849802, 34.5239972993108];
+            bounds = [
+                [135.38526278033711, 34.40613068725279], // 南西座標
+                [135.6752160271494, 34.60276528719615] // 北東座標
+            ]
+            zoom = 12.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'senshu') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/senshu", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.31714877542356, 34.41112732960826];
+            bounds = [
+                [135.0948588569328, 34.27236024823], // 南西座標
+                [135.67799380900885, 34.52583422863785] // 北東座標
+            ]
+            zoom = 11.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                //
+            });
+        } else if (params.get("area") === 'sumiyoshi') {
+            jsArr = [
+                ["osaka", "cycling"],
+                ["osaka", "268"],
+                ["osaka/sumiyoshi", "index"],
+                ["osaka/ferry", "index"],
+                ["osaka", "line"]
+            ]
+
+            center = [135.52014912493667, 34.61246680749784];
+            bounds = [
+                [135.4632947758127, 34.58751531219775], // 南西座標
+                [135.58565488963143, 34.645628700753576] // 北東座標
+            ]
+            zoom = 13.5;
             window.addEventListener("DOMContentLoaded", () => {
                 //
             });
         }
+    } else if (params.get("id") === 'osaka') {
+        jsArr = [
+            ["osaka", "cycling"],
+            ["osaka", "268"],
+            ["osaka/ferry", "index"],
+            ["osaka/bayarea", "index"],
+            ["osaka/chuo", "index"],
+            ["osaka/higashi", "index"],
+            ["osaka/hokusetsu", "index"],
+            ["osaka/kawachi", "index"],
+            ["osaka/kita", "index"],
+            ["osaka/minami", "index"],
+            ["osaka/senboku", "index"],
+            ["osaka/senshu", "index"],
+            ["osaka/sumiyoshi", "index"]
+        ]
+
+        center = [135.5020763952882, 34.69376772507822];
+        bounds = [
+            [135.0948588569328, 34.27236024823], // 南西座標
+            [135.73123768093225, 35.02741818806101] // 北東座標
+        ]
+        zoom = 12.3;
+        window.addEventListener("DOMContentLoaded", () => {
+            //
+        });
     }
 }
 
 window.addEventListener("load", () => {
-    if (location.search) {
-        const queryString = location.search;
-        const params = new URLSearchParams(queryString)
+    addMarker(osakaIndex.features)
 
-        if (params.get("area")) {
+    if (location.search) {
+        if (params.get("id") === 'osaka' && params.get("area")) {
             const allMarker = document.querySelectorAll('.hello, .yu, .onsen')
             allMarker.forEach(areaThis => {
                 if (areaThis.dataset.area === params.get("area")) {

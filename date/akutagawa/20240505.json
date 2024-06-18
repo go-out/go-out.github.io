@@ -1,5 +1,6 @@
 {
     "date": "2024.5.5 (Sun)",
+    "u": "第32回 こいのぼりフェスタ1000",
     "readme": "1000-koinobori.md",
     "url": "akutagawa/?date=20240505",
     "youtube": "GHfvP9C2DQo",
@@ -12,7 +13,7 @@
             "track": "../000.vtt"
         },
         {
-            "title": "芥川商店街 Akutagawa Shotengai",
+            "title": "SUNROAD 芥川商店街",
             "src": "2024/002.ia.mp4",
             "track": "../000.vtt"
         },
@@ -25,12 +26,17 @@
     "link": [
         {
             "text": "こいのぼりフェスタ１０００",
-            "url": "https://koinoborifesta1000.jimdofree.com/",
+            "url": "../akutagawa/",
+            "target": "_self"
+        },
+        {
+            "text": "芥川商店街 © Akutagawa Shotengai",
+            "url": "https://akutagawa-shop.jp/",
             "target": "_blank"
         },
         {
-            "text": "芥川商店街",
-            "url": "https://akutagawa-shop.jp/",
+            "text": "芥川公園 - 高槻市ホームページ",
+            "url": "https://www.city.takatsuki.osaka.jp/site/odekakemap/3861.html",
             "target": "_blank"
         }
     ]

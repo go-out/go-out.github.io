@@ -3,7 +3,7 @@
 if (!location.search) {
     center = [135.5020763952882, 34.69376772507822];
     bounds = false;
-    zoom = '3.75';
+    zoom = 3.75;
     jsArr = [
         ["osaka/ferry", "index"],
         ["osaka", "line"]

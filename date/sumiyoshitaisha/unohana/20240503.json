@@ -9,29 +9,29 @@
     "cover": "sumiyoshitaisha.thumbs/20240503/004_000233.jpg",
     "video": [
         {
-            "title": "令和六年五月三日",
+            "title": "午後二時 石舞台",
             "src": "20240503/001.ia.mp4",
-            "track": "../000.vtt"
+            "track": "unohana/2024.vtt"
         },
         {
-            "title": "午後二時 石舞台",
+            "title": "五月初卯日",
             "src": "20240503/002.ia.mp4",
-            "track": "../000.vtt"
+            "track": "unohana/1300.vtt"
         },
         {
             "title": "振鉾（えんぶ）",
             "src": "20240503/003.ia.mp4",
-            "track": "../000.vtt"
+            "track": "unohana/enbu.vtt"
         },
         {
-            "title": "迦陵頻（左右童舞・壱越調）",
+            "title": "迦陵頻（左方童舞・壱越調）",
             "src": "20240503/004.ia.mp4",
-            "track": "../000.vtt"
+            "track": "unohana/karyoubin.vtt"
         },
         {
-            "title": "登天楽（左右平舞・高麗双調）",
+            "title": "北庭楽（左方平舞・壱越調）",
             "src": "20240503/005.ia.mp4",
-            "track": "../000.vtt"
+            "track": "unohana/bugaku.vtt"
         }
     ],
     "link": [

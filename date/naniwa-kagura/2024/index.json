@@ -1,7 +1,7 @@
 {
     "date": "2024.4.4 (Thu)",
     "u": "神楽祭 🇯🇵 佐備神社",
-    "strong": "Kagura Festival",
+    "strong": "Kagura Matsuri",
     "youtube": "fEXIXYd1hbM",
     "directory": "https://archive.org/download/naniwa-kagura/",
     "cover": "naniwa-kagura.thumbs/2024/003_000074.jpg",
@@ -11,12 +11,12 @@
         {
             "title": "令和六年 四月四日",
             "src": "2024/001.ia.mp4",
-            "track": "../000.vtt"
+            "track": "2024/2024.vtt"
         },
         {
             "title": "佐備神社",
             "src": "000.mp4",
-            "track": "../000.vtt"
+            "track": "tominaga.vtt"
         },
         {
             "title": "午後二時 祭典",
@@ -34,29 +34,29 @@
             "track": "../000.vtt"
         },
         {
-            "title": "浪速神楽の八乙女",
+            "title": "鈴扇 すずおうぎ",
             "src": "2024/005.ia.mp4",
-            "track": "../000.vtt"
+            "track": "2024/miko.vtt"
         },
         {
             "title": "豊栄舞 とよさかのまい",
             "src": "toyosaka-no-mai.ia.mp4",
-            "track": "../000.vtt"
+            "track": "2024/toyosaka-no-mai.vtt"
         },
         {
             "title": "紅わらべ べにわらべ",
             "src": "beniwarabe.ia.mp4",
-            "track": "../000.vtt"
+            "track": "2024/beniwarabe.vtt"
         },
         {
             "title": "胡蝶吾妻 こちょうあずま",
             "src": "kochoazuma.ia.mp4",
-            "track": "../000.vtt"
+            "track": "28/kochoazuma.vtt"
         },
         {
             "title": "浦安の舞 うらやすのまい",
             "src": "urayasu-no-mai.ia.mp4",
-            "track": "../000.vtt"
+            "track": "2024/urayasu-no-mai.ia.vtt"
         }
     ],
     "link": [
@@ -68,6 +68,16 @@
         {
             "text": "令和6年神楽祭のお知らせ",
             "url": "https://sabijinja.site/archives/364",
+            "target": "_blank"
+        },
+        {
+            "text": "近代に作られた神楽 - Wikisource",
+            "url": "https://ja.wikisource.org/wiki/%E8%BF%91%E4%BB%A3%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%9F%E7%A5%9E%E6%A5%BD",
+            "target": "_blank"
+        },
+        {
+            "text": "浦安の舞 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%B5%A6%E5%AE%89%E3%81%AE%E8%88%9E",
             "target": "_blank"
         }
     ]

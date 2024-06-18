@@ -46,6 +46,11 @@
             "text": "令和六年 卯之葉神事",
             "url": "?id=unohana&date=20240503",
             "target": "_self"
+        },
+        {
+            "text": "令和六年 御田植神事",
+            "url": "?id=otaue&date=20240614",
+            "target": "_self"
         }
     ]
 }
