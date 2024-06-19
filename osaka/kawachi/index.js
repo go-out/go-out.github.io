@@ -121,6 +121,12 @@ const osakaKawachi = {
             'type': 'Feature',
             'tags': 'legacy',
             'area': 'kawachi',
+            'feature': [
+                {
+                    'month': 10,
+                    'text': '十月上旬 Early October 高安薪能 Takayasu Takigi-Noh'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.6400280798243, 34.60645434423541]

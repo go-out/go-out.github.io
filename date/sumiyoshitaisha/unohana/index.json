@@ -1,0 +1,39 @@
+{
+    "date": "毎年 五月初卯日",
+    "u": "卯之葉神事 🇯🇵 住吉大社",
+    "strong": "Unoha Shinji <small>(Rabbit Flower Rite)</small>",
+    "readme": "unohana/README.md",
+    "url": "sumiyoshitaisha/?id=unohana",
+    "youtube": "i9NuEH8CkSE",
+    "directory": "https://ia904608.us.archive.org/3/items/sumiyoshitaisha/",
+    "cover": "sumiyoshitaisha.thumbs/20240503/004_000233.jpg",
+    "video": [
+        {
+            "title": "振鉾（えんぶ）",
+            "src": "20240503/003.ia.mp4",
+            "track": "unohana/enbu.vtt"
+        },
+        {
+            "title": "迦陵頻（左方童舞・壱越調）",
+            "src": "20240503/004.ia.mp4",
+            "track": "unohana/karyoubin.vtt"
+        },
+        {
+            "title": "北庭楽（左方平舞・壱越調）",
+            "src": "20240503/005.ia.mp4",
+            "track": "unohana/hokuteiraku.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "5月の行事 | 祭と年中行事",
+            "url": "https://www.sumiyoshitaisha.net/events/annualevents/05.html",
+            "target": "_self"
+        },
+        {
+            "text": "令和六年 卯之葉神事",
+            "url": "?id=unohana&date=20240503",
+            "target": "_self"
+        }
+    ]
+}

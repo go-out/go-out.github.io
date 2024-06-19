@@ -1,0 +1,46 @@
+{
+    "title": "高天岸野神社 たかまきしのじんじゃ",
+    "description": "標高800mの高所鎮座",
+    "spot": "?id=nara&name=takamakishino",
+    "style": "legacy",
+    "info": {
+        "title": "Takamakishino Jinja 🇯🇵 Kitayama Gojo, Nara",
+        "address": "奈良県五條市北山町",
+        "google": "https://maps.app.goo.gl/tNEc9pH5Pk464j2i6",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "",
+            "金剛山地の南側の中腹 かなり山深い、集落はおろか人工物さえ殆ど無いような地に鎮座する",
+            "背後に聳え立つ金剛山はかつて「高天山」と呼ばれていたといわれ、「高天」とは金剛山を指していると考えられる",
+            "",
+            "<b>龍伝説の道</b><br><u>日時</u><br>金剛山山頂までの登山道",
+            "",
+            "<u>アクセス</u><br>JR和歌山線五条駅下車、五條市コミュニティバス「五条駅・田園方面ライン」に乗車し、「田園1丁目」下車",
+            "「五條市5万人の森公園」から北西900mほど、斜面上の集落を東西に結ぶ道の途中に登山道を登る"
+        ]
+    },
+    "links": [
+        "<a href='___' target='_blank'>リンク</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}

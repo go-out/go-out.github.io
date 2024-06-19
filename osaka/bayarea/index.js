@@ -138,6 +138,22 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'relax',
+            'area': 'bayarea',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48227414737303, 34.682100279631634]
+            },
+            'properties': {
+                'title': '川口基督教会',
+                'address': '毎年秋 川口フェスタ Pipe Organ Concert（生きた建築ミュージアムフェスティバル大阪と同時開催）',
+                'date': '',
+                'youtube': 'O84LelQJNbA',
+                'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft',
             'area': 'bayarea',
             'geometry': {

@@ -43,13 +43,18 @@
             "target": "_self"
         },
         {
-            "text": "令和六年 卯之葉神事",
-            "url": "?id=unohana&date=20240503",
+            "text": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
+            "url": "?id=unohana",
             "target": "_self"
         },
         {
-            "text": "令和六年 御田植神事",
-            "url": "?id=otaue&date=20240614",
+            "text": "御田植神事 Otaue Shinji (Sacred Rice Planting)",
+            "url": "?id=otaue",
+            "target": "_self"
+        },
+        {
+            "text": "Sumiyoshi Taisha | Rituals and Ceremonies",
+            "url": "https://www.sumiyoshitaisha.net/en/rituals.html",
             "target": "_self"
         }
     ]

@@ -1,0 +1,48 @@
+{
+    "title": "天河神社 てんかわじんじゃ",
+    "description": "大峯本宮天河大辨財天社",
+    "spot": "?id=nara&name=tenkawa",
+    "style": "__",
+    "info": {
+        "title": "Tenkawa Jinja 🇯🇵 Tenkawa-mura Yoshino, Nara",
+        "address": "奈良県吉野郡天川村坪内１０７",
+        "google": "https://maps.app.goo.gl/JpZBK1USHZ3X8CN78",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "天河太々神楽講",
+            "弥山山頂（1895m）に奥宮（弥山神社）",
+            "能との縁が深く、能の関係の品物が多く奉納され保管されている",
+            "",
+            "",
+            "<b>春季大祭</b><br><u>四月十四 十一時</u><br>神楽殿にて能が演じられる",
+            "<b>例大祭</b><br><u>七月十七日 十時半</u><br>最大の祭典 採燈護摩・能楽奉納ほか 夜には江州踊り",
+            "<b>秋季大祭</b><br><u>十一月二日 十時</u><br>神楽殿にて能が演じられる",
+            "",
+            "<u>アクセス</u><br>近鉄吉野線「下市口駅」から奈良交通の路線バス"
+        ]
+    },
+    "links": [
+        "<a href='https://www.tenkawa-jinja.or.jp/' target='_blank'>大峯本宮天河大辨財天社｜天河神社</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "title": "長谷寺 はせでら",
+    "description": "長谷寺の奥の院「瀧蔵神社」",
+    "spot": "?id=nara&name=hasedera",
+    "style": "legacy",
+    "info": {
+        "title": "Hasedera 🇯🇵 Hatsuse - Takikura Sakurai, Nara",
+        "address": "奈良県桜井市初瀬７３１−１",
+        "google": "https://maps.app.goo.gl/qZz8Y2TJ7DrGHfgs5",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "奈良大和路の花の御寺 入山料金 大人:500円",
+            "長谷寺の北約3km、標高430mに鎮座する「瀧蔵神社」は、長谷寺の奥の院",
+            "",
+            "<b>祭事</b><br><u>日時</u><br>詳細",
+            "",
+            "<u>アクセス</u><br>近鉄「長谷寺」"
+        ]
+    },
+    "links": [
+        "<a href='https://www.hasedera.or.jp/' target='_blank'>奈良大和路の花の御寺 総本山 長谷寺</a>",
+        "<a href='https://sakurai-kankou.jimdo.com/%E5%90%8D%E6%89%80%E6%97%A7%E8%B7%A1/%E5%88%9D%E7%80%AC%E9%81%93%E5%91%A8%E8%BE%BA-%E9%95%B7%E8%B0%B7%E5%AF%BA%E3%81%BB%E3%81%8B/%E7%80%A7%E8%94%B5%E7%A5%9E%E7%A4%BE/' target='_blank'>瀧蔵神社（桜井市滝倉）</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}

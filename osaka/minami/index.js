@@ -117,6 +117,20 @@ const osakaMinami = {
             'type': 'Feature',
             'tags': 'legacy',
             'area': 'minami',
+            'feature': [
+                {
+                    'month': 4,
+                    'text': '四月第二日曜日 春の大祭'
+                },
+                {
+                    'month': 7,
+                    'text': '七月十三・十四日 July 13th 14th 夏祭・船渡御'
+                },
+                {
+                    'month': 10,
+                    'text': '十月十四 October 14th 秋の大祭'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49671014738038, 34.66147827438952]
@@ -134,6 +148,16 @@ const osakaMinami = {
             'type': 'Feature',
             'tags': 'legacy',
             'area': 'minami',
+            'feature': [
+                {
+                    'month': 2,
+                    'text': '二月一日〜十日 節分やくよけ星まつり祈願祭'
+                },
+                {
+                    'month': 5,
+                    'text': '五月一日 春季大法要大般若六百巻転読法要'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.50286441145153, 34.635475975126724]
@@ -191,6 +215,12 @@ const osakaMinami = {
             'type': 'Feature',
             'tags': 'legacy',
             'area': 'minami',
+            'feature': [
+                {
+                    'month': 7,
+                    'text': '七月二十一・二十二日 July 21st, 22nd 夏祭り'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49956152262018, 34.62833854382005]
@@ -208,6 +238,16 @@ const osakaMinami = {
             'type': 'Feature',
             'tags': 'draft',
             'area': 'minami',
+            'feature': [
+                {
+                    'month': 7,
+                    'text': '七月二十七・二十八日 July 27th, 28th 氏子大祭'
+                },
+                {
+                    'month': 10,
+                    'text': '十月十四・十五日 October 14th, 15th 奉納芸能大会'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.50902324235545, 34.6309516823175]

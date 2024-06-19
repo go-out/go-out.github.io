@@ -1,0 +1,49 @@
+{
+    "title": "二上神社 ふたがみじんじゃ",
+    "description": "葛木二上神社",
+    "spot": "?id=nara&name=futagami",
+    "style": "legacy",
+    "info": {
+        "title": "Futagami Jinja 🇯🇵 Someno Katsuragi, Nara",
+        "address": "奈良県葛城市染野６９１",
+        "google": "https://maps.app.goo.gl/gKtg8g2sRKTgthz59",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "二上山雄岳山頂付近 豊布都霊（とよふつのみたま）神と大国魂（おおくにたま）神を祀る",
+            "奈良盆地では、三輪山（みわやま）を日のいずる神山・二上山を日のしずむ神山としていた",
+            "現在の社殿は、1974年（昭和49年）の二上山大火で焼失し、翌1975年に再建されたもの",
+            "境内（雄岳山頂）に立ち入るには美化保存協力金200円を神社に支払う必要がある",
+            "",
+            "二上山の北西にある岩山「屯鶴峯 どんづるぼう」も景勝地",
+            "",
+            "<u>アクセス</u><br>近鉄「二上神社口」",
+            "葛木倭文坐天羽雷命神社（加守神社）から徒歩約1時間"
+        ]
+    },
+    "links": [
+        "<a href='https://www.xn--fhq2lw96a.com/' target='_blank'>二上山登山パーフェクトガイド</a>",
+        "<a href='https://nara-kashiba.com/donzurubo/' target='_blank'>屯鶴峯 - 奈良県香芝市</a>",
+        "<a href='https://www.city.kashiba.lg.jp/soshiki/18/4323.html' target='_blank'>かしば・屯鶴峯温泉</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}

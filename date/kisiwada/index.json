@@ -1,0 +1,24 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "u": "タイトル 🇯🇵 場所",
+    "strong": "Title <small>Venue</small>",
+    "readme": "README.md",
+    "url": ".sample/",
+    "youtube": "___",
+    "directory": "https://archive.org/details/@creative_community_space_",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "リンク",
+            "url": "___",
+            "target": "_self"
+        }
+    ]
+}

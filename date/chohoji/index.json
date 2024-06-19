@@ -1,0 +1,21 @@
+{
+    "date": "〒 547-0044",
+    "url": "chohoji/",
+    "youtube": "___",
+    "directory": "https://archive.org/details/@creative_community_space_",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "リンク",
+            "url": "___",
+            "target": "_self"
+        }
+    ]
+}

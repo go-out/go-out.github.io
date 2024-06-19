@@ -206,6 +206,10 @@ const osakaIndex = {
                 {
                     'month': 4,
                     'text': '桜が見頃を迎える4月上旬、境内および高津公園にて夜桜を公開'
+                },
+                {
+                    'month': 7,
+                    'text': '七月十七・十八日 夏祭'
                 }
             ],
             'geometry': {

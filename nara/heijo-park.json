@@ -1,0 +1,43 @@
+{
+    "title": "平城宮 へいじょうきょう",
+    "description": "平城宮跡歴史公園",
+    "spot": "?id=nara&name=heijo-park",
+    "style": "style",
+    "info": {
+        "title": "Heijo Park 🇯🇵 Nijooji-minami, Nara",
+        "address": "奈良県奈良市二条大路南",
+        "google": "https://maps.app.goo.gl/R75NaAFHUMoBbbhF7",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "開館時間 9:00～17:00（入場は16:30まで）",
+            "",
+            "<b>祭事</b><br><u>日時</u><br>詳細",
+            "",
+            "<u>アクセス</u><br>近鉄「大和西大寺」南口から徒歩20分"
+        ]
+    },
+    "links": [
+        "<a href='https://www.heijo-park.jp/' target='_blank'>国営平城宮跡歴史公園</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "title": "往馬大社 いこまたいしゃ",
+    "description": "場所の説明",
+    "spot": "?id=nara&name=ikoma",
+    "style": "legacy",
+    "info": {
+        "title": "Ikoma Taisha 🇯🇵 Ichibu-cho Ikoma, Nara",
+        "address": "奈良県生駒市壱分町１５２７−１",
+        "google": "https://maps.app.goo.gl/MV48oSpeG3VDbnDt5",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "神奈備（生駒山）を御神体として祀られた日本有数の古社",
+            "神社の境内を覆う鎮守の杜は奈良県の天然記念物に指定されている",
+            "太古から変わらぬ自然の森を今に守り伝える聖域",
+            "",
+            "<b>火祭り</b><br><u>十月体育の日の前日 午後二時</u><br>火の神とも称される往馬大社で最も重要視される神事",
+            "<b>千燈明</b><br><u>八月十五日 午後七時</u><br>特別な御神楽、「花湯神楽」が奏でられる",
+            "<b>月次祭</b><br><u>毎月一日 午前十時 ※十一・十二月は九時から</u><br>浪速神楽を奏でる",
+            "",
+            "<u>アクセス</u><br>近鉄生駒線「一分」より徒歩7分"
+        ]
+    },
+    "links": [
+        "<a href='https://ikomataisha.or.jp/' target='_blank'>往馬大社 | 生駒山の麓に鎮座する生駒の氏神さま</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}

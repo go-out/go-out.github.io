@@ -1,0 +1,46 @@
+{
+    "title": "石上神宮 いそのかみじんぐう",
+    "description": "日本書紀に記された日本最古設立の神宮",
+    "spot": "?id=nara&name=isonokami",
+    "style": "legacy",
+    "info": {
+        "title": "Isonokami Jingu 🇯🇵 Ruhu-cho Tenri, Nara",
+        "address": "奈良県天理市布留町３８４",
+        "google": "https://maps.app.goo.gl/sHSymb9hwwrHK1tF9",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "",
+            "伊勢神宮と並び、日本書紀に記された日本最古設立の神宮",
+            "本殿は存在せず、拝殿の奥の聖地（禁足地）を「布留高庭」「御本地」などと称して祀る",
+            "石上神宮の神使「東天紅鶏」「烏骨鶏」など約30羽の鶏が境内に放し飼いされている",
+            "",
+            "<b>月次祭</b><br><u>毎月一・十五日 午前十時</u><br>祝詞に続いて、巫女により神楽「豊栄の舞（とよさかのまい）」等が奏せられる",
+            "",
+            "<u>アクセス</u><br>近鉄天理線・JR桜井線（万葉まほろば線）「天理」"
+        ]
+    },
+    "links": [
+        "<a href='https://www.isonokami.jp/' target='_blank'>石上神宮［いそのかみじんぐう］公式サイト</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}

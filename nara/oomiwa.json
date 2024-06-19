@@ -1,7 +1,6 @@
 {
     "title": "大神神社（三輪明神）",
     "description": "2024年2月10日 の 大神神社",
-    "url": "legacy/?area=nara&name=oomiwa",
     "year": "2024",
     "month": "2",
     "day": "10",
@@ -40,8 +39,7 @@
     },
     "links": [
         "<a href='https://oomiwa.or.jp/' target='_blank'>【公式】三輪明神 大神神社</a>",
-        "<a href='https://oomiwa.or.jp/jinja/miwayama/tohai/' target='_blank'>三輪山登拝について | 大神神社</a>",
-        "<a href='https://oomiwa.or.jp/keidaimap/sasainfo/sasayuri/' target='_blank'>ささゆりへの取り組み | 大神神社</a>"
+        "<a href='https://oomiwa.or.jp/jinja/miwayama/tohai/' target='_blank'>三輪山登拝について | 大神神社</a>"
     ],
     "width": "0.575",
     "height": "1",

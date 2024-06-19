@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="creative-community.space">
+
+    <title>今月の出来事 What will Happen in This Month</title>
+    <meta property="og:title" content="今月の出来事 What will Happen in This Month">
+    <meta name="twitter:title" content="今月の出来事 What will Happen in This Month">
+
+    <meta name="description" content="場所：場所の名前 ⛩️ Venue | 実施日：毎年 月 日 時 から 時">
+    <meta property="og:description" content="___">
+    <meta name="twitter:description" content="___">
+
+    <meta property="og:url" content="https://creative-community.space/map/date/">
+    <meta property="twitter:url" content="https://creative-community.space/map/date/">
+    <meta property="og:image" content="https://i.ytimg.com/vi/___/sddefault.jpg">
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/___/sddefault.jpg">
+
+    <link rel="icon" href="../profile/img/favicon.png">
+    <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../profile/img/mobile.png" sizes="180x180">
+    <link rel="stylesheet" href="../date/style.css">
+    <style>
+        html {
+            font-size: 20px;
+        }
+
+        @media screen and (max-width: 1000px) {
+            html {
+                font-size: 2vw;
+            }
+        }
+
+        @media (orientation: portrait) {
+            html {
+                font-size: 3vw;
+            }
+        }
+
+        video::cue {
+            background: transparent;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+
+    <script type="text/javascript" src="../date/index.js"></script>
+    <script>
+        let now = new Date()
+        let thismonth = now.getMonth() + 1;
+        let padNum = ('00' + thismonth).slice(-2)
+
+        const urlParam = location.search.substring(1)
+
+        // ?month=00
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+
+            if (paramArr.month) {
+                indexJSON('../japan/' + paramArr.month + "/index.json")
+            }
+        } else {
+            indexJSON('../japan/' + padNum + '/index.json')
+        } 
+    </script>
+</head>
+
+<body>
+    <nav>
+        <input type="button" data-playing="false" role="switch" />
+        <button type="button" id="menu" onclick="changeHidden()"></button>
+    </nav>
+
+    <article id="cover">
+        <section>
+            <h1>
+                <u>今月の出来事</u><br>
+                <strong>What will Happen <small>in</small> This Month</strong>
+            </h1>
+            <h2>
+                実施日<br>
+                <small>Date: </small>
+            </h2>
+        </section>
+    </article>
+
+    <article id="readme" hidden>
+        <header></header>
+        <section></section>
+        <footer></footer>
+    </article>
+
+    <video id="video" preload="auto" muted playsinline>
+        <source id="mp4" type="video/mp4" />
+        <track id="captions" srclang="ja" kind="captions" default />
+    </video>
+</body>
+
+</html>

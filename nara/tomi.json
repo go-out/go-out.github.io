@@ -1,0 +1,45 @@
+{
+    "title": "等彌神社 とみじんじゃ",
+    "description": "豊かな自然に囲まれた建国の聖地",
+    "spot": "?id=nara&name=tomi",
+    "style": "__",
+    "info": {
+        "title": "Name 🇯🇵 Area, Japan",
+        "address": "住所",
+        "google": "https://maps.app.goo.gl/___",
+        "text": [
+            "<ruby>ルビ<rp>（</rp><rt>ruby</rt><rp>）</rp></ruby>",
+            "桜井市立図書館と多武峰に向かう県道を挟んで東側",
+            "参道を進むと上社「上津尾社」、裏参道を下ると下社「下津尾社」",
+            "大嘗会の起源であり、初の舞台ともされる霊畤「鳥見山」までの登拝（行きかえり約１時間）",
+            "",
+            "<b>紅葉ライトアップと献灯祭</b><br><u>十一月二十日〜二十六日</u><br>十八時頃からイベント有り",
+            "",
+            "<u>アクセス</u><br>JR西日本・近鉄「桜井」から徒歩約15分"
+        ]
+    },
+    "links": [
+        "<a href='___' target='_blank'>リンク</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/__=w575-h325-p-k-no",
+            "src": [
+                "ggms/__=m18",
+                "ggms/__=m18"
+            ]
+        }
+    ]
+}
