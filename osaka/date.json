@@ -194,22 +194,22 @@
                     "date": "七月九日 July 9th 午後七時"
                 },
                 {
-                    "area": "minami",
-                    "title": "夏祭・船渡御",
-                    "venue": "難波八阪神社 Nambayasaka Shrine",
-                    "date": "七月十三・十四日 July 13th, 14th"
-                },
-                {
                     "area": "sumiyoshi",
                     "title": "夏祭 Natsu Matsuri",
                     "venue": "杭全神社 Kumata Jinja",
                     "date": "七月十一から十四日 July 11st - 14th"
                 },
                 {
-                    "area": "hokusetsu",
-                    "title": "寺方提灯踊り",
+                    "area": "minami",
+                    "title": "夏祭・船渡御",
+                    "venue": "難波八阪神社 Nambayasaka Shrine",
+                    "date": "七月十三・十四日 July 13th, 14th"
+                },
+                {
+                    "area": "higashi",
+                    "title": "寺方提灯踊り大会",
                     "venue": "京阪守口市駅前 Canadian Square",
-                    "date": "七月中旬 Mid-July 午後七時"
+                    "date": "七月中旬 Mid-July 「海の日」を含めた2日間 午後七時"
                 },
                 {
                     "area": "minami",
