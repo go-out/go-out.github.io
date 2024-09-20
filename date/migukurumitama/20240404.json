@@ -1,41 +1,49 @@
 {
-    "date": "2024.4.4 (Wed)",
-    "readme": "README.md",
-    "url": "migukurumitama/?date=20240404",
+    "url": "?id=migukurumitama&date=20240404",
     "youtube": "KDmLabOMiF8",
+    "date": "2024.4.4 (Wed)",
+    "info": {
+        "title": "美具久留御魂神社",
+        "subTitle": "一ノ宮参拝道 ⛩ 眞名井ヶ原",
+        "address": [
+            "大阪府富田林市宮町",
+            "3-2053 Miyacho Tondabayashi, Osaka"
+        ],
+        "readme": "migukurumitama/README.md"
+    },
     "directory": "https://archive.org/download/migukurumitama/",
     "cover": "migukurumitama.thumbs/20240404/003_000089.jpg",
     "video": [
         {
             "title": "美具久留御魂神社",
             "src": "20240404/001.ia.mp4",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "涙だれの梅庭園",
             "src": "20240404/002.ia.mp4",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "一ノ宮参拝道",
             "src": "20240404/003.ia.mp4",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "支子稲荷神社",
             "src": "20240404/004.ia.mp4",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "地蔵尊 嘉喜門院御廟所",
             "src": "20240404/005.ia.mp4",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         }
     ],
     "link": [
         {
             "text": "美具久留御魂神社 ⛩️ Migukurumitama Jinja",
-            "url": "../../spot/?id=osaka&area=senboku&name=migukurumitama",
+            "url": "../spot/?id=osaka&area=senboku&name=migukurumitama",
             "target": "_self"
         },
         {

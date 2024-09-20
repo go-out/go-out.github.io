@@ -17,47 +17,72 @@
     "portrait": "repeat(2, 1fr)",
     "video": [
         {
-            "id": "one",
-            "poster": "p/AF1QipMewkMvisdJh5wiIMJ5P-mBa_FJrUCpfhSqAeQn=w575-h325-p-k-no",
+            "id": "gardencity",
+            "poster": "p/AF1QipOdcWysnyJwnLfQgLzMCehbOada3C42VxehRdSh=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipMewkMvisdJh5wiIMJ5P-mBa_FJrUCpfhSqAeQn=m18"
+                "ggms/AF1QipOdcWysnyJwnLfQgLzMCehbOada3C42VxehRdSh=m18"
             ]
         },
         {
-            "id": "two",
-            "poster": "p/AF1QipPX1mNRBmOCSqJkt_HGB_HvWOxmJ6czlA6PA2Lr=w575-h325-p-k-no",
+            "id": "herbis1",
+            "poster": "p/AF1QipPHCUCS9wT-aNJldGIr7l1nN3Epff7miV5MBgij=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipPX1mNRBmOCSqJkt_HGB_HvWOxmJ6czlA6PA2Lr=m18"
+                "ggms/AF1QipPHCUCS9wT-aNJldGIr7l1nN3Epff7miV5MBgij=m18",
+                "ggms/AF1QipOadpGueeY_Ta9HfCe7zvHQvbAH_pFtlJhOBlRg=m18"
             ]
         },
         {
-            "id": "three",
-            "poster": "p/AF1QipP9cgKxZBhELO5D5u_WoJq_roKQpUHxLrLEugjz=w575-h325-p-k-no",
+            "id": "herbis2",
+            "poster": "p/AF1QipO5cdv4VgPT4Yr3BJcRM8T0EWlxSwYAbKO0irk_=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipP9cgKxZBhELO5D5u_WoJq_roKQpUHxLrLEugjz=m18"
+                "ggms/AF1QipO5cdv4VgPT4Yr3BJcRM8T0EWlxSwYAbKO0irk_=m18"
             ]
         },
         {
-            "id": "four",
-            "poster": "p/AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0=w575-h325-p-k-no",
+            "id": "plaza1",
+            "poster": "p/AF1QipPbNBeX5QAbNyZXVpCd2Q1pYitowfpO0EP-UphD=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0=m18"
+                "ggms/AF1QipPbNBeX5QAbNyZXVpCd2Q1pYitowfpO0EP-UphD=m18"
             ]
         },
         {
-            "id": "ntt-park1",
-            "poster": "p/AF1QipOMvERU-huZRAGXGiYl_3Pq3kofWsw6q30h7q2t=w575-h325-p-k-no",
+            "id": "plaza2",
+            "poster": "p/AF1QipNPjVN86Ur_DyKmCWFuKGe4zyzah8lAPoZ_SNFX=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipOMvERU-huZRAGXGiYl_3Pq3kofWsw6q30h7q2t=m18",
-                "ggms/AF1QipNrs0U3o1jmG4blPkikWY6O8w8mpM_41yS5hawM=m18"
+                "ggms/AF1QipNPjVN86Ur_DyKmCWFuKGe4zyzah8lAPoZ_SNFX=m18",
+                "ggms/AF1QipNRZnrGEmHZbtTmGl98-zcjiCzRki_gZA-Ybldu=m18",
+                "ggms/AF1QipNMeh6gp3wjuik2LiPIFqjFukx5fVEuZb8lqBdm=m18"
             ]
         },
         {
-            "id": "ntt-park2",
-            "poster": "p/AF1QipPP2nabYi80XPNdzyVS2ZhuY9VIJRL-R5nar5_g=w575-h325-p-k-no",
+            "id": "ritz1",
+            "poster": "p/AF1QipOnNpHPu5VE00I0rkep2igXOa1cdsXU8EG1g8JP=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipPP2nabYi80XPNdzyVS2ZhuY9VIJRL-R5nar5_g=m18",
-                "ggms/AF1QipMqm-ORxey-Bk7HmnSzH6YKoiObEFk45os1dzp9=m18"
+                "ggms/AF1QipOnNpHPu5VE00I0rkep2igXOa1cdsXU8EG1g8JP=m18",
+                "ggms/AF1QipOmjQdIeakU03iXwk7RqUCLKpdyJnS3eGJE1jHi=m18"
+            ]
+        },
+        {
+            "id": "ritz2",
+            "poster": "p/AF1QipPKYfaU5TdG_ss5QaJAFNrNBUXAZs6lWLioG7j_=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipNOou7gE5J9hXNVruon6K93OhJhCvO1Bzesf20D=m18",
+                "ggms/AF1QipPKYfaU5TdG_ss5QaJAFNrNBUXAZs6lWLioG7j_=m18"
+            ]
+        },
+        {
+            "id": "monterey",
+            "poster": "p/AF1QipOdJ53inUmfGx6B1bU7IhciFDGDokpLqfdhzFC2=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipOdJ53inUmfGx6B1bU7IhciFDGDokpLqfdhzFC2=m18",
+                "ggms/AF1QipMBDQtfPzy8L5-Gad2NymJ3XmSn5UWo7tGszrk3=m18"
+            ]
+        },
+        {
+            "id": "daibiru",
+            "poster": "p/AF1QipMPBaocCp6N-eF5J0W9a51XwIhSYCrwVYOnlsJm=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMPBaocCp6N-eF5J0W9a51XwIhSYCrwVYOnlsJm=m18"
             ]
         }
     ],

@@ -1,0 +1,53 @@
+{
+    "url": "?id=udono-yoshihara&date=20240218",
+    "youtube": "0ncmnMdeRCw",
+    "date": "2024.2.18 (Sun)",
+    "info": {
+        "title": "<small>Controlled burn at</small> <br>Udono Yoshihara <small>(Yodogawa riverside)</small>",
+        "subTitle": "鵜殿のヨシ原焼き 🔥 高槻市鵜殿",
+        "address": [
+            "大阪府高槻市鵜殿 ~ 上牧",
+            "Takatsuki Udono ~ Kanmaki Osaka, Japan"
+        ],
+        "readme": "udono-yoshihara/README.md"
+    },
+    "directory": "https://archive.org/download/udono.yoshihara/",
+    "cover": "udono.yoshihara.thumbs/20240218/009_000001.jpg",
+    "video": [
+        {
+            "title": "二〇二四年二月十八日",
+            "src": "20240218/002.ia.mp4",
+            "track": "udono-yoshihara/20240218/date.vtt"
+        },
+        {
+            "title": "午前九時 火入れ",
+            "src": "20240218/004.ia.mp4",
+            "track": "udono-yoshihara/20240218/0900.vtt"
+        },
+        {
+            "title": "鵜殿葭の原",
+            "src": "20240218/005.ia.mp4",
+            "track": "udono-yoshihara/100-50.vtt"
+        },
+        {
+            "title": "３０㌶ １.５㌖",
+            "src": "20240218/006.ia.mp4",
+            "track": "udono-yoshihara/controlledburn.vtt"
+        },
+        {
+            "title": "午前十一時",
+            "src": "20240218/008.ia.mp4",
+            "track": "udono-yoshihara/20240218/1100.vtt"
+        },
+        {
+            "title": "ヨシ原焼き",
+            "src": "20240218/009.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "正午 完了",
+            "src": "20240218/010.ia.mp4",
+            "track": "udono-yoshihara/20240218/1200.vtt"
+        }
+    ]
+}

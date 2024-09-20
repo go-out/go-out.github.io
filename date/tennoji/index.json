@@ -1,8 +1,16 @@
 {
+    "url": "?id=tennoji",
+    "youtube": null,
     "date": "〒 543-0063",
-    "readme": "README.md",
-    "url": "tennoji/",
-    "youtube": "___",
+    "info": {
+        "title": "Tennoji Park",
+        "subTitle": "天王寺公園",
+        "address": [
+            "大阪市天王寺区茶臼山町",
+            "Chausuyama Tennoji Osaka, Japan"
+        ],
+        "readme": "tennoji/README.md"
+    },
     "directory": "https://lh3.googleusercontent.com/",
     "cover": "p/AF1QipPs8_-GbKJhSvwm0Rt7makEOO0Wv6JTiMsuEN9I=w1280-h720-k-no",
     "video": [

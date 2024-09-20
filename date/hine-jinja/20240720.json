@@ -1,0 +1,55 @@
+{
+    "url": "?id=hine-jinja&date=20240720",
+    "youtube": "___",
+    "date": "2024.7.20 (Sat)",
+    "info": {
+        "title": "ゆ祭り<br><small>奉納 五社音頭踊り</small>",
+        "subTitle": "日根神社 ⛩️ Hine Jinja",
+        "address": [
+            "大阪府泉佐野市日根野",
+            "631 Hineno Izumisano-shi, Osaka"
+        ],
+        "readme": "hine-jinja/yu-matsuri.md"
+    },
+    "directory": "https://ia801908.us.archive.org/11/items/yu-matsuri/",
+    "cover": "yu-matsuri.thumbs/20240720/2100_000177.jpg",
+    "video": [
+        {
+            "title": "一ノ鳥居〜参道〜ゆ川",
+            "src": "20240720/1930.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "四方祓い・参拝",
+            "src": "20240720/1945.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "午後八時 五社音頭踊り",
+            "src": "20240720/2000.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "午後九時 音頭奉納（〻）",
+            "src": "20240720/2100.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "午後九時半 終了",
+            "src": "20240720/2130.ia.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "日根神社公式",
+            "url": "https://hine-jinja.jp/",
+            "target": "_blank"
+        },
+        {
+            "text": "泉佐野市立図書館:いずみさのなんでも百科",
+            "url": "https://library.city.izumisano.lg.jp/izumisano/nandemo/yu/yumaturi.html",
+            "target": "_blank"
+        }
+    ]
+}

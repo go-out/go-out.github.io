@@ -1,27 +1,49 @@
 {
-    "date": "〒 569-1132",
-    "readme": "1000-koinobori.md",
-    "url": "akutagawa/",
+    "url": "?id=akutagawa",
     "youtube": "GHfvP9C2DQo",
+    "date": "〒 569-1132",
+    "info": {
+        "title": "芥川 Akutagawa",
+        "subTitle": "大阪府高槻市 Takatsuki, Osaka",
+        "address": [
+            "大阪府高槻市 芥川",
+            "Akutagawa Takatsuki, Osaka"
+        ]
+    },
     "directory": "https://archive.org/download/akutagawa/",
     "cover": "akutagawa.thumbs/2024/1000_000237.jpg",
     "video": [
         {
             "title": "第32回 こいのぼりフェスタ1000",
             "src": "2024/1000.ia.mp4",
-            "track": "1000/koinobori.vtt"
+            "track": "akutagawa/1000/koinobori.vtt"
+        },
+        {
+            "title": "SUNROAD 芥川商店街",
+            "src": "2024/002.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "芥川公園 Akutagawa Park",
+            "src": "2024/001.ia.mp4",
+            "track": "000.vtt"
         }
     ],
     "link": [
         {
-            "text": "こいのぼりフェスタ１０００",
-            "url": "https://koinoborifesta1000.jimdofree.com/",
+            "text": "第32回 こいのぼりフェスタ1000",
+            "url": "?id=akutagawa&date=20240505",
+            "target": "_self"
+        },
+        {
+            "text": "芥川商店街 © Akutagawa Shotengai",
+            "url": "https://akutagawa-shop.jp/",
             "target": "_blank"
         },
         {
-            "text": "二◯二四年五月五日",
-            "url": "?date=20240505",
-            "target": "_self"
+            "text": "芥川公園 - 高槻市ホームページ",
+            "url": "https://www.city.takatsuki.osaka.jp/site/odekakemap/3861.html",
+            "target": "_blank"
         }
     ]
 }

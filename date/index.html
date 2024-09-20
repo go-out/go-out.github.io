@@ -7,17 +7,17 @@
     <meta name="format-detection" content="telephone=no" />
 
     <!--og:meta-->
-    <meta content="website" property="og:type">
+    <meta property="og:type" content="article" />
     <title>Go Out | 行ったことのない場所へ行く</title>
-    <meta content="Go Out | 行ったことのない場所へ行く" property="og:title">
-    <meta content="知っていることの 外へ わからないところまで 出かける" name="description">
-    <meta content="知っていることの 外へ わからないところまで 出かける" name="og:description">
+    <meta property="og:title" content="Go Out | 行ったことのない場所へ行く" />
+    <meta name="description" content="知っていることの 外へ わからないところまで 出かける" />
+    <meta property="og:description" content="知っていることの 外へ わからないところまで 出かける" />
 
     <!--for Twitter-->
-    <meta content="summary_large_image" name="twitter:card">
-    <meta content="https://creative-community.space/map/" property="og:url">
-    <meta content="https://creative-community.space/map/profile/img/card.png" property="og:image">
-    <meta content="https://creative-community.space/map/profile/img/card.png" name="twitter:image:src">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:url" content="https://creative-community.space/map/" />
+    <meta property="og:image" content="https://creative-community.space/map/profile/img/card.png" />
+    <meta name="twitter:image" content="https://creative-community.space/map/profile/img/card.png" />
 
     <link rel="icon" href="../profile/img/favicon.png">
     <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
@@ -28,36 +28,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="../profile/css/style.css">
-    <link rel="stylesheet" href="../profile/css/index.css">
-    <link rel="stylesheet" href="../profile/css/month.css">
+    <link rel="stylesheet" href="index.css">
 
-    <script src="../profile/js/month.js?v=1.0"></script>
+    <script type="text/javascript" src="index.js"></script>
     <script>
-        const today = new Date(),
-            directory = "../"
-        document.addEventListener("readystatechange", (event) => {
-            if (event.target.readyState === "interactive") {
-                monthJSON('../japan/date.json')
-            } else if (event.target.readyState === "complete") {
-                eventsJSON("../osaka/date.json")
-                eventsJSON("../nara/date.json")
-                eventsJSON("../wakayama/date.json")
+        // ?id=ID$date=YYYYMMDD
+        let params = new URLSearchParams(location.search)
+        if (params.get("id")) {
+            if (params.get("date")) {
+                indexJSON(params.get("id") + "/" + params.get("date") + ".json")
+            } else {
+                indexJSON(params.get("id") + "/index.json")
             }
-        }, false)
+        } else {
+            indexJSON("index.json")
+        }
     </script>
 </head>
 
 <body>
-    <article id="month">
-        <h4 id="thismonth" class="goout">
-            <small>What will Happen on This Month</small><br>
-            <strong>今月</strong> の 出来事
-        </h4>
-        <nav class="goout"></nav>
-    </article>
+    <header>
+        <input type="button" data-playing="false" role="switch" value="YYYY.MM.DD" />
+    </header>
 
-    <article id="feature"></article>
+    <main id="cover">
+        <h1>
+            <u>行ったことのない場所へ行く</u><br>
+            <strong>Go Out</strong>
+        </h1>
+        <h2>
+            <i>知っていることの 外へ</i><br>
+            <small>わからないところまで 出かける</small>
+        </h2>
+
+        <video id="video" preload="auto" muted playsinline>
+            <source id="mp4" type="video/mp4" />
+            <track id="captions" srclang="ja" kind="captions" default />
+        </video>
+    </main>
+
+    <article id="readme">
+        <nav></nav>
+        <section></section>
+        <footer></footer>
+    </article>
 </body>
 
 </html>

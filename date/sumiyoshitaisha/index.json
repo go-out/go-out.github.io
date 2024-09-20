@@ -1,55 +1,69 @@
 {
+    "url": "?id=sumiyoshitaisha",
+    "youtube": null,
     "date": "全国の住吉神社の総本社",
-    "url": "sumiyoshitaisha/",
-    "youtube": "___",
+    "info": {
+        "title": "Sumiyoshi Taisha",
+        "subTitle": "住吉大社",
+        "address": [
+            "大阪市住吉区住吉２丁目",
+            "2-9-89 Sumiyoshi Sumiyoshi-ku, Osaka"
+        ],
+        "readme": "sumiyoshitaisha/README.md"
+    },
     "directory": "https://lh3.googleusercontent.com/",
     "cover": "p/AF1QipO6MiOWJKWgClmV51xNxo4vNnJrzgL2i1fh-sIS=w1280-h720-k-no",
     "video": [
         {
             "title": "阪堺線 「住吉鳥居前駅」",
             "src": "ggms/AF1QipNICtQP02ra6LidM4epVq80BhcwJgQapCCrxeR_=m18",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "一の鳥居（住吉大社西大鳥居）",
             "src": "ggms/AF1QipO6MiOWJKWgClmV51xNxo4vNnJrzgL2i1fh-sIS=m18",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "表参道",
             "src": "ggms/AF1QipNvOjirCuOQFh9L6WmHjCCxowU5fPb3JcYQYElM=m18",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "反橋 そりはし",
             "src": "ggms/AF1QipPWpIDAV6PK0VO1GBnHYQG9G5UAimNNVyjy520l=m18",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "通称 太鼓橋 たいこばし",
             "src": "ggms/AF1QipN1o__SGebyiTzIQ9SDvulEq2Ma77hlLV_eknMV=m18",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         },
         {
             "title": "住吉大社角鳥居",
             "src": "ggms/AF1QipOw6eI9XW7X3lPmYZbF3WczgVWPAe1-BTIqSyZN=m18",
-            "track": "../000.vtt"
+            "track": "000.vtt"
         }
     ],
     "link": [
         {
             "text": "住吉大社 ⛩ Sumiyoshi Taisha",
-            "url": "../../spot/?id=osaka&area=sumiyoshi&name=sumiyoshitaisha",
+            "url": "../spot/?id=osaka&area=sumiyoshi&name=sumiyoshitaisha",
             "target": "_self"
         },
         {
-            "text": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
-            "url": "?id=unohana",
+            "text": "令和六年 卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
+            "url": "?id=sumiyoshitaisha&date=20240503",
             "target": "_self"
         },
         {
-            "text": "御田植神事 Otaue Shinji (Sacred Rice Planting)",
-            "url": "?id=otaue",
+            "text": "令和六年 御田植神事 Otaue Shinji (Sacred Rice Planting)",
+            "url": "?id=sumiyoshitaisha&date=20240614",
+            "target": "_self"
+        },
+        {
+            "text": "令和六年 観月祭 Kangetsu-sai (Moon-Viewing Festival)",
+            "url": "?id=sumiyoshitaisha&date=20240917",
             "target": "_self"
         },
         {

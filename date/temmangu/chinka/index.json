@@ -1,10 +1,16 @@
 {
-    "date": "YYYY.MM.DD (WEEK)",
-    "url": "temmangu/?id=chinka",
-    "u": "鎮花祭 🇯🇵 大阪天満宮",
-    "strong": "Chinka Festival",
-    "readme": "chinka/README.md",
-    "youtube": "___",
+    "url": "?id=temmangu&date=YYYYMMDD",
+    "youtube": null,
+    "date": "YYYY.MM.DD",
+    "info": {
+        "title": "Chinka Festival",
+        "subTitle": "鎮花祭 🇯🇵 大阪天満宮",
+        "address": [
+            "大阪市北区天神橋２丁目",
+            "2-1-8 Tenjinbashi Kita-ku, Osaka"
+        ],
+        "readme": "temmangu/chinka/README.md"
+    },
     "directory": "",
     "cover": "",
     "video": [

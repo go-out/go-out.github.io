@@ -1,7 +1,16 @@
 {
+    "url": "?id=kouzugu",
+    "youtube": null,
     "date": "こうづぐう",
-    "url": "kouzugu/",
-    "youtube": "___",
+    "info": {
+        "title": "高津宮",
+        "subTitle": "Kouzu-gu",
+        "address": [
+            "大阪市中央区高津一丁目一",
+            "1-1 Kouzu Chuo-ku, Osaka"
+        ],
+        "readme": "kouzugu/README.md"
+    },
     "directory": "https://lh3.googleusercontent.com/",
     "cover": "p/AF1QipM0cPNglSyKQn2XBJCkeeHN4V8LKhKN8CYNPEPu=w575-h325-p-k-no",
     "video": [

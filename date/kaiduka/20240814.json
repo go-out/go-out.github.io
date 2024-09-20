@@ -1,0 +1,35 @@
+{
+    "url": "?id=kaiduka&date=20240814",
+    "youtube": "XLC9ODnUrW0",
+    "date": "2024.8.14 (Wed)",
+    "info": {
+        "title": "貝塚 東盆踊り・堀盆踊り",
+        "subTitle": "Kaiduka Higashi and Hori Bon-odori",
+        "address": [
+            "大阪府貝塚市",
+            "Kaiduka, Osaka"
+        ],
+        "readme": "kaiduka/higasibonodori.md"
+    },
+    "directory": "",
+    "cover": "名称未設定.jpeg",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "minyou-ondo/20240814/東盆踊り.ia.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "チャプタータイトル",
+            "src": "minyou-ondo/20240814/堀盆踊り.ia.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "リンク",
+            "url": "___",
+            "target": "_self"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "url": "?id=sumiyoshitaisha&date=20240503",
+    "youtube": "i9NuEH8CkSE",
+    "date": "2024.5.3",
+    "info": {
+        "title": "Unoha Shinji <small>(Rabbit Flower Rite)</small>",
+        "subTitle": "卯之葉神事 🇯🇵 住吉大社",
+        "address": [
+            "大阪市住吉区住吉２丁目",
+            "2-9-89 Sumiyoshi Sumiyoshi-ku, Osaka"
+        ],
+        "readme": "sumiyoshitaisha/unohana/README.md"
+    },
+    "directory": "https://ia904608.us.archive.org/3/items/sumiyoshitaisha/",
+    "cover": "sumiyoshitaisha.thumbs/20240503/004_000233.jpg",
+    "video": [
+        {
+            "title": "午後二時 石舞台",
+            "src": "20240503/001.ia.mp4",
+            "track": "sumiyoshitaisha/unohana/2024.vtt"
+        },
+        {
+            "title": "五月初卯日",
+            "src": "20240503/002.ia.mp4",
+            "track": "sumiyoshitaisha/unohana/1300.vtt"
+        },
+        {
+            "title": "振鉾（えんぶ）",
+            "src": "20240503/003.ia.mp4",
+            "track": "sumiyoshitaisha/unohana/enbu.vtt"
+        },
+        {
+            "title": "迦陵頻（左方童舞・壱越調）",
+            "src": "20240503/004.ia.mp4",
+            "track": "sumiyoshitaisha/unohana/karyoubin.vtt"
+        },
+        {
+            "title": "北庭楽（左方平舞・壱越調）",
+            "src": "20240503/005.ia.mp4",
+            "track": "sumiyoshitaisha/unohana/bugaku.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "5月の行事 | 祭と年中行事",
+            "url": "https://www.sumiyoshitaisha.net/events/annualevents/05.html",
+            "target": "_self"
+        },
+        {
+            "text": "Sumiyoshi Taisha | Rituals and Ceremonies",
+            "url": "https://www.sumiyoshitaisha.net/en/rituals.html",
+            "target": "_self"
+        },
+        {
+            "text": "Unoha Shinji (Rabbit Flower Rite)",
+            "url": "https://www.mlit.go.jp/tagengo-db/en/R3-00147.html",
+            "target": "_self"
+        },
+        {
+            "text": "舞楽：迦陵頻 | 文化デジタルライブラリー",
+            "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc22/sakuhin/bugaku/s7.html",
+            "target": "_blank"
+        }
+    ]
+}

@@ -1,30 +1,39 @@
 {
-    "date": "とみながりゅう なにわかぐら",
-    "url": "naniwa-kagura/",
-    "youtube": "7dAYI5I4YtU",
+    "url": "?id=naniwa-kagura",
+    "youtube": "6usBXA_pn1k",
+    "date": "冨永流浪速神楽",
+    "info": {
+        "title": "Tominaga Naniwa Kagura",
+        "subTitle": "とみながりゅう なにわかぐら",
+        "address": [
+            "関西雅楽松風会",
+            "Kansai Gagaku Sho-Fu kai"
+        ],
+        "readme": "naniwa-kagura/README.md"
+    },
     "directory": "https://archive.org/download/naniwa-kagura/",
-    "cover": "naniwa-kagura.thumbs/kochoazuma_000237.jpg",
+    "cover": "naniwa-kagura.thumbs/kocho-azuma_000084.jpg",
     "video": [
         {
             "title": "関西雅楽松風会",
             "src": "2024/004.ia.mp4",
-            "track": "tominaga.vtt"
+            "track": "naniwa-kagura/28/tominaga.vtt"
         },
         {
             "title": "胡蝶吾妻 こちょうあずま",
             "src": "kochoazuma.ia.mp4",
-            "track": "28/kochoazuma.vtt"
+            "track": "naniwa-kagura/28/kochoazuma.vtt"
         },
         {
             "title": "鈴扇 すずおうぎ",
             "src": "2024/005.ia.mp4",
-            "track": "28/suzuougi.vtt"
+            "track": "naniwa-kagura/28/suzuougi.vtt"
         }
     ],
     "link": [
         {
             "text": "令和六年 🇯🇵 神楽祭 ⛩️ 佐備神社",
-            "url": "../naniwa-kagura/?date=2024",
+            "url": "?id=naniwa-kagura&date=2024",
             "target": "_self"
         },
         {

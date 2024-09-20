@@ -1,0 +1,91 @@
+{
+    "url": "?id=naniwa-kagura&date=2024",
+    "youtube": "7dAYI5I4YtU",
+    "date": "2024.4.4 (Thu)",
+    "info": {
+        "title": "Kagura Matsuri",
+        "subTitle": "神楽祭 🇯🇵 佐備神社",
+        "address": [
+            "富田林市佐備４６７",
+            "Sabi Tondambayashi, Osaka"
+        ],
+        "readme": "naniwa-kagura/sabijinja.md"
+    },
+    "directory": "https://archive.org/download/naniwa-kagura/",
+    "cover": "naniwa-kagura.thumbs/2024/003_000074.jpg",
+    "readme": "sabijinja.md",
+    "video": [
+        {
+            "title": "令和六年 四月四日",
+            "src": "2024/001.ia.mp4",
+            "track": "naniwa-kagura/2024/2024.vtt"
+        },
+        {
+            "title": "佐備神社",
+            "src": "000.mp4",
+            "track": "naniwa-kagura/28/tominaga.vtt"
+        },
+        {
+            "title": "午後二時 祭典",
+            "src": "2024/002.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "神楽殿にて",
+            "src": "2024/003.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "関西雅楽松風会",
+            "src": "2024/004.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "鈴扇 すずおうぎ",
+            "src": "2024/005.ia.mp4",
+            "track": "naniwa-kagura/2024/miko.vtt"
+        },
+        {
+            "title": "豊栄舞 とよさかのまい",
+            "src": "toyosaka-no-mai.ia.mp4",
+            "track": "naniwa-kagura/2024/toyosaka-no-mai.vtt"
+        },
+        {
+            "title": "紅わらべ べにわらべ",
+            "src": "beniwarabe.ia.mp4",
+            "track": "naniwa-kagura/2024/beniwarabe.vtt"
+        },
+        {
+            "title": "胡蝶吾妻 こちょうあずま",
+            "src": "kochoazuma.ia.mp4",
+            "track": "naniwa-kagura/28/kochoazuma.vtt"
+        },
+        {
+            "title": "浦安の舞 うらやすのまい",
+            "src": "urayasu-no-mai.ia.mp4",
+            "track": "naniwa-kagura/2024/urayasu-no-mai.ia.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "浪速神楽 🇯🇵 Naniwa Kagura",
+            "url": "?id=naniwa-kagura",
+            "target": "_self"
+        },
+        {
+            "text": "令和6年神楽祭のお知らせ",
+            "url": "https://sabijinja.site/archives/364",
+            "target": "_blank"
+        },
+        {
+            "text": "近代に作られた神楽 - Wikisource",
+            "url": "https://ja.wikisource.org/wiki/%E8%BF%91%E4%BB%A3%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%9F%E7%A5%9E%E6%A5%BD",
+            "target": "_blank"
+        },
+        {
+            "text": "浦安の舞 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%B5%A6%E5%AE%89%E3%81%AE%E8%88%9E",
+            "target": "_blank"
+        }
+    ]
+}

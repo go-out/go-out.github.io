@@ -1,0 +1,50 @@
+{
+    "title": "大阪府立中央図書館",
+    "description": "Osaka Prefectural Central Library",
+    "year": "2024",
+    "month": "7",
+    "day": "21",
+    "spot": "?id=osaka&area=kawachi&name=higashiosaka",
+    "style": "relax",
+    "info": {
+        "title": "Osaka Prefectural Central Library 🇯🇵 Higashi Osaka, Japan",
+        "address": "東大阪市荒本北１丁目２−１",
+        "google": "https://maps.app.goo.gl/qzLS243KS6meHRij9",
+        "text": [
+            "東大阪市（荒本）にある大阪府立図書館のうちの1館",
+            "公立図書館単館では、日本一の蔵書数の総合図書館",
+            "",
+            "閲覧室は1~4階（3階の一部は屋上庭園）",
+            "ホール（ライティホール）や会議室を備え、府民に文化の場を提供する図書館",
+            "（建物は、第17回大阪まちなみ賞 奨励賞・日本図書館協会建築賞を受賞）",
+            "",
+            "<b>開館時間</b><br>火曜日～金曜日:午前9時～午後7時<br>土・日、祝・休日:午前9時～午後5時",
+            "",
+            "<u>アクセス</u><br>近鉄けいはんな線「荒本」北西へ約400ｍ"
+        ]
+    },
+    "links": [
+        "<a href='https://www.library.pref.osaka.jp/site/central/' target='_blank'>中央図書館 | 来館案内・施設案内 | 大阪府立図書館</a>",
+        "<a href='https://www.lighty-hall.com/' target='_blank'>大阪府立中央図書館ホール｜ライティホール</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh5.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipPxt94eUNq3kL-SZ5LB1hZpzpAGQhggOxnZVx6H=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPxt94eUNq3kL-SZ5LB1hZpzpAGQhggOxnZVx6H=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipOzrI4LkmySivldZOYgAFGep-kA2iTGV68gWMYS=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMhB2_5mrDTsAKfFn6n-JwlnULQEco-BVejt4Yf=m18",
+                "ggms/AF1QipOMa1Qu0h1EcZe_b4sZ3Q_8ZO3RyqZNAgsDb2WS=m18"
+            ]
+        }
+    ]
+}

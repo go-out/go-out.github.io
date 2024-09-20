@@ -1,0 +1,70 @@
+{
+    "url": "?id=toyonaka&date=20240511",
+    "youtube": "mKcFF3wTRRg",
+    "date": "2024.5.11 (Sat)",
+    "info": {
+        "title": "<small>The Central Part of</small><br> Toyonaka City",
+        "subTitle": "豊中市 🌹 中部・東部・西部",
+        "address": [
+            "岡町 曽根 服部天神 緑地公園",
+            "Okamachi - Sone - Hattori Tenjin"
+        ],
+        "readme": "toyonaka/README.md"
+    },
+    "directory": "https://ia903205.us.archive.org/12/items/toyonaka-chubu/",
+    "cover": "toyonaka-chubu.thumbs/20240511/shokeien_000001.jpg",
+    "video": [
+        {
+            "title": "松景園・豊陽園",
+            "src": "20240511/shokeien.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "天竺川の松並木",
+            "src": "20240511/tenjikugawa.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "服部緑地",
+            "src": "20240511/hattoriryokuchi.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "北斗会 さわ病院",
+            "src": "20240511/hokuto-kai.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "ふれあい緑地",
+            "src": "20240511/fureairyokuchi.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "豊島公園",
+            "src": "20240511/teshimapark.ia.mp4",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "豊中市 🌹 中部・東部・西部",
+            "url": "?id=toyonaka",
+            "target": "_self"
+        },
+        {
+            "text": "服部緑地 Hattori Well-being Park",
+            "url": "../spot/?id=osaka&area=hokusetsu&name=hattori-ryokuchi",
+            "target": "_self"
+        },
+        {
+            "text": "天竺川の松並木 Tenjikugawa",
+            "url": "../spot/?id=osaka&area=hokusetsu&name=tenjikugawa",
+            "target": "_self"
+        },
+        {
+            "text": "ふれあい緑地界隈 Fureai Ryokuchi",
+            "url": "../spot/?id=osaka&area=hokusetsu&name=fureairyokuchi",
+            "target": "_self"
+        }
+    ]
+}

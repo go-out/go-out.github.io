@@ -1,0 +1,60 @@
+{
+    "url": "?id=amaterasu-iwato&date=20240304",
+    "youtube": "vdHhpqCRcbI",
+    "date": "2024.3.4 (Mon)",
+    "info": {
+        "title": "岩谷奥之院",
+        "subTitle": "Iwato Oku-no-In",
+        "address": [
+            "大阪府八尾市教興寺",
+            "Kyokoji Yao Osaka, Japan"
+        ],
+        "readme": "amaterasu-iwato/oku-no-in/README.md"
+    },
+    "directory": "https://ia600204.us.archive.org/27/items/amaterasu-iwato/",
+    "cover": "amaterasu-iwato.thumbs/kohun/003_000057.jpg",
+    "video": [
+        {
+            "title": "神山です",
+            "src": "kohun/001.ia.mp4",
+            "track": "amaterasu-iwato/oku-no-in/001.vtt"
+        },
+        {
+            "title": "廃屋 滝行場",
+            "src": "kohun/002.ia.mp4",
+            "track": "amaterasu-iwato/oku-no-in/002.vtt"
+        },
+        {
+            "title": "祭祀場",
+            "src": "kohun/003.ia.mp4",
+            "track": "amaterasu-iwato/oku-no-in/003.vtt"
+        },
+        {
+            "title": "二つの鳥居",
+            "src": "kohun/004.ia.mp4",
+            "track": "amaterasu-iwato/oku-no-in/004.vtt"
+        },
+        {
+            "title": "岩屋弘法大師",
+            "src": "kohun/005.ia.mp4",
+            "track": "amaterasu-iwato/oku-no-in/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "天照大神高座神社・岩戸神社 ⛩ Amaterasu-Okami Takakura Jinja",
+            "url": "../spot/?id=osaka&area=kawachi&name=amaterasu-iwato",
+            "target": "_self"
+        },
+        {
+            "text": "国指定史跡　高安千塚古墳群",
+            "url": "https://www.city.yao.osaka.jp/0000046996.html",
+            "target": "_blank"
+        },
+        {
+            "text": "垣内・教興寺古墳群",
+            "url": "http://obito1.web.fc2.com/yaominami.html",
+            "target": "_blank"
+        }
+    ]
+}

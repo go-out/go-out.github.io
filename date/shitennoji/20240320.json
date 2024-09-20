@@ -1,0 +1,65 @@
+{
+    "url": "?id=shitennoji&date=20240320",
+    "youtube": "oIKZdbq4isU",
+    "date": "2024.3.20 (Wed)",
+    "info": {
+        "title": "<small>Shitennoji Honbo Garden</small><br>極楽浄土の庭",
+        "subTitle": "四天王寺 🇯🇵 本坊庭園",
+        "address": [
+            "大阪市天王寺区四天王寺",
+            "Shitennoji Tennoji-ku Osaka, Japan"
+        ],
+        "readme": "shitennoji/honbo-garden/README.md"
+    },
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": "p/AF1QipMRMCcS5fgB0kJyo4dDZdMKjqng_VTGnnJvXnO3=w1280-h720-k-no",
+    "video": [
+        {
+            "title": "二河白道",
+            "src": "ggms/AF1QipPQ-hXd6RohS_offZIZbeRzjGFeIdj987lcAnS9=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "瑠璃光の池",
+            "src": "ggms/AF1QipMRMCcS5fgB0kJyo4dDZdMKjqng_VTGnnJvXnO3=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "荒陵稲荷",
+            "src": "ggms/AF1QipPjWSQmZOZuhj6FlNtsn-AQUx80xfiLbSlB2V_O=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "極楽の池",
+            "src": "ggms/AF1QipPdDLox99BGnDcRYxnNzaUnKWaW7R7w3CXTAsMg=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "補陀落の庭",
+            "src": "ggms/AF1QipOnW4qkbbc4YtBYohE-5EUgxYor3DSXHZpF740b=m18",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "四天王寺 🇯🇵 Shitennouji",
+            "url": "../spot/?id=osaka&area=minami&name=shitennoji",
+            "target": "_self"
+        },
+        {
+            "text": "四天王寺本坊庭園 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%E6%9C%AC%E5%9D%8A%E5%BA%AD%E5%9C%92",
+            "target": "_blank"
+        },
+        {
+            "text": "四天王寺 極楽浄土の庭 - 庭園ガイド",
+            "url": "https://garden-guide.jp/spot.php?i=shitennoji",
+            "target": "_blank"
+        },
+        {
+            "text": "四天王寺本坊庭園 | 庭園情報メディア【おにわさん】",
+            "url": "https://oniwa.garden/shitennoji-temple-honbo-garden-%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%E6%9C%AC%E5%9D%8A%E5%BA%AD%E5%9C%92/",
+            "target": "_blank"
+        }
+    ]
+}

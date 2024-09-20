@@ -1,0 +1,100 @@
+{
+    "url": "?id=hyotanyama&date=20240212",
+    "youtube": "20slOEsjpt0",
+    "date": "2024.2.12 (Mon)",
+    "info": {
+        "title": "<small>Hyoutan-yama Inari</small> <br>Ondo Hono and Mochi-maki",
+        "subTitle": "初牛大祭 ⛩️ 瓢箪山稲荷神社",
+        "address": [
+            "東大阪市瓢箪山町 8-1",
+            "Hyoutanyama Higashiosaka, Osaka"
+        ],
+        "readme": "hyotanyama/hatsuuma.md"
+    },
+    "directory": "https://ia601308.us.archive.org/4/items/hyotanyama.inari/",
+    "cover": "hyotanyama.inari.thumbs/20240212/000_000054.jpg",
+    "video": [
+        {
+            "title": "ひょこタン音頭",
+            "src": "20240212/000.ia.mp4",
+            "track": "hyotanyama/20240212/000.vtt"
+        },
+        {
+            "title": "振る舞い餅・厄除甘酒",
+            "src": "20240212/001.ia.mp4",
+            "track": "hyotanyama/20240212/001.vtt"
+        },
+        {
+            "title": "先着１０００個",
+            "src": "20240212/002.ia.mp4",
+            "track": "hyotanyama/20240212/002.vtt"
+        },
+        {
+            "title": "神事",
+            "src": "20240212/004.ia.mp4",
+            "track": "hyotanyama/20240212/004.vtt"
+        },
+        {
+            "title": "午後一時",
+            "src": "20240212/005.ia.mp4",
+            "track": "hyotanyama/20240212/005.vtt"
+        },
+        {
+            "title": "宮司のご挨拶",
+            "src": "20240212/006.ia.mp4",
+            "track": "hyotanyama/20240212/006.vtt"
+        },
+        {
+            "title": "福餅まき",
+            "src": "20240212/007.ia.mp4",
+            "track": "hyotanyama/20240212/007.vtt"
+        },
+        {
+            "title": "福はうち",
+            "src": "20240212/008.ia.mp4",
+            "track": "hyotanyama/20240212/008.vtt"
+        },
+        {
+            "title": "午後一時過ぎ",
+            "src": "20240212/009.ia.mp4",
+            "track": "hyotanyama/20240212/009.vtt"
+        },
+        {
+            "title": "二〇二四年 二月十二日",
+            "src": "20240212/010.ia.mp4",
+            "track": "hyotanyama/20240212/010.vtt"
+        },
+        {
+            "title": "ひょこタン",
+            "src": "20240212/003.ia.mp4",
+            "track": "hyotanyama/20240212/003.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "ジンジャモール瓢箪山 Jinja Mall Hyotanyama",
+            "url": "../spot/?id=osaka&area=kawachi&name=jinjamall",
+            "target": "_self"
+        },
+        {
+            "text": "初午 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E5%88%9D%E5%8D%88",
+            "target": "_blank"
+        },
+        {
+            "text": "ジンジャモール瓢箪山 : ひょこタン音頭ができたよ♪",
+            "url": "http://blog.livedoor.jp/jinjamall/archives/9409344.html",
+            "target": "_blank"
+        },
+        {
+            "text": "【公式】ひょこタン音頭の踊り方レクチャー動画 - YouTube",
+            "url": "https://youtu.be/MiNRfK2mGeo",
+            "target": "_blank"
+        },
+        {
+            "text": "初午大祭で民踊を踊りました - YouTube",
+            "url": "https://youtu.be/AN-8Qu8fPfs",
+            "target": "_blank"
+        }
+    ]
+}

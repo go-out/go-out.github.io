@@ -1,25 +1,20 @@
 {
+    "url": "?id=shitennoji&date=YYYYMMDD",
+    "youtube": null,
     "date": "YYYY.MM.DD (WEEK)",
-    "u": "四天王寺 🇯🇵 聖霊会",
-    "strong": "<small>Shouryoue Bugaku</small><br>聖霊会の舞楽",
-    "url": "shitennoji/?id=shoryue",
-    "readme": "shoryue/README.md",
-    "youtube": "___",
-    "directory": "https://lh3.googleusercontent.com/",
-    "cover": "p/AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD=w1280-h720-k-no",
-    "video": [
-        {
-            "title": "とんど焼き",
-            "src": "ggms/AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD=m18",
-            "track": "../000.vtt"
-        }
-    ],
+    "info": {
+        "title": "<small>Shouryoue Bugaku</small><br> 聖霊会の舞楽",
+        "subTitle": "四天王寺 🇯🇵 聖霊会",
+        "address": [
+            "大阪市天王寺区四天王寺",
+            "Shitennoji Tennoji-ku Osaka, Japan"
+        ],
+        "readme": "shitennoji/shoryue/README.md"
+    },
+    "directory": "https://archive.org/download/",
+    "cover": "__",
+    "video": [],
     "link": [
-        {
-            "text": "四天王寺 🇯🇵 Shitennouji",
-            "url": "../../legacy/?area=osaka&name=shitennoji",
-            "target": "_self"
-        },
         {
             "text": "4月22日 12時30分～ 聖霊会",
             "url": "https://www.shitennoji.or.jp/%E8%81%96%E9%9C%8A%E4%BC%9A%E8%88%9E%E6%A5%BD%E5%A4%A7%E6%B3%95%E8%A6%81/",

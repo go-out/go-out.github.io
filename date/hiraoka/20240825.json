@@ -1,0 +1,50 @@
+{
+    "url": "?id=hiraoka&date=20240825",
+    "youtube": "idRqIhTm66Y",
+    "date": "2024.8.25 (Sun)",
+    "info": {
+        "title": "<small>Owara Kaze no bon-odori</small><br> おわら風の盆踊り",
+        "subTitle": "枚岡燈明祭 🏮 Hiraoka Tomyo Sai",
+        "address": [
+            "大阪府東大阪市出雲井町",
+            "Izumoicho Higashi Osaka, Japan"
+        ],
+        "readme": null
+    },
+    "directory": "https://ia600200.us.archive.org/31/items/hiraokajinja/",
+    "cover": "hiraokajinja.thumbs/20240825/003_000044.jpg",
+    "video": [
+        {
+            "title": "午後六時半",
+            "src": "20240825/000.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "__",
+            "src": "20240825/001.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "__",
+            "src": "20240825/002.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "__",
+            "src": "20240825/003.ia.mp4",
+            "track": "000.vtt"
+        },
+        {
+            "title": "__",
+            "src": "20240825/004.ia.mp4",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "枚岡神社 ⛩ Hiraoka Jinja",
+            "url": "../spot/?id=osaka&area=kawachi&name=hiraoka-jinja",
+            "target": "_self"
+        }
+    ]
+}
