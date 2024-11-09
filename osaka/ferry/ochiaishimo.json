@@ -1,0 +1,73 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-ferry&name=ochiaishimo",
+    "title": "落合下（おちあいしも）渡船場",
+    "description": "大正区平尾（たいしょうくひらお）⇄ 西成区津守（にしなりくつもり）",
+    "info": {
+        "note": [
+            "木津川（大正区平尾1丁目 ⇄ 西成区津守2丁目）を 渡船「さざなみ」「みどり丸」が 10 ~ 15分毎 運航",
+            "岸壁間 138メートル | 利用者（1日）平均380人",
+            "",
+            "<u>所在地</u>",
+            "平尾側 <small>大阪市大正区平尾1丁目1‐26</small>",
+            "津守側 <small>大阪市西成区津守2丁目8‐21</small>",
+            "",
+            "<u>最寄りのHELLO CYCLING</u>",
+            "<a href='https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8' target='_blank'>千島ガーデンモール</a>"
+        ],
+        "links": [
+            {
+                "text": "大阪市：5.落合下（おちあいしも）渡船場",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011256.html",
+                "target": "_blank"
+            },
+            {
+                "text": "落合下渡船場（大正区平尾側） - Google マップ",
+                "url": "https://maps.app.goo.gl/hwFYw3kcC3ZgTDJW6",
+                "target": "_blank"
+            },
+            {
+                "text": "落合下渡船場（西成区津守側） - Google マップ",
+                "url": "https://maps.app.goo.gl/efLdahaJnSZP42RCA",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "渡し船に乗ろう",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOv1tWDXl1w0hZ4yR8v04pZNLx-oDwZsc-rkEnk=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOLCWkFqmOCOwgy7-7nMYRcLdH4CjaUUoShbxeF=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPws8xxpbciKTfwmCpWmRA81Ayy1SiBz4IZeWT4=m18",
+                        "ggs/AF1QipOLCWkFqmOCOwgy7-7nMYRcLdH4CjaUUoShbxeF=m18",
+                        "ggs/AF1QipOetdNw3bftUN7zgnKmswgf0oONY_gPANXqsRC7=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipNEhCVJBfd-gsa3_8Kfwe_d3rNe1uqzJtdv-nZ5=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNEhCVJBfd-gsa3_8Kfwe_d3rNe1uqzJtdv-nZ5=m18",
+                        "ggs/AF1QipOv1tWDXl1w0hZ4yR8v04pZNLx-oDwZsc-rkEnk=m18",
+                        "ggs/AF1QipOXGhSQQw_UEKXGXJtRvXmU3tfxOrF6rktQ454U=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

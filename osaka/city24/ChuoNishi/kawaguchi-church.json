@@ -1,0 +1,57 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=ChuoNishi&name=kawaguchi-church",
+    "title": "日本聖公会 川口基督教会",
+    "description": "Kawaguchi Christ Church Cathedral",
+    "info": {
+        "note": [
+            "カトリックの伝統を大切に保ちながら、カトリック教会とプロテスタント教会の中道を歩む「橋渡しの教会」日本聖公会に属する教会",
+            "創立120周年記念に設置されたパイプオルガンがある",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「阿波座」から徒歩約10分"
+        ],
+        "links": [
+            {
+                "text": "日本聖公会 川口基督教会 トップページ",
+                "url": "https://www.nskk.org/osaka/church/kawaguchi/",
+                "target": "_blank"
+            },
+            {
+                "text": "川口基督教会 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/川口基督教会",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/Uk9pK49yxLqWxkdq8",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

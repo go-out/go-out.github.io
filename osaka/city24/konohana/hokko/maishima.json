@@ -1,0 +1,74 @@
+{
+    "lastModified": "2024-4-7",
+    "url": "?id=osaka-city24&area=konohana-hokko&name=maishima",
+    "title": "舞洲（まいしま） Maishima",
+    "description": "大阪のスポーツ拠点として生まれ変わりつつある島",
+    "info": {
+        "note": [
+            "東側が物流・環境ゾーン、西側がスポーツ・レクリエーションゾーン"
+        ],
+        "links": [
+            {
+                "text": "舞洲 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/舞洲",
+                "target": "_blank"
+            },
+            {
+                "text": "舞洲プロジェクト",
+                "url": "https://archive.maishima.osaka/",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪まいしまシーサイドパーク",
+                "url": "https://seasidepark.maishima.com/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "RGVn0OmDrJA"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "舞洲緑地 <br>Maishima Ryokuchi",
+                "description": "舞洲南西部にあるホテル＆ログハウスを併設する海辺の公園",
+                "year": 2024,
+                "month": 4,
+                "day": 7,
+                "note": [
+                    "芝生広場・灯台・大型遊具があるグリーンスペース",
+                    "釣り解放区シーサイドプロムナード",
+                    "ログハウス・BBQフィールド"
+                ],
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/ggms/",
+            "cover": "AF1QipMSrzQG0hFPYXDbPDT4y1V8enKuxh5TzeX7Jvx7=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "AF1QipNNUH6og0AVnk8bVv-d4mPchtxSfCIOP0ElCwfq=w575-h325-p-k-no",
+                    "src": [
+                        "AF1QipMIqTbSrVYQImaykFZLMNmzSPAAlcyTSYy6y1kZ=m18",
+                        "AF1QipO9F_dRmByBDPF46hSbwVydArDlTzhxGHHpRcb3=m18",
+                        "AF1QipMSrzQG0hFPYXDbPDT4y1V8enKuxh5TzeX7Jvx7=m18",
+                        "AF1QipPIjTuG-7YYGuI2ytqLiRrJSKLXSAlUUJxsg9qI=m18",
+                        "AF1QipNNUH6og0AVnk8bVv-d4mPchtxSfCIOP0ElCwfq=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=w575-h325-p-k-no",
+                    "src": [
+                        "AF1QipMxNLpPHChjdzamla7SIp3i-2Je9ApV0Q4BIjHI=m18",
+                        "AF1QipPECe6JUY00MsnG8XX4cXqKVn8wu6vXLc7cOGBc=m18",
+                        "AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=m18",
+                        "AF1QipO7d7q3dSml69X-5f8XwZkt18zGuGYi8xk6Qbn0=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

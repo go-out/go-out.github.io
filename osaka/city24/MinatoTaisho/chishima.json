@@ -1,0 +1,68 @@
+{
+    "lastModified": "2024-4-30",
+    "url": "?id=osaka-city24&area=MinatoTaisho&name=chishima",
+    "title": "千島公園 Chishima Park",
+    "description": "大正区役所のすぐ隣に整備されている総合公園",
+    "info": {
+        "note": [
+            "公園内の築山「昭和山」一帯は、大正区の花「ツツジ」の名所（例年4月下旬が見頃）",
+            "昭和山の山頂からは大阪港を一望でき、起伏に富んだ地形はウォーキングなどの場として利用されている",
+            "",
+            "公園内には、ツツジの他にもソテツをはじめとした亜熱帯植物などの緑がたくさん",
+            "近隣には、区役所・団地や体育館・スポーツセンターがある",
+            "（千島公園から泉尾公園まで続く、L型に緑陰歩道は付近の住宅群とマッチした憩いの場）"
+        ],
+        "links": [
+            {
+                "text": "大阪市：コラム1 千島公園・昭和山",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000009772.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "jBbHwch_nf8"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "昭和山 しょうわざん",
+                "description": null,
+                "year": 2024,
+                "month": 4,
+                "day": 30,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMSwoLmXGr3l9JhJ5z9sPEK1mzK274JJxIxKrm4=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPY_0mJaCDZu1eukKIL2rXfu2G3pcTSxykU9z9Z=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMSwoLmXGr3l9JhJ5z9sPEK1mzK274JJxIxKrm4=m18",
+                        "ggms/AF1QipN7yIwsPU649v_0-Hy33LPU6x0osN2Cwo2h46nn=m18",
+                        "ggms/AF1QipMhW0A_2epOqeXBrdFaw4lD5MWMoMtgC7gxmko-=m18",
+                        "ggms/AF1QipMnH2smCMwDDAO0z41hEIGYmnpKVus_qy3HJpLz=m18",
+                        "ggms/AF1QipOkNVQcSKpb0WRRDtpCgUCo-soOcsPlnmMk6Sgl=m18",
+                        "ggms/AF1QipPY_0mJaCDZu1eukKIL2rXfu2G3pcTSxykU9z9Z=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPqxNTe1msdOCCnnY9rTuqTSek7XnpPcQ7PYJ3C=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipPqxNTe1msdOCCnnY9rTuqTSek7XnpPcQ7PYJ3C=m18",
+                        "ggms/AF1QipOsSu2EhXBBw05ASV7lR_cPEvxzyd4zrvW6Ihcu=m18",
+                        "ggms/AF1QipOWDR4lnONnFob4c1hpvqj7d1T_STtXTLk-UhOW=m18",
+                        "ggms/AF1QipOlbvr42CC1CuoaiJRfspAMPiRxxiuIC7bzDe0l=m18",
+                        "ggms/AF1QipNAJgSqtFLyrf9cy-4rzzDMSVvZlyiTQ5pM57a5=m18",
+                        "ggms/AF1QipPjO2AXABu-a6Gzn5MqSRbWh0IBrllpwEc3Nklc=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

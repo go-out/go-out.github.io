@@ -1,0 +1,572 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "map": {
+        "center": [
+            135.5062638133726,
+            34.65238308472434
+        ],
+        "bounds": [
+            [
+                135.0572487,
+                34.2269715
+            ],
+            [
+                135.7897144,
+                35.0572745
+            ]
+        ],
+        "zoom": 5.5
+    },
+    "jsonAll": [
+        [
+            "osaka",
+            "ferry",
+            "index"
+        ],
+        [
+            "yu",
+            "osaka",
+            "268"
+        ],
+        [
+            "osaka/city24",
+            "yodogawa",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "KitaFukushima",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "ChuoNishi",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "NaniwaTennoji",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "NishinariAbeno",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "MiyakojimaAsahi",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "JotoTsurumi",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "HigashinariIkuno",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "sumiyoshi",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "hirano",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "konohana",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "MinatoTaisho",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "suminoe",
+            "index"
+        ],
+        [
+            "osaka",
+            "hokusetsu",
+            "toyono"
+        ],
+        [
+            "osaka",
+            "hokusetsu",
+            "mishima"
+        ],
+        [
+            "osaka",
+            "kawachi",
+            "Kita"
+        ],
+        [
+            "osaka",
+            "kawachi",
+            "Naka"
+        ],
+        [
+            "osaka",
+            "kawachi",
+            "Minami"
+        ],
+        [
+            "osaka",
+            "senshu",
+            "senboku"
+        ],
+        [
+            "osaka",
+            "senshu",
+            "sennan"
+        ]
+    ],
+    "title": "大阪観光マップ",
+    "subtitle": "Osaka Map",
+    "description": "A Select Area 🌍 エリアを選択",
+    "info": {
+        "markdown": null
+    },
+    "area": [
+        {
+            "id": "city24",
+            "name": [
+                "市内",
+                "24区"
+            ],
+            "area": [
+                {
+                    "id": "KitaYodo",
+                    "name": [
+                        "北部・淀川エリア",
+                        "North/Yodogawa Area"
+                    ],
+                    "city": [
+                        "北区",
+                        "福島区",
+                        "都島区",
+                        "旭区",
+                        "東淀川区",
+                        "淀川区",
+                        "西淀川区"
+                    ],
+                    "coordinates": [
+                        135.49944410015505,
+                        34.7201453649089
+                    ],
+                    "bounds": [
+                        [
+                            135.40180003585772,
+                            34.68398124276675
+                        ],
+                        [
+                            135.5625901896664,
+                            34.773999730946336
+                        ]
+                    ],
+                    "zoom": 12.75
+                },
+                {
+                    "id": "Chuo",
+                    "name": [
+                        "中央エリア",
+                        "Central Area"
+                    ],
+                    "city": [
+                        "中央区",
+                        "西区",
+                        "浪速区",
+                        "天王寺区",
+                        "阿倍野区",
+                        "西成区"
+                    ],
+                    "coordinates": [
+                        135.51041114673,
+                        34.668954365573356
+                    ],
+                    "bounds": [
+                        [
+                            135.47372873083702,
+                            34.62095464497363
+                        ],
+                        [
+                            135.53591901795068,
+                            34.69592156451175
+                        ]
+                    ],
+                    "zoom": 13.55
+                },
+                {
+                    "id": "East",
+                    "name": [
+                        "北東エリア",
+                        "Northeast Area"
+                    ],
+                    "city": [
+                        "鶴見区",
+                        "城東区",
+                        "東成区",
+                        "生野区"
+                    ],
+                    "coordinates": [
+                        135.558046854697,
+                        34.67898438332466
+                    ],
+                    "bounds": [
+                        [
+                            135.52381947667314,
+                            34.63497638747964
+                        ],
+                        [
+                            135.599562053627,
+                            34.721784808449044
+                        ]
+                    ],
+                    "zoom": 12.75
+                },
+                {
+                    "id": "South",
+                    "name": [
+                        "南東エリア",
+                        "Southeast Area"
+                    ],
+                    "city": [
+                        "住吉区",
+                        "東住吉区",
+                        "平野区"
+                    ],
+                    "coordinates": [
+                        135.53141423242516,
+                        34.61894613072801
+                    ],
+                    "bounds": [
+                        [
+                            135.4752198535182,
+                            34.5834762
+                        ],
+                        [
+                            135.5803575557604,
+                            34.6430431725536
+                        ]
+                    ],
+                    "zoom": 13.25
+                },
+                {
+                    "id": "WestBay",
+                    "name": [
+                        "南西・ベイエリア",
+                        "Southwest/Osaka Bay Area"
+                    ],
+                    "city": [
+                        "此花区",
+                        "港区",
+                        "大正区",
+                        "住之江区"
+                    ],
+                    "coordinates": [
+                        135.4337129993724,
+                        34.65365573488482
+                    ],
+                    "bounds": [
+                        [
+                            135.3425198,
+                            34.5834762
+                        ],
+                        [
+                            135.4932384,
+                            34.699100890178386
+                        ]
+                    ],
+                    "zoom": 12.75
+                }
+            ]
+        },
+        {
+            "id": "hokusetsu",
+            "name": [
+                "北摂",
+                "Hokusetsu"
+            ],
+            "area": [
+                {
+                    "id": "toyono",
+                    "name": [
+                        "豊能地域",
+                        "Toyono Area"
+                    ],
+                    "city": [
+                        "豊中市",
+                        "池田市",
+                        "箕面市",
+                        "能勢町",
+                        "豊能町"
+                    ],
+                    "coordinates": [
+                        135.476130952123,
+                        34.82124128952981
+                    ],
+                    "bounds": [
+                        [
+                            135.33349594345594,
+                            34.73421871249429
+                        ],
+                        [
+                            135.53357898096806,
+                            35.053500959562975
+                        ]
+                    ],
+                    "zoom": 12
+                },
+                {
+                    "id": "mishima",
+                    "name": [
+                        "三島地域",
+                        "Mishima Area"
+                    ],
+                    "city": [
+                        "吹田市",
+                        "高槻市",
+                        "茨木市",
+                        "摂津市",
+                        "島本町"
+                    ],
+                    "coordinates": [
+                        135.58863802577073,
+                        34.875222446410476
+                    ],
+                    "bounds": [
+                        [
+                            135.482083500265,
+                            34.73839596340161
+                        ],
+                        [
+                            135.69336150462692,
+                            34.98244840812399
+                        ]
+                    ],
+                    "zoom": 12
+                }
+            ]
+        },
+        {
+            "id": "kawachi",
+            "name": [
+                "河内",
+                "Kawachi"
+            ],
+            "area": [
+                {
+                    "id": "kawachiKita",
+                    "name": [
+                        "北河内",
+                        "Kita-Kawachi"
+                    ],
+                    "city": [
+                        "守口市",
+                        "門真市",
+                        "大東市",
+                        "四条畷市",
+                        "枚方市",
+                        "寝屋川市",
+                        "交野市"
+                    ],
+                    "coordinates": [
+                        135.67107577047656,
+                        34.78008271136369
+                    ],
+                    "bounds": [
+                        [
+                            135.5536703665491,
+                            34.69568352967923
+                        ],
+                        [
+                            135.74888395176686,
+                            34.87705732540523
+                        ]
+                    ],
+                    "zoom": 12.5
+                },
+                {
+                    "id": "kawachiNaka",
+                    "name": [
+                        "中河内",
+                        "Naka-Kawachi"
+                    ],
+                    "city": [
+                        "東大阪市",
+                        "八尾市",
+                        "柏原市"
+                    ],
+                    "coordinates": [
+                        135.61885730967694,
+                        34.62802920052016
+                    ],
+                    "bounds": [
+                        [
+                            135.56571698347605,
+                            34.55214554322281
+                        ],
+                        [
+                            135.68279282818315,
+                            34.711167185717585
+                        ]
+                    ],
+                    "zoom": 12.75
+                },
+                {
+                    "id": "kawachiMinami",
+                    "name": [
+                        "南河内",
+                        "Minami-Kawachi"
+                    ],
+                    "city": [
+                        "松原市",
+                        "藤井寺市",
+                        "羽曳野市",
+                        "大阪狭山市",
+                        "富田林市",
+                        "河内長野市",
+                        "太子町",
+                        "河南町",
+                        "千早赤阪村"
+                    ],
+                    "coordinates": [
+                        135.5950413377034,
+                        34.47913156713277
+                    ],
+                    "bounds": [
+                        [
+                            135.48679858682056,
+                            34.33646218129938
+                        ],
+                        [
+                            135.70446014488908,
+                            34.59751344796222
+                        ]
+                    ],
+                    "zoom": 11.75
+                }
+            ]
+        },
+        {
+            "id": "senshu",
+            "name": [
+                "和泉（泉州）",
+                "Senshu"
+            ],
+            "area": [
+                {
+                    "id": "senshusenboku",
+                    "name": [
+                        "泉北地域",
+                        "Senboku Area"
+                    ],
+                    "city": [
+                        "堺市",
+                        "和泉市",
+                        "泉大津市",
+                        "高石市"
+                    ],
+                    "coordinates": [
+                        135.49874298412857,
+                        34.52856227655546
+                    ],
+                    "bounds": [
+                        [
+                            135.36745466286357,
+                            34.330865433363286
+                        ],
+                        [
+                            135.5843307829003,
+                            34.60778029562478
+                        ]
+                    ],
+                    "zoom": 11.5
+                },
+                {
+                    "id": "senshusennan",
+                    "name": [
+                        "泉南地域",
+                        "Sennan Area"
+                    ],
+                    "city": [
+                        "岸和田市",
+                        "貝塚市",
+                        "泉佐野市",
+                        "泉南市",
+                        "阪南市",
+                        "熊取町",
+                        "田尻町",
+                        "岬町"
+                    ],
+                    "coordinates": [
+                        135.32060162650743,
+                        34.44144119409283
+                    ],
+                    "bounds": [
+                        [
+                            135.09362183685974,
+                            34.26792778870258
+                        ],
+                        [
+                            135.44860891092435,
+                            34.494200987273516
+                        ]
+                    ],
+                    "zoom": 11
+                }
+            ]
+        }
+    ],
+    "sort": [
+        [
+            "feature",
+            "地域・特集"
+        ],
+        [
+            "legacy",
+            "文化遺産・寺社仏閣"
+        ],
+        [
+            "park",
+            "公園・公共スペース"
+        ],
+        [
+            "nature",
+            "自然環境"
+        ],
+        [
+            "spot",
+            "その他"
+        ]
+    ],
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipOTFxtvjjTf-8hsORbCCFYL3ZMwLuHnoewilXKL=w575-h325-p-k-no",
+        "p/AF1QipOdcWysnyJwnLfQgLzMCehbOada3C42VxehRdSh=w575-h325-p-k-no",
+        "p/AF1QipO6MiOWJKWgClmV51xNxo4vNnJrzgL2i1fh-sIS=w575-h325-p-k-no",
+        "p/AF1QipNDosgACOhJk7vQh4XeSopU6hWmLqBekQdKL3tQ=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ],
+    "links": [
+        {
+            "text": "大阪渡船場マップ 〰️ Osaka City Ferries",
+            "url": "?id=osaka-ferry",
+            "target": "_self"
+        }
+    ],
+    "youtube": null
+}

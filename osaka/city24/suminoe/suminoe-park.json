@@ -1,0 +1,51 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka&area=city24-suminoe&name=suminoe-park",
+    "title": "住之江公園 Suminoe Park",
+    "description": "「花と緑とふれあう」「広々とした施設で遊ぶ」「スポーツを楽しむ」の3つのコンセプトを持つ都市型総合公園",
+    "info": {
+        "note": [
+            "園内には「花と緑のスクエア」（緑地ゾーン）、大池（野鳥が生息する）のほか、プール、テニスコート、野球場といったスポーツ施設がある</small>",
+            "",
+            "<u>無料レンタサイクル</u>",
+            "住之江公園・住吉公園の公園管理事務所で貸出・返却可能<br><small>貸出時間 午前8時30分から午後5時</small>",
+            "",
+            "<a href='https://www.toshi-kouen.jp/staticpages/index.php/suminoe_top' target='_blank'>住之江公園トップページ - 大阪府営5公園ポータル いこいこ! おおさかの公園</a>",
+            "<a href='https://www.toshi-kouen.jp/guidemap/suminoe.html' target='_blank'>住之江公園ガイドマップ</a>",
+            "<a href='https://www.toshi-kouen.jp/staticpages/index.php/suminoe_trying08' target='_blank'>住之江公園の取組み「無料レンタサイクル」</a>"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/57vctSgDGasj549W6",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=ChuoNishi&name=naniwa-church",
+    "title": "日本基督教団 浪花教会",
+    "description": "Naniwa Church United Church of Christ in Japan",
+    "info": {
+        "note": [
+            "日本キリスト教団に所属する正統なプロテスタントの教会",
+            "教会の3Fにはパイプオルガン 礼拝堂にはリードオルガンがある",
+            "",
+            "<u>隔月第一金曜日 12時15分～</u>",
+            "<strong>オルガンコンサート</strong>",
+            "",
+            "<u>アクセス</u><br>Osaka Metro・京阪「淀屋橋」から徒歩約5分<br>Osaka Metro・京阪「北浜」から徒歩約5分"
+        ],
+        "links": [
+            {
+                "text": "日本基督教団 浪花教会",
+                "url": "https://www.naniwachurch.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/CFFeQN3Pkn1nkMaV6",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

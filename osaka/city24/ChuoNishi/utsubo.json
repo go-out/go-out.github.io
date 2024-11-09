@@ -1,0 +1,61 @@
+{
+    "lastModified": "2024-5-17",
+    "url": "?id=osaka-city24&area=ChuoNishi&name=utsubo",
+    "title": "靭公園 Utsubo Park",
+    "description": "西区を象徴する「バラ園」がある、ビジネス街の憩いの場・スポーツの場",
+    "info": {
+        "note": [
+            "四つ橋筋からあみだ池筋まで東西に細長い都市公園（総合公園）",
+            "中央を南北に通るなにわ筋によって東園と西園に分かれる",
+            "",
+            "東園には、ケヤキ並木・バラ園、隣接して大阪科学技術館",
+            "西園には、国際大会にも利用できる靱テニスセンターがある",
+            "",
+            "<u>最寄駅</u><br>Osaka Metro「本町」「阿波座」"
+        ],
+        "links": [
+            {
+                "text": "大阪市花と緑の情報サイト : 靭公園",
+                "url": "https://www.osakapark.osgf.or.jp/utsubo/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "od0M0-olc_c"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "春のバラ園 🌹",
+                "description": null,
+                "year": 2024,
+                "month": 5,
+                "day": 17,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOnjykypE19KFRxjEQA9PG_eqPAaYHdpD8W2vSU=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOhlV4VOsPxk39JsuKeMcADkCHDyaZp-Twbxkdi=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMJdmUBjV_3CzlILlNuSH6Wj5Cu_5jEjVsbfyTF=m18",
+                        "ggms/AF1QipOhlV4VOsPxk39JsuKeMcADkCHDyaZp-Twbxkdi=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMg75HJR1u_pece8TxUATZXddvLnrzeobFTi10r=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMg75HJR1u_pece8TxUATZXddvLnrzeobFTi10r=m18",
+                        "ggms/AF1QipOnjykypE19KFRxjEQA9PG_eqPAaYHdpD8W2vSU=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

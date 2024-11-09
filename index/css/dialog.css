@@ -1,0 +1,118 @@
+#title,
+#link {
+    font-family: 'Kristina', 'KikaiChokoku', sans-serif;
+}
+
+#description,
+dialog p {
+    font-family: 'KikaiChokoku', 'Arial Narrow', sans-serif;
+}
+
+dialog input[type="button"]:hover,
+#link {
+    color: lemonchiffon;
+    text-shadow: 0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+#description {
+    background: lemonchiffon;
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+#title,
+dialog input[type="button"] {
+    color: lightskyblue;
+}
+
+dialog {
+    border: solid skyblue 0.15rem;
+    border-radius: 0.5rem;
+}
+
+#link {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+dialog input[type="button"] {
+    font-size: 150%;
+}
+
+#title {
+    font-size: 111%;
+}
+
+#description,
+dialog p small {
+    font-size: 65%;
+}
+
+dialog input[type="button"] {
+    font-weight: 900;
+}
+
+h2 {
+    line-height: 75%;
+}
+
+#title {
+    line-height: 125%;
+}
+
+dialog input[type="button"]:hover {
+    cursor: pointer;
+}
+
+#title,
+dialog input[type="button"] {
+    display: block;
+}
+
+dialog input[type="button"],
+#weather img {
+    float: right;
+}
+
+dialog {
+    padding: 0;
+}
+
+#title,
+#description {
+    padding: 0.25rem;
+}
+
+#link {
+    padding: 0.5rem;
+}
+
+dialog input[type="button"] {
+    padding: 0.25rem 0.5rem;
+}
+
+dialog input[type="button"] {
+    margin: 0;
+}
+
+#weather {
+    margin: 1rem 0 0;
+}
+
+dialog p {
+    margin: 0.25rem 0.5rem;
+}
+
+#weather img {
+    width: 5rem;
+    max-width: 25%;
+}
+
+dialog {
+    width: 95vw;
+    max-width: 550px;
+    min-height: 250px;
+    max-height: 95dvh;
+}

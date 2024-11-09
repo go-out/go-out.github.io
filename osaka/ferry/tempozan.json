@@ -1,0 +1,70 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-ferry&name=tempozan",
+    "title": "天保山（てんぽうざん）渡船場",
+    "description": "港区築港（みなとくちっこう）⇄ 此花区桜島（このはなくさくらじま）",
+    "info": {
+        "note": [
+            "阪神高速湾岸線の天保山大橋（自動車専用道路）の補完として、安治川（港区築港3丁目 ⇄ 此花区桜島3丁目）を 渡船「桜」「海桜」が 15 ~ 30分毎 運航",
+            "岸壁間 400メートル | 利用者（1日）平均600人",
+            "観光スポット「天保山」エリアと、USJのある「桜島」エリアを往復するため、観光客やUSJのスタッフなどにも多く利用されている",
+            "",
+            "<u>所在地</u>",
+            "築港側 <small>大阪市港区築港3丁目2-25</small>",
+            "桜島側 <small>大阪市此花区桜島3丁目10-34</small>",
+            "",
+            "<u>最寄りのHELLO CYCLING</u>",
+            "<a href='https://maps.app.goo.gl/WqFtKxV9TmNxHGyP8' target='_blank'>天保山公園</a> <a href='https://maps.app.goo.gl/em8HimmESzew7NK66' target='_blank'>URポートサイド築港</a>"
+        ],
+        "links": [
+            {
+                "text": "大阪市：1.天保山（てんぽうざん）渡船場",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011249.html",
+                "target": "_blank"
+            },
+            {
+                "text": "天保山渡船場（築港側） - Google マップ",
+                "url": "https://maps.app.goo.gl/wuL7q37Q59vt4etb7",
+                "target": "_blank"
+            },
+            {
+                "text": "天保山渡船場（桜島側） - Google マップ",
+                "url": "https://maps.app.goo.gl/dWjn8nZ48SSJAymQ8",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "渡し船に乗ろう",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipP8H0UDVGdo3jZ4I2_9fdx0OUXKW8kfASdRWKVH=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipP8H0UDVGdo3jZ4I2_9fdx0OUXKW8kfASdRWKVH=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipP8H0UDVGdo3jZ4I2_9fdx0OUXKW8kfASdRWKVH=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPwqyjVO7mxM0HmRQ8_c5FAxClB_CX54aA-rfMq=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPwqyjVO7mxM0HmRQ8_c5FAxClB_CX54aA-rfMq=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

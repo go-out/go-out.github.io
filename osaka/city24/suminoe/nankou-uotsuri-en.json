@@ -1,0 +1,64 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=suminoe&name=nankou-uotsuri-en",
+    "title": "南港魚つり園護岸",
+    "description": "Nanko Fishing Port 🎣 Suminoe Osaka, Japan",
+    "info": {
+        "note": [
+            "大きな空と海を一望できる気持ちのいい場所",
+            "つりをしなくてもただそこにいるだけで十分。わざわざまた来たいと思えた新しいお気に入りの場所"
+        ],
+        "links": [
+            {
+                "text": "南港魚つり園護岸 - トップページ",
+                "url": "https://nankou-uotsuri-en.jp/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "9DRiQ5CVcjE"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "南港南の西の果てにあるつり園",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMTUU0VMKzAXFp1lI15nJOm0SmZw10NCQ2oyBj4=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMpPiGA44nbPlX9DzP2EWTR-xdnolAq8GUbwMPb=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMpPiGA44nbPlX9DzP2EWTR-xdnolAq8GUbwMPb=m18",
+                        "ggs/AF1QipNwDiAO4m2OqNBo6pPMNyPoFBZTi4nNv8TYe5XC=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipP9gH5ylgbzlV3znCaIgUC5OvynqmbL3JR1Rze8=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipP9gH5ylgbzlV3znCaIgUC5OvynqmbL3JR1Rze8=m18",
+                        "ggs/AF1QipMZr28DU3eKjlUxp-wwKTVG1j2vYsYP4neM85sM=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipMEOIkaAnr9QfaGLhHodLTLRsDjWqDdMzAq66Lh=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMEOIkaAnr9QfaGLhHodLTLRsDjWqDdMzAq66Lh=m18",
+                        "ggs/AF1QipMTUU0VMKzAXFp1lI15nJOm0SmZw10NCQ2oyBj4=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

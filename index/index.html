@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" href="../spot/favicon.png" />
+    <link rel="icon" href="../spot/mobile.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="../spot/mobile.png" sizes="180x180" />
+
+    <!--og:meta-->
+    <title>Go Out | 行ったことのない場所へ行く</title>
+    <meta content="article" property="og:type" />
+    <meta content="Go Out | 行ったことのない場所へ行く" property="og:title" />
+    <meta content="知っていることの 外へ わからないところまで 出かける" name="description" />
+    <meta content="知っていることの 外へ わからないところまで 出かける" property="og:description" />
+
+    <!--og:meta-->
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta property="og:site_name" content="Go Out | 行ったことのない場所へ行く" />
+    <meta property="og:url" content="___" />
+    <meta property="og:image" content="card.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="../card.png" />
+
+    <script src="js/map.js"></script>
+    <script src="js/youtube.js"></script>
+    <script>
+        // ?id=ID&area=エリア&name=名前
+        const directory = "../";
+        let params = new URLSearchParams(location.search),
+            thisJson;
+
+        if (params.get("id")) {
+            thisJson = directory + params.get("id").replace("-", '/');
+            if (params.get("area")) {
+                thisJson += `/${params.get("area").replace("-", '/')}`;
+            }
+            if (params.get("name")) {
+                thisJson += `/${params.get("name")}.json`;
+            } else {
+                thisJson += "/index.json";
+            }
+            indexJSON(thisJson)
+        } else {
+            indexJSON(directory + 'osaka/index.json');
+        };
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/dialog.css" />
+    <link rel="stylesheet" href="css/map.css" />
+
+    <!-- Mapbox -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <h1>
+            <strong>Go Out</strong>
+            <u>行ったことのない場所へ行く</u>
+        </h1>
+        <ul id="cover"></ul>
+    </main>
+
+    <article>
+        <section id="info">
+            <details>
+                <summary>知っていることの 外へ わからないところまで 出かける</summary>
+                <div id="readme"></div>
+                <nav id="area"></nav>
+                <div id="player"></div>
+            </details>
+            <nav id="sort"></nav>
+        </section>
+        <div id="map"></div>
+        <aside id="links">
+            <button onclick="history.back()">↩︎</button>
+        </aside>
+    </article>
+    <dialog>
+        <input type="button" onclick="closeDialog()" value="×" />
+        <h2>
+            <b id="title">Life is precious. Every minute. And more precious with you in it.</b>
+            <u id="description">from "Jon Brion - Little Person"</u>
+        </h2>
+        <a id="link">Let's have some fun</a>
+        <div id="weather"></div>
+    </dialog>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
+
+        let style = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
+            center = [135.5062638133726, 34.65238308472434],
+            bounds = [
+                [123.32699540459835, 23.849018600190785], // 南西座標
+                [153.0175782218744, 47.75409783236686] // 北東座標
+            ],
+            zoom = 4.2;
+
+        const map = new mapboxgl.Map({
+            container: 'map',
+            center: center,
+            style: style,
+            pitch: 0,
+            bearing: 0,
+            zoom: zoom,
+            scrollZoom: 1,
+            maxBounds: bounds,
+            projection: 'mercator',
+            attributionControl: false
+        });
+
+        // 右クリックイベント
+        map.on("contextmenu", (e) => {
+            let thisLngLat = [e.lngLat.lng, e.lngLat.lat]
+            const popup = new mapboxgl.Popup()
+                .setLngLat(thisLngLat)
+                .setHTML(thisLngLat)
+                .addTo(map);
+        });
+    </script>
+</body>
+
+</html>

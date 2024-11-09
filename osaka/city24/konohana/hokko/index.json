@@ -1,0 +1,70 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=konohana-hokko",
+    "map": {
+        "center": [
+            135.39572648489252,
+            34.664439624148315
+        ],
+        "bounds": [
+            [
+                135.36482073066833,
+                34.63268823891772
+            ],
+            [
+                135.43584783706558,
+                34.684898163907064
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/konohana",
+            "hokko",
+            "map"
+        ]
+    ],
+    "title": "北港（舞洲・夢洲・桜島）",
+    "subtitle": "Hokko (Maishima Yumeshima Sakurajima)",
+    "description": "大阪市の最西端に浮かぶ人工島「舞洲」「夢洲」と埋立地「桜島」",
+    "info": {
+        "note": [
+            "<a href='spot/?id=osaka-city24&area=konohana-hokko&name=maishima'>舞洲（まいしま）</a> は、大阪のスポーツ拠点として生まれ変わりつつある島",
+            "夢洲（ゆめしま）は、EXPO 2025 大阪・関西万博の会場",
+            "",
+            "<u>舞洲へのアクセス</u>",
+            "JRゆめ咲線桜島駅より「舞洲アクティブバス」<small>北港観光バス</small>"
+        ],
+        "links": [
+            {
+                "text": "大阪港 #北港 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/大阪港#北港",
+                "target": "_blank"
+            },
+            {
+                "text": "夢洲 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/夢洲",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "RGVn0OmDrJA",
+            "mJw6qQt_T9o"
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipMGKdK-sRort-yIw5sMiUw7ElB24bITyvZVDRVw=w575-h325-p-k-no",
+        "p/AF1QipPqa0ctEsoRCjc08GNlfwDyKNRCM9ctVHBh2SAJ=w575-h325-p-k-no",
+        "p/AF1QipNLWol5GxmZpCJMzVj25ek9ArWfDfz-6loXw0TW=w575-h325-p-k-no",
+        "p/AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=w575-h325-p-k-no",
+        "p/AF1QipPIjTuG-7YYGuI2ytqLiRrJSKLXSAlUUJxsg9qI=w575-h325-p-k-no",
+        "p/AF1QipNdXIm01acMrj7i39vjQoDJXc3RtQ4L-RNamPii=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

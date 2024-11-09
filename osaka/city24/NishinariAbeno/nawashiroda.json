@@ -1,0 +1,58 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=NishinariAbeno&name=nawashiroda",
+    "title": "苗代田公園 Nawashiroda Park",
+    "description": "大阪市阿倍野区阪南町１丁目１３",
+    "info": {
+        "note": [
+            "開門午前九時 閉門夕方午後五時"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/vT5rxQaNuA24aSbd6",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMKu0NViFggGB4J_PV82uBprSpbDpqmSZBVa4iW=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNw7Z_q4Fom2yFu-Jgq9bRX0rj1G0memEO8URFG=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipNw7Z_q4Fom2yFu-Jgq9bRX0rj1G0memEO8URFG=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMKu0NViFggGB4J_PV82uBprSpbDpqmSZBVa4iW=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMKu0NViFggGB4J_PV82uBprSpbDpqmSZBVa4iW=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipOzZ-21o5jSNPEmUhaeXORKZ53WyKQgklmUfg7L=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipOzZ-21o5jSNPEmUhaeXORKZ53WyKQgklmUfg7L=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

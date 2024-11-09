@@ -1,0 +1,69 @@
+{
+    "lastModified": "2024-6-23",
+    "url": "?id=osaka-city24&area=ChuoNishi&name=ikasuri",
+    "title": "坐摩神社 Ikasuri Jinja",
+    "description": "摂津国一之宮 通称ざまさん",
+    "info": {
+        "note": [
+            "大小3つの鳥居が横に組み合わさった珍しい「三ツ鳥居」",
+            "住吉大社と同じく摂津国一宮",
+            "「いかすり（ゐかすり）」は、「居住地を守ること」という意味の「居所知」（ゐかしり）が転じた名称といわれる",
+            "神職が境内で栽培する「紫陽花」、御神紋の鷺丸にちなむ「さぎ草」の名所",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「本町」から徒歩約5分"
+        ],
+        "links": [
+            {
+                "text": "坐摩神社公式サイト〔大阪市・本町〕",
+                "url": "http://www.ikasuri.or.jp/",
+                "target": "_blank"
+            },
+            {
+                "text": "坐摩神社 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/坐摩神社",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/aWBmG6B1Y2WJXcx88",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": 2024,
+                "month": 6,
+                "day": 23,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMhHyFV45J4i3ecIai1To5g3cCZvVN2z04JEH4b=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPX8ibyyNWfLVVZecwVe-wZlNOALSUMzRWxQQ7F=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMhHyFV45J4i3ecIai1To5g3cCZvVN2z04JEH4b=m18",
+                        "ggs/AF1QipMAg8814qtF_rN2wpxnkccxx7G27zhv5ktSizZZ=m18",
+                        "ggs/AF1QipPX8ibyyNWfLVVZecwVe-wZlNOALSUMzRWxQQ7F=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPFkuuQfZTUg4AG3yWWREqCGc623rMPpmIZfJ9C=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipM62BUqdzubWK__iXVpuPvRo6s41ZNRrWhvrTOP=m18",
+                        "ggs/AF1QipPFkuuQfZTUg4AG3yWWREqCGc623rMPpmIZfJ9C=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

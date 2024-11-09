@@ -1,0 +1,131 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=sumiyoshi&name=sumiyoshi-park",
+    "title": "住吉公園 Sumiyoshi Park",
+    "description": "住吉大社に隣接する大阪でもっとも古い公園",
+    "info": {
+        "note": [
+            "<ruby>1873年<rp>（</rp><rt>明治6年8⽉2⽇</rt><rp>）</rp></ruby> に開設された大阪でもっとも古い公園 地域住民の憩いの場",
+            "",
+            "<u>最寄駅 南海「住吉大社」西口すぐ</u>",
+            "<a href='https://youtu.be/gfwP_viCeZg' target='_blank'><b>花と水の広場</b></a><br><small>公園東側の沈庄花壇（春と秋に植えかえられる）が四季を彩り、ウォーターカーテン（毎日10:30・13:00・15:30の3回20分）が訪れる人を出迎える</small>",
+            "",
+            "<a href='https://youtu.be/mkioDOspLbs' target='_blank'><b><ruby>心字池<rp>（</rp><rt>しんじいけ</rt><rp>）</rp></ruby></b></a><br><small>真上から見ると心の字に似ている人工の池「心字池」周辺は、かつて浜であった公園開設当初の佇まいを今に伝える場所</small>",
+            "",
+            "<u>無料レンタサイクル</u>",
+            "住吉公園・住之江公園の公園管理事務所で貸出・返却可能<br><small>貸出時間 午前8時30分から午後5時</small>",
+            "",
+            "公園東側の沈庄花壇（春と秋に植えかえられる）が四季を彩り、ウォーターカーテン（毎日10:30・13:00・15:30の3回20分）が訪れる人を出迎える",
+            "真上から見ると心の字に似ている人工の池「心字池（しんじいけ）」周辺は、かつて浜であった公園開設当初の佇まいを今に伝える場所"
+        ],
+        "links": [
+            {
+                "text": "住吉公園トップページ - 大阪府営5公園ポータル いこいこ! おおさかの公園",
+                "url": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_top",
+                "target": "_blank"
+            },
+            {
+                "text": "住吉公園ガイドマップ",
+                "url": "https://www.toshi-kouen.jp/guidemap/sumiyoshi.html",
+                "target": "_blank"
+            },
+            {
+                "text": "住吉公園歴史探訪",
+                "url": "https://www.toshi-kouen.jp/index.php/topic/sumiyoshi_history",
+                "target": "_blank"
+            },
+            {
+                "text": "住吉公園の取組み「無料レンタサイクル」",
+                "url": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_trying05",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "gfwP_viCeZg",
+            "mkioDOspLbs"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "花と水の広場",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMu5AFsfHHwLqAzQMjrUkZk141_-FazvmrCqUIC=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "enter",
+                    "poster": "p/AF1QipOZwjpBu0JR01fnP5JjrsVHb9p3H4--OGEKy4aR=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOZwjpBu0JR01fnP5JjrsVHb9p3H4--OGEKy4aR=m18",
+                        "ggs/AF1QipMu5AFsfHHwLqAzQMjrUkZk141_-FazvmrCqUIC=m18"
+                    ]
+                },
+                {
+                    "id": "water",
+                    "poster": "p/AF1QipNOZlo2uF_PxaaCUvub5kDpv4a8YfID9u0J7a7w=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNOZlo2uF_PxaaCUvub5kDpv4a8YfID9u0J7a7w=m18",
+                        "ggs/AF1QipPaibe6OrEX3lB_V86fxV-dBuoYgMYU-Gc7B20O=m18"
+                    ]
+                },
+                {
+                    "id": "etc",
+                    "poster": "p/AF1QipMVAg8UNCpULoUd2Y9ghTRDyvGoBuctlHjmXedO=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipO-6xtUP-HdR-E-Dmkp03if1g4ctxXxtmcE5NlY=m18",
+                        "ggs/AF1QipPDZEThFgW9r3dZQsmsz1wn2cgyknT8pfmkQiBa=m18",
+                        "ggs/AF1QipMVAg8UNCpULoUd2Y9ghTRDyvGoBuctlHjmXedO=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "心字池 しんじいけ",
+                "description": "真上から見ると心の字に似ている人工の池「心字池（しんじいけ）」周辺は、かつて浜であった公園開設当初の佇まいを今に伝える場所",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "サギなどの鳥たちが羽を休めに来ます。",
+                    "どの場面も美しく、ずっとお気に入りの場所だと思います。"
+                ],
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMhT0ibsJbZUyT0B-grCPLXm48tMgwqg9_IlMnx=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOS_QR7KV3z1IKzzpFrxbiySRQq0kmVbS662pW2=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipM6JytpSenVUekKCl5_53A4UNOlhsC-AxhYxq6h=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipNN4x7ofSSnSSzCF5eRAmEcuVtDROguKPUIriSe=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOANLoSpmNEi9GCCpqfqb0BLoARXfJPeJIfvq73=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipPrq_ZXdCNI2xinBXM7SHLZPvpDiosv0V-dhaNZ=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipM8317oW2a97xyKtmpxXVxNsSiAZsJznjPVVh1V=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

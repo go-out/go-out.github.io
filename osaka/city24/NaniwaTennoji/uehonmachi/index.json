@@ -1,0 +1,73 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=NaniwaTennoji-uehonmachi",
+    "map": {
+        "center": [
+            135.51845515966454,
+            34.66561724407276
+        ],
+        "bounds": [
+            [
+                135.51075359556444,
+                34.66026026091977
+            ],
+            [
+                135.52470392356207,
+                34.671623308905055
+            ]
+        ],
+        "zoom": 15.75
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/NaniwaTennoji",
+            "uehonmachi",
+            "map"
+        ]
+    ],
+    "title": "上本町（谷九・上六）",
+    "subtitle": "Uehonmachi (Tanimachi 9 chome, Ueroku)",
+    "description": "上町台地の頂に達する、風情や緑が多く残されている上町の中心地",
+    "info": {
+        "note": [
+            "現在の大阪の基礎となる「<ruby>上町台地<rp>（</rp><rt>うえまちだいち</rt><rp>）</rp></ruby>」の頂に達する位置「<ruby>上本町<rp>（</rp><rt>うえほんまち</rt><rp>）</rp></ruby>」",
+            "<small>上町筋と千日前通が交差する交差点の名称から、谷九（谷町九丁目）・上六（上本町六丁目）とも呼ばれる</small>"
+        ],
+        "links": [
+            {
+                "text": "天王寺区の都市景観資源（わがまちナイススポット）",
+                "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000258471.html",
+                "target": "_blank"
+            },
+            {
+                "text": "上町台地の時空につながる扉から",
+                "url": "https://www.og-cel.jp/project/ucoro/pdf/style1.pdf",
+                "target": "_blank"
+            },
+            {
+                "text": "緑と鳥の回廊と水の縁をめぐる",
+                "url": "https://www.og-cel.jp/project/ucoro/pdf/style2.pdf",
+                "target": "_blank"
+            },
+            {
+                "text": "上町ネット | INDEX",
+                "url": "http://www.uemachi.net/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

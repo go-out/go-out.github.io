@@ -1,0 +1,65 @@
+{
+    "lastModified": "2024-2-18",
+    "url": "?id=osaka&area=hokusetsu&name=udonoyoshihara",
+    "title": "鵜殿のヨシ原 Udono no Yoshihara",
+    "description": "高槻市鵜殿 から 上牧 に広がる淀川河川敷一帯",
+    "info": {
+        "note": [
+            "<strong>「大阪みどりの百選」「関西自然に親しむ風景100選」「美しい日本の歩きたくなるみち500選」</strong>",
+            "",
+            "<u>毎年二月中旬 日曜日</u>",
+            "<a href='../date/udono-yoshihara/'>鵜殿のヨシ原焼き</a><br>土地の維持管理のため、野焼きが行われます",
+            "",
+            "<u>アクセス</u><br>阪急京都線「上牧」から徒歩約25分<br>阪急京都線「高槻市」から自転車🚲で約20分",
+            "",
+            "<u>レンタサイクル</u><br><a>城北第一駐輪センター</a><br><small>営業時間 6:30~22:00 | ◆普通車◆ 1日1回利用 320円 ◆電動車◆ 1日1回利用 420円</small>",
+            "",
+            "<a href='https://ja.wikipedia.org/wiki/%E9%B5%9C%E6%AE%BF%E3%81%AE%E3%83%A8%E3%82%B7%E5%8E%9F' target='_blank'>鵜殿のヨシ原 - Wikipedia</a>",
+            "<a href='https://www.udono-hozon.com/' target='_blank'>鵜殿のヨシ原保存会</a>",
+            "<a href='https://www.instagram.com/udono.yoshihara/' target='_blank'>鵜殿のヨシ原保存会(@udono.yoshihara) - Instagram</a>"
+        ],
+        "links": [
+            {
+                "text": "creative, community spaceペフ - Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "鵜殿のヨシ原焼き",
+                "description": null,
+                "year": 2024,
+                "month": 2,
+                "day": 18,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOLeOv5EldDbeZM3n8ihFplgJD9d35sK76-8Xn3=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNxd7np7OcbSaYwbofMUVWLXU6n96wwZakaIB0f=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOLeOv5EldDbeZM3n8ihFplgJD9d35sK76-8Xn3=m18",
+                        "ggs/AF1QipNxd7np7OcbSaYwbofMUVWLXU6n96wwZakaIB0f=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipNDij9r4gRN5ZLTlOfB7LXlvO509u5LF2odIF69=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipP9U0LuGuaEd8PAzzfgmYhqDidZItHsJRiXksfB=m18",
+                        "ggs/AF1QipPqdWmkFOKsOQMck3HtEIuveKKTjx7skeVKQdR4=m18",
+                        "ggs/AF1QipNDij9r4gRN5ZLTlOfB7LXlvO509u5LF2odIF69=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

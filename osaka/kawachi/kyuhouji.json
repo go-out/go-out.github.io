@@ -1,0 +1,54 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka&area=kawachi&name=kyuhouji",
+    "title": "久宝寺緑地 Kyuhouji Ryokuchi",
+    "description": "大阪4大緑地のひとつ 甲子園球場の約10倍もの広さを誇る大阪府営の緑地公園",
+    "info": {
+        "note": [
+            "憩いのスペースに加え、本格的なスポーツ施設が勢揃い！<br><small>「ウェルネス広場」付近はFree Wi-Fiが利用可能</small>",
+            "",
+            "<u>7月中旬〜8月下旬</u><br>中央にはシンボルのヤシの木がある久宝寺緑地野外プールがオープンする",
+            "",
+            "<u>アクセス</u><br>JR大和路線・おおさか東線「久宝寺」から徒歩約15分",
+            "<u>無料レンタサイクル</u><br><a href='https://maps.app.goo.gl/s4aUt4ve5BZHv6to6' target='_blank'>公園管理事務所</a> <small>中央広場（花の道）付近</small>",
+            "<small>貸出時間:午前9時00分から午後4時（返却時間:午後4時30分迄）</small>",
+            "",
+            "<a href='https://www.toshi-kouen.jp/staticpages/index.php/kyuhouji_top' target='_blank'>久宝寺緑地トップページ - 大阪府営5公園ポータル いこいこ! おおさかの公園</a>",
+            "<a href='https://www.toshi-kouen.jp/guidemap/kyuhouji2014.html' target='_blank'>久宝寺緑地ガイドマップ</a>",
+            "<a href='https://www.toshi-kouen.jp/article.php/kyuhouji_newx20110331_3' target='_blank'>4月1日からレンタサイクル開始</a>"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/6qvxgthym2jcdkoq9",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

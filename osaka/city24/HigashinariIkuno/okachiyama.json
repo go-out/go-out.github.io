@@ -1,0 +1,54 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=HigashinariIkuno&name=okachiyama",
+    "title": "御勝山 Okachi-yama",
+    "description": "元は「岡山」「丸山」の名称だった古墳",
+    "info": {
+        "note": [
+            "御勝山（おかちやま）古墳の後円部（標高14mの墳丘）、「大阪五低山」の一つ",
+            "帝塚山古墳、茶臼山古墳とともに上町台地上に現存する主要古墳の一つ",
+            "古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」として整備されている",
+            "北側の後円墳部分は大阪府の史跡に指定されており、現在は立ち入り禁止",
+            "",
+            "<u>アクセス</u><br>JR大阪環状線「桃谷」から徒歩約15分"
+        ],
+        "links": [
+            {
+                "text": "御勝山古墳 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/御勝山古墳",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/Br4zbRCj65WwRjEbA",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "lastModified": "2024-3-9",
+    "url": "?id=osaka-city24&area=suminoe&name=kagaya-shinden",
+    "title": "加賀屋新田会所跡 Kagaya Shinden Kaisho Garden",
+    "description": "1754年（宝暦4年）に開発された新田を管理するために開かれた、大阪市内にただ一つ残る新田会所跡",
+    "info": {
+        "note": [
+            "江戸時代 <ruby>1754年<rp>（</rp><rt>宝暦4年</rt><rp>）</rp></ruby> に開発された新田を管理するために開かれた、大阪市内にただ一つ残る新田会所跡",
+            "敷地面積は4,822平方メートル（約1,500坪）に及び、財を惜しまずつくりあげた屋敷と庭園は、当時の豪商の文化度の高さや粋人ぶりがうかがえる",
+            "書院や茶室には、今ではとても手に入らないような貴重な木材が使われ、匠の技が至る所に用いられている名建築",
+            "庭園では、四季折々の景観を楽しむことができる",
+            "",
+            "<u>アクセス</u><br>Osaka Metro 四つ橋線「住之江公園」から徒歩約15分",
+            "<u>無料レンタサイクル</u><br><a href='https://maps.app.goo.gl/poayp1BqUkgbty2G6' target='_blank'>住之江公園 管理事務所</a> <small>貸出時間は午前8時30分から午後5時</small>"
+        ],
+        "links": [
+            {
+                "text": "『加賀屋緑地：加賀屋新田会所跡』 | Facebook",
+                "url": "https://www.facebook.com/kagayashindenkaisyoato/",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市：加賀屋新田会所跡",
+                "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008888.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市：旧加賀屋新田会所　鳳鳴亭・書院・居宅　3棟",
+                "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008951.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "zAZUC1x1-H0"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "加賀屋緑地 会所会",
+                "description": null,
+                "year": 2024,
+                "month": 3,
+                "day": 9,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMyctapozcwquYZIXOOGbMPazWmQRbl6K2YOfdH=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipM2j8ZjpOEBWRnqGmIZXjoTxR9OkyEg9_1l1yYv=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMyctapozcwquYZIXOOGbMPazWmQRbl6K2YOfdH=m18",
+                        "ggs/AF1QipO17NfO4FjPrrL-dfKSbztTVuwlZv_98WHADeUO=m18",
+                        "ggs/AF1QipPdaMnleuFkEM236HYdBXnQ_HNrYNz8MFGYg7uJ=m18",
+                        "ggs/AF1QipNrOZyoJ_5CAdze-JVT5pkpsqg9vaNTihzQyjED=m18",
+                        "ggs/AF1QipPFVDCNG_Z-uXFkS0J98pIrZ9QXo_g72MzZNI_d=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=m18",
+                        "ggs/AF1QipNwB2zfvf2DQ7sZ6iFUZFv9bHkF-BbJQ0ZptO6l=m18",
+                        "ggs/AF1QipMk7GR-S_XHITSW6rIJ0AoyjyiaFkz-2GAKlXVT=m18",
+                        "ggs/AF1QipM2j8ZjpOEBWRnqGmIZXjoTxR9OkyEg9_1l1yYv=m18",
+                        "ggs/AF1QipOWN-8yM4nOspH2s33emLkqya3gCWVsxthjpty4=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

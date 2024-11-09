@@ -1,0 +1,61 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=NishinariAbeno-haginochaya",
+    "map": {
+        "center": [
+            135.5007150257839,
+            34.64607943619279
+        ],
+        "bounds": [
+            [
+                135.4964395881538,
+                34.64352423805025
+            ],
+            [
+                135.50463168746217,
+                34.64958654698589
+            ]
+        ],
+        "zoom": 14.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/NishinariAbeno",
+            "haginochaya",
+            "map"
+        ]
+    ],
+    "title": "日本最大の日雇い労働者の街（ドヤ街）",
+    "subtitle": "Hagino-chaya",
+    "description": "釜ヶ崎・あいりん地区",
+    "info": {
+        "note": null,
+        "links": [
+            {
+                "text": "あいりん地区 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/あいりん地区",
+                "target": "_blank"
+            },
+            {
+                "text": "釜ヶ崎の歴史 | 新今宮ワンダーランド",
+                "url": "https://shin-imamiya-osaka.com/history/kamagasaki/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

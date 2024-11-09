@@ -1,0 +1,61 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=ChuoNishi-obp",
+    "map": {
+        "center": [
+            135.5308529947035,
+            34.69272530891007
+        ],
+        "bounds": [
+            [
+                135.52534772811248,
+                34.689746728598564
+            ],
+            [
+                135.53570269878725,
+                34.695729274099165
+            ]
+        ],
+        "zoom": 16
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/ChuoNishi",
+            "obp",
+            "map"
+        ]
+    ],
+    "title": "大阪ビジネスパーク",
+    "subtitle": "Osaka Business Park",
+    "description": "ビジネス街でありながら、水と緑に囲まれ自然豊かな大阪の新都心",
+    "info": {
+        "note": null,
+        "links": [
+            {
+                "text": "OBP大阪ビジネスパーク協議会",
+                "url": "https://obp.gr.jp/",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪ビジネスパーク - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/大阪ビジネスパーク",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipOdcWysnyJwnLfQgLzMCehbOada3C42VxehRdSh=w575-h325-p-k-no",
+        "p/AF1QipPHCUCS9wT-aNJldGIr7l1nN3Epff7miV5MBgij=w575-h325-p-k-no",
+        "p/AF1QipO5cdv4VgPT4Yr3BJcRM8T0EWlxSwYAbKO0irk_=w575-h325-p-k-no",
+        "p/AF1QipPbNBeX5QAbNyZXVpCd2Q1pYitowfpO0EP-UphD=w575-h325-p-k-no",
+        "p/AF1QipNPjVN86Ur_DyKmCWFuKGe4zyzah8lAPoZ_SNFX=w575-h325-p-k-no",
+        "p/AF1QipOnNpHPu5VE00I0rkep2igXOa1cdsXU8EG1g8JP=w575-h325-p-k-no",
+        "p/AF1QipPKYfaU5TdG_ss5QaJAFNrNBUXAZs6lWLioG7j_=w575-h325-p-k-no",
+        "p/AF1QipOdJ53inUmfGx6B1bU7IhciFDGDokpLqfdhzFC2=w575-h325-p-k-no",
+        "p/AF1QipMPBaocCp6N-eF5J0W9a51XwIhSYCrwVYOnlsJm=w575-h325-p-k-no"
+    ]
+}

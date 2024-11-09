@@ -1,0 +1,201 @@
+{
+    "lastModified": "2024-10-28",
+    "url": "?id=osaka-city24&area=KitaFukushima-nakanoshima&name=spot",
+    "title": "中之島 Nakanoshima",
+    "description": "堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス",
+    "info": {
+        "note": [
+            "大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア"
+        ],
+        "links": null,
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "中之島緑道",
+                "description": "錦橋（にしきばし） - 淀屋橋（よどやばし）",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "大阪市制100周年記念事業の一環として、土佐堀川の北側（肥後橋駅から淀屋橋駅まで）に整備 （1989年 平成元年）",
+                    "公募より選定された「水・緑・光」がテーマの10点の彫刻作品が設置されている自然とパブリックアートが共存した散歩道"
+                ],
+                "links": [
+                    {
+                        "text": "中之島緑道 | Public ART",
+                        "url": "https://public-art.jp/archives/category/museums/nakanoshimagreenroad",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "大阪市：錦橋（にしきばし）",
+                        "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000023833.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "大阪市北区：淀屋橋(よどやばし) ",
+                        "url": "https://www.city.osaka.lg.jp/kita/page/0000000943.html",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipN2tYsNtcFyxwqbR1wt0KViXe53B_PSAO1CAOIz=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPXL2woHyuSZZfjxTo21mjg4aDLlpMIbaAE4TL0=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPXL2woHyuSZZfjxTo21mjg4aDLlpMIbaAE4TL0=m18",
+                        "ggs/AF1QipPoK_B6HYamY1xXdIc1VaXh0HYkRhJLvGoyb6A5=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMwjmmLUJpJeXmCGiDnu8vUXUUNVwN6QXtYyNpI=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipN2tYsNtcFyxwqbR1wt0KViXe53B_PSAO1CAOIz=m18",
+                        "ggs/AF1QipMwjmmLUJpJeXmCGiDnu8vUXUUNVwN6QXtYyNpI=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "中之島公園 <br>芝生広場",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水"
+                ],
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOwVuo8MmZq_iJdBqhPF6U8pHq0PLA89WRQXXgJ=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOCLUm_iKOlm02WzXJrJPCnuodfecVGVplw8DgJ=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOCLUm_iKOlm02WzXJrJPCnuodfecVGVplw8DgJ=m18",
+                        "ggs/AF1QipMkLg9bQF01CaW2HFNIEGQtda299Yb6cIOLcQ2C=m18",
+                        "ggs/AF1QipPpLLY5_XtLbQVaraOmhdw6tSC7y6bT3dIv73fj=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipO44-G12rF_iO6I631HQmX8qZMjJRnptscmVBsT=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOwVuo8MmZq_iJdBqhPF6U8pHq0PLA89WRQXXgJ=m18",
+                        "ggs/AF1QipO44-G12rF_iO6I631HQmX8qZMjJRnptscmVBsT=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "中之島ガーデンブリッジ",
+                "description": "堂島川（大江橋と渡辺橋の間）に架かる歩行者専用の橋",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "橋の中央には憩い空間・松岡阜の彫刻「そよかぜ」がある"
+                ],
+                "links": [
+                    {
+                        "text": "大阪市：中之島ガーデンブリッジ（なかのしまがーでんぶりっじ）",
+                        "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000026036.html",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOAj6GL35rEegqnxR7L-bNnqbc69tcLAIIFeYjg=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMOrCAuJ9Oz7UNlRAPw_7ab6mtDJmNDfGMm365A=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMOrCAuJ9Oz7UNlRAPw_7ab6mtDJmNDfGMm365A=m18",
+                        "ggs/AF1QipODmyL0eXPV3Okwx214tugExt3BJnPaBYZ9pcjf=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMS3R7vOWHcS25_nU8m7ycR0Iq_spoY-14qD7sP=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOAj6GL35rEegqnxR7L-bNnqbc69tcLAIIFeYjg=m18",
+                        "ggs/AF1QipMS3R7vOWHcS25_nU8m7ycR0Iq_spoY-14qD7sP=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "住友村",
+                "description": "三井住友銀行大阪本店ビル・大阪中央支店ビル",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "住友ビルディング（現・三井住友銀行大阪本店ビル）",
+                    "旧住友財閥（現住友グループ）の拠点として建てられた建築物",
+                    "",
+                    "大阪中央支店ビル<br>古代ギリシャ風の外観が特徴の北浜のランドマーク"
+                ],
+                "links": [
+                    {
+                        "text": "住友村 - Wikipedia",
+                        "url": "https://ja.wikipedia.org//住友村",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "三井住友銀行大阪本店ビル - Wikipedia",
+                        "url": "https://ja.wikipedia.org//三井住友銀行大阪本店ビル",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "三井住友銀行大阪中央支店 - Wikipedia",
+                        "url": "https://ja.wikipedia.org//三井住友銀行大阪中央支店",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "三井住友銀行、大阪・北浜に超高層ビル建設へ…グループの新たな中核拠点に：地域ニュース : 読売新聞",
+                        "url": "https://www.yomiuri.co.jp/local/kansai/news/20240326-OYO1T50003/",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMPKtmjqy1ll9ksoO-HzqAuZkdRKrBZ10_7UE1y=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "sumitomo1",
+                    "poster": "p/AF1QipMoOQhltpqnng1q3Xfh_yUnXFoKfDyOwcUPqw9k=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMoOQhltpqnng1q3Xfh_yUnXFoKfDyOwcUPqw9k=m18",
+                        "ggms/AF1QipMPKtmjqy1ll9ksoO-HzqAuZkdRKrBZ10_7UE1y=m18",
+                        "ggms/AF1QipOgLsBR4JpUG094u7UMQ7qIOY6vK5uphbGt2zbt=m18"
+                    ]
+                },
+                {
+                    "id": "sumitomo2",
+                    "poster": "p/AF1QipOJznNEcgJduHB6XHzAJ1xWNBEV5jk3RTI9ZGh6=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipOJznNEcgJduHB6XHzAJ1xWNBEV5jk3RTI9ZGh6=m18",
+                        "ggms/AF1QipOf3UCLZt9a8l6IXLJWBewbLfPSr7G5oZskeDWM=m18",
+                        "ggms/AF1QipNAXv8CKvtv7DagypsKApJZED-xY3Bt1xF8nKyV=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

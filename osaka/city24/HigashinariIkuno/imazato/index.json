@@ -1,0 +1,57 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=HigashinariIkuno-imazato",
+    "map": {
+        "center": [
+            135.54428288154634,
+            34.66867337973737
+        ],
+        "bounds": [
+            [
+                135.5376595034213,
+                34.66392466292882
+            ],
+            [
+                135.55237204982728,
+                34.673870762169315
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/HigashinariIkuno",
+            "imazato",
+            "map"
+        ]
+    ],
+    "title": "今里駅周辺",
+    "subtitle": "Imazato, Higashinari",
+    "description": "A Select Area 🌍 エリアを選択",
+    "info": {
+        "note": null,
+        "markdown": null,
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

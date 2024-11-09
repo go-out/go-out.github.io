@@ -1,0 +1,68 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka&area=hokusetsu&name=niiyajinja",
+    "title": "新屋坐天照御魂神社 にいやにますあまてるみたまじんじゃ",
+    "description": "神・自然・人の共生 心身再生の神をまつる",
+    "info": {
+        "note": [
+            "創建以来二千百年を有する摂津国屈指の長い歴史と高い社格を誇る名神大社",
+            "茨木市には、同じ社名の神社の論社（新屋神社・西河原・宿久庄）が三社ある<br><small>三社の位置が夏至・冬至の日の出・日の入り方角に関係するため、太陽神信仰に基づく神社であったとの説がある</small>",
+            "",
+            "<a href='https://maps.app.goo.gl/EuaLqERc6bFnqPXE7' target='_blank'>新屋神社</a>",
+            "新屋神社を中心に見ると、西河原・宿久庄はそれぞれ冬至における日の出・日の入りの方角に位置する",
+            "稲荷社横の入口より山道を200mほど上がると、神が降臨したと伝えられる聖地「日降丘」と呼ばれる空間がある",
+            "<u>八月十六日 午後七時から九時ごろ</u><br><b>献灯祭（火上）</b> <small>すべての灯籠・提灯に火が入り、幽玄で幻想的な世界が醸し出される</small>",
+            "<u>体育の日の前日の日曜日 9:30〜16:30</u><br><b>秋季大祭</b> <small>ふとん太鼓が地域を巡行 神社では御神楽奉納</small>",
+            "",
+            "<a href='https://maps.app.goo.gl/YwvAszV4bqUzBasV6' target='_blank'>西河原</a>",
+            "西河原から見ると新屋神社は夏至の日の入りの方角に位置する",
+            "<small>かつては磯良神社の地に鎮座。また、当初の鎮座地は現在の総持寺であるとの伝えもある</small>",
+            "<u>十月十五日 午後二時から</u><br><b>例祭</b> <small>神楽奉納の後、拝殿前で湯立て神事</small>",
+            "<u>九月十一日（二百二十日）</u><br><b>お百灯</b> <small>立春から数えて210日目の日</small>",
+            "",
+            "<a href='https://maps.app.goo.gl/hn9guGYhAFhdHcDy6' target='_blank'>宿久庄</a>",
+            "宿久庄から見ると新屋神社は夏至の日の出の方角に位置する",
+            "<u>十月十五日 </u><br><b>例祭</b> <small></small>",
+            "",
+            "<u>ミディ コミュニティサイクル</u><br>利用時間 8:00~20:00｜利用料金 1日1回200円<br><small>JR茨木駅、又は阪急茨木市駅・南茨木駅のサイクルポートで貸出・返却可</small>",
+            "",
+            "<a href='http://niiyajinja.jp/' target='_blank'>ようこそ新屋坐天照御魂神社（新屋神社）公式ホームページへ</a>",
+            "<a href='https://niiya-nishigawara.webnode.jp/' target='_blank'>新屋坐天照御魂神社（西河原）</a>",
+            "<a href='https://ja.wikipedia.org/wiki/%E6%96%B0%E5%B1%8B%E5%9D%90%E5%A4%A9%E7%85%A7%E5%BE%A1%E9%AD%82%E7%A5%9E%E7%A4%BE' target='_blank'>新屋坐天照御魂神社 - Wikipedia</a>",
+            "<a href='https://www.midi-kintetsu.com/mpns/pa/o-ibaraki/other/community.php' target='_blank'>茨木市 コミュニティサイクル｜ミディ駐車場・駐輪場 総合情報サイト</a>"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/vMc1Ca6QwqAr7nR8A",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

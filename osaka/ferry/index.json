@@ -1,0 +1,66 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-ferry",
+    "map": {
+        "center": [
+            135.46780215364652,
+            34.642879503401744
+        ],
+        "bounds": [
+            [
+                135.42143373216817,
+                34.61436407234636
+            ],
+            [
+                135.4957195007523,
+                34.66918369486816
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka",
+            "ferry",
+            "index"
+        ]
+    ],
+    "title": "渡し船に乗ろう",
+    "subtitle": "Osaka City Ferries",
+    "description": "大阪渡船場マップ",
+    "info": {
+        "note": [
+            "<strong>大阪市南西部では、河川や運河を行き来する市営の渡船が運航しています。</strong><br>",
+            "運航時間は、概ね午前6時台から午後9時台。運賃は無料。歩行者および自転車のみ乗船できます。",
+            "<small>古来数多くの川が流れ、水の都と呼ばれた大阪には、人々の往来のために架橋の代替（または補完）として運航する渡船が各所にありました。</small><br><small>（大正9年4月、旧道路法の施行により渡船は無料となり、昭和7年4月以降、渡船のほとんどは市の直営方式となりました。）</small>",
+            "",
+            "都市施設が整備された今、多くの渡船は廃止されたが、現在でも8か所の渡船場（15隻の船）が、地域の人々に利用されていて、繁華街や観光地では見られない大阪に触れることができるスポットとしても、静かな人気を呼んでいます。",
+            "<small>昭和10年頃には渡船場31ヶ所、保有船舶数69隻（機械船32隻、手漕ぎ船37隻）、年間利用者は歩行者が約5752万人、自転車等が約1442万台とピークに達しました。</small><br><small>その後、渡船の利用は次第に減少し、平成元年（1989年）に現在の渡船場の数（8ヶ所）となり、利用者数は約152万人にまで減少しました。</small>"
+        ],
+        "links": [
+            {
+                "text": "Public Works Bureau | Ferries | Osaka ferries",
+                "url": "https://www.city.osaka.lg.jp/contents/wdu020/kensetsu/english/ferry/index.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "SNw7eE2K0c0",
+            "JDQjc70a1T8",
+            "Z8Von0j_br8"
+        ]
+    },
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipOTFxtvjjTf-8hsORbCCFYL3ZMwLuHnoewilXKL=w575-h325-p-k-no",
+        "p/AF1QipN_52KP6PNcsPyIo9v8832KcyWcNuC8lFKkJMw-=w575-h325-p-k-no",
+        "p/AF1QipM1UyqDm5khgY05qF0ds4-vUFt9-kWdm_ehBEhK=w575-h325-p-k-no",
+        "p/AF1QipOs11fFz3gngvayYR3xjECCAsFC7p1WEug5sXZW=w575-h325-p-k-no",
+        "p/AF1QipNZd6qKyZ_WpQdORPEv4qaXneEiKWO5lyVqitjZ=w575-h325-p-k-no",
+        "p/AF1QipPQJAmDZEFjLrOrXuoOMrwN1D-E2UH0mSN-0_5J=w575-h325-p-k-no",
+        "p/AF1QipOOkY9S4OQWs5DQgSuvkOY2gOCeB1jCnRq5WbPK=w575-h325-p-k-no",
+        "p/AF1QipOv1tWDXl1w0hZ4yR8v04pZNLx-oDwZsc-rkEnk=w575-h325-p-k-no",
+        "p/AF1QipP8H0UDVGdo3jZ4I2_9fdx0OUXKW8kfASdRWKVH=w575-h325-p-k-no",
+        "p/AF1QipMVyCNlYMJnwvdwPcrDNxmdvFh-O3QPomDPdTdK=w575-h325-p-k-no"
+    ]
+}

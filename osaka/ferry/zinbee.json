@@ -1,0 +1,77 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-ferry&name=zonbee",
+    "title": "甚兵衛（じんべえ）渡船場",
+    "description": "大正区泉尾（たいしょうくいずお）⇄ 港区福崎（みなとくふくざき）",
+    "info": {
+        "note": [
+            "尻無川（大正区泉尾7丁目 ⇄ 港区福崎1丁目）を 渡船「すずかぜ」「きよかぜ」が 随時 ~ 15分毎 運航",
+            "岸壁間 94メートル | 利用者（1日）平均1000人",
+            "周辺に高等学校があるため通学での利用が多く、朝のラッシュ時は2隻体制<br>現在運航している渡船の中で、最も利用客の多い渡船場",
+            "",
+            "<u>所在地</u>",
+            "泉尾側 <small>大阪市大正区泉尾7丁目13-32</small>",
+            "福崎側 <small>大阪市港区福崎1丁目3-50</small>",
+            "",
+            "<u>最寄りのHELLO CYCLING</u>",
+            "<a href='https://maps.app.goo.gl/dFgQiP7XdzFyKsLs6' target='_blank'>大阪ベイタワー</a> <a href='https://maps.app.goo.gl/FyM356NmJnVWw1q36' target='_blank'>べんてんひろば駐輪場</a>"
+        ],
+        "links": [
+            {
+                "text": "大阪市：2.甚兵衛（じんべえ）渡船場",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011251.html",
+                "target": "_blank"
+            },
+            {
+                "text": "甚兵衛渡船場（大正区泉尾側） - Google マップ",
+                "url": "https://maps.app.goo.gl/P7nLoHUnYrk2t9Kf6",
+                "target": "_blank"
+            },
+            {
+                "text": "甚兵衛渡船場（港区福崎側） - Google マップ",
+                "url": "https://maps.app.goo.gl/bhYCLdEyn9oHftZ79",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "渡し船に乗ろう",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMVyCNlYMJnwvdwPcrDNxmdvFh-O3QPomDPdTdK=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMEt89FqQvLGZgEVcdAq3NKsEdxIKusNTXd55xV=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMEt89FqQvLGZgEVcdAq3NKsEdxIKusNTXd55xV=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMH3iD8j5ne75rpuZ5YU_RXud-Tt8GdKKYSvpZg=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMH3iD8j5ne75rpuZ5YU_RXud-Tt8GdKKYSvpZg=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipMVyCNlYMJnwvdwPcrDNxmdvFh-O3QPomDPdTdK=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMVyCNlYMJnwvdwPcrDNxmdvFh-O3QPomDPdTdK=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

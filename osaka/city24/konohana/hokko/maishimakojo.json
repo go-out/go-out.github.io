@@ -1,0 +1,62 @@
+{
+    "lastModified": "2024-4-7",
+    "url": "?id=osaka-city24&area=konohana-hokko&name=maishimakojo",
+    "title": "大阪広域環境施設組合 舞洲工場",
+    "description": "Maishima Incineration Plant 🇯🇵 Konhana Osaka, Japan",
+    "info": {
+        "note": [
+            "開館時間 月～土曜日（祝祭日を除く） *建物内の見学は事前予約制",
+            "1階エントランスホールは月曜日から金曜日（年末年始、祝日は除く）9時から17時のみ一般開放"
+        ],
+        "links": [
+            {
+                "text": "舞洲工場 - 大阪広域環境施設組合",
+                "url": "https://www.osaka-env-paa.jp/kojo/maishima/",
+                "target": "_blank"
+            },
+            {
+                "text": "焼却工場の見学 - 大阪広域環境施設組合",
+                "url": "https://www.osaka-env-paa.jp/kengaku/kojokengaku/index.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "mJw6qQt_T9o"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "自然と共和する<br>ゴミ焼却施設",
+                "description": null,
+                "year": 2024,
+                "month": 4,
+                "day": 7,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/ggms/",
+            "cover": "AF1QipOdWrRPa5UYusbpt9TslVi7wBRmUqGzXAB86YQ_=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "AF1QipMGKdK-sRort-yIw5sMiUw7ElB24bITyvZVDRVw=w575-h325-p-k-no",
+                    "src": [
+                        "AF1QipMGKdK-sRort-yIw5sMiUw7ElB24bITyvZVDRVw=m18",
+                        "AF1QipOdWrRPa5UYusbpt9TslVi7wBRmUqGzXAB86YQ_=m18",
+                        "AF1QipMJmBJIilQ7wovDvnhJgTNlGjvWLKSFyGpZ1Fxo=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "AF1QipMEwvZeSiIqY9-HdyyGYl3NXi0H3wsH7Sunw_ez=w575-h325-p-k-no",
+                    "src": [
+                        "AF1QipPqa0ctEsoRCjc08GNlfwDyKNRCM9ctVHBh2SAJ=m18",
+                        "AF1QipMEwvZeSiIqY9-HdyyGYl3NXi0H3wsH7Sunw_ez=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

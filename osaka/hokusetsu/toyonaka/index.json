@@ -1,0 +1,70 @@
+{
+    "lastModified": "2024-5-11",
+    "url": "?id=osaka&area=hokusetsu-toyonaka",
+    "map": {
+        "center": [
+            135.4672428514657,
+            34.772659644545854
+        ],
+        "bounds": [
+            [
+                135.44951211716096,
+                34.76048282859887
+            ],
+            [
+                135.49715575016114,
+                34.784242079901446
+            ]
+        ],
+        "zoom": 14
+    },
+    "jsonAll": [
+        [
+            "osaka/hokusetsu",
+            "toyonaka",
+            "map"
+        ]
+    ],
+    "title": "豊中市 🌹 中部・東部・西部",
+    "subtitle": "Toyonaka, Osaka",
+    "description": "ランドマーク・お気に入りの場所",
+    "info": {
+        "note": [
+            "<small>伊丹空港より東・北大阪急行電鉄より西</small>",
+            "中部は市街地（曽根・桜塚・長興寺等は高級住宅街）・東部は服部緑地",
+            "緑化計画により整備された西部（大阪国際空港周辺）にも水と緑が多数",
+            "",
+            "<u>ランドマーク・お気に入りの場所</u>",
+            "<b>天竺川の松並木</b> <small>服部緑地の西端 天竺川橋から広田橋付近にかけて続く松並木</small>",
+            "",
+            "<u>レンタサイクル</u>",
+            "<a href='https://maps.app.goo.gl/acmbCYo1ti6oXo6x6' target='_blank'>阪急曽根駐輪センター</a> <small>営業時間 7:00～21:00 | 普通車 1日320円 / 電動車 1日420円</small>",
+            "<a href='https://maps.app.goo.gl/pwckMpbs5f3CSrNz8' target='_blank'>阪急岡町北駐輪センター</a> <small>営業時間 6:30～22:00 | 普通車 1日320円 / 電動車 1日420円</small>",
+            "",
+            "<u>Hello Cycling</u><br>北大阪急行電鉄「緑地公園」周辺・服部緑地公園内にポート多数あり"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipNYdtqAAO3WT7BdLPnZW70K47RE8gY9pXq07flY=w575-h325-p-k-no",
+        "p/AF1QipNTuj7PMWm-gXogOSdugFd-uyYsoWv_avu5L4eR=w575-h325-p-k-no",
+        "p/AF1QipOBpmSEusumdJ3Kox51va5VFXsbmgOAHCemuMvP=w575-h325-p-k-no",
+        "p/AF1QipNF07LkBNNFiyJjNQ0n6-VgywP5zqxnOlveIzlr=w575-h325-p-k-no",
+        "p/AF1QipPkUooQCjY5o3K71WgE_1rGmjW4u5W8B6x12nBw=w575-h325-p-k-no",
+        "p/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=w575-h325-p-k-no",
+        "p/AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo=w575-h325-p-k-no",
+        "p/AF1QipOiCXZvlush22KD0OdFeqD6LaK33dU12_HzZScy=w575-h325-p-k-no",
+        "p/AF1QipNg_9GdR_r0k5J1WQ13JxXr0qo09plG5TpYv8ps=w575-h325-p-k-no",
+        "p/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=w575-h325-p-k-no"
+    ]
+}

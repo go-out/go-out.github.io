@@ -1,0 +1,51 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=NaniwaTennoji-ocat",
+    "map": {
+        "center": [
+            135.4937726,
+            34.6626995
+        ],
+        "bounds": [
+            [
+                135.48061585009367,
+                34.65469813183708
+            ],
+            [
+                135.50429466451226,
+                34.67032849089526
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/NaniwaTennoji",
+            "ocat",
+            "map"
+        ]
+    ],
+    "title": "OCAT・JR難波駅周辺",
+    "subtitle": "Osaka City Air Tarminal",
+    "description": "ランドマーク・お気に入りの場所",
+    "info": {
+        "note": null,
+        "markdown": null,
+        "links": null,
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipNDosgACOhJk7vQh4XeSopU6hWmLqBekQdKL3tQ=w575-h325-p-k-no",
+        "p/AF1QipOC0fZWJz1GLsMXtqHLneK9jU8zz40r10hecenf=w575-h325-p-k-no",
+        "p/AF1QipNve6MNEVaJK9fIGbAvX4BQo3mIIouR8uwsb-xf=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/AF1QipPemutcGNJZy8HNWZB6ynpopPJ7DcJL0UFKQVHH=w575-h325-p-k-no",
+        "p/AF1QipNt2UAsGOz1PAIlNMHqc2W31XTWoowxM71njJ16=w575-h325-p-k-no"
+    ]
+}

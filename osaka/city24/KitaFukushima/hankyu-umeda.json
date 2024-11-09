@@ -1,0 +1,47 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=KitaFukushima&name=hankyu-umeda",
+    "title": "阪急梅田コンコース",
+    "description": "阪急うめだ本店の阪急電車側、人々が行き交うコンコースを眺められる場所",
+    "info": {
+        "note": [
+            "<a href='https://maps.app.goo.gl/JwXTaFHuWGssB2Vr8' target='_blank'>梅田新歩道橋</a> から阪急「大阪梅田」駅方面、<a href='https://maps.app.goo.gl/r7JGGku8CUGL15fH6' target='_blank'>梅田イス・UMEDAオブジェ</a> のあるサン広場へ抜ける、人通りの少ない歩道",
+            "この歩道から、人が行き交うコンコースを眺めていると、ここにいるのにいないような気持ちになれる"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/u6UphUJpESfYb9436",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "qzIy_qtpNh8"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

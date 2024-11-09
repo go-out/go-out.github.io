@@ -1,0 +1,52 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=NishinariAbeno-oujifuminosato",
+    "map": {
+        "center": [
+            135.5146567488659,
+            34.62885347278464
+        ],
+        "bounds": [
+            [
+                135.50713902570016,
+                34.6224019713067
+            ],
+            [
+                135.5236503196333,
+                34.63801224358393
+            ]
+        ],
+        "zoom": 15
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/NishinariAbeno",
+            "oujifuminosato",
+            "map"
+        ]
+    ],
+    "title": "あべの王子商店街・王子本通商店街・文の里商店街",
+    "subtitle": "Abeno, Osaka",
+    "description": "阪堺上町線より東・南海通より北・阪和線より西",
+    "info": {
+        "note": null,
+        "links": null,
+        "youtube": [
+            "0qWk60mfWhA"
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipPXJ_D9ay-0ESDIA8XwyW4QJ9pOQzqwPidxEg58=w575-h325-p-k-no",
+        "p/AF1QipNzUZI8saoOq4Is8lmm_TF-T8Eb10Fj9Y0sszUP=w575-h325-p-k-no",
+        "p/AF1QipMwB2Xgs59hs0ZNavlfdDbcj6zIGVfa3LHib1xR=w575-h325-p-k-no",
+        "p/AF1QipMSwMo5E7YtnP1CpbqtIlYg6CNC4X4PMU5zuzI8=w575-h325-p-k-no",
+        "p/AF1QipOvJkuLiNvF_ii_Bz-n43hSPF2VCJ_cNNh7x37m=w575-h325-p-k-no",
+        "p/AF1QipP9xHnEXxig-nNEBY1rew1Djr5hS3xQH8HlfGC6=w575-h325-p-k-no",
+        "p/AF1QipPjVD-IEoVFxOqNqr-yqj4Vc3gheI9bM_isBU8_=w575-h325-p-k-no",
+        "p/AF1QipMKu0NViFggGB4J_PV82uBprSpbDpqmSZBVa4iW=w575-h325-p-k-no",
+        "p/AF1QipNgc7lkOxX0uNsItFHZ3N6L2FX7LLluEJhs0Wbv=w575-h325-p-k-no"
+    ]
+}

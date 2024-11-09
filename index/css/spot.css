@@ -1,0 +1,286 @@
+.start #title::before {
+    content: "▶ ";
+}
+
+.stop #title::before {
+    content: "⏸ ";
+}
+
+#top h1 b#month::after {
+    content: "月";
+}
+
+#top h1 b#day::after {
+    content: "日";
+}
+
+#top h1 strong {
+    font-family: 'DiaPro', 'KikaiChokoku', sans-serif;
+}
+
+#top h1 small {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#info {
+    font-family: 'KikaiChokoku', 'Arial Narrow', sans-serif;
+}
+
+#top h1 b::after,
+#lastModified,
+aside {
+    font-family: 'ipag', 'Arial Narrow', sans-serif;
+}
+
+#top h1 b {
+    font-family: 'Kristina', cursive;
+    font-weight: 600;
+}
+
+#top h1 strong {
+    font-weight: 555;
+}
+
+#year {
+    text-align: right;
+}
+
+header button {
+    background: lemonchiffon;
+}
+
+header,
+#top h1 b::after,
+article h2 {
+    color: lightskyblue;
+}
+
+#top h1 b,
+article a[href],
+#lastModified {
+    color: lemonchiffon;
+}
+
+#description {
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lemonchiffon,
+        0.2rem 0.2rem 0.2rem lemonchiffon,
+        0.3rem 0.3rem 0.3rem lemonchiffon;
+}
+
+article a[href] {
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+#top h1 small {
+    color: #fff;
+    font-size: 65%;
+    font-weight: 500;
+}
+
+body {
+    background-color: #111;
+}
+
+#info p,
+#map {
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+#top h1 strong,
+#top h1 b {
+    font-size: 222%;
+}
+
+#top h1 b::after {
+    font-size: 20%;
+}
+
+aside {
+    line-height: 150%;
+}
+
+#title,
+#top h1 strong,
+#top h1 b {
+    line-height: 100%;
+}
+
+#top h1 strong {
+    padding: 0 0.75rem 2rem;
+}
+
+#top h1 b {
+    padding: 0 0 0 0.75rem;
+}
+
+#info p,
+#year {
+    padding: 0.5rem;
+}
+
+article {
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+#info p,
+aside p {
+    margin: 0.5rem 0 0;
+}
+
+#lastModified {
+    margin-top: 1rem;
+}
+
+.stop #top h1,
+#channel input {
+    display: none;
+}
+
+#top h1 strong,
+#top h1 small,
+#links a {
+    display: block;
+}
+
+#lastModified {
+    display: block;
+}
+
+#top h1 b,
+article,
+#links p {
+    display: flex;
+}
+
+#links p {
+    gap: 0.5rem;
+    flex-flow: column;
+}
+
+#top h1 b {
+    place-items: flex-start;
+    min-width: 5.5rem;
+}
+
+#top h1 b::after {
+    display: inline-block;
+    padding: 0 0 2rem 1rem;
+}
+
+#top h1 strong,
+#top h1 b {
+    float: left;
+}
+
+#top h1 small,
+#lastModified {
+    float: right;
+}
+
+article {
+    position: relative;
+}
+
+@media (orientation: landscape) {
+    #top h1 strong {
+        width: calc(100% - 5rem);
+    }
+
+    #top h1 small {
+        width: 5rem;
+    }
+
+    article {
+        justify-content: space-between;
+    }
+
+    #info {
+        width: 60%;
+    }
+
+    article aside {
+        width: 40%;
+        padding: 0.25rem 0.25rem 0.25rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #top {
+        font-size: 1.23vw;
+    }
+
+    #top h1 strong {
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+
+    header {
+        font-size: 3vw;
+    }
+
+    #top {
+        font-size: 2vw;
+    }
+
+    #top h1 strong,
+    article section,
+    article aside {
+        width: 100%;
+    }
+
+    #top h1 small {
+        width: 5rem;
+    }
+
+    article {
+        flex-wrap: wrap;
+    }
+
+    article aside {
+        padding: 1rem 0.25rem 0.25rem;
+    }
+
+    article {
+        place-content: end;
+    }
+}
+
+#top h1 {
+    position: relative;
+    z-index: 2;
+}
+
+#channel label {
+    border: solid transparent 0.1rem;
+    background: #111;
+    border-radius: 0.5rem;
+    height: 6.5rem;
+    box-sizing: border-box;
+}
+
+#channel input:checked+label {
+    border: solid #fff 0.125rem;
+}
+
+#channel {
+    overflow: auto;
+    justify-content: space-between;
+}
+
+#channel video {
+    border-radius: 0.4rem;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    border: none;
+}

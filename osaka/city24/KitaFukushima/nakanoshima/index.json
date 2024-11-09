@@ -1,0 +1,75 @@
+{
+    "lastModified": "2024-10-28",
+    "url": "?id=osaka-city24&area=KitaFukushima-nakanoshima",
+    "map": {
+        "center": [
+            135.49886358224114,
+            34.693357180699806
+        ],
+        "bounds": [
+            [
+                135.48129442088924,
+                34.68463520140298
+            ],
+            [
+                135.51337768861168,
+                34.69744163325062
+            ]
+        ],
+        "zoom": 15.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/KitaFukushima",
+            "nakanoshima",
+            "map"
+        ]
+    ],
+    "title": "中之島公園",
+    "subtitle": "Nakanoshima",
+    "description": "堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス",
+    "info": {
+        "note": [
+            "大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア",
+            "",
+            "<a href='spot/?id=osaka-city24&area=KitaFukushima-nakanoshima&name=spot'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "links": [
+            {
+                "text": "大阪市花と緑の情報サイト : 中之島公園",
+                "url": "https://www.osakapark.osgf.or.jp/nakanoshima/",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪府／水の回廊ライトアップ",
+                "url": "https://www.pref.osaka.lg.jp/nishiosaka/shore/light-up.html",
+                "target": "_blank"
+            },
+            {
+                "text": "アートエリア B1",
+                "url": "https://artarea-b1.jp/",
+                "target": "_blank"
+            },
+            {
+                "text": "こども本の森 中之島",
+                "url": "https://kodomohonnomori.osaka/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "6DS2MuncFoE"
+        ]
+    },
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipPoK_B6HYamY1xXdIc1VaXh0HYkRhJLvGoyb6A5=w575-h325-p-k-no",
+        "p/AF1QipMwjmmLUJpJeXmCGiDnu8vUXUUNVwN6QXtYyNpI=w575-h325-p-k-no",
+        "p/AF1QipPlb3UaaCohbYGoG176VGiqlLln6WQcYFfYkGZJ=w575-h325-p-k-no",
+        "p/AF1QipMPKtmjqy1ll9ksoO-HzqAuZkdRKrBZ10_7UE1y=w575-h325-p-k-no",
+        "p/AF1QipPzKcnPEQA2e1arQPAErfpEnExF66exB9-9pQLT=w575-h325-p-k-no",
+        "p/AF1QipMkLg9bQF01CaW2HFNIEGQtda299Yb6cIOLcQ2C=w575-h325-p-k-no",
+        "p/AF1QipOAj6GL35rEegqnxR7L-bNnqbc69tcLAIIFeYjg=w575-h325-p-k-no",
+        "p/AF1QipOCLUm_iKOlm02WzXJrJPCnuodfecVGVplw8DgJ=w575-h325-p-k-no",
+        "p/AF1QipOwVuo8MmZq_iJdBqhPF6U8pHq0PLA89WRQXXgJ=w575-h325-p-k-no"
+    ]
+}

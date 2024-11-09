@@ -1,0 +1,64 @@
+{
+    "lastModified": "2024-1-17",
+    "url": "?id=osaka&area=senshu-sakai&name=sainvarierkanaoka",
+    "title": "サンヴァリエ金岡（金岡団地） Kanaoka Danchi",
+    "description": "UR賃貸住宅の第1号となった｢金岡団地｣の跡地にある団地",
+    "info": {
+        "note": [
+            "UR賃貸住宅（建設当時は日本住宅公団）の第1号となった｢<ruby>金岡団地<rp>（</rp><rt>かなおかだんち</rt><rp>）</rp></ruby>｣の“花形”として人気を博した、三角形の階段室を中心に各階3つの住戸を配する「スターハウス（星型住棟）」の基礎部分を活かし、外形と間取りを再現したモニュメント",
+            "<small>住棟を空から見ると、Ｙ字型であることから、その形状を模してスターハウスと呼ばれるようになったほかに、多くの人が憧れる住宅であったことから“花形（スター）”という愛称がついたという逸話も</small>",
+            "",
+            "住宅環境の変化や居住水準の向上に伴い金岡団地は建て替えられ、<ruby>平成8年<rp>（</rp><rt>1996年</rt><rp>）</rp></ruby>に同土地に現存する「サンヴァリエ金岡」が誕生。スターハウスメモリアルのほか、サンヴァリエ金岡の事務所にもスターハウスの基盤が活かされている",
+            "",
+            "<u>アクセス</u><br>南海高野線・JR阪和線「三国ヶ丘」から徒歩約15分<br>JR阪和線「堺市」から徒歩約15分"
+        ],
+        "links": [
+            {
+                "text": "時代を越えてよみがえるスターハウス - うちまちだんち",
+                "url": "https://karigurashi.net/vidanchi/sainvarierkanaoka01/",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/BjWesdsqzCq8T66D7",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "スターハウスメモリアル",
+                "description": null,
+                "year": 2024,
+                "month": 1,
+                "day": 17,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMjDcQBVYqzp03X7kJY3QqEV8aBGxUnVUEsub4e=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOTPQR-TLg1i1YOkCM03z3Je0zKw8zL6_8T-xv4=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipN2kjzp3qTiAbf6cSWxa0kEbV9xl3nki9QIKRfy=m18",
+                        "ggms/AF1QipOTPQR-TLg1i1YOkCM03z3Je0zKw8zL6_8T-xv4=m18",
+                        "ggms/AF1QipMgCoEksGiwckfoPEZfFDStDm_Y1fUUR2FKa3dJ=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipN2K9kSpC3pkQE2HKWytr26oqkNNXOj2pQq0hBe=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMjDcQBVYqzp03X7kJY3QqEV8aBGxUnVUEsub4e=m18",
+                        "ggms/AF1QipN2K9kSpC3pkQE2HKWytr26oqkNNXOj2pQq0hBe=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

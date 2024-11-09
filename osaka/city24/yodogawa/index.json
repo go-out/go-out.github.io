@@ -1,0 +1,50 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=yodogawa",
+    "map": {
+        "center": [
+            135.48996825834564,
+            34.719296753858984
+        ],
+        "bounds": [
+            [
+                135.47156244667127,
+                34.70487621655012
+            ],
+            [
+                135.50594154917377,
+                34.744211070861724
+            ]
+        ],
+        "zoom": 14
+    },
+    "jsonAll": [
+        [
+            "osaka/city24",
+            "yodogawa",
+            "map"
+        ]
+    ],
+    "title": "淀川河川敷",
+    "subtitle": "Yodogawa River-side",
+    "description": "ランドマーク・お気に入りの場所",
+    "info": {
+        "note": [
+            "区の東端は大阪の玄関口「新大阪」<br>南側の淀川河川敷は、梅田エリアを一望できるビュースポット"
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

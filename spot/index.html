@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="mobile.png" sizes="180x180">
+
+    <!--og:meta-->
+    <title>Fancy and Relaxin' | 優雅にゆっくり憩える場所</title>
+    <meta content="Fancy and Relaxin' | 優雅にゆっくり憩える場所" property="og:title">
+    <meta content="I'll play it first and tell you what it is later." name="description">
+    <meta content="I'll play it first and tell you what it is later." property="og:description">
+
+    <meta content="article" property="og:type">
+    <meta property="og:site_name" content="ニュー ライフ コレクション" />
+    <meta property="og:url" content="/map/spot/">
+    <meta property="og:image" content="__" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="__">
+    <link rel="stylesheet" href="../index/css/style.css">
+    <link rel="stylesheet" href="../index/css/video.css">
+    <link rel="stylesheet" href="../index/css/spot.css">
+
+    <script src="../index/js/spot.js"></script>
+    <script src="../log.js"></script>
+    <script>
+        // ?id=ID&area=エリア&name=名前&no=番号
+        const directory = "../";
+        let params = new URLSearchParams(location.search);
+        let thisJson, thisID, thisArea, thisSpot;
+        if (params.get("id")) {
+            thisID = params.get("id").replace("-", '/');
+            thisJson = `../${thisID}`;
+
+            if (params.get("area")) {
+                thisArea = params.get("area").replace("-", '/');
+                thisJson += `/${thisArea}`;
+            };
+
+            if (params.get("name")) {
+                thisJson += `/${params.get("name")}.json`;
+            } else {
+                thisJson += "/index.json";
+            };
+
+            spotJSON(thisJson);
+        } else {
+            thisSpot = shuffle(spotLog)[0];
+            location.replace("../" + thisSpot[1]);
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <button id="title" type="button">優雅にゆっくり憩える場所</button>
+    </header>
+
+    <main id="top">
+        <h1>
+            <strong>Fancy and Relaxin'</strong>
+            <small id="year">YYYY</small>
+            <b id="month">MM</b>
+            <b id="day">DD</b>
+        </h1>
+        <canvas id="cover"></canvas>
+        <nav id="channel"></nav>
+    </main>
+
+    <article>
+        <section id="info">
+            <h2 id="description">I'll play it first and tell you what it is later.</h2>
+            <p id="note"></p>
+            <select name="date" id="collection" hidden></select>
+        </section>
+        <aside>
+            <div id="by"></div>
+            <div id="links"></div>
+            <code id="lastModified"></code>
+        </aside>
+    </article>
+</body>
+
+</html>

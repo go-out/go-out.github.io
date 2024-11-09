@@ -1,0 +1,57 @@
+{
+    "lastModified": "2024-09-06",
+    "url": "?id=osaka&area=senshu-sakai&name=sakai",
+    "map": {
+        "center": [
+            135.4758517130639,
+            34.57369592486306
+        ],
+        "bounds": [
+            [
+                135.46773632204327,
+                34.56866108924106
+            ],
+            [
+                135.4876721888067,
+                34.59428828649942
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka/senshu",
+            "sakai",
+            "sakai"
+        ]
+    ],
+    "title": "フェニックス通り・土居川公園",
+    "subtitle": "Sakai City, Sakai",
+    "description": "A Select Area 🌍 エリアを選択",
+    "info": {
+        "note": null,
+        "markdown": null,
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipPXtuJjFyEvaj-I_PE5xkgxVxJUW9Ua_rJ9u-4O=w575-h325-p-k-no",
+        "p/AF1QipMOQ6AZRnFEJnQoXFPLZHmj4JL8hpfyg7NSvedl=w575-h325-p-k-no",
+        "p/AF1QipPT4QP8wxVyNxqDFSV34WY-D0mXp3nPma4R68U_=w575-h325-p-k-no",
+        "p/AF1QipNpwQ1UjqJY3dzwomhd_qOi0N5V1AnFCJhw6HFB=w575-h325-p-k-no",
+        "p/AF1QipNFLe_C5ZlcpZJF3sX_n3WXABUPcoJU5AE-nPCH=w575-h325-p-k-no",
+        "p/AF1QipMDjwN0RKg7jt9tW-JoQakWAk5kHkAqnjQhGdsg=w575-h325-p-k-no",
+        "p/AF1QipMG_urvdtUp5eQsR9iYgkiNFrkUq29szV4plur8=w575-h325-p-k-no",
+        "p/AF1QipOfHVQkyFHoCJg1zgSLoECzU3U4I0EnjsZA_otV=w575-h325-p-k-no",
+        "p/AF1QipMvAom19y7GV7xlG9IrN25IBlLZAD7BGqykm-tC=w575-h325-p-k-no"
+    ]
+}

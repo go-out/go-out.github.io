@@ -1,0 +1,102 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=suminoe-nanko",
+    "map": {
+        "center": [
+            135.42281018597942,
+            34.63336377556088
+        ],
+        "bounds": [
+            [
+                135.39544729439126,
+                34.620531077517185
+            ],
+            [
+                135.43982367603581,
+                34.64626099628245
+            ]
+        ],
+        "zoom": 5.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/suminoe",
+            "nanko",
+            "map"
+        ]
+    ],
+    "title": "南港（咲洲）",
+    "subtitle": "Nanko (Sakishima)",
+    "description": "大阪市ベイエリア南側一体「南港（なんこう）」、人工島「咲洲（さきしま）」",
+    "info": {
+        "note": [
+            "中央部は高層住宅地、ニュータウン「南港ポートタウン」",
+            "居住エリアは、緑のまち・海のまち・太陽のまち・花のまち の4ブロック",
+            "街のほぼ中央を南港ポートタウン線が横断"
+        ],
+        "links": [
+            {
+                "text": "ポートタウン東駅 - HELLO CYCLING",
+                "url": "https://maps.app.goo.gl/C81sHdqUXkJCrBLA9",
+                "target": "_blank"
+            },
+            {
+                "text": "クインテッサホテル大阪ベイ - HELLO CYCLING",
+                "url": "https://maps.app.goo.gl/gF4zS3DZLk8ua2t56",
+                "target": "_blank"
+            },
+            {
+                "text": "南港ポートタウン - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/南港ポートタウン",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市住之江区：さざんか南港緑協議会",
+                "url": "https://www.city.osaka.lg.jp/suminoe/page/0000525319.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市住之江区：さざんか花の町協議会",
+                "url": "https://www.city.osaka.lg.jp/suminoe/page/0000525320.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市住之江区：さざんか海の町協議会",
+                "url": "https://www.city.osaka.lg.jp/suminoe/page/0000525321.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市住之江区：さざんか太陽の町協議会",
+                "url": "https://www.city.osaka.lg.jp/suminoe/page/0000525322.html",
+                "target": "_blank"
+            },
+            {
+                "text": "さざんか海の町協議会",
+                "url": "https://sazanka-umi.osaka.jp/",
+                "target": "_blank"
+            },
+            {
+                "text": "さざんか太陽の町協議会",
+                "url": "http://nankoutaiyou.web.fc2.com/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "8az_VW2ssbs"
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

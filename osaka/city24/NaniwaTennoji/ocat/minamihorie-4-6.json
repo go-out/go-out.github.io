@@ -1,0 +1,60 @@
+{
+    "lastModified": "2024-3-16",
+    "url": "?id=osaka-city24&area=NaniwaTennoji-ocat&name=minamihorie-4-6",
+    "title": "西区南堀江４丁目６",
+    "description": "Minamihorie 4-6 Nishi-ku 🇯🇵 Osaka, Japan",
+    "info": {
+        "note": [
+            "「道頓堀川水門」付近から汐見橋まで 道頓堀川沿の遊歩道",
+            "都心近くだけど人気の少ない静かな場所 たくさんの小鳥と緑",
+            "Osaka Metro・阪神「桜川」・南海「汐見橋」から徒歩約5分（なんばからも徒歩圏内）"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/hJrQdpCvVNU3ocyQ8",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "道頓堀川水門 から<br>汐見橋 まで",
+                "description": null,
+                "year": "2024",
+                "month": "3",
+                "day": "16",
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMNaZPL3Jp6Yb585CewTeVOxD61hg5AYIFZ1bVA=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMNaZPL3Jp6Yb585CewTeVOxD61hg5AYIFZ1bVA=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMNaZPL3Jp6Yb585CewTeVOxD61hg5AYIFZ1bVA=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPwdhWZkre8q_cTMcFoOPp-QkIEqDMMx1F-YnBm=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipPwdhWZkre8q_cTMcFoOPp-QkIEqDMMx1F-YnBm=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipMC5PN1UIrzxGSl3-Ihqef7YfZOQmSUvZfgZA9Z=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMC5PN1UIrzxGSl3-Ihqef7YfZOQmSUvZfgZA9Z=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

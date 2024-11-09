@@ -1,0 +1,123 @@
+{
+    "lastModified": "2024-10-11",
+    "url": "?id=osaka&area=kawachi&name=kongo",
+    "title": "金剛山 Mt. Kongo",
+    "description": "",
+    "info": {
+        "note": [],
+        "links": [
+            {
+                "text": "金剛山登山道情報（金剛山のホームページ）",
+                "url": "http://www.kongozan.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "ちはや園地TOP 利用案内 | 大阪府民の森",
+                "url": "https://osaka-midori.jp/mori/",
+                "target": "_blank"
+            },
+            {
+                "text": "葛木神社／千早赤阪村",
+                "url": "https://www.vill.chihayaakasaka.osaka.jp/kanko/rekishi/7859.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "千早本道 <br>The Chihaya Main Route",
+                "description": "金剛登山口 ~ 千早城址・千早神社 ~ 金剛山頂周辺",
+                "year": 2024,
+                "month": 10,
+                "day": 11,
+                "note": [
+                    "金剛登山道の中で最も利用者の多い初心者コース",
+                    "よく整備された丸太階段・石段が続く、安全で簡単な登山道",
+                    "",
+                    "<a href='https://www.chihayaakasaka.org/spot/castle.html' target='_blank'>千早城 千早神社 | 千早赤阪村観光協会</a>",
+                    "<a href='https://maps.app.goo.gl/nW2rbft1NpZx9P8eA' target='_blank'>金剛登山口 - Google マップ</a>",
+                    "<a href='https://maps.app.goo.gl/tTV2gJm13gyQXF2Q9' target='_blank'>千早本道（ふもと入り口） - Google マップ</a>",
+                    "<a href='https://maps.app.goo.gl/GiniuSPqysxmXPXA8' target='_blank'>千早神社 - Google マップ</a>",
+                    "<a href='https://maps.app.goo.gl/kmZSmWt2ggWz2gAf8' target='_blank'>千早本道ルート - Google マップ</a>",
+                    "<a href='https://maps.app.goo.gl/vTCGSTXaE3A1i8zG9' target='_blank'>金剛山 - Google マップ</a>"
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOy82fhM064ZmvbowcB9gkofawwNab6LVdqIyvb=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "hiking",
+                    "poster": "p/AF1QipMXpcw4WMvDXsojzxX3r04e9GKM9J9Z0bQVAv4O=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMXpcw4WMvDXsojzxX3r04e9GKM9J9Z0bQVAv4O=m18",
+                        "ggs/AF1QipPvT0DzpP7lua0Zcv582egfSoBez0s75YDa4v65=m18",
+                        "ggs/AF1QipOC2vKKST_Skj0-Jj9CkYTvzqJr-AyDsRuisdv6=m18",
+                        "ggs/AF1QipOo6_tFaKA-4YnWbIPGrtNJ8MWgAxxFXxR_oX-j=m18",
+                        "ggs/AF1QipOHcnzqrBcPqkfP4QxWsFcRTvSVx0tztNEpzL9B=m18"
+                    ]
+                },
+                {
+                    "id": "chihayajinja",
+                    "poster": "p/AF1QipOtKf0QiF-UTAbHtFdxWJYeyi_2kUoRrMFYa7kW=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOgqPa4XHHtGhVx7q98LMEifFMGyNH2ge0uFKUJ=m18",
+                        "ggs/AF1QipOtKf0QiF-UTAbHtFdxWJYeyi_2kUoRrMFYa7kW=m18",
+                        "ggs/AF1QipMPGO5a6NeBMvUSdM1w4H_FMB04LSRVD-2CJkLN=m18",
+                        "ggs/AF1QipP66ucGg-H7K02aIhiauq1RTn6TD7UDn2f7vxlv=m18",
+                        "ggs/AF1QipOjgch3j2G5GAMqx-3KNzaq69wE0OEb_m4wH518=m18"
+                    ]
+                },
+                {
+                    "id": "summit",
+                    "poster": "p/AF1QipPXa_TcxMoBqAqoRtUjAWMYC47_S-HirZnOTQw2=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOy82fhM064ZmvbowcB9gkofawwNab6LVdqIyvb=m18",
+                        "ggs/AF1QipPXa_TcxMoBqAqoRtUjAWMYC47_S-HirZnOTQw2=m18",
+                        "ggs/AF1QipO5T6vuptLDYAC_gITOu6ILoPP79QlLVswELRss=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "金剛山 山頂周辺 <br>The Top of the Mt. Kongo",
+                "year": 2024,
+                "month": 10,
+                "day": 11
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipPCGRfdJR5IgqigkXdzSEIerEOGoMvN-iScHJrQ=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "jinja",
+                    "poster": "p/AF1QipObMMsUyOs15U-m-YVmf82-Oy31bH5JvBAlaRad=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNAsoqmucoKUhp4MwY4Hvw5XiAEWgWDtzmBA_sA=m18",
+                        "ggs/AF1QipObMMsUyOs15U-m-YVmf82-Oy31bH5JvBAlaRad=m18",
+                        "ggs/AF1QipOY9hG9mx3YjjOsFzvNPUsQ_li0AGuULi1tz_OF=m18"
+                    ]
+                },
+                {
+                    "id": "park",
+                    "poster": "p/AF1QipM8c0OCukJw6JclDSpKgFWeojQkSuDk4a1GTleD=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipM8c0OCukJw6JclDSpKgFWeojQkSuDk4a1GTleD=m18",
+                        "ggs/AF1QipOigLHmYBS8rluVZHidsZohG9q4WzyeNrJdSNlH=m18"
+                    ]
+                },
+                {
+                    "id": "etc",
+                    "poster": "p/AF1QipMS8z21z0rWBPcroUJioc7rse02ae91qzcLNMzG=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMS8z21z0rWBPcroUJioc7rse02ae91qzcLNMzG=m18",
+                        "ggs/AF1QipPCGRfdJR5IgqigkXdzSEIerEOGoMvN-iScHJrQ=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

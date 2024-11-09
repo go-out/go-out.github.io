@@ -1,0 +1,86 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-ferry&name=senbonmatsu",
+    "title": "千本松（せんぼんまつ）渡船場",
+    "description": "大正区南恩加島（たいしょうくみなみおかじま）⇄ 西成区南津守（にしなりくみなみつもり）",
+    "info": {
+        "note": [
+            "千本松大橋の補完として、木津川（大正区南恩加島1丁目 ⇄ 西成区南津守2丁目）を 渡船「はるかぜ」「ちづる」が 10 ~ 15分毎 運航",
+            "岸壁間 230メートル | 利用者（1日）平均871人",
+            "現在も通勤通学の貴重な移動手段として多く利用されている渡船場",
+            "",
+            "<u>所在地</u>",
+            "南恩加島側 <small>大阪市大正区南恩加島1丁目11-1</small>",
+            "南津守側 <small>大阪市西成区南津守2丁目4-88</small>",
+            "",
+            "<u>最寄りのHELLO CYCLING</u>",
+            "<a href='https://maps.app.goo.gl/H4ngonKhXimYdKEM6' target='_blank'>サイクルベースあさひ北加賀屋店</a>"
+        ],
+        "links": [
+            {
+                "text": "大阪市：6.千本松（せんぼんまつ）渡船場",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011258.html",
+                "target": "_blank"
+            },
+            {
+                "text": "千本松渡船場（大正区南恩加島側） - Google マップ",
+                "url": "https://maps.app.goo.gl/eRgKv4cm7KHMWkcSA",
+                "target": "_blank"
+            },
+            {
+                "text": "千本松渡船場（西成区南津守側） - Google マップ",
+                "url": "https://maps.app.goo.gl/ZqULrwQX4Cc78aSf7",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "SNw7eE2K0c0"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "渡し船に乗ろう",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMD8c0C6Ji7HWzBBkYmM7y2iDA808pldwg7gyFb=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipNZd6qKyZ_WpQdORPEv4qaXneEiKWO5lyVqitjZ=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPgsZ3t0_7r7FRSo0zobiesmrEVZITfhigGjsy7=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipN_52KP6PNcsPyIo9v8832KcyWcNuC8lFKkJMw-=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPQsejw21O94u7yR7sJUAt0XuK9XxDhJ7f2wX5c=m18"
+                    ]
+                },
+                {
+                    "id": "four",
+                    "poster": "p/AF1QipMkwNOINTyA8azJXSGe3AjFsd2h-DI3ZLIV0NDf=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMD8c0C6Ji7HWzBBkYmM7y2iDA808pldwg7gyFb=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

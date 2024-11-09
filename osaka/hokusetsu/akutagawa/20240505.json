@@ -1,0 +1,30 @@
+{
+    "url": "?id=vr&name=akutagawa&date=20240505",
+    "youtube": "GHfvP9C2DQo",
+    "date": "2024.5.5 (Sun)",
+    "info": {
+        "title": "1000 Koinobori Festa",
+        "subTitle": "こいのぼりフェスタ1000 🎏",
+        "address": [
+            "大阪府高槻市 芥川",
+            "Akutagawa Takatsuki, Osaka"
+        ],
+        "readme": "vr/akutagawa/1000/README.md"
+    },
+    "directory": "https://archive.org/download/akutagawa/",
+    "cover": "akutagawa.thumbs/2024/1000_000237.jpg",
+    "video": [
+        {
+            "title": "第32回 こいのぼりフェスタ1000",
+            "src": "akutagawa/2024/1000.ia.mp4",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "こいのぼりフェスタ１０００",
+            "url": "https://koinoborifesta1000.jimdofree.com/",
+            "target": "_blank"
+        }
+    ]
+}

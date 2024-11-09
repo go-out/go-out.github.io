@@ -1,0 +1,91 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-ferry&name=kizugawa",
+    "title": "木津川（きづがわ）渡船場",
+    "description": "大正区船町（たいしょうくふなまち） ⇄ 住之江区平林北（すみのえくひらばやしきた）",
+    "info": {
+        "note": [
+            "新木津川大橋の補完として、木津川（大正区船町1丁目 ⇄ 住之江区平林北1丁目）を 渡船「松丸」「第二松丸」が 10 ~ 45分毎 運航",
+            "岸壁間 238メートル | 利用者（1日）平均170人",
+            "在運航している渡船の中で唯一「港湾局」が管理する、運行数・利用者が最も少ない渡船場",
+            "",
+            "<u>所在地</u>",
+            "船町側 <small>大阪市大正区船町1丁目1‐4</small>",
+            "平林北側 <small>大阪市住之江区平林北1丁目1</small>",
+            "",
+            "<u>最寄りのHELLO CYCLING</u>",
+            "<a href='https://maps.app.goo.gl/H4ngonKhXimYdKEM6' target='_blank'>サイクルベースあさひ北加賀屋店</a>"
+        ],
+        "links": [
+            {
+                "text": "大阪市：8.木津川（きづがわ）渡船場",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011261.html",
+                "target": "_blank"
+            },
+            {
+                "text": "木津川渡船場（大正区船町側） - Google マップ",
+                "url": "https://maps.app.goo.gl/gmzDvN83FqWbWcGN7",
+                "target": "_blank"
+            },
+            {
+                "text": "木津川渡船場（住之江区平林北側） - Google マップ",
+                "url": "https://maps.app.goo.gl/vWnebhdgzVLJyk9c6",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "JDQjc70a1T8"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "渡し船に乗ろう",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipM1UyqDm5khgY05qF0ds4-vUFt9-kWdm_ehBEhK=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMAG4m_6scBTCEh9YjZeKUQMKCDNWM-R7oVDCsn=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMAG4m_6scBTCEh9YjZeKUQMKCDNWM-R7oVDCsn=m18",
+                        "ggs/AF1QipNNKw4sehHxTTRJjF4I52kX48Dj5D91edWp5zDg=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMLjoIa7YkLcED9LpaxvVqZ9ixZgwLA4ZueiKeQ=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMLjoIa7YkLcED9LpaxvVqZ9ixZgwLA4ZueiKeQ=m18",
+                        "ggs/AF1QipPFfPQ5onQEWSjJiC1hXDxWQkpbe1uRvUQWTLl4=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipOtlEQKBBxl_vR2QhrMBvvTuUkw5IlN6fFWKrQy=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOtlEQKBBxl_vR2QhrMBvvTuUkw5IlN6fFWKrQy=m18",
+                        "ggs/AF1QipM1UyqDm5khgY05qF0ds4-vUFt9-kWdm_ehBEhK=m18",
+                        "ggs/AF1QipNHUWN2kindU6ao8LdHnGYO3GkXv-kdVZzLYV8X=m18"
+                    ]
+                },
+                {
+                    "id": "four",
+                    "poster": "p/AF1QipOs44Co4ZI_1tGUUX1a-j7l5oYY6LHNzLG2ry5V=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOs44Co4ZI_1tGUUX1a-j7l5oYY6LHNzLG2ry5V=m18",
+                        "ggs/AF1QipNWsekrLzoyoBz09PvdQkqhrud-KXwLeyH0FM6X=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

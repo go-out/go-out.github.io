@@ -1,0 +1,57 @@
+{
+    "lastModified": "2024-5-2",
+    "url": "?id=osaka-city24&area=hirano",
+    "map": {
+        "center": [
+            135.5547078589854,
+            34.626099153186885
+        ],
+        "bounds": [
+            [
+                135.54885347001897,
+                34.620578524201676
+            ],
+            [
+                135.56078148863008,
+                34.63209019832347
+            ]
+        ],
+        "zoom": 16
+    },
+    "jsonAll": [
+        [
+            "osaka/city24",
+            "hirano",
+            "map"
+        ]
+    ],
+    "title": "平野・平野郷",
+    "subtitle": "Hirano",
+    "description": "大阪府のほぼ中央 市内で最も人口の多い平野区の中央部",
+    "info": {
+        "note": [
+            "古い家々と多数の神社・仏閣、歴史ある町並みが多く残る地域"
+        ],
+        "links": [
+            {
+                "text": "大阪市 Osaka City 24区",
+                "url": "?id=osaka&area=city24",
+                "target": "_self"
+            }
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipMnBRRLiXVpyxCKpgnq1GvFCr3TLK7ws-mnlxW6=w575-h325-p-k-no",
+        "p/AF1QipM88HJ5YAeVU5_V4Lw0XpeV1n1lc9DM67cklaVo=w575-h325-p-k-no",
+        "p/AF1QipMH2zlxtYPSmNRThiP9JR2ufL3BXaXJQwlwWoBk=w575-h325-p-k-no",
+        "p/AF1QipMzEK9xNpdhNEcuEhq_z9oxl7OFP_kzUxzb6tZR=w575-h325-p-k-no",
+        "p/AF1QipO8z5fk7HwgJAXszsnCjKvDRPSowN0h2Ss-oHxO=w575-h325-p-k-no",
+        "p/AF1QipNNGeIqFcVPzKrUCd3DUmew4FmdBwg66tDcA4pX=w575-h325-p-k-no",
+        "p/AF1QipOJsWzewYFkZDX3FnfCQ1FfrYvg2S9uCe_vTiAc=w575-h325-p-k-no",
+        "p/AF1QipN_rj6EIXHuUkQpHyAigmxThWNCTWUlApnRHLlG=w575-h325-p-k-no",
+        "p/AF1QipNM5j7_ujG4-cJmhbU4-vX86aHeVkUbgzVIxL9W=w575-h325-p-k-no"
+    ]
+}

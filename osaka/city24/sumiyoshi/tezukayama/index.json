@@ -1,0 +1,86 @@
+{
+    "lastModified": "2024-1-11",
+    "url": "?id=osaka-city24&area=sumiyoshi-tezukayama",
+    "map": {
+        "center": [
+            135.49682232943638,
+            34.621565133427865
+        ],
+        "bounds": [
+            [
+                135.49030933917226,
+                34.61754647535504
+            ],
+            [
+                135.50689399001726,
+                34.62966256226153
+            ]
+        ],
+        "zoom": 14
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/sumiyoshi",
+            "tezukayama",
+            "map"
+        ]
+    ],
+    "title": "住吉区帝塚山東・帝塚山中・帝塚山西 ⇄ 阿倍野区帝塚山",
+    "subtitle": "Tezukayama, Osaka",
+    "description": "帝塚山古墳に由来する大阪を代表する高級住宅街",
+    "info": {
+        "note": [
+            "「大阪五低山」の一つ、帝塚山古墳の墳丘（標高は19.88m）",
+            "南海高野線「帝塚山」の西側すぐに古墳の一部分のみが現存しますが、普段は立入禁止",
+            "<small>※ 古墳内への立ち入りには、「財団法人住吉村常盤会」への申請が必要</small>",
+            "",
+            "上町台地（難波宮、大阪城・生國魂神社・四天王寺・住吉大社などがある、現在の大阪の基礎となる場所）の西端",
+            "<small>阿倍野区帝塚山、住吉区帝塚山東・帝塚山中・帝塚山西 に加え、阿倍野区北畠・万代なども、広義の帝塚山に含むことがある</small>"
+        ],
+        "links": [
+            {
+                "text": "帝塚山 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/帝塚山",
+                "target": "_blank"
+            },
+            {
+                "text": "帝塚山古墳 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/帝塚山古墳",
+                "target": "_blank"
+            },
+            {
+                "text": "一般財団法人 住吉村常盤会",
+                "url": "http://sumiyoshimuratokiwakai.or.jp/word/word03.html",
+                "target": "_blank"
+            },
+            {
+                "text": "帝塚山タワープラザ 写真一覧 / 安藤忠雄",
+                "url": "http://www.hetgallery.com/t_tower_photos.html",
+                "target": "_blank"
+            },
+            {
+                "text": "作品詳細 WILL帝塚山／第22回奨励賞 | 大阪都市景観建築賞",
+                "url": "http://osaka-machinami.jp/past_work/detail/4538/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "2vjZ4v8JFF8"
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipNv1UCpMTQQJhhh1Kq2g-vWB93PBMQKiizSshzC=w575-h325-p-k-no",
+        "p/AF1QipMMJlbTjfMMHoX2RpyrBe_RhEmWbndw1yOq2Unu=w575-h325-p-k-no",
+        "p/AF1QipPdR-z_1eHsvR-nAZYJU7s6r9qMJk6bydsL5Wi7=w575-h325-p-k-no",
+        "p/AF1QipODxHwnl4woRejNTtDuxhR1-cx_dljHCHfadAwX=w575-h325-p-k-no",
+        "p/AF1QipML8cqzcv_5WjTf-B1JhGtfzChgSBk_Fzz7Nztb=w575-h325-p-k-no",
+        "p/AF1QipNb42VrbYSG63RR2eNJlL7UbWqmA_RsLarC2MO6=w575-h325-p-k-no",
+        "p/AF1QipOR9QS982xBxPG9UqeIRa_yP96uGzdIpuJjfw_J=w575-h325-p-k-no",
+        "p/AF1QipM1moiGgfCcao_8-H5NEvbsbsiTeM9funX7_XaS=w575-h325-p-k-no",
+        "p/AF1QipMaB7Ujj3vvQJoEeWT5W_Mtaxwnt-9ch_bqsyWn=w575-h325-p-k-no",
+        "p/AF1QipMnOIoEycrcuCF6_UxFDktjhyN8vxsvC6u6Akse=w575-h325-p-k-no"
+    ]
+}

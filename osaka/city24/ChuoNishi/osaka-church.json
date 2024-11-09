@@ -1,0 +1,69 @@
+{
+    "lastModified": "2024-6-23",
+    "url": "?id=osaka-city24&area=ChuoNishi&name=osaka-church",
+    "title": "日本基督教団 大阪教会",
+    "description": "Naniwa Church United Church of Christ in Japan",
+    "info": {
+        "note": [
+            "日本基督教団に所属 伝統的なスタイルの礼拝を守り、洗礼と聖餐を大切にしているプロテスタント教会",
+            "国の登録有形文化財 生きた建築ミュージアム・大阪セレクション 大阪府指定有形文化財",
+            "",
+            "<u>木曜日 12時15分～12時45分</u>",
+            "<strong>​正午礼拝</strong><br>パイプオルガンの音色とともに、心休まるお昼のひと時",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「肥後橋」8番出口を出て 西へ5分"
+        ],
+        "links": [
+            {
+                "text": "日本基督教団 大阪教会 | 大阪市西区 | Osaka",
+                "url": "https://www.osaka-church.net/",
+                "target": "_blank"
+            },
+            {
+                "text": "日本基督教団大阪教会 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/日本基督教団大阪教会",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/xh3dkqNj18TMmJ2T8",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": 2024,
+                "month": 6,
+                "day": 23,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipO103qMKrBZ09iCssI9o3o9eXXqhR9MwCP0P9gC=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMcqsUCmoyMkepgQjNXKR1uZsdGYUDwFt5ui4if=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipO103qMKrBZ09iCssI9o3o9eXXqhR9MwCP0P9gC=m18",
+                        "ggs/AF1QipMcqsUCmoyMkepgQjNXKR1uZsdGYUDwFt5ui4if=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipOGH6U8PDuM5l6sYzZyRqExHwpmvjn6QIx6gbQw=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipO5ErvvXo-NhEc3czHfoGMREbP6l5C1hp4ijyQr=m18",
+                        "ggs/AF1QipOGH6U8PDuM5l6sYzZyRqExHwpmvjn6QIx6gbQw=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

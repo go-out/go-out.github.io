@@ -1,0 +1,59 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=MinatoTaisho-tenpozan",
+    "map": {
+        "center": [
+            135.43325847628495,
+            34.65376622383826
+        ],
+        "bounds": [
+            [
+                135.4251200574601,
+                34.64896863059211
+            ],
+            [
+                135.44021734187152,
+                34.66203199102232
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka",
+            "ferry",
+            "index"
+        ]
+    ],
+    "title": "天保山",
+    "subtitle": "Tempozan Harbor Village",
+    "description": "海遊館・大観覧車などがあるベイエリアを代表する観光スポット",
+    "info": {
+        "note": [
+            "「大阪五低山」の一つ、日本一低い山として知られる築山（標高4.53m）",
+            "周辺は、海遊館・大観覧車・遊覧船などがあるベイエリアを代表する観光スポット"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

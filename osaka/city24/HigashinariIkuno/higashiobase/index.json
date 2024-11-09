@@ -1,0 +1,57 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=HigashinariIkuno-higashiobase",
+    "map": {
+        "center": [
+            135.53270298496466,
+            34.666231437770335
+        ],
+        "bounds": [
+            [
+                135.5281704398783,
+                34.663982658388406
+            ],
+            [
+                135.53501197041555,
+                34.668301751797486
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/HigashinariIkuno",
+            "higashiobase",
+            "map"
+        ]
+    ],
+    "title": "東小橋（鶴橋駅周辺）",
+    "subtitle": "Higashi-obasa, Higashinari",
+    "description": "A Select Area 🌍 エリアを選択",
+    "info": {
+        "note": null,
+        "markdown": null,
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

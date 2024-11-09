@@ -1,0 +1,332 @@
+li {
+    list-style: inside none;
+}
+
+#calender #spot li,
+#calender #date li.link::after {
+    background: #fff;
+}
+
+#calender {
+    background: lemonchiffon;
+}
+
+#calender details[open] summary,
+#calender summary:hover {
+    background: skyblue;
+}
+
+#calender #every li {
+    border-bottom: 0.1rem skyblue solid;
+}
+
+#calender ul li h3 strong,
+#calender summary {
+    color: skyblue;
+    text-decoration: none;
+}
+
+#calender #date li small strong,
+#calender #date li.link:hover strong,
+#calender #spot h3::after,
+#calender details[open] summary,
+#calender summary:hover {
+    color: lemonchiffon;
+}
+
+#calender #date li small strong,
+#calender #date li.link:hover strong,
+#calender #spot h3::after {
+    -webkit-text-stroke: 1px skyblue;
+}
+
+#calender #spot li {
+    flex-shrink: 0;
+    border: solid 0.1rem #111;
+    border-radius: 1rem;
+    width: 17.5rem;
+    height: 17.5rem;
+}
+
+#calender #date,
+#calender #spot li h4,
+#calender #spot li time,
+#calender #spot li small {
+    padding: 0;
+}
+
+#calender #spot {
+    padding: 1rem;
+}
+
+#calender #date li,
+#calender #spot li,
+#calender #log,
+#calender #every {
+    padding: 0.5rem;
+}
+
+#calender ul li ruby,
+#calender #every li h4,
+#calender #every li time,
+#calender #every li small,
+#calender #every li i {
+    padding: 0.25rem;
+}
+
+#calender summary {
+    height: 3rem;
+    padding: 0.5rem 0.75rem;
+}
+
+#calender ul li,
+#calender #spot,
+#calender #every li h4,
+#calender #every li p {
+    margin: 0;
+}
+
+#calender #spot li h4,
+#calender #spot li time,
+#calender #spot li small {
+    margin: 0.5rem;
+}
+
+#calender #date {
+    margin: 1rem 0;
+}
+
+#calender ul li ruby strong,
+#calender summary small,
+#calender #spot li time,
+#calender #spot li small {
+    display: block;
+}
+
+#calender summary b {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+#calender summary small {
+    float: right;
+}
+
+#calender ul li ruby strong,
+#calender summary small {
+    font-weight: 900;
+    line-height: 175%;
+    transform: scale(1, 0.75);
+}
+
+#calender ul li ruby b,
+#calender #spot h3::after,
+#calender #every li h4,
+#calender summary b {
+    transform: scale(1, 1.23);
+    text-align-last: justify;
+    font-weight: bolder;
+}
+
+#calender #spot h3,
+#calender #spot li h4,
+#calender #spot li time,
+#calender #every li small {
+    line-height: 125%;
+    transform: scale(1.25, 1);
+    writing-mode: vertical-rl;
+}
+
+main,
+#calender,
+#calender ul,
+#calender #date li {
+    position: relative;
+}
+
+#calender #spot h3::after {
+    position: absolute;
+}
+
+#calender #spot h3 {
+    position: sticky;
+}
+
+#calender #spot h3 {
+    left: 0;
+}
+
+#calender #spot h3 ruby rt {
+    text-align: left;
+}
+
+#calender ul li h3 {
+    text-align: center;
+}
+
+#calender #spot h3::after {
+    content: "→";
+    bottom: 1rem;
+    left: 0;
+    writing-mode: horizontal-tb;
+}
+
+#calender #spot h3::after {
+    font-size: 250%;
+}
+
+#calender ul li i,
+#calender ul li ruby,
+#calender #spot li h4,
+#calender #spot li small b {
+    font-size: 150%;
+}
+
+#calender ul li h3 strong,
+#calender summary,
+article section h2 strong,
+article section h2 small b,
+article h3 {
+    font-size: 125%;
+}
+
+#calender #every li h4 {
+    font-size: 111%;
+}
+
+article section time {
+    font-size: 90%;
+}
+
+#calender #every li i {
+    font-size: 75%;
+}
+
+article section h2 small {
+    font-size: 55%;
+}
+
+#calender #spot li p,
+#calender #spot li small {
+    float: left;
+}
+
+#calender #spot li h4,
+#calender #spot li time {
+    float: right;
+}
+
+#calender #every,
+#calender #every li {
+    place-items: end;
+}
+
+article,
+article section h3,
+#calender ul,
+#calender #date li,
+#calender #every li {
+    display: flex;
+}
+
+#calender #date,
+#calender #date li,
+#calender #log,
+#calender #every {
+    flex-wrap: wrap;
+}
+
+article section h3 {
+    flex-wrap: wrap-reverse;
+}
+
+#calender #spot,
+article section h3 {
+    justify-content: space-between;
+}
+
+#calender #date,
+#calender #date li {
+    justify-content: space-around;
+}
+
+#calender #every li p {
+    order: -1;
+}
+
+#calender #spot {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#calender #date,
+#calender #spot {
+    gap: 1rem;
+}
+
+article section h3,
+#calender #date li,
+#calender #every li {
+    gap: 0.5rem;
+}
+
+#calender #log,
+#calender #every {
+    gap: 0.5rem 1rem;
+}
+
+#collection h3,
+#collection button,
+#calender ul li h3,
+#calender ul li ruby,
+#calender {
+    width: 100%;
+}
+
+@media (orientation: landscape) {
+
+    #calender #date li {
+        width: calc(100% / 2 - 1rem);
+        max-width: 30rem;
+    }
+}
+
+@media (orientation: portrait) {
+
+    #calender #date li,
+    #calender #every li {
+        width: 100%;
+    }
+
+    #calender #every li h4 {
+        min-width: 25%;
+        max-width: 45%;
+    }
+
+    #calender #every li p {
+        width: 25%;
+    }
+
+    #calender #every li small {
+        margin-left: auto;
+    }
+
+    #collection button {
+        margin-top: 0.5rem;
+    }
+}
+
+#calender #date li.link::after {
+    content: "View The Collection";
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 75%;
+    width: 4rem;
+    height: 3.33rem;
+    transform: scale(0.95, 1.25) rotate(15deg);
+}

@@ -1,0 +1,71 @@
+{
+    "lastModified": "2024-5-16",
+    "url": "?id=osaka-city24&area=MiyakojimaAsahi-sakuranomiya",
+    "map": {
+        "center": [
+            135.51892225038995,
+            34.705253629139634
+        ],
+        "bounds": [
+            [
+                135.51290450152533,
+                34.69016026443214
+            ],
+            [
+                135.5273319302815,
+                34.72965161322068
+            ]
+        ],
+        "zoom": 5.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/MiyakojimaAsahi",
+            "sakuranomiya",
+            "map"
+        ]
+    ],
+    "title": "桜ノ宮（大川）リバーサイドパーク",
+    "subtitle": "Sakuranomiya (Okawa) Riverside",
+    "description": "大阪を代表する桜の名所の一つ",
+    "info": {
+        "note": [
+            "「大川、または天満川（てんまがわ）」の流れに沿ったプロムナード",
+            "淀川の毛馬水門（毛馬閘門）で南へ分岐する旧淀川本流の毛馬水門から中之島東端まで、全長4.2kmのリバーサイドパーク",
+            "",
+            "<a href='spot/?id=osaka-city24&area=MiyakojimaAsahi-sakuranomiya&name=spot'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "links": [
+            {
+                "text": "大阪市花と緑の情報サイト : 毛馬桜之宮公園",
+                "url": "https://www.osakapark.osgf.or.jp/kema_sakuranomiya/",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪府／大阪ふれあいの水辺",
+                "url": "https://www.pref.osaka.lg.jp/nishiosaka/shore/shore-oriver.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "HH6KdIDFh1c",
+            "_Er9sHVoQF4"
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipNZVGJjDr4aYg311mNjkD4CinqVToa_lIj7MA8w=w575-h325-p-k-no",
+        "p/AF1QipPkRwyFsOKYUcMoWySHEL59q-tX2QTFbp7WeyP2=w575-h325-p-k-no",
+        "p/AF1QipMuwZJOeRH8Qt-C4foC_FfvfH_7XhKY-l1nBIFd=w575-h325-p-k-no",
+        "p/AF1QipO3vkFRkZ3r_A6D_vitnb9WF3SQ6rcLBFskl7n1=w575-h325-p-k-no",
+        "p/AF1QipMcl-9MOMJKDptHXGrh57cDWr-MBPXxLwM4mmY9=w575-h325-p-k-no",
+        "p/AF1QipO4lKz-s4XaiAhLWkm0ZaHF5w8JtEbNcOUD5Coc=w575-h325-p-k-no",
+        "p/AF1QipOgP4Z12wEbtMsNnX4hTl-49YHMQHbjEDYHi1iM=w575-h325-p-k-no",
+        "p/AF1QipN14ISlu60Ucba3OU6HiKosbeeRBdVMexZGyYL-=w575-h325-p-k-no",
+        "p/AF1QipMsHFUnTmq8QDrt2W7-diJSqa7Ielg8W3NAjf69=w575-h325-p-k-no",
+        "p/AF1QipPZAiVHLhPlLohI-Dky6WOpqRMyhFc95nLIwf7k=w575-h325-p-k-no",
+        "p/AF1QipMaHbkIDmN0fG9ulS6U8ohFJnxPtDxwT_41e54_=w575-h325-p-k-no"
+    ]
+}

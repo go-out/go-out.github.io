@@ -1,0 +1,66 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=yodogawa-hyodo",
+    "map": {
+        "center": [
+            135.52922581955266,
+            34.74085191047763
+        ],
+        "bounds": [
+            [
+                135.50323620621117,
+                34.7190514625908
+            ],
+            [
+                135.5636948683911,
+                34.760323324974735
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/yodogawa",
+            "hyodo",
+            "map"
+        ]
+    ],
+    "title": "こぶし通り",
+    "subtitle": "Kobushi Road, Higashi Yodogawa",
+    "description": "ランドマーク・お気に入りの場所",
+    "info": {
+        "note": null,
+        "links": [
+            {
+                "text": "区の花｜大阪市コミュニティ協会",
+                "url": "https://www.osakacommunity.jp/higashiyodogawa/machi_flower.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市東淀川区： 区の花・キャラクター",
+                "url": "https://www.city.osaka.lg.jp/higashiyodogawa/page/0000000428.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市東淀川区：区のスポット",
+                "url": "https://www.city.osaka.lg.jp/higashiyodogawa/page/0000024137.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipP0Pp3lxtTzGSJON5g0KEEXjX-I5FfdzjN-eLam=w575-h325-p-k-no",
+        "p/AF1QipOM_jv-K4AhbdtuX8oB3PIl0IlnFCNUtHLmDt3z=w575-h325-p-k-no",
+        "p/AF1QipP2IBC86lNG7CnvhIjfzz7gIGU-ZALO2YcHw64r=w575-h325-p-k-no",
+        "p/AF1QipPsnADdSpMXtW3bSAYgbb1evYROf3MSCSggbBC8=w575-h325-p-k-no",
+        "p/AF1QipOaPUZN1mVaNra1Qt4zTzEvpcvo9ZaDEeCRI016=w575-h325-p-k-no",
+        "p/AF1QipPS-TRYaMwx0HOzVfbKrpyH1bHK3HHi0rNBgBLM=w575-h325-p-k-no",
+        "p/AF1QipPTHGUXkBP6N7CskfvKkeCCip82oUGmoNyLoixc=w575-h325-p-k-no",
+        "p/AF1QipMvT5Koyxoql6NhBNqCE0nw0CcHq7T2DAu3LDHv=w575-h325-p-k-no",
+        "p/AF1QipP60hOvN-2nSTgREeftlF7_izprguSGP9vLWo8U=w575-h325-p-k-no"
+    ]
+}

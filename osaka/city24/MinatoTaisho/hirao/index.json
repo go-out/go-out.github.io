@@ -1,0 +1,73 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=MinatoTaisho-hirao",
+    "map": {
+        "center": [
+            135.47267405968358,
+            34.639780543989126
+        ],
+        "bounds": [
+            [
+                135.4634991487154,
+                34.63208060488893
+            ],
+            [
+                135.4790832403271,
+                34.651197244018775
+            ]
+        ],
+        "zoom": 15.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/MinatoTaisho",
+            "hirao",
+            "map"
+        ]
+    ],
+    "title": "大正区 平尾",
+    "subtitle": "Hirao Taisho",
+    "description": "大阪市のリトル沖縄",
+    "info": {
+        "note": [
+            "大正区の中でも沖縄の雰囲気が特に色濃い地域"
+        ],
+        "links": [
+            {
+                "text": "大阪沖縄県人会連合会・一般財団法人大阪沖縄協会 | Facebook",
+                "url": "https://www.osakacommunity.jp/taisho/renntasaikuru.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪うちなーんちゅライフ | 大阪の沖縄情報発信 ローカルガイド",
+                "url": "https://osaka-uchinanchu.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "関西沖縄文庫 | 大正区から沖縄をみつめる！琉球人が交流できる沖縄空間★",
+                "url": "http://okinawabunko.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "レンタサイクル｜大阪市コミュニティ協会 大正区支部協議会",
+                "url": "https://www.osakacommunity.jp/taisho/renntasaikuru.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipMsEKJfIwU4YnxeOTUA1dE8zFv4N50mSto8p16R=w575-h325-p-k-no",
+        "p/AF1QipNr4DFCTqGfh0ierdR05DTQtPQgyjoOvP0z0byZ=w575-h325-p-k-no",
+        "p/AF1QipOfXOj35rInNgOAp1zz11dIEjRIfW98GsQjY8lU=w575-h325-p-k-no",
+        "p/AF1QipMSafQ41AMawwo3mL0QXCxJXt8TQKDdotoXCYV3=w575-h325-p-k-no",
+        "p/AF1QipPB1YtwOTJKxWeDtRY02gsvraVu1G61KXi3Vvs2=w575-h325-p-k-no",
+        "p/AF1QipPWAHbrNtaAGyxSljwEU23Z0gSlvEubbS6npijV=w575-h325-p-k-no",
+        "p/AF1QipP0NoX5q9mONMJ3x58sUwIkbPkenZcWGqS4fcAb=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

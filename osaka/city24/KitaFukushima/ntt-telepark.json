@@ -1,0 +1,58 @@
+{
+    "lastModified": "2024-5-17",
+    "url": "?id=osaka-city24&area=KitaFukushima&name=ntt-telepark",
+    "title": "NTTテレパーク堂島",
+    "description": "NTT Telepark Dojima ☏ 大阪市北区堂島３丁目",
+    "info": {
+        "note": [
+            "4つのNTTグループビルで構成された大阪のNTTビル街"
+        ],
+        "links": [
+            {
+                "text": "NTTテレパーク堂島 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/NTTテレパーク堂島",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/a6wNv4P17C41FDim7",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "大阪 堂島のNTTビル街",
+                "description": null,
+                "year": 2024,
+                "month": 5,
+                "day": 17,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipPP2nabYi80XPNdzyVS2ZhuY9VIJRL-R5nar5_g=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ntt-park1",
+                    "poster": "p/AF1QipOMvERU-huZRAGXGiYl_3Pq3kofWsw6q30h7q2t=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipOMvERU-huZRAGXGiYl_3Pq3kofWsw6q30h7q2t=m18",
+                        "ggms/AF1QipNrs0U3o1jmG4blPkikWY6O8w8mpM_41yS5hawM=m18"
+                    ]
+                },
+                {
+                    "id": "ntt-park2",
+                    "poster": "p/AF1QipMqm-ORxey-Bk7HmnSzH6YKoiObEFk45os1dzp9=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipPP2nabYi80XPNdzyVS2ZhuY9VIJRL-R5nar5_g=m18",
+                        "ggms/AF1QipMqm-ORxey-Bk7HmnSzH6YKoiObEFk45os1dzp9=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

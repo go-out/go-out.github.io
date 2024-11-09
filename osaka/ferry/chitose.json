@@ -1,0 +1,73 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-ferry&name=chitose",
+    "title": "千歳（ちとせ）渡船場",
+    "description": "大正区鶴町（たいしょうくつるまち）⇄ 同区北恩加島（きたおかじま）",
+    "info": {
+        "note": [
+            "千歳橋の補完として、大正内港（大正区鶴町4丁目 ⇄ 同区北恩加島2丁目）を 渡船「はまかぜ」が 10 ~ 20分毎 運航",
+            "岸壁間 371メートル | 利用者（1日）平均512人",
+            "",
+            "<u>所在地</u>",
+            "鶴町側 <small>大阪市大正区鶴町4丁目1‐69</small>",
+            "北恩加島側 <small>大阪市大正区北恩加島2丁目5‐25</small>"
+        ],
+        "links": [
+            {
+                "text": "大阪市：3.千歳（ちとせ）渡船場",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011253.html",
+                "target": "_blank"
+            },
+            {
+                "text": "千歳渡船場（大正区北恩加島側） - Google マップ",
+                "url": "https://maps.app.goo.gl/pVqVHDeuBcQtLn3f6",
+                "target": "_blank"
+            },
+            {
+                "text": "千歳渡船場（大正区鶴町側） - Google マップ",
+                "url": "https://maps.app.goo.gl/JCmbQqnWYC1zKBNDA",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "渡し船に乗ろう",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOTFxtvjjTf-8hsORbCCFYL3ZMwLuHnoewilXKL=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPDDjfQ24KzXwAHP0INel8NNQ_B0e63Fv1EJTEp=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPDDjfQ24KzXwAHP0INel8NNQ_B0e63Fv1EJTEp=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipOr5L3_vasOreJEUPFep1xK6cUn7oGlwIW9XmP9=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipN7T31NtfNuupuEXrss2krZZWj4rhha1AeAPzxH=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipPgH96ObaW87Bt7G800j8szi55R3LF_gNKMexfZ=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPgH96ObaW87Bt7G800j8szi55R3LF_gNKMexfZ=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

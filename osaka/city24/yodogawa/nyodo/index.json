@@ -1,0 +1,59 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=yodogawa-nyodo",
+    "map": {
+        "center": [
+            135.45159142666427,
+            34.70645539527047
+        ],
+        "bounds": [
+            [
+                135.41594382680273,
+                34.68468389766336
+            ],
+            [
+                135.47101157837267,
+                34.724220635589674
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/yodogawa",
+            "nyodo",
+            "map"
+        ]
+    ],
+    "title": "大野川緑陰道路",
+    "subtitle": "Oono-gawa Ryokuin Road",
+    "description": "ランドマーク・お気に入りの場所",
+    "info": {
+        "note": [
+            "区の西側は中島工業団地 東側は住宅地",
+            "1年のうちで最も花の少ない晩秋から冬季にかけて、区の花「サザンカ」が咲き誇る"
+        ],
+        "links": [
+            {
+                "text": "大阪市西淀川区：西淀川区の名所",
+                "url": "https://www.city.osaka.lg.jp/nishiyodogawa/page/0000001039.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "lastModified": "2024-5-11",
+    "url": "?id=osaka&area=hokusetsu-toyonaka&name=itami-airport",
+    "title": "千里川土手 Bank of Senrigawa River",
+    "description": "伊丹空港へ着陸する飛行機が間近に見える「飛行機撮影の聖地」",
+    "info": {
+        "note": [
+            "伊丹空港へ着陸する飛行機が間近に見える「飛行機撮影の聖地」",
+            "",
+            "<u>アクセス</u><br>阪急宝塚線「曽根」から徒歩約25分",
+            "<u>レンタサイクル</u><br><a href='https://maps.app.goo.gl/acmbCYo1ti6oXo6x6' target='_blank'>阪急曽根駐輪センター</a> <small>営業時間 7:00～21:00 | 普通車 1日320円 / 電動車 1日420円</small>"
+        ],
+        "links": [
+            {
+                "text": "飛行機が間近に見える魅力スポット「千里川土手」　豊中市",
+                "url": "https://www.city.toyonaka.osaka.jp/machi/kukou/kuko/access.html",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "Db-TYFr5BO8"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "伊丹空港 飛行機撮影の聖地",
+                "year": 2024,
+                "month": 5,
+                "day": 11
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOiCXZvlush22KD0OdFeqD6LaK33dU12_HzZScy=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNLlosJ43linBrxf4oKUwphc4_g1VI5mtIX8i9X=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipNUznjIeEjhBiMfo--eP2DPVbsL5yHp1nd7ZO5o=m18",
+                        "ggms/AF1QipNLlosJ43linBrxf4oKUwphc4_g1VI5mtIX8i9X=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPhmRjMTAIo7vBZqi6h_5y4hbNcgqr9qaOKN0wE=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipPhmRjMTAIo7vBZqi6h_5y4hbNcgqr9qaOKN0wE=m18",
+                        "ggms/AF1QipOiCXZvlush22KD0OdFeqD6LaK33dU12_HzZScy=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipOyIVnEiPfAIsxM1jTjW02Q32yEOulqcYt-rLG3=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipOyIVnEiPfAIsxM1jTjW02Q32yEOulqcYt-rLG3=m18",
+                        "ggms/AF1QipNZbmgavaoyHPDPVkuvUTaIL_jL-CkxYtDgfBpj=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

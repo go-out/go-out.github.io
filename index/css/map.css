@@ -1,0 +1,291 @@
+#links button {
+    font-size: 222%;
+}
+
+#info details summary,
+#info #area ul li label ruby,
+input[type="radio"]:checked+label {
+    font-size: 125%;
+}
+
+#area button b {
+    font-size: 111%;
+}
+
+input[type="checkbox"]:checked,
+#links u {
+    font-size: 90%;
+}
+
+#info #area ul li label small,
+.lr rt {
+    font-size: 75%;
+}
+
+.lr {
+    float: right;
+}
+
+.lr {
+    writing-mode: vertical-lr;
+}
+
+main ul,
+main ul li,
+#info nav ul,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+#info #area ul li {
+    padding: 0.5rem;
+}
+
+#info details summary {
+    padding: 0.25rem 0.5rem;
+}
+
+article,
+#readme {
+    padding: 0.5rem;
+}
+
+#info #area ruby:not(.lr),
+#info #area ul li label small,
+input[type="checkbox"]+label,
+#readme a,
+#links a,
+#links u,
+dialog div {
+    padding: 0.25rem;
+}
+
+#info #sort {
+    margin: 0.5rem 0;
+}
+
+#links {
+    padding: 1rem 0 0;
+}
+
+#links p {
+    margin: 0 0 0.5rem;
+}
+
+#info details,
+#map {
+    border-radius: 0.5rem;
+}
+
+input[type="checkbox"]+label,
+#readme a,
+#links a {
+    border-radius: 0.25rem;
+}
+
+#readme a,
+#links a {
+    text-decoration: none;
+}
+
+body,
+.mapboxgl-marker.goout,
+#info details[open],
+input[type="checkbox"]+label {
+    background: lemonchiffon;
+}
+
+#info details[open],
+input[type="checkbox"]+label,
+#links a {
+    color: lightskyblue;
+}
+
+#info details,
+input[type="checkbox"]:checked+label,
+#readme a,
+#links a:hover {
+    background: lightskyblue;
+    color: lemonchiffon;
+}
+
+input[type="checkbox"]+label {
+    border: solid 0.123rem lightskyblue;
+}
+
+#readme a:hover {
+    color: lightskyblue;
+    text-shadow: 0.1rem 0.1rem 0.1rem lemonchiffon,
+        0.2rem 0.2rem 0.2rem lemonchiffon,
+        0.3rem 0.3rem 0.3rem lemonchiffon;
+}
+
+.lr {
+    color: lemonchiffon;
+    text-shadow: 0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+#area {
+    background: #fff;
+    color: #000;
+}
+
+#info nav label:hover {
+    cursor: pointer;
+}
+
+#info nav input {
+    display: none;
+}
+
+#info #area ruby.lr {
+    display: grid;
+}
+
+main ul,
+#info #sort,
+#info #area ul li label,
+#links,
+#links p {
+    display: flex;
+}
+
+#links p {
+    flex-flow: column;
+}
+
+main ul,
+#info nav,
+#info #area ul li label {
+    flex-wrap: wrap;
+}
+
+#links {
+    flex-wrap: wrap-reverse;
+}
+
+#info nav {
+    gap: 0.25rem;
+}
+
+#info #area ul li label {
+    place-items: end;
+}
+
+main ul,
+#info nav ul {
+    list-style: inside none;
+}
+
+#info #area ul li label {
+    line-height: 100%;
+    width: calc(100% - 3.5rem);
+    margin-bottom: 0.5rem;
+}
+
+main ul li {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main ul li {
+    background-size: cover;
+}
+
+@media (orientation: landscape) {
+    main {
+        min-height: 56.25vw;
+    }
+
+    main ul li {
+        width: calc(100% / 3);
+        aspect-ratio: 16 / 9;
+    }
+
+    article {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        position: relative;
+        min-height: 100dvh;
+    }
+
+    #info,
+    #links {
+        grid-column: 1 / 2;
+    }
+
+    #map {
+        grid-column: 2 / 3;
+    }
+
+    #info {
+        padding-right: 0.5rem;
+    }
+
+    #links a {
+        margin: 0 0.5rem 0 0;
+    }
+
+    #map {
+        float: right;
+        position: sticky;
+        top: 0.5rem;
+        right: 0.5rem;
+        max-height: calc(100dvh - 1rem);
+    }
+
+    #player {
+        height: calc(50vw * 0.545);
+    }
+}
+
+@media (orientation: portrait) {
+    main {
+        min-height: 100vw;
+    }
+
+    main ul li {
+        width: calc(100% / 3);
+        aspect-ratio: 1 / 1.5;
+    }
+
+    #links {
+        justify-content: end;
+    }
+
+    #info,
+    #map,
+    #links {
+        width: 100%;
+    }
+
+    #map {
+        max-height: 111dvw;
+    }
+
+    #info {
+        margin-bottom: 0.5rem;
+    }
+
+    #player {
+        height: calc(100vw * 0.544);
+    }
+}
+
+main,
+#links p {
+    width: 100%;
+}
+
+main h1 {
+    width: calc(100% - 1rem);
+}
+
+#player {
+    display: none;
+    margin: 0.5rem 0;
+    width: 100%;
+}

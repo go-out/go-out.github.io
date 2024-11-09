@@ -1,0 +1,62 @@
+{
+    "lastModified": "2024-8-18",
+    "url": "?id=osaka-city24&area=hirano&name=uriwari",
+    "title": "瓜破霊園 Uriwari Cemetery",
+    "description": "四季折々の植樹がなされた広々とした公園霊園（8万平方メートル）",
+    "info": {
+        "note": [
+            "四季折々の植樹がなされた広々とした公園霊園（8万平方メートル）",
+            "園内には瓜破遺跡や花塚山古墳があり、歴史の散歩コースにもなっている（南側には「区民わた畑」が隣接）",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「喜連瓜破」「出戸」から徒歩約15分"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/km62b6MYQPGSMXqi7",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "大阪市立瓜破斎場",
+                "description": null,
+                "year": 2024,
+                "month": 8,
+                "day": 18,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipP9iBZgGMVIhXrAdyuFDx2MTwAlRhbNut3yWfcy=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOmjmfCoZaNGdIfSQj1pKMcXXAg3KmAidH9Zw4R=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOmjmfCoZaNGdIfSQj1pKMcXXAg3KmAidH9Zw4R=m18",
+                        "ggs/AF1QipNChvt0t2qXGSy0bNRLoB8Fmy85aHcv0nSVrY1i=m18",
+                        "ggs/AF1QipMxHRDMCnCTgKDDVHck8FMZvXTjMUQ4tUIOYc_q=m18",
+                        "ggs/AF1QipM4tAooxXEd9IZeBoEDC5zDBmU985Dp-z3gw1It=m18",
+                        "ggs/AF1QipNnGsMby6Fe_k8EGp3GA-kFcuZf6Zz49oUPGMmf=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipO2zHUXj6UlkFQgLbEVykBh8BNR8bq4EA3kNLHd=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPFg4m9gLSVtV_Aa1tOiNT3x9hg4c8AfvxN61lq=m18",
+                        "ggs/AF1QipO2zHUXj6UlkFQgLbEVykBh8BNR8bq4EA3kNLHd=m18",
+                        "ggs/AF1QipP3fTOKCSKxYgSD5sDMC6rbn2o6GguZ1MLwRjqT=m18",
+                        "ggs/AF1QipP9iBZgGMVIhXrAdyuFDx2MTwAlRhbNut3yWfcy=m18",
+                        "ggs/AF1QipPyAGaJ18CMMNiSY3Cj_MCnwCVNoW0vYVfOcgPz=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

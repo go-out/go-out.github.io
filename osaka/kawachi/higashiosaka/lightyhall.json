@@ -1,0 +1,64 @@
+{
+    "lastModified": "2024-7-21",
+    "url": "?id=osaka&area=kawachi-higashiosaka&name=lightyhall",
+    "title": "東大阪市 Higashiosaka",
+    "description": "Osaka Prefectural Central Library",
+    "info": {
+        "note": [
+            "東大阪市（荒本）にある大阪府立図書館のうちの1館",
+            "公立図書館単館では、日本一の蔵書数の総合図書館",
+            "",
+            "閲覧室は1~4階（3階の一部は屋上庭園）",
+            "ホール（ライティホール）や会議室を備え、府民に文化の場を提供する図書館",
+            "（建物は、第17回大阪まちなみ賞 奨励賞・日本図書館協会建築賞を受賞）",
+            "",
+            "<b>開館時間</b><br>火曜日～金曜日:午前9時～午後7時<br>土・日、祝・休日:午前9時～午後5時",
+            "",
+            "<u>アクセス</u><br>近鉄けいはんな線「荒本」北西へ約400ｍ",
+            "",
+            "<a href='https://www.library.pref.osaka.jp/site/central/' target='_blank'>中央図書館 | 来館案内・施設案内 | 大阪府立図書館</a>",
+            "<a href='https://www.lighty-hall.com/' target='_blank'>大阪府立中央図書館ホール｜ライティホール</a>"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/qzLS243KS6meHRij9",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "市役所展望ロビー と<br>大阪府立中央図書館",
+                "year": 2024,
+                "month": 7,
+                "day": 21
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipPym3B6P5VsNudbU5R180-SSWe_OyV9OE_n2yhh=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPxt94eUNq3kL-SZ5LB1hZpzpAGQhggOxnZVx6H=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipPxt94eUNq3kL-SZ5LB1hZpzpAGQhggOxnZVx6H=m18",
+                        "ggms/AF1QipMhB2_5mrDTsAKfFn6n-JwlnULQEco-BVejt4Yf=m18",
+                        "ggms/AF1QipOMa1Qu0h1EcZe_b4sZ3Q_8ZO3RyqZNAgsDb2WS=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPlM-iThvf-tbzrWj82n4SKaajGosg8-2ZaSJ6s=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipNCosTrn1a29ebKCGoviegjhV78SGpzl7_0Laz6=m18",
+                        "ggms/AF1QipPlM-iThvf-tbzrWj82n4SKaajGosg8-2ZaSJ6s=m18",
+                        "ggms/AF1QipPym3B6P5VsNudbU5R180-SSWe_OyV9OE_n2yhh=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

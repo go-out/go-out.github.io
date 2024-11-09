@@ -1,0 +1,68 @@
+{
+    "lastModified": "2024-4-4",
+    "url": "?id=osaka&area=kawachi&name=migukurumitama",
+    "title": "美具久留御魂神社 Migukurumitama Jinja",
+    "description": "「眞名井ヶ原」と称する山そのものを御神体とする自然そのままの緑豊かなお宮",
+    "info": {
+        "note": [
+            "主祭神の「みぐくるみたま」は、「水泳御魂（みくくるみたま）」に由来する水の神",
+            "本殿を囲む形で設けられた御神体山頂への山道「一ノ宮参拝道」には、古代の行政区分畿内（山城・大和・河内・和泉・摂津）七道（西海道・山陽道・山陰道・南海道・東海道・東山道・北陸道）の一ノ宮をお祀りする八本の御神木があり、御神体山参道を一周することで全国の一ノ宮参拝が出来る",
+            "<small>眞名井ヶ原を含む境内全域は、大阪みどりの百選また大阪府自然環境保全地域に指定されている</small>",
+            "",
+            "<b>春祭</b><br><u>四月十五日</u><br>芸能奉納 オカリナ演奏 言祝(ことほぎ)と舞の共演",
+            "<b>秋祭</b><br><u>十月第三土と前後金・日曜日</u><br>子どもみこしのお渡り、大小あわせて12台前後の地車（だんじり）の宮入りが行われる",
+            "",
+            "<u>アクセス</u><br>近鉄長野線「富田林」から徒歩約30分（自転車で約10分）<br>近鉄長野線「喜志」から徒歩約15分"
+        ],
+        "links": [
+            {
+                "text": "美具久留御魂神社公式ホームページ",
+                "url": "https://www.migukurumitama.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "美具久留御魂神社 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/美具久留御魂神社",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "KDmLabOMiF8"
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "眞名井ヶ原",
+                "description": null,
+                "year": 2024,
+                "month": 4,
+                "day": 4,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://archive.org/download/migukurumitama/",
+            "cover": "migukurumitama.thumbs/20240404/003_000089.jpg",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "migukurumitama.thumbs/20240404/001_000009.jpg",
+                    "src": [
+                        "20240404/001.ia.mp4",
+                        "20240404/002.ia.mp4"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "migukurumitama.thumbs/20240404/003_000099.jpg",
+                    "src": [
+                        "20240404/003.ia.mp4",
+                        "20240404/004.ia.mp4",
+                        "20240405/005.ia.mp4"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "lastModified": "2024-5-2",
+    "url": "?id=osaka-city24&area=hirano&name=kumata",
+    "title": "杭全神社 Kumata Jinja",
+    "description": "全国唯一の連歌所（毎月定期的に平野法楽連歌会が催される）",
+    "info": {
+        "note": [
+            "毎年7月11 - 14日に行われる平野だんじり祭（夏祭り）で知られる神社",
+            "元は熊野権現社 熊野三所権現、境内の南には杭全公園・北には新杭全公園・鎮守の森博物館がある",
+            "",
+            "<u>アクセス</u><br>JR「平野」から徒歩約5分<br>Osaka Metro「平野」から徒歩約15分"
+        ],
+        "links": [
+            {
+                "text": "杭全神社（くまたじんじゃ）",
+                "url": "https://kumata.jp/",
+                "target": "_blank"
+            },
+            {
+                "text": "杭全神社(@kumatajinja) • Instagram)",
+                "url": "https://www.instagram.com/kumatajinja/",
+                "target": "_blank"
+            },
+            {
+                "text": "杭全神社 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/杭全神社",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/dctuZ7JDxPGdHZcz8",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": 2024,
+                "month": 5,
+                "day": 2,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipNNGeIqFcVPzKrUCd3DUmew4FmdBwg66tDcA4pX=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOQrR3TRGJyrGqekrJytjQX4WqGGJeU4QqWniNy=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOQrR3TRGJyrGqekrJytjQX4WqGGJeU4QqWniNy=m18",
+                        "ggs/AF1QipNNGeIqFcVPzKrUCd3DUmew4FmdBwg66tDcA4pX=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipN3GoUJpkbIiyNn2fI00igdLVVcI99uXpn12IBr=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOoFWSfTM1AMNTXTZRQ3ctHrztRVzNEBARp7-vr=m18",
+                        "ggs/AF1QipPA5c_S1SZvVHZyA5N50L06gpT28d-MvaX7H39p=m18",
+                        "ggs/AF1QipN3GoUJpkbIiyNn2fI00igdLVVcI99uXpn12IBr=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

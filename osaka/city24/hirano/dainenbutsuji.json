@@ -1,0 +1,69 @@
+{
+    "lastModified": "2024-5-2",
+    "url": "?id=osaka-city24&area=hirano&name=dainenbutsuji",
+    "title": "大念佛寺 Dai-nenbutsu-ji",
+    "description": "融通念佛宗の総本山 本堂は大阪府下最大の木造建築物",
+    "info": {
+        "note": [
+            "創建は大治2年（1127年）とされる日本最初の念仏道場",
+            "境内地は24,000m2（約7300坪）、30余りの堂宇があり、本堂は大阪府下最大の木造建築物",
+            "毎年5月1日 - 5日に行われる「万部おねり」は大阪市指定無形民俗文化財に指定されている",
+            "毎年8月第4日曜日、博物館「幽霊博物館」が一年に一度だけ開館",
+            "",
+            "<u>アクセス</u><br>JR・Osaka Metro「平野」から徒歩約10分"
+        ],
+        "links": [
+            {
+                "text": "融通念佛宗総本山 大念佛寺 －大阪市平野区－",
+                "url": "https://www.dainenbutsuji.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "大念仏寺 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/大念仏寺",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/vPf24jEDYDTZqWhc8",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "万部おねり",
+                "description": null,
+                "year": 2024,
+                "month": 5,
+                "day": 2,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipO8z5fk7HwgJAXszsnCjKvDRPSowN0h2Ss-oHxO=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOuL20oSqrwlaga_Dr2GYXtTRhuuo4817-c0VVd=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOuL20oSqrwlaga_Dr2GYXtTRhuuo4817-c0VVd=m18",
+                        "ggs/AF1QipO8z5fk7HwgJAXszsnCjKvDRPSowN0h2Ss-oHxO=m18"
+                    ]
+                },
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNq9CzP1fPPCDMdDz1bs466UK3QWF24_HE7AU5K=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNq9CzP1fPPCDMdDz1bs466UK3QWF24_HE7AU5K=m18",
+                        "ggs/AF1QipOSl2FVFCHT41OkkJ3kTqMrRneaiO5sdFBk6an8=m18",
+                        "ggs/AF1QipNmT8SMZ1hUQ7eIaReNuVLBXcZ3d92OvOmwzmox=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

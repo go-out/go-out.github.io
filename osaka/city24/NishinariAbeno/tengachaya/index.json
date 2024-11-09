@@ -1,0 +1,52 @@
+{
+    "lastModified": "2024-10-25",
+    "url": "?id=osaka-city24&area=NishinariAbeno-tengachaya",
+    "map": {
+        "center": [
+            135.49960535615253,
+            34.6318752131009
+        ],
+        "bounds": [
+            [
+                135.49288115573012,
+                34.62643987049492
+            ],
+            [
+                135.5052505650707,
+                34.637761070107175
+            ]
+        ],
+        "zoom": 14.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/NishinariAbeno",
+            "tengachaya",
+            "map"
+        ]
+    ],
+    "title": "天下茶屋",
+    "subtitle": "Tengachaya, Osaka",
+    "description": "古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地だった地",
+    "info": {
+        "note": [
+            "<a href='http://osaka-machinami.jp/past_work/detail/3635/' target='_blank'>作品詳細 ドムール北畠／第３回大阪府建築士会長賞 | 大阪都市景観建築賞</a>"
+        ],
+        "links": null,
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipODiFMJlBFbavcnUP_EFj7yPc_WDz0mHlHCscYM=w575-h325-p-k-no",
+        "p/AF1QipOZ2AHb9gioOTRTbQBIMmVgkuehDvcs_puPbsgB=w575-h325-p-k-no",
+        "p/AF1QipOLNwdjqtVMefiqKrFDQfS274_649Yi9HZldMfh=w575-h325-p-k-no",
+        "p/AF1QipOcfhsMANpM3sequ1ywCRfLSARKymAdOnSafqYN=w575-h325-p-k-no",
+        "p/AF1QipPwvDNJIzMFc6-IN3kaavCjwnHcPoa_tGUDYOP3=w575-h325-p-k-no",
+        "p/AF1QipOCFOR0BfS9_7df9mQ9P60Itf7B8-QLlbDSJKFH=w575-h325-p-k-no",
+        "p/AF1QipNVUOo3dz_cAiOeDeYgWBt6v_jablKQgzJiIVwp=w575-h325-p-k-no",
+        "p/AF1QipOeDqSurvBcTFVsay0ArOqUGWFkvSHK0ljlEy23=w575-h325-p-k-no",
+        "p/AF1QipPFwy1nUe6DIpekgP8-w7lUemanZIu9f1jED6Hn=w575-h325-p-k-no"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=sumiyoshi&name=kohama-ss",
+    "title": "粉浜商店街・粉浜本通商店街",
+    "description": "Kohama Shopping Street",
+    "info": {
+        "note": [
+            "<ruby>粉浜商店街<rp>（</rp><rt>こはましょうてんがい</rt><rp>）</rp></ruby>・<ruby>粉浜本通商店街<rp>（</rp><rt>わいわいロード</rt><rp>）</rp></ruby>",
+            "",
+            "南海本線沿い「粉浜」から「住吉大社」まで",
+            "<u>アクセス</u><br>南海本線「粉浜」「住吉大社」すぐ<br>Osaka Metro「玉出」から徒歩約10分",
+            "",
+            "<a href='https://www.kohama-shoutengai.com/' target='_blank'>住吉大社の門前町 粉浜商店街</a>",
+            "<a href='https://kohama-ss.com/' target='_blank'>粉浜本通商店街-住吉大社のおひざ元。大阪の商店街</a>"
+        ],
+        "links": [
+            {
+                "text": "creative, community spaceペフ - Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipNtl9GdivhypJBqa43PMFN30whrurRJm6pq0Vju=w1280-h720-p-k-no",
+            "width": 0.5625,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOlQDMru3IuNmTlx_iLixemaz7j-_rdR8I4xEVw=w325-h575-p-k-no",
+                    "src": [
+                        "ggms/AF1QipNtl9GdivhypJBqa43PMFN30whrurRJm6pq0Vju=m18",
+                        "ggms/AF1QipOlQDMru3IuNmTlx_iLixemaz7j-_rdR8I4xEVw=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipOxmP9WItTlFGw9FIsIvBQHZdNTZ7oLlAPJ79xR=w325-h575-p-k-no",
+                    "src": [
+                        "ggms/AF1QipOxmP9WItTlFGw9FIsIvBQHZdNTZ7oLlAPJ79xR=m18",
+                        "ggms/AF1QipPmZopLfOoJvdYb1rItsYyHphp0X70d3hjWVtst=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

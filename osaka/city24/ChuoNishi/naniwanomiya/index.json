@@ -1,0 +1,61 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=osaka-city24&area=ChuoNishi-naniwanomiya",
+    "map": {
+        "center": [
+            135.52315708330073,
+            34.67983922802677
+        ],
+        "bounds": [
+            [
+                135.5106748971309,
+                34.67192754508862
+            ],
+            [
+                135.53602353426174,
+                34.68976882262058
+            ]
+        ],
+        "zoom": 15.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/ChuoNishi",
+            "naniwanomiya",
+            "map"
+        ]
+    ],
+    "title": "難波宮 なにわのみや",
+    "subtitle": "Naniwa no miya",
+    "description": "史跡難波宮跡附法円坂遺跡（難波宮跡）",
+    "info": {
+        "note": null,
+        "links": [
+            {
+                "text": "なにわのみや1400プロジェクト",
+                "url": "https://naniwanomiya1400.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "難波宮 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/難波宮",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

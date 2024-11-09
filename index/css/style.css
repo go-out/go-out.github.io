@@ -1,0 +1,159 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#top h1 strong {
+    color: lemonchiffon;
+    text-shadow: 0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+#top #cover,
+#collection {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#top h1[hidden],
+#top nav[hidden] {
+    display: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h3,
+header button {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "ipag";
+    src: url("../fonts/ipag.ttc");
+}
+
+@font-face {
+    font-family: "Zen Old Mincho";
+    src: url("../fonts/ZenOldMincho-Black.ttf"),
+        url("../fonts/ZenOldMincho-Bold.ttf"),
+        url("../fonts/ZenOldMincho-Medium.ttf"),
+        url("../fonts/ZenOldMincho-Regular.ttf"),
+        url("../fonts/ZenOldMincho-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Kristina";
+    src: url("../fonts/Kristina-Fine.otf"),
+        url("../fonts/Kristina-Bold.otf");
+}
+
+@font-face {
+    font-family: "DiaPro";
+    src: url("../fonts/DiaPro-Regular.eot"),
+        url("../fonts/DiaPro-Regular.otf"),
+        url("../fonts/DiaPro-Regular.woff");
+}
+
+@font-face {
+    font-family: "KikaiChokoku";
+    src: url("../fonts/KikaiChokokuJIS-Md.otf"),
+        url("../fonts/KikaiChokokuJIS-XCnKn.otf"),
+        url("../fonts/KikaiChokokuJIS-XCnKn.otf");
+}
+
+@font-face {
+    font-family: "Times";
+    src: url("../fonts/times.ttf");
+}
+
+header {
+    font-family: 'ipag', 'Arial Narrow', sans-serif;
+}
+
+#top h1 {
+    font-size: 321%;
+}
+
+header {
+    font-size: 150%;
+}
+
+header button {
+    font-size: 90%;
+}
+
+#top h1,
+#top h1 b {
+    font-weight: 555;
+}
+
+#top h1 b {
+    line-height: 90%;
+}
+
+#top h1 {
+    padding: 0.25rem;
+    margin: 3.21rem 0 0;
+}
+
+#top h1 b {
+    text-transform: uppercase;
+}
+
+#top h1 u {
+    background: #fff9;
+    border-radius: 2.5rem;
+    padding: 0 0.75rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    width: max-content;
+}
+
+button,
+input[type="button"] {
+    appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+button:hover,
+summary:hover,
+#top nav *:hover {
+    cursor: pointer;
+}
+
+header {
+    background: #fff;
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+header button {
+    color: inherit;
+    transform: scale(1, 1.23);
+    text-align-last: justify;
+    font-weight: bolder;
+    width: 100%;
+}
+
+#top {
+    position: relative;
+}
