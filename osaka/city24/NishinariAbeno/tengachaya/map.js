@@ -24,7 +24,7 @@ const tengachayamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49782230114397, 34.62993304358395]
+                'coordinates': [135.49782049439705, 34.6299415393775]
             },
             'properties': {
                 'title': '天神ノ森天満宮',
@@ -55,13 +55,27 @@ const tengachayamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49956152262018, 34.62833854382005]
+                'coordinates': [135.49956666084506, 34.628347467237774]
             },
             'properties': {
                 'title': '阿部野神社',
                 'address': '境内にあるお茶室「中今亭庭園」とそのお庭は、毎月第1・第3日曜日に限定公開',
                 'link': "spot/?id=osaka-city24&area=NishinariAbeno&name=abenojinja",
                 'tag': ['legacy'],
+                'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49543867033282,34.63469290608137]
+            },
+            'properties': {
+                'title': '大阪フィルハーモニー会館',
+                'address': '大阪フィルハーモニー交響楽団の活動拠点であり、市民の音楽活動の場',
+                'link': null,
+                'tag': ['spot'],
                 'zoom': 16.5
             }
         },
@@ -69,7 +83,7 @@ const tengachayamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.50016220334584, 34.629851210607484]
+                'coordinates': [135.5001411174946, 34.62990614619078]
             },
             'properties': {
                 'title': 'ドムール北畠',
@@ -84,26 +98,11 @@ const tengachayamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49768152968153, 34.63129434081199]
-            },
-            'properties': {
-                'title': 'とんかつ一番',
-                'address': '__',
-                'link': null,
-                'tag': ['legacy'],
-                'youtube': null,
-                'zoom': 18
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.4992463829899, 34.630587525001204]
             },
             'properties': {
                 'title': 'とんかつ一番',
-                'address': '__',
+                'address': '今田耕司さんのアナザースカイ。ダウンタウンファミリーなど、多くのお笑い芸人が来店していたそう',
                 'link': null,
                 'tag': ['legacy'],
                 'youtube': null,

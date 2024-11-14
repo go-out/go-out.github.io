@@ -85,7 +85,7 @@ const hiranoindex = {
                         {
                             'year': 'every',
                             'date': [15],
-                            'time': null,
+                            'time': '夕刻',
                             'note': null
                         }
                     ]

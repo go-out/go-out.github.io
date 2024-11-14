@@ -1,6 +1,6 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=NaniwaTennoji-uehonmachi",
+    "url": "?id=osaka-city24&area=tennoji-uehonmachi",
     "map": {
         "center": [
             135.51845515966454,
@@ -20,7 +20,7 @@
     },
     "jsonAll": [
         [
-            "osaka/city24/NaniwaTennoji",
+            "osaka/city24/tennoji",
             "uehonmachi",
             "map"
         ]

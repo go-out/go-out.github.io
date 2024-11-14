@@ -2,6 +2,16 @@
 
 const updatelog = [
     [
+        "2024-11-10",
+        "index/?id=osaka-city24&area=naniwa",
+        ["OCAT・JR難波駅周辺", "Osaka City Air Tarminal"]
+    ],
+    [
+        "2024-11-10",
+        "spot/?id=osaka&area=city24&name=midosuji",
+        ["御堂筋", "Midosuji"]
+    ],
+    [
         "2024-10-28",
         "index/?id=osaka-city24&area=KitaFukushima-nakanoshima",
         ["中之島公園", "Nakanoshima"]
@@ -13,13 +23,8 @@ const updatelog = [
     ],
     [
         "2024-10-22",
-        "spot/?id=osaka-city24&area=NaniwaTennoji&name=shitennoji",
+        "spot/?id=osaka-city24&area=tennoji&name=shitennoji",
         ["四天王寺", "Shitennoji"]
-    ],
-    [
-        "2024-10-11",
-        "spot/?id=osaka&area=kawachi&name=kongo",
-        ["金剛山", "Mt. Kongo"]
     ],
     [
         "2024-10-11",
@@ -118,7 +123,7 @@ const updatelog = [
     ],
     [
         "2024-4-6",
-        "spot/?id=osaka-city24&area=NaniwaTennoji&name=ikutamajinja",
+        "spot/?id=osaka-city24&area=tennoji&name=ikutamajinja",
         ["生國魂神社", "Ikukunitama Jinja"]
     ],
     [
@@ -128,12 +133,12 @@ const updatelog = [
     ],
     [
         "2024-3-20",
-        "spot/?id=osaka-city24&area=NaniwaTennoji&name=shitennoji",
+        "spot/?id=osaka-city24&area=tennoji&name=shitennoji",
         ["四天王寺", "Shitennoji"]
     ],
     [
         "2024-3-20",
-        "spot/?id=osaka-city24&area=NaniwaTennoji&name=tennoji",
+        "spot/?id=osaka-city24&area=tennoji&name=spot",
         ["茶臼山（天王寺公園）", "Tennoji Park"]
     ],
     [
@@ -143,7 +148,7 @@ const updatelog = [
     ],
     [
         "2024-3-16",
-        "spot/?id=osaka-city24&area=NaniwaTennoji-ocat&name=minamihorie-4-6",
+        "spot/?id=osaka-city24&area=naniwa&name=minamihorie-4-6",
         ["西区南堀江４丁目６", "Minamihorie 4-6 Nishi-ku"]
     ],
     [
@@ -178,7 +183,7 @@ const updatelog = [
     ],
     [
         "2024-1-21",
-        "spot/?id=osaka-city24&area=NaniwaTennoji&name=nambayasaka",
+        "spot/?id=osaka-city24&area=naniwa&name=nambayasaka",
         ["難波八阪神社", "Nambayasaka Jinja"]
     ],
     [

@@ -5,7 +5,8 @@ const mapSpot = [
     ["osaka/city24", "yodogawa", "index", "YYYY-MM-DD"],
     ["osaka/city24", "KitaFukushima", "index", "YYYY-MM-DD"],
     ["osaka/city24", "ChuoNishi", "index", "YYYY-MM-DD"],
-    ["osaka/city24", "NaniwaTennoji", "index", "YYYY-MM-DD"],
+    ["osaka/city24", "tennoji", "index", "YYYY-MM-DD"],
+    ["osaka/city24", "naniwa", "index", "YYYY-MM-DD"],
     ["osaka/city24", "NishinariAbeno", "index", "YYYY-MM-DD"],
     ["osaka/city24", "MiyakojimaAsahi", "index", "YYYY-MM-DD"],
     ["osaka/city24", "JotoTsurumi", "index", "YYYY-MM-DD"],
@@ -89,6 +90,14 @@ function thisMap(obj) {
         js.src = directory + eachArr[0] + '/' + eachArr[1] + '/' + eachArr[2] + '.js?' + obj.lastModified;
         document.head.appendChild(js);
     }, false);
+
+    if (obj.lineArr) {
+        obj.lineArr.forEach(function (eachArr) {
+            const js = document.createElement('script');
+            js.src = directory + eachArr + '?' + obj.lastModified;
+            document.head.appendChild(js);
+        }, false);
+    }
 
     document.title = obj.title;
     const description = document.querySelector("meta[name='description']");

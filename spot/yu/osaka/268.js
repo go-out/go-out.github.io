@@ -91,6 +91,20 @@ const osaka268 = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.4929716766247, 34.62985512826774]
+            },
+            'properties': {
+                'title': '双葉湯',
+                'address': '営業時間 15:00~22:00 | 定休日 金・土曜日',
+                'tag': ['yu'],
+                'iconSize': ['spot/1010.png', '2rem', '2rem', 3],
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.43268008593316, 34.66123908022925]
             },
             'properties': {

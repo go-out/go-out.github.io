@@ -74,6 +74,10 @@ article a[href] {
         0.2rem 0.2rem 0.2rem lightskyblue,
         0.3rem 0.3rem 0.3rem lightskyblue;
 }
+#links p u {
+    color: #fff;
+    mix-blend-mode: difference;
+}
 
 #top h1 small {
     color: #fff;

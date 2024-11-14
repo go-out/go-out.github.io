@@ -30,9 +30,25 @@
     "description": "古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地だった地",
     "info": {
         "note": [
-            "<a href='http://osaka-machinami.jp/past_work/detail/3635/' target='_blank'>作品詳細 ドムール北畠／第３回大阪府建築士会長賞 | 大阪都市景観建築賞</a>"
+            "__"
         ],
-        "links": null,
+        "links": [
+            {
+                "text": "大阪フィルハーモニー会館 | 大阪フィルハーモニー",
+                "url": "https://www.osaka-phil.com/hall/",
+                "target": "_blank"
+            },
+            {
+                "text": "作品詳細 ドムール北畠／第３回大阪府建築士会長賞 | 大阪都市景観建築賞",
+                "url": "http://osaka-machinami.jp/past_work/detail/3635/",
+                "target": "_blank"
+            },
+            {
+                "text": "とんかつ一番 | Osaka Osaka | Facebook",
+                "url": "https://www.facebook.com/tonkatsu1ban/",
+                "target": "_blank"
+            }
+        ],
         "youtube": null
     },
     "area": null,

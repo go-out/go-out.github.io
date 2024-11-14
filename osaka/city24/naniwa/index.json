@@ -1,6 +1,6 @@
 {
-    "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=NaniwaTennoji-ocat",
+    "lastModified": "2024-11-10",
+    "url": "?id=osaka-city24&area=naniwa",
     "map": {
         "center": [
             135.4937726,
@@ -20,16 +20,18 @@
     },
     "jsonAll": [
         [
-            "osaka/city24/NaniwaTennoji",
-            "ocat",
+            "osaka/city24",
+            "naniwa",
             "map"
         ]
     ],
-    "title": "OCAT・JR難波駅周辺",
-    "subtitle": "Osaka City Air Tarminal",
-    "description": "ランドマーク・お気に入りの場所",
+    "title": "OCAT (JR難波) - 桜川・汐見橋",
+    "subtitle": "Naniwa-ku (Ward), Osaka",
+    "description": "大阪市浪速区（環状線より北 道頓堀川より南 木津川より東 南海本線より西）",
     "info": {
-        "note": null,
+        "note": [
+            "<a href='../spot/?id=osaka-city24&area=naniwa&name=ocat'>ランドマーク・お気に入りの場所</a>"
+        ],
         "markdown": null,
         "links": null,
         "youtube": null
@@ -41,10 +43,10 @@
         "p/AF1QipNDosgACOhJk7vQh4XeSopU6hWmLqBekQdKL3tQ=w575-h325-p-k-no",
         "p/AF1QipOC0fZWJz1GLsMXtqHLneK9jU8zz40r10hecenf=w575-h325-p-k-no",
         "p/AF1QipNve6MNEVaJK9fIGbAvX4BQo3mIIouR8uwsb-xf=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
+        "p/AF1QipNdDuYAlGsVk0TMuyciYCO59zAnqVwjSQDGeR4t=w575-h325-p-k-no",
+        "p/AF1QipP6AGUCYexwfdq5jauxJaCHLz8gRE_V1eyRxq8Y=w575-h325-p-k-no",
+        "p/AF1QipNsGA8GlBNjTZBqEfiHJLtTC9ozwIgroA4mjjo5=w575-h325-p-k-no",
+        "p/AF1QipMktzly1BfT5T15lSW9I0Gy27oYPru5OrKGOoKX=w575-h325-p-k-no",
         "p/AF1QipPemutcGNJZy8HNWZB6ynpopPJ7DcJL0UFKQVHH=w575-h325-p-k-no",
         "p/AF1QipNt2UAsGOz1PAIlNMHqc2W31XTWoowxM71njJ16=w575-h325-p-k-no"
     ]

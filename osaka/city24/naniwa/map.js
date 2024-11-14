@@ -1,6 +1,6 @@
 'use strict'
 
-const ocatmap = {
+const naniwamap = {
     'type': 'FeatureCollection',
     'features': [
         {
@@ -11,7 +11,7 @@ const ocatmap = {
             },
             'properties': {
                 'title': 'OCAT（大阪シティエアターミナル）',
-                'address': 'JR難波駅',
+                'address': '屋上ガーデンは、9:00〜17:00まで毎日開園',
                 'link': null,
                 'tag': ['spot'],
                 'zoom': 17
@@ -22,13 +22,28 @@ const ocatmap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49293599822573, 34.66202326137896]
+                'coordinates': [135.4956111522962, 34.66735321395423]
             },
             'properties': {
-                'title': '浪速公園',
-                'address': 'JR難波駅から徒歩約3分、南海芦原町駅から徒歩約4分',
+                'title': 'ポンテ広場',
+                'address': 'OCAT（JR難波駅前）B1F ダンスの練習をよくしている吹き抜けの広場',
                 'link': null,
-                'tag': ['park'],
+                'tag': ['spot'],
+                'zoom': 18
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49574424743366, 34.66838344834163]
+            },
+            'properties': {
+                'title': '湊町リバープレイス',
+                'address': '八角形の宇宙船のような形が特徴の多目的複合イベントスペース',
+                'link': null,
+                'tag': ['spot'],
                 'zoom': 17
             },
             'featured': null
@@ -45,6 +60,21 @@ const ocatmap = {
                 'link': null,
                 'tag': ['spot'],
                 'zoom': 17.5
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49293599822573, 34.66202326137896]
+            },
+            'properties': {
+                'title': '浪速公園',
+                'address': 'JR難波駅から徒歩約3分、南海芦原町駅から徒歩約4分',
+                'link': null,
+                'tag': ['park'],
+                'zoom': 17
             },
             'featured': null
         },

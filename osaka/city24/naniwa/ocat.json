@@ -1,0 +1,91 @@
+{
+    "lastModified": "2024-11-10",
+    "url": "?id=osaka-city24&area=naniwa&name=ocat",
+    "title": "OCAT・JR難波駅周辺",
+    "description": "",
+    "info": {
+        "note": null,
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://maps.app.goo.gl/CY3wr2GfaePtaUTv5",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "湊町リバープレイス<br>Minatomachi River Place",
+                "description": "宇宙船のような形が特徴の多目的複合イベントスペース",
+                "year": "2024",
+                "month": "11",
+                "day": "10",
+                "note": [
+                    "ライブハウス「なんばHatch」・ラジオ局「FM大阪」がある複合施設とその周辺",
+                    "<small>地下通路から、大阪シティエアターミナル (OCAT) ・バスターミナル、JR難波駅・四つ橋線「なんば」に連絡</small>",
+                    "",
+                    "お笑い芸人の稽古場所としても有名な道頓堀川沿いの遊歩道は静かで綺麗な憩いの場",
+                    "（遊覧船の渡船場「湊町船着場」・人道橋「浮庭橋（うきにわばし）」がある）",
+                    "",
+                    "ランドマークの大階段がある屋外イベントゾーン「プラザ」では、フリーマーケット（毎月末 日曜日 10:00~16:00）などの催しが開催される"
+                ],
+                "links": [
+                    {
+                        "text": "湊町リバープレイス",
+                        "url": "https://www.oud.co.jp/riverplace/",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "湊町リバープレイス - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/湊町リバープレイス",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "湊町リバープレイスフリーマーケット | 日本フリーマーケット協会",
+                        "url": "http://freemarket-go.com/shousai_osaka_001.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "浮庭橋 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/浮庭橋",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipNdDuYAlGsVk0TMuyciYCO59zAnqVwjSQDGeR4t=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipP6AGUCYexwfdq5jauxJaCHLz8gRE_V1eyRxq8Y=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipO9W_OENAFHAJgRloBYJ8xxwY6lPDW452rH7dGf=m18",
+                        "ggms/AF1QipP6AGUCYexwfdq5jauxJaCHLz8gRE_V1eyRxq8Y=m18",
+                        "ggms/AF1QipNvb-T5JhPsuGyXlTyl4jImwbVI-4A8twkq0Ajk=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipNsGA8GlBNjTZBqEfiHJLtTC9ozwIgroA4mjjo5=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipMxJK_cVzeeH4CgpA1ubOUPAVxjZBD15jjFq45Y=m18",
+                        "ggms/AF1QipOgBZv-qy2Qt1M5MZL_eOjsWI4kamg0ry2gvNDe=m18",
+                        "ggms/AF1QipNsGA8GlBNjTZBqEfiHJLtTC9ozwIgroA4mjjo5=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipNq2sfXJ6PMrq9Q_agTzb-PkbhSZG_t0OJJHzaH=w575-h325-p-k-no",
+                    "src": [
+                        "ggms/AF1QipOCWHoiOol62lUfSK2LPi0JeDeA1AX-RBX8ABAH=m18",
+                        "ggms/AF1QipNdDuYAlGsVk0TMuyciYCO59zAnqVwjSQDGeR4t=m18",
+                        "ggms/AF1QipNq2sfXJ6PMrq9Q_agTzb-PkbhSZG_t0OJJHzaH=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

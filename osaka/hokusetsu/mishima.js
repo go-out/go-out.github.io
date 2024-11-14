@@ -51,24 +51,7 @@ const hokusetsumishima = {
                 'google': 'https://maps.app.goo.gl/XmjknV3ozD3XCwKb7',
                 'zoom': 16.5
             },
-            'featured': [
-                {
-                    'title': null,
-                    'month': 'every',
-                    'date': null,
-                    'note': [
-                        '<b>月次祭</b>'
-                    ],
-                    'thisYear': [
-                        {
-                            'year': 'every',
-                            'date': [1, 15],
-                            'time': null,
-                            'note': null
-                        }
-                    ]
-                }
-            ]
+            'featured': null
         },
         {
             'type': 'Feature',

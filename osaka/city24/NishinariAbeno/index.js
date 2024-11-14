@@ -35,7 +35,7 @@ const NishinariAbenoindex = {
             'properties': {
                 'title': '天下茶屋',
                 'address': '古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地',
-                // 'link': 'index/?id=osaka-city24&area=NishinariAbeno-tengachaya',
+                'link': 'index/?id=osaka-city24&area=NishinariAbeno-tengachaya',
                 'tag': ['feature'],
                 'zoom': 15.5
             },
@@ -271,7 +271,7 @@ const NishinariAbenoindex = {
                 },
                 {
                     'title': '阿倍王子神社・安倍晴明神社',
-                    'month': [11],
+                    'month': [10],
                     'date': null,
                     'note': [
                         '<b>奉納芸能大会</b> 秋祭り',

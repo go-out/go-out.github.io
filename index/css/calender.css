@@ -21,9 +21,10 @@ li {
 }
 
 #calender ul li h3 strong,
-#calender summary {
+#calender summary,
+#calender h3 ruby rt,
+#calender #spot li ruby b {
     color: skyblue;
-    text-decoration: none;
 }
 
 #calender #date li small strong,
@@ -112,8 +113,7 @@ li {
     float: right;
 }
 
-#calender ul li ruby strong,
-#calender summary small {
+#calender ul li ruby strong {
     font-weight: 900;
     line-height: 175%;
     transform: scale(1, 0.75);
@@ -178,23 +178,28 @@ main,
 #calender ul li i,
 #calender ul li ruby,
 #calender #spot li h4,
-#calender #spot li small b {
+#calender #spot li small b,
+#calender #every ruby b,
+#spot li ruby b {
     font-size: 150%;
 }
 
 #calender ul li h3 strong,
 #calender summary,
+#calender summary small,
 article section h2 strong,
 article section h2 small b,
 article h3 {
     font-size: 125%;
 }
 
-#calender #every li h4 {
+#calender #every li h4,
+#calender h3 ruby rt {
     font-size: 111%;
 }
 
-article section time {
+article section time,
+#log ruby rt {
     font-size: 90%;
 }
 
@@ -264,7 +269,6 @@ article section h3 {
     gap: 1rem;
 }
 
-article section h3,
 #calender #date li,
 #calender #every li {
     gap: 0.5rem;
@@ -279,7 +283,8 @@ article section h3,
 #collection button,
 #calender ul li h3,
 #calender ul li ruby,
-#calender {
+#calender,
+#spot {
     width: 100%;
 }
 

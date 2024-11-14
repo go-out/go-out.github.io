@@ -32,7 +32,7 @@ map.on('load', () => {
           'properties': {
             'title': 'Osaka Castle Park to Fukushima 🇯🇵 Osaka Loop Line',
             'address': '大阪JR環状線（大阪城公園駅→福島駅）',
-            'date': '',
+            'link': null,
             'youtube': 'Fkiq6MvW868',
             'zoom': 13
           }
@@ -42,16 +42,22 @@ map.on('load', () => {
           'geometry': {
             'type': 'LineString',
             'coordinates': [
+              [135.5003174898274, 34.66543796907871],
+              [135.50030628762727, 34.66561475614718],
               [135.50033919576254, 34.6671500335933],
               [135.5003381895392, 34.67521533287547],
               [135.5009634913079, 34.69254325669749],
-              [135.50130515006782, 34.69617764207153]
+              [135.50130515006782, 34.69617764207153],
+              [135.50128887867527, 34.69641352092154],
+              [135.5005637593148, 34.698177518236776],
+              [135.49943392544867, 34.700983588349715],
+              []
             ]
           },
           'properties': {
             'title': 'Midosuji Street 🇯🇵 Osaka, Japan',
             'address': '御堂筋イルミネーション（11月上旬から12月31日）',
-            'date': '',
+            'link': "spot/?id=osaka&area=city24&name=midosuji",
             'youtube': 'JDe9a6WI1X8',
             'zoom': 14
           }
@@ -70,8 +76,7 @@ map.on('load', () => {
           'properties': {
             'title': '16 Minute Cycling in Taisho 🇯🇵 Osaka, Japan',
             'address': '新木津川大橋 ⇄ 千本松大橋',
-            'date': 'More Info',
-            'href': 'osaka/vr/?area=bayarea&name=taisho-minami',
+            'link': null,
             'youtube': 'ro1iQcEl2m8',
             'zoom': 14.5
           }
@@ -95,7 +100,7 @@ map.on('load', () => {
           'properties': {
             'title': 'Tennoji ⇄ Morinomiya 🇯🇵 Osaka Loop Line',
             'address': '大阪JR環状線（天王寺⇄森ノ宮）',
-            'date': '',
+            'link': null,
             'youtube': 'tOOHtkKQVnM',
             'zoom': 14.5
           }
@@ -117,8 +122,7 @@ map.on('load', () => {
           'properties': {
             'title': 'なにわ自転車道 🚲 淀川右岸',
             'address': 'Naniwa Cycling Load',
-            'date': 'More Info',
-            'href': 'date/naniwa-cycling-load/?id=yodogawa',
+            'link': null,
             'youtube': 'CDfqGiXwjcc',
             'zoom': 14.5
           }
@@ -159,8 +163,7 @@ map.on('load', () => {
           'properties': {
             'title': 'なにわ自転車道 🚲 神崎川左岸',
             'address': 'Naniwa Cycling Load',
-            'date': 'More Info',
-            'href': 'date/naniwa-cycling-load/?id=kanzakigawa',
+            'link': null,
             'youtube': 'zUF-oI-MHHk',
             'zoom': 14.5
           }
@@ -182,7 +185,7 @@ map.on('load', () => {
           'properties': {
             'title': 'Shiomibashi ⇄ Kishinosato-Tamade 🇯🇵 Nankai Koya Line',
             'address': '南海汐見橋線（汐見橋⇄岸里玉出）',
-            'date': '',
+            'link': null,
             'zoom': 14.5
           }
         },
@@ -203,7 +206,7 @@ map.on('load', () => {
           'properties': {
             'title': 'New Tram (Osaka, Japan) 🇯🇵 Trade Center mae ⇄ Suminoekouen',
             'address': 'ニュートラム（トレードセンター前⇄住之江公園）',
-            'date': '',
+            'link': null,
             'youtube': 'jDv57WWjJ58',
             'zoom': 13
           }
@@ -228,7 +231,7 @@ map.on('load', () => {
           'properties': {
             'title': '21 Minute Cycling Suminoe Park to Nanko Fishing Port 🇯🇵 Osaka, Japan',
             'address': '住之江公園駅から南港南の西の果てまで',
-            'date': 'More Info',
+            'link': null,
             'href': 'osaka/vr/?area=bayarea&name=nanko-minami',
             'youtube': 'tinBEuiKqzU',
             'zoom': 13
@@ -262,39 +265,10 @@ map.on('mouseleave', 'line', () => {
 });
 
 map.on('click', 'line', (e) => {
-  const thisLatLng = document.querySelector('#latlng');
-  const thisAddress = document.querySelector('#address');
-  const thisDate = document.querySelector('#datetime');
-  thisLatLng.innerHTML = e.features[0].properties.title;
-  thisAddress.innerHTML = e.features[0].properties.address;
-
-  if (e.features[0].properties.href) {
-    thisDate.innerHTML = "";
-    thisDate.className = "goout";
-    const a = document.createElement('a');
-    a.href = directory + e.features[0].properties.href;
-    a.textContent = e.features[0].properties.date;
-
-    if (e.features[0].properties.targt) {
-      a.setAttribute('targt', e.features[0].properties.targt);
-    }
-
-    thisDate.appendChild(a);
-  } else {
-    thisDate.innerHTML = e.features[0].properties.date;
-  }
-
-  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    if (e.features[0].properties.youtube) {
-      const main = document.querySelector('main');
-      main.hidden = false;
-      player.loadVideoById({ videoId: e.features[0].properties.youtube });
-    }
-  }
-
   map.flyTo({
     center: e.lngLat,
     essential: true,
     zoom: e.features[0].properties.zoom
   });
+  infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
 });

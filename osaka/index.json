@@ -19,14 +19,14 @@
     },
     "jsonAll": [
         [
+            "spot/yu",
+            "osaka",
+            "268"
+        ],
+        [
             "osaka",
             "ferry",
             "index"
-        ],
-        [
-            "yu",
-            "osaka",
-            "268"
         ],
         [
             "osaka/city24",
@@ -45,7 +45,12 @@
         ],
         [
             "osaka/city24",
-            "NaniwaTennoji",
+            "tennoji",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "naniwa",
             "index"
         ],
         [
@@ -128,6 +133,9 @@
             "senshu",
             "sennan"
         ]
+    ],
+    "lineArr": [
+        "osaka/line.js"
     ],
     "title": "大阪観光マップ",
     "subtitle": "Osaka Map",
@@ -551,15 +559,14 @@
     "directory": "https://lh3.googleusercontent.com/",
     "cover": [
         "p/AF1QipOTFxtvjjTf-8hsORbCCFYL3ZMwLuHnoewilXKL=w575-h325-p-k-no",
-        "p/AF1QipOdcWysnyJwnLfQgLzMCehbOada3C42VxehRdSh=w575-h325-p-k-no",
         "p/AF1QipO6MiOWJKWgClmV51xNxo4vNnJrzgL2i1fh-sIS=w575-h325-p-k-no",
         "p/AF1QipNDosgACOhJk7vQh4XeSopU6hWmLqBekQdKL3tQ=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no"
+        "p/AF1QipPqa0ctEsoRCjc08GNlfwDyKNRCM9ctVHBh2SAJ=w575-h325-p-k-no",
+        "p/AF1QipO7Mk_wr5-2h6QLILZOTpTxL59Ca6ikvjuI_Fq4=w575-h325-p-k-no",
+        "p/AF1QipON3o2IzRV9l9fFJ_cNZsqXCB0mEqCvpeTEceRC=w575-h325-p-k-no",
+        "p/AF1QipPr6tOWFF9Je8EylJh0JhlKNV-jOjmQax3ZxCvt=w575-h325-p-k-no",
+        "p/AF1QipPBjHsx6Q0rhxYml_lbOW740TVg7BhL99MUG17l=w575-h325-p-k-no",
+        "p/AF1QipME_Ggfz8rKdwCgiUgNCvUW3tb9fdnntEOlXl_X=w575-h325-p-k-no"
     ],
     "links": [
         {

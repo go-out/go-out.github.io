@@ -144,5 +144,66 @@ const nakanoshimamap = {
             }
         }
     ]
-
 }
+
+window.addEventListener("load", () => {
+    map.on('load', () => {
+        map.addSource('addLine', {
+            'type': 'geojson',
+            'data': {
+                'type': 'FeatureCollection',
+                'features': [
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'LineString',
+                            'coordinates': [
+                                [135.49683495845989, 34.69302626281767],
+                                [135.49778088618484, 34.69314381499997],
+                                [135.49886209468758, 34.69334456574353],
+                                [135.50071263258218, 34.693311788541735]
+                            ]
+                        },
+                        'properties': {
+                            'title': '中之島緑道',
+                            'address': '公募より選定された「水・緑・光」がテーマの10点の彫刻作品が設置されている自然とパブリックアートが共存した散歩道',
+                            'link': null,
+                            'zoom': 16
+                        }
+                    }
+                ]
+            }
+        });
+
+        map.addLayer({
+            'id': 'line',
+            'type': 'line',
+            'source': 'addLine',
+            'layout': {
+                'line-join': 'round',
+                'line-cap': 'round'
+            },
+            'paint': {
+                'line-color': 'lightskyblue',
+                'line-width': 11
+            }
+        });
+    });
+
+    map.on('mouseenter', 'line', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    map.on('mouseleave', 'line', () => {
+        map.getCanvas().style.cursor = '';
+    });
+
+    map.on('click', 'line', (e) => {
+        map.flyTo({
+            center: e.lngLat,
+            essential: true,
+            zoom: e.features[0].properties.zoom
+        });
+        infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
+    });
+});
