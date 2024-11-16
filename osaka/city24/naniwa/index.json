@@ -32,9 +32,32 @@
         "note": [
             "<a href='../spot/?id=osaka-city24&area=naniwa&name=ocat'>ランドマーク・お気に入りの場所</a>"
         ],
-        "markdown": null,
-        "links": null,
-        "youtube": null
+        "links": [
+            {
+                "text": "ENJOY OCAT !（OCATについて） | OCAT[大阪シティエアターミナル]",
+                "url": "https://www.ocat.co.jp/enjoyocat/",
+                "target": "_blank"
+            },
+            {
+                "text": "湊町リバープレイスフリーマーケット | 日本フリーマーケット協会",
+                "url": "http://freemarket-go.com/shousai_osaka_001.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市：浮庭橋（うきにわばし）",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000025743.html",
+                "target": "_blank"
+            },
+            {
+                "text": "浪速区支部協議会 - 大阪市コミュニティ協会",
+                "url": "https://www.osakacommunity.jp/branches/naniwa/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "OO_7X8aM9BQ",
+            "vG9mga5XyWY"
+        ]
     },
     "area": null,
     "sort": null,

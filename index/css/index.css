@@ -33,6 +33,8 @@ main h3 {
 
 main h1 strong {
     font-size: 400%;
+    pointer-events: none;
+    user-select: none;
 }
 
 main h1,
@@ -169,7 +171,15 @@ main h1 u {
     place-items: center;
 }
 
-#map {
+#map,
+main section {
     width: 100%;
+}
+
+main h2 {
+    max-width: calc(100% - 3rem);
+}
+
+#map {
     height: 100dvh;
 }

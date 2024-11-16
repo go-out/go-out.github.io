@@ -23,7 +23,8 @@ li {
 #calender ul li h3 strong,
 #calender summary,
 #calender h3 ruby rt,
-#calender #spot li ruby b {
+#calender #spot li ruby b,
+#calender ul a {
     color: skyblue;
 }
 
@@ -33,6 +34,14 @@ li {
 #calender details[open] summary,
 #calender summary:hover {
     color: lemonchiffon;
+}
+
+#calender ul a ruby rt {
+    color: #000;
+}
+
+#calender ul a:visited {
+    color: #fff;
 }
 
 #calender #date li small strong,
@@ -62,7 +71,7 @@ li {
 
 #calender #date li,
 #calender #spot li,
-#calender #log,
+#calender ul,
 #calender #every {
     padding: 0.5rem;
 }
@@ -80,6 +89,7 @@ li {
     padding: 0.5rem 0.75rem;
 }
 
+#calender ul,
 #calender ul li,
 #calender #spot,
 #calender #every li h4,
@@ -199,7 +209,7 @@ article h3 {
 }
 
 article section time,
-#log ruby rt {
+#calender ul ruby rt {
     font-size: 90%;
 }
 
@@ -236,7 +246,8 @@ article section h3,
 
 #calender #date,
 #calender #date li,
-#calender #log,
+#calender #indexLog,
+#calender #spotLog,
 #calender #every {
     flex-wrap: wrap;
 }
@@ -274,7 +285,8 @@ article section h3 {
     gap: 0.5rem;
 }
 
-#calender #log,
+#calender #indexLog,
+#calender #spotLog,
 #calender #every {
     gap: 0.5rem 1rem;
 }

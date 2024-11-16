@@ -97,7 +97,7 @@ const sakuranomiyamap = {
             },
             'properties': {
                 'title': 'アートコートギャラリー',
-                'address': '',
+                'address': '新進アーティストの作品を紹介する現代美術ギャラリー',
                 'link': null,
                 'tag': ['spot'],
                 'zoom': 17.5

@@ -45,6 +45,10 @@ dialog input[type="button"] {
     font-size: 111%;
 }
 
+#link small {
+    font-size: 75%;
+}
+
 #description,
 dialog p small {
     font-size: 65%;
@@ -54,7 +58,7 @@ dialog input[type="button"] {
     font-weight: 900;
 }
 
-h2 {
+dialog h2 {
     line-height: 75%;
 }
 

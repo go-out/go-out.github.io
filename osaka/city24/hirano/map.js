@@ -72,7 +72,7 @@ const hiranomap = {
             'properties': {
                 'title': '平野公園',
                 'address': '近代河内音頭発祥の地 「河内音頭宗家初音家礎之地」',
-                'link': "spot/?id=osaka-city24&area=hirano&name=hiranopark",
+                'link': null,
                 'tag': ['park'],
                 'zoom': 17.5
             },
@@ -80,64 +80,61 @@ const hiranomap = {
         }
     ]
 };
-
-window.addEventListener("load", (event) => {
-    map.on('load', () => {
-        map.addSource('addLine', {
-            'type': 'geojson',
-            'data': {
-                'type': 'FeatureCollection',
-                'features': [
-                    {
-                        'type': 'Feature',
-                        'geometry': {
-                            'type': 'LineString',
-                            'coordinates': [
-                                [135.55199448794923, 34.623917424423524],
-                                [135.5561742110845, 34.62360342924349],
-                                [135.55827482581645, 34.62345110723898]
-                            ]
-                        },
-                        'properties': {
-                            'title': 'サンアレイ平野',
-                            'address': '平野本町通商店街・平野東商店会',
-                            'link': "spot/?id=osaka-city24&area=hirano&name=sunarray",
-                            'zoom': 14
-                        }
+map.on('load', () => {
+    map.addSource('addLine', {
+        'type': 'geojson',
+        'data': {
+            'type': 'FeatureCollection',
+            'features': [
+                {
+                    'type': 'Feature',
+                    'geometry': {
+                        'type': 'LineString',
+                        'coordinates': [
+                            [135.55199448794923, 34.623917424423524],
+                            [135.5561742110845, 34.62360342924349],
+                            [135.55827482581645, 34.62345110723898]
+                        ]
+                    },
+                    'properties': {
+                        'title': 'サンアレイ平野',
+                        'address': '平野本町通商店街・平野東商店会',
+                        'link': null,
+                        'zoom': 14
                     }
-                ]
-            }
-        });
-
-        map.addLayer({
-            'id': 'line',
-            'type': 'line',
-            'source': 'addLine',
-            'layout': {
-                'line-join': 'round',
-                'line-cap': 'round'
-            },
-            'paint': {
-                'line-color': 'lightskyblue',
-                'line-width': 11
-            }
-        });
+                }
+            ]
+        }
     });
 
-    map.on('mouseenter', 'line', () => {
-        map.getCanvas().style.cursor = 'pointer';
+    map.addLayer({
+        'id': 'line',
+        'type': 'line',
+        'source': 'addLine',
+        'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+        },
+        'paint': {
+            'line-color': 'lightskyblue',
+            'line-width': 11
+        }
     });
+});
 
-    map.on('mouseleave', 'line', () => {
-        map.getCanvas().style.cursor = '';
-    });
+map.on('mouseenter', 'line', () => {
+    map.getCanvas().style.cursor = 'pointer';
+});
 
-    map.on('click', 'line', (e) => {
-        map.flyTo({
-            center: e.lngLat,
-            essential: true,
-            zoom: e.features[0].properties.zoom
-        });
-        infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
+map.on('mouseleave', 'line', () => {
+    map.getCanvas().style.cursor = '';
+});
+
+map.on('click', 'line', (e) => {
+    map.flyTo({
+        center: e.lngLat,
+        essential: true,
+        zoom: e.features[0].properties.zoom
     });
+    infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
 });

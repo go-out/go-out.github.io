@@ -27,30 +27,26 @@
     ],
     "title": "豊中市 🌹 中部・東部・西部",
     "subtitle": "Toyonaka, Osaka",
-    "description": "ランドマーク・お気に入りの場所",
+    "description": "伊丹空港より東・北大阪急行電鉄より西",
     "info": {
         "note": [
-            "<small>伊丹空港より東・北大阪急行電鉄より西</small>",
             "中部は市街地（曽根・桜塚・長興寺等は高級住宅街）・東部は服部緑地",
             "緑化計画により整備された西部（大阪国際空港周辺）にも水と緑が多数",
             "",
-            "<u>ランドマーク・お気に入りの場所</u>",
-            "<b>天竺川の松並木</b> <small>服部緑地の西端 天竺川橋から広田橋付近にかけて続く松並木</small>",
-            "",
-            "<u>レンタサイクル</u>",
-            "<a href='https://maps.app.goo.gl/acmbCYo1ti6oXo6x6' target='_blank'>阪急曽根駐輪センター</a> <small>営業時間 7:00～21:00 | 普通車 1日320円 / 電動車 1日420円</small>",
-            "<a href='https://maps.app.goo.gl/pwckMpbs5f3CSrNz8' target='_blank'>阪急岡町北駐輪センター</a> <small>営業時間 6:30～22:00 | 普通車 1日320円 / 電動車 1日420円</small>",
-            "",
-            "<u>Hello Cycling</u><br>北大阪急行電鉄「緑地公園」周辺・服部緑地公園内にポート多数あり"
+            "<a href='../spot/?id=osaka-hokusetsu&area=toyonaka&name=spot'>ランドマーク・お気に入りの場所</a>"
         ],
         "links": [
             {
-                "text": "Google マップ",
-                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "text": "阪急レンタサイクル営業場所 | 路線・駅 | 阪急電鉄",
+                "url": "https://www.hankyu.co.jp/station/service/rental02.html",
                 "target": "_blank"
             }
         ],
-        "youtube": null
+        "youtube": [
+            "wILMhra8cnA",
+            "mKcFF3wTRRg",
+            "Db-TYFr5BO8"
+        ]
     },
     "area": null,
     "sort": null,

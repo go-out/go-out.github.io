@@ -30,12 +30,29 @@
     "description": "西梅田地区の大半を占める、オフィスビル・商業施設・ホテル・専門学校などで構成される超高層ビル群",
     "info": {
         "note": null,
-        "markdown": null,
-        "links": null,
+        "links": [
+            {
+                "text": "オオサカガーデンシティ|大阪西梅田のビジネスイベントを成功に導く街",
+                "url": "https://ogc-nishiumeda.jp/",
+                "target": "_blank"
+            },
+            {
+                "text": "オオサカガーデンシティ - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/オオサカガーデンシティ",
+                "target": "_blank"
+            },
+            {
+                "text": "OSAKA GARDEN CITY - Google マップ",
+                "url": "https://maps.app.goo.gl/w4qYUQJ4a1SbV3eG7",
+                "target": "_blank"
+            }
+        ],
         "youtube": [
             "YLNMADWt9WI"
         ]
     },
+    "area": null,
+    "sort": null,
     "directory": "https://lh3.googleusercontent.com/",
     "cover": [
         "p/AF1QipOdcWysnyJwnLfQgLzMCehbOada3C42VxehRdSh=w575-h325-p-k-no",

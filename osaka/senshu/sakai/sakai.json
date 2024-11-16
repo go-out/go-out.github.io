@@ -8,8 +8,8 @@
         ],
         "bounds": [
             [
-                135.46773632204327,
-                34.56866108924106
+                135.4655232429089,
+                34.56777108924106
             ],
             [
                 135.4876721888067,
@@ -27,18 +27,53 @@
     ],
     "title": "フェニックス通り・土居川公園",
     "subtitle": "Sakai City, Sakai",
-    "description": "A Select Area 🌍 エリアを選択",
+    "description": "大阪府堺市堺区",
     "info": {
-        "note": null,
-        "markdown": null,
+        "note": [
+            "日本の道100選のひとつ 堺市の中心市街地を東西に横断する「フェニックス通り（別名：宿院通り）」",
+            "フェニックス通りと交差して北・南へ伸びる阪神高速15号堺線の高架下にある約3km・4haの細長い公園「土居川公園」",
+            "その周辺にある名所や、ゆっくり優雅に憩える場所"
+        ],
         "links": [
             {
-                "text": "Google マップ",
-                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "text": "フェニックス通り (大阪府堺市) - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/フェニックス通り_(大阪府堺市)",
+                "target": "_blank"
+            },
+            {
+                "text": "土居川公園（どいがわこうえん）　堺市",
+                "url": "https://www.city.sakai.lg.jp/kurashi/koen/shokai/doigawa.html",
+                "target": "_blank"
+            },
+            {
+                "text": "住吉大社宿院頓宮 |摂津 和泉 両国一の宮の御旅所",
+                "url": "https://shukuin-tongu.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "本願寺堺別院　TOP",
+                "url": "https://www.sakaibetsuin.or.jp/",
+                "target": "_blank"
+            },
+            {
+                "text": "妙國寺庭園 - 堺市",
+                "url": "https://www.city.sakai.lg.jp/kanko/rekishi/bunkazai/bunkazai/shokai/bunya/meisyo/myokokujiteien.html",
+                "target": "_blank"
+            },
+            {
+                "text": "祥雲寺庭園 - 堺市",
+                "url": "https://www.city.sakai.lg.jp/kanko/rekishi/bunkazai/bunkazai/shokai/bunya/meisyo/shounjiteien.html",
+                "target": "_blank"
+            },
+            {
+                "text": "堺駅観光案内所｜スポット｜堺観光ガイド",
+                "url": "https://www.sakai-tcb.or.jp/spot/detail/349",
                 "target": "_blank"
             }
         ],
-        "youtube": null
+        "youtube": [
+            "HmBUDgK8iN0"
+        ]
     },
     "area": null,
     "sort": null,

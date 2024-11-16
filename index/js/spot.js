@@ -60,7 +60,7 @@ function createHead(obj) {
         };
     };
 
-    const lastModified = document.querySelector("#lastModified");
+    const lastModified = document.querySelector("#lastModified code");
     lastModified.textContent = "最終更新日 " + obj.lastModified;
 };
 

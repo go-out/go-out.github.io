@@ -25,6 +25,9 @@
             "map"
         ]
     ],
+    "lineArr": [
+        "osaka/city24/yodogawa/line.js"
+    ],
     "title": "淀川河川敷",
     "subtitle": "Yodogawa River-side",
     "description": "ランドマーク・お気に入りの場所",

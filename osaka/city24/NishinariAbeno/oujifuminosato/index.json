@@ -25,6 +25,9 @@
             "map"
         ]
     ],
+    "lineArr": [
+        "osaka/city24/NishinariAbeno/oujifuminosato/line.js"
+    ],
     "title": "あべの王子商店街・王子本通商店街・文の里商店街",
     "subtitle": "Abeno, Osaka",
     "description": "阪堺上町線より東・南海通より北・阪和線より西",

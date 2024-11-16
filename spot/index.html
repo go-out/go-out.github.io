@@ -36,7 +36,7 @@
         const directory = "../";
         let params = new URLSearchParams(location.search);
         let thisJson, thisID, thisArea, thisSpot;
-        if (params.get("id")) {
+        if (location.search) {
             thisID = params.get("id").replace("-", '/');
             thisJson = `../${thisID}`;
 
@@ -82,9 +82,12 @@
             <select name="date" id="collection" hidden></select>
         </section>
         <aside>
-            <div id="by"></div>
+            <select name="youtube" id="youtube" hidden></select>
             <div id="links"></div>
-            <code id="lastModified"></code>
+            <div id="lastModified">
+                <code></code>
+                <button onclick="history.back()">↩︎</button>
+            </div>
         </aside>
     </article>
 </body>

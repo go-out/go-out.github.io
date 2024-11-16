@@ -34,7 +34,8 @@ body {
 
 h2,
 h3,
-header button {
+header button,
+footer {
     padding: 0.5rem;
     margin: 0;
 }

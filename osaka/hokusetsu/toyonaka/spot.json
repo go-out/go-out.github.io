@@ -1,7 +1,7 @@
 {
     "url": "?id=osaka-hokusetsu&area=toyonaka&name=spot",
     "title": "大阪府 豊中市 🌹 Toyonaka City, Osaka",
-    "description": "",
+    "description": "伊丹空港より東・北大阪急行電鉄より西",
     "info": {
         "note": [
             "<u>レンタサイクル</u>",
@@ -14,12 +14,11 @@
         {
             "info": {
                 "title": "ふれあい緑地界隈",
-                "description": "服部西町5丁目、服部寿町3・5丁目地内",
+                "description": "みどり豊かな文化・スポーツの中心エリア",
                 "year": 2024,
                 "month": 5,
                 "day": 11,
                 "note": [
-                    "みどり豊かな文化・スポーツの中心エリア",
                     "緑地内には、温水プール「マリンフード豊中スイミングスタジアム」や遊戯広場、バラ園など",
                     "近隣には、青少年交流文化館「いぶき」・武道館「ひびき」がある",
                     "<small>豊中市の花「バラ」の見頃は、5月・10月の中旬から下旬</small>",
@@ -59,6 +58,7 @@
         {
             "info": {
                 "title": "松景園",
+                "description": "高級住宅街",
                 "year": 2024,
                 "month": 5,
                 "day": 11

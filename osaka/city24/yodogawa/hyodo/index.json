@@ -25,6 +25,9 @@
             "map"
         ]
     ],
+    "lineArr": [
+        "osaka/city24/yodogawa/line.js"
+    ],
     "title": "こぶし通り",
     "subtitle": "Kobushi Road, Higashi Yodogawa",
     "description": "ランドマーク・お気に入りの場所",
@@ -47,7 +50,10 @@
                 "target": "_blank"
             }
         ],
-        "youtube": null
+        "youtube": [
+            "CDfqGiXwjcc",
+            "zUF-oI-MHHk"
+        ]
     },
     "area": null,
     "sort": null,

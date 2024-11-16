@@ -87,7 +87,7 @@ const naniwamap = {
             'properties': {
                 'title': '難波八阪神社',
                 'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
-                'link': "spot/?id=osaka-city24&area=NaniwaTennoji&name=nambayasaka",
+                'link': "spot/?id=osaka-city24&area=naniwa&name=nambayasaka",
                 'tag': ['legacy'],
                 'zoom': 17.5
             },
@@ -112,21 +112,6 @@ const naniwamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.48713499264, 34.668311312513765]
-            },
-            'properties': {
-                'title': '新桜川ビル',
-                'address': '新なにわ筋と千日前通りの交差点に建つモダニズム建築',
-                'link': null,
-                'tag': ['spot'],
-                'zoom': 18
-            },
-            'featured': null
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.48616655591758, 34.66823546271246]
             },
             'properties': {
@@ -135,6 +120,21 @@ const naniwamap = {
                 'link': null,
                 'tag': ['spot'],
                 'zoom': 17.5
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48713499264, 34.668311312513765]
+            },
+            'properties': {
+                'title': '新桜川ビル',
+                'address': '新なにわ筋と千日前通りの交差点に建つモダニズム建築',
+                'link': null,
+                'tag': ['spot'],
+                'zoom': 18
             },
             'featured': null
         },
@@ -162,7 +162,7 @@ const naniwamap = {
             'properties': {
                 'title': '西区南堀江４丁目６',
                 'address': '「道頓堀川水門」付近から汐見橋まで 道頓堀川沿の遊歩道',
-                'link': "spot/?id=osaka-city24&area=NaniwaTennoji-ocat&name=minamihorie-4-6",
+                'link': "spot/?id=osaka-city24&area=naniwa&name=minamihorie-4-6",
                 'tag': ['park'],
                 'zoom': 16.5
             }

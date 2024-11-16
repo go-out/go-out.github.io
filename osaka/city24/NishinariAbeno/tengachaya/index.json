@@ -30,7 +30,7 @@
     "description": "古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地だった地",
     "info": {
         "note": [
-            "__"
+            "<a href='../spot/?id=osaka-city24&area=NishinariAbeno-tengachaya&name=spot'>ランドマーク・お気に入りの場所</a>"
         ],
         "links": [
             {
@@ -49,7 +49,11 @@
                 "target": "_blank"
             }
         ],
-        "youtube": null
+        "youtube": [
+            "xnIo-zFGejA",
+            "9v0VvxcsfwQ",
+            "tJWPXoMoyBk"
+        ]
     },
     "area": null,
     "sort": null,

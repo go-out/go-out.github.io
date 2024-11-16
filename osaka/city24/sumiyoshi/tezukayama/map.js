@@ -41,9 +41,24 @@ const tezukayamamap = {
             },
             'properties': {
                 'title': '晴明丘中央公園',
-                'address': '__',
+                'address': '阪堺電軌線の真横にある公園',
                 'link': null,
                 'tag': ['park'],
+                'zoom': 17
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5031513531751,34.62377337636144]
+            },
+            'properties': {
+                'title': 'ポアール 帝塚山本店',
+                'address': '帝塚山マダムから著名人迄甘く誘惑し続けている老舗洋菓子店',
+                'link': null,
+                'tag': ['spot'],
                 'zoom': 17
             },
             'featured': null
@@ -56,7 +71,7 @@ const tezukayamamap = {
             },
             'properties': {
                 'title': '帝塚山タワープラザ',
-                'address': '安藤忠雄が設計した初期の代表的住宅',
+                'address': '安藤忠雄が設計した初期代表作 店舗併用の共同住宅',
                 'link': null,
                 'tag': ['park'],
                 'zoom': 17

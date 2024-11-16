@@ -26,18 +26,28 @@
         ]
     ],
     "title": "平野・平野郷",
-    "subtitle": "Hirano",
+    "subtitle": "Hirano, Osaka",
     "description": "大阪府のほぼ中央 市内で最も人口の多い平野区の中央部",
     "info": {
         "note": [
-            "古い家々と多数の神社・仏閣、歴史ある町並みが多く残る地域"
+            "古い家々と多数の神社・仏閣、歴史ある町並みが多く残る地域",
+            "",
+            "<a href='../spot/?id=osaka-city24&area=hirano&name=spot'>ランドマーク・お気に入りの場所</a>"
         ],
         "links": [
             {
-                "text": "大阪市 Osaka City 24区",
-                "url": "?id=osaka&area=city24",
-                "target": "_self"
+                "text": "平野 (大阪市) - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/平野_(大阪市)",
+                "target": "_target"
+            },
+            {
+                "text": "大阪最古の商業都市・平野郷 - しっとんか大阪",
+                "url": "https://osaka-info.jp/local_journey/stopby-osaka/hiranogou/",
+                "target": "_target"
             }
+        ],
+        "youtube": [
+            "noYOXSQ_bbA"
         ]
     },
     "area": null,

@@ -1,0 +1,46 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=ID&area=エリア&name=名前",
+    "title": "タイトル",
+    "description": "説明文",
+    "info": {
+        "note": [
+            "",
+            "",
+            "<u>アクセス</u><br>__「__」から徒歩約__分"
+        ],
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

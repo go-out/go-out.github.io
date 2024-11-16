@@ -1,0 +1,106 @@
+{
+    "lastModified": "2024-5-2",
+    "url": "?id=osaka-city24&area=hirano&name=spot",
+    "title": "大阪市平野区 Hirano, Osaka",
+    "description": "大阪府のほぼ中央 市内で最も人口の多い平野区の中央部",
+    "info": {
+        "note": [
+            "古い家々と多数の神社・仏閣、歴史ある町並みが多く残る地域"
+        ],
+        "links": null,
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "サンアレイ平野 Sunarray Street Hirano",
+                "description": "平野本町通商店街・平野東商店会",
+                "year": 2024,
+                "month": 5,
+                "day": 2,
+                "note": [
+                    "ショッピングセンター「ビス平野」 から 平野公園まで続く商店街",
+                    "商店街内には、野の住民の手によリ、1993年から展開されてきた「町ぐるみ博物館」（新聞屋さん博物館・和菓子屋さん博物館・駄菓子屋さん博物館など）がある"
+                ],
+                "links": [
+                    {
+                        "text": "サンアレイ平野 - Google マップ",
+                        "url": "https://maps.app.goo.gl/skYcqFSmUiKhmGFN6",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMH2zlxtYPSmNRThiP9JR2ufL3BXaXJQwlwWoBk=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "chuou-nishi",
+                    "poster": "p/AF1QipMnBRRLiXVpyxCKpgnq1GvFCr3TLK7ws-mnlxW6=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipM88HJ5YAeVU5_V4Lw0XpeV1n1lc9DM67cklaVo=m18",
+                        "ggs/AF1QipMnBRRLiXVpyxCKpgnq1GvFCr3TLK7ws-mnlxW6=m18",
+                        "ggs/AF1QipPRwawSFa4xgFfI8cxfIrJWB_5vQUoikQjmu3p0=m18",
+                        "ggs/AF1QipNCnTO5x54w4Wj7hpiwyYAyfFDyoS3KoAMgfPY5=m18"
+                    ]
+                },
+                {
+                    "id": "chuou-higashi",
+                    "poster": "p/AF1QipMWegL6dgTyLQyz2KhqZYVt6vrZgpQW1gUMQpDo=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMWegL6dgTyLQyz2KhqZYVt6vrZgpQW1gUMQpDo=m18",
+                        "ggs/AF1QipMzEK9xNpdhNEcuEhq_z9oxl7OFP_kzUxzb6tZR=m18",
+                        "ggs/AF1QipMH2zlxtYPSmNRThiP9JR2ufL3BXaXJQwlwWoBk=m18",
+                        "ggs/AF1QipNZ2evcT0fipEidVIiuhlie1X2CDd7UfjRklRZQ=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "平野公園 Hirano Park",
+                "description": "近代河内音頭発祥の地 「河内音頭宗家初音家礎之地」",
+                "year": 2024,
+                "month": 5,
+                "day": 2,
+                "note": [
+                    "昭和三年の建てられた歴史の深い公園",
+                    "公園内には多くの遺産が残っている",
+                    "",
+                    "<u>アクセス</u><br>JR・Osaka Metro「平野」から徒歩約15分"
+                ],
+                "links": [
+                    {
+                        "text": "平野公園 - Google マップ",
+                        "url": "https://maps.app.goo.gl/BVTnQazCm4NdezGPA",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOJsWzewYFkZDX3FnfCQ1FfrYvg2S9uCe_vTiAc=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNirLjojeh7e2OTBSPKZjGKqwgRK71wvS8Zan87=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOGnqYPeb1ueGO5J8ycOTSKlzEpWVsN9cXCuoBu=m18",
+                        "ggs/AF1QipPZw_BoISw3E2BUbsjW4alvHhCAMTPQ6eqVPzKq=m18",
+                        "ggs/AF1QipO9SQtFyn1k5oniEDz6L3K3VVGGKHo3XBdOJHmn=m18",
+                        "ggs/AF1QipNirLjojeh7e2OTBSPKZjGKqwgRK71wvS8Zan87=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipOidYwZC3GHrUMJQtp2PXYYGbCpuHsYWmAfNUqo=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPw9XrdIuYDevuncu7qexcvB4Um9etV6o4n1VKe=m18",
+                        "ggs/AF1QipOidYwZC3GHrUMJQtp2PXYYGbCpuHsYWmAfNUqo=m18",
+                        "ggs/AF1QipOJsWzewYFkZDX3FnfCQ1FfrYvg2S9uCe_vTiAc=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

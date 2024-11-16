@@ -1,0 +1,85 @@
+{
+    "lastModified": "2024-10-25",
+    "url": "?id=osaka-city24&area=NishinariAbeno-tengachaya&name=spot",
+    "title": "天下茶屋 Tengachaya, Osaka",
+    "description": "古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地だった地",
+    "info": {
+        "note": [
+            "??"
+        ],
+        "links": null,
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "天神ノ森天満宮",
+                "description": "樹齢七百年ともいわれる楠木の大樹が境内に生い茂る、神聖な空気が漂う小さな天満宮",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "7月24・25日 夏祭り",
+                    "10月25日 10:00 ~ 秋季大例祭"
+                ],
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOLNwdjqtVMefiqKrFDQfS274_649Yi9HZldMfh=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOZ2AHb9gioOTRTbQBIMmVgkuehDvcs_puPbsgB=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOZ2AHb9gioOTRTbQBIMmVgkuehDvcs_puPbsgB=m18",
+                        "ggs/AF1QipODiFMJlBFbavcnUP_EFj7yPc_WDz0mHlHCscYM=m18",
+                        "ggs/AF1QipOLNwdjqtVMefiqKrFDQfS274_649Yi9HZldMfh=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipNFYW818XSdTy3wtbzw6EFRotI-lPJYX4s6zXvn=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPrQH2XPDtbYUcnK5jCaPQj9lBIN9IH4Iyp3eUy=m18",
+                        "ggs/AF1QipPnQKmGa96KeOlohwjH9qm7W8w5_gypL27fdcaf=m18",
+                        "ggs/AF1QipNRCvublWKgq2I_zt02B_6BwiIMSxPAv8m8mwtQ=m18",
+                        "ggs/AF1QipNFYW818XSdTy3wtbzw6EFRotI-lPJYX4s6zXvn=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "天下茶屋公園",
+                "description": "大きな樹木が茂る林に覆われた大阪市営公園",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "毎年9月頃から、西成区の花「萩」が見頃を迎える"
+                ],
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOcfhsMANpM3sequ1ywCRfLSARKymAdOnSafqYN=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOcfhsMANpM3sequ1ywCRfLSARKymAdOnSafqYN=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOcfhsMANpM3sequ1ywCRfLSARKymAdOnSafqYN=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPk6WcolNFwVaJjFEO4QgBmtnkteufbPcyiSXsE=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPk6WcolNFwVaJjFEO4QgBmtnkteufbPcyiSXsE=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

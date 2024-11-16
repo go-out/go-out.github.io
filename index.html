@@ -30,11 +30,36 @@
     <link rel="stylesheet" href="index/css/style.css">
     <link rel="stylesheet" href="index/css/index.css">
     <link rel="stylesheet" href="index/css/calender.css">
+    <link rel="stylesheet" href="index/css/dialog.css" />
     <style>
         main {
             position: relative;
             width: 100%;
-            height: calc(100dvh - 3rem);
+        }
+
+        @media (orientation: landscape) {
+            main {
+                height: calc(100dvh - 3rem);
+            }
+
+            @media screen and (width: 1280px) {
+                main {
+                    height: 100dvh;
+                }
+            }
+        }
+
+        @media (orientation: portrait) {
+            main {
+                height: 123dvw;
+                max-height: calc(100dvh - 3rem);
+            }
+
+            @media screen and (max-width: 550px) {
+                main {
+                    font-size: 3vw;
+                }
+            }
         }
 
         #map {
@@ -42,8 +67,8 @@
         }
     </style>
 
-    <script src="index/js/map.js"></script>
     <script src="log.js"></script>
+    <script src="index/js/map.js"></script>
     <script>
         const directory = "";
 
@@ -70,7 +95,8 @@
         };
 
         window.addEventListener("load", () => {
-            indexSpot(updatelog.length);
+            indexSpot('#indexLog', indexLog, indexLog.length);
+            indexSpot('#spotLog', spotLog, spotLog.length);
 
             mapSpot.forEach(function (eachArr) {
                 let arr = eval(eachArr[1] + eachArr[2]);
@@ -91,6 +117,7 @@
                     scrollElement.scrollLeft += e.deltaY;
                 });
             };
+            readmeMD("footer", "README.md");
         });
     </script>
 
@@ -103,7 +130,7 @@
     <main>
         <h1>
             <strong>Go Out</strong>
-            <button>Let's have some fun</button>
+            <button type="button" onclick="scrollEvent('calender')">Let's have some fun</button>
         </h1>
         <section>
             <h2>
@@ -124,10 +151,10 @@
         <section id="calender">
             <details>
                 <summary>
-                    <b id="lastModified">最終更新日</b>
-                    <small>Latest Update</small>
+                    <b>毎月の出来事</b>
+                    <small>Monthly Events</small>
                 </summary>
-                <ul id="log"></ul>
+                <ul id="every"></ul>
             </details>
             <ul id="spot">
                 <h3>
@@ -139,13 +166,29 @@
             </ul>
             <details>
                 <summary>
-                    <b>毎月の出来事</b>
-                    <small>Monthly Events</small>
+                    <b id="lastModified">更新履歴</b>
+                    <small>Update Log</small>
                 </summary>
-                <ul id="every"></ul>
+                <ul id="indexLog"></ul>
+                <ul id="spotLog"></ul>
             </details>
         </section>
     </article>
+
+    <footer></footer>
+
+    <dialog>
+        <input type="button" onclick="closeDialog()" value="×" />
+        <h2>
+            <b id="title">Life is precious. Every minute. And more precious with you in it.</b>
+            <u id="description">from "Jon Brion - Little Person"</u>
+        </h2>
+        <a id="link">
+            <small>もっと詳しく</small>
+            More Info
+        </a>
+        <div id="weather"></div>
+    </dialog>
 
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';

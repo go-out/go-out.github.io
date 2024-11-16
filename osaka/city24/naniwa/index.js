@@ -7,7 +7,7 @@ const naniwaindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49497702866643, 34.66539619953977]
+                'coordinates': [135.4956111522962, 34.66735321395423]
             },
             'properties': {
                 'title': 'OCAT・JR難波駅周辺',

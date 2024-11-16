@@ -97,7 +97,7 @@ function thisMap(obj) {
             js.src = directory + eachArr + '?' + obj.lastModified;
             document.head.appendChild(js);
         }, false);
-    }
+    };
 
     document.title = obj.title;
     const description = document.querySelector("meta[name='description']");
@@ -113,7 +113,7 @@ function thisMap(obj) {
         const ytimg = 'https://i.ytimg.com/vi/' + youtubeAll[0] + '/sddefault.jpg';
         document.querySelector('meta[property="og:image"]').content = ytimg;
         document.querySelector('meta[name="twitter:image"]').content = ytimg;
-    }
+    };
 
     document.addEventListener("readystatechange", (event) => {
         if (event.target.readyState === "interactive") {
@@ -227,6 +227,7 @@ function createLi(number, poster) {
 function createList(arr) {
     const ul = document.createElement('ul');
     document.querySelector("#area").appendChild(ul);
+
     for (const marker of arr.features) {
         const li = document.createElement('li');
         li.innerHTML = `
@@ -258,7 +259,7 @@ function createMarker(arr) {
             }
         } else {
             el.classList.add("goout");
-        }
+        };
 
         if (marker.properties.tag) {
             for (const tag of marker.properties.tag) {
@@ -289,12 +290,12 @@ function createFeatured(query, marker, featuredEach) {
     document.querySelector(query).appendChild(li);
 
     const h4 = document.createElement("h4");
+    li.appendChild(h4);
     if (featuredEach.title) {
         h4.textContent = featuredEach.title;
     } else {
         h4.textContent = marker.properties.title;
     };
-    li.appendChild(h4);
 
     if (featuredEach.thisYear) {
         let thisDay;
@@ -320,7 +321,7 @@ function createFeatured(query, marker, featuredEach) {
                             <rt>${weekdays[thisDay.getDay()]}</rt>
                             </ruby>
                             `;
-                        }
+                        };
                     };
                     date.innerHTML += '日';
 
@@ -363,8 +364,21 @@ function createFeatured(query, marker, featuredEach) {
     };
 
     li.addEventListener('click', () => {
+        flyToCenter(marker, marker.properties.zoom);
+        infoMore(marker.properties, marker.geometry.coordinates);
+        scrollEvent("map");
         //
     }, false);
+};
+
+function scrollEvent(id) {
+    const element = document.getElementById(id);
+    const targetDOMRect = element.getBoundingClientRect();
+    const targetTop = targetDOMRect.top + window.scrollY;
+    window.scrollTo({
+        top: targetTop,
+        behavior: 'smooth'
+    }), false;
 };
 
 function creatIndex(arr) {
@@ -403,32 +417,24 @@ function creatIndex(arr) {
                 const small = document.createElement('small');
                 small.textContent = city;
                 label.appendChild(small);
-            }
+            };
 
             input.addEventListener('change', () => {
                 if (name.zoom) {
                     map.flyTo({
                         center: name.coordinates,
-                        essential: true,
                         zoom: name.zoom
                     });
                     map.setMaxBounds(name.bounds);
                 } else {
                     map.flyTo({
                         center: name.coordinates,
-                        essential: true,
                         zoom: 11
                     });
                     map.setMaxBounds(name.bounds);
                 };
 
-                const element = document.getElementById("map");
-                const targetDOMRect = element.getBoundingClientRect();
-                const targetTop = targetDOMRect.top + window.pageYOffset;
-                window.scrollTo({
-                    top: targetTop,
-                    behavior: 'smooth'
-                });
+                scrollEvent("map");
             }, false);
         };
     };
@@ -548,7 +554,7 @@ function weatherAPI(lat, lon) {
             </p>
             `;
         });
-}
+};
 
 function closeDialog() {
     document.querySelector("#title").textContent = "行ったことのない場所へ行く";

@@ -1,0 +1,52 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "?id=ID&area=エリア&name=名前",
+    "map": {
+        "center": [
+            "中心座標"
+        ],
+        "bounds": [
+            [
+                "南西座標"
+            ],
+            [
+                "北東座標"
+            ]
+        ],
+        "zoom": 13.5
+    },
+    "jsonAll": [
+        [
+            "index"
+        ]
+    ],
+    "title": "行ったことのない場所へ",
+    "subtitle": "Go Out",
+    "description": "A Select Area 🌍 エリアを選択",
+    "info": {
+        "note": null,
+        "markdown": null,
+        "links": [
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

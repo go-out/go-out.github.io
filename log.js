@@ -1,15 +1,10 @@
 'use strict'
 
-const updatelog = [
+const indexLog = [
     [
         "2024-11-10",
         "index/?id=osaka-city24&area=naniwa",
         ["OCAT・JR難波駅周辺", "Osaka City Air Tarminal"]
-    ],
-    [
-        "2024-11-10",
-        "spot/?id=osaka&area=city24&name=midosuji",
-        ["御堂筋", "Midosuji"]
     ],
     [
         "2024-10-28",
@@ -22,16 +17,6 @@ const updatelog = [
         ["天下茶屋", "Tengachaya"]
     ],
     [
-        "2024-10-22",
-        "spot/?id=osaka-city24&area=tennoji&name=shitennoji",
-        ["四天王寺", "Shitennoji"]
-    ],
-    [
-        "2024-10-11",
-        "spot/?id=osaka&area=kawachi&name=kongo",
-        ["金剛山", "Mt. Kongo"]
-    ],
-    [
         "2024-09-06",
         "index/?id=osaka&area=senshu-sakai&name=sakai",
         ["フェニックス通り・土居川公園", "Sakai City, Sakai"]
@@ -40,6 +25,54 @@ const updatelog = [
         "2024-7-23",
         "index/?id=osaka-city24&area=KitaFukushima-gardencity",
         ["オオサカガーデンシティ", "Osaka Garden City"]
+    ],
+    [
+        "2024-5-16",
+        "index/?id=osaka-city24&area=MiyakojimaAsahi-sakuranomiya",
+        ["桜ノ宮（大川）リバーサイドパーク", "Sakuranomiya (Okawa) Riverside"]
+    ],
+    [
+        "2024-5-11",
+        "index/?id=osaka&area=hokusetsu-toyonaka",
+        ["豊中市 🌹 中部・東部・西部", "Toyonaka, Osaka"]
+    ],
+    [
+        "2024-5-5",
+        "index/?id=osaka-city24&area=KitaFukushima-shinumeda",
+        ["新梅田シティ", "Shin Umeda City"]
+    ],
+    [
+        "2024-5-2",
+        "index/?id=osaka-city24&area=hirano",
+        ["平野・平野郷", "Hirano Osaka"]
+    ],
+    [
+        "2024-1-11",
+        "index/?id=osaka-city24&area=sumiyoshi-tezukayama",
+        ["帝塚山", "Tezukayama"]
+    ],
+    [
+        "YYYY-MM-DD",
+        "index/?id=osaka-ferry",
+        ["渡し船に乗ろう", "Osaka City Ferries"]
+    ]
+]
+
+const spotLog = [
+    [
+        "2024-11-10",
+        "spot/?id=osaka&area=city24&name=midosuji",
+        ["御堂筋", "Midosuji"]
+    ],
+    [
+        "2024-10-22",
+        "spot/?id=osaka-city24&area=tennoji&name=shitennoji",
+        ["四天王寺", "Shitennoji"]
+    ],
+    [
+        "2024-10-11",
+        "spot/?id=osaka&area=kawachi&name=kongo",
+        ["金剛山", "Mt. Kongo"]
     ],
     [
         "2024-7-21",
@@ -67,16 +100,6 @@ const updatelog = [
         ["靭公園", "Utsubo Park"]
     ],
     [
-        "2024-5-16",
-        "index/?id=osaka-city24&area=MiyakojimaAsahi-sakuranomiya",
-        ["桜ノ宮（大川）リバーサイドパーク", "Sakuranomiya (Okawa) Riverside"]
-    ],
-    [
-        "2024-5-11",
-        "index/?id=osaka&area=hokusetsu-toyonaka",
-        ["豊中市 🌹 中部・東部・西部", "Toyonaka, Osaka"]
-    ],
-    [
         "2024-5-11",
         "spot/?id=osaka&area=hokusetsu-toyonaka&name=itami-airport",
         ["千里川土手", "Bank of Senrigawa River"]
@@ -90,16 +113,6 @@ const updatelog = [
         "2024-5-9",
         "spot/?id=osaka-city24&area=sumiyoshi&name=asakachuo",
         ["浅香中央公園", "Asaka Chuo Park"]
-    ],
-    [
-        "2024-5-5",
-        "index/?id=osaka-city24&area=KitaFukushima-shinumeda",
-        ["新梅田シティ", "Shin Umeda City"]
-    ],
-    [
-        "2024-5-2",
-        "index/?id=osaka-city24&area=hirano",
-        ["平野・平野郷", "Hirano Osaka"]
     ],
     [
         "2024-4-30",
@@ -143,7 +156,7 @@ const updatelog = [
     ],
     [
         "2024-3-18",
-        "spot/?id=osaka-city24&area=yodogawa-naniwacycleline",
+        "spot/?id=osaka-city24&area=yodogawa&name=naniwacycleline",
         ["なにわ自転車道", "Naniwa Cycle Line"]
     ],
     [
@@ -195,11 +208,6 @@ const updatelog = [
         "2024-1-17",
         "spot/?id=osaka&area=senshu-sakai&name=daisenkouen",
         ["大仙公園", "Daisen Park"]
-    ],
-    [
-        "2024-1-11",
-        "index/?id=osaka-city24&area=sumiyoshi-tezukayama",
-        ["帝塚山", "Tezukayama"]
     ],
     [
         "2024-1-11",
@@ -265,32 +273,27 @@ const updatelog = [
         "YYYY-MM-DD",
         "spot/?id=osaka-ferry&name=senbonmatsu",
         ["千本松渡船場", "Senbonmatsu Ferry Port"]
-    ],
-    [
-        "YYYY-MM-DD",
-        "index/?id=osaka-ferry",
-        ["渡し船に乗ろう", "Osaka City Ferries"]
     ]
 ]
 
-function indexSpot(max) {
+function indexSpot(query, arr, max) {
     for (let i = 0; i < max; i++) {
-        if (i < updatelog.length) {
+        if (i < arr.length) {
             const li = document.createElement("li");
-            document.querySelector('#log').appendChild(li);
+            document.querySelector(query).appendChild(li);
             const time = document.createElement("time");
-            time.textContent = updatelog[i][0];
-            time.setAttribute('datetime', updatelog[i][0]);
+            time.textContent = arr[i][0];
+            time.setAttribute('datetime', arr[i][0]);
             li.appendChild(time);
 
             const a = document.createElement("a");
-            a.href = directory + updatelog[i][1];
+            a.href = directory + arr[i][1];
             a.innerHTML = `
             <ruby>
-            ${updatelog[i][2][0]}
-            <rt>${updatelog[i][2][1]}</rt>
+            ${arr[i][2][0]}
+            <rt>${arr[i][2][1]}</rt>
             </ruby>`;
             li.appendChild(a);
-        }
-    }
+        };
+    };
 }
