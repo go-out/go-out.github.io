@@ -221,10 +221,6 @@ article {
         width: 5rem;
     }
 
-    article {
-        justify-content: space-between;
-    }
-
     #info {
         width: 60%;
     }
@@ -232,6 +228,10 @@ article {
     article aside {
         width: 40%;
         padding: 0.25rem 0.25rem 0.25rem 1.5rem;
+    }
+
+    article {
+        justify-content: space-between;
     }
 
     #lastModified {
@@ -251,13 +251,12 @@ article {
 }
 
 @media (orientation: portrait) {
-
     header {
         font-size: 3vw;
     }
 
     #top {
-        font-size: 2vw;
+        font-size: 1.55vw;
     }
 
     #top h1 strong,

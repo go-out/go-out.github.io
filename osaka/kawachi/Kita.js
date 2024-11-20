@@ -214,7 +214,15 @@ const kawachiKita = {
                 'link': null,
                 'tag': ['nature'],
                 'zoom': 14.5
-            }
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [11],
+                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'thisYear': null
+                }
+            ]
         },
         {
             'type': 'Feature',

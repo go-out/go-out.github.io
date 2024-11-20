@@ -78,11 +78,11 @@ async function readmeMD(query, url) {
 };
 
 function thisMap(obj) {
-    let spotArr
+    let spotArr;
     if (obj.jsonAll) {
-        spotArr = obj.jsonAll
+        spotArr = obj.jsonAll;
     } else {
-        spotArr = mapSpot
+        spotArr = mapSpot;
     };
 
     spotArr.forEach(function (eachArr) {
@@ -100,10 +100,17 @@ function thisMap(obj) {
     };
 
     document.title = obj.title;
+    const playBtn = document.querySelector("h1 u");
+    const ogTitle = document.querySelector("meta[property='og:title']");
+    playBtn.textContent = obj.title;
+    ogTitle.content = obj.title;
+
     const description = document.querySelector("meta[name='description']");
     const ogDescription = document.querySelector("meta[property='og:description']");
+    const h2 = document.querySelector("#info details summary");
     description.content = obj.description;
     ogDescription.content = obj.description;
+    h2.textContent = obj.description;
 
     const ogUrl = document.querySelector("meta[property='og:url']");
     ogUrl.content = obj.url;
@@ -115,52 +122,75 @@ function thisMap(obj) {
         document.querySelector('meta[name="twitter:image"]').content = ytimg;
     };
 
+    const subtitle = document.querySelector("h1 strong");
+    subtitle.innerHTML = obj.subtitle;
+
+    if (obj.cover) {
+        const coverAll = shuffle(obj.cover);
+        for (let i = 0; i < 9; i++) {
+            createLi(i, obj.directory + coverAll[i]);
+        };
+    };
+
+    const readme = document.querySelector("#readme");
+    if (obj.info.markdown && !obj.info.note) {
+        readmeMD("#readme", directory + obj.info.markdown);
+    } else if (!obj.info.markdown && obj.info.note) {
+        if (obj.info.note) {
+            for (const textEach of obj.info.note) {
+                readme.innerHTML += textEach + '<br/>';
+            };
+        };
+    } else {
+        readme.remove();
+    };
+
+    if (obj.info.links) {
+        const p = document.createElement('p');
+        p.innerHTML = '<u>関連ページ Related Pages</u>';
+        document.querySelector("#links").appendChild(p);
+
+        for (const eachLink of obj.info.links) {
+            const a = document.createElement('a');
+            a.href = eachLink.url;
+            a.textContent = eachLink.text;
+            a.setAttribute('target', eachLink.target);
+            p.appendChild(a);
+        };
+    };
+
+    const details = document.querySelector("#info details");
+    let orientation =
+        (screen.orientation || {}).type ||
+        screen.mozOrientation || screen.msOrientation;
+
+    if (
+        orientation === "landscape-primary" ||
+        orientation === "landscape-secondary"
+    ) {
+        // 画面が横向き（横長）の場合
+        details.open = true;
+    } else if (orientation === undefined) {
+        console.log("このブラウザは画面方向 API に対応していません :(");
+    };
+
     document.addEventListener("readystatechange", (event) => {
         if (event.target.readyState === "interactive") {
-            const playBtn = document.querySelector("h1 u");
-            const ogTitle = document.querySelector("meta[property='og:title']");
-            playBtn.textContent = document.title;
-            ogTitle.content = document.title;
-
-            const h2 = document.querySelector("#info details summary");
-            h2.textContent = obj.description;
-
-            const subtitle = document.querySelector("h1 strong");
-            subtitle.innerHTML = obj.subtitle;
-
-            if (obj.cover) {
-                const coverAll = shuffle(obj.cover);
-                for (let i = 0; i < 9; i++) {
-                    createLi(i, obj.directory + coverAll[i]);
-                };
+            if (obj.map) {
+                map.flyTo({
+                    center: obj.map.center,
+                    essential: true,
+                    zoom: obj.map.zoom
+                });
+                map.setMaxBounds(obj.map.bounds);
             };
 
-            const readme = document.querySelector("#readme");
-            if (obj.info.markdown && !obj.info.note) {
-                readmeMD("#readme", directory + obj.info.markdown);
-            } else if (!obj.info.markdown && obj.info.note) {
-                if (obj.info.note) {
-                    for (const textEach of obj.info.note) {
-                        readme.innerHTML += textEach + '<br/>';
-                    };
-                };
-            } else {
-                readme.remove();
+            if (obj.info.youtube) {
+                const youtubeAll = shuffle(obj.info.youtube);
+                youtubeID = youtubeAll[0];
+                player.loadVideoById({ videoId: youtubeID })
+                document.querySelector('#player').style.display = "block";
             };
-
-            if (obj.info.links) {
-                const p = document.createElement('p');
-                p.innerHTML = '<u>関連ページ Related Pages</u>';
-                document.querySelector("#links").appendChild(p);
-
-                for (const eachLink of obj.info.links) {
-                    const a = document.createElement('a');
-                    a.href = eachLink.url;
-                    a.textContent = eachLink.text;
-                    a.setAttribute('target', eachLink.target);
-                    p.appendChild(a);
-                };
-            }
         } else if (event.target.readyState === "complete") {
             if (obj.area) {
                 creatIndex(obj.area);
@@ -180,37 +210,6 @@ function thisMap(obj) {
                     Function(createList(arr))();
                 };
             }, false);
-
-            if (obj.map) {
-                map.flyTo({
-                    center: obj.map.center,
-                    essential: true,
-                    zoom: obj.map.zoom
-                });
-                map.setMaxBounds(obj.map.bounds);
-            };
-
-            const details = document.querySelector("#info details");
-            let orientation =
-                (screen.orientation || {}).type ||
-                screen.mozOrientation || screen.msOrientation;
-
-            if (
-                orientation === "landscape-primary" ||
-                orientation === "landscape-secondary"
-            ) {
-                // 画面が横向き（横長）の場合
-                details.open = true;
-            } else if (orientation === undefined) {
-                console.log("このブラウザは画面方向 API に対応していません :(");
-            };
-
-            if (obj.info.youtube) {
-                const youtubeAll = shuffle(obj.info.youtube);
-                youtubeID = youtubeAll[0];
-                player.loadVideoById({ videoId: youtubeID })
-                document.querySelector('#player').style.display = "block";
-            };
         };
     }, false);
 };

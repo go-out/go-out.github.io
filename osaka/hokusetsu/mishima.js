@@ -40,6 +40,28 @@ const hokusetsumishima = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.5847709471435, 34.877345587967795]
+            },
+            'properties': {
+                'title': '摂津峡公園',
+                'address': '芥川の中上流地域に位置する公園 渓谷の豊かな自然が感じられる景勝地',
+                'link': null,
+                'tag': ['park'],
+                'zoom': 15
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [11],
+                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'thisYear': null
+                }
+            ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.60887626996066, 34.89827281452929]
             },
             'properties': {

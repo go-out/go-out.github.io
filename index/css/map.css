@@ -196,6 +196,12 @@ main ul li {
 }
 
 @media (orientation: landscape) {
+    @media screen and (max-width: 550px) {
+        html {
+            font-size: 3vw;
+        }
+    }
+
     main {
         min-height: 56.25vw;
     }
@@ -243,6 +249,10 @@ main ul li {
 }
 
 @media (orientation: portrait) {
+    html {
+        font-size: 2.5vw;
+    }
+
     main {
         min-height: 100vw;
     }

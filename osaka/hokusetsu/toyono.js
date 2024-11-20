@@ -7,6 +7,30 @@ const hokusetsutoyono = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.53238759483844, 34.80964613078896]
+            },
+            'properties': {
+                'title': '万博記念公園',
+                'address': '太陽の塔がある 1970 年の万博会場にある公園',
+                'link': null,
+                'tag': ['park'],
+                'google': 'https://maps.app.goo.gl/Zj5Zg6AcxmbBW9KS8',
+                'zoom': 14
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [11],
+                    'date': '日本庭園やひょうたん池の紅葉が見頃を迎える',
+                    'note': null,
+                    'thisYear': null
+                }
+            ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.46720536590556, 34.77266977778039]
             },
             'properties': {
@@ -174,6 +198,28 @@ const hokusetsutoyono = {
                 'tag': ['spot'],
                 'zoom': 14
             }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4720442378852, 34.85177078149417]
+            },
+            'properties': {
+                'title': '箕面公園',
+                'address': '滝、仏教寺院、川岸の散歩道のある森林公園',
+                'link': null,
+                'tag': ['park'],
+                'zoom': 15
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [11],
+                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'thisYear': null
+                }
+            ]
         }
     ]
 }

@@ -23,6 +23,12 @@ const ChuoNishiindex = {
                     'month': [2],
                     'date': '区の花「梅」が春の見頃を迎える',
                     'thisYear': null
+                },
+                {
+                    'title': null,
+                    'month': [11],
+                    'date': '11月下旬 大阪城周辺で紅葉が見頃を迎える',
+                    'thisYear': null
                 }
             ]
         },

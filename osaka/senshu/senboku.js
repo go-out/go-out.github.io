@@ -15,7 +15,15 @@ const senshusenboku = {
                 'link': "spot/?id=osaka&area=senshu-sakai&name=daisenkouen",
                 'tag': ['park'],
                 'zoom': 15
-            }
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [11],
+                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'thisYear': null
+                }
+            ]
         },
         {
             'type': 'Feature',
