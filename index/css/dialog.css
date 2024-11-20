@@ -8,7 +8,7 @@ dialog p {
     font-family: 'KikaiChokoku', 'Arial Narrow', sans-serif;
 }
 
-dialog input[type="button"]:hover,
+dialog input[type="button"],
 #link {
     color: lemonchiffon;
     text-shadow: 0.1rem 0.1rem 0.1rem lightskyblue,
@@ -23,7 +23,7 @@ dialog input[type="button"]:hover,
 }
 
 #title,
-dialog input[type="button"] {
+dialog input[type="button"]:hover {
     color: lightskyblue;
 }
 
@@ -38,7 +38,7 @@ dialog {
 }
 
 dialog input[type="button"] {
-    font-size: 150%;
+    font-size: 555%;
 }
 
 #title {
@@ -75,7 +75,6 @@ dialog input[type="button"] {
     display: block;
 }
 
-dialog input[type="button"],
 #weather img {
     float: right;
 }
@@ -98,7 +97,7 @@ dialog input[type="button"] {
 }
 
 dialog input[type="button"] {
-    margin: 0;
+    margin: 0 0.5rem;
 }
 
 #weather {
@@ -119,4 +118,22 @@ dialog {
     max-width: 550px;
     min-height: 250px;
     max-height: 95dvh;
+}
+
+
+dialog input[type="button"] {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (orientation: landscape) {
+    dialog input[type="button"] {
+        right: 0;
+    }
+}
+
+@media (orientation: portrait) {
+    dialog input[type="button"] {
+        left: 0;
+    }
 }

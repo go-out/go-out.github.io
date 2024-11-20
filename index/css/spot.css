@@ -252,11 +252,11 @@ article {
 
 @media (orientation: portrait) {
     header {
-        font-size: 3vw;
+        font-size: 150%;
     }
 
     #top {
-        font-size: 1.55vw;
+        font-size: 1.75vw;
     }
 
     #top h1 strong,

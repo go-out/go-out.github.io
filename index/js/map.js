@@ -174,42 +174,40 @@ function thisMap(obj) {
         console.log("このブラウザは画面方向 API に対応していません :(");
     };
 
-    document.addEventListener("readystatechange", (event) => {
-        if (event.target.readyState === "interactive") {
-            if (obj.map) {
-                map.flyTo({
-                    center: obj.map.center,
-                    essential: true,
-                    zoom: obj.map.zoom
-                });
-                map.setMaxBounds(obj.map.bounds);
-            };
+    window.addEventListener("load", () => {
+        if (obj.area) {
+            creatIndex(obj.area);
+        };
 
-            if (obj.info.youtube) {
-                const youtubeAll = shuffle(obj.info.youtube);
-                youtubeID = youtubeAll[0];
-                player.loadVideoById({ videoId: youtubeID })
-                document.querySelector('#player').style.display = "block";
-            };
-        } else if (event.target.readyState === "complete") {
-            if (obj.area) {
-                creatIndex(obj.area);
-            };
+        if (obj.sort) {
+            createSort(obj.sort);
+        } else {
+            document.querySelector("#sort").remove();
+        };
 
-            if (obj.sort) {
-                createSort(obj.sort);
-            } else {
-                document.querySelector("#sort").remove();
+        if (obj.map) {
+            map.flyTo({
+                center: obj.map.center,
+                essential: true,
+                zoom: obj.map.zoom
+            });
+            map.setMaxBounds(obj.map.bounds);
+        };
+
+        spotArr.forEach(function (eachArr) {
+            let arr = eval(eachArr[1] + eachArr[2]);
+            Function(createMarker(arr))();
+
+            if (!obj.area) {
+                Function(createList(arr))();
             };
+        }, false);
 
-            spotArr.forEach(function (eachArr) {
-                let arr = eval(eachArr[1] + eachArr[2]);
-                Function(createMarker(arr))();
-
-                if (!obj.area) {
-                    Function(createList(arr))();
-                };
-            }, false);
+        if (obj.info.youtube) {
+            const youtubeAll = shuffle(obj.info.youtube);
+            youtubeID = youtubeAll[0];
+            player.loadVideoById({ videoId: youtubeID })
+            document.querySelector('#player').style.display = "block";
         };
     }, false);
 };
