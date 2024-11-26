@@ -139,7 +139,7 @@ const kawachiKita = {
             'properties': {
                 'title': '香里ケ丘',
                 'address': 'かつて「東洋一のマンモス団地」と呼ばれたニュータウン',
-                'link': "index/?id=osaka&area=kawachi&name=korigaoka",
+                'link': "index/?id=osaka-kawachi&area=korigaoka",
                 'tag': ['feature'],
                 'zoom': 14.5
             },
