@@ -26,8 +26,8 @@ const ChuoNishiindex = {
                 },
                 {
                     'title': null,
-                    'month': [11],
-                    'date': '11月下旬 大阪城周辺で紅葉が見頃を迎える',
+                    'month': [11,12],
+                    'date': '例年11月下旬から12月上旬、大阪城公園東側のイチョウ並木などの紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]

@@ -134,29 +134,75 @@ const kawachiKita = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.6520021086278, 34.79128984776638]
+                'coordinates': [135.65399897980524, 34.79119198561476]
             },
             'properties': {
-                'title': '香里団地',
+                'title': '香里ケ丘',
                 'address': 'かつて「東洋一のマンモス団地」と呼ばれたニュータウン',
-                'link': null,
-                'tag': ['spot'],
+                'link': "index/?id=osaka&area=kawachi&name=korigaoka",
+                'tag': ['feature'],
                 'zoom': 14.5
             },
             'featured': [
                 {
                     'title': null,
                     'month': [4],
-                    'date': '桜の時期、香里ケ丘中央公園・こもれび水路などの桜が見頃を迎え、日本庭園「以楽公園」が 1~2週間のみ（10~16時）一般開放される',
+                    'date': '例年4月上旬、香里ケ丘中央公園・こもれび水路などの桜が見頃を迎え、日本庭園「以楽公園」が 1~2週間のみ（10~16時）一般開放される',
                     'note': null,
                     'thisYear': null
                 },
                 {
                     'title': null,
                     'month': [11],
-                    'date': '紅葉期、いちょう・けやき通りが見頃を迎え、日本庭園「以楽公園」が 1~2週間のみ（10~16時）一般開放される',
+                    'date': '例年11月中旬から下旬、いちょう・けやき通りの紅葉が見頃を迎え、日本庭園「以楽公園」が 1~2週間のみ（10~16時）一般開放される',
                     'note': null,
                     'thisYear': null
+                }
+            ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.70956607960892, 34.78653228009544]
+            },
+            'properties': {
+                'title': '交野山',
+                'address': '源氏の滝 ~ せせらぎの道 ~ 山頂（観音岩）~ やまかぜの小路<br>生駒山地の北端 頂上に観音岩と呼ばれる巨岩が一つそびえる珍しい山',
+                'link': null,
+                'tag': ['nature'],
+                'zoom': 15
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6931858496559, 34.74780450810381]
+            },
+            'properties': {
+                'title': '磐船神社',
+                'address': '高さ12メートルにもなる巨大な磐座「天の磐船」を御神体とする聖地',
+                'link': "spot/?id=osaka&area=kawachi&name=iwafunejinja",
+                'tag': ['legacy'],
+                'zoom': 17.5
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [5],
+                    'date': null,
+                    'note': [
+                        '<b>春季例祭</b>'
+                    ],
+                    'thisYear': [
+                        {
+                            'year': 'every',
+                            'date': [5],
+                            'time': null,
+                            'note': null
+                        }
+                    ]
                 }
             ]
         },
@@ -178,6 +224,28 @@ const kawachiKita = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.68525996860348, 34.7526006150014]
+            },
+            'properties': {
+                'title': 'ほしだの森',
+                'address': '全長280m・高さ50mの巨大吊橋「星のブランコ」、天孫降臨伝説のある「哮が峰（たけるがみね）」をはじめ、多くの巨石が散在するアクティビティと冒険の森',
+                'link': "spot/?id=osaka&area=kawachi&name=hoshida",
+                'tag': ['nature'],
+                'zoom': 14.5
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [11, 12],
+                    'date': '例年11月下旬から12月上旬、コナラ・カエデなどの紅葉が見頃を迎える',
+                    'thisYear': null
+                }
+            ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.68253222329588, 34.7657540767315]
             },
             'properties': {
@@ -187,42 +255,6 @@ const kawachiKita = {
                 'tag': ['nature'],
                 'zoom': 15
             }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.6931858496559, 34.74780450810381]
-            },
-            'properties': {
-                'title': '磐船神社',
-                'address': '高さ12メートルにもなる巨大な磐座「天の磐船」を御神体とする聖地',
-                'link': null,
-                'tag': ['legacy'],
-                'zoom': 17.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.68525996860348, 34.7526006150014]
-            },
-            'properties': {
-                'title': 'ほしだの森',
-                'address': '全長280m・高さ50mの巨大吊橋「星のブランコ」、天孫降臨伝説のある「哮が峰（たけるがみね）」をはじめ、多くの巨石が散在するアクティビティと冒険の森',
-                'link': null,
-                'tag': ['nature'],
-                'zoom': 14.5
-            },
-            'featured': [
-                {
-                    'title': null,
-                    'month': [11],
-                    'date': '11月下旬 紅葉が見頃を迎える',
-                    'thisYear': null
-                }
-            ]
         },
         {
             'type': 'Feature',

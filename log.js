@@ -2,6 +2,11 @@
 
 const indexLog = [
     [
+        "2024-11-24",
+        "index/?id=osaka-kawachi&area=korigaoka",
+        ["香里ケ丘", "Kourigaoka"]
+    ],
+    [
         "2024-11-10",
         "index/?id=osaka-city24&area=naniwa",
         ["OCAT・JR難波駅周辺", "Osaka City Air Tarminal"]
@@ -59,6 +64,16 @@ const indexLog = [
 ]
 
 const spotLog = [
+    [
+        "2024-11-24",
+        "spot/?id=osaka&area=kawachi&name=iwafunejinja",
+        ["磐船神社", "Iwafune Jinja"]
+    ],
+    [
+        "2024-11-24",
+        "spot/?id=osaka&area=kawachi&name=hoshida",
+        ["ほしだの森", "Hoshida no Mori"]
+    ],
     [
         "2024-11-10",
         "spot/?id=osaka&area=city24&name=midosuji",

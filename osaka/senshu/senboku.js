@@ -20,7 +20,7 @@ const senshusenboku = {
                 {
                     'title': null,
                     'month': [11],
-                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'date': '例年11月中旬から下旬、日本庭園のモミジ・カエデ・イチョウなどの紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]

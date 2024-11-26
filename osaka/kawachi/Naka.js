@@ -174,7 +174,7 @@ const kawachiNaka = {
             },
             'properties': {
                 'title': 'なるかわの森',
-                'address': 'なるかわ、くさか、ぬかた、みずのみの4つのエリアからなる 広大な場所',
+                'address': 'なるかわ、くさか、ぬかた、みずのみの4つのエリアからなる広大な森',
                 'link': null,
                 'tag': ['nature'],
                 'zoom': 14.5
@@ -225,7 +225,7 @@ const kawachiNaka = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.6401060929773, 34.61257695468669]
+                'coordinates': [135.64022166232343, 34.61246927651371]
             },
             'properties': {
                 'title': '天照大神高座神社・岩戸神社',
@@ -260,7 +260,7 @@ const kawachiNaka = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.63949753771487, 34.60670647922619]
+                'coordinates': [135.63862340812022, 34.6065344174107]
             },
             'properties': {
                 'title': '恩智神社（天川山）',

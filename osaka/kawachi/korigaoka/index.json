@@ -1,0 +1,79 @@
+{
+    "lastModified": "2024-11-24",
+    "url": "?id=osaka-kawachi&area=korigaoka",
+    "map": {
+        "center": [
+            135.65399897980524,
+            34.79119198561476
+        ],
+        "bounds": [
+            [
+                135.64073389015698,
+                34.7841901351361
+            ],
+            [
+                135.66125255681186,
+                34.79999884467384
+            ]
+        ],
+        "zoom": 14
+    },
+    "jsonAll": [
+        [
+            "osaka/kawachi",
+            "korigaoka",
+            "map"
+        ]
+    ],
+    "title": "香里ケ丘 こうりがおか",
+    "subtitle": "Kourigaoka Hirakata-shi",
+    "description": "旧陸軍・香里製造所の跡地に開発されたニュータウン",
+    "info": {
+        "note": [
+            "完成当時は規模の大きさが話題となり「東洋一のマンモス団地」と呼ばれた、関西で初めての大規模住宅団地「香里団地」とその周辺",
+            "大小様々な公園、市役所の支所・ショッピングセンター・診療所・郵便局・駐在所などが計画的に設置され、けやき・いちょう・さくらなどの街路樹が四季を彩る",
+            "",
+            "<a href='../spot/?id=osaka-kawachi&area=korigaoka&name=spot'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "markdown": null,
+        "links": [
+            {
+                "text": "香里団地 - Wikipedia",
+                "url": "ja.wikipedia.org/wiki/香里団地",
+                "target": "_blank"
+            },
+            {
+                "text": "香里団地 | MUJI×UR 団地リノベーションプロジェクト | 無印良品の家",
+                "url": "https://www.muji.net/ie/mujiur/area/33_kouri.html",
+                "target": "_blank"
+            },
+            {
+                "text": "温熱環境を改善した団地のスターハウスのリノベーション | Magazine for MUJI LIFE",
+                "url": "https://house.muji.com/life/clmn/danchi/danchi_210216/",
+                "target": "_blank"
+            },
+            {
+                "text": "香里団地D地区（大阪府枚方市） - 団地R不動産",
+                "url": "https://www.realdanchiestate.jp/?p=734",
+                "target": "_blank"
+            }
+        ],
+        "youtube": [
+            "fsI5y0MgfQM"
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipMFp_YJV-Uu9cV5SuXNT18DKXN9ISV4a53l2mUP=w575-h325-p-k-no",
+        "p/AF1QipM3OLkRPODZWeSCAUksrJBxrNCvH_-Xsizq_Qek=w575-h325-p-k-no",
+        "p/AF1QipNQ4JqUul5t6fH2pZ3NH4YMRF1HLMwyeT2DBRT3=w575-h325-p-k-no",
+        "p/AF1QipMrIYsOMDWCTtbxETlAJUF5wwujYIzU7yfixzjQ=w575-h325-p-k-no",
+        "p/AF1QipPp910OBUAivWVibRuFxviIaOSQv7A9dEe3CYSP=w575-h325-p-k-no",
+        "p/AF1QipO1VjfdIGkHrt6Kb8jPfUJRm292Az4nzB5Tr__d=w575-h325-p-k-no",
+        "p/AF1QipNptzNiCDNnUA6Bj2KjBTw3uceLip9PWzsZFz-O=w575-h325-p-k-no",
+        "p/AF1QipPcScurx6lr6DfwGYyfuxvuzEViRHHBTvLBz-aM=w575-h325-p-k-no",
+        "p/AF1QipNIs84YUYFnxueIAtwGyCikyLKpHe2riR3KBO5F=w575-h325-p-k-no"
+    ]
+}

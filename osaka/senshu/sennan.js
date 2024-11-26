@@ -65,7 +65,7 @@ const senshusennan = {
                 {
                     'title': null,
                     'month': [11],
-                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'date': '例年11月中旬から下旬、七宝瀧寺までの参道沿いのモミジなどの紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]
@@ -74,7 +74,7 @@ const senshusennan = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.17229430999123,34.33136047756027]
+                'coordinates': [135.17229430999123, 34.33136047756027]
             },
             'properties': {
                 'title': '船守神社',

@@ -1,0 +1,80 @@
+{
+    "lastModified": "2024-11-24",
+    "url": "?id=osaka&area=kawachi&name=iwafunejinja",
+    "title": "磐船神社 Iwafune Jinja",
+    "description": "天の磐船を御神体とする饒速日命降臨の聖地",
+    "info": {
+        "note": [
+            "例祭日：春季例祭 5月5日",
+            "月次祭：毎月1日 午前11時",
+            "",
+            "<u>アクセス</u><br>__「__」から徒歩約__分"
+        ],
+        "links": [
+            {
+                "text": "大阪府交野市 | 磐船神社 | 天の磐船・岩窟めぐり",
+                "url": "https://www.iwafune-jinja.net/",
+                "target": "_blank"
+            },
+            {
+                "text": "磐船神社",
+                "url": "http://www.osk.3web.ne.jp/~iw082125/index-j.html",
+                "target": "_blank"
+            },
+            {
+                "text": "ニギハヤヒ - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/ニギハヤヒ",
+                "target": "_blank"
+            },
+            {
+                "text": "磐船神社(交野市) - Google マップ",
+                "url": "https://maps.app.goo.gl/LWHvH6MqeRb4P71L7",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "天の磐船・磐座めぐり",
+                "description": null,
+                "year": 2024,
+                "month": 11,
+                "day": 24,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipPMe-FzEh_GkvY8bKLfwOovm5AxArjoDL6m9FTL=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNCdR5KT34-Pt4B4s2HtRhGS5TUYRzdM2VY6gNf=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPMe-FzEh_GkvY8bKLfwOovm5AxArjoDL6m9FTL=m18",
+                        "ggs/AF1QipOPQCE_ccvGlS-I_m3fQqDVhDyCJWROEctu-vM1=m18",
+                        "ggs/AF1QipNCdR5KT34-Pt4B4s2HtRhGS5TUYRzdM2VY6gNf=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPHRn-vCQWdHeKEBhPqRe92FSaegoUebxvI63lF=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPHRn-vCQWdHeKEBhPqRe92FSaegoUebxvI63lF=m18",
+                        "ggs/AF1QipPb4RKPAAExkEH9Wp77I0_WHOGFi4GYgwDJsIvI=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipMEAuSOQdJj_UwkJ6HO_ESlebp6hNvg_bhA7Nwg=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMEAuSOQdJj_UwkJ6HO_ESlebp6hNvg_bhA7Nwg=m18",
+                        "ggs/AF1QipOsAJbSxU2e7HGEjee8DHYB7qp0AQUpQAdGlU2N=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -52,8 +52,8 @@ const hokusetsumishima = {
             'featured': [
                 {
                     'title': null,
-                    'month': [11],
-                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'month': [11, 12],
+                    'date': '例年11月下旬から12月上旬、もみじ谷や渓流沿いの紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]
@@ -65,15 +65,21 @@ const hokusetsumishima = {
                 'coordinates': [135.60887626996066, 34.89827281452929]
             },
             'properties': {
-                'id': 'kabusanji',
-                'title': '神峯山寺',
-                'address': '日本で最初に毘沙門天が安置された霊場 境内は大阪府立北摂自然公園に属する',
-                // 'link': "spot/?id=osaka&area=hokusetsu&name=kabusanji",
+                'title': '神峰山の森',
+                'address': '大阪府立北摂自然公園に属する深緑に包まれた自然園 ※現在、休園中',
+                // 'link': "spot/?id=osaka&area=hokusetsu&name=kabusan",
                 'tag': ['legacy'],
-                'google': 'https://maps.app.goo.gl/XmjknV3ozD3XCwKb7',
+                'google': 'https://maps.app.goo.gl/qkQg2KpSWqjMQ1VY8',
                 'zoom': 16.5
             },
-            'featured': null
+            'featured': [
+                {
+                    'title': "神峯山寺",
+                    'month': [11],
+                    'date': '例年11月上旬から下旬、カエデの紅葉が見頃を迎える',
+                    'thisYear': null
+                }
+            ]
         },
         {
             'type': 'Feature',

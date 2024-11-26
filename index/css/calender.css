@@ -186,7 +186,6 @@ main,
 }
 
 #calender ul li i,
-#calender ul li ruby,
 #calender #spot li h4,
 #calender #spot li small b,
 #calender #every ruby b,
@@ -195,6 +194,7 @@ main,
 }
 
 #calender ul li h3 strong,
+#calender ul li ruby,
 #calender summary,
 #calender summary small,
 article section h2 strong,

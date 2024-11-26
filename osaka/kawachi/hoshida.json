@@ -1,0 +1,72 @@
+{
+    "lastModified": "2024-11-24",
+    "url": "?id=osaka&area=kawachi&name=hoshida",
+    "title": "大阪府民の森 ほしだの森",
+    "description": "全国最大級の吊橋「星のブランコ」（長さ280m・高さ50m）での空中散歩が楽しめる自然公園",
+    "info": {
+        "note": [
+            "大阪府の北河内地域、奈良県に隣接する星のまち・七夕伝説の里「交野（かたの）市」のシンボル",
+            "全国最大級の吊橋「星のブランコ」がある総面積105ha（東京ドーム約22個分）の広大な大阪府民の森",
+            "",
+            "<u>アクセス</u><br>京阪交野線「私市駅」から徒歩約40分"
+        ],
+        "links": [
+            {
+                "text": "ほしだの森 大阪府民の森",
+                "url": "https://o-wonderforest.com/hoshida/",
+                "target": "_blank"
+            },
+            {
+                "text": "府民の森ほしだ園地 - Google マップ",
+                "url": "https://maps.app.goo.gl/LWYq6RCB66T3THjP9",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "星田妙見宮 ~ ほしだ園地",
+                "description": null,
+                "year": 2024,
+                "month": 11,
+                "day": 24,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipM6BA4Omoj_pOJf84iC9YnfxfEyF5OLB9VJg3kO=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNe2sOct9yVKtxadCBg4jqy0aMgb1m5V4o7I4H1=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNe2sOct9yVKtxadCBg4jqy0aMgb1m5V4o7I4H1=m18",
+                        "ggs/AF1QipM6BA4Omoj_pOJf84iC9YnfxfEyF5OLB9VJg3kO=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipO3yBBa9Ew0g6mo86WL2Y2Ba89z0sVKvu0Tc-cA=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipO3yBBa9Ew0g6mo86WL2Y2Ba89z0sVKvu0Tc-cA=m18",
+                        "ggs/AF1QipNSVIAOXS5tk8iNrcN0gPl9qyPtjrfeu0XS4G4X=m18",
+                        "ggs/AF1QipORD4zNRC3s9A1UsbF6_NH_P5GimgYiw22MB_Je=m18",
+                        "ggs/AF1QipMK5XE435nkLjW18PPBemHE15AGwe1KnGkh2Tbo=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipMyaEmXxD9XJi7yGniS_IRRsVCFrHfoOjeTIz62=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNXCcp9X1QeKsqnjvuHUHRLl7eX_CFyQOh3iB9h=m18",
+                        "ggs/AF1QipMyaEmXxD9XJi7yGniS_IRRsVCFrHfoOjeTIz62=m18",
+                        "ggs/AF1QipOl4VEYURIufM8IWaBnE8NNLCIKQkDdLpomDVzo=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -50,6 +50,12 @@ header button {
     background: lemonchiffon;
 }
 
+@media (orientation: portrait) {
+    article {
+        background: lemonchiffon;
+    }
+}
+
 header,
 #top h1 b::after,
 article h2 {
@@ -57,8 +63,7 @@ article h2 {
 }
 
 #top h1 b,
-article a[href],
-#lastModified {
+article a[href] {
     color: lemonchiffon;
 }
 

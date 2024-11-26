@@ -80,20 +80,20 @@ map.on('load', () => {
             'line-width': 11
         }
     });
-});
 
-map.on('mouseenter', 'line', () => {
-    map.getCanvas().style.cursor = 'pointer';
-});
+    map.on('mouseenter', 'line', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
 
-map.on('mouseleave', 'line', () => {
-    map.getCanvas().style.cursor = '';
-});
+    map.on('mouseleave', 'line', () => {
+        map.getCanvas().style.cursor = '';
+    });
 
-map.on('click', 'line', (e) => {
-    map.flyTo({
-        center: e.lngLat,
-        essential: true,
-        zoom: e.features[0].properties.zoom
+    map.on('click', 'line', (e) => {
+        map.flyTo({
+            center: e.lngLat,
+            essential: true,
+            zoom: e.features[0].properties.zoom
+        });
     });
 });

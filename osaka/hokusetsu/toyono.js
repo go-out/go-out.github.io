@@ -20,8 +20,15 @@ const hokusetsutoyono = {
             'featured': [
                 {
                     'title': null,
-                    'month': [11],
-                    'date': '日本庭園やひょうたん池の紅葉が見頃を迎える',
+                    'month': [10],
+                    'date': '例年10月下旬、西大路のプラタナス・けやきの丘の欅などの紅葉が見頃を迎える',
+                    'note': null,
+                    'thisYear': null
+                },
+                {
+                    'title': null,
+                    'month': [11, 12],
+                    'date': '例年11月中旬から12月上旬、日本庭園・ひょうたん池などでカエデ・メタセコイアなどの紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 }
@@ -111,8 +118,8 @@ const hokusetsutoyono = {
             'featured': [
                 {
                     'title': null,
-                    'month': [11],
-                    'date': '例年11月上旬、アメリカフウ（紅葉葉楓）が紅葉する',
+                    'month': [10],
+                    'date': '例年10月下旬、アメリカフウ（紅葉葉楓）の紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 }
@@ -156,7 +163,7 @@ const hokusetsutoyono = {
                 {
                     'title': null,
                     'month': [11],
-                    'date': '五月山周辺・市民の森・城跡公園が紅葉する',
+                    'date': '例年11月下旬から12月上旬、五月山周辺・市民の森・城跡公園などのサクラ・カエデなどの紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 }
@@ -203,7 +210,7 @@ const hokusetsutoyono = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4720442378852, 34.85177078149417]
+                'coordinates': [135.47265219675148, 34.8554673430925]
             },
             'properties': {
                 'title': '箕面公園',
@@ -215,8 +222,8 @@ const hokusetsutoyono = {
             'featured': [
                 {
                     'title': null,
-                    'month': [11],
-                    'date': '11月下旬 紅葉が見頃を迎える',
+                    'month': [12],
+                    'date': '例年11月下旬から12月上旬、イロハモミジやヤマモミジなどの紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]

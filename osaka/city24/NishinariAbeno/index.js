@@ -97,7 +97,7 @@ const NishinariAbenoindex = {
                 {
                     'title': null,
                     'month': [11, 12],
-                    'date': '11月下旬から12月上旬、メタセコイアの並木が美しく紅葉する',
+                    'date': '例年11月下旬から12月上旬、メタセコイア並木の紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]

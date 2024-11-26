@@ -21,10 +21,7 @@ function createHead(obj) {
     document.querySelector("meta[property='og:url']").content = "/map/spot/" + obj.url;
 
     document.title = obj.title;
-    const playBtn = document.querySelector("#title");
-    const ogTitle = document.querySelector("meta[property='og:title']");
-    playBtn.textContent = obj.title;
-    ogTitle.content = obj.title;
+    document.querySelector("meta[property='og:title']").content = obj.title;
 
     const description = document.querySelector("meta[name='description']");
     const ogDescription = document.querySelector("meta[property='og:description']");
@@ -59,12 +56,15 @@ function createHead(obj) {
             });
         };
     };
-
-    const lastModified = document.querySelector("#lastModified code");
-    lastModified.textContent = "最終更新日 " + obj.lastModified;
 };
 
 function createBody(obj) {
+    const playBtn = document.querySelector("#title");
+    playBtn.textContent = obj.title;
+
+    const lastModified = document.querySelector("#lastModified code");
+    lastModified.textContent = "最終更新日 " + obj.lastModified;
+
     const channel = document.querySelector('#channel');
     const collection = document.querySelector("#collection");
 

@@ -79,8 +79,8 @@ const JotoTsurumiindex = {
                 },
                 {
                     'title': null,
-                    'month': [11],
-                    'date': '区の花の一つ、「花水木」が紅葉する',
+                    'month': [11, 12],
+                    'date': '例年11月中旬から12月上旬、区の花の一つ「花水木」やメタセコイアなどの紅葉が見頃を迎える',
                     'thisYear': null
                 },
                 {

@@ -80,6 +80,7 @@ const hiranomap = {
         }
     ]
 };
+
 map.on('load', () => {
     map.addSource('addLine', {
         'type': 'geojson',
@@ -120,21 +121,21 @@ map.on('load', () => {
             'line-width': 11
         }
     });
-});
 
-map.on('mouseenter', 'line', () => {
-    map.getCanvas().style.cursor = 'pointer';
-});
-
-map.on('mouseleave', 'line', () => {
-    map.getCanvas().style.cursor = '';
-});
-
-map.on('click', 'line', (e) => {
-    map.flyTo({
-        center: e.lngLat,
-        essential: true,
-        zoom: e.features[0].properties.zoom
+    map.on('mouseenter', 'line', () => {
+        map.getCanvas().style.cursor = 'pointer';
     });
-    infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
+
+    map.on('mouseleave', 'line', () => {
+        map.getCanvas().style.cursor = '';
+    });
+
+    map.on('click', 'line', (e) => {
+        map.flyTo({
+            center: e.lngLat,
+            essential: true,
+            zoom: e.features[0].properties.zoom
+        });
+        infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
+    });
 });
