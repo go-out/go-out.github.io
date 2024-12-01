@@ -20,16 +20,8 @@ const suminoeindex = {
             'featured': [
                 {
                     'title': null,
-                    'month': [1, 12],
-                    'date': '区の花「山茶花」が見頃を迎える',
-                    'thisYear': null
-                }
-            ],
-            'featured': [
-                {
-                    'title': null,
                     'month': [12, 1],
-                    'date': '住之江区の花「さざんか」、椿・ナンテン（南天）・蝋梅（ロウバイ）など、冬の植物が見頃',
+                    'date': '住之江の花「山茶花」が見頃を迎える',
                     'thisYear': null
                 }
             ]
