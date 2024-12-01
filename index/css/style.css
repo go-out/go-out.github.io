@@ -40,6 +40,15 @@ footer {
     margin: 0;
 }
 
+details ul {
+    padding: 0.5rem 0;
+    margin: 0;
+}
+
+li {
+    list-style: inside none;
+}
+
 @font-face {
     font-family: "ipag";
     src: url("../fonts/ipag.ttc");

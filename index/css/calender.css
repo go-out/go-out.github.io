@@ -1,9 +1,19 @@
-li {
-    list-style: inside none;
+#calender #spot ruby rt,
+#calender #spot li ruby b,
+#calender #every li ruby b,
+#calender summary small {
+    font-family: "Kristina", "KikaiChokoku", 'Arial Narrow', sans-serif;
+    font-weight: 900;
 }
 
-#calender #spot li,
-#calender #date li.link::after {
+#calender summary b,
+#calender #spot h3 b,
+#calender ul li h4 {
+    font-family: 'KikaiChokoku', 'Arial Narrow', sans-serif;
+}
+
+#calender #date li.link::after,
+#calender #spot li {
     background: #fff;
 }
 
@@ -20,14 +30,16 @@ li {
     border-bottom: 0.1rem skyblue solid;
 }
 
-#calender ul li h3 strong,
 #calender summary,
+#calender h2 i,
 #calender h3 ruby rt,
 #calender #spot li ruby b,
+#calender ul li h3 strong,
 #calender ul a {
     color: skyblue;
 }
 
+#calender h2 small,
 #calender #date li small strong,
 #calender #date li.link:hover strong,
 #calender #spot h3::after,
@@ -44,6 +56,7 @@ li {
     color: #fff;
 }
 
+#calender h2 small,
 #calender #date li small strong,
 #calender #date li.link:hover strong,
 #calender #spot h3::after {
@@ -71,7 +84,6 @@ li {
 
 #calender #date li,
 #calender #spot li,
-#calender ul,
 #calender #every {
     padding: 0.5rem;
 }
@@ -84,12 +96,15 @@ li {
     padding: 0.25rem;
 }
 
+#calender h2 {
+    padding: 2rem 0.5rem;
+}
+
 #calender summary {
     height: 3rem;
     padding: 0.5rem 0.75rem;
 }
 
-#calender ul,
 #calender ul li,
 #calender #spot,
 #calender #every li h4,
@@ -97,8 +112,8 @@ li {
     margin: 0;
 }
 
+#calender ul li time,
 #calender #spot li h4,
-#calender #spot li time,
 #calender #spot li small {
     margin: 0.5rem;
 }
@@ -134,6 +149,7 @@ li {
 #calender #every li h4,
 #calender summary b {
     transform: scale(1, 1.23);
+    text-align: justify;
     text-align-last: justify;
     font-weight: bolder;
 }
@@ -147,7 +163,6 @@ li {
     writing-mode: vertical-rl;
 }
 
-main,
 #calender,
 #calender ul,
 #calender #date li {
@@ -160,6 +175,11 @@ main,
 
 #calender #spot h3 {
     position: sticky;
+}
+
+#calender,
+#calender h2 {
+    z-index: 5;
 }
 
 #calender #spot h3 {
@@ -185,34 +205,41 @@ main,
     font-size: 250%;
 }
 
+#calender #spot li ruby b {
+    font-size: 200%;
+}
+
 #calender ul li i,
-#calender #spot li h4,
+#calender h2,
+#calender ul li i,
 #calender #spot li small b,
-#calender #every ruby b,
-#spot li ruby b {
+#calender #spot li ruby b {
     font-size: 150%;
 }
 
-#calender ul li h3 strong,
 #calender ul li ruby,
+#calender ul li h3 strong,
 #calender summary,
 #calender summary small,
-article section h2 strong,
-article section h2 small b,
-article h3 {
+#calender #spot li h4,
+#calender #every ruby b {
     font-size: 125%;
 }
 
-#calender #every li h4,
-#calender h3 ruby rt {
+#calender h3,
+#calender #every li strong,
+#calender #every li h4 {
     font-size: 111%;
 }
 
 article section time,
-#calender ul ruby rt {
+#calender #spot h3 ruby rt,
+#calender #every ruby rt,
+#calender ul a ruby rt {
     font-size: 90%;
 }
 
+#calender #spot li ruby rt,
 #calender #every li i {
     font-size: 75%;
 }
@@ -224,6 +251,7 @@ article section h2 small {
 #calender #spot li p,
 #calender #spot li small {
     float: left;
+    max-width: calc(100% - 4.5rem);
 }
 
 #calender #spot li h4,
@@ -238,6 +266,7 @@ article section h2 small {
 
 article,
 article section h3,
+#calender,
 #calender ul,
 #calender #date li,
 #calender #every li {
@@ -252,10 +281,15 @@ article section h3,
     flex-wrap: wrap;
 }
 
+#calender {
+    flex-flow: column;
+}
+
 article section h3 {
     flex-wrap: wrap-reverse;
 }
 
+#calender,
 #calender #spot,
 article section h3 {
     justify-content: space-between;
@@ -291,8 +325,7 @@ article section h3 {
     gap: 0.5rem 1rem;
 }
 
-#collection h3,
-#collection button,
+#calender h2,
 #calender ul li h3,
 #calender ul li ruby,
 #calender,
@@ -301,6 +334,10 @@ article section h3 {
 }
 
 @media (orientation: landscape) {
+    #calender h2 {
+        position: sticky;
+        top: 0;
+    }
 
     #calender #date li {
         width: calc(100% / 2 - 1rem);
@@ -309,10 +346,17 @@ article section h3 {
 }
 
 @media (orientation: portrait) {
+    #calender h2 {
+        position: relative;
+    }
 
     #calender #date li,
     #calender #every li {
         width: 100%;
+    }
+
+    #calender #every li {
+        min-height: 3.5rem;
     }
 
     #calender #every li h4 {
@@ -322,6 +366,14 @@ article section h3 {
 
     #calender #every li p {
         width: 25%;
+    }
+
+    #calender #every {
+        padding: 0;
+    }
+
+    #calender #every li {
+        padding: 0.25rem;
     }
 
     #calender #every li small {
@@ -344,6 +396,6 @@ article section h3 {
     text-align: center;
     font-size: 75%;
     width: 4rem;
-    height: 3.33rem;
+    height: 3.5rem;
     transform: scale(0.95, 1.25) rotate(15deg);
 }

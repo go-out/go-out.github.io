@@ -37,10 +37,6 @@ dialog {
     font-weight: 900;
 }
 
-dialog input[type="button"] {
-    font-size: 555%;
-}
-
 #title {
     font-size: 111%;
 }
@@ -75,10 +71,6 @@ dialog input[type="button"] {
     display: block;
 }
 
-#weather img {
-    float: right;
-}
-
 dialog {
     padding: 0;
 }
@@ -93,47 +85,38 @@ dialog {
 }
 
 dialog input[type="button"] {
-    padding: 0.25rem 0.5rem;
+    padding: 0 1rem;
 }
 
 dialog input[type="button"] {
-    margin: 0 0.5rem;
-}
-
-#weather {
-    margin: 1rem 0 0;
+    margin: 0;
 }
 
 dialog p {
     margin: 0.25rem 0.5rem;
 }
 
-#weather img {
-    width: 5rem;
-    max-width: 25%;
-}
-
 dialog {
-    width: 95vw;
-    max-width: 550px;
-    min-height: 250px;
-    max-height: 95dvh;
+    width: 90vw;
+    max-width: 750px;
+    aspect-ratio: 16 / 9;
 }
 
 
 dialog input[type="button"] {
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    right: 0;
 }
 
 @media (orientation: landscape) {
     dialog input[type="button"] {
-        right: 0;
+        font-size: 500%;
     }
 }
 
 @media (orientation: portrait) {
     dialog input[type="button"] {
-        left: 0;
+        font-size: 400%;
     }
 }

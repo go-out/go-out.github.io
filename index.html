@@ -27,9 +27,9 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="card.png" />
 
-    <link rel="stylesheet" href="index/css/style.css">
-    <link rel="stylesheet" href="index/css/index.css">
-    <link rel="stylesheet" href="index/css/calender.css">
+    <link rel="stylesheet" href="index/css/style.css" />
+    <link rel="stylesheet" href="index/css/index.css" />
+    <link rel="stylesheet" href="index/css/calender.css" />
     <link rel="stylesheet" href="index/css/dialog.css" />
     <style>
         main {
@@ -62,9 +62,14 @@
     </style>
 
     <script src="log.js"></script>
-    <script src="index/js/map.js"></script>
+    <script src="index.js"></script>
     <script>
-        const directory = "";
+        const directory = "",
+            mapIndex = "",
+            lastModified = "YYYY-MM-DD";
+
+        const today = new Date(),
+            thisYear = today.getFullYear();
 
         // ?month=MM
         let params = new URLSearchParams(location.search),
@@ -80,39 +85,59 @@
 
         switch (document.readyState) {
             case "loading":
-                mapSpot.forEach(function (eachArr) {
+                mapJsonAll.forEach(function (eachArr) {
                     const js = document.createElement('script');
-                    js.src = directory + eachArr[0] + '/' + eachArr[1] + '/' + eachArr[2] + '.js?' + eachArr[3];
+                    js.src = mapIndex + eachArr[0] + '/' + eachArr[1] + '/' + eachArr[2] + '.js?' + eachArr[3];
                     document.head.appendChild(js);
                 }, false);
                 break;
         };
 
-        window.addEventListener("load", () => {
-            indexSpot('#indexLog', indexLog, indexLog.length);
-            indexSpot('#spotLog', spotLog, spotLog.length);
+        async function readmeMD(query, url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(innerText => {
+                    document.querySelector(query).innerText = innerText;
+                })
+        };
 
-            mapSpot.forEach(function (eachArr) {
+        function scrollEvent(id) {
+            const element = document.getElementById(id);
+            const targetDOMRect = element.getBoundingClientRect();
+            const targetTop = targetDOMRect.top + window.scrollY;
+            window.scrollTo({
+                top: targetTop,
+                behavior: 'smooth'
+            }), false;
+        };
+
+        window.addEventListener("load", () => {
+            mapJsonAll.forEach(function (eachArr) {
                 let arr = eval(eachArr[1] + eachArr[2]);
                 Function(featureSpot(arr))();
             }, false);
 
-            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                const scrollElement = document.querySelector('#spot')
-                scrollElement.addEventListener('wheel', (e) => {
-                    e.preventDefault()
-
-                    if (Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
-                    const maxScrollLeft = scrollElement.scrollWidth - scrollElement.clientWidth;
-                    if (
-                        (scrollElement.scrollLeft <= 0 && e.deltaY < 0) ||
-                        (scrollElement.scrollLeft >= maxScrollLeft && e.deltaY > 0)
-                    ) return;
-                    scrollElement.scrollLeft += e.deltaY;
-                });
-            };
+            indexSpot('#indexLog', indexLog, indexLog.length);
+            indexSpot('#spotLog', spotLog, spotLog.length);
             readmeMD("footer", "README.md");
-        });
+
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                const scrollElements = document.querySelectorAll('#calender #spot');
+                scrollElements.forEach(function (scrollElement) {
+                    scrollElement.addEventListener('wheel', (e) => {
+                        e.preventDefault()
+
+                        if (Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
+                        const maxScrollLeft = scrollElement.scrollWidth - scrollElement.clientWidth;
+                        if (
+                            (scrollElement.scrollLeft <= 0 && e.deltaY < 0) ||
+                            (scrollElement.scrollLeft >= maxScrollLeft && e.deltaY > 0)
+                        ) return;
+                        scrollElement.scrollLeft += e.deltaY;
+                    });
+                }, false);
+            };
+        }, false);
     </script>
 
     <!-- Mapbox -->
@@ -150,6 +175,7 @@
                 </summary>
                 <ul id="every"></ul>
             </details>
+
             <ul id="spot">
                 <h3>
                     <ruby>
@@ -158,6 +184,7 @@
                     </ruby>
                 </h3>
             </ul>
+
             <details>
                 <summary>
                     <b id="lastModified">更新履歴</b>
@@ -174,8 +201,8 @@
     <dialog>
         <input type="button" onclick="closeDialog()" value="×" />
         <h2>
-            <b id="title">Life is precious. Every minute. And more precious with you in it.</b>
-            <u id="description">from "Jon Brion - Little Person"</u>
+            <b id="title">Go Out</b>
+            <u id="description">行ったことのない場所へ行く</u>
         </h2>
         <a id="link">
             <small>もっと詳しく</small>
@@ -242,8 +269,9 @@
                         center: lng,
                         easing: zoom => zoom
                     })
-            }
-        }
+            };
+        };
+
         map.on("mousedown", () => { userInteracting = !0 }),
             map.on("dragstart", () => { userInteracting = !0 }),
             map.on("moveend", () => { spinGlobe() }),

@@ -192,7 +192,7 @@ const spotLog = [
     [
         "2024-2-27",
         "spot/?id=osaka-city24&area=ChuoNishi&name=kouzu",
-        ["高津宮・高津公園", "Kouzu-gu, Kouzu Park"]
+        ["高津宮・高津公園", "Kouzu-gu / Kouzu Park"]
     ],
     [
         "2024-2-27",
@@ -302,13 +302,11 @@ function indexSpot(query, arr, max) {
             li.appendChild(time);
 
             const a = document.createElement("a");
-            a.href = directory + arr[i][1];
-            a.innerHTML = `
-            <ruby>
-            ${arr[i][2][0]}
+            a.href = mapIndex + arr[i][1];
+            a.innerHTML = `<ruby>${arr[i][2][0]}
             <rt>${arr[i][2][1]}</rt>
             </ruby>`;
             li.appendChild(a);
         };
     };
-}
+};

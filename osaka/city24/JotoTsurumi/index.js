@@ -61,6 +61,12 @@ const JotoTsurumiindex = {
             'featured': [
                 {
                     'title': null,
+                    'month': [1, 2],
+                    'date': '区の花の一つ、「椿」が見頃を迎える',
+                    'thisYear': null
+                },
+                {
+                    'title': null,
                     'month': [4],
                     'date': '区の花の一つ、「チューリップ」が見頃を迎える',
                     'thisYear': null
@@ -81,12 +87,6 @@ const JotoTsurumiindex = {
                     'title': null,
                     'month': [11, 12],
                     'date': '例年11月中旬から12月上旬、区の花の一つ「花水木」やメタセコイアなどの紅葉が見頃を迎える',
-                    'thisYear': null
-                },
-                {
-                    'title': null,
-                    'month': [12, 1],
-                    'date': '区の花の一つ、「椿」が見頃を迎える',
                     'thisYear': null
                 }
             ]
