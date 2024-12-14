@@ -56,7 +56,7 @@ const yodogawamap = {
             },
             'properties': {
                 'title': '十三公園',
-                'address': '野球場・児童プールを備える淀川区最大規模を誇る公園 通称「ミードの森」 もくれんの花の名所',
+                'address': '野球場・児童プールを備える淀川区最大規模を誇る公園<br>もくれんの花の名所 通称「ミードの森」',
                 'link': null,
                 'tag': ['park'],
                 'zoom': 17

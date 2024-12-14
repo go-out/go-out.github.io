@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-1-21",
-    "url": "?id=osaka-city24&area=NaniwaTennoji&name=nambayasaka",
+    "url": "spot/?id=osaka-city24&area=NaniwaTennoji&name=nambayasaka",
     "title": "難波八阪神社 Nambayasaka Jinja",
     "description": "主な祭事",
+    "coordinates": [
+        135.4967084398741,
+        34.66137732303228
+    ],
     "info": {
         "note": [
             "<u>一月第三日曜日</u><br><b>綱引神事</b> <small>※ 大阪市指定 無形民俗文化財</small>",

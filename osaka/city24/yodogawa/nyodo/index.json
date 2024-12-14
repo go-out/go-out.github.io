@@ -1,6 +1,6 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=yodogawa-nyodo",
+    "url": "index/?id=osaka-city24&area=yodogawa-nyodo",
     "map": {
         "center": [
             135.45159142666427,
@@ -31,7 +31,7 @@
     "info": {
         "note": [
             "区の西側は中島工業団地 東側は住宅地",
-            "1年のうちで最も花の少ない晩秋から冬季にかけて、区の花「サザンカ」が咲き誇る"
+            "1年のうちで最も花の少ない晩秋から冬季にかけて、区の花「サザンカ」が咲く"
         ],
         "links": [
             {
@@ -39,8 +39,7 @@
                 "url": "https://www.city.osaka.lg.jp/nishiyodogawa/page/0000001039.html",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "area": null,
     "sort": null,

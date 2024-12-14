@@ -1,6 +1,6 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=KitaFukushima-nodafuji",
+    "url": "index/?id=osaka-city24&area=KitaFukushima-nodafuji",
     "map": {
         "center": [
             "中心座標"
@@ -17,9 +17,9 @@
     },
     "jsonAll": [
         [
-            "osaka/city24",
-            "KitaFukushima",
-            "index"
+            "osaka/city24/KitaFukushima",
+            "nodafuji",
+            "map"
         ]
     ],
     "title": "福島区 野田・玉川",

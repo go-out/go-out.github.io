@@ -7,30 +7,6 @@ const naniwaindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4956111522962, 34.66735321395423]
-            },
-            'properties': {
-                'title': 'OCAT・JR難波駅周辺',
-                'address': '大阪シティエアターミナル',
-                'link': 'index/?id=osaka-city24&area=naniwa',
-                'tag': ['feature'],
-                'iconSize': ['osaka/icon/naniwa.gif', '3rem', '3rem', 2],
-                'zoom': 15
-            },
-            'featured': [
-                {
-                    'title': "湊町リバープレイスフリーマーケット",
-                    'month': 'every',
-                    'date': '毎月末日曜日 10:00 ~ 16:00',
-                    'note': null,
-                    'thisYear': null
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.4967084398741, 34.66137732303228]
             },
             'properties': {
@@ -95,6 +71,51 @@ const naniwaindex = {
                     ]
                 }
             ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50247562196296, 34.655346531871615]
+            },
+            'properties': {
+                'title': '今宮戎神社',
+                'address': '商売繁盛の神様「えべっさん」として知られる戎神社',
+                'link': null,
+                'tag': ['spot'],
+                'zoom': 17
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50158918200532, 34.66134163746874]
+            },
+            'properties': {
+                'title': 'なんばパークス',
+                'address': '屋外階段と屋上は、豊富な植物（約500種類10万株）と多種の鳥・昆虫が生育する都心のオアシス「パークスガーデン」',
+                'link': null,
+                'tag': ['spot'],
+                'zoom': 17
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48616655591758, 34.66823546271246]
+            },
+            'properties': {
+                'title': '汐見橋駅',
+                'address': '南海高野線の起点駅 都会の真ん中のローカル駅',
+                'link': null,
+                'tag': ['spot'],
+                'zoom': 17.5
+            },
+            'featured': null
         }
     ]
 }

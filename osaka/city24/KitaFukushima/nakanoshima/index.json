@@ -1,6 +1,6 @@
 {
     "lastModified": "2024-10-28",
-    "url": "?id=osaka-city24&area=KitaFukushima-nakanoshima",
+    "url": "index/?id=osaka-city24&area=KitaFukushima-nakanoshima",
     "map": {
         "center": [
             135.49886358224114,
@@ -12,8 +12,8 @@
                 34.68463520140298
             ],
             [
-                135.51337768861168,
-                34.69744163325062
+                135.5137153746387,
+                34.6961880352237
             ]
         ],
         "zoom": 15.5
@@ -25,12 +25,21 @@
             "map"
         ]
     ],
-    "title": "中之島公園",
+    "lineArr": [
+        "nakanoshimaline"
+    ],
+    "title": "中之島 🌹 なかのしま",
     "subtitle": "Nakanoshima",
-    "description": "堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス",
+    "description": "堂島川と土佐掘川にはさまれた中洲 緑あふれる都心のオアシス",
     "info": {
         "note": [
-            "大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア",
+            "中之島の中心「淀屋橋」駅付近は、大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア",
+            "「北浜」「なにわ橋」駅より東はバラ園と芝生広場が広がる都市公園",
+            "「肥後橋」「渡辺橋」駅より西のエリアには、大阪を代表する2つの美術館がある",
+            "",
+            "<u>最寄駅</u>",
+            "Osaka Metro 「北浜」「淀屋橋」「肥後橋」",
+            "京阪中之島線 「なにわ橋」「大江橋」「渡辺橋」「中之島」",
             "",
             "<a href='../spot/?id=osaka-city24&area=KitaFukushima-nakanoshima&name=spot'>ランドマーク・お気に入りの場所</a>"
         ],
@@ -55,9 +64,6 @@
                 "url": "https://kodomohonnomori.osaka/",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "6DS2MuncFoE"
         ]
     },
     "directory": "https://lh3.googleusercontent.com/",

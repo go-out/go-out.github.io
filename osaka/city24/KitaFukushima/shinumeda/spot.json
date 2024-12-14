@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-5-5",
-    "url": "?id=osaka-city24&area=KitaFukushima-shinumeda&name=spot",
+    "url": "spot/?id=osaka-city24&area=KitaFukushima-shinumeda&name=spot",
     "title": "新梅田シティ Shin Umeda City",
     "description": "梅田スカイビルとウェスティンホテルからなる複合都市",
+    "coordinates": [
+        135.49011731810555,
+        34.70528697662549
+    ],
     "info": {
         "style": "spot",
         "note": [

@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=ChuoNishi&name=kawaguchi-church",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi&name=kawaguchi-church",
     "title": "日本聖公会 川口基督教会",
     "description": "Kawaguchi Christ Church Cathedral",
+    "coordinates": [
+        135.48218048030964,
+        34.68216955316264
+    ],
     "info": {
         "note": [
             "カトリックの伝統を大切に保ちながら、カトリック教会とプロテスタント教会の中道を歩む「橋渡しの教会」日本聖公会に属する教会",
@@ -22,12 +26,11 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
+                "text": "日本聖公会 川口基督教会 - Google マップ",
                 "url": "https://maps.app.goo.gl/Uk9pK49yxLqWxkdq8",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

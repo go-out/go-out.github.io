@@ -1,6 +1,6 @@
 {
     "lastModified": "2024-5-5",
-    "url": "?id=osaka-city24&area=KitaFukushima-shinumeda",
+    "url": "index/?id=osaka-city24&area=KitaFukushima-shinumeda",
     "map": {
         "center": [
             135.4901982,
@@ -53,9 +53,6 @@
                 "url": "https://ja.wikipedia.org/wiki/新梅田シティ",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "wNq8BidHmTc"
         ]
     },
     "directory": "https://lh3.googleusercontent.com/",

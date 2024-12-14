@@ -3,6 +3,10 @@
     "url": "?id=osaka&area=hokusetsu-toyonaka&name=itami-airport",
     "title": "千里川土手 Bank of Senrigawa River",
     "description": "伊丹空港へ着陸する飛行機が間近に見える「飛行機撮影の聖地」",
+    "coordinates": [
+        135.45321526119318,
+        34.771081175400866
+    ],
     "info": {
         "note": [
             "伊丹空港へ着陸する飛行機が間近に見える「飛行機撮影の聖地」",
@@ -16,9 +20,6 @@
                 "url": "https://www.city.toyonaka.osaka.jp/machi/kukou/kuko/access.html",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "Db-TYFr5BO8"
         ]
     },
     "videoAll": [

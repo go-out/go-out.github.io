@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-4-30",
-    "url": "?id=osaka-city24&area=NishinariAbeno&name=nishinaripark",
+    "url": "spot/?id=osaka-city24&area=NishinariAbeno&name=nishinaripark",
     "title": "西成公園 Nishinari Park",
     "description": "東側（津守駅側）は緑あふれる憩いの場・西側（渡船場側）は不法投棄ゴミ・不法占拠家屋群",
+    "coordinates": [
+        135.48208446522187,
+        34.645702567592465
+    ],
     "info": {
         "note": [
             "公園の西側へ抜ける小道、ブルーシートハウス群、木津川沿い一帯の工場地帯はここならではな異質な雰囲気",

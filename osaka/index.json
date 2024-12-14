@@ -1,5 +1,25 @@
 {
     "lastModified": "YYYY-MM-DD",
+    "url": "index/?id=osaka",
+    "title": "大阪観光マップ",
+    "subtitle": "Osaka Map",
+    "description": "Select an Area 🌍 エリアを選択",
+    "info": {
+        "note": null,
+        "markdown": "osaka/README.md",
+        "links": [
+            {
+                "text": "大阪市 24 区の花 🌸 Flowers of Osaka City",
+                "url": "?id=osaka&area=city24",
+                "target": "_self"
+            },
+            {
+                "text": "大阪渡船場マップ 〰️ Osaka City Ferries",
+                "url": "?id=osaka&area=ferry",
+                "target": "_self"
+            }
+        ]
+    },
     "map": {
         "center": [
             135.5062638133726,
@@ -29,8 +49,8 @@
             "index"
         ],
         [
-            "osaka/city24",
-            "yodogawa",
+            "osaka",
+            "city24",
             "index"
         ],
         [
@@ -60,21 +80,6 @@
         ],
         [
             "osaka/city24",
-            "MiyakojimaAsahi",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "JotoTsurumi",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "HigashinariIkuno",
-            "index"
-        ],
-        [
-            "osaka/city24",
             "sumiyoshi",
             "index"
         ],
@@ -96,6 +101,26 @@
         [
             "osaka/city24",
             "suminoe",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "yodogawa",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "MiyakojimaAsahi",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "JotoTsurumi",
+            "index"
+        ],
+        [
+            "osaka/city24",
+            "HigashinariIkuno",
             "index"
         ],
         [
@@ -137,17 +162,11 @@
     "lineArr": [
         "osaka/line.js"
     ],
-    "title": "大阪観光マップ",
-    "subtitle": "Osaka Map",
-    "description": "A Select Area 🌍 エリアを選択",
-    "info": {
-        "markdown": null
-    },
     "area": [
         {
             "id": "city24",
             "name": [
-                "市内",
+                "大阪市内",
                 "24区"
             ],
             "area": [
@@ -172,8 +191,8 @@
                     ],
                     "bounds": [
                         [
-                            135.40180003585772,
-                            34.68398124276675
+                            135.4056802626621,
+                            34.684315650958084
                         ],
                         [
                             135.5625901896664,
@@ -202,8 +221,8 @@
                     ],
                     "bounds": [
                         [
-                            135.47372873083702,
-                            34.62095464497363
+                            135.4765079588251,
+                            34.62111416015651
                         ],
                         [
                             135.53591901795068,
@@ -230,8 +249,8 @@
                     ],
                     "bounds": [
                         [
-                            135.52381947667314,
-                            34.63497638747964
+                            135.52640274623195,
+                            34.635230416801974
                         ],
                         [
                             135.599562053627,
@@ -257,8 +276,8 @@
                     ],
                     "bounds": [
                         [
-                            135.4752198535182,
-                            34.5834762
+                            135.47920397772975,
+                            34.58402220724585
                         ],
                         [
                             135.5803575557604,
@@ -285,12 +304,12 @@
                     ],
                     "bounds": [
                         [
-                            135.3425198,
-                            34.5834762
+                            135.34312051166762,
+                            34.59440052176771
                         ],
                         [
-                            135.4932384,
-                            34.699100890178386
+                            135.49090226257726,
+                            34.69756437005002
                         ]
                     ],
                     "zoom": 12.75
@@ -323,8 +342,8 @@
                     ],
                     "bounds": [
                         [
-                            135.33349594345594,
-                            34.73421871249429
+                            135.3288503210714,
+                            34.730369507473696
                         ],
                         [
                             135.53357898096806,
@@ -352,8 +371,8 @@
                     ],
                     "bounds": [
                         [
-                            135.482083500265,
-                            34.73839596340161
+                            135.48275391751145,
+                            34.74163194507672
                         ],
                         [
                             135.69336150462692,

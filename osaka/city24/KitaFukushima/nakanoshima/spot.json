@@ -1,14 +1,17 @@
 {
     "lastModified": "2024-10-28",
-    "url": "?id=osaka-city24&area=KitaFukushima-nakanoshima&name=spot",
+    "url": "spot/?id=osaka-city24&area=KitaFukushima-nakanoshima&name=spot",
     "title": "中之島 Nakanoshima",
     "description": "堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス",
+    "coordinates": [
+        135.49886358224114,
+        34.693357180699806
+    ],
     "info": {
         "note": [
             "大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア"
         ],
-        "links": null,
-        "youtube": null
+        "links": null
     },
     "videoAll": [
         {

@@ -2,6 +2,16 @@
 
 const indexLog = [
     [
+        "2024-12-3",
+        "index/?id=osaka-city24&area=ChuoNishi-obp",
+        ["大阪ビジネスパーク", "Osaka Business Park"]
+    ],
+    [
+        "2024-12-3",
+        "index/?id=osaka-city24&area=ChuoNishi-naniwanomiya",
+        ["難波宮", "Naniwa no miya"]
+    ],
+    [
         "2024-11-24",
         "index/?id=osaka-kawachi&area=korigaoka",
         ["香里ケ丘", "Kourigaoka"]
@@ -64,6 +74,11 @@ const indexLog = [
 ]
 
 const spotLog = [
+    [
+        "2024-12-3",
+        "spot/?id=osaka-city24&area=ChuoNishi&name=next21",
+        ["大阪ガス実験集合住宅", "NEXT21"]
+    ],
     [
         "2024-11-24",
         "spot/?id=osaka&area=kawachi&name=iwafunejinja",
@@ -146,7 +161,7 @@ const spotLog = [
     ],
     [
         "2024-4-7",
-        "spot/?id=osaka-city24&area=konohana-hokko&name=maishimakojo",
+        "spot/?id=osaka-city24&area=konohana&name=maishimakojo",
         ["大阪広域環境施設組合 舞洲工場", "Maishima Incineration Plant"]
     ],
     [
@@ -243,11 +258,6 @@ const spotLog = [
         "2023-12-21",
         "spot/?id=osaka-city24&area=NishinariAbeno&name=abenojinja",
         ["阿部野神社", "Abeno Jinja"]
-    ],
-    [
-        "2023-5-11",
-        "spot/?id=osaka-city24&area=sumiyoshi&name=sumiyoshi-park",
-        ["住吉公園", "Sumiyoshi Park"]
     ],
     [
         "YYYY-MM-DD",

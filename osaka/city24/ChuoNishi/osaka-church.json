@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-6-23",
-    "url": "?id=osaka-city24&area=ChuoNishi&name=osaka-church",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi&name=osaka-church",
     "title": "日本基督教団 大阪教会",
     "description": "Naniwa Church United Church of Christ in Japan",
+    "coordinates": [
+        135.4934984798873,
+        34.68944221507202
+    ],
     "info": {
         "note": [
             "日本基督教団に所属 伝統的なスタイルの礼拝を守り、洗礼と聖餐を大切にしているプロテスタント教会",
@@ -25,12 +29,11 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
+                "text": "日本基督教団大阪教会 - Google マップ",
                 "url": "https://maps.app.goo.gl/xh3dkqNj18TMmJ2T8",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

@@ -1,6 +1,6 @@
 {
-    "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=konohana-hokko",
+    "lastModified": "2024-4-7",
+    "url": "index/?id=osaka-city24&area=konohana-hokko",
     "map": {
         "center": [
             135.39572648489252,
@@ -47,10 +47,6 @@
                 "url": "https://ja.wikipedia.org/wiki/夢洲",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "RGVn0OmDrJA",
-            "mJw6qQt_T9o"
         ]
     },
     "area": null,
@@ -63,7 +59,7 @@
         "p/AF1QipMPCk7UQs-mhaKzl5OipoQCRhd5hKEkKqFs2Q08=w575-h325-p-k-no",
         "p/AF1QipPIjTuG-7YYGuI2ytqLiRrJSKLXSAlUUJxsg9qI=w575-h325-p-k-no",
         "p/AF1QipNdXIm01acMrj7i39vjQoDJXc3RtQ4L-RNamPii=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
+        "p/AF1QipNNUH6og0AVnk8bVv-d4mPchtxSfCIOP0ElCwfq=w575-h325-p-k-no",
         "p/__=w575-h325-p-k-no",
         "p/__=w575-h325-p-k-no"
     ]

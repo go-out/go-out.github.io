@@ -23,7 +23,8 @@
 }
 
 #info,
-select {
+select,
+#weather {
     font-family: 'KikaiChokoku', 'Arial Narrow', sans-serif;
 }
 
@@ -46,8 +47,17 @@ aside {
     text-align: right;
 }
 
-header button {
+#weather p u {
+    text-decoration: none;
+}
+
+header button,
+#weather p u {
     background: lemonchiffon;
+}
+
+footer {
+    background: skyblue;
 }
 
 @media (orientation: portrait) {
@@ -58,16 +68,19 @@ header button {
 
 header,
 #top h1 b::after,
-article h2 {
+article h2,
+#weather p u {
     color: lightskyblue;
 }
 
 #top h1 b,
-article a[href] {
+article a[href],
+footer {
     color: lemonchiffon;
 }
 
 #links p u,
+#lastModified code,
 #lastModified button {
     color: #fff;
 }
@@ -86,7 +99,8 @@ article a[href] {
         0.3rem 0.3rem 0.3rem lightskyblue;
 }
 
-#links p u {
+#links p u,
+#lastModified code {
     mix-blend-mode: difference;
 }
 
@@ -107,6 +121,10 @@ select {
     border-radius: 0.5rem;
 }
 
+#weather p u {
+    border-radius: 0.25rem;
+}
+
 #top h1 strong,
 #top h1 b,
 #lastModified button {
@@ -119,6 +137,10 @@ select {
 
 select {
     font-size: 100%;
+}
+
+#weather p u {
+    font-size: 90%;
 }
 
 #top h1 b::after {
@@ -144,16 +166,21 @@ aside {
 }
 
 #info p,
-#year {
+#year,
+select {
+    padding: 0.75rem;
+}
+
+article #info {
     padding: 0.5rem;
 }
 
-select {
+#weather p u {
     padding: 0.25rem;
 }
 
-article {
-    padding: 1rem 0.5rem 0.5rem;
+#weather p {
+    margin: 0.5rem;
 }
 
 #info p,
@@ -161,9 +188,13 @@ aside p {
     margin: 0.5rem 0 0;
 }
 
-#lastModified,
-select {
+select,
+#lastModified {
     margin-top: 1rem;
+}
+
+footer {
+    margin-top: 0.5rem;
 }
 
 select {
@@ -174,7 +205,8 @@ select {
 }
 
 .stop #top h1,
-#channel input {
+#channel input,
+#weather[hidden] {
     display: none;
 }
 
@@ -188,8 +220,14 @@ select {
 #top h1 b,
 article,
 #links p,
-#lastModified {
+#lastModified,
+footer {
     display: flex;
+}
+
+article,
+footer {
+    flex-wrap: wrap;
 }
 
 #links p {
@@ -236,7 +274,7 @@ article {
 
     article aside {
         width: 40%;
-        padding: 0.25rem 0.25rem 0.25rem 1.5rem;
+        padding: 1rem 0.5rem 0.5rem 1rem;
     }
 
     article {
@@ -283,7 +321,7 @@ article {
     }
 
     article aside {
-        padding: 1rem 0.25rem 0.25rem;
+        padding: 0.75rem;
     }
 
     article {
@@ -313,9 +351,18 @@ article {
     border: solid #fff 0.125rem;
 }
 
+
+footer,
+#channel {
+    justify-content: space-between;
+}
+
 #channel {
     overflow: auto;
-    justify-content: space-between;
+}
+
+#weather img {
+    width: 5rem;
 }
 
 #channel video {
@@ -325,7 +372,8 @@ article {
     height: 100%;
 }
 
-select {
+select,
+footer {
     width: 100%;
 }
 

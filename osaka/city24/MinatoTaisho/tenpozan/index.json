@@ -1,6 +1,6 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=MinatoTaisho-tenpozan",
+    "url": "index/?id=osaka-city24&area=MinatoTaisho-tenpozan",
     "map": {
         "center": [
             135.43325847628495,
@@ -20,9 +20,9 @@
     },
     "jsonAll": [
         [
-            "osaka",
-            "ferry",
-            "index"
+            "osaka/city24/MinatoTaisho",
+            "tenpozan",
+            "map"
         ]
     ],
     "title": "天保山",

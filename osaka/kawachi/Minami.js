@@ -7,14 +7,14 @@ const kawachiMinami = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.6747893143148, 34.52720808782091]
+                'coordinates': [135.6739198335335, 34.520353698011036]
             },
             'properties': {
                 'title': '二上山',
                 'address': '奈良と大阪にまたがる雄岳と雌岳の2つの山頂を持つ双耳峰<br>大阪側の山麓には、岩屋・鹿谷寺跡という2つの石窟を伴う寺院跡が残る',
                 'link': null,
                 'tag': ['nature'],
-                'zoom': 14
+                'zoom': 14.5
             },
             'featured': [
                 {
@@ -361,7 +361,7 @@ const kawachiMinami = {
                 {
                     'title': null,
                     'month': [11, 12],
-                    'date': '例年11月下旬から12月上旬、観心寺地区（楠公の里）・延命寺地区（もみじ公園）のモミジ・イチョウなどの紅葉が見頃を迎える',
+                    'date': '11月下旬から12月上旬、観心寺地区（楠公の里）・延命寺地区（もみじ公園）のモミジ・イチョウなどの紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 }

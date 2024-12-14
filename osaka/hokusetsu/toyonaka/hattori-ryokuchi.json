@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-5-11",
-    "url": "?id=osaka&area=hokusetsu-toyonaka&name=hattori-ryokuchi",
+    "url": "spot/?id=osaka&area=hokusetsu-toyonaka&name=hattori-ryokuchi",
     "title": "服部緑地 Hattori Well-being Park",
     "description": "緑豊かな森や庭、10以上の池、自然に満ちた大阪府下最大級の緑地公園",
+    "coordinates": [
+        135.4842513604408,
+        34.7763142625666
+    ],
     "info": {
         "note": [
             "<small>日本の都市公園100選や日本の歴史公園100選にも選出されている</small>",
@@ -17,10 +21,6 @@
                 "url": "https://hattori-ryokuchi.com/",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "wILMhra8cnA",
-            "mKcFF3wTRRg"
         ]
     },
     "videoAll": [

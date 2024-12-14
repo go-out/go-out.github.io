@@ -1,6 +1,6 @@
 {
     "lastModified": "2024-7-23",
-    "url": "?id=osaka-city24&area=KitaFukushima-gardencity",
+    "url": "index/?id=osaka-city24&area=KitaFukushima-gardencity",
     "map": {
         "center": [
             135.4927196,
@@ -25,6 +25,9 @@
             "map"
         ]
     ],
+    "lineArr": [
+        "gardencityline"
+    ],
     "title": "オオサカガーデンシティ",
     "subtitle": "Osaka Garden City",
     "description": "西梅田地区の大半を占める、オフィスビル・商業施設・ホテル・専門学校などで構成される超高層ビル群",
@@ -46,9 +49,6 @@
                 "url": "https://maps.app.goo.gl/w4qYUQJ4a1SbV3eG7",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "YLNMADWt9WI"
         ]
     },
     "area": null,

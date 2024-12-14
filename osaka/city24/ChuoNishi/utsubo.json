@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-5-17",
-    "url": "?id=osaka-city24&area=ChuoNishi&name=utsubo",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi&name=utsubo",
     "title": "靭公園 Utsubo Park",
-    "description": "西区を象徴する「バラ園」がある、ビジネス街の憩いの場・スポーツの場",
+    "description": "西区の花「桜・薔薇・パンジー・秋桜」が四季を彩る、ビジネス街の憩いの場",
+    "coordinates": [
+        135.4946219544732,
+        34.68585487999745
+    ],
     "info": {
         "note": [
             "四つ橋筋からあみだ池筋まで東西に細長い都市公園（総合公園）",
@@ -11,6 +15,8 @@
             "東園には、ケヤキ並木・バラ園、隣接して大阪科学技術館",
             "西園には、国際大会にも利用できる靱テニスセンターがある",
             "",
+            "靱公園のバラ園は、世界各地のバラ約160品種・約2,600株が揃う、大阪市内でもっとも歴史のあるバラ園",
+            "",
             "<u>最寄駅</u><br>Osaka Metro「本町」「阿波座」"
         ],
         "links": [
@@ -18,10 +24,22 @@
                 "text": "大阪市花と緑の情報サイト : 靭公園",
                 "url": "https://www.osakapark.osgf.or.jp/utsubo/",
                 "target": "_blank"
+            },
+            {
+                "text": "靱公園 ｜バラ園 、国際級のテニスコートを有する都市公園",
+                "url": "https://utsubotennis.osaka/",
+                "target": "_blank"
+            },
+            {
+                "text": "バラ園について - 靱公園",
+                "url": "https://utsubotennis.osaka/rose_garden/",
+                "target": "_blank"
+            },
+            {
+                "text": "靭公園 - Google マップ",
+                "url": "https://maps.app.goo.gl/kqqxfKXHfpYXfvPM8",
+                "target": "_blank"
             }
-        ],
-        "youtube": [
-            "od0M0-olc_c"
         ]
     },
     "videoAll": [

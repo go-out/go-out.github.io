@@ -1,8 +1,12 @@
 {
     "lastModified": "2023-12-31",
-    "url": "?id=osaka&area=kawachi&name=yaoairport",
+    "url": "spot/?id=osaka&area=kawachi&name=yaoairport",
     "title": "八尾空港 Yao Airport",
     "description": "定期便の就航はない「その他の空港」に位置づけられる国管理空港",
+    "coordinates": [
+        135.58834777513408,
+        34.596575215172464
+    ],
     "info": {
         "note": [
             "空港内には、遊覧飛行、航空機・ヘリコプターや航空グッズの販売を行う航空会社や陸上自衛隊の駐屯地があり、空港の南側には、滑走路を眺められる八尾空港南遊歩道がある",

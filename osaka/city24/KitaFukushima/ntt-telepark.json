@@ -1,11 +1,16 @@
 {
     "lastModified": "2024-5-17",
-    "url": "?id=osaka-city24&area=KitaFukushima&name=ntt-telepark",
-    "title": "NTTテレパーク堂島",
-    "description": "NTT Telepark Dojima ☏ 大阪市北区堂島３丁目",
+    "url": "spot/?id=osaka-city24&area=KitaFukushima&name=ntt-telepark",
+    "title": "NTT テレパーク堂島 Telepark Dojima",
+    "description": "4つのNTTグループビルで構成された大阪のNTTビル街",
+    "coordinates": [
+        135.49202747284153,
+        34.695196514094704
+    ],
     "info": {
         "note": [
-            "4つのNTTグループビルで構成された大阪のNTTビル街"
+            "大阪の近代化の立役者である五代友厚がいくつかの重要施設を設けたのち、1927年（昭和2年）に大阪中央電信局と大阪中央電話局がこの地に建てられ、戦後に電電公社へと組織を変え、現在に至る",
+            "設計は山田守と森泰治。大阪の近代史、また近現代建築史にとって特別な場所"
         ],
         "links": [
             {
@@ -14,12 +19,11 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
+                "text": "NTTテレパーク駐車場屋上コート - Google マップ",
                 "url": "https://maps.app.goo.gl/a6wNv4P17C41FDim7",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

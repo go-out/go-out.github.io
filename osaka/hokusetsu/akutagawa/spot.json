@@ -1,0 +1,166 @@
+{
+    "lastModified": "2024-5-5",
+    "url": "spot/?id=osaka-hokusetsu&area=akutagawa&name=spot",
+    "title": "大阪府高槻市 芥川",
+    "description": "Akutagawa Takatsuki, Osaka",
+    "info": {
+        "note": [
+            "",
+            "",
+            "<u>アクセス</u><br>__「__」から徒歩約__分"
+        ],
+        "links": [
+            {
+                "text": "芥川 (大阪府) - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/芥川_(大阪府)",
+                "target": "_blank"
+            },
+            {
+                "text": "芥川コラム - 高槻市ホームページ",
+                "url": "https://www.city.takatsuki.osaka.jp/soshiki/55/69945.html",
+                "target": "_blank"
+            }
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "芥川公園",
+                "description": "JR高槻駅から徒歩圏内にある公園",
+                "year": 2024,
+                "month": 5,
+                "day": 5,
+                "note": null,
+                "links": [
+                    {
+                        "text": "芥川公園 - 高槻市ホームページ",
+                        "url": "https://www.city.takatsuki.osaka.jp/site/odekakemap/3861.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "芥川公園 - Google マップ",
+                        "url": "https://maps.app.goo.gl/mPaWvNnEX3M4vPn66",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipNh6y9LKEyFOtDpqDl1GGohfDgEyYzvPhPn6xb0=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMV1Do10YbWkkgEDmr6MhBOMsfNE2ERSB0WKGHN=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMV1Do10YbWkkgEDmr6MhBOMsfNE2ERSB0WKGHN=m18",
+                        "ggs/AF1QipN15DKlfmpx7bsLP8e6Nd3jFFKxSLHItqHZtndQ=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMj9QlxEE8ad8dcwY0NjOuth2fJ3do6kyZY_UHg=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNh6y9LKEyFOtDpqDl1GGohfDgEyYzvPhPn6xb0=m18",
+                        "ggs/AF1QipMj9QlxEE8ad8dcwY0NjOuth2fJ3do6kyZY_UHg=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "芥川商店街",
+                "description": "JR高槻駅 西口から 約250m・徒歩3分",
+                "year": 2024,
+                "month": 5,
+                "day": 5,
+                "note": null,
+                "links": [
+                    {
+                        "text": "芥川商店街",
+                        "url": "https://akutagawa-shop.jp/",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "芥川商店街 - Google マップ",
+                        "url": "https://maps.app.goo.gl/uGwaDKSpWvW5Fj2PA",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipOOVPJcMjs-1tCdeC_l1BrtN65Eibp8qnyN-nWe=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOITp6WcvDRmZIOBZ4rA3V_3V4qm0rQGLp8hD8-=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOOVPJcMjs-1tCdeC_l1BrtN65Eibp8qnyN-nWe=m18",
+                        "ggs/AF1QipOrPaFs28JlkNPyAPYEZsThfzX1vWGt101BWqQx=m18",
+                        "ggs/AF1QipOITp6WcvDRmZIOBZ4rA3V_3V4qm0rQGLp8hD8-=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPpiA6KIuy0nbZz0TAkczQEoPATGrG-sBrIthTb=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMdyvtV0WGISmqD8PGl3ixwrhcQrcpBABicy29e=m18",
+                        "ggs/AF1QipOUsI4JcbEjLhqnLiWpHQLxz97-oGKuLw7Tmdsu=m18",
+                        "ggs/AF1QipPpiA6KIuy0nbZz0TAkczQEoPATGrG-sBrIthTb=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "芥川桜堤公園",
+                "description": null,
+                "year": 2024,
+                "month": 5,
+                "day": 5,
+                "note": null,
+                "links": [
+                    {
+                        "text": "芥川桜堤公園 - Google マップ",
+                        "url": "https://maps.app.goo.gl/zsHkesMXbUjqtKhE8",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipN5hl-jM8k_et6RO_ntxUrmJ-46BhT3ik9L-Ipk=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPepJijGwoMC1rLp5VDrI3Q5sPRLABkJUbym2CR=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPepJijGwoMC1rLp5VDrI3Q5sPRLABkJUbym2CR=m18",
+                        "ggs/AF1QipOA9A5t6SBqS_YIr6rkYEiAaX9KdZRvfcnLBt2I=m18",
+                        "ggs/AF1QipNLzP8uDPV3DxLeM07Ds-3NjEc5y7HRGU4HEmbd=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPpDhXntOCoxi83TiCija6EiS2sjwRBkqQCVWqG=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipN5hl-jM8k_et6RO_ntxUrmJ-46BhT3ik9L-Ipk=m18",
+                        "ggs/AF1QipPpDhXntOCoxi83TiCija6EiS2sjwRBkqQCVWqG=m18",
+                        "ggs/AF1QipMLaf1uVmIuGYCkDVNSVvsEBBx_3p27eVbPMNSV=m18",
+                        "ggs/AF1QipOAanbEP0HHtpr54E0L3Nh67HDUU7TaRURqiLXg=m18"
+                    ]
+                },
+                {
+                    "id": "three",
+                    "poster": "p/AF1QipPeJQIdjp6tF3gAdeSf9aiczob40lQcQpCCPKX2=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNfWp3yS31psNcNi7wIkNH59viFz--RL6TBk9W0=m18",
+                        "ggs/AF1QipNKdZXGYBmUxiW2TaNJc7BFf4v3XGtDfBI14H_9=m18",
+                        "ggs/AF1QipPCsMRZSuRr3N18t-4zTm8q93C1Lu0D7RurOZfk=m18",
+                        "ggs/AF1QipPeJQIdjp6tF3gAdeSf9aiczob40lQcQpCCPKX2=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

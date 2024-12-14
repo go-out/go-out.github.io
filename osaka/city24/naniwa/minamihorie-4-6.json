@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-3-16",
-    "url": "?id=osaka-city24&area=NaniwaTennoji-ocat&name=minamihorie-4-6",
+    "url": "spot/?id=osaka-city24&area=NaniwaTennoji-ocat&name=minamihorie-4-6",
     "title": "西区南堀江４丁目６",
     "description": "Minamihorie 4-6 Nishi-ku 🇯🇵 Osaka, Japan",
+    "coordinates": [
+        135.48446852567756,
+        34.66987890602696
+    ],
     "info": {
         "note": [
             "「道頓堀川水門」付近から汐見橋まで 道頓堀川沿の遊歩道",

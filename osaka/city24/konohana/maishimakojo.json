@@ -1,6 +1,6 @@
 {
     "lastModified": "2024-4-7",
-    "url": "?id=osaka-city24&area=konohana-hokko&name=maishimakojo",
+    "url": "spot/?id=osaka-city24&area=konohana&name=maishimakojo",
     "title": "大阪広域環境施設組合 舞洲工場",
     "description": "Maishima Incineration Plant 🇯🇵 Konhana Osaka, Japan",
     "info": {
@@ -19,9 +19,6 @@
                 "url": "https://www.osaka-env-paa.jp/kengaku/kojokengaku/index.html",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "mJw6qQt_T9o"
         ]
     },
     "videoAll": [

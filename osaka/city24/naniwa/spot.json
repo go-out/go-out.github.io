@@ -1,19 +1,24 @@
 {
     "lastModified": "2024-11-10",
-    "url": "?id=osaka-city24&area=naniwa&name=ocat",
-    "title": "OCAT・JR難波駅周辺",
-    "description": "",
+    "url": "spot/?id=osaka-city24&area=naniwa&name=spot",
+    "title": "大阪市浪速区 Naniwa-ku (Ward), Osaka",
+    "description": "旧国鉄「湊町駅」（現JR難波駅）貨物ヤード跡地の再開発エリア",
+    "coordinates": [
+        135.49491331945643,
+        34.66555289128374
+    ],
     "info": {
-        "note": null,
+        "note": [
+            "バスターミナル・JR難波駅を併設する複合商業施設「OCAT（大阪シティエアターミナル）」を中心とする水と緑に囲まれた高層ビル街",
+            "道頓堀川沿い「湊町リバープレイス」は水辺の憩いの場",
+            "浪速公園付近は、数多くの高層マンションが立ち並ぶ住宅街"
+        ],
         "links": [
             {
-                "text": "Google マップ",
-                "url": "https://maps.app.goo.gl/CY3wr2GfaePtaUTv5",
-                "target": "_blank"
+                "text": "ルネッサなんば Naniwa-ku (Ward), Osaka",
+                "url": "../index/?id=osaka-city24&area=naniwa",
+                "target": "_self"
             }
-        ],
-        "youtube": [
-            "vG9mga5XyWY"
         ]
     },
     "videoAll": [

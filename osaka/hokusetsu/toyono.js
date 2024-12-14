@@ -21,14 +21,14 @@ const hokusetsutoyono = {
                 {
                     'title': null,
                     'month': [10],
-                    'date': '例年10月下旬、西大路のプラタナス・けやきの丘の欅などの紅葉が見頃を迎える',
+                    'date': '10月下旬、西大路のプラタナス・けやきの丘の欅などの紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 },
                 {
                     'title': null,
                     'month': [11, 12],
-                    'date': '例年11月中旬から12月上旬、日本庭園・ひょうたん池などでカエデ・メタセコイアなどの紅葉が見頃を迎える',
+                    'date': '11月中旬から12月上旬、日本庭園・ひょうたん池などでカエデ・メタセコイアなどの紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 }
@@ -45,7 +45,7 @@ const hokusetsutoyono = {
                 'address': '中部は市街地（曽根・桜塚・長興寺等は高級住宅街）・東部は服部緑地・西部にも水と緑が多数',
                 // 'link': 'index/?id=osaka/hokusetsu&area=toyonaka',
                 'tag': ['feature'],
-                'zoom': 13.5
+                'zoom': 13
             },
             'featured': [
                 {
@@ -75,9 +75,30 @@ const hokusetsutoyono = {
                 'address': '緑豊かな森や庭、10以上の池、自然に満ちた大阪府下最大級の緑地公園',
                 'link': "spot/?id=osaka&area=hokusetsu-toyonaka&name=hattori-ryokuchi",
                 'tag': ['park'],
-                'zoom': 14
+                'zoom': 14,
+                "youtube": [
+                    "wILMhra8cnA",
+                    "mKcFF3wTRRg"
+                ]
             },
             'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.45321526119318, 34.771081175400866]
+            },
+            'properties': {
+                'title': '千里川土手',
+                'address': '飛行機撮影の聖地 伊丹空港へ着陸する飛行機が間近に見える魅力スポット',
+                'link': "spot/?id=osaka&area=hokusetsu-toyonaka&name=itami-airport",
+                'tag': ['spot'],
+                'zoom': 16,
+                "youtube": [
+                    "Db-TYFr5BO8"
+                ]
+            }
         },
         {
             'type': 'Feature',
@@ -96,48 +117,11 @@ const hokusetsutoyono = {
                 {
                     'title': null,
                     'month': [5, 6],
-                    'date': '5月下旬~6月上旬、千里東町公園内の竹林「千里の竹林」の葉が新旧入れ替わる',
+                    'date': '5月下旬から6月上旬、千里東町公園内の竹林「千里の竹林」の葉が新旧入れ替わる',
                     'note': null,
                     'thisYear': null
                 }
             ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49086102047562, 34.7539228040273]
-            },
-            'properties': {
-                'title': 'リーニュ・ブランシュの庭',
-                'address': '彫刻家マルタ・パンによる「都市と自然の美しい調和」をテーマとした３つの作品が展示されている、近現代彫刻作品の美術館「スキュルチュール江坂」をとりまく庭',
-                'link': "spot/?id=osaka&area=hokusetsu&name=amenityesaka",
-                'tag': ['park'],
-                'zoom': 17.5
-            },
-            'featured': [
-                {
-                    'title': null,
-                    'month': [10],
-                    'date': '例年10月下旬、アメリカフウ（紅葉葉楓）の紅葉が見頃を迎える',
-                    'note': null,
-                    'thisYear': null
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.45321526119318, 34.771081175400866]
-            },
-            'properties': {
-                'title': '千里川土手',
-                'address': '飛行機撮影の聖地 伊丹空港へ着陸する飛行機が間近に見える魅力スポット',
-                'link': "spot/?id=osaka&area=hokusetsu-toyonaka&name=itami-airport",
-                'tag': ['spot'],
-                'zoom': 16
-            }
         },
         {
             'type': 'Feature',
@@ -163,7 +147,7 @@ const hokusetsutoyono = {
                 {
                     'title': null,
                     'month': [11],
-                    'date': '例年11月下旬から12月上旬、五月山周辺・市民の森・城跡公園などのサクラ・カエデなどの紅葉が見頃を迎える',
+                    'date': '11月下旬から12月上旬、五月山周辺・市民の森・城跡公園などのサクラ・カエデなどの紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 }
@@ -196,20 +180,6 @@ const hokusetsutoyono = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5098788107552, 34.91482579920613]
-            },
-            'properties': {
-                'title': '北大阪ネオポリス',
-                'address': '別称「希望ケ丘」 郊外型ニュータウン',
-                'link': null,
-                'tag': ['spot'],
-                'zoom': 14
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.47265219675148, 34.8554673430925]
             },
             'properties': {
@@ -223,10 +193,24 @@ const hokusetsutoyono = {
                 {
                     'title': null,
                     'month': [12],
-                    'date': '例年11月下旬から12月上旬、イロハモミジやヤマモミジなどの紅葉が見頃を迎える',
+                    'date': '11月下旬から12月上旬、イロハモミジやヤマモミジなどの紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5098788107552, 34.91482579920613]
+            },
+            'properties': {
+                'title': '北大阪ネオポリス',
+                'address': '別称「希望ケ丘」 郊外型ニュータウン',
+                'link': null,
+                'tag': ['spot'],
+                'zoom': 14
+            }
         }
     ]
 }

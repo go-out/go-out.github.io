@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka&area=city24-suminoe&name=suminoe-park",
+    "url": "spot/?id=osaka&area=city24-suminoe&name=suminoe-park",
     "title": "住之江公園 Suminoe Park",
     "description": "「花と緑とふれあう」「広々とした施設で遊ぶ」「スポーツを楽しむ」の3つのコンセプトを持つ都市型総合公園",
+    "coordinates": [
+        135.47561189325947,
+        34.611269066903496
+    ],
     "info": {
         "note": [
             "園内には「花と緑のスクエア」（緑地ゾーン）、大池（野鳥が生息する）のほか、プール、テニスコート、野球場といったスポーツ施設がある</small>",
@@ -16,7 +20,7 @@
         ],
         "links": [
             {
-                "text": "Google マップ",
+                "text": "住之江公園 - Google マップ",
                 "url": "https://maps.app.goo.gl/57vctSgDGasj549W6",
                 "target": "_blank"
             }

@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-11-24",
-    "url": "?id=osaka&area=kawachi&name=hoshida",
+    "url": "spot/?id=osaka&area=kawachi&name=hoshida",
     "title": "大阪府民の森 ほしだの森",
     "description": "全国最大級の吊橋「星のブランコ」（長さ280m・高さ50m）での空中散歩が楽しめる自然公園",
+    "coordinates": [
+        135.68525996860348,
+        34.7526006150014
+    ],
     "info": {
         "note": [
             "大阪府の北河内地域、奈良県に隣接する星のまち・七夕伝説の里「交野（かたの）市」のシンボル",

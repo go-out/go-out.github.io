@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-ferry&name=ochiaikami",
+    "url": "spot/?id=osaka-ferry&name=ochiaikami",
     "title": "落合上（おちあいかみ）渡船場",
     "description": "大正区千島（たいしょうくちしま）⇄ 西成区北津守（にしなりくきたつもり）",
+    "coordinates": [
+        135.47882918904605,
+        34.64972048487182
+    ],
     "info": {
         "note": [
             "木津川（大正区千島1丁目 ⇄ 西成区北津守4丁目）を 渡船「北斗」「福崎丸」が 10 ~ 15分毎 運航",
@@ -16,6 +20,11 @@
             "<a href='https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8' target='_blank'>千島ガーデンモール</a> <a href='https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9' target='_blank'>セブンイレブン　大阪三軒家東4丁目店</a>"
         ],
         "links": [
+            {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
             {
                 "text": "大阪市：4.落合上（おちあいかみ）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011254.html",
@@ -31,8 +40,7 @@
                 "url": "https://maps.app.goo.gl/VFFRP7tDNjgQ3PfN8",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

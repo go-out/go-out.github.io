@@ -1,6 +1,6 @@
 {
     "lastModified": "2024-10-25",
-    "url": "?id=osaka-city24&area=NishinariAbeno-tengachaya",
+    "url": "index/?id=osaka-city24&area=NishinariAbeno-tengachaya",
     "map": {
         "center": [
             135.49960535615253,
@@ -26,7 +26,7 @@
         ]
     ],
     "title": "天下茶屋",
-    "subtitle": "Tengachaya, Osaka",
+    "subtitle": "Tengachaya",
     "description": "古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地だった地",
     "info": {
         "note": [
@@ -48,11 +48,6 @@
                 "url": "https://www.facebook.com/tonkatsu1ban/",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "xnIo-zFGejA",
-            "9v0VvxcsfwQ",
-            "tJWPXoMoyBk"
         ]
     },
     "area": null,

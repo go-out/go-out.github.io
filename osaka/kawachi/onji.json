@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-3-4",
-    "url": "?id=osaka&area=kawachi&name=onji",
+    "url": "spot/?id=osaka&area=kawachi&name=onji",
     "title": "恩智神社・天川山 Onji Jinja (Amakawa-Yama)",
     "description": "山の中腹の絶景を望める地に鎮座する河内の総鎮守",
+    "coordinates": [
+        135.63862340812022,
+        34.6065344174107
+    ],
     "info": {
         "note": [
             "<small>中世〜近世（正確な時期は不明）に恩智城が造られたとき、城が神社を見下す形になったためご加護が得られないとして、より高い現在地に遷座した</small>",
@@ -26,8 +30,7 @@
                 "url": "https://www.yao-citynet.co.jp/work_rental.htm",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

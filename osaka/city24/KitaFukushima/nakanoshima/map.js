@@ -14,6 +14,7 @@ const nakanoshimamap = {
                 'address': '芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水',
                 'link': null,
                 'tag': ['spot'],
+                'google': ['AF1QipO44-G12rF_iO6I631HQmX8qZMjJRnptscmVBsT'],
                 'zoom': 17.5
             }
         },
@@ -25,9 +26,40 @@ const nakanoshimamap = {
             },
             'properties': {
                 'title': '中之島バラ園',
-                'address': '例年5月中旬~下旬・10月中旬~下旬、北区の花「薔薇」が見頃を迎える',
+                'address': '5月中旬から下旬・10月中旬から下旬、北区の花「薔薇」が見頃を迎える',
                 'link': null,
                 'tag': ['spot'],
+                'google': ['AF1QipNlYNdJnA_OILaAG3rHvfYRC8eSUNsWY34HIdV3'],
+                'zoom': 18
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49886268341004, 34.69334485848053]
+            },
+            'properties': {
+                'title': '中之島緑道',
+                'address': '公募より選定された「水・緑・光」がテーマの10点の彫刻作品が設置されている自然とパブリックアートが共存した散歩道',
+                'link': null,
+                'tag': ['spot'],
+                'google': ['AF1QipN2tYsNtcFyxwqbR1wt0KViXe53B_PSAO1CAOIz'],
+                'zoom': 18
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4985346533332, 34.694737051583715]
+            },
+            'properties': {
+                'title': '中之島ガーデンブリッジ',
+                'address': '橋の中央に松岡阜の彫刻「そよかぜ」と憩いの空間がある歩行者専用の橋',
+                'link': null,
+                'tag': ['spot'],
+                'google': ['AF1QipOAj6GL35rEegqnxR7L-bNnqbc69tcLAIIFeYjg'],
                 'zoom': 18
             }
         },
@@ -63,20 +95,6 @@ const nakanoshimamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4985346533332, 34.694737051583715]
-            },
-            'properties': {
-                'title': '中之島ガーデンブリッジ',
-                'address': '堂島川（大江橋と渡辺橋の間）に架かる歩行者専用の橋<br>橋の中央には憩い空間・松岡阜の彫刻「そよかぜ」がある',
-                'link': null,
-                'tag': ['spot'],
-                'zoom': 18
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.4981908666473, 34.691967059316596]
             },
             'properties': {
@@ -84,6 +102,7 @@ const nakanoshimamap = {
                 'address': '旧住友財閥（現住友グループ）の拠点として建てられた建築物',
                 'link': null,
                 'tag': ['spot'],
+                'google': ['AF1QipMPKtmjqy1ll9ksoO-HzqAuZkdRKrBZ10_7UE1y'],
                 'zoom': 17
             }
         },
@@ -146,62 +165,23 @@ const nakanoshimamap = {
     ]
 }
 
-map.on('load', () => {
-    map.addSource('addLine', {
-        'type': 'geojson',
-        'data': {
-            'type': 'FeatureCollection',
-            'features': [
-                {
-                    'type': 'Feature',
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                            [135.49683495845989, 34.69302626281767],
-                            [135.49778088618484, 34.69314381499997],
-                            [135.49886209468758, 34.69334456574353],
-                            [135.50071263258218, 34.693311788541735]
-                        ]
-                    },
-                    'properties': {
-                        'title': '中之島緑道',
-                        'address': '公募より選定された「水・緑・光」がテーマの10点の彫刻作品が設置されている自然とパブリックアートが共存した散歩道',
-                        'link': null,
-                        'zoom': 16
-                    }
-                }
+const nakanoshimaline = [
+    {
+        'type': 'Feature',
+        'geometry': {
+            'type': 'LineString',
+            'coordinates': [
+                [135.49683495845989, 34.69302626281767],
+                [135.49778088618484, 34.69314381499997],
+                [135.49886209468758, 34.69334456574353],
+                [135.50071263258218, 34.693311788541735]
             ]
-        }
-    });
-
-    map.addLayer({
-        'id': 'line',
-        'type': 'line',
-        'source': 'addLine',
-        'layout': {
-            'line-join': 'round',
-            'line-cap': 'round'
         },
-        'paint': {
-            'line-color': 'lightskyblue',
-            'line-width': 11
+        'properties': {
+            'title': '中之島緑道',
+            'address': '公募より選定された「水・緑・光」がテーマの10点の彫刻作品が設置されている自然とパブリックアートが共存した散歩道',
+            'link': null,
+            'zoom': 16
         }
-    });
-
-    map.on('mouseenter', 'line', () => {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-    map.on('mouseleave', 'line', () => {
-        map.getCanvas().style.cursor = '';
-    });
-
-    map.on('click', 'line', (e) => {
-        map.flyTo({
-            center: e.lngLat,
-            essential: true,
-            zoom: e.features[0].properties.zoom
-        });
-        infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
-    });
-});
+    }
+]

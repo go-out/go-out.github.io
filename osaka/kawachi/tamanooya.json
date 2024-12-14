@@ -1,7 +1,11 @@
 {
-    "url": "?id=osaka&area=kawachi&name=tamanooya",
+    "url": "spot/?id=osaka&area=kawachi&name=tamanooya",
     "title": "玉祖神社 たまのおやじんじゃ",
     "description": "山口県周防国の「玉祖神社」本社から分霊された神社",
+    "coordinates": [
+        135.65258684112536,
+        34.63489393021517
+    ],
     "info": {
         "note": [
             "生駒山系である高安山の山腹に鎮座する、山口県防府市の元社から分霊された神社",

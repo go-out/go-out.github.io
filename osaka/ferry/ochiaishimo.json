@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-ferry&name=ochiaishimo",
+    "url": "spot/?id=osaka-ferry&name=ochiaishimo",
     "title": "落合下（おちあいしも）渡船場",
     "description": "大正区平尾（たいしょうくひらお）⇄ 西成区津守（にしなりくつもり）",
+    "coordinates": [
+        135.47911523706694,
+        34.643336261453044
+    ],
     "info": {
         "note": [
             "木津川（大正区平尾1丁目 ⇄ 西成区津守2丁目）を 渡船「さざなみ」「みどり丸」が 10 ~ 15分毎 運航",
@@ -16,6 +20,11 @@
             "<a href='https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8' target='_blank'>千島ガーデンモール</a>"
         ],
         "links": [
+            {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
             {
                 "text": "大阪市：5.落合下（おちあいしも）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011256.html",
@@ -31,8 +40,7 @@
                 "url": "https://maps.app.goo.gl/efLdahaJnSZP42RCA",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

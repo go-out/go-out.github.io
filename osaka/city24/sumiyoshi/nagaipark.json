@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=sumiyoshi&name=nagaipark",
+    "url": "spot/?id=osaka-city24&area=sumiyoshi&name=nagaipark",
     "title": "長居公園 Nagai Park",
     "description": "大阪を代表する総合公園 広大な緑あふれる都会のオアシス",
+    "coordinates": [
+        135.52055904000798,
+        34.612064797352744
+    ],
     "info": {
         "note": [
             "長居駅すぐの西南エリアにはイベント広場、北側にはスタジアム・プール・運動場など、東南の一角は植物園"
@@ -13,8 +17,7 @@
                 "url": "https://www.google.com/maps/contrib/104493917977768716042/",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

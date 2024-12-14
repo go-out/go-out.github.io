@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-ferry&name=senbonmatsu",
+    "url": "spot/?id=osaka-ferry&name=senbonmatsu",
     "title": "千本松（せんぼんまつ）渡船場",
     "description": "大正区南恩加島（たいしょうくみなみおかじま）⇄ 西成区南津守（にしなりくみなみつもり）",
+    "coordinates": [
+        135.47569470365949,
+        34.631793416745694
+    ],
     "info": {
         "note": [
             "千本松大橋の補完として、木津川（大正区南恩加島1丁目 ⇄ 西成区南津守2丁目）を 渡船「はるかぜ」「ちづる」が 10 ~ 15分毎 運航",
@@ -18,6 +22,11 @@
         ],
         "links": [
             {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
+            {
                 "text": "大阪市：6.千本松（せんぼんまつ）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011258.html",
                 "target": "_blank"
@@ -32,9 +41,6 @@
                 "url": "https://maps.app.goo.gl/ZqULrwQX4Cc78aSf7",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "SNw7eE2K0c0"
         ]
     },
     "videoAll": [

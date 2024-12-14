@@ -1,0 +1,74 @@
+{
+    "lastModified": "2024-12-03",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi&name=next21",
+    "title": "大阪ガス 実験集合住宅 NEXT21",
+    "description": "* 建物内には、住居者以外の立ち入り不可",
+    "coordinates": [
+        135.52171774921192,
+        34.67486064416808
+    ],
+    "info": {
+        "note": [
+            "1993年の建設以来、大阪ガスの社員が実際に居住し、「環境」「エネルギー」「暮らし」の面から、さまざまな実験・検証を続ける実験集合住宅",
+            "",
+            "<u>アクセス</u>",
+            "Osaka Metro 「谷町六丁目」から徒歩約5分"
+        ],
+        "links": [
+            {
+                "text": "大阪ガス実験集合住宅NEXT21/大阪ガス",
+                "url": "https://www.osakagas.co.jp/company/efforts/next21/",
+                "target": "_blank"
+            },
+            {
+                "text": "上町台地の時空につながる扉から",
+                "url": "https://www.og-cel.jp/project/ucoro/pdf/style1.pdf",
+                "target": "_blank"
+            },
+            {
+                "text": "緑と鳥の回廊と水の縁をめぐる",
+                "url": "https://www.og-cel.jp/project/ucoro/pdf/style2.pdf",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪ガス 実験集合住宅 NEXT21 - Google マップ",
+                "url": "https://maps.app.goo.gl/PALfuV9MG5aBvdaQA",
+                "target": "_blank"
+            }
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "NEXT21",
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipP6yU6TKQppkB8Cuf4IXlHKPYXnplAIij3X84Nd=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipOh1WCqSzhrT_Dr9p7o7YyB2LdUtrV2CN4iYOty=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipP6yU6TKQppkB8Cuf4IXlHKPYXnplAIij3X84Nd=m18",
+                        "ggs/AF1QipOh1WCqSzhrT_Dr9p7o7YyB2LdUtrV2CN4iYOty=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipMHGdCcuqNvC_kIpd8552zjgGViZueT9CG1IPqr=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMHGdCcuqNvC_kIpd8552zjgGViZueT9CG1IPqr=m18",
+                        "ggs/AF1QipPL5b4rnPPTHjo_CzOXx2OoQ0hUDkK7ViJ8Rez-=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

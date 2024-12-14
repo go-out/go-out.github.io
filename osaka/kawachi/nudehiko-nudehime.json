@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka&area=kawachi&name=nudehiko-nudehime",
+    "url": "spot/?id=osaka&area=kawachi&name=nudehiko-nudehime",
     "title": "鐸比古鐸比賣神社 ぬでひこ ぬでひめ じんじゃ",
     "description": "高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」",
+    "coordinates": [
+        135.6352076462621,
+        34.58979757372273
+    ],
     "info": {
         "style": "legacy",
         "note": [
@@ -27,7 +31,7 @@
         ],
         "links": [
             {
-                "text": "Google マップ",
+                "text": "鐸比古鐸比賣神社 - Google マップ",
                 "url": "https://maps.app.goo.gl/LnedKPD52urGvTD68",
                 "target": "_blank"
             }

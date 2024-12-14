@@ -1,39 +1,53 @@
 {
-    "lastModified": "2023-12-30",
-    "url": "?id=osaka-city24&area=sumiyoshi&name=sumiyoshitaisha",
+    "lastModified": "2024-5-3",
+    "url": "spot/?id=osaka-city24&area=sumiyoshi&name=sumiyoshitaisha",
     "title": "住吉大社 Sumiyoshi Taisha",
-    "description": "全国に約2300社ある住吉神社の総本社 年間百三十回をもこえる神事が執り行われる",
+    "description": "摂津国一之宮、いのちの根源、海の神",
+    "coordinates": [
+        135.4926136276414,
+        34.612467246011704
+    ],
     "info": {
         "note": [
             "全国に約2300社ある<ruby>住吉神社<rp>（</rp><rt>すみよしたいしゃ</rt><rp>）</rp></ruby>の総本社",
-            "境内には、国宝や重要文化財として大切に保存されている建物・文化財が多数残っている",
-            "また、摂社・末社まで加えると年間百三十回をもこえる神事が執り行われる",
+            "境内には、国宝や重要文化財として大切に保存されている建物・文化財が多数残る",
+            "摂社・末社まで加えると、年間130回をも超える神事が執り行われる",
             "",
             "<u>五月初卯日 十三時から</u><br><b><ruby>卯之葉神事<rp>（</rp><rt>うのはしんじ</rt><rp>）</rp></ruby></b>",
-            "<small>住吉大社の創立記念日を祝う祭典。卯の葉を使った玉串を捧げ祭典が行われ、石舞台にて舞楽が奉納されます。</small>",
+            "<small>住吉大社の創立記念日を祝う祭典。卯の葉を使った玉串を捧げ祭典が行われ、石舞台にて舞楽が奉納される</small>",
             "<u>六月十四日 十三時から</u><br><b><ruby>御田植神事<rp>（</rp><rt>おたうえしんじ</rt><rp>）</rp></ruby></b>",
-            "<small>稲作の始まりとともに、田んぼの神さまを祭る田植え行事</small>",
+            "<small>稲作の始まりとともに、田んぼの神さまを祭る田楽・田植え行事</small>",
             "<u>七月三十日～八月一日</u><br><b><ruby>住吉祭<rp>（</rp><rt>すみよしまつり</rt><rp>）</rp></ruby></b>",
-            "<small>大阪中をお祓いする「お清め」の意義があることから、古来より地元の人々からは住吉祭を指して「おはらい」とも呼ばれる</small>",
+            "<small>大阪中をお祓いする「お清め」の意義がある、大阪三大夏祭りの一つ</small>",
             "<u>九月中秋日 午後六時から</u><br><b><ruby>観月祭<rp>（</rp><rt>かんげつさい</rt><rp>）</rp></ruby></b>",
-            "<small>名月が上る中、反橋上で全国より募った献詠作品の中から入選歌を伝統的な作法にのっとり披講（ひこう）。次に住吉踊・舞楽が反橋上で奉納されます。</small>",
+            "<small>名月が上る中、全国より募った献詠作品より入選歌を伝統的な作法にのっとり披講（ひこう）（その後、住吉踊・舞楽が奉納される）</small>",
             "<u>十月十七日 午前十時から</u><br><b><ruby>宝之市神事<rp>（</rp><rt>たからのいちしんじ</rt><rp>）</rp></ruby></b>",
-            "<small>は御神田で育った稲穂を刈り取り、五穀と共に神様にお供えする神事 神事当日には境内で「市」が催される</small>",
+            "<small>は御神田で育った稲穂を刈り取り、五穀と共に神様にお供えする神事（境内では「市」が催される）</small>",
             "",
-            "<u>アクセス</u><br>阪堺線 「住吉鳥居前」から徒歩すぐ<br>南海本線「住吉大社」から徒歩約3分<br>南海高野線「住吉東」から徒歩約5分",
-            "",
-            "<a href='https://www.sumiyoshitaisha.net/' target='_blank'>住吉大社</a>",
-            "<a href='https://ja.wikipedia.org/wiki/住吉大社' target='_blank'>住吉大社 - Wikipedia</a>",
-            "<a href='https://bunka.nii.ac.jp/heritages/search?freetext=%25E4%25BD%258F%25E5%2590%2589%25E5%25A4%25A7%25E7%25A4%25BE&title=&artist=&prefecture_cd=27&city_code=27120&museum=&indexNum=20&sorttype=_' target='_blank'>住吉大社 大阪府の検索結果 文化遺産オンライン</a>"
+            "<u>アクセス</u><br>阪堺線 「住吉鳥居前」から徒歩すぐ<br>南海本線「住吉大社」から徒歩約3分<br>南海高野線「住吉東」から徒歩約5分"
         ],
         "links": [
             {
-                "text": "Google マップ",
+                "text": "住吉大社",
+                "url": "https://www.sumiyoshitaisha.net/",
+                "target": "_blank"
+            },
+            {
+                "text": "住吉大社 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/住吉大社",
+                "target": "_blank"
+            },
+            {
+                "text": "住吉大社 大阪府の検索結果 文化遺産オンライン",
+                "url": "https://bunka.nii.ac.jp/heritages/search?freetext=%25E4%25BD%258F%25E5%2590%2589%25E5%25A4%25A7%25E7%25A4%25BE&title=&artist=&prefecture_cd=27&city_code=27120&museum=&indexNum=20&sorttype=_",
+                "target": "_blank"
+            },
+            {
+                "text": "住吉大社 - Google マップ",
                 "url": "https://maps.app.goo.gl/hjFBjYXn83wFTK417",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

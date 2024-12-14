@@ -13,10 +13,8 @@ const tengachayamap = {
                 'title': '天下茶屋公園',
                 'address': '大きな樹木が茂る林に覆われた大阪市営公園',
                 'link': null,
+                'google': ['AF1QipOcfhsMANpM3sequ1ywCRfLSARKymAdOnSafqYN'],
                 'tag': ['park'],
-                'youtube': [
-                    'T3dnf2uGUw0'
-                ],
                 'zoom': 17.5
             }
         },
@@ -30,9 +28,10 @@ const tengachayamap = {
                 'title': '天神ノ森天満宮',
                 'address': '樹齢七百年ともいわれる楠木の大樹が境内に生い茂る、神聖な空気が漂う小さな天満宮',
                 'link': null,
+                'google': ['AF1QipOLNwdjqtVMefiqKrFDQfS274_649Yi9HZldMfh'],
                 'tag': ['legacy'],
                 'youtube': [
-                    'dZRBkoIMVg0'
+                    "xnIo-zFGejA"
                 ],
                 'zoom': 17.5
             }
@@ -47,6 +46,7 @@ const tengachayamap = {
                 'title': '正圓寺',
                 'address': '天下茶屋の聖天さん 聖天山（しょうてんやま）古墳の山頂',
                 'link': "spot/?id=osaka-city24&area=NishinariAbeno&name=shoutenyama",
+                'google': ['AF1QipOCFOR0BfS9_7df9mQ9P60Itf7B8-QLlbDSJKFH'],
                 'tag': ['legacy'],
                 'zoom': 16.5
             }
@@ -61,6 +61,7 @@ const tengachayamap = {
                 'title': '阿部野神社',
                 'address': '境内にあるお茶室「中今亭庭園」とそのお庭は、毎月第1・第3日曜日に限定公開',
                 'link': "spot/?id=osaka-city24&area=NishinariAbeno&name=abenojinja",
+                'google': ['AF1QipNVUOo3dz_cAiOeDeYgWBt6v_jablKQgzJiIVwp'],
                 'tag': ['legacy'],
                 'zoom': 17
             }
@@ -69,7 +70,7 @@ const tengachayamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49543867033282,34.63469290608137]
+                'coordinates': [135.49543867033282, 34.63469290608137]
             },
             'properties': {
                 'title': '大阪フィルハーモニー会館',

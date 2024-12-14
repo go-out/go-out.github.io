@@ -1,14 +1,17 @@
 {
     "lastModified": "2024-5-2",
-    "url": "?id=osaka-city24&area=hirano&name=spot",
+    "url": "spot/?id=osaka-city24&area=hirano&name=spot",
     "title": "大阪市平野区 Hirano, Osaka",
     "description": "大阪府のほぼ中央 市内で最も人口の多い平野区の中央部",
+    "coordinates": [
+        135.5547078589854,
+        34.626099153186885
+    ],
     "info": {
         "note": [
             "古い家々と多数の神社・仏閣、歴史ある町並みが多く残る地域"
         ],
-        "links": null,
-        "youtube": null
+        "links": null
     },
     "videoAll": [
         {

@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=suminoe&name=nankou-uotsuri-en",
+    "url": "spot/?id=osaka-city24&area=suminoe&name=nankou-uotsuri-en",
     "title": "南港魚つり園護岸",
     "description": "Nanko Fishing Port 🎣 Suminoe Osaka, Japan",
+    "coordinates": [
+        135.40321231095652,
+        34.61474176055877
+    ],
     "info": {
         "note": [
             "大きな空と海を一望できる気持ちのいい場所",

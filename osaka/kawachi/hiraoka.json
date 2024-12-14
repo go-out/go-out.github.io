@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-2-27",
-    "url": "?id=osaka&area=kawachi&name=hiraoka",
+    "url": "spot/?id=osaka&area=kawachi&name=hiraoka",
     "title": "枚岡神社 Hiraoka Jinja",
     "description": "太古の聖域 河内国一宮 春日大社のはじまりの地（元春日）",
+    "coordinates": [
+        135.65356787433632,
+        34.669403772141465
+    ],
     "info": {
         "note": [
             "生駒山地西麓「<ruby>神津嶽<rp>（</rp><rt>かみつだけ</rt><rp>）</rp></ruby>」をご神体とする山岳信仰が起源とされる全国的にも有力な古社",

@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-5-2",
-    "url": "?id=osaka-city24&area=hirano&name=kumata",
+    "url": "spot/?id=osaka-city24&area=hirano&name=kumata",
     "title": "杭全神社 Kumata Jinja",
     "description": "全国唯一の連歌所（毎月定期的に平野法楽連歌会が催される）",
+    "coordinates": [
+        135.55495588160528,
+        34.628939577833876
+    ],
     "info": {
         "note": [
             "毎年7月11 - 14日に行われる平野だんじり祭（夏祭り）で知られる神社",
@@ -31,8 +35,7 @@
                 "url": "https://maps.app.goo.gl/dctuZ7JDxPGdHZcz8",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-2-4",
-    "url": "?id=osaka&area=kawachi&name=amaterasu-iwato",
+    "url": "spot/?id=osaka&area=kawachi&name=amaterasu-iwato",
     "title": "天照大神高座神社・岩戸神社",
     "description": "あまてらすおおみかみたかくらじんじゃ いわとじんじゃ",
+    "coordinates": [
+        135.64022166232343,
+        34.61246927651371
+    ],
     "info": {
         "note": [
             "御神体は一帯の岩山全体。ほとんど同じ境内に隣接する原始信仰を起源とする二つの神社",

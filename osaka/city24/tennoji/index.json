@@ -1,0 +1,75 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "index/?id=osaka-city24&area=tennoji",
+    "map": {
+        "center": [
+            135.51573449170922,
+            34.66665548078021
+        ],
+        "bounds": [
+            [
+                135.50592354502834,
+                34.64736615640736
+            ],
+            [
+                135.52911358286673,
+                34.670717541089104
+            ]
+        ],
+        "zoom": 15
+    },
+    "jsonAll": [
+        [
+            "osaka/city24",
+            "tennoji",
+            "index"
+        ],
+        [
+            "osaka/city24/tennoji",
+            "uehonmachi",
+            "map"
+        ]
+    ],
+    "title": "上町台地",
+    "subtitle": "Uemachi Daichi",
+    "description": "由緒ある寺社仏閣や国の機関などが点在する、大阪の基礎「上町台地」の中心地",
+    "info": {
+        "note": [
+            "「大坂（大阪）」という地名の由来となった、四天王寺の西大門から難波宮(大阪城周辺)までの坂がある地",
+            "大阪城ができる以前の古代にその地にあったとされる「生國魂神社」「元高津（東高津宮）」などがある神聖な地域",
+            "",
+            "<u>ランドマーク・お気に入りの場所</u>"
+        ],
+        "links": [
+            {
+                "text": "天王寺区の都市景観資源（わがまちナイススポット）",
+                "url": "https://www.city.osaka.lg.jp/toshikeikaku/page/0000258471.html",
+                "target": "_blank"
+            },
+            {
+                "text": "上町ネット | INDEX",
+                "url": "http://www.uemachi.net/",
+                "target": "_blank"
+            },
+            {
+                "text": "上町台地 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/上町台地",
+                "target": "_blank"
+            }
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipPMYB7eRjr4YUI4h2LPJuuWWS-5XvPt1JbQMy_q=w575-h325-p-k-no",
+        "p/AF1QipPEd2Nc20dMIBXTIRlIWB5jx7086RjZeYZK1rgQ=w575-h325-p-k-no",
+        "p/AF1QipPdDLox99BGnDcRYxnNzaUnKWaW7R7w3CXTAsMg=w575-h325-p-k-no",
+        "p/AF1QipPZP2Y9QtLOYjqf_mNQ7Sm5DeZqh8tK5qipB8kL=w575-h325-p-k-no",
+        "p/AF1QipPEONxVRB6hOAsx2yRe0M_28fHrxVAF3wEUlGIZ=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

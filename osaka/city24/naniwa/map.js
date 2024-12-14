@@ -11,7 +11,7 @@ const naniwamap = {
             },
             'properties': {
                 'title': 'OCAT（大阪シティエアターミナル）',
-                'address': '屋上ガーデンは、9:00〜17:00まで毎日開園',
+                'address': '高速バス・観光ツアーバスの拠点バスターミナル・JR難波駅を併設する複合商業施設<br>屋上ガーデンは、9:00〜17:00まで毎日開園（年末年始は休園）',
                 'link': null,
                 'tag': ['spot'],
                 'zoom': 17
@@ -26,8 +26,9 @@ const naniwamap = {
             },
             'properties': {
                 'title': 'ポンテ広場',
-                'address': 'OCAT（JR難波駅前）B1F ダンスの練習をよくしている吹き抜けの広場',
+                'address': 'OCAT B1F（JR難波駅前）吹き抜け広場',
                 'link': null,
+                'google': ['AF1QipMktzly1BfT5T15lSW9I0Gy27oYPru5OrKGOoKX'],
                 'tag': ['spot'],
                 'zoom': 18
             },
@@ -43,6 +44,7 @@ const naniwamap = {
                 'title': '湊町リバープレイス',
                 'address': '八角形の宇宙船のような形が特徴の多目的複合イベントスペース',
                 'link': null,
+                'google': ['AF1QipNdDuYAlGsVk0TMuyciYCO59zAnqVwjSQDGeR4t'],
                 'tag': ['spot'],
                 'zoom': 17
             },
@@ -58,6 +60,7 @@ const naniwamap = {
                 'title': '浮庭橋',
                 'address': '湊町リバープレイスと南堀江地区を結ぶ新しい人道橋',
                 'link': null,
+                'google': ['AF1QipNq2sfXJ6PMrq9Q_agTzb-PkbhSZG_t0OJJHzaH'],
                 'tag': ['spot'],
                 'zoom': 17.5
             },
@@ -74,22 +77,7 @@ const naniwamap = {
                 'address': 'JR難波駅から徒歩約3分、南海芦原町駅から徒歩約4分',
                 'link': null,
                 'tag': ['park'],
-                'zoom': 17
-            },
-            'featured': null
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4967084398741, 34.66137732303228]
-            },
-            'properties': {
-                'title': '難波八阪神社',
-                'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
-                'link': "spot/?id=osaka-city24&area=naniwa&name=nambayasaka",
-                'tag': ['legacy'],
-                'zoom': 17.5
+                'zoom': 16.5
             },
             'featured': null
         },
@@ -112,27 +100,13 @@ const naniwamap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.48616655591758, 34.66823546271246]
-            },
-            'properties': {
-                'title': '汐見橋駅',
-                'address': '南海高野線の起点駅 都会の真ん中のローカル駅',
-                'link': null,
-                'tag': ['spot'],
-                'zoom': 17.5
-            },
-            'featured': null
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.48713499264, 34.668311312513765]
             },
             'properties': {
                 'title': '新桜川ビル',
                 'address': '新なにわ筋と千日前通りの交差点に建つモダニズム建築',
                 'link': null,
+                'google': ['AF1QipOC0fZWJz1GLsMXtqHLneK9jU8zz40r10hecenf'],
                 'tag': ['spot'],
                 'zoom': 18
             },
@@ -148,6 +122,7 @@ const naniwamap = {
                 'title': '道頓堀川水門',
                 'address': '道頓堀川が木津川にそそぐ出口に設置',
                 'link': null,
+                'google': ['AF1QipNt2UAsGOz1PAIlNMHqc2W31XTWoowxM71njJ16'],
                 'tag': ['spot'],
                 'zoom': 17
             },
@@ -163,6 +138,7 @@ const naniwamap = {
                 'title': '西区南堀江４丁目６',
                 'address': '「道頓堀川水門」付近から汐見橋まで 道頓堀川沿の遊歩道',
                 'link': "spot/?id=osaka-city24&area=naniwa&name=minamihorie-4-6",
+                'google': ['AF1QipMNaZPL3Jp6Yb585CewTeVOxD61hg5AYIFZ1bVA'],
                 'tag': ['park'],
                 'zoom': 16.5
             }

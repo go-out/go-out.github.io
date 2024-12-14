@@ -1,8 +1,9 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=ID&area=エリア&name=名前",
+    "url": "spot/?id=ID&area=エリア&name=名前",
     "title": "タイトル",
     "description": "説明文",
+    "coordinates": [],
     "info": {
         "note": [
             "",
@@ -15,8 +16,7 @@
                 "url": "https://www.google.com/maps/contrib/104493917977768716042",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

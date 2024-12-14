@@ -1,14 +1,15 @@
 {
-    "url": "?id=osaka-hokusetsu&area=toyonaka&name=spot",
+    "lastModified": "2024-5-11",
+    "url": "spot/?id=osaka-hokusetsu&area=toyonaka&name=spot",
     "title": "大阪府 豊中市 🌹 Toyonaka City, Osaka",
     "description": "伊丹空港より東・北大阪急行電鉄より西",
+    "coordinates": null,
     "info": {
         "note": [
             "<u>レンタサイクル</u>",
             "<a href='https://maps.app.goo.gl/qZegPVRhoqeYhS7fA' target='_blank'>阪急曽根駐輪センター</a> <small>貸出時間は7:00～21:00 | 普通車 320円 電動車 420円 (1日)</small>"
         ],
-        "links": [],
-        "youtube": null
+        "links": null
     },
     "videoAll": [
         {
@@ -41,16 +42,16 @@
                     "id": "one",
                     "poster": "p/AF1QipNhUjRtgZ80WUrMYPsYbWKFhKurLKqkigyQj44d=w575-h325-p-k-no",
                     "src": [
-                        "ggms/AF1QipNhUjRtgZ80WUrMYPsYbWKFhKurLKqkigyQj44d=m18",
-                        "ggms/AF1QipNwf8guuGAPUHjfjirHA7XdVhO7nbT8XFbHQ4fy=m18"
+                        "ggs/AF1QipNhUjRtgZ80WUrMYPsYbWKFhKurLKqkigyQj44d=m18",
+                        "ggs/AF1QipNwf8guuGAPUHjfjirHA7XdVhO7nbT8XFbHQ4fy=m18"
                     ]
                 },
                 {
                     "id": "two",
                     "poster": "p/AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo=w575-h325-p-k-no",
                     "src": [
-                        "ggms/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=m18",
-                        "ggms/AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo=m18"
+                        "ggs/AF1QipPM33qfqKhwVSYnFacj0RxJBV4msEZaows9V_Gw=m18",
+                        "ggs/AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo=m18"
                     ]
                 }
             ]
@@ -61,7 +62,9 @@
                 "description": "高級住宅街",
                 "year": 2024,
                 "month": 5,
-                "day": 11
+                "day": 11,
+                "note": null,
+                "links": null
             },
             "directory": "https://lh3.googleusercontent.com/",
             "cover": "p/AF1QipPkUooQCjY5o3K71WgE_1rGmjW4u5W8B6x12nBw=w1280-h720-p-k-no",
@@ -69,19 +72,20 @@
             "video": [
                 {
                     "id": "one",
-                    "poster": "p/AF1QipNrVxh5kUYCQA5U3DZgP4QH4c9FcTo8FsXzzryt=w575-h325-p-k-no",
+                    "poster": "p/AF1QipN5XVKUJgR1RHuyZsMI02yWYAqDTrPuHBAnOCM5=w575-h325-p-k-no",
                     "src": [
-                        "ggms/AF1QipPkUooQCjY5o3K71WgE_1rGmjW4u5W8B6x12nBw=m18",
-                        "ggms/AF1QipN1m3GWP8kqLbRKJoMDXxxdEtwdqxvx7nzxy3FD=m18",
-                        "ggms/AF1QipNrVxh5kUYCQA5U3DZgP4QH4c9FcTo8FsXzzryt=m18"
+                        "ggs/AF1QipN5XVKUJgR1RHuyZsMI02yWYAqDTrPuHBAnOCM5=m18",
+                        "ggs/AF1QipOREtQhiiqcMVLu6RiTGx_mVRkmC27Gsu-l3EVX=m18",
+                        "ggs/AF1QipNuQF3V_JHSSw5MbEHCt79fmHyZJDF8q1I53yCd=m18"
                     ]
                 },
                 {
                     "id": "two",
-                    "poster": "p/AF1QipN5XVKUJgR1RHuyZsMI02yWYAqDTrPuHBAnOCM5=w575-h325-p-k-no",
+                    "poster": "p/AF1QipNrVxh5kUYCQA5U3DZgP4QH4c9FcTo8FsXzzryt=w575-h325-p-k-no",
                     "src": [
-                        "ggms/AF1QipNuQF3V_JHSSw5MbEHCt79fmHyZJDF8q1I53yCd=m18",
-                        "ggms/AF1QipN5XVKUJgR1RHuyZsMI02yWYAqDTrPuHBAnOCM5=m18"
+                        "ggs/AF1QipPkUooQCjY5o3K71WgE_1rGmjW4u5W8B6x12nBw=m18",
+                        "ggs/AF1QipN1m3GWP8kqLbRKJoMDXxxdEtwdqxvx7nzxy3FD=m18",
+                        "ggs/AF1QipNrVxh5kUYCQA5U3DZgP4QH4c9FcTo8FsXzzryt=m18"
                     ]
                 }
             ]
@@ -113,21 +117,21 @@
                     "id": "one",
                     "poster": "p/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=w575-h325-p-k-no",
                     "src": [
-                        "ggms/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=m18",
-                        "ggms/AF1QipP2CbbM3CEExSUJP59j63cWz-hlgOOYLDPRdOuu=m18",
-                        "ggms/AF1QipM-xUa1hvGQzQXeXKlIqE_iEZScksZLOfeWx4mv=m18",
-                        "ggms/AF1QipMwSTn6sP-I5oDRqFtAMsu6POSuidtQdMzMSS_R=m18"
+                        "ggs/AF1QipM1Ym2p2DoFrw8YRrDlmi_mgwgHi0mexfJNx2aI=m18",
+                        "ggs/AF1QipP2CbbM3CEExSUJP59j63cWz-hlgOOYLDPRdOuu=m18",
+                        "ggs/AF1QipM-xUa1hvGQzQXeXKlIqE_iEZScksZLOfeWx4mv=m18",
+                        "ggs/AF1QipMwSTn6sP-I5oDRqFtAMsu6POSuidtQdMzMSS_R=m18"
                     ]
                 },
                 {
                     "id": "two",
                     "poster": "p/AF1QipOe-gnb0jZz4kC1v1mAx2moH5UpC5S-rfppkxJa=w575-h325-p-k-no",
                     "src": [
-                        "ggms/AF1QipOe-gnb0jZz4kC1v1mAx2moH5UpC5S-rfppkxJa=m18",
-                        "ggms/AF1QipP-JBxHMzLgY7cVGh9z5w_jKK0skweHMrTX6jD3=m18",
-                        "ggms/AF1QipPf3lIGe5kEHlAyqbLD_SLaQhg5XSUaAQ8Hq87W=m18",
-                        "ggms/AF1QipMxjY4wBK5J0Lllb3ZawDpOeqfCgG6HDDBBTxhW=m18",
-                        "ggms/AF1QipP8474tv7zIu6nEydp48keKDdxSpz0nMFVs2trv=m18"
+                        "ggs/AF1QipOe-gnb0jZz4kC1v1mAx2moH5UpC5S-rfppkxJa=m18",
+                        "ggs/AF1QipP-JBxHMzLgY7cVGh9z5w_jKK0skweHMrTX6jD3=m18",
+                        "ggs/AF1QipPf3lIGe5kEHlAyqbLD_SLaQhg5XSUaAQ8Hq87W=m18",
+                        "ggs/AF1QipMxjY4wBK5J0Lllb3ZawDpOeqfCgG6HDDBBTxhW=m18",
+                        "ggs/AF1QipP8474tv7zIu6nEydp48keKDdxSpz0nMFVs2trv=m18"
                     ]
                 }
             ]

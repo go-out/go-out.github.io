@@ -1,0 +1,54 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "spot/?id=osaka-city24&area=MiyakojimaAsahi&name=shirokita",
+    "title": "城北公園 Shirokita Park",
+    "description": "旧淀川の河川敷を利用して造られた、大きな池と菖蒲園のある公園",
+    "coordinates": [
+        135.53851504140005,
+        34.72953888135329
+    ],
+    "info": {
+        "note": [
+            "",
+            "",
+            "<u>アクセス</u><br>__「__」から徒歩約__分"
+        ],
+        "links": [
+            {
+                "text": "城北公園 - 大阪市花と緑の情報サイト",
+                "url": "https://www.osakapark.osgf.or.jp/shirokita/",
+                "target": "_blank"
+            },
+            {
+                "text": "城北公園 - Google マップ",
+                "url": "https://maps.app.goo.gl/19S6HDf9s3Z3ZzmDA",
+                "target": "_blank"
+            }
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": null,
+                "description": null,
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=yodogawa-hyodo",
+    "url": "index/?id=osaka-city24&area=yodogawa-hyodo",
     "map": {
         "center": [
             135.52922581955266,
@@ -24,9 +24,6 @@
             "hyodo",
             "map"
         ]
-    ],
-    "lineArr": [
-        "osaka/city24/yodogawa/line.js"
     ],
     "title": "こぶし通り",
     "subtitle": "Kobushi Road, Higashi Yodogawa",

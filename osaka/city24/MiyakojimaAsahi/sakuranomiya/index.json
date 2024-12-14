@@ -1,22 +1,22 @@
 {
     "lastModified": "2024-5-16",
-    "url": "?id=osaka-city24&area=MiyakojimaAsahi-sakuranomiya",
+    "url": "index/?id=osaka-city24&area=MiyakojimaAsahi-sakuranomiya",
     "map": {
         "center": [
-            135.51892225038995,
-            34.705253629139634
+            135.52038339114586,
+            34.704924515425844
         ],
         "bounds": [
             [
-                135.51290450152533,
-                34.69016026443214
+                135.51398899807077,
+                34.691202197478674
             ],
             [
-                135.5273319302815,
-                34.72965161322068
+                135.52565300591073,
+                34.723588947459646
             ]
         ],
-        "zoom": 5.5
+        "zoom": 16
     },
     "jsonAll": [
         [
@@ -33,6 +33,9 @@
             "「大川、または天満川（てんまがわ）」の流れに沿ったプロムナード",
             "淀川の毛馬水門（毛馬閘門）で南へ分岐する旧淀川本流の毛馬水門から中之島東端まで、全長4.2kmのリバーサイドパーク",
             "",
+            "<u>最寄駅</u>",
+            "JR 「桜ノ宮」「大阪城北詰」・Osaka Metro 「都島」",
+            "",
             "<a href='../spot/?id=osaka-city24&area=MiyakojimaAsahi-sakuranomiya&name=spot'>ランドマーク・お気に入りの場所</a>"
         ],
         "links": [
@@ -45,11 +48,12 @@
                 "text": "大阪府／大阪ふれあいの水辺",
                 "url": "https://www.pref.osaka.lg.jp/nishiosaka/shore/shore-oriver.html",
                 "target": "_blank"
+            },
+            {
+                "text": "大阪・淀川ライブカメラ-毛馬閘門周辺 - YouTube",
+                "url": "https://www.youtube.com/@Uonome-yodogawaLC",
+                "target": "_blank"
             }
-        ],
-        "youtube": [
-            "HH6KdIDFh1c",
-            "_Er9sHVoQF4"
         ]
     },
     "area": null,

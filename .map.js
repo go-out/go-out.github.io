@@ -13,8 +13,12 @@ const sample = {
                 'title': '___',
                 'address': '___',
                 'link': null,
+                'google': ['__'],
                 'tag': ['__'],
-                'zoom': 18
+                'zoom': 18,
+                'youtube': [
+                    '__'
+                ]
             },
             'featured': null
         },
@@ -28,9 +32,12 @@ const sample = {
                 'title': '___',
                 'address': '___',
                 'link': null,
+                'google': ['__'],
                 'tag': ['__'],
-                'google': 'https://maps.app.goo.gl/___',
-                'zoom': 18
+                'zoom': 18,
+                'youtube': [
+                    "__"
+                ]
             },
             'featured': [
                 {
@@ -55,3 +62,25 @@ const sample = {
         }
     ]
 }
+
+const sampkeline = [
+    {
+        'type': 'Feature',
+        'geometry': {
+            'type': 'LineString',
+            'coordinates': [
+                [__, __],
+                [__, __]
+            ]
+        },
+        'properties': {
+            'title': '___',
+            'address': '___',
+            'link': null,
+            'zoom': 16,
+            'youtube': [
+                "__"
+            ]
+        }
+    }
+]

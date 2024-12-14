@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-2-27",
-    "url": "?id=osaka-city24&area=ChuoNishi&name=kouzu",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi&name=kouzu",
     "title": "高津宮・高津公園",
     "description": "高津宮に隣接する高津公園の梅林は、中央区の花「梅」の名所（例年二月中旬から三月中旬が見頃）",
+    "coordinates": [
+        135.51386266424993,
+        34.668706290921975
+    ],
     "info": {
         "note": [
             "<strong>高津の宮の昔より よよの栄を重ねきて 民のかまどに立つ煙<br>にぎわいまさる大阪市 にぎわいまさる大阪市</strong>",
@@ -30,13 +34,10 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
-                "url": "https://www.google.com/maps/contrib/104493917977768716042",
+                "text": "高津宮 - Google マップ",
+                "url": "https://maps.app.goo.gl/Y5o1DJDPvqtk2LUp9",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "oYLY36voXiw"
         ]
     },
     "videoAll": [

@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=NishinariAbeno&name=abeouji",
-    "title": "阿倍王子神社 Abe Ouji",
-    "description": "阿倍王子神社・安倍晴明神社",
+    "url": "spot/?id=osaka-city24&area=NishinariAbeno&name=abeouji",
+    "title": "阿倍王子神社・安倍晴明神社",
+    "description": "四天王寺と住吉大社の中間に位置する熊野権現の王子社",
+    "coordinates": [
+        135.5091447238354,
+        34.6310503018434
+    ],
     "info": {
         "note": [
             "四天王寺と住吉大社の中間に位置する「<ruby>阿倍王子神社<rp>（</rp><rt>あべおうじじんじゃ</rt><rp>）</rp></ruby>」は、大阪府下に唯一現存する熊野権現の王子社",

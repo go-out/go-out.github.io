@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-3-9",
-    "url": "?id=osaka-city24&area=suminoe&name=kagaya-shinden",
+    "url": "spot/?id=osaka-city24&area=suminoe&name=kagaya-shinden",
     "title": "加賀屋新田会所跡 Kagaya Shinden Kaisho Garden",
     "description": "1754年（宝暦4年）に開発された新田を管理するために開かれた、大阪市内にただ一つ残る新田会所跡",
+    "coordinates": [
+        135.47525835468622,
+        34.602510461290436
+    ],
     "info": {
         "note": [
             "江戸時代 <ruby>1754年<rp>（</rp><rt>宝暦4年</rt><rp>）</rp></ruby> に開発された新田を管理するために開かれた、大阪市内にただ一つ残る新田会所跡",
@@ -29,9 +33,6 @@
                 "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008951.html",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "zAZUC1x1-H0"
         ]
     },
     "videoAll": [

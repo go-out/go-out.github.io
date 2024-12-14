@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-4-4",
-    "url": "?id=osaka&area=kawachi&name=migukurumitama",
+    "url": "spot/?id=osaka&area=kawachi&name=migukurumitama",
     "title": "美具久留御魂神社 Migukurumitama Jinja",
     "description": "「眞名井ヶ原」と称する山そのものを御神体とする自然そのままの緑豊かなお宮",
+    "coordinates": [
+        135.601581956455,
+        34.51796691656247
+    ],
     "info": {
         "note": [
             "主祭神の「みぐくるみたま」は、「水泳御魂（みくくるみたま）」に由来する水の神",
@@ -25,9 +29,6 @@
                 "url": "https://ja.wikipedia.org/wiki/美具久留御魂神社",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "KDmLabOMiF8"
         ]
     },
     "videoAll": [

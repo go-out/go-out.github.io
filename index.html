@@ -66,7 +66,7 @@
     <script>
         const directory = "",
             mapIndex = "",
-            lastModified = "YYYY-MM-DD";
+            lastModified = "2024-12-3";
 
         const today = new Date(),
             thisYear = today.getFullYear();
@@ -87,7 +87,7 @@
             case "loading":
                 mapJsonAll.forEach(function (eachArr) {
                     const js = document.createElement('script');
-                    js.src = mapIndex + eachArr[0] + '/' + eachArr[1] + '/' + eachArr[2] + '.js?' + eachArr[3];
+                    js.src = mapIndex + eachArr[0] + '/' + eachArr[1] + '/' + eachArr[2] + '.js?' + lastModified;
                     document.head.appendChild(js);
                 }, false);
                 break;
@@ -101,6 +101,14 @@
                 })
         };
 
+        function shuffle(arrays) {
+            const array = arrays.slice();
+            for (let i = array.length - 1; i >= 0; i--) {
+                const shuffleArr = Math.floor(Math.random() * (i + 1));
+                [array[i], array[shuffleArr]] = [array[shuffleArr], array[i]];
+            } return array;
+        };
+
         function scrollEvent(id) {
             const element = document.getElementById(id);
             const targetDOMRect = element.getBoundingClientRect();
@@ -112,6 +120,7 @@
         };
 
         window.addEventListener("load", () => {
+            document.querySelector("#lastModified").textContent = lastModified;
             mapJsonAll.forEach(function (eachArr) {
                 let arr = eval(eachArr[1] + eachArr[2]);
                 Function(featureSpot(arr))();
@@ -170,10 +179,11 @@
         <section id="calender">
             <details>
                 <summary>
-                    <b>毎月の出来事</b>
-                    <small>Monthly Events</small>
+                    <b>最終更新日</b>
+                    <small id="lastModified">Last Modified</small>
                 </summary>
-                <ul id="every"></ul>
+                <ul id="indexLog"></ul>
+                <ul id="spotLog"></ul>
             </details>
 
             <ul id="spot">
@@ -187,11 +197,10 @@
 
             <details>
                 <summary>
-                    <b id="lastModified">更新履歴</b>
-                    <small>Update Log</small>
+                    <b>毎月の出来事</b>
+                    <small>Monthly Events</small>
                 </summary>
-                <ul id="indexLog"></ul>
-                <ul id="spotLog"></ul>
+                <ul id="every"></ul>
             </details>
         </section>
     </article>
@@ -208,7 +217,7 @@
             <small>もっと詳しく</small>
             More Info
         </a>
-        <div id="weather"></div>
+        <div id="player"></div>
     </dialog>
 
     <script>

@@ -1,0 +1,129 @@
+{
+    "lastModified": "2024-12-03",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi-naniwanomiya&name=spot",
+    "title": "難波宮（大阪城周辺） Naniwa no miya",
+    "description": "都会のど真ん中にある、なにもない場所",
+    "coordinates": [
+        135.5230412005792,
+        34.67991567674672
+    ],
+    "info": {
+        "note": [
+            "日本という国号、元号の始まりである「大化の改新」とよばれる革新政治が起こった日本初の首都だったとされる地",
+            "7世紀中頃から約150年間（645年〜793年まで）の皇都（天皇の住まい）「難波大隈宮」の跡地",
+            "",
+            "<u>アクセス</u>",
+            "Osaka Metro 「谷町四丁目」から徒歩約1分",
+            "JR大阪環状線 「森ノ宮」から徒歩約5分"
+        ],
+        "links": [
+            {
+                "text": "難波宮跡 - Google マップ",
+                "url": "https://maps.app.goo.gl/ZA7h4CtKhveVGAWp9",
+                "target": "_blank"
+            },
+            {
+                "text": "なにわのみや1400プロジェクト",
+                "url": "https://naniwanomiya1400.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "第 2 章 史跡難波宮跡をとりまく環境 - 大阪市",
+                "url": "https://www.city.osaka.lg.jp/kyoiku/cmsfiles/contents/0000508/508299/02_p13-24.pdf",
+                "target": "_blank"
+            },
+            {
+                "text": "難波宮跡周辺等の植栽されている樹木について - 大阪市",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/cmsfiles/contents/0000537/537939/33-44.pdf",
+                "target": "_blank"
+            }
+        ],
+        "youtube": null
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "史跡 難波宮跡<br>附 法円坂遺跡",
+                "description": null,
+                "year": 2024,
+                "month": 12,
+                "day": 3,
+                "note": null,
+                "links": null
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipNXUtJtMKGaMfeLKCzJD3NBR6Y4h-c_HTMLMZhi=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipNJbxps5ECXJS2pqUzL57ZhMwPONojeT99OHk4N=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPduWKI_ijEJMHpNkQbuCybtoO0WK4uAqUwSKfg=m18",
+                        "ggs/AF1QipNJbxps5ECXJS2pqUzL57ZhMwPONojeT99OHk4N=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPcJby4PEqgpvIg9kPrMuTAq4QbhvkUW29YVC43=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNXUtJtMKGaMfeLKCzJD3NBR6Y4h-c_HTMLMZhi=m18",
+                        "ggs/AF1QipPcJby4PEqgpvIg9kPrMuTAq4QbhvkUW29YVC43=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "大阪城公園のイチョウ並木",
+                "description": "例年11月下旬から12月上旬、イチョウの黄葉が見頃を迎える",
+                "year": 2024,
+                "month": 12,
+                "day": 3,
+                "note": [
+                    "「森ノ宮」駅すぐの噴水広場から大阪城ホール付近まで約1キロメートル",
+                    "「天満橋」駅すぐ、上町筋・大手前交差点から大阪府庁辺りまでの街路樹"
+                ],
+                "links": [
+                    {
+                        "text": "特別史跡 大阪城公園",
+                        "url": "https://www.osakacastlepark.jp/",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "花と緑｜特別史跡 大阪城公園",
+                        "url": "https://www.osakacastlepark.jp/flower/",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "大阪城公園 - Google マップ",
+                        "url": "https://maps.app.goo.gl/CsiREaCtrxfXrKfv9",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipMiR8o2URs1RkPGJY-MMTY9Iqz8du3ch-imN9fH=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPlgXMWYzbvu_uVY7VPq7lAh6jJWsv0OlCdDFzV=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPlgXMWYzbvu_uVY7VPq7lAh6jJWsv0OlCdDFzV=m18",
+                        "ggs/AF1QipMiR8o2URs1RkPGJY-MMTY9Iqz8du3ch-imN9fH=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipM-gu0imuL-3H0kL4YJAxgcchZPPc_slXoTNq49=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipOqxBY_uwyAGQSQ6EtR-o9NG5NP-OC12mxTVscA=m18",
+                        "ggs/AF1QipM-gu0imuL-3H0kL4YJAxgcchZPPc_slXoTNq49=m18",
+                        "ggs/AF1QipPxxThLHNFgCwycTVAgWOC0OyrO_q5RGnQ6QJuE=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-1-17",
-    "url": "?id=osaka&area=senshu-sakai&name=sainvarierkanaoka",
+    "url": "spot/?id=osaka&area=senshu-sakai&name=sainvarierkanaoka",
     "title": "サンヴァリエ金岡（金岡団地） Kanaoka Danchi",
     "description": "UR賃貸住宅の第1号となった｢金岡団地｣の跡地にある団地",
+    "coordinates": [
+        135.49816992929948,
+        34.5701282072159
+    ],
     "info": {
         "note": [
             "UR賃貸住宅（建設当時は日本住宅公団）の第1号となった｢<ruby>金岡団地<rp>（</rp><rt>かなおかだんち</rt><rp>）</rp></ruby>｣の“花形”として人気を博した、三角形の階段室を中心に各階3つの住戸を配する「スターハウス（星型住棟）」の基礎部分を活かし、外形と間取りを再現したモニュメント",
@@ -19,12 +23,11 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
+                "text": "金岡団地スターハウスメモリアル - Google マップ",
                 "url": "https://maps.app.goo.gl/BjWesdsqzCq8T66D7",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

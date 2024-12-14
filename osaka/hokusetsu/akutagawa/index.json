@@ -1,49 +1,76 @@
 {
-    "url": "?id=vr&name=akutagawa",
-    "youtube": "GHfvP9C2DQo",
-    "date": "〒 569-1132",
+    "lastModified": "2024-5-5",
+    "url": "index/?id=osaka-hokusetsu&area=akutagawa",
+    "title": "芥川・摂津峡",
+    "subtitle": "Akutagawa / Settsu-kyo",
+    "description": "高槻市を縦断する川「芥川」・北摂随一の景勝地「摂津峡」",
     "info": {
-        "title": "芥川 Akutagawa",
-        "subTitle": "大阪府高槻市 Takatsuki, Osaka",
-        "address": [
-            "大阪府高槻市 芥川",
-            "Akutagawa Takatsuki, Osaka"
+        "note": [
+            "大阪府と京都府の府境界にある摂丹山地を源流とし、高槻市を北から南に縦断する一級河川「芥川（あくたがわ）」",
+            "約4kmにわたって奇岩・断崖・滝などが続く、芥川上流に広がる渓谷・府の名勝「摂津峡（せっつきょう）」",
+            "",
+            "摂津峡はサクラ・紅葉の名所（摂津峡桜公園では毎年4月上旬に「摂津峡さくらまつり」が開催される）",
+            "摂津峡桜公園には47都道府県の樹木を集めた樹木教材園などがある",
+            "【毎年6月中旬〜7月の初旬には蛍が綺麗な光を放つ】",
+            "",
+            "<a href='../spot/?id=osaka-hokusetsu&area=akutagawa&name=spot'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "markdown": null,
+        "links": [
+            {
+                "text": "摂津峡 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/摂津峡",
+                "target": "_blank"
+            },
+            {
+                "text": "芥川 (大阪府) - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/芥川_(大阪府)",
+                "target": "_blank"
+            },
+            {
+                "text": "芥川コラム - 高槻市ホームページ",
+                "url": "https://www.city.takatsuki.osaka.jp/soshiki/55/69945.html",
+                "target": "_blank"
+            }
         ]
     },
-    "directory": "https://archive.org/download/akutagawa/",
-    "cover": "akutagawa.thumbs/2024/1000_000237.jpg",
-    "video": [
-        {
-            "title": "第32回 こいのぼりフェスタ1000",
-            "src": "2024/1000.ia.mp4",
-            "track": "akutagawa/1000/koinobori.vtt"
-        },
-        {
-            "title": "SUNROAD 芥川商店街",
-            "src": "2024/002.ia.mp4",
-            "track": "000.vtt"
-        },
-        {
-            "title": "芥川公園 Akutagawa Park",
-            "src": "2024/001.ia.mp4",
-            "track": "000.vtt"
-        }
+    "map": {
+        "center": [
+            135.60623457322237,
+            34.85398844158276
+        ],
+        "bounds": [
+            [
+                135.57851477026657,
+                34.829032255916346
+            ],
+            [
+                135.6273284460675,
+                34.885336812717185
+            ]
+        ],
+        "zoom": 14.5
+    },
+    "jsonAll": [
+        [
+            "osaka/hokusetsu",
+            "akutagawa",
+            "map"
+        ]
     ],
-    "link": [
-        {
-            "text": "第32回 こいのぼりフェスタ1000",
-            "url": "?id=vr&name=akutagawa&date=20240505",
-            "target": "_self"
-        },
-        {
-            "text": "芥川商店街 © Akutagawa Shotengai",
-            "url": "https://akutagawa-shop.jp/",
-            "target": "_blank"
-        },
-        {
-            "text": "芥川公園 - 高槻市ホームページ",
-            "url": "https://www.city.takatsuki.osaka.jp/site/odekakemap/3861.html",
-            "target": "_blank"
-        }
+    "lineArr": null,
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/AF1QipN5hl-jM8k_et6RO_ntxUrmJ-46BhT3ik9L-Ipk=w575-h325-p-k-no",
+        "p/AF1QipMLaf1uVmIuGYCkDVNSVvsEBBx_3p27eVbPMNSV=w575-h325-p-k-no",
+        "p/AF1QipOOVPJcMjs-1tCdeC_l1BrtN65Eibp8qnyN-nWe=w575-h325-p-k-no",
+        "p/AF1QipMV1Do10YbWkkgEDmr6MhBOMsfNE2ERSB0WKGHN=w575-h325-p-k-no",
+        "p/AF1QipNh6y9LKEyFOtDpqDl1GGohfDgEyYzvPhPn6xb0=w575-h325-p-k-no",
+        "p/AF1QipOITp6WcvDRmZIOBZ4rA3V_3V4qm0rQGLp8hD8-=w575-h325-p-k-no",
+        "p/AF1QipOITp6WcvDRmZIOBZ4rA3V_3V4qm0rQGLp8hD8-=w575-h325-p-k-no",
+        "p/AF1QipOITp6WcvDRmZIOBZ4rA3V_3V4qm0rQGLp8hD8-=w575-h325-p-k-no",
+        "p/AF1QipOITp6WcvDRmZIOBZ4rA3V_3V4qm0rQGLp8hD8-=w575-h325-p-k-no"
     ]
 }

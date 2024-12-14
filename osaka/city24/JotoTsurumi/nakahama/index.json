@@ -1,0 +1,68 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "index/?id=osaka-city24&area=JotoTsurumi-nakahama",
+    "title": "中浜",
+    "subtitle": "Nakahama",
+    "description": "城東区の花「木蓮」の名所公園とその周辺",
+    "info": {
+        "note": [
+            "<u>最寄駅</u>",
+            "Osaka Metro 中央線・今里筋線 「緑橋」",
+            "JRおおさか東線・東西線・学研都市線 「鴫野」",
+            "",
+            "<a href='../spot/?id=ID&area=エリア&name=名前'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "markdown": null,
+        "links": [
+            {
+                "text": "城東コース",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/cmsfiles/contents/0000041/41862/17_1.pdf",
+                "target": "_blank"
+            },
+            {
+                "text": "Google マップ",
+                "url": "https://www.google.com/maps/contrib/104493917977768716042/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "map": {
+        "center": [
+            135.5421042130831,
+            34.68696836838546
+        ],
+        "bounds": [
+            [
+                135.5344154342547,
+                34.679646294822106
+            ],
+            [
+                135.55445802191008,
+                34.692230879174716
+            ]
+        ],
+        "zoom": 16
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/JotoTsurumi",
+            "nakahama",
+            "map"
+        ]
+    ],
+    "lineArr": null,
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

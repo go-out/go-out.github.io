@@ -1,6 +1,6 @@
 {
     "lastModified": "2024-4-30",
-    "url": "?id=osaka-city24&area=MinatoTaisho&name=chishima",
+    "url": "spot/?id=osaka-city24&area=MinatoTaisho&name=chishima",
     "title": "千島公園 Chishima Park",
     "description": "大正区役所のすぐ隣に整備されている総合公園",
     "info": {
@@ -18,9 +18,6 @@
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000009772.html",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "jBbHwch_nf8"
         ]
     },
     "videoAll": [

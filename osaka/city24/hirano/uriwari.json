@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-8-18",
-    "url": "?id=osaka-city24&area=hirano&name=uriwari",
+    "url": "spot/?id=osaka-city24&area=hirano&name=uriwari",
     "title": "瓜破霊園 Uriwari Cemetery",
     "description": "四季折々の植樹がなされた広々とした公園霊園（8万平方メートル）",
+    "coordinates": [
+        135.56149620166963,
+        34.60285508291635
+    ],
     "info": {
         "note": [
             "四季折々の植樹がなされた広々とした公園霊園（8万平方メートル）",
@@ -12,12 +16,11 @@
         ],
         "links": [
             {
-                "text": "Google マップ",
+                "text": "大阪市立瓜破霊園 - Google マップ",
                 "url": "https://maps.app.goo.gl/km62b6MYQPGSMXqi7",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

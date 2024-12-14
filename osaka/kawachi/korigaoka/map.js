@@ -13,6 +13,7 @@ const korigaokamap = {
                 'title': 'CONOBA香里ヶ丘',
                 'address': 'けやき通りに面したライフスタイルショッピングセンター（商業施設）',
                 'link': null,
+                'google': ['AF1QipO_6gEhou5asugNniRzR7nrNN6oovopBzzbkvry'],
                 'tag': ['spot'],
                 'zoom': 16
             },
@@ -28,6 +29,7 @@ const korigaokamap = {
                 'title': '香里団地 D地区',
                 'address': '入居開始当時の古き良き住棟「星型棟（スターハウス）」が残る地区',
                 'link': null,
+                'google': ['AF1QipNQ4JqUul5t6fH2pZ3NH4YMRF1HLMwyeT2DBRT3'],
                 'tag': ['spot'],
                 'zoom': 17
             },
@@ -43,6 +45,7 @@ const korigaokamap = {
                 'title': '以楽公園',
                 'address': '春の桜・秋の紅葉の時期にのみ限定で一般開放される日本庭園',
                 'link': null,
+                'google': ['AF1QipNptzNiCDNnUA6Bj2KjBTw3uceLip9PWzsZFz-O'],
                 'tag': ['spot'],
                 'zoom': 17
             },
@@ -103,6 +106,7 @@ const korigaokamap = {
                 'title': '新香里バスロータリー広場',
                 'address': '京阪本線「枚方市駅」「香里園駅」「枚方公園駅」の3方向への京阪バスの拠点',
                 'link': null,
+                'google': ['AF1QipO1VjfdIGkHrt6Kb8jPfUJRm292Az4nzB5Tr__d'],
                 'tag': ['spot'],
                 'zoom': 17.5
             },

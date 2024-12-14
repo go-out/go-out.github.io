@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka&area=kawachi&name=iimori",
+    "url": "spot/?id=osaka&area=kawachi&name=iimori",
     "title": "飯盛山 Iimori-Yama",
     "description": "野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社",
+    "coordinates": [
+        135.65360446221968,
+        34.72682439834762
+    ],
     "info": {
         "note": [
             ""

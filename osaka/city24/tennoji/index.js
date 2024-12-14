@@ -7,29 +7,6 @@ const tennojiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.51571154214463, 34.666676218147515]
-            },
-            'properties': {
-                'title': '上本町（谷九・上六）',
-                'address': '現在の大阪の基礎となる上町台地の頂 風情や緑が数多く残る上町の中心',
-                // 'link': 'index/?id=osaka-city24&area=tennoji-uehonmachi',
-                'tag': ['feature'],
-                'iconSize': ['osaka/icon/tennouji.png', '2.75rem', '2.75rem', 2],
-                'zoom': 15.5
-            },
-            'featured': [
-                {
-                    'title': null,
-                    'month': [3, 4],
-                    'date': '例年3月下旬~4月上旬、天王寺区の花「桃」が上汐公園・大阪市立天王寺図書館周辺などで見頃を迎える',
-                    'thisYear': null
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.51252208380492, 34.665089083048656]
             },
             'properties': {
@@ -149,6 +126,11 @@ const tennojiindex = {
                 'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
                 'link': "spot/?id=osaka-city24&area=tennoji&name=shitennoji",
                 'tag': ['legacy'],
+                "youtube": [
+                    "oIKZdbq4isU",
+                    "vsZo8JLBQ3Q",
+                    "6g5oU28Fuio"
+                ],
                 'zoom': 16
             },
             'featured': [
@@ -205,7 +187,7 @@ const tennojiindex = {
                 {
                     'title': "本坊庭園「極楽浄土の庭」",
                     'month': [8, 9],
-                    'date': '例年8月中旬~9月中旬 午前中、「極楽の池」に蓮の花が咲く',
+                    'date': '8月中旬から9月中旬の午前中、「極楽の池」に蓮の花が咲く',
                     'note': null,
                     'thisYear': null
                 },
@@ -235,6 +217,56 @@ const tennojiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.5217256968158, 34.66833382817133]
+            },
+            'properties': {
+                'title': '東高津宮',
+                'address': '元高津とも呼ばれる「高津宮」の元宮 ご神徳は［平・穏・安・寧］',
+                'link': null,
+                'tag': ['legacy'],
+                'zoom': 18.5
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': 'every',
+                    'date': null,
+                    'note': [
+                        '<b>月次祭</b>'
+                    ],
+                    'thisYear': [
+                        {
+                            'year': 'every',
+                            'date': [1, 12],
+                            'time': null,
+                            'note': null
+                        }
+                    ]
+                },
+                {
+                    'title': null,
+                    'month': [7],
+                    'date': '海の日の前の土曜日',
+                    'note': [
+                        "<b>大祭</b>"
+                    ],
+                    'thisYear': [
+                        {
+                            'year': null,
+                            'date': null,
+                            'time': '10:00 ~',
+                            'note': [
+                                "夏の夜、境内が幻想的にライトアップされる"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.51152236327573, 34.65348660140285]
             },
             'properties': {
@@ -252,16 +284,22 @@ const tennojiindex = {
                 'coordinates': [135.51234121297398, 34.65168251425263]
             },
             'properties': {
-                'title': '茶臼山',
-                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>南側には大阪市立美術館と林泉回遊式庭園「慶沢園」（入園料 大人150円）がある',
+                'title': '茶臼山（天王寺公園）',
+                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>南側には大阪市立美術館と林泉回遊式庭園「慶沢園」がある（入園料 大人150円）',
                 'link': "spot/?id=osaka-city24&area=tennoji&name=spot",
                 'tag': ['park'],
                 'youtube': [
                     'Xcv4Ti0HmvE'
                 ],
-                'zoom': 15.5
+                'zoom': 16
             },
             'featured': [
+                {
+                    'title': null,
+                    'month': [1, 2],
+                    'date': '1月から2月、「ツバキ」が見頃を迎える',
+                    'thisYear': null
+                },
                 {
                     'title': "慶沢園",
                     'month': [5],
@@ -271,13 +309,7 @@ const tennojiindex = {
                 {
                     'title': "慶沢園",
                     'month': [6],
-                    'date': '5月下旬~6月中旬、「サツキ」「アジサイ」「スイレン」「ハナショウブ」などが見頃を迎える',
-                    'thisYear': null
-                },
-                {
-                    'title': null,
-                    'month': [12],
-                    'date': '例年12月、「ツバキ」が見頃を迎える',
+                    'date': '5月下旬から6月中旬、「サツキ」「アジサイ」「スイレン」「ハナショウブ」などが見頃を迎える',
                     'thisYear': null
                 }
             ]

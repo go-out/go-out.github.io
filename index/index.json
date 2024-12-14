@@ -1,14 +1,25 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "index/",
-    "map": null,
-    "jsonAll": null,
+    "url": "/index/",
     "title": "行ったことのない場所へ行く",
     "subtitle": "Go Out",
-    "description": "A Select Area 🌍 エリアを選択",
+    "description": "Select an Area 🌍 エリアを選択",
     "info": {
-        "markdown": "README.md"
+        "note": null,
+        "markdown": "README.md",
+        "links": [
+            {
+                "text": "大阪観光マップ",
+                "url": "../index/?id=osaka",
+                "target": "_self"
+            }
+        ]
     },
+    "map": null,
+    "jsonAll": null,
+    "lineArr": [
+        "city24line"
+    ],
     "area": [
         {
             "id": "kansai",
@@ -23,7 +34,10 @@
                         "大阪",
                         "Osaka"
                     ],
-                    "city": [],
+                    "city": [
+                        "関西（近畿圏）の経済・交通の中心",
+                        "人口は約883万人（全国3位/人口密度は全国2位）"
+                    ],
                     "coordinates": [
                         135.5062638133726,
                         34.65238308472434
@@ -44,6 +58,10 @@
         }
     ],
     "sort": [
+        [
+            "feature",
+            "地域・特集"
+        ],
         [
             "legacy",
             "文化遺産・寺社仏閣"
@@ -72,12 +90,5 @@
         "p/AF1QipPKYfaU5TdG_ss5QaJAFNrNBUXAZs6lWLioG7j_=w575-h325-p-k-no",
         "p/AF1QipOdJ53inUmfGx6B1bU7IhciFDGDokpLqfdhzFC2=w575-h325-p-k-no",
         "p/AF1QipMPBaocCp6N-eF5J0W9a51XwIhSYCrwVYOnlsJm=w575-h325-p-k-no"
-    ],
-    "links": [
-        {
-            "text": "大阪観光マップ Osaka Map",
-            "url": "?id=osaka",
-            "target": "_self"
-        }
     ]
 }

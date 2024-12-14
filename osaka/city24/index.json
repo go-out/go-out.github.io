@@ -1,6 +1,25 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "map/?id=osaka&area=city24",
+    "url": "index/?id=osaka&area=city24",
+    "title": "大阪市 24 区の花",
+    "subtitle": "Flowers of Osaka City",
+    "description": "大阪市各区のシンボル「区の花」",
+    "info": {
+        "note": null,
+        "markdown": "osaka/city24/flowers.md",
+        "links": [
+            {
+                "text": "大阪市：市の花・区の花",
+                "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000009518.html",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪市：区の花一覧",
+                "url": "https://www.city.osaka.lg.jp/shimin/page/0000288218.html",
+                "target": "_blank"
+            }
+        ]
+    },
     "map": {
         "center": [
             135.5062638133726,
@@ -8,12 +27,12 @@
         ],
         "bounds": [
             [
-                135.3667078,
-                34.5836453
+                135.37115076515494,
+                34.58512357371946
             ],
             [
-                135.6030424,
-                34.773857
+                135.6016809642993,
+                34.76882453018318
             ]
         ],
         "zoom": 11.11
@@ -21,310 +40,23 @@
     "jsonAll": [
         [
             "osaka",
-            "ferry",
+            "city24",
             "index"
-        ],
-        [
-            "yu",
-            "osaka",
-            "268"
-        ],
-        [
-            "osaka/city24",
-            "yodogawa",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "KitaFukushima",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "ChuoNishi",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "tennoji",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "naniwa",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "NishinariAbeno",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "MiyakojimaAsahi",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "JotoTsurumi",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "HigashinariIkuno",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "sumiyoshi",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "hirano",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "konohana",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "MinatoTaisho",
-            "index"
-        ],
-        [
-            "osaka/city24",
-            "suminoe",
-            "index"
-        ],
-        [
-            "osaka",
-            "hokusetsu",
-            "toyono"
-        ],
-        [
-            "osaka",
-            "kawachi",
-            "Naka"
         ]
     ],
-    "title": "大阪市 24区",
-    "subtitle": "Osaka City",
-    "description": "A Select Area 🌍 エリアを選択",
-    "info": {
-        "markdown": null
-    },
-    "area": [
-        {
-            "id": "city24",
-            "name": [
-                "市内",
-                "24区"
-            ],
-            "area": [
-                {
-                    "id": "KitaYodo",
-                    "name": [
-                        "北部・淀川エリア",
-                        "North/Yodogawa Area"
-                    ],
-                    "city": [
-                        "北区",
-                        "福島区",
-                        "都島区",
-                        "旭区",
-                        "東淀川区",
-                        "淀川区",
-                        "西淀川区"
-                    ],
-                    "coordinates": [
-                        135.49944410015505,
-                        34.7201453649089
-                    ],
-                    "bounds": [
-                        [
-                            135.40180003585772,
-                            34.68398124276675
-                        ],
-                        [
-                            135.5625901896664,
-                            34.773999730946336
-                        ]
-                    ],
-                    "zoom": 12.75
-                },
-                {
-                    "id": "Chuo",
-                    "name": [
-                        "中央エリア",
-                        "Central Area"
-                    ],
-                    "city": [
-                        "中央区",
-                        "西区",
-                        "浪速区",
-                        "天王寺区",
-                        "阿倍野区",
-                        "西成区"
-                    ],
-                    "coordinates": [
-                        135.51041114673,
-                        34.668954365573356
-                    ],
-                    "bounds": [
-                        [
-                            135.47372873083702,
-                            34.62095464497363
-                        ],
-                        [
-                            135.53591901795068,
-                            34.69592156451175
-                        ]
-                    ],
-                    "zoom": 13.55
-                },
-                {
-                    "id": "East",
-                    "name": [
-                        "北東エリア",
-                        "Northeast Area"
-                    ],
-                    "city": [
-                        "鶴見区",
-                        "城東区",
-                        "東成区",
-                        "生野区"
-                    ],
-                    "coordinates": [
-                        135.558046854697,
-                        34.67898438332466
-                    ],
-                    "bounds": [
-                        [
-                            135.52381947667314,
-                            34.63497638747964
-                        ],
-                        [
-                            135.599562053627,
-                            34.721784808449044
-                        ]
-                    ],
-                    "zoom": 12.75
-                },
-                {
-                    "id": "South",
-                    "name": [
-                        "南東エリア",
-                        "Southeast Area"
-                    ],
-                    "city": [
-                        "住吉区",
-                        "東住吉区",
-                        "平野区"
-                    ],
-                    "coordinates": [
-                        135.53141423242516,
-                        34.61894613072801
-                    ],
-                    "bounds": [
-                        [
-                            135.4752198535182,
-                            34.5834762
-                        ],
-                        [
-                            135.5803575557604,
-                            34.6430431725536
-                        ]
-                    ],
-                    "zoom": 13.25
-                },
-                {
-                    "id": "WestBay",
-                    "name": [
-                        "南西・ベイエリア",
-                        "Southwest/Osaka Bay Area"
-                    ],
-                    "city": [
-                        "此花区",
-                        "港区",
-                        "大正区",
-                        "住之江区"
-                    ],
-                    "coordinates": [
-                        135.4337129993724,
-                        34.65365573488482
-                    ],
-                    "bounds": [
-                        [
-                            135.3425198,
-                            34.5834762
-                        ],
-                        [
-                            135.4932384,
-                            34.699100890178386
-                        ]
-                    ],
-                    "zoom": 12.75
-                }
-            ]
-        }
-    ],
-    "sort": [
-        [
-            "feature",
-            "地域・特集"
-        ],
-        [
-            "legacy",
-            "文化遺産・寺社仏閣"
-        ],
-        [
-            "park",
-            "公園・公共スペース"
-        ],
-        [
-            "nature",
-            "自然環境"
-        ],
-        [
-            "spot",
-            "その他"
-        ]
-    ],
+    "lineArr": null,
+    "area": null,
+    "sort": null,
     "directory": "https://lh3.googleusercontent.com/",
     "cover": [
-        "p/AF1QipOdcWysnyJwnLfQgLzMCehbOada3C42VxehRdSh=w575-h325-p-k-no",
-        "p/AF1QipPHCUCS9wT-aNJldGIr7l1nN3Epff7miV5MBgij=w575-h325-p-k-no",
-        "p/AF1QipO5cdv4VgPT4Yr3BJcRM8T0EWlxSwYAbKO0irk_=w575-h325-p-k-no",
-        "p/AF1QipPbNBeX5QAbNyZXVpCd2Q1pYitowfpO0EP-UphD=w575-h325-p-k-no",
-        "p/AF1QipNPjVN86Ur_DyKmCWFuKGe4zyzah8lAPoZ_SNFX=w575-h325-p-k-no",
-        "p/AF1QipOnNpHPu5VE00I0rkep2igXOa1cdsXU8EG1g8JP=w575-h325-p-k-no",
-        "p/AF1QipPKYfaU5TdG_ss5QaJAFNrNBUXAZs6lWLioG7j_=w575-h325-p-k-no",
-        "p/AF1QipOdJ53inUmfGx6B1bU7IhciFDGDokpLqfdhzFC2=w575-h325-p-k-no",
-        "p/AF1QipMPBaocCp6N-eF5J0W9a51XwIhSYCrwVYOnlsJm=w575-h325-p-k-no"
-    ],
-    "links": [
-        {
-            "text": "大阪観光マップ Osaka Map",
-            "url": "?id=osaka",
-            "target": "_self"
-        },
-        {
-            "text": "大阪渡船場マップ 〰️ Osaka City Ferries",
-            "url": "?id=osaka&area=ferry",
-            "target": "_self"
-        },
-        {
-            "text": "大阪市：市の花・区の花",
-            "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000009518.html",
-            "target": "_blank"
-        },
-        {
-            "text": "大阪市：区の花一覧",
-            "url": "https://www.city.osaka.lg.jp/shimin/page/0000288218.html",
-            "target": "_blank"
-        }
+        "p/AF1QipOEJ2lPv2JKDECHm5QBqLpa4IJFUx9FHbrUX5Cg=w575-h325-p-k-no",
+        "p/AF1QipNNUH6og0AVnk8bVv-d4mPchtxSfCIOP0ElCwfq=w575-h325-p-k-no",
+        "p/AF1QipOFIVMNk1TfKg1L28VxE58O7mvAmipXeB9ChUMv=w575-h325-p-k-no",
+        "p/AF1QipOhlV4VOsPxk39JsuKeMcADkCHDyaZp-Twbxkdi=w575-h325-p-k-no",
+        "p/AF1QipMh3VMtjL72lg6tk2X20ucqG81UevEpgBXQ23SY=w575-h325-p-k-no",
+        "p/AF1QipP2IBC86lNG7CnvhIjfzz7gIGU-ZALO2YcHw64r=w575-h325-p-k-no",
+        "p/AF1QipOEJ2lPv2JKDECHm5QBqLpa4IJFUx9FHbrUX5Cg=w575-h325-p-k-no",
+        "p/AF1QipOEJ2lPv2JKDECHm5QBqLpa4IJFUx9FHbrUX5Cg=w575-h325-p-k-no",
+        "p/AF1QipOEJ2lPv2JKDECHm5QBqLpa4IJFUx9FHbrUX5Cg=w575-h325-p-k-no"
     ]
 }

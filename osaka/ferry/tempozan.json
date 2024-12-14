@@ -3,6 +3,10 @@
     "url": "?id=osaka-ferry&name=tempozan",
     "title": "天保山（てんぽうざん）渡船場",
     "description": "港区築港（みなとくちっこう）⇄ 此花区桜島（このはなくさくらじま）",
+    "coordinates": [
+        135.43109856854932,
+        34.658746822143925
+    ],
     "info": {
         "note": [
             "阪神高速湾岸線の天保山大橋（自動車専用道路）の補完として、安治川（港区築港3丁目 ⇄ 此花区桜島3丁目）を 渡船「桜」「海桜」が 15 ~ 30分毎 運航",
@@ -17,6 +21,11 @@
             "<a href='https://maps.app.goo.gl/WqFtKxV9TmNxHGyP8' target='_blank'>天保山公園</a> <a href='https://maps.app.goo.gl/em8HimmESzew7NK66' target='_blank'>URポートサイド築港</a>"
         ],
         "links": [
+            {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
             {
                 "text": "大阪市：1.天保山（てんぽうざん）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011249.html",

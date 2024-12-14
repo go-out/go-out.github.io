@@ -14,69 +14,14 @@ const NishinariAbenoindex = {
                 'address': '日本最大の日雇い労働者の街（ドヤ街）',
                 // 'link': 'index/?id=osaka-city24&area=NishinariAbeno-haginochaya',
                 'tag': ['feature'],
-                'iconSize': ['osaka/icon/nnari.png', '3.25rem', '3.25rem', 2],
                 'zoom': 16
             },
             'featured': [
                 {
                     'title': null,
                     'month': [9],
-                    'date': '西成区の花「萩」が見頃を迎える',
+                    'date': '9月頃から、西成区の花「萩」が見頃を迎える',
                     'thisYear': null
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49666727135508, 34.6301105351838]
-            },
-            'properties': {
-                'title': '天下茶屋',
-                'address': '古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地',
-                'link': 'index/?id=osaka-city24&area=NishinariAbeno-tengachaya',
-                'tag': ['feature'],
-                'zoom': 15.5
-            },
-            'featured': [
-                {
-                    'title': "天神ノ森天満宮",
-                    'month': [7],
-                    'date': null,
-                    'note': [
-                        '<b>夏祭り</b>',
-                    ],
-                    'thisYear': [
-                        {
-                            'year': 'every',
-                            'date': [24, 25],
-                            'time': null,
-                            'note': null
-                        }
-                    ]
-                },
-                {
-                    'title': "天下茶屋公園",
-                    'month': [9],
-                    'date': '西成区の花「萩」が見頃を迎える',
-                    'thisYear': null
-                },
-                {
-                    'title': "天神ノ森天満宮",
-                    'month': [10],
-                    'date': null,
-                    'note': [
-                        '<b>秋季大例祭</b>',
-                    ],
-                    'thisYear': [
-                        {
-                            'year': 'every',
-                            'date': [25],
-                            'time': '10:00 ~',
-                            'note': null
-                        }
-                    ]
                 }
             ]
         },
@@ -97,7 +42,7 @@ const NishinariAbenoindex = {
                 {
                     'title': null,
                     'month': [11, 12],
-                    'date': '例年11月下旬から12月上旬、メタセコイア並木の紅葉が見頃を迎える',
+                    'date': '11月下旬から12月上旬、メタセコイア並木の紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]
@@ -113,7 +58,9 @@ const NishinariAbenoindex = {
                 'address': '聖天山（しょうてんやま）古墳の墳丘（標高は14m）<br>山頂は、天下茶屋の聖天さん「正圓寺（しょうえんじ）」の境内',
                 'link': "spot/?id=osaka-city24&area=NishinariAbeno&name=shoutenyama",
                 'tag': ['legacy'],
-                'youtube': 'KbfZTxipYFQ',
+                'youtube': [
+                    "9v0VvxcsfwQ"
+                ],
                 'zoom': 16.5
             },
             'featured': [
@@ -171,6 +118,9 @@ const NishinariAbenoindex = {
                 'address': '境内にあるお茶室「中今亭庭園」とそのお庭は、毎月第1・第3日曜日に限定公開',
                 'link': "spot/?id=osaka-city24&area=NishinariAbeno&name=abenojinja",
                 'tag': ['legacy'],
+                "youtube": [
+                    "tJWPXoMoyBk"
+                ],
                 'zoom': 17
             },
             'featured': [
@@ -187,100 +137,6 @@ const NishinariAbenoindex = {
                             'year': 'every',
                             'date': [22],
                             'time': "9:30 ~",
-                            'note': null
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5146567488659, 34.62885347278464]
-            },
-            'properties': {
-                'title': '阿倍野・王子・文の里・長池',
-                'address': '阪堺上町線より東・南海通より北・阪和線より西',
-                'link': "index/?id=osaka-city24&area=NishinariAbeno-oujifuminosato",
-                'tag': ['feature'],
-                'iconSize': ['osaka/icon/abeno.gif', '3rem', '3rem', 2],
-                'zoom': 14.5
-            },
-            'featured': [
-                {
-                    'title': '阿倍王子神社・安倍晴明神社',
-                    'month': 'every',
-                    'date': null,
-                    'note': [
-                        '<b>月次祭</b>',
-                        '<b>献湯神事</b>',
-                    ],
-                    'thisYear': [
-                        {
-                            'year': 'every',
-                            'date': [1, 15],
-                            'time': null,
-                            'note': null
-                        }
-                    ]
-                },
-                {
-                    'title': '桃ヶ池公園',
-                    'month': [3, 4],
-                    'date': '阿倍野区の花「桃」が見頃を迎える',
-                    'thisYear': null
-                },
-                {
-                    'title': '苗代田公園',
-                    'month': [3],
-                    'date': '辛夷の花が見頃を迎える',
-                    'thisYear': null
-                },
-                {
-                    'title': '阿倍王子神社・安倍晴明神社',
-                    'month': [7],
-                    'date': null,
-                    'note': [
-                        '<b>氏子大祭</b> 夏祭り',
-                    ],
-                    'thisYear': [
-                        {
-                            'year': 'every',
-                            'date': [27, 28],
-                            'time': null,
-                            'note': null
-                        }
-                    ]
-                },
-                {
-                    'title': '安倍晴明神社',
-                    'month': [9],
-                    'date': null,
-                    'note': [
-                        '<b>大祭</b>',
-                    ],
-                    'thisYear': [
-                        {
-                            'year': 'every',
-                            'date': [26],
-                            'time': null,
-                            'note': null
-                        }
-                    ]
-                },
-                {
-                    'title': '阿倍王子神社・安倍晴明神社',
-                    'month': [10],
-                    'date': null,
-                    'note': [
-                        '<b>奉納芸能大会</b> 秋祭り',
-                    ],
-                    'thisYear': [
-                        {
-                            'year': 'every',
-                            'date': [14, 15],
-                            'time': null,
                             'note': null
                         }
                     ]

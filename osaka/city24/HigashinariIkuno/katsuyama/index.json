@@ -1,0 +1,78 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "index/?id=osaka-city24&area=HigashinariIkuno-katsuyama",
+    "title": "御勝山 おかちやま",
+    "subtitle": "Okachiyama",
+    "description": "御勝山（おかちやま）古墳の後円部（標高14mの墳丘）、「大阪五低山」の一つ",
+    "info": {
+        "note": [
+            "生野区役所・区民センター、生野区の花「紫陽花」の名所公園などがある勝山（かつやま）地区",
+            "地名の由来は、帝塚山・茶臼山とともに上町台地上に現存する主要古墳「御勝山（おかちやま）古墳」",
+            "",
+            "<u>最寄駅</u>",
+            "JR環状線 「桃谷」「寺田町」",
+            "いまざとライナー 「大池橋」",
+            "",
+            "※ 既定の経路や時刻表がない予約型のバス「Osaka Metro オンデマンドバス」が運行するエリア",
+            "",
+            "<a href='../spot/?id=osaka-city24&area=HigashinariIkuno-katsuyama&name=spot'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "markdown": null,
+        "links": [
+            {
+                "text": "御勝山古墳 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/御勝山古墳",
+                "target": "_blank"
+            },
+            {
+                "text": "オンデマンドバスのご案内｜Osaka Metro Group オンデマンドバス",
+                "url": "https://maas.osakametro.co.jp/odb/",
+                "target": "_blank"
+            },
+            {
+                "text": "生野の地車（だんじり）とふとん太鼓",
+                "url": "https://www.city.osaka.lg.jp/ikuno/category/3377-15-0-0-0-0-0-0-0-0.html",
+                "target": "_blank"
+            }
+        ]
+    },
+    "map": {
+        "center": [
+            135.53599117496543,
+            34.654460351110984
+        ],
+        "bounds": [
+            [
+                135.5241973819089,
+                34.64856437202954
+            ],
+            [
+                135.54123138533868,
+                34.656313593835975
+            ]
+        ],
+        "zoom": 16.5
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/HigashinariIkuno",
+            "katsuyama",
+            "map"
+        ]
+    ],
+    "lineArr": null,
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

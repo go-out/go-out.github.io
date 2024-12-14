@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-4-7",
-    "url": "?id=osaka-city24&area=konohana-hokko&name=maishima",
+    "url": "spot/?id=osaka-city24&area=konohana-hokko&name=maishima",
     "title": "舞洲（まいしま） Maishima",
     "description": "大阪のスポーツ拠点として生まれ変わりつつある島",
+    "coordinates": [
+        135.3943947975908,
+        34.66235666437147
+    ],
     "info": {
         "note": [
             "東側が物流・環境ゾーン、西側がスポーツ・レクリエーションゾーン"
@@ -23,9 +27,6 @@
                 "url": "https://seasidepark.maishima.com/",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "RGVn0OmDrJA"
         ]
     },
     "videoAll": [

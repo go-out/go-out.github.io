@@ -1,14 +1,17 @@
 {
     "lastModified": "2024-10-25",
-    "url": "?id=osaka-city24&area=NishinariAbeno-tengachaya&name=spot",
-    "title": "天下茶屋 Tengachaya, Osaka",
+    "url": "spot/?id=osaka-city24&area=NishinariAbeno-tengachaya&name=spot",
+    "title": "天下茶屋 Tengachaya",
     "description": "古代には「天神の森」と呼ばれる鬱蒼とした森の茂った鄙びた土地だった地",
+    "coordinates": [
+        135.49666727135508,
+        34.6301105351838
+    ],
     "info": {
         "note": [
             "??"
         ],
-        "links": null,
-        "youtube": null
+        "links": null
     },
     "videoAll": [
         {
@@ -57,7 +60,7 @@
                 "month": null,
                 "day": null,
                 "note": [
-                    "毎年9月頃から、西成区の花「萩」が見頃を迎える"
+                    "9月頃から、西成区の花「萩」が見頃を迎える"
                 ],
                 "links": null
             },

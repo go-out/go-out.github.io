@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka&area=hokusetsu&name=wakayamajinja",
+    "url": "spot/?id=osaka&area=hokusetsu&name=wakayamajinja",
     "title": "若山神社 わかやまじんじゃ",
     "description": "大阪府北部から京都府南部までを広く見渡すことができる景勝の地",
+    "coordinates": [
+        135.65370134999105,
+        34.89226108992393
+    ],
     "info": {
         "note": [
             "自然環境保全地域となっている千年以上の森の中にある神社",

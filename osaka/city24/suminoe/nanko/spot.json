@@ -1,0 +1,102 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "spot/?id=osaka-city24&area=suminoe-nanko&name=spot",
+    "title": "南港（咲洲） Nanko (Sakishima)",
+    "description": "大阪市ベイエリア南側一体「南港（なんこう）」、人工島「咲洲（さきしま）」",
+    "info": {
+        "note": [
+            "中央部は高層住宅地、ニュータウン「南港ポートタウン」",
+            "居住エリアは、緑のまち・海のまち・太陽のまち・花のまち の4ブロック",
+            "街のほぼ中央を南港ポートタウン線が横断"
+        ],
+        "links": [
+            {
+                "text": "南港（咲洲） Nanko (Sakishima)",
+                "url": "../index/?id=osaka-city24&area=suminoe-nanko",
+                "target": "_blank"
+            }
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "咲洲（さきしま）コンテナターミナル",
+                "description": "大阪南港の人工島「咲洲（さきしま）」の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "コンテナ埠頭は、咲洲・夢洲（ゆめしま）に位置する港湾施設",
+                    "<small>咲洲では専用コンテナターミナル(C1～4、C8、C9)が稼働</small>",
+                    "通沿いには、大量に積み上げられた巨大なコンテナしかない 自分の小ささを痛感できる圧巻の景色",
+                    "",
+                    "<u>最寄りのHELLO CYCLING</u>",
+                    "<a href='https://maps.app.goo.gl/9VVdpSeU43wdv4Vs5' target='_blank'>ＡＴＣトレードセンター前駅</a> <a href='https://maps.app.goo.gl/gF4zS3DZLk8ua2t56' target='_blank'>クインテッサホテル大阪ベイ</a>"
+                ],
+                "links": [
+                    {
+                        "text": "[コンテナ埠頭]：大阪港埠頭株式会社",
+                        "url": "http://www.osakaport.co.jp/container_berth.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "大阪南港コンテナターミナル - Google マイマップ",
+                        "url": "https://www.google.com/maps/d/viewer?mid=103R8MAP5pTHhgtBdJ7zSw_TN_9c&hl=ja&usp=sharing",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "シーサイドコスモ",
+                "description": "コスモスクエア海浜緑地",
+                "year": null,
+                "month": null,
+                "day": null,
+                "note": [
+                    "大阪南港の人工島「<ruby>咲洲<rp>（</rp><rt>さきしま</rt><rp>）</rp></ruby>」の玄関口、コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道",
+                    "東側には遊具もある広い芝生、西側には「なにわの海の時空館」の跡地がある",
+                    "",
+                    "<u>アクセス</u><br>Osaka Metro 中央線・ニュートラム「コスモスクエア」からすぐ"
+                ],
+                "links": [
+                    {
+                        "text": "なにわの海の時空館 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/なにわの海の時空館",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "大阪市住之江区南港北1丁目29~33 と 2丁目5~9 - Google マップ",
+                        "url": "https://maps.app.goo.gl/KH4ACfycThQq2rgk7",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/__=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "ID",
+                    "poster": "p/__=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/__=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

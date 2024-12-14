@@ -1,22 +1,22 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=NishinariAbeno-oujifuminosato",
+    "url": "index/?id=osaka-city24&area=NishinariAbeno-oujifuminosato",
     "map": {
         "center": [
-            135.5146567488659,
-            34.62885347278464
+            135.5091447238354,
+            34.6310503018434
         ],
         "bounds": [
             [
-                135.50713902570016,
-                34.6224019713067
+                135.50508663301804,
+                34.62678539434796
             ],
             [
-                135.5236503196333,
-                34.63801224358393
+                135.52378700774761,
+                34.63850971052898
             ]
         ],
-        "zoom": 15
+        "zoom": 16
     },
     "jsonAll": [
         [
@@ -25,18 +25,16 @@
             "map"
         ]
     ],
-    "lineArr": [
-        "osaka/city24/NishinariAbeno/oujifuminosato/line.js"
-    ],
     "title": "あべの王子商店街・王子本通商店街・文の里商店街",
     "subtitle": "Abeno, Osaka",
-    "description": "阪堺上町線より東・南海通より北・阪和線より西",
+    "description": "阪堺上町線より東・阪和線より西",
     "info": {
-        "note": null,
-        "links": null,
-        "youtube": [
-            "0qWk60mfWhA"
-        ]
+        "note": [
+            "あべの王子・昭和町・文の里エリアにある3つの商店街とその周辺",
+            "",
+            "<a href='../spot/?id=osaka-city24&area=NishinariAbeno-oujifuminosato&name=spot'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "links": null
     },
     "area": null,
     "sort": null,

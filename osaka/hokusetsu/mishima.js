@@ -13,7 +13,6 @@ const hokusetsumishima = {
                 'title': '新屋坐天照御魂神社',
                 'address': '神・自然・人の共生 心身再生の神をまつる',
                 // 'link': "spot/?id=osaka&area=hokusetsu&name=niiyajinja",
-                'area': ['osaka', 'hokusetsu', 'mishima'],
                 'tag': ['legacy'],
                 'zoom': 15.5
             },
@@ -43,17 +42,17 @@ const hokusetsumishima = {
                 'coordinates': [135.5847709471435, 34.877345587967795]
             },
             'properties': {
-                'title': '摂津峡公園',
-                'address': '芥川の中上流地域に位置する公園 渓谷の豊かな自然が感じられる景勝地',
-                'link': null,
-                'tag': ['park'],
+                'title': '芥川・摂津峡',
+                'address': '__',
+                // 'link': "index/?id=osaka-hokusetsu&area=akutagawa",
+                'tag': ['feature'],
                 'zoom': 15
             },
             'featured': [
                 {
-                    'title': null,
+                    'title': "摂津峡公園",
                     'month': [11, 12],
-                    'date': '例年11月下旬から12月上旬、もみじ谷や渓流沿いの紅葉が見頃を迎える',
+                    'date': '11月下旬から12月上旬、もみじ谷や渓流沿いの紅葉が見頃を迎える',
                     'thisYear': null
                 }
             ]
@@ -62,14 +61,13 @@ const hokusetsumishima = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.60887626996066, 34.89827281452929]
+                'coordinates': [135.61152332947805, 34.89569268604059]
             },
             'properties': {
                 'title': '神峰山の森',
                 'address': '大阪府立北摂自然公園に属する深緑に包まれた自然園 ※現在、休園中',
                 // 'link': "spot/?id=osaka&area=hokusetsu&name=kabusan",
                 'tag': ['legacy'],
-                'google': 'https://maps.app.goo.gl/qkQg2KpSWqjMQ1VY8',
                 'zoom': 16.5
             },
             'featured': [
@@ -102,6 +100,29 @@ const hokusetsumishima = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.65370134999105, 34.89226108992393]
+            },
+            'properties': {
+                'title': '若山神社',
+                'address': '自然環境保全地域となっている千年以上の森の中にある神社',
+                // 'link': "spot/?id=osaka&area=hokusetsu&name=wakayamajinja",
+                'tag': ['legacy'],
+                'zoom': 16
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [5, 6],
+                    'date': '例年5月~6月、社叢林のコジイ（ツブラジイ）の花が咲く',
+                    'note': null,
+                    'thisYear': null
+                }
+            ]
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.67293259677695, 34.88510685716206]
             },
             'properties': {
@@ -117,20 +138,20 @@ const hokusetsumishima = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.65370134999105, 34.89226108992393]
+                'coordinates': [135.49086102047562, 34.7539228040273]
             },
             'properties': {
-                'title': '若山神社',
-                'address': '自然環境保全地域となっている千年以上の森の中にある神社',
-                // 'link': "spot/?id=osaka&area=hokusetsu&name=wakayamajinja",
-                'tag': ['legacy'],
-                'zoom': 16
+                'title': 'リーニュ・ブランシュの庭',
+                'address': '彫刻家マルタ・パンによる「都市と自然の美しい調和」をテーマとした３つの作品が展示されている、近現代彫刻作品の美術館「スキュルチュール江坂」をとりまく庭',
+                // 'link': "spot/?id=osaka&area=hokusetsu&name=amenityesaka",
+                'tag': ['park'],
+                'zoom': 17.5
             },
             'featured': [
                 {
                     'title': null,
-                    'month': [5, 6],
-                    'date': '例年5月~6月、社叢林のコジイ（ツブラジイ）の花が咲く',
+                    'month': [10, 11],
+                    'date': '10月下旬から11月下旬、アメリカフウ（紅葉葉楓）の紅葉が見頃を迎える',
                     'note': null,
                     'thisYear': null
                 }

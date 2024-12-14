@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-ferry&name=zonbee",
+    "url": "spot/?id=osaka-ferry&name=zinbee",
     "title": "甚兵衛（じんべえ）渡船場",
     "description": "大正区泉尾（たいしょうくいずお）⇄ 港区福崎（みなとくふくざき）",
+    "coordinates": [
+        135.46246523088013,
+        34.656554003191715
+    ],
     "info": {
         "note": [
             "尻無川（大正区泉尾7丁目 ⇄ 港区福崎1丁目）を 渡船「すずかぜ」「きよかぜ」が 随時 ~ 15分毎 運航",
@@ -17,6 +21,11 @@
             "<a href='https://maps.app.goo.gl/dFgQiP7XdzFyKsLs6' target='_blank'>大阪ベイタワー</a> <a href='https://maps.app.goo.gl/FyM356NmJnVWw1q36' target='_blank'>べんてんひろば駐輪場</a>"
         ],
         "links": [
+            {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
             {
                 "text": "大阪市：2.甚兵衛（じんべえ）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011251.html",

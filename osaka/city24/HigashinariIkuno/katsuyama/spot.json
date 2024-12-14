@@ -1,11 +1,14 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=HigashinariIkuno&name=okachiyama",
-    "title": "御勝山 Okachi-yama",
-    "description": "元は「岡山」「丸山」の名称だった古墳",
+    "url": "spot/?id=osaka-city24&area=HigashinariIkuno-katsuyama&name=spot",
+    "title": "大阪市生野区 Ikuno, Osaka",
+    "description": "御勝山（おかちやま）古墳の後円部（標高14mの墳丘）、「大阪五低山」の一つ",
+    "coordinates": [
+        135.5359834816478,
+        34.654466425764554
+    ],
     "info": {
         "note": [
-            "御勝山（おかちやま）古墳の後円部（標高14mの墳丘）、「大阪五低山」の一つ",
             "帝塚山古墳、茶臼山古墳とともに上町台地上に現存する主要古墳の一つ",
             "古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」として整備されている",
             "北側の後円墳部分は大阪府の史跡に指定されており、現在は立ち入り禁止",

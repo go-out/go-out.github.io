@@ -30,14 +30,6 @@ function thisMap(obj) {
         document.head.appendChild(js);
     }, false);
 
-    if (obj.lineArr) {
-        obj.lineArr.forEach(function (eachArr) {
-            const js = document.createElement('script');
-            js.src = mapIndex + eachArr + '?' + obj.lastModified;
-            document.head.appendChild(js);
-        }, false);
-    };
-
     document.title = obj.title;
     const ogTitle = document.querySelector("meta[property='og:title']");
     ogTitle.content = obj.title;
@@ -48,29 +40,33 @@ function thisMap(obj) {
     ogDescription.content = obj.description;
 
     const ogUrl = document.querySelector("meta[property='og:url']");
-    ogUrl.content = obj.url;
+    ogUrl.content = window.location.href;
 
-    if (obj.info.youtube) {
-        const youtubeAll = shuffle(obj.info.youtube);
-        const ytimg = 'https://i.ytimg.com/vi/' + youtubeAll[0] + '/sddefault.jpg';
-        document.querySelector('meta[property="og:image"]').content = ytimg;
-        document.querySelector('meta[name="twitter:image"]').content = ytimg;
-    };
+    const coverAll = shuffle(obj.cover);
+    const coverIMG = obj.directory + coverAll[0];
+    document.querySelector('meta[property="og:image"]').content = coverIMG;
+    document.querySelector('meta[name="twitter:image"]').content = coverIMG;
 
     window.addEventListener("load", () => {
-        if (obj.cover) {
-            const coverAll = shuffle(obj.cover);
-            for (let i = 0; i < 9; i++) {
-                createLi(i, obj.directory + coverAll[i]);
-            };
+        for (let i = 0; i < 9; i++) {
+            createCover(i, obj.directory + coverAll[i]);
         };
 
         const playBtn = document.querySelector("h1 u");
-        playBtn.textContent = obj.title;
         const subtitle = document.querySelector("h1 strong");
-        subtitle.innerHTML = obj.subtitle;
         const h2 = document.querySelector("#info details summary");
+        playBtn.textContent = obj.title;
+        subtitle.innerHTML = obj.subtitle;
         h2.textContent = obj.description;
+
+        if (obj.map) {
+            map.flyTo({
+                center: obj.map.center,
+                essential: true,
+                zoom: obj.map.zoom
+            });
+            map.setMaxBounds(obj.map.bounds);
+        };
 
         if (obj.area) {
             creatIndex(obj.area);
@@ -80,15 +76,6 @@ function thisMap(obj) {
             createSort(obj.sort);
         } else {
             document.querySelector("#sort").remove();
-        };
-
-        if (obj.map) {
-            map.flyTo({
-                center: obj.map.center,
-                essential: true,
-                zoom: obj.map.zoom
-            });
-            map.setMaxBounds(obj.map.bounds);
         };
 
         spotArr.forEach(function (eachArr) {
@@ -102,12 +89,10 @@ function thisMap(obj) {
 
         const readme = document.querySelector("#readme");
         if (obj.info.markdown && !obj.info.note) {
-            readmeMD("#readme", directory + obj.info.markdown);
+            readmeMD("#readme", mapIndex + obj.info.markdown);
         } else if (!obj.info.markdown && obj.info.note) {
-            if (obj.info.note) {
-                for (const textEach of obj.info.note) {
-                    readme.innerHTML += textEach + '<br/>';
-                };
+            for (const textEach of obj.info.note) {
+                readme.innerHTML += textEach + '<br/>';
             };
         } else {
             readme.remove();
@@ -127,6 +112,53 @@ function thisMap(obj) {
             };
         };
 
+        if (obj.lineArr) {
+            obj.lineArr.forEach(function (eachArr) {
+                let thisLine = eval(eachArr);
+                thisLine.forEach(function (lineArr) {
+                    lineJson.features.push(lineArr);
+                }, false);
+            }, false);
+
+            console.log(lineJson);
+            map.addSource('line', {
+                type: 'geojson',
+                lineMetrics: true,
+                data: lineJson
+            });
+
+            map.addLayer({
+                type: 'line',
+                source: 'line',
+                id: 'line',
+                paint: {
+                    'line-color': 'lightskyblue',
+                    'line-width': 11
+                },
+                layout: {
+                    'line-cap': 'round',
+                    'line-join': 'round'
+                }
+            });
+
+            map.on('mouseenter', 'line', () => {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            map.on('mouseleave', 'line', () => {
+                map.getCanvas().style.cursor = '';
+            });
+
+            map.on('click', 'line', (e) => {
+                map.flyTo({
+                    center: e.lngLat,
+                    essential: true,
+                    zoom: e.features[0].properties.zoom
+                });
+                infoMore(e.features[0].properties);
+            });
+        };
+
         const details = document.querySelector("#info details");
         let orientation =
             (screen.orientation || {}).type ||
@@ -141,24 +173,16 @@ function thisMap(obj) {
         } else if (orientation === undefined) {
             console.log("このブラウザは画面方向 API に対応していません :(");
         };
-
-        if (obj.info.youtube) {
-            const youtubeAll = shuffle(obj.info.youtube);
-            youtubeID = youtubeAll[0];
-            player.loadVideoById({ videoId: youtubeID });
-            document.querySelector('#player').style.display = "block";
-        };
     }, false);
 };
 
-function createLi(number, poster) {
+function createCover(number, poster) {
     const cover = document.querySelector('#cover');
     const li = document.createElement('li');
-    li.dataset.number = number;
     li.style.backgroundImage = `url(${poster})`;
+    li.dataset.number = number;
     cover.appendChild(li);
 };
-
 
 function createList(arr) {
     const ul = document.createElement('ul');
@@ -177,6 +201,8 @@ function createList(arr) {
             } else {
                 flyToCenter(marker, 15.5);
             };
+            scrollEvent("map");
+            infoMore(marker.properties, marker.geometry.coordinates);
         }, false);
     };
 };
@@ -213,11 +239,13 @@ function creatIndex(arr) {
             `;
             local.appendChild(label);
 
-            for (const city of name.city) {
-                const small = document.createElement('small');
-                small.textContent = city;
-                label.appendChild(small);
-            };
+            if (name.city) {
+                for (const city of name.city) {
+                    const small = document.createElement('small');
+                    small.textContent = city;
+                    label.appendChild(small);
+                };
+            }
 
             input.addEventListener('change', () => {
                 if (name.zoom) {
@@ -244,13 +272,24 @@ function createMarker(arr) {
     for (const marker of arr.features) {
         const el = document.createElement('div');
 
-        if (marker.properties.iconSize) {
-            const url = marker.properties.iconSize[0];
-            el.style.width = marker.properties.iconSize[1];
-            el.style.height = marker.properties.iconSize[2];
-            el.style.backgroundImage = `url(${directory}${url})`;
-            if (marker.properties.iconSize[3]) {
-                el.style.zIndex = marker.properties.iconSize[3];
+        if (marker.properties.iconSize || marker.properties.google) {
+            if (marker.properties.iconSize) {
+                const url = marker.properties.iconSize[0];
+                el.style.backgroundImage = `url(${mapIndex}${url})`;
+                el.style.width = marker.properties.iconSize[1];
+                el.style.height = marker.properties.iconSize[2];
+                if (marker.properties.iconSize[3]) {
+                    el.style.zIndex = marker.properties.iconSize[3];
+                };
+            } else if (marker.properties.google) {
+                const url = marker.properties.google[0] + "=w172-h111-p-k-no";
+                el.style.backgroundImage = `url(https://lh5.googleusercontent.com/p/${url})`;
+                el.style.width = "7rem";
+                el.style.height = "4.5rem";
+                el.style.borderRadius = "0.5rem";
+                if (marker.properties.google[1]) {
+                    el.style.zIndex = marker.properties.google[1];
+                };
             }
         } else {
             el.classList.add("goout");
@@ -270,7 +309,6 @@ function createMarker(arr) {
 
         el.addEventListener('click', () => {
             infoMore(marker.properties, marker.geometry.coordinates);
-
             if (marker.properties.zoom) {
                 flyToCenter(marker, marker.properties.zoom);
             } else {
@@ -326,91 +364,20 @@ function flyToCenter(e, zoom) {
     });
 };
 
+function scrollEvent(id) {
+    const element = document.getElementById(id);
+    const targetDOMRect = element.getBoundingClientRect();
+    const targetTop = targetDOMRect.top + window.scrollY;
+    window.scrollTo({
+        top: targetTop,
+        behavior: 'smooth'
+    }), false;
+};
+
 async function readmeMD(query, url) {
     fetch(url)
         .then(response => response.text())
         .then(innerText => {
             document.querySelector(query).innerText = innerText;
         })
-};
-
-function videoAll(obj) {
-    let orientation =
-        (screen.orientation || {}).type ||
-        screen.mozOrientation || screen.msOrientation;
-
-    if (
-        orientation === "landscape-primary" ||
-        orientation === "landscape-secondary"
-    ) {
-        // 画面が縦向き（縦長）の場合
-    } else if (
-        orientation === "portrait-primary" ||
-        orientation === "portrait-secondary"
-    ) {
-        // 画面が横向き（横長）の場合
-    } else if (orientation === undefined) {
-        console.log("このブラウザは画面方向 API に対応していません :(");
-    };
-};
-
-function weatherAPI(lat, lon) {
-    // Weather API ID
-    const api = "557b466129cf7d7427b03e5b7886a4bb";
-
-    // https://openweathermap.org/current
-    const base =
-        `http://api.openweathermap.org/data/2.5/weather` +
-        `?lat=${lat}&lon=${lon}&appid=${api}&lang=ja`;
-
-    // Current weather data
-    const kelvin = 273.15;
-    let icon0,
-        weather0,
-        temp_current,
-        temp_max,
-        temp_min,
-        clouds,
-        wind,
-        sunrise,
-        sunset;
-
-    fetch(base)
-        .then((response) => {
-            return response.json()
-        })
-        .then((data) => {
-            icon0 = "https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png";
-            weather0 = data.weather[0].description + ", " + data.weather[0].main;
-            temp_current = Math.floor(data.main.temp - kelvin) + "°C";
-            temp_max = Math.floor(data.main.temp_max - kelvin) + "°C";
-            temp_min = Math.floor(data.main.temp_min - kelvin) + "°C";
-            clouds = data.clouds.all;
-            wind = data.wind.speed;
-            sunrise = data.sys.sunrise;
-            sunset = data.sys.sunset;
-
-            const weather = document.querySelector('#weather');
-            weather.innerHTML = `
-            <img src="${icon0}" alt="${weather0}">
-            <p>
-            <strong>${weather0}</strong>
-            </p>
-            <p>
-            <strong>
-            <small>日の出 Sunrise</small>
-            ${new Date(sunrise * 1000).toLocaleTimeString()}
-            </strong>
-            </p>
-            <p>
-            <strong>
-            <small>日の入 Sunset</small>
-            ${new Date(sunset * 1000).toLocaleTimeString()}
-            </strong>
-            </p>
-            <p>
-            <small>気温 ${temp_current} | 最高気温 ${temp_max} | 最低気温 ${temp_min} | 雲量 ${clouds}% | 風速 ${wind}m/s</small>
-            </p>
-            `;
-        });
 };

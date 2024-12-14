@@ -1,6 +1,6 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=ID&area=エリア&name=名前",
+    "url": "index/?id=ID&area=エリア&name=名前",
     "map": {
         "center": [
             "中心座標"
@@ -17,14 +17,24 @@
     },
     "jsonAll": [
         [
-            "index"
+            "id",
+            "area",
+            "name"
         ]
+    ],
+    "lineArr": [
+        "___"
     ],
     "title": "行ったことのない場所へ",
     "subtitle": "Go Out",
-    "description": "A Select Area 🌍 エリアを選択",
+    "description": "Select an Area 🌍 エリアを選択",
     "info": {
-        "note": null,
+        "note": [
+            "<u>アクセス</u>",
+            "__ 「__」から徒歩約__分",
+            "",
+            "<a href='../spot/?id=ID&area=エリア&name=名前'>ランドマーク・お気に入りの場所</a>"
+        ],
         "markdown": null,
         "links": [
             {
@@ -32,8 +42,7 @@
                 "url": "https://www.google.com/maps/contrib/104493917977768716042/",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "area": null,
     "sort": null,

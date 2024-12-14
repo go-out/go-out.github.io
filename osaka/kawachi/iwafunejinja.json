@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-11-24",
-    "url": "?id=osaka&area=kawachi&name=iwafunejinja",
+    "url": "spot/?id=osaka&area=kawachi&name=iwafunejinja",
     "title": "磐船神社 Iwafune Jinja",
     "description": "天の磐船を御神体とする饒速日命降臨の聖地",
+    "coordinates": [
+        135.6931858496559,
+        34.74780450810381
+    ],
     "info": {
         "note": [
             "例祭日：春季例祭 5月5日",

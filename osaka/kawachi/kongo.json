@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-10-11",
-    "url": "?id=osaka&area=kawachi&name=kongo",
+    "url": "spot/?id=osaka&area=kawachi&name=kongo",
     "title": "金剛山 Mt. Kongo",
-    "description": "",
+    "description": "奈良県御所市と大阪府南河内郡千早赤阪村との境目にある山",
+    "coordinates": [
+        135.65331071080595,
+        34.415835709555736
+    ],
     "info": {
         "note": [],
         "links": [
@@ -19,6 +23,11 @@
             {
                 "text": "葛木神社／千早赤阪村",
                 "url": "https://www.vill.chihayaakasaka.osaka.jp/kanko/rekishi/7859.html",
+                "target": "_blank"
+            },
+            {
+                "text": "金剛山 (金剛山地) - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/金剛山_(金剛山地)",
                 "target": "_blank"
             }
         ],

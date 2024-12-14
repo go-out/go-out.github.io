@@ -1,0 +1,71 @@
+{
+    "lastModified": "YYYY-MM-DD",
+    "url": "index/?id=osaka-city24&area=HigashinariIkuno-koreatown",
+    "map": {
+        "center": [
+            135.53616527591265,
+            34.66055331934443
+        ],
+        "bounds": [
+            [
+                135.52754041321026,
+                34.65752667310463
+            ],
+            [
+                135.54291265561386,
+                34.66896115345061
+            ]
+        ],
+        "zoom": 16
+    },
+    "jsonAll": [
+        [
+            "osaka/city24/HigashinariIkuno",
+            "koreatown",
+            "map"
+        ]
+    ],
+    "lineArr": [
+        "koreatownline"
+    ],
+    "title": "大阪生野コリアタウン",
+    "subtitle": "Korea Town (Ikuno, Osaka)",
+    "description": "御幸通商店街・御幸通中央商店会・御幸通東商店会とその周辺",
+    "info": {
+        "note": [
+            "全国で最も在日コリアンの人々が集中する地域",
+            "",
+            "<u>アクセス</u>",
+            "__ 「__」から徒歩約__分",
+            "",
+            "<a href='../spot/?id=ID&area=エリア&name=名前'>ランドマーク・お気に入りの場所</a>"
+        ],
+        "markdown": null,
+        "links": [
+            {
+                "text": "大阪コリアタウン",
+                "url": "https://osaka-koreatown.com/",
+                "target": "_blank"
+            },
+            {
+                "text": "鶴橋商店街",
+                "url": "https://tsurushin.com/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "area": null,
+    "sort": null,
+    "directory": "https://lh3.googleusercontent.com/",
+    "cover": [
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no",
+        "p/__=w575-h325-p-k-no"
+    ]
+}

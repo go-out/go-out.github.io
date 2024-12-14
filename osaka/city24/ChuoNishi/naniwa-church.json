@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=ChuoNishi&name=naniwa-church",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi&name=naniwa-church",
     "title": "日本基督教団 浪花教会",
     "description": "Naniwa Church United Church of Christ in Japan",
+    "coordinates": [
+        135.50377773671266,
+        34.6895025048057
+    ],
     "info": {
         "note": [
             "日本キリスト教団に所属する正統なプロテスタントの教会",
@@ -20,12 +24,11 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
+                "text": "日本キリスト教団浪花教会 - Google マップ",
                 "url": "https://maps.app.goo.gl/CFFeQN3Pkn1nkMaV6",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

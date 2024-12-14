@@ -300,7 +300,7 @@ const kawachiNaka = {
             'properties': {
                 'title': '久宝寺緑地',
                 'address': '大阪4大緑地のひとつ 甲子園球場の約10倍もの広さを誇る大阪府営の緑地公園',
-                'link': "spot/?id=osaka&area=kawachi&name=kyuhouji",
+                // 'link': "spot/?id=osaka&area=kawachi&name=kyuhouji",
                 'tag': ['park'],
                 'zoom': 15
             }

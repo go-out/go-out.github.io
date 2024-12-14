@@ -1,28 +1,28 @@
-#title,
-#link {
+dialog #title,
+dialog #link {
     font-family: 'Kristina', 'KikaiChokoku', sans-serif;
 }
 
-#description,
+dialog #description,
 dialog p {
     font-family: 'KikaiChokoku', 'Arial Narrow', sans-serif;
 }
 
 dialog input[type="button"],
-#link {
+dialog #link {
     color: lemonchiffon;
     text-shadow: 0.1rem 0.1rem 0.1rem lightskyblue,
         0.2rem 0.2rem 0.2rem lightskyblue,
         0.3rem 0.3rem 0.3rem lightskyblue;
 }
 
-#description {
+dialog #description {
     background: lemonchiffon;
     color: lightskyblue;
     text-decoration: none;
 }
 
-#title,
+dialog #title,
 dialog input[type="button"]:hover {
     color: lightskyblue;
 }
@@ -32,20 +32,20 @@ dialog {
     border-radius: 0.5rem;
 }
 
-#link {
+dialog #link {
     font-size: 200%;
     font-weight: 900;
 }
 
-#title {
+dialog #title {
     font-size: 111%;
 }
 
-#link small {
+dialog #link small {
     font-size: 75%;
 }
 
-#description,
+dialog #description,
 dialog p small {
     font-size: 65%;
 }
@@ -58,7 +58,7 @@ dialog h2 {
     line-height: 75%;
 }
 
-#title {
+dialog #title {
     line-height: 125%;
 }
 
@@ -66,21 +66,26 @@ dialog input[type="button"]:hover {
     cursor: pointer;
 }
 
-#title,
+dialog #title,
+dialog #link,
 dialog input[type="button"] {
     display: block;
+}
+
+dialog #link[hidden] {
+    display: none;
 }
 
 dialog {
     padding: 0;
 }
 
-#title,
-#description {
+dialog #title,
+dialog #description {
     padding: 0.25rem;
 }
 
-#link {
+dialog #link {
     padding: 0.5rem;
 }
 
@@ -92,21 +97,21 @@ dialog input[type="button"] {
     margin: 0;
 }
 
-dialog p {
-    margin: 0.25rem 0.5rem;
+dialog {
+    width: calc(100% - 2.5rem);
+    max-width: 750px;
 }
 
-dialog {
-    width: 90vw;
-    max-width: 750px;
+dialog #player {
+    clear: both;
+    margin: 1rem 0.5rem 0;
+    width: calc(100% - 1rem);
+    height: 100%;
     aspect-ratio: 16 / 9;
 }
 
-
 dialog input[type="button"] {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    float: right;
 }
 
 @media (orientation: landscape) {

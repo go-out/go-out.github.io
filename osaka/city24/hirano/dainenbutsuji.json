@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-5-2",
-    "url": "?id=osaka-city24&area=hirano&name=dainenbutsuji",
+    "url": "spot/?id=osaka-city24&area=hirano&name=dainenbutsuji",
     "title": "大念佛寺 Dai-nenbutsu-ji",
     "description": "融通念佛宗の総本山 本堂は大阪府下最大の木造建築物",
+    "coordinates": [
+        135.5504967187009,
+        34.62725036562907
+    ],
     "info": {
         "note": [
             "創建は大治2年（1127年）とされる日本最初の念仏道場",
@@ -28,8 +32,7 @@
                 "url": "https://maps.app.goo.gl/vPf24jEDYDTZqWhc8",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

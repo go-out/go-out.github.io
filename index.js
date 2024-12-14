@@ -1,21 +1,21 @@
 'use strict'
 
 const mapJsonAll = [
-    ["osaka", "ferry", "index", "YYYY-MM-DD"],
-    ["osaka/city24", "yodogawa", "index", "YYYY-MM-DD"],
+    ["osaka", "city24", "index", "YYYY-MM-DD"],
     ["osaka/city24", "KitaFukushima", "index", "YYYY-MM-DD"],
     ["osaka/city24", "ChuoNishi", "index", "YYYY-MM-DD"],
     ["osaka/city24", "tennoji", "index", "YYYY-MM-DD"],
     ["osaka/city24", "naniwa", "index", "YYYY-MM-DD"],
     ["osaka/city24", "NishinariAbeno", "index", "YYYY-MM-DD"],
-    ["osaka/city24", "MiyakojimaAsahi", "index", "YYYY-MM-DD"],
-    ["osaka/city24", "JotoTsurumi", "index", "YYYY-MM-DD"],
-    ["osaka/city24", "HigashinariIkuno", "index", "YYYY-MM-DD"],
     ["osaka/city24", "sumiyoshi", "index", "YYYY-MM-DD"],
     ["osaka/city24", "hirano", "index", "YYYY-MM-DD"],
     ["osaka/city24", "konohana", "index", "YYYY-MM-DD"],
     ["osaka/city24", "MinatoTaisho", "index", "YYYY-MM-DD"],
     ["osaka/city24", "suminoe", "index", "YYYY-MM-DD"],
+    ["osaka/city24", "yodogawa", "index", "YYYY-MM-DD"],
+    ["osaka/city24", "MiyakojimaAsahi", "index", "YYYY-MM-DD"],
+    ["osaka/city24", "JotoTsurumi", "index", "YYYY-MM-DD"],
+    ["osaka/city24", "HigashinariIkuno", "index", "YYYY-MM-DD"],
     ["osaka", "hokusetsu", "toyono", "YYYY-MM-DD"],
     ["osaka", "hokusetsu", "mishima", "YYYY-MM-DD"],
     ["osaka", "kawachi", "Kita", "YYYY-MM-DD"],
@@ -49,6 +49,26 @@ const weekdays = [
     "金 FRI",
     "土 SAT",
 ];
+
+var player,
+    youtubeID;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        videoId: youtubeID,
+        playerVars: {
+            'playsinline': 1,
+            'controls': 0,
+            'showinfo': 0,
+            'rel': 0
+        }
+    });
+}
+
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 function featureSpot(arr) {
     for (const marker of arr.features) {
@@ -155,6 +175,7 @@ function createFeatured(query, marker, featuredEach) {
 function infoMore(marker) {
     const title = document.querySelector("#title");
     title.textContent = marker.title;
+
     const link = document.querySelector("#link");
     if (marker.link) {
         link.hidden = false;
@@ -162,6 +183,15 @@ function infoMore(marker) {
     } else {
         link.hidden = true;
     };
+
+    if (marker.youtube) {
+        let youtubeAll = shuffle(marker.youtube);
+        player.loadVideoById({ videoId: youtubeAll[0] })
+        document.querySelector('#player').hidden = false;
+    } else {
+        document.querySelector('#player').hidden = true;
+    };
+
     const address = document.querySelector("#description");
     address.innerHTML = marker.address;
     document.querySelector("dialog").showModal();
@@ -171,5 +201,9 @@ function closeDialog() {
     document.querySelector("#title").textContent = "Go Out";
     document.querySelector("#description").textContent = "行ったことのない場所へ行く";
     document.querySelector("#link").hidden = true;
+    document.querySelector('#player').hidden = true;
+    if (document.querySelector('#player').hidden = true) {
+        player.stopVideo();
+    };
     document.querySelector("dialog").close();
 };

@@ -20,7 +20,7 @@
     <!--og:meta-->
     <meta content="summary_large_image" name="twitter:card" />
     <meta property="og:site_name" content="Go Out | 行ったことのない場所へ行く" />
-    <meta property="og:url" content="___" />
+    <meta property="og:url" content="index/" />
     <meta property="og:image" content="card.png" />
 
     <!-- Twitter -->
@@ -28,29 +28,29 @@
     <meta name="twitter:image" content="../card.png" />
 
     <script src="../index.js"></script>
-    <script src="js/youtube.js"></script>
     <script src="js/map.js"></script>
     <script>
-        const directory = "../",
-            mapIndex = "../";
+        const mapIndex = "../";
 
         // ?id=ID&area=エリア&name=名前
         let params = new URLSearchParams(location.search),
             thisJson;
 
-        if (params.get("id")) {
-            thisJson = directory + params.get("id").replace("-", '/');
-            if (params.get("area")) {
-                thisJson += `/${params.get("area").replace("-", '/')}`;
+        if (location.search) {
+            if (params.get("id")) {
+                thisJson = mapIndex + params.get("id").replace("-", '/');
+                if (params.get("area")) {
+                    thisJson += `/${params.get("area").replace("-", '/')}`;
+                }
+                if (params.get("name")) {
+                    thisJson += `/${params.get("name")}.json`;
+                } else {
+                    thisJson += "/index.json";
+                }
+                indexJSON(thisJson)
             }
-            if (params.get("name")) {
-                thisJson += `/${params.get("name")}.json`;
-            } else {
-                thisJson += "/index.json";
-            }
-            indexJSON(thisJson)
         } else {
-            indexJSON(directory + 'osaka/index.json');
+            indexJSON('index.json');
         };
     </script>
 
@@ -79,7 +79,6 @@
                 <summary>知っていることの 外へ わからないところまで 出かける</summary>
                 <div id="readme"></div>
                 <nav id="area"></nav>
-                <div id="player"></div>
             </details>
             <nav id="sort"></nav>
         </section>
@@ -99,11 +98,11 @@
             <small>もっと詳しく</small>
             More Info
         </a>
+        <div id="player"></div>
     </dialog>
 
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
-
         let style = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
             center = [135.5062638133726, 34.65238308472434],
             bounds = [
@@ -112,12 +111,15 @@
             ],
             zoom = 4.2;
 
+        let lineJson = {
+            'type': 'FeatureCollection',
+            'features': []
+        };
+
         const map = new mapboxgl.Map({
             container: 'map',
             center: center,
             style: style,
-            pitch: 0,
-            bearing: 0,
             zoom: zoom,
             scrollZoom: 1,
             maxBounds: bounds,
@@ -127,10 +129,9 @@
 
         // 右クリックイベント
         map.on("contextmenu", (e) => {
-            let thisLngLat = [e.lngLat.lng, e.lngLat.lat]
             const popup = new mapboxgl.Popup()
-                .setLngLat(thisLngLat)
-                .setHTML(thisLngLat)
+                .setLngLat([e.lngLat.lng, e.lngLat.lat])
+                .setHTML(`${e.lngLat.lng}, ${e.lngLat.lat}`)
                 .addTo(map);
         });
     </script>

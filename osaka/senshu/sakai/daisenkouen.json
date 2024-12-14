@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-1-17",
-    "url": "?id=osaka&area=senshu-sakai&name=daisenkouen",
+    "url": "spot/?id=osaka&area=senshu-sakai&name=daisenkouen",
     "title": "大仙公園 Daisen Park",
     "description": "大仙陵古墳の南に位置する総合公園",
+    "coordinates": [
+        135.4827171094223,
+        34.558680945637946
+    ],
     "info": {
         "note": [
             "世界文化遺産に登録された <ruby>百舌鳥古墳群<rp>（</rp><rt>もずこふんぐん</rt><rp>）</rp></ruby> のシンボル、世界最大の墳墓である<ruby>仁徳天皇<rp>（</rp><rt>にんとくてんのう </rt><rp>）</rp></ruby>の墓「<ruby>大仙陵古墳<rp>（</rp><rt>だいせんりょうこふん</rt><rp>）</rp></ruby>」の南に位置する総合公園",
@@ -55,12 +59,11 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
+                "text": "大仙公園 - Google マップ",
                 "url": "https://maps.app.goo.gl/rUdGMRawVskWoRgo6",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

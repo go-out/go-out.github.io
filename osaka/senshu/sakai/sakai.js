@@ -156,80 +156,82 @@ const sakaisakai = {
     ]
 }
 
-map.on('load', () => {
-    map.addSource('addLine', {
-        'type': 'geojson',
-        'data': {
-            'type': 'FeatureCollection',
-            'features': [
-                {
-                    'type': 'Feature',
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                            [135.4680753923913, 34.578197186131845],
-                            [135.4759440637631, 34.57327664128124],
-                            [135.48230878833408, 34.56987746494687]
-                        ]
+window.onload = () => {
+    map.on('load', () => {
+        map.addSource('addLine', {
+            'type': 'geojson',
+            'data': {
+                'type': 'FeatureCollection',
+                'features': [
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'LineString',
+                            'coordinates': [
+                                [135.4680753923913, 34.578197186131845],
+                                [135.4759440637631, 34.57327664128124],
+                                [135.48230878833408, 34.56987746494687]
+                            ]
+                        },
+                        'properties': {
+                            'title': 'フェニックス通り',
+                            'address': '__',
+                            'link': null,
+                            'zoom': 16
+                        }
                     },
-                    'properties': {
-                        'title': 'フェニックス通り',
-                        'address': '__',
-                        'link': null,
-                        'zoom': 16
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'LineString',
+                            'coordinates': [
+                                [135.4858239386541, 34.59095590705509],
+                                [135.4804505721869, 34.57631417677456],
+                                [135.47994118005568, 34.57499393772659],
+                                [135.47588646286016, 34.57367105222079],
+                                [135.47148147115433, 34.568958659729006]
+                            ]
+                        },
+                        'properties': {
+                            'title': '土居川公園',
+                            'address': '__',
+                            'link': null,
+                            'zoom': 16
+                        }
                     }
-                },
-                {
-                    'type': 'Feature',
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                            [135.4858239386541, 34.59095590705509],
-                            [135.4804505721869, 34.57631417677456],
-                            [135.47994118005568, 34.57499393772659],
-                            [135.47588646286016, 34.57367105222079],
-                            [135.47148147115433, 34.568958659729006]
-                        ]
-                    },
-                    'properties': {
-                        'title': '土居川公園',
-                        'address': '__',
-                        'link': null,
-                        'zoom': 16
-                    }
-                }
-            ]
-        }
-    });
-
-    map.addLayer({
-        'id': 'line',
-        'type': 'line',
-        'source': 'addLine',
-        'layout': {
-            'line-join': 'round',
-            'line-cap': 'round'
-        },
-        'paint': {
-            'line-color': 'lightskyblue',
-            'line-width': 11
-        }
-    });
-
-    map.on('mouseenter', 'line', () => {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-    map.on('mouseleave', 'line', () => {
-        map.getCanvas().style.cursor = '';
-    });
-
-    map.on('click', 'line', (e) => {
-        map.flyTo({
-            center: e.lngLat,
-            essential: true,
-            zoom: e.features[0].properties.zoom
+                ]
+            }
         });
-        infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
+
+        map.addLayer({
+            'id': 'line',
+            'type': 'line',
+            'source': 'addLine',
+            'layout': {
+                'line-join': 'round',
+                'line-cap': 'round'
+            },
+            'paint': {
+                'line-color': 'lightskyblue',
+                'line-width': 11
+            }
+        });
+
+        map.on('mouseenter', 'line', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+
+        map.on('mouseleave', 'line', () => {
+            map.getCanvas().style.cursor = '';
+        });
+
+        map.on('click', 'line', (e) => {
+            map.flyTo({
+                center: e.lngLat,
+                essential: true,
+                zoom: e.features[0].properties.zoom
+            });
+            infoMore(e.features[0].properties, e.features[0].geometry.coordinates[0]);
+        });
     });
-});
+};

@@ -7,7 +7,25 @@ const hiraomap = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.47106549425317, 34.64883112896146]
+                'coordinates': [135.474103174371, 34.64891251870067]
+            },
+            'properties': {
+                'title': '千島公園',
+                'address': '大正区の花「ツツジ」の名所公園 港の見える丘',
+                'link': "spot/?id=osaka-city24&area=MinatoTaisho&name=chishima",
+                'tag': ['park'],
+                'zoom': 16,
+                "youtube": [
+                    "jBbHwch_nf8"
+                ]
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47097560412817, 34.648853515851116]
             },
             'properties': {
                 'title': '大阪沖縄会館',

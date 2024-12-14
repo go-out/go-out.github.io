@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=sumiyoshi&name=sumiyoshi-park",
+    "url": "spot/?id=osaka-city24&area=sumiyoshi&name=sumiyoshi-park",
     "title": "住吉公園 Sumiyoshi Park",
     "description": "住吉大社に隣接する大阪でもっとも古い公園",
+    "coordinates": [
+        135.48847178187606,
+        34.61245540309558
+    ],
     "info": {
         "note": [
             "<ruby>1873年<rp>（</rp><rt>明治6年8⽉2⽇</rt><rp>）</rp></ruby> に開設された大阪でもっとも古い公園 地域住民の憩いの場",
@@ -39,10 +43,6 @@
                 "url": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_trying05",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "gfwP_viCeZg",
-            "mkioDOspLbs"
         ]
     },
     "videoAll": [
@@ -94,10 +94,7 @@
                 "year": null,
                 "month": null,
                 "day": null,
-                "note": [
-                    "サギなどの鳥たちが羽を休めに来ます。",
-                    "どの場面も美しく、ずっとお気に入りの場所だと思います。"
-                ],
+                "note": null,
                 "links": null
             },
             "directory": "https://lh3.googleusercontent.com/",

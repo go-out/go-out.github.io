@@ -7,43 +7,15 @@ const ChuoNishiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5230412005792, 34.67991567674672]
-            },
-            'properties': {
-                'title': '難波宮（大阪城周辺）',
-                'address': '大阪が日本の都であったことを示す宮殿の跡',
-                // 'link': 'index/?id=osaka-city24&area=ChuoNishi-naniwanomiya',
-                'tag': ['feature'],
-                'iconSize': ['osaka/icon/chuo.png', '3.25rem', '3.25rem', 2],
-                'zoom': 15
-            },
-            'featured': [
-                {
-                    'title': null,
-                    'month': [2],
-                    'date': '区の花「梅」が春の見頃を迎える',
-                    'thisYear': null
-                },
-                {
-                    'title': null,
-                    'month': [11,12],
-                    'date': '例年11月下旬から12月上旬、大阪城公園東側のイチョウ並木などの紅葉が見頃を迎える',
-                    'thisYear': null
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.49859722640997, 34.68094032521765]
             },
             'properties': {
                 'title': '坐摩神社',
                 'address': '摂津国一之宮 いかすりじんじゃ 通称ざまさん',
-                // 'link': "spot/?id=osaka-city24&area=ChuoNishi&name=ikasuri",
+                'link': "spot/?id=osaka-city24&area=ChuoNishi&name=ikasuri",
                 'tag': ['legacy'],
-                'zoom': 18
+                'zoom': 18,
+                "youtube": null
             },
             'featured': [
                 {
@@ -132,13 +104,14 @@ const ChuoNishiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.51386266424993, 34.668706290921975]
+                'coordinates': [135.51387758163014, 34.66887240089264]
             },
             'properties': {
                 'title': '高津宮',
                 'address': '大阪市歌の一番で歌われる由緒あるお宮<br>「高津の宮の昔より よよの栄を重ねきて 民のかまどに立つ煙」',
                 'link': "spot/?id=osaka-city24&area=ChuoNishi&name=kouzu",
                 'tag': ['legacy'],
+                "youtube": null,
                 'zoom': 17.5
             },
             'featured': [
@@ -206,44 +179,18 @@ const ChuoNishiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5334092836933, 34.69338588742829]
+                'coordinates': [135.53183719238052, 34.69229961660402]
             },
             'properties': {
                 'title': 'OBP（大阪ビジネスパーク）',
-                'address': 'ビジネス街でありながら、水と緑に囲まれ自然豊かな大阪の新都心',
-                // 'link': 'index/?id=osaka-city24&area=ChuoNishi-obp',
+                'address': '大坂城の北東に位置する、水と緑に囲まれ自然豊かな新都心',
+                'link': 'index/?id=osaka-city24&area=ChuoNishi-obp',
                 'tag': ['feature'],
-                'zoom': 15.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4946219544732, 34.68585487999745]
-            },
-            'properties': {
-                'title': '靭公園',
-                'address': '西区を象徴する「バラ園」がある、ビジネス街の憩いの場・スポーツの場',
-                'link': "spot/?id=osaka-city24&area=ChuoNishi&name=utsubo",
-                'tag': ['park'],
-                'iconSize': ['osaka/icon/nishi.gif', '2.5rem', '2.5rem', 2],
                 'zoom': 15,
-            },
-            'featured': [
-                {
-                    'title': null,
-                    'month': [5],
-                    'date': '5月中旬~下旬、園内のバラ園で区の花「薔薇」が春の見頃を迎える',
-                    'thisYear': null
-                },
-                {
-                    'title': null,
-                    'month': [10],
-                    'date': '10月中旬~下旬、園内のバラ園で区の花「薔薇」が秋の見頃を迎える',
-                    'thisYear': null
-                }
-            ]
+                'youtube': [
+                    "6pAGfd1iMwE"
+                ]
+            }
         },
         {
             'type': 'Feature',
@@ -254,7 +201,7 @@ const ChuoNishiindex = {
             'properties': {
                 'title': '大阪教会',
                 'address': '国の登録有形文化財 大阪府指定有形文化財',
-                // 'link': "spot/?id=osaka-city24&area=ChuoNishi&name=osaka-church",
+                'link': "spot/?id=osaka-city24&area=ChuoNishi&name=osaka-church",
                 'tag': ['legacy'],
                 'zoom': 18
             },
@@ -313,6 +260,21 @@ const ChuoNishiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.52691852470969, 34.67868030977432]
+            },
+            'properties': {
+                'title': '聖マリア大聖堂',
+                'address': '「大阪高松カテドラル」と呼ばれるカトリック玉造教会の大聖堂',
+                'link': null,
+                'tag': ['spot'],
+                'zoom': 17.5
+            },
+            'featured': null
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.48218048030964, 34.68216955316264]
             },
             'properties': {
@@ -320,7 +282,7 @@ const ChuoNishiindex = {
                 'address': '創立120周年記念に設置されたパイプオルガンがある',
                 // 'link': "spot/?id=osaka-city24&area=ChuoNishi&name=kawaguchi-church",
                 'tag': ['legacy'],
-                'zoom': 18.5
+                'zoom': 18
             }
         },
         {
@@ -341,6 +303,22 @@ const ChuoNishiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.52171774921192, 34.67486064416808]
+            },
+            'properties': {
+                'title': 'NEXT21',
+                'address': '大阪ガスの社員が居住する実験集合住宅',
+                'link': "spot/?id=osaka-city24&area=ChuoNishi&name=next21",
+                'tag': ['spot'],
+                'zoom': 18.5
+            },
+            'featured': null
+        }
+        /*,
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.48658903306875, 34.67605687289041]
             },
             'properties': {
@@ -351,5 +329,6 @@ const ChuoNishiindex = {
                 'zoom': 18.5
             }
         }
+        */
     ]
 }

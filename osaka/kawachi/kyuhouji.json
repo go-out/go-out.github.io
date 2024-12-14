@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka&area=kawachi&name=kyuhouji",
+    "url": "spot/?id=osaka&area=kawachi&name=kyuhouji",
     "title": "久宝寺緑地 Kyuhouji Ryokuchi",
     "description": "大阪4大緑地のひとつ 甲子園球場の約10倍もの広さを誇る大阪府営の緑地公園",
+    "coordinates": [
+        135.57853357646206,
+        34.6314385964112
+    ],
     "info": {
         "note": [
             "憩いのスペースに加え、本格的なスポーツ施設が勢揃い！<br><small>「ウェルネス広場」付近はFree Wi-Fiが利用可能</small>",
@@ -19,7 +23,7 @@
         ],
         "links": [
             {
-                "text": "Google マップ",
+                "text": "久宝寺緑地 - Google マップ",
                 "url": "https://maps.app.goo.gl/6qvxgthym2jcdkoq9",
                 "target": "_blank"
             }

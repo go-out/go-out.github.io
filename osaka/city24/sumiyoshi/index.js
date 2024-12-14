@@ -7,14 +7,17 @@ const sumiyoshiindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49261362768414, 34.612467246011704]
+                'coordinates': [135.4926136276414, 34.612467246011704]
             },
             'properties': {
                 'title': '住吉大社',
                 'address': '全国に約2300社ある住吉神社の総本社 年間百三十回をもこえる神事が執り行われる',
                 'link': "spot/?id=osaka-city24&area=sumiyoshi&name=sumiyoshitaisha",
                 'tag': ['legacy'],
-                'youtube': null,
+                'youtube': [
+                    "et01FXhTFGA",
+                    "eXEcouWTt0o"
+                ],
                 'zoom': 16.5
             },
             'featured': [
@@ -119,7 +122,7 @@ const sumiyoshiindex = {
                     "gfwP_viCeZg",
                     "mkioDOspLbs"
                 ],
-                'zoom': 17.5
+                'zoom': 16.5
             }
         },
         {
@@ -130,30 +133,13 @@ const sumiyoshiindex = {
             },
             'properties': {
                 'title': '帝塚山',
-                'address': '帝塚山古墳の墳丘（標高は19.88m） 関西を代表する高級住宅街の一つ',
+                'address': '帝塚山古墳に由来する大阪を代表する高級住宅街',
                 'link': 'index/?id=osaka-city24&area=sumiyoshi-tezukayama',
                 'tag': ['feature'],
                 'youtube': [
-                    'KuYJ3IW7z4k'
+                    '2vjZ4v8JFF8'
                 ],
-                'zoom': 16
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.50249034049432, 34.61930819784362]
-            },
-            'properties': {
-                'title': '万代池公園',
-                'address': '万代池を取り囲むように遊歩道・花壇・遊具などが整備された気持ちの良い公園',
-                // 'link': "spot/?id=osaka-city24&area=sumiyoshi-tezukayama&name=mandaiike",
-                'tag': ['park'],
-                'youtube': [
-                    '-7DEl_jxuW8'
-                ],
-                'zoom': 16.5
+                'zoom': 15.5
             }
         },
         {
@@ -167,47 +153,11 @@ const sumiyoshiindex = {
                 'address': '広々とした芝生広場「獅子が空を翔ぶ日に」',
                 'link': "spot/?id=osaka-city24&area=sumiyoshi&name=asakachuo",
                 'tag': ['park'],
+                'youtube': [
+                    'L91loblSDJQ'
+                ],
                 'zoom': 16
             }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5011863, 34.6091378]
-            },
-            'properties': {
-                'title': '住吉区南部',
-                'address': '墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内',
-                'link': null,
-                'tag': ['spot'],
-                'iconSize': ['osaka/icon/sumiyoshi.png', '3.5rem', '3.5rem', 2],
-                'zoom': 14.5
-            },
-            'featured': [
-                {
-                    'title': null,
-                    'month': [5],
-                    'date': '大歳神社（住吉大社境外末社）・細江川のせせらぎ などで、区の花「杜若」が咲く',
-                    'thisYear': null
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.52055904000798, 34.612064797352744]
-            },
-            'properties': {
-                'title': '長居公園',
-                'address': '大阪を代表する総合公園 広大な緑あふれる都会のオアシス',
-                'link': "spot/?id=osaka-city24&area=sumiyoshi&name=nagaipark",
-                'tag': ['park'],
-                'iconSize': ['osaka/icon/hsumiyoshi.png', '3.25rem', '3.25rem', 2],
-                'zoom': 14.5
-            },
-            'featured': null
         }
     ]
 }

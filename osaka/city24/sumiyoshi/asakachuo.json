@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-5-9",
-    "url": "?id=osaka-city24&area=sumiyoshi&name=asakachuo",
+    "url": "spot/?id=osaka-city24&area=sumiyoshi&name=asakachuo",
     "title": "浅香中央公園 Asaka Chuo Park",
     "description": "広々とした芝生広場「獅子が空を翔ぶ日に」",
+    "coordinates": [
+        135.50961775825405,
+        34.59109016669457
+    ],
     "info": {
         "note": [
             "JR杉本町駅・大阪公立大学付近 広々とした芝生広場がある都市公園",
@@ -19,13 +23,10 @@
                 "target": "_blank"
             },
             {
-                "text": "Google マップ",
+                "text": "浅香中央公園 - Google マップ",
                 "url": "https://maps.app.goo.gl/hZb379NCfrMW9Qkd6",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "L91loblSDJQ"
         ]
     },
     "videoAll": [

@@ -1,0 +1,116 @@
+{
+    "lastModified": "2024-12-03",
+    "url": "spot/?id=osaka-city24&area=ChuoNishi-obp&name=spot",
+    "title": "大阪ビジネスパーク Osaka Business Park",
+    "description": "大坂城の北東に位置する、水と緑に囲まれ自然豊かな大阪の新都心",
+    "coordinates": [
+        135.53183719238052,
+        34.69229961660402
+    ],
+    "info": {
+        "note": [
+            "",
+            "",
+            "<u>最寄駅</u>",
+            "Osaka Metro長堀鶴見緑地線「大阪ビジネスパーク」",
+            "JR「大阪城公園」「大阪城北詰」／JR・京阪本線「京橋」"
+        ],
+        "links": [
+            {
+                "text": "大阪ビジネスパーク - Google マップ",
+                "url": "https://maps.app.goo.gl/L3CwE6gQD771SU169",
+                "target": "_blank"
+            }
+        ]
+    },
+    "videoAll": [
+        {
+            "info": {
+                "title": "TWIN21",
+                "description": "松下グループが総力を結集して建設した大阪ビジネスパークの中核施設",
+                "year": 2024,
+                "month": 12,
+                "day": 3,
+                "note": [
+                    "2つの高層オフィスビルをつなぐ低層階部分はガラス張りの吹き抜け空間",
+                    "飲食店や店舗があるほか、吹き抜け空間はイベントスペースとしても利用される"
+                ],
+                "links": [
+                    {
+                        "text": "TWIN21 - Google マップ",
+                        "url": "https://maps.app.goo.gl/jsYz4KHo1NhjCQHB9",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "TWIN21 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/TWIN21",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipNu9szhpRZgPFehzTuneUj2gC635-TDei_VAvS4=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipPQ_nZJtg0GlF18bfAvN6whZj1AW8IWqpwOniL2=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipPQ_nZJtg0GlF18bfAvN6whZj1AW8IWqpwOniL2=m18",
+                        "ggs/AF1QipNu9szhpRZgPFehzTuneUj2gC635-TDei_VAvS4=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPVfV4Be_pw8fdMq0W8YSbu6UPejHz7xEwCmxNe=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipM6ibmKi4oYT9-keFzYo5OXx_D_2W_FM27ccd1X=m18",
+                        "ggs/AF1QipPVfV4Be_pw8fdMq0W8YSbu6UPejHz7xEwCmxNe=m18"
+                    ]
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "The New Otani Osaka",
+                "description": "ホテルニューオータニ大阪",
+                "year": 2024,
+                "month": 12,
+                "day": 3,
+                "note": [
+                    "レストラン・ショッピングアーケード「プラザシャトウ」を併設する豪華なホテル"
+                ],
+                "links": [
+                    {
+                        "text": "ホテル ニューオータニ 大阪 - Google マップ",
+                        "url": "https://maps.app.goo.gl/N497jwCuSWoSVXmR9",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            "directory": "https://lh3.googleusercontent.com/",
+            "cover": "p/AF1QipNA8ypxZ2CnMytzw05lSugGsBsTlha_Rs296zlb=w1280-h720-p-k-no",
+            "width": 1.777,
+            "video": [
+                {
+                    "id": "one",
+                    "poster": "p/AF1QipMnfRaA5iF2jYO2jXU2_EI1WYIUnyoKclJtwt86=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipNA8ypxZ2CnMytzw05lSugGsBsTlha_Rs296zlb=m18",
+                        "ggs/AF1QipNMgX46j5HZ_ZHE7E4FAfn5fTMZRI9w14nhqwwQ=m18",
+                        "ggs/AF1QipNWSuwXDkyrBHuoeduJhgM-en5FEVmHjlwYR_4t=m18"
+                    ]
+                },
+                {
+                    "id": "two",
+                    "poster": "p/AF1QipPUzGYamk_rNlztuXaOVncOrTS6YYnQYAGpNQFD=w575-h325-p-k-no",
+                    "src": [
+                        "ggs/AF1QipMnfRaA5iF2jYO2jXU2_EI1WYIUnyoKclJtwt86=m18",
+                        "ggs/AF1QipPUzGYamk_rNlztuXaOVncOrTS6YYnQYAGpNQFD=m18",
+                        "ggs/AF1QipN_vFnQKxPgvynvoZp6u3c4CrxD0JOjlZONIw-t=m18"
+                    ]
+                }
+            ]
+        }
+    ]
+}

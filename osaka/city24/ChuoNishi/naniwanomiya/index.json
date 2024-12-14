@@ -1,6 +1,6 @@
 {
-    "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-city24&area=ChuoNishi-naniwanomiya",
+    "lastModified": "2024-12-3",
+    "url": "index/?id=osaka-city24&area=ChuoNishi-naniwanomiya",
     "map": {
         "center": [
             135.52315708330073,
@@ -8,12 +8,12 @@
         ],
         "bounds": [
             [
-                135.5106748971309,
-                34.67192754508862
+                135.51268837797124,
+                34.67545172876055
             ],
             [
-                135.53602353426174,
-                34.68976882262058
+                135.53641479287325,
+                34.691610473271666
             ]
         ],
         "zoom": 15.5
@@ -25,20 +25,48 @@
             "map"
         ]
     ],
+    "lineArr": [
+        "naniwanomiyaline"
+    ],
     "title": "難波宮 なにわのみや",
     "subtitle": "Naniwa no miya",
-    "description": "史跡難波宮跡附法円坂遺跡（難波宮跡）",
+    "description": "大阪が日本初の首都であったことを示す宮殿跡とその周辺",
     "info": {
-        "note": null,
+        "note": [
+            "大阪平野を南北に伸びる「上町台地」の北端（古くは大阪市域のほとんどが海で、上町台地が半島のように海に突き出していた）",
+            "大阪府庁・大阪府警察本部・NHK大阪放送局などがある大阪の中心地",
+            "",
+            "かつて難波宮の周辺には、生國魂神社・坐摩神社・高津宮・四天王寺などがあったとされるが、大阪城の建設により、それぞれ現在地へ遷座",
+            "（大阪城は安土桃山時代に豊臣秀吉により築かれ、江戸時代に徳川秀忠により再築された）",
+            "明治以降は、大日本帝国陸軍の「大阪砲兵工廠（大阪陸軍造兵廠）」が設けられ1945年・昭和20年に爆撃（大阪大空襲）され、終戦後（1970年・昭和45年）に大阪城公園が整備された",
+            "",
+            "<u>最寄駅</u>",
+            "Osaka Metro 谷町線/中央線 「谷町四丁目」",
+            "Osaka Metro 谷町線・京阪本線/中之島線 「天満橋」",
+            "JR 大阪環状線・Osaka Metro 中央線・長堀鶴見緑地線 「森ノ宮」",
+            "JR 大阪環状線 「大阪城公園」",
+            "",
+            "<a href='../spot/?id=osaka-city24&area=ChuoNishi-naniwanomiya&name=spot'>ランドマーク・お気に入りの場所</a>"
+        ],
         "links": [
-            {
-                "text": "なにわのみや1400プロジェクト",
-                "url": "https://naniwanomiya1400.com/",
-                "target": "_blank"
-            },
             {
                 "text": "難波宮 - Wikipedia",
                 "url": "https://ja.wikipedia.org/wiki/難波宮",
+                "target": "_blank"
+            },
+            {
+                "text": "大坂城 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/大坂城",
+                "target": "_blank"
+            },
+            {
+                "text": "大阪砲兵工廠 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/大阪砲兵工廠",
+                "target": "_blank"
+            },
+            {
+                "text": "上町台地 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/上町台地",
                 "target": "_blank"
             }
         ],
@@ -48,14 +76,14 @@
     "sort": null,
     "directory": "https://lh3.googleusercontent.com/",
     "cover": [
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no",
-        "p/__=w575-h325-p-k-no"
+        "p/AF1QipNXUtJtMKGaMfeLKCzJD3NBR6Y4h-c_HTMLMZhi=w575-h325-p-k-no",
+        "p/AF1QipNJbxps5ECXJS2pqUzL57ZhMwPONojeT99OHk4N=w575-h325-p-k-no",
+        "p/AF1QipNfbV9K2d627Kpsy3PeMUrZ8JWNvp2U-tiD1N0z=w575-h325-p-k-no",
+        "p/AF1QipMfqMOKLDLLqgYjYgxgziZlsiYYvvCIPG8DCbwt=w575-h325-p-k-no",
+        "p/AF1QipOIPs9kkn5X8RjciOGSxYJ9TlkdzmXXGnh1Y7Yq=w575-h325-p-k-no",
+        "p/AF1QipOXWf3uNYN0CMYT1P4b2k3Jiya9Mi-DwLvCf1Qw=w575-h325-p-k-no",
+        "p/AF1QipMiR8o2URs1RkPGJY-MMTY9Iqz8du3ch-imN9fH=w575-h325-p-k-no",
+        "p/AF1QipPlgXMWYzbvu_uVY7VPq7lAh6jJWsv0OlCdDFzV=w575-h325-p-k-no",
+        "p/AF1QipM-gu0imuL-3H0kL4YJAxgcchZPPc_slXoTNq49=w575-h325-p-k-no"
     ]
 }

@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-11-24",
-    "url": "?id=osaka-kawachi&area=korigaoka&name=spot",
+    "url": "spot/?id=osaka-kawachi&area=korigaoka&name=spot",
     "title": "香里ケ丘 Kourigaoka",
     "description": "旧陸軍・香里製造所の跡地に開発されたニュータウン",
+    "coordinates": [
+        135.65399897980524,
+        34.79119198561476
+    ],
     "info": {
         "note": [
             "完成当時は規模の大きさが話題となり「東洋一のマンモス団地」と呼ばれた、関西で初めての大規模住宅団地「香里団地」とその周辺",

@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-4-6",
-    "url": "?id=osaka-city24&area=tennoji&name=ikutamajinja",
+    "url": "spot/?id=osaka-city24&area=tennoji&name=ikutamajinja",
     "title": "生國魂神社 Ikukunitama Jinja",
     "description": "通称 いくたまさん 別称「難波大社（なにわのおおやしろ）」",
+    "coordinates": [
+        135.51252208380492,
+        34.665089083048656
+    ],
     "info": {
         "note": [
             "約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ",
@@ -34,8 +38,7 @@
                 "url": "https://maps.app.goo.gl/LcBafd7QNzqpowscA",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

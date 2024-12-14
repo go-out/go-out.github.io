@@ -18,7 +18,7 @@ function shuffle(arrays) {
 };
 
 function createHead(obj) {
-    document.querySelector("meta[property='og:url']").content = "/map/spot/" + obj.url;
+    document.querySelector("meta[property='og:url']").content = window.location.href;
 
     document.title = obj.title;
     document.querySelector("meta[property='og:title']").content = obj.title;
@@ -64,6 +64,11 @@ function createBody(obj) {
 
     const lastModified = document.querySelector("#lastModified code");
     lastModified.textContent = "最終更新日 " + obj.lastModified;
+
+    if (obj.coordinates) {
+        console.log(obj.coordinates)
+        weatherAPI(obj.coordinates[1], obj.coordinates[0])
+    };
 
     const channel = document.querySelector('#channel');
     const collection = document.querySelector("#collection");
@@ -262,7 +267,7 @@ function createBody(obj) {
             };
 
             collection.addEventListener('change', function (event) {
-                location.replace(`${obj.url}&no=${event.currentTarget.value}`);
+                location.replace(`../${obj.url}&no=${event.currentTarget.value}`);
             }, false);
         };
     };

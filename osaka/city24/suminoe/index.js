@@ -7,29 +7,6 @@ const suminoeindex = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.47561189325947, 34.611269066903496]
-            },
-            'properties': {
-                'title': '住之江公園',
-                'address': '花と緑とふれあう、スポーツを楽しめる公園',
-                // 'link': "spot/?id=osaka-city24&area=suminoe&name=suminoe-park",
-                'tag': ['park'],
-                'iconSize': ['osaka/icon/suminoe.png', '3rem', '3rem', 2],
-                'zoom': 15.5
-            },
-            'featured': [
-                {
-                    'title': null,
-                    'month': [12, 1],
-                    'date': '住之江の花「山茶花」が見頃を迎える',
-                    'thisYear': null
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.4741998790488, 34.625592382907115]
             },
             'properties': {
@@ -52,8 +29,8 @@ const suminoeindex = {
                 'address': '開館時間 10:00 ~ 16:30（最終入館時間 16:00） 休園日 毎週月曜日',
                 'link': "spot/?id=osaka-city24&area=suminoe&name=kagaya-shinden",
                 'tag': ['park'],
-                'youtube': [
-                    'zAZUC1x1-H0'
+                "youtube": [
+                    "zAZUC1x1-H0"
                 ],
                 'zoom': 18
             }
@@ -67,7 +44,7 @@ const suminoeindex = {
             'properties': {
                 'title': '南港（咲洲）',
                 'address': '大阪市ベイエリア南側一体「南港（なんこう）」の人工島「咲洲（さきしま）」',
-                // 'link': 'index/?id=osaka-city24&area=suminoe-nanko',
+                'link': null,
                 'tag': ['feature'],
                 'zoom': 15.5
             }
@@ -81,7 +58,7 @@ const suminoeindex = {
             'properties': {
                 'title': '大阪南港野鳥園',
                 'address': '人工干潟と緑地で環境を構成整備した野鳥のためのサンクチュアリー',
-                // 'link': "spot/?id=osaka-city24&area=suminoe-nanko&name=bird-sanctuary",
+                // 'link': "spot/?id=osaka-city24&area=suminoe&name=bird-sanctuary",
                 'tag': ['nature'],
                 'zoom': 16.5
             }

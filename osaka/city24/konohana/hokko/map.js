@@ -82,7 +82,7 @@ const hokkomap = {
             'properties': {
                 'title': '大阪広域環境施設組合 舞洲工場',
                 'address': '1階エントランスホールは月曜日から金曜日（年末年始、祝日は除く）9時から17時のみ一般開放',
-                'link': "spot/?id=osaka-city24&area=konohana-hokko&name=maishimakojo",
+                'link': "spot/?id=osaka-city24&area=konohana&name=maishimakojo",
                 'tag': ['spot'],
                 'zoom': 16.5
             }

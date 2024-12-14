@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka&area=senshu-sakai&name=oizumi",
+    "url": "spot/?id=osaka&area=senshu-sakai&name=oizumi",
     "title": "大泉緑地 おおいずみりょくち",
     "description": "約200種32万本もの樹木が植えられた一大森林公園",
+    "coordinates": [
+        135.52759178494824,
+        34.56500508586201
+    ],
     "info": {
         "note": [
             "壇、大泉池、大芝生広場などの憩いのゾーンと、スポーツゾーンなどからなる園内",
@@ -16,12 +20,11 @@
         ],
         "links": [
             {
-                "text": "Google マップ",
+                "text": "大泉緑地 - Google マップ",
                 "url": "https://maps.app.goo.gl/FuCDBhFNDFxyXbUL9",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

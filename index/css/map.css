@@ -46,9 +46,12 @@ button {
     padding: 0.25rem 0.5rem;
 }
 
-#index,
-#readme {
+#index {
     padding: 0.5rem;
+}
+
+#readme {
+    padding: 0.75rem 0.5rem 1rem;
 }
 
 #info #area ruby:not(.lr),
@@ -236,10 +239,6 @@ main ul li {
         right: 0.5rem;
         max-height: calc(100dvh - 1rem);
     }
-
-    #player {
-        height: calc(50vw * 0.545);
-    }
 }
 
 @media (orientation: portrait) {
@@ -263,15 +262,12 @@ main ul li {
     }
 
     #map {
-        max-height: 111dvw;
+        height: 111dvw;
+        max-height: 100dvh;
     }
 
     #info {
         margin-bottom: 0.5rem;
-    }
-
-    #player {
-        height: calc(100vw * 0.544);
     }
 }
 
@@ -282,10 +278,4 @@ main,
 
 main h1 {
     width: calc(100% - 1rem);
-}
-
-#player {
-    display: none;
-    margin: 0.5rem 0;
-    width: 100%;
 }

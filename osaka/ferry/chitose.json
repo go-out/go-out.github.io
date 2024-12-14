@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-ferry&name=chitose",
+    "url": "spot/?id=osaka-ferry&name=chitose",
     "title": "千歳（ちとせ）渡船場",
     "description": "大正区鶴町（たいしょうくつるまち）⇄ 同区北恩加島（きたおかじま）",
+    "coordinates": [
+        135.45854569618052,
+        34.646324348745
+    ],
     "info": {
         "note": [
             "千歳橋の補完として、大正内港（大正区鶴町4丁目 ⇄ 同区北恩加島2丁目）を 渡船「はまかぜ」が 10 ~ 20分毎 運航",
@@ -13,6 +17,11 @@
             "北恩加島側 <small>大阪市大正区北恩加島2丁目5‐25</small>"
         ],
         "links": [
+            {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
             {
                 "text": "大阪市：3.千歳（ちとせ）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011253.html",
@@ -28,8 +37,7 @@
                 "url": "https://maps.app.goo.gl/JCmbQqnWYC1zKBNDA",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

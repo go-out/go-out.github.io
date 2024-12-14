@@ -15,6 +15,9 @@ const hiranoindex = {
                 'link': 'index/?id=osaka-city24&area=hirano',
                 'tag': ['feature'],
                 'zoom': 15,
+                "youtube": [
+                    "noYOXSQ_bbA"
+                ]
             },
             'featured': [
                 {
@@ -89,29 +92,6 @@ const hiranoindex = {
                             'note': null
                         }
                     ]
-                }
-            ]
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.56149620166963, 34.60285508291635]
-            },
-            'properties': {
-                'title': '瓜破霊園',
-                'address': '四季折々の植樹がなされた広々とした公園霊園（8万平方メートル）',
-                'link': "spot/?id=osaka-city24&area=hirano&name=uriwari",
-                'tag': ['spot'],
-                'iconSize': ['osaka/icon/hirano.png', '3rem', '3rem', 2],
-                'zoom': 15
-            },
-            'featured': [
-                {
-                    'title': "区民わた畑",
-                    'month': [8],
-                    'date': '8月上旬~下旬、平野区の花「綿」の花が見頃を迎える',
-                    'thisYear': null
                 }
             ]
         }

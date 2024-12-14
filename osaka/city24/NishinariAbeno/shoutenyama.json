@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-1-11",
-    "url": "?id=osaka-city24&area=NishinariAbeno&name=shoutenyama",
+    "url": "spot/?id=osaka-city24&area=NishinariAbeno&name=shoutenyama",
     "title": "聖天山 Shotenyama (Shoenji)",
     "description": "天下茶屋の聖天（しょうてん）さん",
+    "coordinates": [
+        135.50296907780358,
+        34.635513006934914
+    ],
     "info": {
         "note": [
             "大阪五低山の一つ「<ruby>聖天山古墳<rp>（</rp><rt>しょうてんやまこふん</rt><rp>）</rp></ruby>」の墳丘（標高14m）",

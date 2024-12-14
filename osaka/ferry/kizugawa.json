@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-ferry&name=kizugawa",
+    "url": "spot/?id=osaka-ferry&name=kizugawa",
     "title": "木津川（きづがわ）渡船場",
     "description": "大正区船町（たいしょうくふなまち） ⇄ 住之江区平林北（すみのえくひらばやしきた）",
+    "coordinates": [
+        135.47882918904605,
+        34.64972048487182
+    ],
     "info": {
         "note": [
             "新木津川大橋の補完として、木津川（大正区船町1丁目 ⇄ 住之江区平林北1丁目）を 渡船「松丸」「第二松丸」が 10 ~ 45分毎 運航",
@@ -18,6 +22,11 @@
         ],
         "links": [
             {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
+            {
                 "text": "大阪市：8.木津川（きづがわ）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011261.html",
                 "target": "_blank"
@@ -32,9 +41,6 @@
                 "url": "https://maps.app.goo.gl/vWnebhdgzVLJyk9c6",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "JDQjc70a1T8"
         ]
     },
     "videoAll": [

@@ -1,14 +1,18 @@
 {
     "lastModified": "2024-2-18",
-    "url": "?id=osaka&area=hokusetsu&name=udonoyoshihara",
+    "url": "spot/?id=osaka&area=hokusetsu&name=udonoyoshihara",
     "title": "鵜殿のヨシ原 Udono no Yoshihara",
     "description": "高槻市鵜殿 から 上牧 に広がる淀川河川敷一帯",
+    "coordinates": [
+        135.6563300094346,
+        34.8544115728934
+    ],
     "info": {
         "note": [
             "<strong>「大阪みどりの百選」「関西自然に親しむ風景100選」「美しい日本の歩きたくなるみち500選」</strong>",
             "",
             "<u>毎年二月中旬 日曜日</u>",
-            "<a href='../date/udono-yoshihara/'>鵜殿のヨシ原焼き</a><br>土地の維持管理のため、野焼きが行われます",
+            "<b>鵜殿のヨシ原焼き</b><br>土地の維持管理のため、野焼きが行われます",
             "",
             "<u>アクセス</u><br>阪急京都線「上牧」から徒歩約25分<br>阪急京都線「高槻市」から自転車🚲で約20分",
             "",
@@ -24,8 +28,7 @@
                 "url": "https://www.google.com/maps/contrib/104493917977768716042/",
                 "target": "_blank"
             }
-        ],
-        "youtube": null
+        ]
     },
     "videoAll": [
         {

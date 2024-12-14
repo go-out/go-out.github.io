@@ -1,36 +1,45 @@
 {
     "lastModified": "2024-11-10",
-    "url": "?id=osaka-city24&area=naniwa",
+    "url": "index/?id=osaka-city24&area=naniwa",
     "map": {
         "center": [
-            135.4937726,
-            34.6626995
+            135.49293599822573,
+            34.66202326137896
         ],
         "bounds": [
             [
-                135.48061585009367,
-                34.65469813183708
+                135.4789951548924,
+                34.65338720877686
             ],
             [
-                135.50429466451226,
-                34.67032849089526
+                135.50431577011562,
+                34.67109860012438
             ]
         ],
-        "zoom": 13.5
+        "zoom": 15
     },
     "jsonAll": [
         [
             "osaka/city24",
             "naniwa",
             "map"
+        ],
+        [
+            "osaka/city24",
+            "naniwa",
+            "index"
         ]
     ],
-    "title": "OCAT (JR難波) - 桜川・汐見橋",
+    "title": "ルネッサなんば",
     "subtitle": "Naniwa-ku (Ward), Osaka",
-    "description": "大阪市浪速区（環状線より北 道頓堀川より南 木津川より東 南海本線より西）",
+    "description": "旧国鉄「湊町駅」（現JR難波駅）貨物ヤード跡地の再開発エリア",
     "info": {
         "note": [
-            "<a href='../spot/?id=osaka-city24&area=naniwa&name=ocat'>ランドマーク・お気に入りの場所</a>"
+            "バスターミナル・JR難波駅を併設する複合商業施設「OCAT（大阪シティエアターミナル）」を中心とする水と緑に囲まれた高層ビル街",
+            "道頓堀川沿い「湊町リバープレイス」は水辺の憩いの場",
+            "浪速公園付近は、数多くの高層マンションが立ち並ぶ住宅街",
+            "",
+            "<a href='../spot/?id=osaka-city24&area=naniwa&name=spot'>ランドマーク・お気に入りの場所</a>"
         ],
         "links": [
             {
@@ -53,10 +62,6 @@
                 "url": "https://www.osakacommunity.jp/branches/naniwa/",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "OO_7X8aM9BQ",
-            "vG9mga5XyWY"
         ]
     },
     "area": null,

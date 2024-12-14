@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka-ferry&name=funamachi",
+    "url": "spot/?id=osaka-ferry&name=funamachi",
     "title": "船町（ふなまち）渡船場",
     "description": "大正区鶴町（つるまち）⇄ 同区船町（ふなまち）",
+    "coordinates": [
+        135.45798171771384,
+        34.632950453586275
+    ],
     "info": {
         "note": [
             "木津川運河（大正区鶴町1丁目 ⇄ 同区船町1丁目）を 渡船「ふなづる」「しおかぜ」が 10 ~ 20分毎 運航",
@@ -14,6 +18,11 @@
             "船町側 <small>大阪市大正区船町1丁目3‐117</small>"
         ],
         "links": [
+            {
+                "text": "渡し船に乗ろう 〰️ Osaka City Ferries 🚢",
+                "url": "../index/?id=osaka-ferry",
+                "target": "_self"
+            },
             {
                 "text": "大阪市：7.船町（ふなまち）渡船場",
                 "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000011260.html",
@@ -29,9 +38,6 @@
                 "url": "https://maps.app.goo.gl/CBWAJVFvvzmuPhWX9",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "Z8Von0j_br8"
         ]
     },
     "videoAll": [

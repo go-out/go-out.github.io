@@ -1,8 +1,12 @@
 {
     "lastModified": "YYYY-MM-DD",
-    "url": "?id=osaka&area=hokusetsu&name=niiyajinja",
+    "url": "spot/?id=osaka&area=hokusetsu&name=niiyajinja",
     "title": "新屋坐天照御魂神社 にいやにますあまてるみたまじんじゃ",
     "description": "神・自然・人の共生 心身再生の神をまつる",
+    "coordinates": [
+        135.54759195940795,
+        34.84746324592541
+    ],
     "info": {
         "note": [
             "創建以来二千百年を有する摂津国屈指の長い歴史と高い社格を誇る名神大社",

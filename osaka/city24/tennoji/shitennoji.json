@@ -1,8 +1,12 @@
 {
     "lastModified": "2024-10-22",
-    "url": "?id=osaka-city24&area=tennoji&name=shitennoji",
+    "url": "spot/?id=osaka-city24&area=tennoji&name=shitennoji",
     "title": "四天王寺 Shitennoji",
     "description": "「日本仏教の祖」である聖徳太子が建立した日本最古の寺院",
+    "coordinates": [
+        135.5163782507717,
+        34.65461153724759
+    ],
     "info": {
         "note": [
             "当初の四天王寺は現在地ではなく上町台地の北部（JR森ノ宮駅付近・森之宮公園の位置）で、現在の約二十倍もの壮大な寺院だったとされる",
@@ -27,11 +31,6 @@
                 "url": "https://ja.wikipedia.org/wiki/四天王寺",
                 "target": "_blank"
             }
-        ],
-        "youtube": [
-            "oIKZdbq4isU",
-            "vsZo8JLBQ3Q",
-            "6g5oU28Fuio"
         ]
     },
     "videoAll": [

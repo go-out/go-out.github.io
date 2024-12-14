@@ -13,6 +13,7 @@ const toyonakamap = {
                 'title': '服部緑地',
                 'address': '緑豊かな森や庭、10以上の池、自然に満ちた大阪府下最大級の緑地公園',
                 'link': "spot/?id=osaka&area=hokusetsu-toyonaka&name=hattori-ryokuchi",
+                'google': ['AF1QipNTuj7PMWm-gXogOSdugFd-uyYsoWv_avu5L4eR'],
                 'tag': ['park'],
                 'zoom': 14.5
             },
@@ -27,6 +28,7 @@ const toyonakamap = {
             'properties': {
                 'title': '豊島公園',
                 'address': 'バラ園、ライトアップされる大きな噴水などがある豊中市のほぼ中央に位置する公園',
+                'google': ['AF1QipNaHhzx2o-trB8fut-xtTgKEY9_3yzkngT_hQMo'],
                 'link': null,
                 'tag': ['park'],
                 'zoom': 16
@@ -43,6 +45,7 @@ const toyonakamap = {
                 'title': 'ふれあい緑地界隈',
                 'address': 'みどり豊かな文化・スポーツの中心エリア',
                 'link': null,
+                'google': ['AF1QipOOljrZx_OHZJvthsrfvONfVM-PXn9pWmQ5OpIo'],
                 'tag': ['spot'],
                 'zoom': 17
             },
@@ -58,6 +61,7 @@ const toyonakamap = {
                 'title': '千里川土手',
                 'address': '飛行機撮影の聖地 伊丹空港へ着陸する飛行機が間近に見える魅力スポット',
                 'link': "spot/?id=osaka&area=hokusetsu-toyonaka&name=itami-airport",
+                'google': ['AF1QipOiCXZvlush22KD0OdFeqD6LaK33dU12_HzZScy'],
                 'tag': ['spot'],
                 'zoom': 16
             }
@@ -87,6 +91,7 @@ const toyonakamap = {
                 'title': '松景園',
                 'address': '高級住宅街',
                 'link': null,
+                'google': ['AF1QipPkUooQCjY5o3K71WgE_1rGmjW4u5W8B6x12nBw'],
                 'tag': ['park'],
                 'zoom': 16.5
             },
@@ -102,6 +107,7 @@ const toyonakamap = {
                 'title': 'さわ病院',
                 'address': '社会医療法人北斗会',
                 'link': null,
+                'google': ['AF1QipPf3lIGe5kEHlAyqbLD_SLaQhg5XSUaAQ8Hq87W'],
                 'tag': ['spot'],
                 'zoom': 18
             },
