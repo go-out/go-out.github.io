@@ -221,6 +221,24 @@ const ChuoNishiindex = {
                             'note': null
                         }
                     ]
+                },
+                {
+                    'title': null,
+                    'month': [12],
+                    'date': "毎週木曜日",
+                    'note': [
+                        "事前申込制"
+                    ],
+                    'thisYear': [
+                        {
+                            'year': 'every',
+                            'date': [24],
+                            'time': null,
+                            'note': [
+                                '<b>クリスマスイブ礼拝</b>'
+                            ],
+                        }
+                    ]
                 }
             ]
         },
@@ -242,15 +260,31 @@ const ChuoNishiindex = {
                     'title': null,
                     'month': 'every',
                     'date': "隔月第一木曜日",
-                    'note': [
-                        '<b>​正午礼拝</b>'
-                    ],
+                    'note': null,
                     'thisYear': [
                         {
                             'year': 'every',
                             'date': null,
                             'time': '12:15 ~ 12:45',
-                            'note': null
+                            'note': [
+                                '<b>​正午礼拝</b>'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    'title': null,
+                    'month': [12],
+                    'date': null,
+                    'note': null,
+                    'thisYear': [
+                        {
+                            'year': 'every',
+                            'date': [20],
+                            'time': '19:00 ~',
+                            'note': [
+                                '<b>クリスマス燭火礼拝</b>'
+                            ]
                         }
                     ]
                 }
@@ -266,10 +300,27 @@ const ChuoNishiindex = {
                 'title': '聖マリア大聖堂',
                 'address': '「大阪高松カテドラル」と呼ばれるカトリック玉造教会の大聖堂',
                 'link': null,
-                'tag': ['spot'],
+                'tag': ['legacy'],
                 'zoom': 17.5
             },
-            'featured': null
+            'featured': [
+                {
+                    'title': null,
+                    'month': [12],
+                    'date': null,
+                    'note': null,
+                    'thisYear': [
+                        {
+                            'year': 'every',
+                            'date': [24],
+                            'time': '17:00',
+                            'note': [
+                                '<b>聖夜の祈り</b>'
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             'type': 'Feature',
@@ -283,7 +334,27 @@ const ChuoNishiindex = {
                 // 'link': "spot/?id=osaka-city24&area=ChuoNishi&name=kawaguchi-church",
                 'tag': ['legacy'],
                 'zoom': 18
-            }
+            },
+            'featured': [
+                {
+                    'title': null,
+                    'month': [12],
+                    'date': null,
+                    'note': [
+                        "申込み制"
+                    ],
+                    'thisYear': [
+                        {
+                            'year': 'every',
+                            'date': [24],
+                            'time': '19:00',
+                            'note': [
+                                '<b>クリスマスイブ礼拝</b>'
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             'type': 'Feature',

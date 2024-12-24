@@ -213,7 +213,7 @@
 #calender h2,
 #calender ul li i,
 #calender #spot li small b,
-#calender #spot li ruby b {
+#calender #every ruby b  {
     font-size: 150%;
 }
 
@@ -221,8 +221,7 @@
 #calender ul li h3 strong,
 #calender summary,
 #calender summary small,
-#calender #spot li h4,
-#calender #every ruby b {
+#calender #spot li h4{
     font-size: 125%;
 }
 
