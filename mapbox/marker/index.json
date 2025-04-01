@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.50433185162194,
+                    34.69699680451794
+                ]
+            },
+            "properties": {
+                "title": "∧° ┐  creative, community space",
+                "description": "2017.12.16 ~ 2018.4.30<br>2019.1.6 ~ 2019.9.15",
+                "icon": [
+                    "https://vg.pe.hu/jp/icon/favicon.png",
+                    "3rem",
+                    "3rem"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.47297539836188,
+                    34.62464316047995
+                ]
+            },
+            "properties": {
+                "title": "音ビル",
+                "description": "2019.4.11 ~ 2022.3.30",
+                "icon": [
+                    "https://vg.pe.hu/2019-2021/img/favicon.png",
+                    "3rem",
+                    "3rem"
+                ]
+            }
+        }
+    ]
+}

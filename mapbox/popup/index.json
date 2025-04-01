@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    133.91774108127242,
+                    34.66596367986325
+                ]
+            },
+            "properties": {
+                "title": "Hiroki Ito's Recommended Spots in Okayama",
+                "description": "岡山県オススメ60スポット",
+                "link": [
+                    "https://go-out.github.io/hirokiito/",
+                    "_blank"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3545577,
+                    48.88845
+                ]
+            },
+            "properties": {
+                "title": "that_be_in_fr",
+                "description": "from May 10 to June 5, 2018",
+                "link": [
+                    "https://go-out.github.io/that_be_in_fr/",
+                    "_blank"
+                ]
+            }
+        }
+    ]
+}

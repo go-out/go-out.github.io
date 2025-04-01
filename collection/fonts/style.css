@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Kristina";
+    src: url("./Kristina-Fine.otf"),
+        url("./Kristina-Bold.otf");
+}
+
+@font-face {
+    font-family: "DiaPro";
+    src: url("./DiaPro-Regular.eot"),
+        url("./DiaPro-Regular.otf"),
+        url("./DiaPro-Regular.woff");
+}
+
+@font-face {
+    font-family: "KikaiChokoku";
+    src: url("./KikaiChokokuJIS-Md.otf"),
+        url("./KikaiChokokuJIS-XCnKn.otf"),
+        url("./KikaiChokokuJIS-XCnKn.otf");
+}

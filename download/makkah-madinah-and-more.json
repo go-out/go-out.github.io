@@ -1,0 +1,402 @@
+{
+    "type": "FeatureCollection",
+    "title": "The West of Saudi Arabia (Makkah, Madinah and more)",
+    "description": "イスラームの聖地「メッカ（マッカ）」「メディナ（マディーナ）」など、サウジアラビア西部の名所",
+    "author": {
+        "name": "Ks"
+    },
+    "map": {
+        "center": [
+            39.165493610604585,
+            21.68299579565827
+        ],
+        "bounds": [
+            [
+                37.02540068094365,
+                20.5402204047697
+            ],
+            [
+                41.70518428497596,
+                27.518408678305093
+            ]
+        ],
+        "zoom": 8
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.85919538326729,
+                    21.457370767836778
+                ],
+                "address": "4610 النور حي جبل النور メッカ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ヒラー山(ヒラーの洞窟)",
+                "description": "山の入口には、「この山は本来は神聖視されるべきものではない」という断りが記されている"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.82556183839543,
+                    21.418855146253208
+                ],
+                "address": "4100 الطريق الدائري الأول الهجلة メッカ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "アブラージュ・アル・ベイト・タワーズ",
+                "description": "マスジド・ハラーム(カアバ)のすぐ向かいに面する超高層ビル群"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.82617772103029,
+                    21.42253397307283
+                ],
+                "address": "جسر باب النبي الحرم メッカ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "マスジド・ハラーム(カアバ)",
+                "description": "イスラームにおける最高の聖地とみなされている聖殿"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.84275691379173,
+                    21.424077519419683
+                ],
+                "address": "طريق المشاة الروضة メッカ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "アブー・クバイス（Abu Qubays）",
+                "description": "伝承では、この世で最初に創造された山だと言われている"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.98410529539987,
+                    21.35486506251361
+                ],
+                "address": "3812 طريق رقم 8 メッカ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "アラファト山（جبل الرحمة）",
+                "description": "「慈悲の山」（ジャバル・アル・ラフマ）とも呼ばれるイスラム教の巡礼地"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.192697452986295,
+                    21.48526670043337
+                ],
+                "address": "6952 باناجة جدة التاريخية ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ジェッダ・ウォールゲート",
+                "description": "メッカへと続く道の起点「ジェッダ」にある8つの門の一つ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.18766768854215,
+                    21.483965240190386
+                ],
+                "address": "3229 سوق العلوي جدة التاريخية ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ナシーフ・ハウス博物館",
+                "description": "王国の歴史を伝える博物館と文化センターに改修された、サウジアラビア最初の王の旧邸「ベイト・ナシーフ（ナシフの家）」"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.18713495378907,
+                    21.48904980937462
+                ],
+                "address": "3173 المتحف جدة التاريخية ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "Bait Al Balad",
+                "description": "ジェッダ歴史地区で最も古く有名な家の一つであるベイト・アル・シャールバトリ（アル・シャールバトリの家）"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.18921124889064,
+                    21.48572026933614
+                ],
+                "address": "3392 سوق العلوي جدة التاريخية ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "アル・シャフィー・モスク (Al-Shafi'i Mosque)",
+                "description": "ジェッダで最も古いモスクの一つ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.12910895903434,
+                    21.631345869031392
+                ],
+                "address": "7741 ابرهة بن شرجيل ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "Hayy Jameel (حيّ جميل)",
+                "description": "文化的複合施設 Hayy：クリエイティブハブ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.18510107752283,
+                    21.556932845261798
+                ],
+                "address": "9060 طريق الملك فهد العزيزية ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "Jeddah Park",
+                "description": "ジェッダで最も新しく、最も大きなショッピング＆エンターテインメントセンター"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.145095934866134,
+                    21.515489430376107
+                ],
+                "address": "7144 طريق الكورنيش ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ファハド王の噴水 (King Fahd's Fountain) ",
+                "description": "ジェッダ噴水 (Jeddah Fountain) としても知られる、世界で最も高い噴水"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.10083029922802,
+                    21.648713532153394
+                ],
+                "address": "6826 طريق الكورنيش الشمالي ジッダ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "アル ラーマ - 水上モスク",
+                "description": "満潮時には紅海の波の上に浮かんでいるように見える「フローティング モスク」"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.6111786123864,
+                    24.468819696114792
+                ],
+                "address": "3000 ابو ايوب الانصارى الحرم المدني マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "預言者のモスク",
+                "description": "イスラム教の第2の聖地。預言者ムハンマドの霊廟"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.613843070963924,
+                    24.465954491645547
+                ],
+                "address": "3176 ابو ايوب الانصارى بني خدرة マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ジャンナトゥル・バキー墓地",
+                "description": "イスラーム世界最古かつ最も有名な墓地"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.611826707948524,
+                    24.461509648524512
+                ],
+                "address": "8359 طريق الامير عبدالمحسن بن عبدالعزيز بني خدرة マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "クバー・モスク",
+                "description": "イスラムにおいて初めてつくられたイスラム教の礼拝堂・モスクのひとつ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.69960928649331,
+                    24.472301418880548
+                ],
+                "address": "8046 طريق الملك عبد العزيز マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ハラマイン鉄道駅舎",
+                "description": "メッカとメディナを結ぶハラマイン高速鉄道の駅"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.61130157954793,
+                    24.502948105661815
+                ],
+                "address": "6884 سيد الشهداء سيد الشهداء マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ウフド山",
+                "description": "イスラーム最大の戦いの一つであるウフドの戦いが行われた史跡"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.600941513008905,
+                    24.46194189675083
+                ],
+                "address": "3909 طريق أمير المؤمنين عمر بن الخطاب رضي الله عنه السقيا マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ヒジャーズ鉄道博物館",
+                "description": "イスラム以前の時代から現在に至るまでのイスラムの歴史を紹介する歴史的施設"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.58167339015219,
+                    24.4499304223295
+                ],
+                "address": "3460 الوادي المبارك マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ウルワ・ビン・アル・ズバイル宮殿 (قصر عروة بن الزبير)",
+                "description": "アル＝アキック渓谷の端に建てられた歴史的な宮殿"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.54290287960637,
+                    24.413658076622824
+                ],
+                "address": "2466 الوادي المبارك マディーナ マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ミーカート・ドゥ・アル・フライファ",
+                "description": "マスジッド・ドゥ・アル・フライファとしても知られるアル＝ミカト・モスク"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.915238712307996,
+                    26.625709508894502
+                ],
+                "address": "7574 المناخة Alula マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "AlUla Old Town | بلدة العلا القديمة",
+                "description": "石や日干しレンガでできた伝統的な住居からなる古代都市"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.95305095350818,
+                    26.789729869321576
+                ],
+                "address": "サウジアラビアマディーナ州Alula"
+            },
+            "properties": {
+                "title": "アル＝ヒジュル / マダイン・サーレハ",
+                "description": "アル＝ヒジュル（Al-Hijr, 「岩だらけの場所」）と呼ばれるサウジアラビア初の世界遺産"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.98157581757644,
+                    26.68927947315042
+                ],
+                "address": "ردمية جبل الفيل Alula マディーナ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "ジャバル・アル・フィル（Jabal Al Fil）",
+                "description": "岩層、峡谷、断崖など、自然が作り出した野外博物館"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.86557565208881,
+                    26.744107136947832
+                ],
+                "address": "サウジアラビアマディーナ州Alula"
+            },
+            "properties": {
+                "title": "Maraya | قاعة مرايا",
+                "description": "世界最大の鏡張りの建物マラヤ・コンサートホール"
+            }
+        }
+    ]
+}

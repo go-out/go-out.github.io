@@ -1,0 +1,54 @@
+form label {
+    background: lightskyblue;
+    color: lemonchiffon;
+}
+
+form,
+footer a {
+    font-family: 'KikaiChokoku', sans-serif;
+}
+
+form h3 {
+    font-size: 111%;
+}
+
+form input[type="submit"] {
+    font-size: 150%;
+    color: inherit;
+}
+
+form input[type="name"],
+form input[type="email"],
+form input[type="text"],
+form textarea {
+    border: solid 0.123rem lightskyblue;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+form label {
+    display: inline-block;
+    padding: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+form input[type="submit"] {
+    padding: 0;
+    margin: 0;
+}
+
+form textarea {
+    font-family: inherit;
+    height: 7.5rem;
+}
+
+form input[type="name"],
+form input[type="email"],
+form input[type="text"],
+form input[type="submit"],
+form textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}

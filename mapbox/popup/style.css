@@ -1,0 +1,51 @@
+.mapboxgl-popup.goout .mapboxgl-popup-content b {
+    font-family: "Kristina", "KikaiChokoku", 'Arial Narrow', sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+    color: lightskyblue;
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lemonchiffon,
+        0.2rem 0.2rem 0.2rem lemonchiffon,
+        0.3rem 0.3rem 0.3rem lemonchiffon;
+}
+
+.mapboxgl-popup.goout .mapboxgl-popup-content a {
+    background: lightskyblue;
+    color: lemonchiffon;
+}
+
+.mapboxgl-popup.heard {
+    background: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    filter: invert(100%);
+}
+
+.mapboxgl-popup.heard .mapboxgl-popup-content {
+    color: #000;
+    text-align: center;
+}
+
+.mapboxgl-popup.heard .mapboxgl-popup-content a {
+    color: inherit;
+    display: block;
+    font-size: 123%;
+    margin: 1rem 1rem 0;
+}
+
+.mapboxgl-popup-content b {
+    display: inline-block;
+    margin: 0.25rem 0 0.5rem;
+}
+
+.mapboxgl-popup.heard .mapboxgl-popup-content p {
+    font-size: 90%;
+    margin: 1rem 1rem 0;
+}
+
+.mapboxgl-popup {
+    z-index: 2;
+}
+
+.mapboxgl-marker {
+    z-index: 1;
+}

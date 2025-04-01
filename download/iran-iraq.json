@@ -1,0 +1,297 @@
+{
+    "type": "FeatureCollection",
+    "title": "イランとイラクの世界遺産",
+    "description": "世界最古の文明「メソポタミア」が発祥した最古の都市国家・古代ペルシア（歴史的イラン世界）の遺産",
+    "author": {
+        "name": "Ks"
+    },
+    "map": {
+        "center": [
+            47.68283671780466,
+            30.997760153159632
+        ],
+        "bounds": [
+            [
+                39.09715325057232,
+                26.2
+            ],
+            [
+                60.85443131306701,
+                39.91154337727622
+            ]
+        ],
+        "zoom": 5.5
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.2610414899886,
+                    35.455781952100764
+                ],
+                "address": "خرائب الأشوريين Tabira Gate of Aashoor サラーフッディーン県 イラク"
+            },
+            "properties": {
+                "title": "アッシュール",
+                "description": "アッシリア帝国時代の最初の首都、アッシリア神話の最高神・アッシュル神をまつる宗教的拠点"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.87991306378015,
+                    34.20618566522651
+                ],
+                "address": "サーマッラー サラーフッディーン県 イラク"
+            },
+            "properties": {
+                "title": "マルウィーヤーの螺旋状ミナレット",
+                "description": "サーマッラーの考古学都市の象徴"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.009409089718275,
+                    36.19116425611021
+                ],
+                "address": "عەرەب - ١٠٥ アルビール アルビール県 イラク"
+            },
+            "properties": {
+                "title": "アルビールの城塞",
+                "description": "有史最古の人間継続居住集、シタデルと呼ばれる古い城塞"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    42.717729872209304,
+                    35.58736991076891
+                ],
+                "address": "イラクニーナワー県"
+            },
+            "properties": {
+                "title": "ハトラ",
+                "description": "20世紀初めまでずっと砂の中に埋もれていた、神の家とも呼ばれるパルティア帝国の重要な要塞都市"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.10444981665768,
+                    30.962824621878624
+                ],
+                "address": "T'all Al-Lahm ジーカール県 イラク"
+            },
+            "properties": {
+                "title": "エ・テメン・ニグル",
+                "description": "古代メソポタミア南部にあった古代都市「ウル」のジッグラト"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.63877216667905,
+                    31.3234056453702
+                ],
+                "address": "تل الوركاء ムサンナー県 イラク"
+            },
+            "properties": {
+                "title": "ウルク",
+                "description": "メソポタミア最古の都市国家であり世界最古の統治体制だった都市国家"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.42121696672635,
+                    32.54221049941326
+                ],
+                "address": "آثار بابل バービル県 イラク"
+            },
+            "properties": {
+                "title": "バビロン遺跡",
+                "description": "まだ18％しか発掘されていないメソポタミア文明の広大な城郭都市"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.42061305871388,
+                    35.68045222079853
+                ],
+                "address": "سبزه میدان テヘラン テヘラン州 イラン"
+            },
+            "properties": {
+                "title": "ゴレスターン宮殿",
+                "description": "イランの首都テヘランの中心部にある最古の建造物のひとつ、19世紀のペルシャ美術と欧州の建築様式が融合した宮殿"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.43016440133189,
+                    35.8055337509136
+                ],
+                "address": "تجریش テヘラン テヘラン州 イラン"
+            },
+            "properties": {
+                "title": "タージリッシュのバザール",
+                "description": "伝統的なスタイルと現代的なスタイルの両方を使用した市場"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.4298666569606,
+                    35.805143035132986
+                ],
+                "address": "تجریش テヘラン テヘラン州 イラン"
+            },
+            "properties": {
+                "title": "イマームザデ・サーレハ",
+                "description": "テヘラン北部で最も人気のあるシーア派の寺院の一つ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.42403434314309,
+                    35.81617544681872
+                ],
+                "address": "سعدآباد テヘラン テヘラン州 イラン"
+            },
+            "properties": {
+                "title": "サーダーバードコンプレックス",
+                "description": "サーダバード宮殿・博物館・自然林などを併設する約80ヘクタールの広大な複合施設"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.19224780011737,
+                    35.753945756656066
+                ],
+                "address": "شهرک چیتگر テヘラン テヘラン州 イラン"
+            },
+            "properties": {
+                "title": "イラン・モール",
+                "description": "イラン最大・世界最大級のショッピングモール"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.67656953373671,
+                    32.657098782485406
+                ],
+                "address": "نقش جهان エスファハーン エスファハーン州 イラン"
+            },
+            "properties": {
+                "title": "イマーム広場",
+                "description": "「アリ・カプ宮殿」「シェイフ・ロトフォッラー・モスク」などの名所がある、正式名称は「メイダーネ・ナクシェ・ジャハーン」(世界の肖像の広場)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.52567446340203,
+                    29.63572607613051
+                ],
+                "address": "کوی عظیم シーラーズ ファールス州 イラン"
+            },
+            "properties": {
+                "title": "エラム庭園",
+                "description": "「楽園の庭」という意味の歴史的ペルシャ庭園"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    52.539188699377064,
+                    28.898040809890205
+                ],
+                "address": "イランファールス州フィールーザーバード郡"
+            },
+            "properties": {
+                "title": "アルダシール1世宮殿",
+                "description": "Tang-i Ab渓谷周辺に位置する「ファールス地方のサーサーン朝考古景観」の一つ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.23110004447332,
+                    29.195575153264855
+                ],
+                "address": "イランファールス州サルヴェスターン郡"
+            },
+            "properties": {
+                "title": "サルヴェスターン宮殿",
+                "description": "「ファールス地方のサーサーン朝考古景観」を構成する遺跡の一つ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.292880757990446,
+                    38.080932126203294
+                ],
+                "address": "بازار タブリーズ 東アーザルバーイジャーン州 イラン"
+            },
+            "properties": {
+                "title": "タブリーズのバザール",
+                "description": "中東最古のバザールであり、世界中でもっとも長い商業施設"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.36866575244102,
+                    29.11559041898947
+                ],
+                "address": "حافظ‌آباد バム郡 ケルマーン州 イラン"
+            },
+            "properties": {
+                "title": "アルゲ・バム",
+                "description": "近代都市バムの近郊に位置する「バムの城」を意味する要塞都市の遺跡"
+            }
+        }
+    ]
+}
