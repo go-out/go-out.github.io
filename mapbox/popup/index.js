@@ -9,7 +9,7 @@ async function popupJSON(requestURL) {
 
 // JSONファイルからポップアップを生成
 function addPopups(obj) {
-    for (const marker of obj.collection) {
+    for (const marker of obj.features) {
         addPopup(marker);
     };
 };
@@ -17,7 +17,7 @@ function addPopups(obj) {
 function addPopup(each) {
     let thisTitle = each.properties.title,
         thisDescription,
-        thisGeo = [Number(each.geometry.coordinates[0]), Number(each.geometry.coordinates[1])];
+        thisGeo = each.geometry.coordinates;
 
     if (!each.properties.description) {
         thisDescription = each.geometry.address;
