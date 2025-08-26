@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
 
-    <link rel="icon" href="./favicon.png" />
-    <link rel="icon" href="./mobile.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="./mobile.png" sizes="180x180" />
+    <link rel="icon" href="./icon/favicon.png" />
+    <link rel="icon" href="./icon/mobile.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="./icon/mobile.png" sizes="180x180" />
 
     <title>Go Out | View the Collection</title>
     <meta content="JSONファイルを読み込み、コレクションを表示" name="description" />
 
     <link rel="stylesheet" href="./fonts/style.css" />
-    <link rel="stylesheet" href="../index.css" />
-    <link rel="stylesheet" href="../form.css" />
-    <link rel="stylesheet" href="../list.css" />
-    <link rel="stylesheet" href="../mapbox/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/spot.css" />
+    <link rel="stylesheet" href="./css/list.css" />
+    <link rel="stylesheet" href="./css/cover.css" />
+    <link rel="stylesheet" href="../mapbox/index.css" />
     <link rel="stylesheet" href="../mapbox/popup/style.css" />
 
     <!-- Mapbox -->
@@ -27,9 +29,9 @@
 
 <body>
     <header>
-        <button onclick="history.back()"></button>
+        <button type="button"></button>
+        <ul id="cover" hidden></ul>
     </header>
-
     <main>
         <section>
             <h1>
@@ -42,76 +44,110 @@
                     <input type="file" name="file" id="file" onchange="previewFile()" accept="application/json">
                 </b>
             </h2>
-            <h3><b id="description">JSONファイルを読み込み、コレクションを表示</b></h3>
+            <h3>
+                <b id="description">JSONファイルを読み込み、コレクションを表示</b>
+            </h3>
+            <div id="notes"></div>
+            <aside id="links"></aside>
         </section>
-
         <section id="mapbox">
             <div id="map"></div>
-            <script src="../mapbox/marker/index.js"></script>
         </section>
     </main>
 
+    <dialog id="spot">
+        <div>
+            <button type="button">(閉じる)</button>
+            <h3>
+                <strong hidden>Fancy and Relaxin'</strong>
+                <small id="year" hidden>YYYY</small>
+                <hr>
+                <b id="month" hidden>MM</b>
+                <b id="date" hidden>DD</b>
+            </h3>
+            <nav id="vewAll"></nav>
+        </div>
+        <article id="info" hidden>
+            <section></section>
+            <aside></aside>
+        </article>
+    </dialog>
+
     <details id="index">
-        <summary>コレクションをダウンロード</summary>
-        <ul id="list">
-            <li>
-                <p>
-                    <a href="../download/makkah-madinah-and-more.json" download="makkah-madinah-and-more.json">
-                        The West of Saudi Arabia (Makkah, Madinah and more)
-                    </a>
-                    イスラームの聖地「メッカ（マッカ）」「メディナ（マディーナ）」など、サウジアラビア西部の名所
-                </p>
-                <p>
-                    <a href="../download/iran-iraq.json" download="iran-iraq.json">
-                        イランとイラクの世界遺産
-                    </a>
-                    世界最古の文明「メソポタミア」が発祥した最古の都市国家・古代ペルシア（歴史的イラン世界）の遺産
-                </p>
-            </li>
-        </ul>
+        <summary>コレクションを表示</summary>
+        <ul id="list"></ul>
+        <div id="weather" hidden></div>
     </details>
 
+    <script src="../mapbox/marker/script.js"></script>
+    <script src="../index.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/readJSON.js"></script>
+    <script src="./js/weather.js"></script>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
+        let map, style = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17', center, bounds, zoom;
 
-        function getRandomInt(min, max) {
-            min = Math.ceil(min)
-            max = Math.floor(max)
-            return Math.floor(Math.random() * (max - min) + min)
+        // collection/?id=ID&area=エリア&name=名前
+        const params = new URLSearchParams(location.search);
+        if (location.search) {
+            let thisJson = "", thisID, thisArea, thisSpot;
+            if (params.get("id")) {
+                thisID = params.get("id").replace("-", '/');
+                thisJson = `../index/${thisID}/`;
+            } else {
+                thisJson = "./json/";
+            };
+            if (params.get("name")) {
+                thisJson += `${params.get("name")}.json`;
+            } else {
+                thisJson += "index.json";
+            };
+            collectionJSON(thisJson);
+        } else if (!location.search) {
+            document.querySelector('header button').addEventListener("click", () => {
+                history.back()
+            }, false);
+            map = new mapboxgl.Map({
+                container: 'map',
+                center: [getRandomInt(0, 360), getRandomInt(-90, 90)],
+                style: style,
+                bearing: 0,
+                pitch: 0,
+                zoom: getRandomInt(1.5, 3),
+                scrollZoom: 1,
+                projection: 'globe',
+                attributionControl: false
+            });
+            map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+            createIndex("index.json");
+            document.querySelector("#weather").remove();
+            // 右クリックイベント
+            map.on("contextmenu", (e) => { // ポップアップに投稿フォームを表示
+                new mapboxgl.Popup({
+                    className: "goout"
+                })
+                    .setLngLat([e.lngLat.lng, e.lngLat.lat])
+                    .setHTML(`${e.lngLat.lng}, ${e.lngLat.lat}`).addTo(map);
+            });
         };
 
-        let style = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-            center = [getRandomInt(0, 360), getRandomInt(-90, 90)],
-            zoom = getRandomInt(1.5, 3);
-
-        let map = new mapboxgl.Map({
-            container: 'map',
-            center: center,
-            style: style,
-            bearing: 0,
-            pitch: 0,
-            zoom: zoom,
-            scrollZoom: 1,
-            projection: 'globe',
-            attributionControl: false
-        });
-        map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-
-        const index = document.querySelector('#index');
-        index.addEventListener('toggle', () => {
-            if (index.open) {
-                index.scrollIntoView({
-                    behavior: 'smooth'
-                }, false);
-            } else {
-                window.scroll({
-                    top: 0,
-                    behavior: "smooth"
-                }, false);
-            };
+        window.addEventListener("load", function () {
+            const index = document.querySelector('#index');
+            index.addEventListener('toggle', () => {
+                if (index.open) {
+                    index.scrollIntoView({
+                        behavior: "smooth"
+                    }, false);
+                } else {
+                    document.querySelector("#mapbox").scrollIntoView({
+                        top: 0,
+                        behavior: "smooth"
+                    }, false);
+                };
+            }, false);
         }, false);
     </script>
-    <script src="./readJSON.js"></script>
 </body>
 
 </html>

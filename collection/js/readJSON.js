@@ -7,57 +7,52 @@ const inputName = document.querySelector('#by'),
 
 // input要素でJSONファイルを受け取る
 function previewFile() {
+    const deleteAll = document.querySelectorAll('#list li');
+    deleteAll.forEach((eachLi) => {
+        eachLi.remove();
+    });
+
     const reader = new FileReader(),
         [file] = document.querySelector("#file").files;
-
     if (file) {
         reader.readAsText(file);
-    }
+    };
 
     reader.addEventListener("load", () => {
-        const deleteAll = document.querySelectorAll('#list li');
-        deleteAll.forEach((eachLi) => {
-            eachLi.remove();
-        });
-
         // this will then display a text file
         var obj = JSON.parse(reader.result);
-        if (obj.author) {
-            inputName.textContent = 'by ' + obj.author.name;
-        };
         if (obj.title) {
+            document.title = obj.title;
             inputTitle.textContent = obj.title;
         };
         if (obj.description) {
-            thisDscription.textContent = obj.description;
+            document.querySelector("meta[name='description']").content = obj.description.replaceAll("\n", " ");
+            thisDscription.innerText = obj.description;
         };
-        countCollection.innerHTML = "このコレクションの<b>" + obj.features.length + "</b>の場所";
-
+        if (obj.author) {
+            inputName.textContent = 'by ' + obj.author.name;
+        };
         if (obj.map) {
             map.flyTo({
                 center: obj.map.center,
                 zoom: obj.map.zoom
             })
-
             if (obj.map.bounds) {
                 map.fitBounds(obj.map.bounds);
             };
+            weatherAPI(obj.map.center[1], obj.map.center[0]);
         } else {
-            for (let i = 0; i < obj.features.length; i++) {
-                if (i == 0) {
-                    map.flyTo({
-                        center: obj.features[i].geometry.coordinates,
-                        zoom: 5
-                    })
-                };
-            };
+            map.flyTo({
+                center: obj.features[0].geometry.coordinates,
+                zoom: 5
+            }, false);
+            weatherAPI(obj.features[0].geometry.coordinates[1], obj.features[0].geometry.coordinates[0]);
         };
 
         map.addSource('collection', {
             type: 'geojson',
             data: JSON.parse(reader.result)
         });
-
         map.addLayer({
             'id': 'collection',
             'type': 'circle',
@@ -69,15 +64,12 @@ function previewFile() {
                 'circle-stroke-color': 'lightskyblue'
             }
         });
-
         map.on('mouseenter', 'collection', (e) => {
             map.getCanvas().style.cursor = 'pointer';
         });
-
         map.on('mouseleave', 'collection', () => {
             map.getCanvas().style.cursor = '';
         });
-
         map.on('click', 'collection', (e) => {
             let thisDescription,
                 thisTitle = e.features[0].properties.title,
@@ -105,34 +97,7 @@ function previewFile() {
                 zoom: 17
             });
         });
-
-        for (const i of obj.features) {
-            let thisDescription,
-                thisTitle = i.properties.title;
-
-            if (!i.properties.description) {
-                thisDescription = i.geometry.address;
-            } else {
-                thisDescription = i.properties.description.replace(/\r?\n/g, "<br>");;
-            };
-
-            const li = document.createElement('li');
-            document.querySelector("#list").appendChild(li);
-            const p = document.createElement('p');
-            p.innerHTML = `<b>${thisTitle}</b>${thisDescription}`;
-            li.appendChild(p);
-
-            li.addEventListener("click", () => {
-                map.flyTo({
-                    center: i.geometry.coordinates,
-                    essential: true,
-                    zoom: 15
-                })
-
-                document.querySelector('#mapbox').scrollIntoView({
-                    behavior: 'smooth'
-                }, false);
-            });
-        };
+        countCollection.innerHTML = "このコレクションの<b>" + obj.features.length + "</b>の場所";
+        listItems(obj.features);
     }, false);
-}
+};

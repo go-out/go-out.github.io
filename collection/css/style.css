@@ -1,0 +1,199 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 strong,
+h2 b,
+#index h2 strong,
+main button,
+footer button {
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+    font-weight: 900;
+}
+
+h2 u,
+h3,
+summary {
+    font-family: 'DiaPro', 'KikaiChokoku', 'Zen Maru Gothic', sans-serif;
+}
+
+h1,
+h2 b,
+h3 b {
+    font-size: 150%;
+}
+
+h2,
+h3,
+h3 u {
+    font-size: 125%;
+}
+
+h1 button,
+dialog input[type="button"] {
+    font-size: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0.5rem 0;
+}
+
+details summary,
+details h2,
+details h3,
+details p,
+#index form,
+#index aside {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    pointer-events: auto;
+    user-select: auto;
+}
+
+button:hover,
+.mapboxgl-marker.goout:hover {
+    cursor: pointer;
+}
+
+.mapboxgl-marker.goout {
+    border: solid 0.123rem;
+}
+
+details a,
+#index a {
+    color: #111;
+}
+
+h1 strong,
+section h2 u,
+#index h2 strong,
+dialog a,
+.mapboxgl-marker.goout {
+    color: lightskyblue;
+}
+
+h2 b,
+h3 b,
+#modal h3,
+details summary,
+.mapboxgl-marker.goout:hover {
+    color: lemonchiffon;
+}
+
+h3 b:not(#month, #date),
+details summary,
+.mapboxgl-marker.goout:hover {
+    background: lightskyblue;
+}
+
+body,
+h2 u,
+.mapboxgl-marker.goout {
+    background: lemonchiffon;
+}
+
+h3 u,
+dialog a,
+details a,
+#index a {
+    text-decoration: underline wavy lightskyblue;
+}
+
+h2 b,
+#modal h3 {
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+.mapboxgl-marker {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mapboxgl-marker.goout {
+    border-radius: 50%;
+    width: 1.11rem;
+    height: 1.11rem;
+}
+
+.mapboxgl-marker.goout:hover {
+    width: 1.23rem;
+    height: 1.23rem;
+}
+
+dialog hr {
+    clear: both;
+    border: none;
+    width: 100%;
+}
+
+#index hr {
+    border: none;
+    border-bottom: 0.2rem dotted lightskyblue;
+    margin: 0.5rem 0;
+}
+
+dialog input[type="button"] {
+    float: right;
+}
+
+header button {
+    position: fixed;
+}
+
+header button {
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+header button {
+    z-index: 10;
+}
+
+header button {
+    background: url('../icon/mobile.png') no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    html {
+        font-size: 3.5vw;
+    }
+}

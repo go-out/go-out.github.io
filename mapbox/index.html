@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
 
-    <link rel="icon" href="../collection/favicon.png" />
-    <link rel="icon" href="../collection/mobile.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="../collection/mobile.png" sizes="180x180" />
+    <link rel="icon" href="../collection/icon/favicon.png" />
+    <link rel="icon" href="../collection/icon/mobile.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="../collection/icon/mobile.png" sizes="180x180" />
 
     <title>Go Out | Mapbox Search Box API + Geocoding API</title>
     <meta content="住所、または名前で場所を検索 + 地理座標（経度・緯度）を 地点名（住所）に変換" name="description" />
@@ -30,13 +30,11 @@
     <script id="search-js" defer src="https://api.mapbox.com/search-js/v1.0.0/web.js"></script>
 
     <link rel="stylesheet" href="../collection/fonts/style.css" />
-    <link rel="stylesheet" href="../index.css" />
-    <link rel="stylesheet" href="../form.css" />
-    <link rel="stylesheet" href="../list.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../collection/css/style.css" />
+    <link rel="stylesheet" href="../collection/css/form.css" />
+    <link rel="stylesheet" href="../collection/css/list.css" />
     <link rel="stylesheet" href="./popup/style.css" />
-
-    <script src="../collection.js"></script>
+    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
@@ -115,38 +113,14 @@
         <input type="button" value="Delete All" id="delete">
     </dialog>
 
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
-
-        function getRandomInt(min, max) {
-            min = Math.ceil(min)
-            max = Math.floor(max)
-            return Math.floor(Math.random() * (max - min) + min)
-        };
-
-        let style = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-            center = [getRandomInt(0, 360), getRandomInt(-90, 90)],
-            zoom = getRandomInt(1.5, 3);
-
-        let map = new mapboxgl.Map({
-            container: 'map',
-            center: center,
-            style: style,
-            bearing: 0,
-            pitch: 0,
-            zoom: zoom,
-            scrollZoom: 1,
-            projection: 'globe',
-            attributionControl: false
-        });
-        map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-    </script>
+    <script src="./script.js"></script>
+    <script src="./download.js"></script>
     <script src="./rotating.js"></script>
     <script src="./api/reverse_v6.js"></script>
     <script src="./api/search.js"></script>
-    <script src="./marker/index.js"></script>
-    <script src="./popup/index.js"></script>
-    <script src="./download.js"></script>
+    <script src="./marker/script.js"></script>
+    <script src="./popup/script.js"></script>
+    <script src="../index.js"></script>
 
     <script>
         const submitForm = document.forms.submit,
@@ -155,21 +129,24 @@
             address = document.querySelector('#address'),
             countCollection = document.querySelector('#index summary b');
 
-        listItems();
         if (JSON.parse(localStorage.getItem("mapJSON"))) {
-            for (let i = 0; i < yourJson.length; i++) {
-                addMarker(yourJson[i]);
-                if (i == yourJson.length - 1) {
-                    map.flyTo({
-                        center: [Number(yourJson[i].geometry.coordinates[0]), Number(yourJson[i].geometry.coordinates[1])],
-                        essential: true,
-                        zoom: 10
-                    })
-                };
-            };
             document.querySelector('#howto').hidden = true;
             document.querySelector('#download').hidden = false;
             countCollection.textContent = yourJson.length;
+
+            if (yourJson.length > 0) {
+                for (let i = 0; i < yourJson.length; i++) {
+                    addMarker(yourJson[i]);
+                    if (i == yourJson.length - 1) {
+                        map.flyTo({
+                            center: [Number(yourJson[i].geometry.coordinates[0]), Number(yourJson[i].geometry.coordinates[1])],
+                            essential: true,
+                            zoom: 10
+                        })
+                    };
+                };
+                listItems(yourJson);
+            };
         } else {
             countCollection.textContent = 0;
         };

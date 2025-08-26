@@ -1,0 +1,226 @@
+#spot,
+#spot button {
+    background: lemonchiffon;
+}
+
+#spot h3 b::after,
+#spot button {
+    color: skyblue;
+}
+
+#spot h3 strong {
+    color: lemonchiffon;
+}
+
+#spot h3 #year {
+    color: #fff;
+}
+
+#spot {
+    border-radius: 0.5rem;
+}
+
+#vewAll label {
+    border: solid 2.5px #000;
+    border-radius: 0.25rem;
+}
+
+#vewAll input:checked+label {
+    border: solid 2.5px #fff;
+}
+
+#spot h3 strong {
+    text-shadow: 0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+#spot h3 b {
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+#spot h3 b::after,
+#spot #info,
+#spot button {
+    font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+#spot h3,
+#spot h3 strong {
+    font-size: 200%;
+}
+
+#spot div,
+#spot h3 b {
+    font-size: 150%;
+}
+
+#spot h3 #year,
+#spot button,
+#spot button::after {
+    font-size: 75%;
+}
+
+#spot h3 b::after {
+    font-size: 25%;
+}
+
+#spot h3 #year {
+    line-height: 75%;
+}
+
+#spot h3 {
+    line-height: 175%;
+}
+
+#spot button {
+    transform: scale(1, 1.23);
+    text-align: center;
+    text-align-last: justify;
+    font-weight: bolder;
+}
+
+#spot #info section,
+#spot #info aside {
+    padding: 1rem;
+}
+
+#spot button {
+    padding: 0.25rem 1rem 0;
+}
+
+#spot h3,
+#vewAll {
+    padding: 0.25rem 0.5rem;
+}
+
+#spot {
+    padding: 0;
+}
+
+#spot h3 b {
+    margin-top: 1rem;
+}
+
+#spot button {
+    margin: 0;
+}
+
+#spot h3 b::after {
+    vertical-align: top;
+    margin-left: 0.5rem;
+}
+
+#spot h3 b {
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+#spot div nav#vewAll {
+    margin-top: auto;
+}
+
+#spot h3 strong[hidden],
+#spot h3 small[hidden],
+#spot h3 b[hidden],
+#spot #info aside[hidden],
+#vewAll input {
+    display: none;
+}
+
+#spot div,
+#spot #info aside,
+#vewAll {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#spot div,
+#spot #info aside {
+    flex-flow: column;
+}
+
+#vewAll {
+    overflow: auto;
+}
+
+#spot h3 strong,
+#spot h3 small,
+#spot h3 b {
+    display: block;
+}
+
+#spot h3 hr {
+    clear: both;
+    margin: 0;
+}
+
+#spot h3 strong,
+#spot h3 b {
+    float: left;
+}
+
+#spot h3 #year {
+    float: right;
+}
+
+#spot h3 strong {
+    width: calc(100% - 7.5rem);
+}
+
+#spot h3 #year {
+    text-align: right;
+    width: 7.5rem;
+}
+
+#spot button,
+#vewAll {
+    width: 100%;
+}
+
+#spot div,
+#spot #info {
+    width: 1280px;
+    max-width: 100%;
+}
+
+#spot div,
+#vewAll label {
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    background-origin: content-box;
+}
+
+#spot h3 #month::after {
+    content: "月";
+}
+
+#spot h3 #date::after {
+    content: "日";
+}
+
+#spot button::after {
+    content: " (閉じる)";
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1280px) {
+    #spot h3 {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (width: 1280px) and (height:720px) {
+    #spot {
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+
+    #spot button::after {
+        display: none;
+    }
+}

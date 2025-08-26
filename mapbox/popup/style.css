@@ -1,5 +1,10 @@
+.mapboxgl-popup.goout {
+    font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+    z-index: 10;
+}
+
 .mapboxgl-popup.goout .mapboxgl-popup-content b {
-    font-family: "Kristina", "KikaiChokoku", 'Arial Narrow', sans-serif;
+    font-family: "Kristina", "KikaiChokoku", 'Zen Maru Gothic', sans-serif;
     font-weight: 900;
     font-size: 150%;
     color: lightskyblue;

@@ -1,10 +1,9 @@
 {
     "type": "FeatureCollection",
+    "url": "collection/?name=iran-iraq",
+    "lastModified": null,
     "title": "イランとイラクの世界遺産",
     "description": "世界最古の文明「メソポタミア」が発祥した最古の都市国家・古代ペルシア（歴史的イラン世界）の遺産",
-    "author": {
-        "name": "Ks"
-    },
     "map": {
         "center": [
             47.68283671780466,
@@ -22,6 +21,11 @@
         ],
         "zoom": 5.5
     },
+    "cover": {
+        "title": "Iran and Iraq",
+        "directory": "https://lh3.googleusercontent.com/",
+        "url": null
+    },
     "features": [
         {
             "type": "Feature",
@@ -35,7 +39,10 @@
             },
             "properties": {
                 "title": "アッシュール",
-                "description": "アッシリア帝国時代の最初の首都、アッシリア神話の最高神・アッシュル神をまつる宗教的拠点"
+                "description": "アッシリア帝国時代の最初の首都、アッシリア神話の最高神・アッシュル神をまつる宗教的拠点",
+                "google": [
+                    "gps-cs-s/AC9h4np-8LvZLSSoXm_NnqMYjez7qVnf5c2vnkkQsytA8XOT1WvF4nCNFnUyWEFN-VUKQn6Po7TCXZoxttbICB055ctP3Tvmdi-V4O-0ML2uR8SYlt3z0m0y_wA1gf-5gDhQTMe_pRZxOQ"
+                ]
             }
         },
         {
@@ -50,7 +57,10 @@
             },
             "properties": {
                 "title": "マルウィーヤーの螺旋状ミナレット",
-                "description": "サーマッラーの考古学都市の象徴"
+                "description": "サーマッラーの考古学都市の象徴",
+                "google": [
+                    "gps-cs-s/AC9h4noopSOzSXVhMb1leIeOgXr1ugGzimgdLiEyt6JH_LOwt_xbxN-LfzxuvHcE1zPELXZx2za-Su8bVXupwDokgrJiZOeQAs4Pt_m8EC7qu-NajZNJnxFl2m3ZRizb0tmPgbyYr4m6"
+                ]
             }
         },
         {
@@ -65,7 +75,10 @@
             },
             "properties": {
                 "title": "アルビールの城塞",
-                "description": "有史最古の人間継続居住集、シタデルと呼ばれる古い城塞"
+                "description": "有史最古の人間継続居住集、シタデルと呼ばれる古い城塞",
+                "google": [
+                    "gps-cs-s/AC9h4noZniDuflGweEfBaYv3K3sNDXMArwLq7rtBKfgvO6hjI_1wxBDGwjRNaT10InQuqy8dIwWcsoCov9wmXG2sM_bycYP0Jx3ZSiJMxAMhutC3yJ4RI_yXXdURQ_pU27M1Rzdayp13"
+                ]
             }
         },
         {
@@ -80,7 +93,10 @@
             },
             "properties": {
                 "title": "ハトラ",
-                "description": "20世紀初めまでずっと砂の中に埋もれていた、神の家とも呼ばれるパルティア帝国の重要な要塞都市"
+                "description": "20世紀初めまでずっと砂の中に埋もれていた、神の家とも呼ばれるパルティア帝国の重要な要塞都市",
+                "google": [
+                    "gps-cs-s/AC9h4nos4ogeJmQld7xPYwGoqE0-O-9eerFEOnQdIXIDjfEU5boYZSGG5-mFXEGpXrdXZdljy9oumw6lxJ5uAYWGp76GrQz9NvZrYoVT28y2B8voKTe2SzM0uUjii_acK4J-LNU2Sm3Jkbq9UEEo"
+                ]
             }
         },
         {
@@ -95,7 +111,10 @@
             },
             "properties": {
                 "title": "エ・テメン・ニグル",
-                "description": "古代メソポタミア南部にあった古代都市「ウル」のジッグラト"
+                "description": "古代メソポタミア南部にあった古代都市「ウル」のジッグラト",
+                "google": [
+                    "gps-cs-s/AC9h4nohdksGAcCou07DSNRcWmrJP3p_V11cp6ArViJ3sBwxokPRhTjYByfSUb6MhQqAwc3tztcfKK-DXUzY9D69imPEvGlr0xPfPe-SXAUpjaeOlptY7txeELgYUPuxkjJsW5jttg"
+                ]
             }
         },
         {
@@ -110,7 +129,10 @@
             },
             "properties": {
                 "title": "ウルク",
-                "description": "メソポタミア最古の都市国家であり世界最古の統治体制だった都市国家"
+                "description": "メソポタミア最古の都市国家であり世界最古の統治体制だった都市国家",
+                "google": [
+                    "gps-cs-s/AC9h4nrMk1bd8ZAxH7sfqmlRTIqOyqpKab3ysj57Jn4pDr3YZCHCC4rmHa9HRfQnyLzyypOpn8gtlp_zBtt9EbRdbbJWI6h1lJI3Qzym-ZYfwFjjgEwTFrvTw0fjtFS47V4XSxuPxSsD"
+                ]
             }
         },
         {
@@ -125,7 +147,10 @@
             },
             "properties": {
                 "title": "バビロン遺跡",
-                "description": "まだ18％しか発掘されていないメソポタミア文明の広大な城郭都市"
+                "description": "まだ18％しか発掘されていないメソポタミア文明の広大な城郭都市",
+                "google": [
+                    "gps-cs-s/AC9h4noDY0OJ-ajFy4H4YBA9g0E40Mpqzgq3Hpq4lK1XNbd9OtCcOljI-iMj9sqc7kg8Mf7P7fEcu56sG25j77hmHnKAj6e3di9jzFD7BE_p9XcjaU60NeAw07ZjPax9U2As4T8mV0QN"
+                ]
             }
         },
         {
@@ -140,7 +165,10 @@
             },
             "properties": {
                 "title": "ゴレスターン宮殿",
-                "description": "イランの首都テヘランの中心部にある最古の建造物のひとつ、19世紀のペルシャ美術と欧州の建築様式が融合した宮殿"
+                "description": "イランの首都テヘランの中心部にある最古の建造物のひとつ、19世紀のペルシャ美術と欧州の建築様式が融合した宮殿",
+                "google": [
+                    "gps-cs-s/AC9h4np2enepCHfUmea7QjKm8OKw8gJoNnJLa8YT4MRgwI_62t_rPU_3iwbBg-zezPYtN3Hi-weD19qs48Nne4ioVly0YToGc2uLS1eQrXPwLIxdAVQDczxdMgcFycEYLLhmmcC1NwJXfA"
+                ]
             }
         },
         {
@@ -155,7 +183,10 @@
             },
             "properties": {
                 "title": "タージリッシュのバザール",
-                "description": "伝統的なスタイルと現代的なスタイルの両方を使用した市場"
+                "description": "伝統的なスタイルと現代的なスタイルの両方を使用した市場",
+                "google": [
+                    "gps-cs-s/AC9h4npiGPd6ZJDpgaXH5KXQgnZDRDJPGUIilAlLWUz0hsziFXTNEh_poJUgoj3zf_la-ZmE4jRrtyE7te3StbHQJ1Et_gtHAWpZ5exG_hUioiLvHkCpzOO5EQd2Yw5fDipLlkCMHduRPQ"
+                ]
             }
         },
         {
@@ -170,7 +201,10 @@
             },
             "properties": {
                 "title": "イマームザデ・サーレハ",
-                "description": "テヘラン北部で最も人気のあるシーア派の寺院の一つ"
+                "description": "テヘラン北部で最も人気のあるシーア派の寺院の一つ",
+                "google": [
+                    "gps-cs-s/AC9h4nrBW8D0_dVihaWY8eJJGFO51Cm77sHtu4u5umeqwpcUAC-O16nwxcmJUL2xlqO-Y-N95Zpqh-yspuDpxOj356w9LoOSbc_HJmNjyZJwO0o_cjLbXFIc06XjYUppOa2XFbgZcX6X"
+                ]
             }
         },
         {
@@ -185,7 +219,10 @@
             },
             "properties": {
                 "title": "サーダーバードコンプレックス",
-                "description": "サーダバード宮殿・博物館・自然林などを併設する約80ヘクタールの広大な複合施設"
+                "description": "サーダバード宮殿・博物館・自然林などを併設する約80ヘクタールの広大な複合施設",
+                "google": [
+                    "gps-cs-s/AC9h4npZNUnWUA2tFK2ZQ9gjuggqDli0ne9pE1wsdwUwHvpBjz5mNHBxvEqd-llUHWFOrBxPqyU_z8mvDtcf7wPFvuocoQIADckI9gURr_DpIqbY0Yz3o6oXGYmI0a9cyJYomyMhUXkeKinz_N0"
+                ]
             }
         },
         {
@@ -200,7 +237,10 @@
             },
             "properties": {
                 "title": "イラン・モール",
-                "description": "イラン最大・世界最大級のショッピングモール"
+                "description": "イラン最大・世界最大級のショッピングモール",
+                "google": [
+                    "gps-cs-s/AC9h4nqTU11IyxEBILEd3B8m9PIfTuW8fGAeoH0TqG6RnmGmMVwXRKcqSvjpIFV0VuY7wXpUnYjZP517lWIZcPIt5SwDtrWu_Amk5006QVg-nFTFJoy6XXHKuXXKzVWXKLce9XzD9_JNIQ"
+                ]
             }
         },
         {
@@ -215,7 +255,10 @@
             },
             "properties": {
                 "title": "イマーム広場",
-                "description": "「アリ・カプ宮殿」「シェイフ・ロトフォッラー・モスク」などの名所がある、正式名称は「メイダーネ・ナクシェ・ジャハーン」(世界の肖像の広場)"
+                "description": "「アリ・カプ宮殿」「シェイフ・ロトフォッラー・モスク」などの名所がある、正式名称は「メイダーネ・ナクシェ・ジャハーン」(世界の肖像の広場)",
+                "google": [
+                    "gps-cs-s/AC9h4nq18y0zj9zypNqdSsTR1rhWCuLHseQWPy_5gzUimBfkzBXTaVuXrFgTj0T5yy11zVCVb9bwcS6EbAtpP6NFAGFligEvswA7hqUcO936yGuaOxX7ULKc_ngrhmJQcVG1FCKBKYMBzRWkygQj"
+                ]
             }
         },
         {
@@ -230,7 +273,10 @@
             },
             "properties": {
                 "title": "エラム庭園",
-                "description": "「楽園の庭」という意味の歴史的ペルシャ庭園"
+                "description": "「楽園の庭」という意味の歴史的ペルシャ庭園",
+                "google": [
+                    "gps-cs-s/AC9h4np1pI_YvN2gphIdghXpi3LWWR10b7z9Aci--snnPi_sL3p84Jol0lR0Jd--KFabCzNICQlulOiaz9FYU_n0z5Mbh60kCvZMXz0m1hOENgsyaxf2R5Mh3iJ9uYm0ax6mDjMZ6pA"
+                ]
             }
         },
         {
@@ -244,8 +290,11 @@
                 "address": "イランファールス州フィールーザーバード郡"
             },
             "properties": {
-                "title": "アルダシール1世宮殿",
-                "description": "Tang-i Ab渓谷周辺に位置する「ファールス地方のサーサーン朝考古景観」の一つ"
+                "title": "Ardashir Babakan Palace",
+                "description": "Tang-i Ab渓谷周辺に位置する「ファールス地方のサーサーン朝考古景観」の一つ「アルダシール1世宮殿」",
+                "google": [
+                    "gps-cs-s/AC9h4nrnNH0qAw5ZNU5yTj31BP3Eu2L7qOZ6LNWI1Ct3j88A2zRx3hdF-IAn-9k4LIQ-jA73C8QVFGvCxkkPd_mElLpA8MZlctSJb3ss7RRnAusv9ofXNBQmxVt6rB7mURwP-qOv3Os"
+                ]
             }
         },
         {
@@ -259,8 +308,11 @@
                 "address": "イランファールス州サルヴェスターン郡"
             },
             "properties": {
-                "title": "サルヴェスターン宮殿",
-                "description": "「ファールス地方のサーサーン朝考古景観」を構成する遺跡の一つ"
+                "title": "サルヴェスタン・サッサニッド宮殿",
+                "description": "「ファールス地方のサーサーン朝考古景観」を構成する遺跡の一つ",
+                "google": [
+                    "gps-cs-s/AC9h4nriQBJkmjL-Jg-7RMFubQ53kP4zNBUfksfK1p_a64sqfLmhA616hECFGIYjg0fMJseQOXQcxSJFeudv3hLAMo3EU_S7r0B-wO3m_TBWQa9pA2jI-LyZLpjwH4XOaV6zKT2JTmLfHJk-NjIv"
+                ]
             }
         },
         {
@@ -275,7 +327,10 @@
             },
             "properties": {
                 "title": "タブリーズのバザール",
-                "description": "中東最古のバザールであり、世界中でもっとも長い商業施設"
+                "description": "中東最古のバザールであり、世界中でもっとも長い商業施設",
+                "google": [
+                    "gps-cs-s/AC9h4nomFgk7ysoWSL1AkjLJjuFk1oN3UhZA5REZvAuuAzEFJ88K-QTyyRmP7e3eh7pIQ84ne1g4ZuW1prP8FLaVzxZimrDsJbZbnMRQGtFfpz3YwVc65HKcSK1xz8G0-b1MLO6xXHM_"
+                ]
             }
         },
         {
@@ -290,7 +345,10 @@
             },
             "properties": {
                 "title": "アルゲ・バム",
-                "description": "近代都市バムの近郊に位置する「バムの城」を意味する要塞都市の遺跡"
+                "description": "近代都市バムの近郊に位置する「バムの城」を意味する要塞都市の遺跡",
+                "google": [
+                    "gps-cs-s/AC9h4nqGtV0HI4WCBVS3klSc566PVuD7NKLjexpqvS5QNluSmnerGd0xQmdNCGc-qS4NMFXf9qgV3GI5SqGIWZD4pxQb3alM-gTdMYmUaGFVDjpvO--XF-jCAuGGpILnjh3m5Pb0gSyn"
+                ]
             }
         }
     ]

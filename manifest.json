@@ -1,0 +1,33 @@
+{
+    "name": "Go Out",
+    "short_name": "Go Out",
+    "display": "fullscreen",
+    "background_color": "lightskyblue",
+    "description": "知っていることの 外へ わからないところまで 出かける",
+    "icons": [
+        {
+            "src": "./collection/icon/mobile.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "./collection/icon/mobile.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./collection/icon/logo.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./collection/icon/card.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "index"
+        }
+    ]
+}

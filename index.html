@@ -6,36 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
 
-    <link rel="icon" href="./collection/favicon.png" />
-    <link rel="icon" href="./collection/mobile.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="./collection/mobile.png" sizes="180x180" />
+    <link rel="manifest" href="./manifest.json">
 
-    <title>Go Out | Let's have some fun</title>
-    <meta content="Mapboxを用いて、カスタムデザイン地図を作成" name="description" />
+    <!--og:meta-->
+    <title>Go Out | 行ったことのない場所へ行く</title>
+    <meta content="知っていることの 外へ わからないところまで 出かける" name="description" />
+    <link rel="icon" href="../collection/icon/favicon.png" />
+
+    <link rel="stylesheet" href="./collection/fonts/style.css" />
+    <link rel="stylesheet" href="./collection/css/style.css" />
+    <link rel="stylesheet" href="./collection/css/form.css" />
+    <link rel="stylesheet" href="./collection/css/list.css" />
+    <link rel="stylesheet" href="./collection/css/cover.css" />
+    <link rel="stylesheet" href="./mapbox/popup/style.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <script src="./index.js"></script>
 
     <!-- Mapbox -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
-
-    <link rel="stylesheet" href="./collection/fonts/style.css" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./form.css" />
-    <link rel="stylesheet" href="./list.css" />
-    <link rel="stylesheet" href="./mapbox/popup/style.css" />
-
-    <script src="./collection.js"></script>
 </head>
 
 <body>
     <header>
-        <button onclick="main()"></button>
+        <button onclick="changeMenu()"></button>
     </header>
 
     <main id="mapbox">
         <h1>
             <strong>Go Out</strong>
-            <button type="button" onclick="main()">Let's have some fun</button>
+            <button type="button" onclick="enter()">Let's have some fun</button>
         </h1>
         <section>
             <h2>
@@ -52,6 +53,10 @@
         <div id="map"></div>
         <button id="enter" onclick="enter()">Copyright © You. (Not) All Rights Reserved.</button>
     </main>
+
+    <article>
+        <ul id="cover" hidden></ul>
+    </article>
 
     <main id="index" hidden>
         <article>
@@ -107,34 +112,21 @@
 
     <script src="./mapbox/script.js"></script>
     <script src="./mapbox/rotating.js"></script>
-    <script src="./mapbox/marker/index.js"></script>
-    <script src="./mapbox/popup/index.js"></script>
+    <script src="./mapbox/marker/script.js"></script>
+    <script src="./mapbox/popup/script.js"></script>
     <script src="./mapbox/polygon/heard.js"></script>
     <script src="./mapbox/polygon/do.js"></script>
-    <script src="./script.js"></script>
     <script>
-        markerJSON("./mapbox/marker/index.json");
-        popupJSON("./mapbox/popup/index.json");
-
         const readme = document.querySelector('#howto div');
         fetch('./README.md')
             .then(response => response.text())
             .then(innerText => {
                 readme.innerText = innerText;
             });
-
-        // 右クリックイベント
-        map.on("contextmenu", (e) => {
-            // ポップアップに投稿フォームを表示
-            var coordinates = [e.lngLat.lng, e.lngLat.lat];
-            new mapboxgl.Popup()
-                .setLngLat(coordinates)
-                .setHTML(`
-                ${e.lngLat.lng},
-                ${e.lngLat.lat}
-                `).addTo(map);
-        }, false)
+        popupJSON("./mapbox/popup/index.json");
+        markerJSON("./mapbox/marker/index.json");
     </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

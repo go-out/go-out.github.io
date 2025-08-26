@@ -1,10 +1,9 @@
 {
     "type": "FeatureCollection",
-    "title": "The West of Saudi Arabia (Makkah, Madinah and more)",
+    "url": "collection/?name=makkah-madinah-and-more",
+    "lastModified": null,
+    "title": "The Westside of Saudi Arabia",
     "description": "イスラームの聖地「メッカ（マッカ）」「メディナ（マディーナ）」など、サウジアラビア西部の名所",
-    "author": {
-        "name": "Ks"
-    },
     "map": {
         "center": [
             39.165493610604585,
@@ -22,6 +21,11 @@
         ],
         "zoom": 8
     },
+    "cover": {
+        "title": "Makkah, Madinah and more",
+        "directory": "https://lh3.googleusercontent.com/",
+        "url": null
+    },
     "features": [
         {
             "type": "Feature",
@@ -35,22 +39,10 @@
             },
             "properties": {
                 "title": "ヒラー山(ヒラーの洞窟)",
-                "description": "山の入口には、「この山は本来は神聖視されるべきものではない」という断りが記されている"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    39.82556183839543,
-                    21.418855146253208
-                ],
-                "address": "4100 الطريق الدائري الأول الهجلة メッカ マッカ州 サウジアラビア"
-            },
-            "properties": {
-                "title": "アブラージュ・アル・ベイト・タワーズ",
-                "description": "マスジド・ハラーム(カアバ)のすぐ向かいに面する超高層ビル群"
+                "description": "山の入口には、「この山は本来は神聖視されるべきものではない」という断りが記されている",
+                "google": [
+                    "gps-cs-s/AC9h4npNlUf44i-OTgCMl-fw6GhPo-pwBoOmpt2pkjeDrK04xatWyJc77dX9AoIWMQ1owuZUkChnhcvAI_H9rVsS3m4UAmV8L3j8BIs98G4gu6irFoN7bZnWHDvlbgg_obpJg3u0C30IXn9AsbqJ"
+                ]
             }
         },
         {
@@ -65,7 +57,28 @@
             },
             "properties": {
                 "title": "マスジド・ハラーム(カアバ)",
-                "description": "イスラームにおける最高の聖地とみなされている聖殿"
+                "description": "イスラームにおける最高の聖地とみなされている聖殿",
+                "google": [
+                    "gps-cs-s/AC9h4nq8POFbvQzD6zPEnd8hN6RdFi1kCspEJoG9NjIq-wqqIcWQEX5-zv1F-JGxErDal46HEVqVCBInqUWz2sl1l_di6HtXAWfBeCLLIc-iThLWWjTJt9n8G5X8ptJHfq0Udk2m3_xN"
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.82556183839543,
+                    21.418855146253208
+                ],
+                "address": "4100 الطريق الدائري الأول الهجلة メッカ マッカ州 サウジアラビア"
+            },
+            "properties": {
+                "title": "アブラージュ・アル・ベイト・タワーズ",
+                "description": "マスジド・ハラーム(カアバ)のすぐ向かいに面する超高層ビル群",
+                "google": [
+                    "gps-cs-s/AC9h4nqmPkjPyKljxkd2NOeHzAbkjz-yq_x2_xOWE8YySvnS3n87wLT07rzOjTZ2Rskiv0A8YTYgdo2y_NWgGtn9vQ3t2FLYyR9XIk2iatOvEGTXhWb3ImqOPASWWK8nPEjt8stc5w"
+                ]
             }
         },
         {
@@ -80,7 +93,10 @@
             },
             "properties": {
                 "title": "アブー・クバイス（Abu Qubays）",
-                "description": "伝承では、この世で最初に創造された山だと言われている"
+                "description": "伝承では、この世で最初に創造された山だと言われている",
+                "google": [
+                    "gps-cs-s/AC9h4nqnWLC2FAL3FhK2RmENEQwo1vYoz8Zzzs26mZkh8EU-Bl8RZV_JxYYdsN3RYvSLF-eQ84kcfoa1e_6Fd-Bv6zo6POzCzOEOiC4gV6oR2oQOs8BASJlcZxkVLTYWlv11BY25-3zL"
+                ]
             }
         },
         {
@@ -95,7 +111,10 @@
             },
             "properties": {
                 "title": "アラファト山（جبل الرحمة）",
-                "description": "「慈悲の山」（ジャバル・アル・ラフマ）とも呼ばれるイスラム教の巡礼地"
+                "description": "「慈悲の山」（ジャバル・アル・ラフマ）とも呼ばれるイスラム教の巡礼地",
+                "google": [
+                    "gps-cs-s/AC9h4nrrluOifFQ3ECHgeZ8o2nan1R_wFQtvFVECLDrtoqqnshqVAQsJleWioNcsIwErkuwaVXVj_DeUk62ygZVf9WQdn-21oBcsqoUOnNO3Jh255M_pyg9VR9Z76yvYORHilOkvk_n8Vw"
+                ]
             }
         },
         {
@@ -110,7 +129,10 @@
             },
             "properties": {
                 "title": "ジェッダ・ウォールゲート",
-                "description": "メッカへと続く道の起点「ジェッダ」にある8つの門の一つ"
+                "description": "メッカへと続く道の起点「ジェッダ」にある8つの門の一つ",
+                "google": [
+                    "gps-cs-s/AC9h4nrjrWZ89UlJvnZ5qlbSKN-JNGmU18CTjMdJPMRp1iScc7EbHIYNhm2EJEH794JvVz4MA-rYjYUYIStDJK3g2ZuVZPY-xCPHUZlHR10Rz94HGSLJf_rtkozfC2-Kno5sWc-tgJmA6g"
+                ]
             }
         },
         {
@@ -125,7 +147,10 @@
             },
             "properties": {
                 "title": "ナシーフ・ハウス博物館",
-                "description": "王国の歴史を伝える博物館と文化センターに改修された、サウジアラビア最初の王の旧邸「ベイト・ナシーフ（ナシフの家）」"
+                "description": "王国の歴史を伝える博物館と文化センターに改修された、サウジアラビア最初の王の旧邸「ベイト・ナシーフ（ナシフの家）」",
+                "google": [
+                    "gps-cs-s/AC9h4noNXOyUUwQZBxIfD4Kw1eEVCHWokbI1kQzrKOUUFvwVtZuygI0m636NVPAn2KanU6woitqVmy8l96cky3KT5IyJjEIY7YSaZL-VzEhwCR6NsLOe-fasuEK_u99zs6mm1OzGaYXxuw"
+                ]
             }
         },
         {
@@ -140,7 +165,10 @@
             },
             "properties": {
                 "title": "Bait Al Balad",
-                "description": "ジェッダ歴史地区で最も古く有名な家の一つであるベイト・アル・シャールバトリ（アル・シャールバトリの家）"
+                "description": "ジェッダ歴史地区で最も古く有名な家の一つであるベイト・アル・シャールバトリ（アル・シャールバトリの家）",
+                "google": [
+                    "gps-cs-s/AC9h4nrthgXo44xitiH7S6AV67I_kANS0eLs4-quClYGIo4el9GWi7NpTwmtJjas3CXhSDYgBNqRdCI4LqLVCP_TxSOxv1mo_GfqqlaaBnVt3gucH8HNT647PAWNJ4dhlP2e1AUiZLu1Iw"
+                ]
             }
         },
         {
@@ -155,7 +183,10 @@
             },
             "properties": {
                 "title": "アル・シャフィー・モスク (Al-Shafi'i Mosque)",
-                "description": "ジェッダで最も古いモスクの一つ"
+                "description": "ジェッダで最も古いモスクの一つ",
+                "google": [
+                    "gps-cs-s/AC9h4nrF8BtQKPVVml_9SuzRY_uKem--tq4IZc4YgyxSOxmhfIETx_bflJGoezaeLU3kBAmLYAb5kRVqctJW0d_UeKAxXKpeXyE6Hittk-9y91UXcKFOaWdwPoO9l-0umUAMghYQyLCLMw"
+                ]
             }
         },
         {
@@ -170,7 +201,10 @@
             },
             "properties": {
                 "title": "Hayy Jameel (حيّ جميل)",
-                "description": "文化的複合施設 Hayy：クリエイティブハブ"
+                "description": "文化的複合施設 Hayy：クリエイティブハブ",
+                "google": [
+                    "gps-cs-s/AC9h4nqKb3cx2tAjqWMik39sHw6vBemEyCxJn_f6cyXMewqM0Uh8yukacWTA3a3Wu3fTk9xF8pq_XZBhqch0G_AcfWzCQDEzoYjy9BSYSyJamVOo8y1OiueSx8yzcU7U-me_KR3HiwuTtQ"
+                ]
             }
         },
         {
@@ -185,7 +219,10 @@
             },
             "properties": {
                 "title": "Jeddah Park",
-                "description": "ジェッダで最も新しく、最も大きなショッピング＆エンターテインメントセンター"
+                "description": "ジェッダで最も新しく、最も大きなショッピング＆エンターテインメントセンター",
+                "google": [
+                    "gps-cs-s/AC9h4nr1wN7xR7h0VlhjHLW09dfyNFTMMj6c4F9k3SihLI3upCv7x1X03egYGSOkj4nttqDRDQjvXoevTp-oDUbhHHjRCyc9Mv52Mpw-m-AkODQf1Q4XlFqwv3n0eR1P6gCElYGvPz2q"
+                ]
             }
         },
         {
@@ -200,7 +237,10 @@
             },
             "properties": {
                 "title": "ファハド王の噴水 (King Fahd's Fountain) ",
-                "description": "ジェッダ噴水 (Jeddah Fountain) としても知られる、世界で最も高い噴水"
+                "description": "ジェッダ噴水 (Jeddah Fountain) としても知られる、世界で最も高い噴水",
+                "google": [
+                    "gps-cs-s/AC9h4nr0r_etXvnIW54u2fy_yEKFfLjinOatVycqfkU4snrvtbInmxIA_mY_RdWphxfiG25h_XZElauWFX-g0z5P1pYfXyGLEzT8mGdxQ5p_KM9bkcljNhew_ZhtQJNX0FUWgtXeLJCiIg"
+                ]
             }
         },
         {
@@ -215,7 +255,10 @@
             },
             "properties": {
                 "title": "アル ラーマ - 水上モスク",
-                "description": "満潮時には紅海の波の上に浮かんでいるように見える「フローティング モスク」"
+                "description": "満潮時には紅海の波の上に浮かんでいるように見える「フローティング モスク」",
+                "google": [
+                    "gps-cs-s/AC9h4npswTgrjO_PuAUB9UFJ_MQ8IuHbo0BMHC6t7t0NgoMv8l63SWAngfNMHBES2LKyD3N2nWxf1_Rh2ULIM9E3n1czhbM0GEKTUSHsECdRZMyLZm2tX2Fd1baNYWyymeHGXJwb55Nb"
+                ]
             }
         },
         {
@@ -230,7 +273,10 @@
             },
             "properties": {
                 "title": "預言者のモスク",
-                "description": "イスラム教の第2の聖地。預言者ムハンマドの霊廟"
+                "description": "イスラム教の第2の聖地。預言者ムハンマドの霊廟",
+                "google": [
+                    "gps-cs-s/AC9h4nrg5c4dq1nV7l8t5hxwfiYbYe2Zl8CZbVflJzdd1jp0wIXCTJCcUyKx93K3DJuqrP2N8L86MuQjtTTChGYOp1xz7T3S2vhESiygJmipbNXC84CK84MEVwSrjCfBmqugV-zrByJc"
+                ]
             }
         },
         {
@@ -245,7 +291,10 @@
             },
             "properties": {
                 "title": "ジャンナトゥル・バキー墓地",
-                "description": "イスラーム世界最古かつ最も有名な墓地"
+                "description": "イスラーム世界最古かつ最も有名な墓地",
+                "google": [
+                    "gps-cs-s/AC9h4no9fMKvu2jEbd-lsFvSLoj4kuzRxJ_p1lIHEcqvYZyu5mLk4yVzk9Q6PqsvD-BwC1Y-N4vbZ7WMQM928KUX9yRYYqCZssYBXZaEEGMg6F-pJ6BEgIxf8sXADT75Ssfgfz8__XazRw"
+                ]
             }
         },
         {
@@ -260,7 +309,10 @@
             },
             "properties": {
                 "title": "クバー・モスク",
-                "description": "イスラムにおいて初めてつくられたイスラム教の礼拝堂・モスクのひとつ"
+                "description": "イスラムにおいて初めてつくられたイスラム教の礼拝堂・モスクのひとつ",
+                "google": [
+                    "gps-cs-s/AC9h4nqzv0a74T9wHIV0FvrCd_NlFzK5KoiglhzbsVIvmLJkZqMIcqXH-gBUzcfvTXex3LunqE5Eor8Y_wgGL1Lq2DeUbQ08CAOcOKe7k0By7JCvJwSRGsxgyEdXXmXKJfMKqF_EQNjH"
+                ]
             }
         },
         {
@@ -275,7 +327,10 @@
             },
             "properties": {
                 "title": "ハラマイン鉄道駅舎",
-                "description": "メッカとメディナを結ぶハラマイン高速鉄道の駅"
+                "description": "メッカとメディナを結ぶハラマイン高速鉄道の駅",
+                "google": [
+                    "gps-cs-s/AC9h4npBU17lxsWWyzHn9NBkXtYheQk9Yo884_lJ47r97AKk03Qb3CNbNiT3eYO5CzaOFLheAJEnltUdw4Nu_ILeUUNJANN_3LbOymWdaXFWLi5mhIcjgsjZjZFZ4HPNiIt-AZiJxmfY"
+                ]
             }
         },
         {
@@ -290,7 +345,10 @@
             },
             "properties": {
                 "title": "ウフド山",
-                "description": "イスラーム最大の戦いの一つであるウフドの戦いが行われた史跡"
+                "description": "イスラーム最大の戦いの一つであるウフドの戦いが行われた史跡",
+                "google": [
+                    "gps-cs-s/AC9h4nr44u_d156XiIUpGH7LNvikdiwdHGkc_ifiDgjfxQeJSkWg4mRKC2RKxOAXnUC6UUz_DahXNrjoBm1IaZfubIybTbgXyQsrkGWBqWwdVgoS9GnVLa_dyOgdDF7Y3nQ-l4DGTdpb"
+                ]
             }
         },
         {
@@ -305,7 +363,10 @@
             },
             "properties": {
                 "title": "ヒジャーズ鉄道博物館",
-                "description": "イスラム以前の時代から現在に至るまでのイスラムの歴史を紹介する歴史的施設"
+                "description": "イスラム以前の時代から現在に至るまでのイスラムの歴史を紹介する歴史的施設",
+                "google": [
+                    "p/AF1QipNcdmvI1pEX6YToHWO4tmEfcEvpqHoJ_8U4hXt1"
+                ]
             }
         },
         {
@@ -320,7 +381,10 @@
             },
             "properties": {
                 "title": "ウルワ・ビン・アル・ズバイル宮殿 (قصر عروة بن الزبير)",
-                "description": "アル＝アキック渓谷の端に建てられた歴史的な宮殿"
+                "description": "アル＝アキック渓谷の端に建てられた歴史的な宮殿",
+                "google": [
+                    "p/AF1QipP21ILip_m-36I2OFXh50Fhy6fstPktLrOSYCgC"
+                ]
             }
         },
         {
@@ -334,8 +398,11 @@
                 "address": "2466 الوادي المبارك マディーナ マディーナ州 サウジアラビア"
             },
             "properties": {
-                "title": "ミーカート・ドゥ・アル・フライファ",
-                "description": "マスジッド・ドゥ・アル・フライファとしても知られるアル＝ミカト・モスク"
+                "title": "Dhul Hulaifah Miqat Mosque",
+                "description": "マスジッド・ドゥ・アル・フライファとしても知られるアル＝ミカト・モスク",
+                "google": [
+                    "gps-cs-s/AC9h4nrS2zk8kVU0MVDedw6_8o8aYOBkZfjhhFFrDI4G9kOlgmf1BBH0YEMAcs8lgHIeQiJOLm--9yZ6p8kcJnepKkz5u4FApsrDPBQefWiEVYaAVqtrghlrn13_PEKvwUnr0zXQrIyu0w"
+                ]
             }
         },
         {
@@ -350,7 +417,10 @@
             },
             "properties": {
                 "title": "AlUla Old Town | بلدة العلا القديمة",
-                "description": "石や日干しレンガでできた伝統的な住居からなる古代都市"
+                "description": "石や日干しレンガでできた伝統的な住居からなる古代都市",
+                "google": [
+                    "p/AF1QipPwdI4WRAjc-uaHmuNEOq3lXqP9ULk8xFHVOlEi"
+                ]
             }
         },
         {
@@ -365,7 +435,10 @@
             },
             "properties": {
                 "title": "アル＝ヒジュル / マダイン・サーレハ",
-                "description": "アル＝ヒジュル（Al-Hijr, 「岩だらけの場所」）と呼ばれるサウジアラビア初の世界遺産"
+                "description": "アル＝ヒジュル（Al-Hijr, 「岩だらけの場所」）と呼ばれるサウジアラビア初の世界遺産",
+                "google": [
+                    "gps-cs-s/AC9h4npnbibGLl9VTEFLQBYg98Vi9faDmCoblwbtUFFOfjtbRqNcE6ZvcKlhICgKcHzlGByOE1U-iHHgtCYjCC-wPKkMbE68R0S6UmWZ_9Vy_xqOwqCBH6LE7rKfuSYJy69a692ovAKwdQ"
+                ]
             }
         },
         {
@@ -380,7 +453,10 @@
             },
             "properties": {
                 "title": "ジャバル・アル・フィル（Jabal Al Fil）",
-                "description": "岩層、峡谷、断崖など、自然が作り出した野外博物館"
+                "description": "岩層、峡谷、断崖など、自然が作り出した野外博物館",
+                "google": [
+                    "gps-cs-s/AC9h4norh1DUfNfnv97jfMRYprIb45iQzM0Pe4VRKzVHm5CR4PZfvPK9mQU2zvzu2sInAjy-w6cFawscnpkuchSk0QN7_2frC2p1iVhpwwgNTUCS38Wc4XSBsChb06D1bSoTcU4Ocj5W"
+                ]
             }
         },
         {
@@ -395,7 +471,10 @@
             },
             "properties": {
                 "title": "Maraya | قاعة مرايا",
-                "description": "世界最大の鏡張りの建物マラヤ・コンサートホール"
+                "description": "世界最大の鏡張りの建物マラヤ・コンサートホール",
+                "google": [
+                    "p/AF1QipOcpRKGLpTSG1gHW7208I9Y4XIUvWC9yxCdi5Zh"
+                ]
             }
         }
     ]

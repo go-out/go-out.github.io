@@ -1,198 +1,131 @@
-html {
-    font-size: 16px;
-    height: -webkit-fill-available;
+main section,
+main details div,
+aside p {
+    margin: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-h1 strong,
-h2 b,
-#index h2 strong,
-main button {
-    font-family: "Kristina", "KikaiChokoku", 'Arial Narrow', sans-serif;
-    font-weight: 900;
-}
-
-h2 u,
-h3,
-summary {
-    font-family: 'DiaPro', 'KikaiChokoku', sans-serif;
-}
-
-h1,
-h2 b,
-h3 b {
-    font-size: 150%;
+main section,
+main details div,
+aside p,
+#index #howto {
+    padding: 0.5rem;
 }
 
 h2,
-h3,
-h3 u {
-    font-size: 125%;
-}
-
-h1 button,
-dialog input[type="button"] {
-    font-size: 100%;
-}
-
-body {
+h3 {
     padding: 0;
-    margin: 0;
-}
-
-h1 {
     margin: 0.5rem 0;
 }
 
-details summary,
-details h2,
-details h3,
-details p,
-#index form,
-#index aside {
-    padding: 0.5rem;
-    margin: 0;
+#index article {
+    margin: 0.5rem;
 }
 
-button,
-input[type="button"],
-input[type="submit"] {
-    appearance: none;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-family: inherit;
-    pointer-events: auto;
-    user-select: auto;
+main h1 button,
+#index #howto,
+aside p a {
+    background: #fff;
+    color: #000;
 }
 
-button:hover,
-.mapboxgl-marker.goout:hover {
-    cursor: pointer;
+main h1 button {
+    border: solid 0.1rem;
 }
 
-.mapboxgl-marker.goout {
-    border: solid 0.123rem;
+main h1 button {
+    border-radius: 50%;
+    padding: 0.5rem 1rem 0.25rem;
 }
 
-details a,
-#index a {
-    color: #111;
+#howto {
+    border-radius: 0.5rem;
 }
 
-h1 strong,
-section h2 u,
-#index h2 strong,
-dialog a,
-.mapboxgl-marker.goout {
+main h1 strong,
+main section {
+    pointer-events: none;
+    user-select: none;
+}
+
+main details,
+aside {
+    font-family: 'KikaiChokoku', sans-serif;
+}
+
+main h1 strong,
+#index h2 strong {
+    display: inline-block;
+    transform: scale(1, 3.21);
+}
+
+main h1 strong {
+    font-size: 400%;
+    line-height: 70%;
+    margin: 3.21rem 0;
+}
+
+main details summary code {
+    font-size: 75%;
+}
+
+main #enter {
     color: lightskyblue;
+    font-size: 150%;
 }
 
-h2 b,
-h3 b,
-#modal h3,
-details summary,
-.mapboxgl-marker.goout:hover {
-    color: lemonchiffon;
+main {
+    position: relative;
 }
 
-h3 b,
-details summary,
-.mapboxgl-marker.goout:hover {
-    background: lightskyblue;
+main h1,
+main section {
+    position: absolute;
 }
 
-body,
-h2 u,
-.mapboxgl-marker.goout {
-    background: lemonchiffon;
+main h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
 }
 
-h3 u,
-dialog a,
-details a,
-#index a {
-    text-decoration: underline wavy lightskyblue;
+main section {
+    z-index: 5;
 }
 
-h2 b,
-#modal h3 {
-    text-shadow:
-        0.1rem 0.1rem 0.1rem lightskyblue,
-        0.2rem 0.2rem 0.2rem lightskyblue,
-        0.3rem 0.3rem 0.3rem lightskyblue;
+main[hidden],
+main h1[hidden] {
+    display: none;
 }
 
-.mapboxgl-marker {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+main h1 {
+    display: grid;
+    place-items: center;
 }
 
-.mapboxgl-marker.goout {
-    border-radius: 50%;
-    width: 1.11rem;
-    height: 1.11rem;
+main {
+    display: flex;
+    flex-flow: column;
+    place-content: space-between;
 }
 
-.mapboxgl-marker.goout:hover {
-    width: 1.23rem;
-    height: 1.23rem;
+main details {
+    place-self: center end;
 }
 
-dialog hr {
-    clear: both;
-    border: none;
+#map,
+main details {
     width: 100%;
 }
 
-#index hr {
-    border: none;
-    border-bottom: 0.2rem dotted lightskyblue;
-    margin: 0.5rem 0;
+main#mapbox {
+    height: 100svh;
 }
 
-dialog input[type="button"] {
-    float: right;
+main#index {
+    min-height: 100svh;
 }
 
-header {
-    position: fixed;
-}
-
-header {
-    top: 0.5rem;
-    right: 0.5rem;
-}
-
-header {
-    z-index: 10;
-}
-
-header button {
-    background: url('./collection/mobile.png') no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-}
-
-#map {
-    width: 100%;
-    height: 100%;
-}
-
-@media (orientation: portrait) {
-    html {
-        font-size: 2.5vw;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    html {
-        font-size: 3.5vw;
-    }
+main section {
+    max-width: calc(100% - 5rem);
 }

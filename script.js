@@ -7,19 +7,21 @@ const h1 = document.querySelector("main h1"),
     closeButton = document.querySelector('#modal button');
 
 if (localStorage.getItem("mapJSON")) {
-    listItems();
-    for (let i = 0; i < yourJson.length; i++) {
-        addMarker(yourJson[i]);
-        if (i == yourJson.length - 1) {
-            map.flyTo({
-                center: [Number(yourJson[i].geometry.coordinates[0]), Number(yourJson[i].geometry.coordinates[1])],
-                essential: true,
-                zoom: 10
-            })
+    if (yourJson.length > 0) {
+        h1.hidden = true;
+        h3.hidden = true;
+        for (let i = 0; i < yourJson.length; i++) {
+            addMarker(yourJson[i]);
+            if (i == yourJson.length - 1) {
+                map.flyTo({
+                    center: [Number(yourJson[i].geometry.coordinates[0]), Number(yourJson[i].geometry.coordinates[1])],
+                    essential: true,
+                    zoom: 10
+                })
+            };
         };
+        listItems(yourJson);
     };
-    h1.hidden = true;
-    h3.hidden = true;
 } else {
     const p = document.createElement('p');
     p.textContent = "まだ投稿がありません";
@@ -45,9 +47,10 @@ closeButton.addEventListener('click', () => {
     modal.close();
 });
 
-const mapbox = document.querySelector("#mapbox");
-const index = document.querySelector("#index");
-function main() {
+function changeMenu() {
+    const mapbox = document.querySelector("#mapbox");
+    const article = document.querySelector("article");
+    const index = document.querySelector("#index");
     if (h1.hidden == false && h3.hidden == false) {
         h1.hidden = true;
         h3.hidden = true;
@@ -57,8 +60,10 @@ function main() {
     if (index.hidden == true) {
         index.hidden = false;
         mapbox.hidden = true;
+        article.hidden = true;
     } else if (index.hidden == false) {
         index.hidden = true;
         mapbox.hidden = false;
+        article.hidden = false;
     };
 };

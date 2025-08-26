@@ -1,0 +1,166 @@
+main,
+main section #links,
+#weather {
+    display: flex;
+}
+
+main section #links {
+    flex-flow: column;
+}
+
+#weather {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main section #notes,
+#weather {
+    font-family: 'KikaiChokoku', 'Zen Maru Gothic', sans-serif;
+}
+
+main section #links {
+    font-family: "Kristina", "KikaiChokoku", 'Zen Maru Gothic', sans-serif;
+    font-weight: 900;
+}
+
+main section #links u,
+#weather p u {
+    font-size: 90%;
+}
+
+main section #links a,
+details summary b {
+    font-size: 111%;
+}
+
+details summary {
+    font-size: 125%;
+}
+
+footer button {
+    font-size: 150%;
+}
+
+main section #notes,
+main section #links a:hover {
+    background: #fff;
+}
+
+main section #links a,
+#weather strong,
+#weather marquee,
+footer button {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+#weather p u {
+    background: lightskyblue;
+    color: lemonchiffon;
+    text-decoration: none;
+}
+
+main section #notes,
+main section #links a:hover,
+section#mapbox #map {
+    border-radius: 0.5rem;
+}
+
+#weather p u {
+    border-radius: 0.25rem;
+}
+
+main h2 {
+    transform: scale(1, 1.5);
+    transform-origin: top center;
+    line-height: 150%;
+}
+
+main h3 {
+    transform: skew(0deg, -2.5deg);
+}
+
+main section,
+main section #notes p,
+main section #links a,
+main section #links u,
+#weather p,
+#weather marquee {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+#weather p u {
+    padding: 0.25rem;
+}
+
+#submit {
+    padding-top: 0.25rem;
+}
+
+details#index[open] {
+    padding-bottom: 0.25rem;
+}
+
+footer button {
+    padding: 0.5rem 0.5rem 0;
+}
+
+main section #links,
+#weather {
+    margin-top: 1rem;
+}
+
+details div {
+    margin: 0.25rem;
+}
+
+details summary b {
+    display: inline-block;
+    margin: 0.05rem 0.5rem;
+}
+
+#weather img {
+    width: 5rem;
+}
+
+footer button,
+#weather marquee {
+    width: 100%;
+}
+
+#search div {
+    max-width: 350px;
+}
+
+main {
+    position: relative;
+}
+
+@media (orientation: portrait) {
+    main {
+        flex-flow: column;
+    }
+
+    main section#mapbox {
+        height: 123vw;
+        max-height: calc(100svh - 1rem);
+    }
+}
+
+@media (orientation: landscape) {
+    main {
+        flex-flow: row;
+    }
+
+    main section {
+        width: 50%;
+        min-height: calc(100dvh - 3rem);
+    }
+
+    main section#mapbox {
+        position: sticky;
+        top: 0;
+        height: calc(100dvh - 3rem);
+    }
+}
