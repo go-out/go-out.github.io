@@ -125,6 +125,14 @@
             });
         popupJSON("./mapbox/popup/index.json");
         markerJSON("./mapbox/marker/index.json");
+                map.on("contextmenu", (e) => {
+                    // ポップアップに投稿フォームを表示
+                    new mapboxgl.Popup({
+                        className: "goout"
+                    })
+                        .setLngLat([e.lngLat.lng, e.lngLat.lat])
+                        .setHTML(`${e.lngLat.lng}, ${e.lngLat.lat}`).addTo(map);
+                });
     </script>
     <script src="./script.js"></script>
 </body>
