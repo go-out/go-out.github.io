@@ -1,6 +1,5 @@
 "use strict"
 
-mapboxgl.accessToken = "pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ";
 let map, style = "mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17", center, bounds, zoom, spots = 0;
 
 const siki = [
