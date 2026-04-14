@@ -1,0 +1,283 @@
+{
+    "url": "date/?id=shishimai",
+    "date": null,
+    "cover": {
+        "title": [
+            "獅子舞",
+            "Shishi Mai"
+        ],
+        "description": "獅子頭をかぶって行なう舞",
+        "note": [
+            "舞獅（拼音: wǔshī）",
+            "繁体字：舞獅・簡体字：舞狮"
+        ],
+        "directory": "https://archive.org/download/",
+        "url": "toyonaka-chubu/toyonaka-chubu.thumbs/20241009/2040_000026.jpg"
+    },
+    "info": {
+        "markdown": "./shishimai/README.md",
+        "links": null
+    },
+    "events": [
+        {
+            "date": {
+                "month": 7,
+                "date": null
+            },
+            "title": [
+                "大例祭（夏祭り）",
+                "露天神社"
+            ],
+            "description": "Shishi and Danjiri Parade, Tsuyuno Tenjinsha",
+            "note": [
+                "宵宮 午後六時頃から 役太鼓・舞獅子・地車ばやし",
+                "本宮 午前十時 舞獅子・傘踊り宮入 | 11:00〜22:00頃 役太鼓・舞獅子 町内巡行"
+            ],
+            "cover": null,
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 5,
+                "date": [
+                    3
+                ]
+            },
+            "title": [
+                "春大祭",
+                "泉殿宮"
+            ],
+            "description": "泉殿宮神楽獅子（かぐらしし）奉納",
+            "note": [
+                "May 3rd every year",
+                "毎年 五月三日 午後七時"
+            ],
+            "cover": null,
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 8,
+                "date": [
+                    3
+                ]
+            },
+            "title": [
+                "夏祭禮",
+                "泉殿宮"
+            ],
+            "description": "泉殿宮神楽獅子（かぐらしし）奉納",
+            "note": [
+                "August 3rd every year",
+                "毎年 八月三日 午後七時"
+            ],
+            "cover": null,
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": [
+                    9
+                ]
+            },
+            "title": [
+                "獅子祭（宵宮祭）",
+                "原田神社 秋季大祭"
+            ],
+            "description": "豊中市無形民俗文化財",
+            "note": [
+                "Octover 9th every year",
+                "毎年 十月九日 午後六時半"
+            ],
+            "cover": {
+                "directory": "https://archive.org/download/",
+                "url": [
+                    "osaka-toyono/osaka-toyono.thumbs/20241009/2040_000001.jpg"
+                ]
+            },
+            "info": {
+                "markdown": "../date/shishimai/osaka/toyonaka-harada.md",
+                "links": []
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": "第一土曜日"
+            },
+            "title": [
+                "獅子神事祭（宵宮祭）",
+                "熊野田 八坂神社 秋祭"
+            ],
+            "description": "豊中市無形民俗文化財",
+            "note": [
+                "First Sutuday of Octover every year",
+                "毎年 十月第一土曜日 午後六時頃"
+            ],
+            "cover": {
+                "directory": "https://archive.org/download/",
+                "url": [
+                    "osaka-toyono/osaka-toyono.thumbs/20241005/2100_000143.jpg"
+                ]
+            },
+            "info": {
+                "markdown": "../date/shishimai/osaka/toyonaka-yasaka.md",
+                "links": []
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": "第二金曜日"
+            },
+            "title": [
+                "西代神楽",
+                "西代神社"
+            ],
+            "description": "河内長野市指定無形重要文化財",
+            "note": [
+                "Second Friday of October every year",
+                "毎年 十月第二金曜日 午後七時"
+            ],
+            "cover": {
+                "directory": "https://archive.org/download/osaka-minami-kawachi/",
+                "url": [
+                    "osaka-minami-kawachi.thumbs/20241011/歌剣・吉野舞_000057.jpg"
+                ]
+            },
+            "info": {
+                "markdown": "../date/shishimai/osaka/nishindai.md",
+                "links": [
+                    {
+                        "text": "河内長野 かわちながの Kawachinagano, Osaka",
+                        "url": "../map/?id=osaka&area=kawachi-minami-nagano",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "市指定 西代神楽 - 河内長野市ホームページ",
+                        "url": "https://www.city.kawachinagano.lg.jp/site/history/5531.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "西代神楽の動画紹介 河内長野市観光協会 特設サイト",
+                        "url": "https://kankou-kawachinagano.jp/jpn/traditional/nishindaikagura.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "西代神社 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/西代神社",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": "第二土曜日"
+            },
+            "title": [
+                "六斎念仏獅子",
+                "高向神社"
+            ],
+            "description": "Hino Shishi-Mai, Tako Jinja",
+            "note": [
+                "Second Satuday of October every year",
+                "毎年 十月第二土曜日 午前十時"
+            ],
+            "cover": null,
+            "info": {
+                "markdown": "../date/shishimai/osaka/hino.md",
+                "links": [
+                    {
+                        "text": "河内長野 かわちながの Kawachinagano, Osaka",
+                        "url": "../map/?id=osaka&area=kawachi-minami-nagano",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": "第二土・日曜日"
+            },
+            "title": [
+                "山辺の獅子舞",
+                "Yamabe no Shishi-Mai"
+            ],
+            "description": "大阪府無形民俗文化財",
+            "note": [
+                "Second Satuday and Sunday of October every year",
+                "毎年 十月第二土・日曜日 午前九時から十二時半"
+            ],
+            "cover": null,
+            "info": {
+                "markdown": "../date/shishimai/osaka/yamabe.md",
+                "links": []
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": "第二日曜日"
+            },
+            "title": [
+                "野間出野の獅子舞",
+                "Nomasyutsuno no Shishi-Mai"
+            ],
+            "description": "大阪府無形民俗文化財",
+            "note": [
+                "Second Sunday of October every year",
+                "毎年 十月第二日曜日"
+            ],
+            "cover": null,
+            "info": {
+                "markdown": "../date/shishimai/osaka/nomasyutsuno.md",
+                "links": []
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": "第三日曜日"
+            },
+            "title": [
+                "諏訪神社の獅子舞",
+                "Suwa Shishi-Mai, Suwa Jinja"
+            ],
+            "description": "大阪市指定無形民俗文化財",
+            "note": [
+                "Third Satuday of October every year",
+                "毎年 十月第三日曜日 午後七時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/shishimai/osaka/suwa.md",
+                "links": [
+                    {
+                        "text": "城東区 Joto, Osaka City",
+                        "url": "../map/?id=osaka-city24&area=higashi&name=joto",
+                        "target": "_self"
+                    }
+                ]
+            }
+        }
+    ]
+}

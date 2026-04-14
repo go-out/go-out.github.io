@@ -1,0 +1,38 @@
+{
+    "url": "date/?id=kagura-2600",
+    "date": "しんぜんかぐら",
+    "cover": {
+        "title": [
+            "浦安の舞・悠久の舞",
+            "Urayasu and Yukyu no Mai"
+        ],
+        "note": [
+            "Sinzen Kagura",
+            "神前神楽"
+        ],
+        "directory": "https://archive.org/download/",
+        "url": "naniwa-kagura/naniwa-kagura.thumbs/urayasu-no-mai_000207.jpg"
+    },
+    "info": {
+        "index": "主な祭事",
+        "markdown": "./kagura/2600/README.md",
+        "links": [
+            {
+                "text": "浦安の舞 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/%E6%B5%A6%E5%AE%89%E3%81%AE%E8%88%9E",
+                "target": "_blank"
+            },
+            {
+                "text": "浦安の舞: 歌 舞 管 絃",
+                "url": "http://utamai.com/article/177107014.html",
+                "target": "_blank"
+            },
+            {
+                "text": "CD 神前神楽 浦安の舞・悠久の舞 | 武蔵野楽器",
+                "url": "https://musashino-gakki.com/product/?p=100183",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": null
+}

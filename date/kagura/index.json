@@ -1,0 +1,39 @@
+{
+    "url": "date/?id=kagura",
+    "date": null,
+    "cover": {
+        "title": [
+            "神楽",
+            "Kagura"
+        ],
+        "description": "神を楽しませる舞",
+        "note": [
+            "Japan's representative Shinto ritual performance",
+            "a performance involving music and/or dance (mai)"
+        ],
+        "directory": "https://archive.org/download/",
+        "url": "naniwa-kagura/naniwa-kagura.thumbs/urayasu-no-mai_000207.jpg"
+    },
+    "info": {
+        "index": null,
+        "markdown": "./kagura/README.md",
+        "links": [
+            {
+                "text": "神楽 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/神楽",
+                "target": "_blank"
+            },
+            {
+                "text": "神楽｜文化デジタルライブラリー",
+                "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc27/genre/kagura/index.html",
+                "target": "_blank"
+            },
+            {
+                "text": "一般社団法人 神社音楽協会",
+                "url": "http://www.jinjaongaku.or.jp/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": []
+}

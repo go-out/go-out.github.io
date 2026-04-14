@@ -8,27 +8,27 @@
 
     <title>Go Out | View the Collection</title>
     <meta content="JSONファイルを読み込み、コレクションを表示" name="description" />
-
     <link rel="icon" href="./icon/favicon.png" />
-    <link rel="icon" href="./icon/mobile.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="./icon/mobile.png" sizes="180x180" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./fonts/style.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/form.css" />
-    <link rel="stylesheet" href="./css/events.css">
-    <link rel="stylesheet" href="./css/list.css" />
-    <link rel="stylesheet" href="./css/spot.css" />
-    <link rel="stylesheet" href="./css/cover.css" />
+    <link rel="stylesheet" href="../collection/fonts/style.css" />
+    <link rel="stylesheet" href="../collection/css/style.css" />
+    <link rel="stylesheet" href="../collection/css/form.css" />
+    <link rel="stylesheet" href="../collection/css/events.css">
+    <link rel="stylesheet" href="../collection/css/list.css" />
+    <link rel="stylesheet" href="../collection/css/spot.css" />
+    <link rel="stylesheet" href="../collection/css/cover.css" />
     <link rel="stylesheet" href="../mapbox/index.css" />
 
     <!-- Mapbox -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+    <script>
+        mapboxgl.accessToken = "pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ";
+    </script>
 </head>
 
 <body>
@@ -126,18 +126,19 @@
                 </label>
             </fieldset>
         </article>
-        <details id="index">
+
+        <details id="index" hidden>
             <summary>コレクションを表示 | View the Collection</summary>
             <ul id="list"></ul>
             <div id="weather" hidden></div>
         </details>
     </footer>
 
-    <script src="../mapbox/marker/script.js"></script>
     <script src="../index.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/weather.js"></script>
-    <script src="./js/readJSON.js"></script>
+    <script src="../mapbox/marker/script.js"></script>
+    <script src="../collection/js/script.js"></script>
+    <script src="../collection/js/weather.js"></script>
+    <script src="../collection/js/readJSON.js"></script>
     <script>
         // collection/?id=ID&area=エリア&name=名前
         const params = new URLSearchParams(location.search);

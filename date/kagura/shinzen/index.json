@@ -1,0 +1,33 @@
+{
+    "url": "date/?id=kagura-shinzen",
+    "date": "しんぜんかぐら",
+    "cover": {
+        "title": [
+            "神前神楽",
+            "Shinzen Kagura"
+        ],
+        "description": "神社で奉奏される音楽",
+        "note": [
+            "神々に捧げる",
+            "神社音楽"
+        ],
+        "directory": "https://archive.org/download/",
+        "url": "naniwa-kagura/naniwa-kagura.thumbs/beniwarabe_000001.jpg"
+    },
+    "info": {
+        "markdown": "./kagura/shinzen/README.md",
+        "links": [
+            {
+                "text": "近代に作られた神楽 - Wikisource",
+                "url": "https://ja.wikisource.org/wiki/%E8%BF%91%E4%BB%A3%E3%81%AB%E4%BD%9C%E3%82%89%E3%82%8C%E3%81%9F%E7%A5%9E%E6%A5%BD",
+                "target": "_blank"
+            },
+            {
+                "text": "一般社団法人 神社音楽協会",
+                "url": "http://www.jinjaongaku.or.jp/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": null
+}

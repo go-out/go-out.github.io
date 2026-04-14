@@ -23,7 +23,7 @@ async function gateDate(target) {
     if (response.ok) {
         return response;
     } else {
-        throw new Error('The data could not be read');
+        throw new Error("The data could not be read");
     };
 };
 
@@ -74,7 +74,7 @@ function coverTitle(obj) {
     const thisDescription = document.querySelector("#cover h1 u");
     if (obj.description) {
         thisDescription.textContent = obj.description;
-        document.querySelector('meta[name="description"]').content = obj.description;
+        document.querySelector(`meta[name="description"]`).content = obj.description;
     } else {
         thisDescription.hidden = true;
     };
@@ -129,15 +129,15 @@ function readmeThis(info, obj) {
         document.querySelector("#readme section div").innerHTML = textAll;
     };
 
-    const links = document.querySelector('#links');
+    const links = document.querySelector("#links");
     links.innerHTML = "";
     if (info.links) {
         links.hidden = false;
         for (const eachLink of info.links) {
-            const a = document.createElement('a');
+            const a = document.createElement("a");
             a.href = eachLink.url;
             a.textContent = eachLink.text;
-            a.setAttribute('target', eachLink.target);
+            a.setAttribute("target", eachLink.target);
             links.appendChild(a);
         };
     } else {
@@ -147,7 +147,7 @@ function readmeThis(info, obj) {
 
 async function createMenu(json, obj) {
     // 更新日時を取得
-    const latestUpdate = document.querySelector("#cover header input[type='button']");
+    const latestUpdate = document.querySelector(`#cover header input[type="button"]`);
     if (!obj.date) {
         //　データを非同期で取得
         const modified = getModified(await gateDate(json));
@@ -160,8 +160,20 @@ async function createMenu(json, obj) {
     readmeH3.addEventListener("click", (e) => {
         e.preventDefault();
         createCover(obj);
+
+        if (obj.cover.url) {
+            if (obj.cover.directory) {
+                directory = obj.cover.directory;
+            } else {
+                directory = "https://lh3.googleusercontent.com/";
+            };
+            cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]})`;
+        } else {
+            cover.style.backgroundImage = null;
+        };
+
         if (obj.info) {
-            readmeThis(obj.info, obj);
+            readmeThis(obj.info, obj.cover);
         };
         document.querySelector("#cover").scrollIntoView({
             top: 0,
@@ -242,6 +254,16 @@ async function createMenu(json, obj) {
                     }, false);
                 } else {
                     createCover(obj);
+                    if (obj.cover.url) {
+                        if (obj.cover.directory) {
+                            directory = obj.cover.directory;
+                        } else {
+                            directory = "https://lh3.googleusercontent.com/";
+                        };
+                        cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]})`;
+                    } else {
+                        cover.style.backgroundImage = null;
+                    };
                     document.querySelector("#readme section").scrollIntoView({
                         top: 0,
                         behavior: "smooth"
@@ -255,7 +277,7 @@ async function createMenu(json, obj) {
         };
     };
 
-    const scrollIndex = document.querySelector("#cover header input[type='button']");
+    const scrollIndex = document.querySelector(`#cover header input[type="button"]`);
     scrollIndex.addEventListener("click", (e) => {
         e.preventDefault();
         document.querySelector("#readme").scrollIntoView({

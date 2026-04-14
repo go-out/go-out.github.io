@@ -1,0 +1,564 @@
+{
+    "url": "date/?id=dengaku",
+    "date": null,
+    "cover": {
+        "title": [
+            "田楽",
+            "Dengaku"
+        ],
+        "description": "田の豊作を祈念する楽と躍り",
+        "note": [
+            "田植神事",
+            "たうえしんじ"
+        ],
+        "directory": "https://archive.org/download/",
+        "url": [
+            "sumiyoshitaisha/sumiyoshitaisha.thumbs/20240614/003_000687.jpg"
+        ]
+    },
+    "info": {
+        "index": null,
+        "note": null,
+        "markdown": "../date/dengaku/README.md",
+        "links": [
+            {
+                "text": "田楽 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/田楽",
+                "target": "_blank"
+            },
+            {
+                "text": "御田植祭 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/御田植祭",
+                "target": "_blank"
+            },
+            {
+                "text": "田植踊 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/田植踊",
+                "target": "_blank"
+            },
+            {
+                "text": "田遊び - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/田遊び",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": [
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    6
+                ]
+            },
+            "title": [
+                "おんだ祭 豊年講大祭",
+                "大神神社"
+            ],
+            "description": "春の初めに五穀の豊穣を予祝する祭典",
+            "note": [
+                "February 6th every year",
+                "毎年 二月六日 午前十時半"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/nara/oomiwa.md",
+                "links": [
+                    {
+                        "text": "三輪山（御諸山） Miwa, Nara",
+                        "url": "../map/?id=kinai&area=nara-miwa",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    10
+                ]
+            },
+            "title": [
+                "御田植祭",
+                "大和神社"
+            ],
+            "description": "おんだ祭、「田植歌」奉納",
+            "note": [
+                "February 10th every year",
+                "毎年 二月十日 午後二時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/nara/ooyamato.md",
+                "links": [
+                    {
+                        "text": "天理 Tenri, Nara",
+                        "url": "../map/?id=kinai&area=nara-tenri",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    11
+                ]
+            },
+            "title": [
+                "御田植祭（砂かけ祭）",
+                "広瀬神社"
+            ],
+            "description": "Sunakake Matsuri, Hirose Jinja",
+            "note": [
+                "Februry 11th every year",
+                "毎年 二月十一日 午前十一時／午後二時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/nara/hirose.md",
+                "links": [
+                    {
+                        "text": "法隆寺 Horyuji, Nara",
+                        "url": "../map/?id=kinai&area=nara&name=horyuji",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "廣瀬大社-砂かけ祭",
+                        "url": "https://hirosetaisya.p-kit.com/page0009.html",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    11
+                ]
+            },
+            "title": [
+                "子出来おんだ祭",
+                "六縣神社"
+            ],
+            "description": "奈良県指定無形民俗文化財",
+            "note": [
+                "Februry 11th every year",
+                "毎年 二月十一日 午後六時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/nara/mutsuagata.md",
+                "links": [
+                    {
+                        "text": "法隆寺 Horyuji, Nara",
+                        "url": "../map/?id=kinai&area=nara&name=horyuji",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    11
+                ]
+            },
+            "title": [
+                "杉野原の御田舞",
+                "雨錫寺阿弥陀堂"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "note": [
+                "Februry 11th every year",
+                "毎年 二月十一日 午後一時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/wakayama/suginohara.md",
+                "links": [
+                    {
+                        "text": "杉野原の御田舞 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/杉野原の御田舞",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    15
+                ]
+            },
+            "title": [
+                "水海の田楽・能舞",
+                "鵜甘神社"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "note": [
+                "February 15th every year",
+                "毎年 二月十五日 午後一時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/mizuumi.md",
+                "links": [
+                    {
+                        "text": "水海の田楽・能舞 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/水海の田楽・能舞",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 3,
+                "date": [
+                    15
+                ]
+            },
+            "title": [
+                "御田植神事",
+                "春日大社"
+            ],
+            "description": "Otaue Shinji, Kasuga Taisha",
+            "note": [
+                "March 15th every year",
+                "毎年 三月十五日 午前十一時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/nara/kasuga.md",
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 4,
+                "date": [
+                    13
+                ]
+            },
+            "title": [
+                "御田植祭",
+                "香取神宮"
+            ],
+            "description": "三大御田植祭",
+            "note": [
+                "First Sunday of April every year",
+                "毎年 四月第一土・日曜日 午後一時から"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/dengaku/katori.md",
+                "links": [
+                    {
+                        "text": "香取神宮御田植祭 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/香取神宮御田植祭",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 4,
+                "date": [
+                    13
+                ]
+            },
+            "title": [
+                "御田植神事",
+                "杭全神社"
+            ],
+            "description": "大阪府指定無形民俗文化財",
+            "note": [
+                "April 13th every",
+                "毎年 四月十三日 午後七時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/osaka/kumata.md",
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 5,
+                "date": [
+                    3
+                ]
+            },
+            "title": [
+                "田原の御田",
+                "多治神社"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "note": [
+                "May 3rd every year",
+                "毎年 五月三日 午前十一時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/tawara.md",
+                "links": [
+                    {
+                        "text": "田原の御田 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/田原の御田",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 6,
+                "date": [
+                    14
+                ]
+            },
+            "title": [
+                "御田植神事",
+                "住吉大社（御田）"
+            ],
+            "description": "三大御田植祭",
+            "note": [
+                "July 14th every year",
+                "毎年 六月十四日 午後一時"
+            ],
+            "cover": {
+                "directory": "https://archive.org/download/",
+                "url": [
+                    "sumiyoshitaisha/sumiyoshitaisha.thumbs/20240614/003_000687.jpg"
+                ]
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/osaka/sumiyoshi/README.md",
+                "links": [
+                    {
+                        "text": "住吉津（墨江津） Sumiyoshi, Osaka City",
+                        "url": "../map/?id=osaka-city24&area=sumiyoshi",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "御田植神事 | 特別な祭 | 祭りと年中行事",
+                        "url": "https://www.sumiyoshitaisha.net/events/special.html#anchor01",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "Sumiyoshi Taisha | Rituals and Ceremonies",
+                        "url": "https://www.sumiyoshitaisha.net/en/rituals.html",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "Otaue Shinji (Sacred Rice Planting)",
+                        "url": "https://www.mlit.go.jp/tagengo-db/en/R3-00160.html",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 6,
+                "date": [
+                    24
+                ]
+            },
+            "title": [
+                "磯部の御神田",
+                "伊雑宮（内宮別宮）"
+            ],
+            "description": "三大御田植祭・国の重要無形民俗文化財",
+            "note": [
+                "June 24th every year",
+                "毎年 六月二十四日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/dengaku/isobe.md",
+                "links": [
+                    {
+                        "text": "神宮（伊勢・元伊勢） Gingu",
+                        "url": "../map/?id=toukai&area=ise",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "磯部の御神田 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/磯部の御神田",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 7,
+                "date": [
+                    14
+                ]
+            },
+            "title": [
+                "扇祭（那智の火祭）",
+                "熊野那智大社"
+            ],
+            "note": [
+                "July 14th every year",
+                "毎年 七月十四日"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "info": {
+                "markdown": "../map/nankai/kii/kumano/0714.md",
+                "links": [
+                    {
+                        "text": "熊野那智大社（那智山） Kumano Nachi, Wakayama",
+                        "url": "../map/?id=nankai&area=kii-kumano&name=nachi",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "扇祭 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/扇祭",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "那智の田楽 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/那智の田楽",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": [
+                    17
+                ]
+            },
+            "title": [
+                "宝之市神事",
+                "住吉大社"
+            ],
+            "description": "日本最初の市「升の市」",
+            "note": [
+                "October 17th every year start at 10am",
+                "毎年 十月十七日 午前十時"
+            ],
+            "info": {
+                "markdown": "../date/dengaku/osaka/sumiyoshi/README.md",
+                "links": [
+                    {
+                        "text": "升の市とは - 住吉っさん",
+                        "url": "https://sumi08nk.sakura.ne.jp/",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": "中旬"
+            },
+            "title": [
+                "田原のカッコスリ",
+                "多治神社"
+            ],
+            "description": "京都府指定無形民俗文化財",
+            "note": [
+                " Sunday of Mid-October every year",
+                "例年 十月十五日に近い日曜日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/tawara.md",
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "year": "奇数",
+                "month": 2,
+                "date": null
+            },
+            "title": [
+                "花園の御田舞",
+                "遍照寺大日堂"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "note": [
+                "Around February each year",
+                "西暦奇数年 旧暦一月八日に近い日曜"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": "../date/dengaku/wakayama/hanazono.md",
+                "links": [
+                    {
+                        "text": "花園の御田舞 - Wikipedia",
+                        "url": "https://ja.wikipedia.org/wiki/花園の御田舞",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        }
+    ]
+}

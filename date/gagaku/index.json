@@ -1,0 +1,76 @@
+{
+    "url": "date/?id=gagaku",
+    "date": null,
+    "cover": {
+        "title": [
+            "雅楽",
+            "Gagaku"
+        ],
+        "description": "日本古来の儀式音楽・舞踊",
+        "note": [
+            "Japanese Imperial Court Music and Dance",
+            "雅正の音楽と舞踊"
+        ],
+        "directory": "https://archive.org/download/",
+        "url": [
+            "sumiyoshitaisha/sumiyoshitaisha.thumbs/20240503/004_000233.jpg"
+        ]
+    },
+    "info": {
+        "index": "雅楽 Gagaku",
+        "note": null,
+        "markdown": "./gagaku/README.md",
+        "links": [
+            {
+                "text": "雅楽 - 宮内庁",
+                "url": "https://www.kunaicho.go.jp/culture/gagaku/gagaku.html",
+                "target": "_blank"
+            },
+            {
+                "text": "雅楽 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/雅楽",
+                "target": "_blank"
+            },
+            {
+                "text": "雅楽 GAGAKU | 文化デジタルライブラリー",
+                "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc22/index.html",
+                "target": "_blank"
+            },
+            {
+                "text": "「雅楽」ホームページ",
+                "url": "https://www.gagaku.net/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": [
+        {
+            "title": [
+                "雅亮会",
+                "Garyokai, Tennoji Gakuso"
+            ],
+            "description": "天王寺楽所",
+            "note": [
+                "November 3rd from 12:00 every year",
+                "毎年 十一月三日 正午から"
+            ],
+            "cover": {
+                "directory": "https://archive.org/download/",
+                "url": [
+                    "shitennouji/shitennouji.thumbs/20241022/1420_000267.jpg",
+                    "sumiyoshitaisha/sumiyoshitaisha.thumbs/20240503/003_000029.jpg"
+                ]
+            },
+            "info": {
+                "markdown": "../date/gagaku/tennoji/README.md",
+                "links": [
+                    {
+                        "text": "天王寺楽所 雅亮会 Tennoji Garyokai Gakuso",
+                        "url": "../date/?id=gagaku-tennoji",
+                        "target": "_self"
+                    }
+                ]
+            }
+        }
+    ]
+}

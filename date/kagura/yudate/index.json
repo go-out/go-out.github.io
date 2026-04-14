@@ -1,0 +1,238 @@
+{
+    "url": "date/?id=kagura-yudate",
+    "date": "ゆたてかぐら",
+    "cover": {
+        "title": [
+            "湯立神楽",
+            "Yudate Kagura"
+        ],
+        "description": "「湯立て」の神事と神楽の融合",
+        "note": [
+            "日本の伝統的な神楽の形式のひとつ",
+            "神前で沸かした湯で人々や場を払い清める"
+        ],
+        "directory": "https://archive.org/download/",
+        "url": [
+            "tenjinnomori/tenjinnomori.thumbs/20241025/1130_000444.jpg"
+        ]
+    },
+    "info": {
+        "markdown": "./kagura/yudate/README.md",
+        "links": [
+            {
+                "text": "湯立神楽 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/湯立神楽",
+                "target": "_blank"
+            },
+            {
+                "text": "湯立神楽｜文化デジタルライブラリー",
+                "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc27/genre/kagura/yutatekagura/index.html",
+                "target": "_blank"
+            },
+            {
+                "text": "浪速神楽 Naniwa Kagura",
+                "url": "../date/?id=kagura-naniwa",
+                "target": "_self"
+            }
+        ]
+    },
+    "events": [
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    5
+                ]
+            },
+            "title": [
+                "松囃神事",
+                "天河大辨財天社"
+            ],
+            "description": "Yudate Kagura ⛩️ Tenkawa Jinja",
+            "note": [
+                "January 5th 10am",
+                "毎年 一月五日"
+            ],
+            "cover": null,
+            "google": null,
+            "readme": {
+                "index": null,
+                "text": [
+                    "湯立神楽・三番叟奉納"
+                ],
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    20
+                ]
+            },
+            "title": [
+                "湯立神事",
+                "城南宮"
+            ],
+            "description": "Yudate Kagura ⛩️ Jonangu",
+            "note": [
+                "January 20th 3pm",
+                "毎年 一月二十日"
+            ],
+            "cover": null,
+            "google": null,
+            "readme": {
+                "index": null,
+                "text": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    7
+                ]
+            },
+            "title": [
+                "三輪の初えびす",
+                "三輪坐恵比須神社"
+            ],
+            "description": "Miwa-Ebisu Festival ⛩️ Miwa-Ebisu Jinja",
+            "note": [
+                "February 7th 2pm",
+                "毎年 二月七日"
+            ],
+            "cover": null,
+            "google": null,
+            "readme": {
+                "index": null,
+                "text": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": [
+                    25
+                ]
+            },
+            "title": [
+                "初湯式",
+                "八瀬天満宮社"
+            ],
+            "description": "Yudate Kagura ⛩️ Yase-temmangusya",
+            "note": [
+                "February 25th 10am",
+                "毎年 二月二十五日"
+            ],
+            "cover": null,
+            "google": null,
+            "readme": {
+                "index": null,
+                "text": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 7,
+                "date": [
+                    28
+                ]
+            },
+            "title": [
+                "みたらし祭り",
+                "唐崎神社（日吉大社摂社）"
+            ],
+            "description": "Mitarashi Matsuri ⛩️ Hiyoshi Taisha",
+            "note": [
+                "July 28th 11am/7pm",
+                "毎年 七月二十八日"
+            ],
+            "cover": null,
+            "google": null,
+            "readme": {
+                "index": null,
+                "text": [
+                    "11:00/19:00 湯立神楽奉納"
+                ],
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 9,
+                "date": null
+            },
+            "title": [
+                "晴明祭（宵宮祭）",
+                "晴明神社 京都"
+            ],
+            "description": "Seimei sai ⛩️ Seimei Jinja",
+            "note": [
+                "Around September 7pm",
+                "毎年 秋分日前夜"
+            ]
+        },
+        {
+            "date": {
+                "month": 10,
+                "date": null
+            },
+            "title": [
+                "秋元祭",
+                "秋元神社（八瀬天満宮摂社）"
+            ],
+            "description": "Akimoto sai ⛩️ Yase-temmangusya",
+            "note": [
+                "Around October 10am",
+                "毎年 体育の日の前日"
+            ],
+            "cover": null,
+            "google": null,
+            "readme": {
+                "index": null,
+                "text": [
+                    "10:00 お湯式",
+                    "20：00 赦免地踊り"
+                ],
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 12,
+                "date": [
+                    8
+                ]
+            },
+            "title": [
+                "御火焚祭",
+                "楠本稲荷神社（湊川神社摂社）"
+            ],
+            "description": "Ohitaki-sai ⛩️ Minatogawa Jinja",
+            "note": [
+                "December 8th 11am",
+                "十二月八日"
+            ],
+            "cover": null,
+            "google": null,
+            "readme": {
+                "index": null,
+                "text": [
+                    "11:00 祭典（終了後に湯立など浪速神楽奉納）"
+                ],
+                "markdown": null,
+                "links": null
+            }
+        }
+    ]
+}

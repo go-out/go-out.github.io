@@ -1,0 +1,159 @@
+{
+    "url": "date/?id=oneri",
+    "date": null,
+    "cover": {
+        "title": [
+            "練供養",
+            "Oneri"
+        ],
+        "description": "",
+        "note": [
+            "",
+            ""
+        ],
+        "directory": "",
+        "url": ""
+    },
+    "info": {
+        "index": null,
+        "markdown": null,
+        "links": null
+    },
+    "events": [
+        {
+            "date": {
+                "month": 4,
+                "date": [
+                    14
+                ]
+            },
+            "title": [
+                "聖衆来迎練供養会式",
+                "Shoujyo Raigou Neri-kuyou"
+            ],
+            "description": "當麻寺 👹 Taima-dera",
+            "note": [
+                "April 14th every year at 4pm",
+                "四月十四日午後四時から"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/oneri/taimadera.md",
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 4,
+                "date": null
+            },
+            "title": [
+                "大般若会",
+                "Dai Hannya-e"
+            ],
+            "description": "常光寺 👹 八尾地蔵お練供養",
+            "note": [
+                "Last Sunday of April",
+                "四月最終日曜日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/oneri/jyokouji.md",
+                "links": [
+                    {
+                        "text": "令和六年 大般若会 常光寺 👹 Jyokouji Daihannya-e 🇯🇵 Yao Osaka, Japan - YouTube",
+                        "url": "https://youtu.be/DuqJJv4XA6I",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "大般若経 The Daihannya-kyō (Mahāprajñāpāramitā sūtra) - YouTube",
+                        "url": "https://youtu.be/ypTaXOdoZB8",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 5,
+                "date": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "title": [
+                "二十五菩薩聖聚来迎阿弥陀経万部法要"
+            ],
+            "description": "大阪市指定無形民俗文化財",
+            "note": [
+                "Manbu Oneri",
+                "万部おねり"
+            ],
+            "cover": {
+                "directory": "https://archive.org/download/",
+                "url": [
+                    "osaka-hirano/osaka-hirano.thumbs/20240502/003_000117.jpg"
+                ]
+            },
+            "info": {
+                "markdown": "../date/oneri/dainenbutsuji.md",
+                "links": [
+                    {
+                        "text": "万部おねりとは",
+                        "url": "https://www.dainenbutsuji.com/oneri/oneri_about/",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "二十五菩薩について",
+                        "url": "https://www.dainenbutsuji.com/oneri/nijugobosatsu/",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "大阪市：二十五菩薩聖聚来迎阿弥陀経万部法要",
+                        "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008851.html",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "令和六年 阿弥陀経万部読誦聖聚来迎会（二日目） 🇯🇵 万部おねり Manbu Oneri 🪷 大念佛寺 Dainenbutsuji - YouTube",
+                        "url": "https://youtu.be/noYOXSQ_bbA",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 5,
+                "date": [
+                    3
+                ]
+            },
+            "title": [
+                "久米レンゾ",
+                "久米会式"
+            ],
+            "description": "久米寺 👹 練供養",
+            "note": [
+                "May 3rd every year at 4pm",
+                "四月十四日午後四時から"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/oneri/kumedera.md",
+                "links": null
+            }
+        }
+    ]
+}

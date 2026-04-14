@@ -5,47 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="format-detection" content="telephone=no" />
+
     <title>Go Out | 行ったことのない場所へ行く</title>
     <meta content="知っていることの 外へ わからないところまで 出かける" name="description" />
     <link rel="icon" href="../collection/icon/favicon.png" />
-
-    <link rel="stylesheet" href="../collection/fonts/DiaPro-Regular.eot" />
-    <link rel="stylesheet" href="../collection/fonts/style.css">
-    <link rel="stylesheet" href="./style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="../collection/fonts/style.css">
+    <link rel="stylesheet" href="./style.css">
+
     <script type="text/javascript" src="./script.js"></script>
-    <script>
-        let params = new URLSearchParams(location.search), thisJSON;
-        if (location.search) {
-            if (params.get("map")) {
-                //
-            } else {
-                thisJSON = "./";
-                if (params.get("id")) {
-                    // ?id=ID&name=名前
-                    thisJSON += params.get("id").replaceAll("-", "/") + "/";
-                    if (params.get("name")) {
-                        thisJSON += params.get("name") + ".json";
-                    } else {
-                        thisJSON += "index.json";
-                    };
-                } else {
-                    if (params.get("name")) {
-                        thisJSON += params.get("name") + ".json";
-                    } else {
-                        thisJSON += "index.json";
-                    };
-                };
-            };
-            indexJSON(thisJSON);
-        } else {
-            indexJSON("./japan/index.json");
-        }
-    </script>
 </head>
 
 <body>
@@ -72,6 +44,35 @@
             <aside id="links" hidden></aside>
         </section>
     </article>
+
+    <script>
+        let params = new URLSearchParams(location.search), thisJSON;
+        if (location.search) {
+            if (params.get("map")) {
+                //
+            } else {
+                thisJSON = "./";
+                if (params.get("id")) {
+                    // ?id=ID&name=名前
+                    thisJSON += params.get("id").replaceAll("-", "/") + "/";
+                    if (params.get("name")) {
+                        thisJSON += params.get("name") + ".json";
+                    } else {
+                        thisJSON += "index.json";
+                    };
+                } else {
+                    if (params.get("name")) {
+                        thisJSON += params.get("name") + ".json";
+                    } else {
+                        thisJSON += "index.json";
+                    };
+                };
+            };
+            indexJSON(thisJSON);
+        } else {
+            indexJSON("./japan/index.json");
+        };
+    </script>
 </body>
 
 </html>
