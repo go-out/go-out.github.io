@@ -1,0 +1,82 @@
+{
+    "url": "date/?id=japan-niiname",
+    "date": null,
+    "cover": {
+        "title": [
+            "新嘗祭",
+            "Niiname-sai (thanks giving for a rich harvest)"
+        ],
+        "description": "新穀の収穫を感謝する大祭",
+        "note": [
+            "November 23rd every year",
+            "毎年 十一月二十三日"
+        ],
+        "directory": null,
+        "url": [
+            null
+        ]
+    },
+    "info": {
+        "index": null,
+        "markdown": "../date/japan/niiname/README.md",
+        "links": [
+            {
+                "text": "新嘗祭 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/新嘗祭",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": [
+        {
+            "title": [
+                "久米舞 くめまい",
+                "橿原神宮"
+            ],
+            "description": "国風歌舞 奉奏",
+            "note": [
+                "November 23rd every year start at 11am",
+                "毎年 十一月二十三日 午前十一時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/japan/niiname/kashihara.md",
+                "links": [
+                    {
+                        "text": "日本建国の地 橿原 かしわら Kashihara, Nara",
+                        "url": "../map/?id=kinai&area=nara-kashihara",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "title": [
+                "新嘗祭",
+                "伊勢神宮"
+            ],
+            "description": "新穀（初穂）を天照大神に奉げる感謝祭",
+            "note": [
+                "November 23rd every year",
+                "毎年 十一月二十三日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../map/toukai/ise/jingu/niiname.md",
+                "links": [
+                    {
+                        "text": "神宮（伊勢・元伊勢） Gingu",
+                        "url": "../map/?id=toukai&area=ise",
+                        "target": "_self"
+                    }
+                ]
+            }
+        }
+    ]
+}

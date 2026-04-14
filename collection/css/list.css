@@ -4,93 +4,26 @@ ul#list input {
     border-radius: 1rem;
 }
 
-h3 code {
-    color: lemonchiffon;
-    background: lightskyblue;
-    border-radius: 0.25rem;
-    padding: 0.1rem 0.25rem;
-}
-
-#list li p b,
-#list input {
-    color: lightskyblue;
-}
-
 dialog#modal {
     border: lightskyblue solid;
     width: 550px;
 }
 
-#list li p b,
-ul#list li p a {
-    display: block;
+h3 code {
+    color: lemonchiffon;
+    background: lightskyblue;
+    border-radius: 0.25rem;
+    font-size: 55%;
+    padding: 0.1rem 0.25rem;
 }
 
-#list {
-    padding: 0;
+#list li b,
+#list input {
+    color: lightskyblue;
 }
 
-ul#list input {
-    padding: 0.5rem 0.5rem 0.25rem;
-}
-
-ul#list p {
-    padding: 0.5rem;
-}
-
-#modal {
-    padding: 0.5rem 1rem;
-}
-
-dialog details,
-ol#list {
-    margin: 1rem 0 0;
-}
-
-dialog h3,
-dialog details summary {
-    margin: 0.5rem 0;
-}
-
-ul#list {
-    margin: 0.5rem;
-}
-
-#list li p b {
-    margin-bottom: 0.5rem;
-}
-
-ul#list p {
-    margin: 0;
-}
-
-#list input:hover {
-    cursor: pointer;
-    text-decoration: wavy underline 0.1rem;
-}
-
-#list {
-    list-style: inside none;
-}
-
-ol#list li {
-    border-bottom: lightskyblue solid 0.1rem;
-    clear: both;
-}
-
-ul#list {
-    columns: 300px auto;
-}
-
-ul#list li {
-    break-inside: avoid;
-}
-
-dialog#modal,
-ul#list,
-#index,
-#readme section {
-    font-family: 'KikaiChokoku', sans-serif;
+input[type="submit"] {
+    color: inherit;
 }
 
 details div {
@@ -106,36 +39,84 @@ dialog#modal button,
     float: right;
 }
 
+#list li b,
+ul#list li a {
+    display: block;
+}
+
+ul#list input {
+    padding: 0.5rem 0.5rem 0.25rem;
+}
+
+#list li b,
+ul#list li a,
+dialog h3,
+dialog details summary {
+    margin: 0.5rem 0;
+}
+
+dialog details,
+ol#list {
+    margin: 1rem 0 0;
+}
+
+#list input:hover {
+    cursor: pointer;
+    text-decoration: wavy underline 0.1rem;
+}
+
+ol#list li {
+    border-bottom: lightskyblue solid 0.1rem;
+    clear: both;
+}
+
+ul#list {
+    columns: 300px auto;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+ul#list li {
+    break-inside: avoid;
+    padding: 0.5rem 0.5rem 0.75rem;
+}
+
+#list {
+    padding: 0;
+    list-style: inside none;
+}
+
+dialog#modal button,
 #mapbox summary b {
-    font-family: "Kristina", "KikaiChokoku", 'Arial Narrow', sans-serif;
+    font-family: "Kristina", "KikaiChokoku", "Arial Narrow", sans-serif;
+}
+
+dialog#modal,
+ul#list,
+#index,
+#readme section {
+    font-family: "KikaiChokoku", sans-serif;
+}
+
+dialog#modal button,
+#mapbox summary b,
+input[type="submit"],
+#collection article input[type="button"],
+main section input[type="button"] {
     font-size: 150%;
 }
 
-#list li p b,
-ul#list li p a {
+#list li b,
+ul#list li a {
     font-size: 111%;
-}
-
-#list li p {
-    font-size: 90%;
 }
 
 #list li input {
     font-size: 75%;
 }
 
-h3 code {
-    font-size: 55%;
-}
-
-#list li p b {
+#list li b {
     font-weight: 555;
-}
-
-dialog#modal button,
-input[type="submit"] {
-    font-size: 150%;
-    color: inherit;
 }
 
 details#mapbox[open] {

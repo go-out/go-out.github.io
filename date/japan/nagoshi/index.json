@@ -1,0 +1,62 @@
+{
+    "url": "date/?id=japan-nagoshi",
+    "cover": {
+        "title": [
+            "夏越の祓",
+            "Nagoshi no Harae"
+        ],
+        "description": "上半期の穢れを祓い、下半期の無病息災を願う",
+        "note": [
+            "June 30th every year",
+            "毎年 六月三十日"
+        ],
+        "directory": "../date/",
+        "url": [
+            "japan/nagoshi/000.png"
+        ]
+    },
+    "google": null,
+    "info": {
+        "index": null,
+        "text": null,
+        "markdown": "../date/japan/nagoshi/README.md",
+        "links": null
+    },
+    "events": [
+        {
+            "date": {
+                "year": 2025,
+                "month": 6,
+                "date": [
+                    30
+                ]
+            },
+            "title": [
+                "夏越大祓式",
+                "生國魂神社"
+            ],
+            "description": "Nagoshi Oo Harae Shiki ⛩️ Ikukunitama Jinja",
+            "note": [
+                "June 30th every year start at 4pm",
+                "毎年 六月三十日 午後四時"
+            ],
+            "cover": {
+                "directory": "../date/",
+                "url": [
+                    "japan/nagoshi/000.png"
+                ]
+            },
+            "info": {
+                "text": null,
+                "markdown": null,
+                "links": [
+                    {
+                        "text": "令和七年 夏越大祓式 生國魂神社 ⛩️ Nagoshi Oo Harae Shiki at Ikukunitama Jinja, Osaka",
+                        "url": "https://www.youtube.com/watch?v=4stwTYWgGXw",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        }
+    ]
+}

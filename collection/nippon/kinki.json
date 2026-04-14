@@ -1,0 +1,79 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.79098583015343,
+                    34.48677207653428
+                ]
+            },
+            "properties": {
+                "title": "大和国（奈良）",
+                "description": "国のまほろば たたなづく青垣（あをかき） 山籠（やまごも）れる 倭し麗（うるは）し",
+                "zoom": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.5230412005792,
+                    34.67991567674672
+                ]
+            },
+            "properties": {
+                "title": "摂津・河内・和泉（大阪）",
+                "description": "（外交を）摂する津（水都）\n（大和の）河の内／王陵（大規模古跡）の国",
+                "zoom": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.20230304617598,
+                    34.681386105994164
+                ]
+            },
+            "properties": {
+                "title": "播磨・播州と阪神間（兵庫）",
+                "description": "___",
+                "zoom": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.76330691910562,
+                    35.0232931816781
+                ]
+            },
+            "properties": {
+                "title": "山城国（京都）",
+                "description": "___",
+                "zoom": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.05446504574468,
+                    35.199891834065426
+                ]
+            },
+            "properties": {
+                "title": "近江国（滋賀）",
+                "description": "___",
+                "zoom": 9.25
+            }
+        }
+    ]
+}

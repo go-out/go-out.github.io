@@ -1,0 +1,19 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.09331798727146,
+                    35.96751974235468
+                ]
+            },
+            "properties": {
+                "title": "諏訪信仰と八ヶ岳・木曽山脈",
+                "description": "__",
+                "zoom": 8.25
+            }
+        }
+    ]
+}

@@ -13,6 +13,12 @@
     <title>Go Out | Mapbox Search Box API + Geocoding API</title>
     <meta content="住所、または名前で場所を検索 + 地理座標（経度・緯度）を 地点名（住所）に変換" name="description" />
 
+    <link rel="stylesheet" href="../collection/fonts/style.css" />
+    <link rel="stylesheet" href="../collection/css/style.css" />
+    <link rel="stylesheet" href="../collection/css/form.css" />
+    <link rel="stylesheet" href="../collection/css/list.css" />
+    <link rel="stylesheet" href="./index.css" />
+
     <!-- Mapbox -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
@@ -28,21 +34,10 @@
 
     <!-- Include the `Mapbox Search JS`. -->
     <script id="search-js" defer src="https://api.mapbox.com/search-js/v1.0.0/web.js"></script>
-
-    <link rel="stylesheet" href="../collection/fonts/style.css" />
-    <link rel="stylesheet" href="../collection/css/style.css" />
-    <link rel="stylesheet" href="../collection/css/form.css" />
-    <link rel="stylesheet" href="../collection/css/list.css" />
-    <link rel="stylesheet" href="./popup/style.css" />
-    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
     <main>
-        <header>
-            <button onclick="history.back()"></button>
-        </header>
-
         <section>
             <h1>
                 <strong>あなたのコレクションを作成</strong>
@@ -53,6 +48,7 @@
                 <u id="address">コレクションに追加したい場所へマーカーをドラッグドロップ</u>
             </h2>
             <br>
+            <input type="button" onclick="history.back()" value="🔙">
             <form id="submit" name="submit" hidden>
                 <p>
                     <label for="title">場所の名前</label><br>
@@ -70,40 +66,42 @@
         </section>
     </main>
 
-    <details id="index">
-        <summary>このコレクションの<b>0</b>の場所</summary>
-        <ul id="list"></ul>
-        <div id="howto">
-            <p>
-                サーチ欄に住所や場所の名前を入力、
-                または、地図上で右クリックすると、コレクションに場所を追加する投稿フォームが表示されます。<br>
-                <small>（投稿はブラウザのローカルストレージにのみ保存されます。インターネット上には保存／公開されません。）</small>
-            </p>
-            <p>
-                <small>ローカルストレージ（ウェブストレージAPI）は、ブラウザ（クライアント側）にデータを保存する仕組みです。</small><br>
-                <small>ローカルストレージに保存したデータは、同じブラウザでページを再訪した際に使用でき、キャッシュ／ローカルデータのクリアによって削除されます。</small>
-            </p>
-        </div>
-        <form id="download" name="download" hidden>
-            <p>
-                <label for="name">あなたの名前</label><br>
-                <input type="name" name="name" id="name" required placeholder="Your Name">
-            </p>
-            <p>
-                <label for="email">メールアドレス</label><br>
-                <input type="email" name="email" id="email" required placeholder="Email">
-            </p>
-            <p>
-                <label for="thistitle">このコレクションの題名</label><br>
-                <input type="text" name="title" id="thistitle" required placeholder="Title">
-            </p>
-            <p>
-                <label for="thisdescription">このコレクションの説明</label><br>
-                <textarea name="description" id="thisdescription" placeholder="Description"></textarea>
-            </p>
-            <input type="submit" value="このコレクションをダウンロード">
-        </form>
-    </details>
+    <footer>
+        <details id="index">
+            <summary>このコレクションの<b>0</b>の場所</summary>
+            <ul id="list"></ul>
+            <div id="howto">
+                <p>
+                    サーチ欄に住所や場所の名前を入力、
+                    または、地図上で右クリックすると、コレクションに場所を追加する投稿フォームが表示されます。<br>
+                    <small>（投稿はブラウザのローカルストレージにのみ保存されます。インターネット上には保存／公開されません。）</small>
+                </p>
+                <p>
+                    <small>ローカルストレージ（ウェブストレージAPI）は、ブラウザ（クライアント側）にデータを保存する仕組みです。</small><br>
+                    <small>ローカルストレージに保存したデータは、同じブラウザでページを再訪した際に使用でき、キャッシュ／ローカルデータのクリアによって削除されます。</small>
+                </p>
+            </div>
+            <form id="download" name="download" hidden>
+                <p>
+                    <label for="name">あなたの名前</label><br>
+                    <input type="name" name="name" id="name" required placeholder="Your Name">
+                </p>
+                <p>
+                    <label for="email">メールアドレス</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                </p>
+                <p>
+                    <label for="thistitle">このコレクションの題名</label><br>
+                    <input type="text" name="title" id="thistitle" required placeholder="Title">
+                </p>
+                <p>
+                    <label for="thisdescription">このコレクションの説明</label><br>
+                    <textarea name="description" id="thisdescription" placeholder="Description"></textarea>
+                </p>
+                <input type="submit" value="このコレクションをダウンロード">
+            </form>
+        </details>
+    </footer>
 
     <dialog id="modal">
         <button>×</button>

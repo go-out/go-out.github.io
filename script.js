@@ -1,10 +1,10 @@
-'use strict'
+"use strict"
 
 const h1 = document.querySelector("main h1"),
     h3 = document.querySelector("main section h3"),
-    modal = document.querySelector('#modal'),
-    download = document.querySelector('#download'),
-    closeButton = document.querySelector('#modal button');
+    modal = document.querySelector("#modal"),
+    download = document.querySelector("#download"),
+    closeButton = document.querySelector("#modal button");
 
 if (localStorage.getItem("mapJSON")) {
     if (yourJson.length > 0) {
@@ -23,7 +23,7 @@ if (localStorage.getItem("mapJSON")) {
         listItems(yourJson);
     };
 } else {
-    const p = document.createElement('p');
+    const p = document.createElement("p");
     p.textContent = "まだ投稿がありません";
     document.querySelector("#list").prepend(p);
     download.hidden = true;
@@ -42,10 +42,6 @@ function enter() {
         alert("The dialog API is not supported by this browser");
     };
 };
-
-closeButton.addEventListener('click', () => {
-    modal.close();
-});
 
 function changeMenu() {
     const mapbox = document.querySelector("#mapbox");
@@ -67,3 +63,7 @@ function changeMenu() {
         article.hidden = false;
     };
 };
+
+closeButton.addEventListener("click", () => {
+    modal.close();
+});

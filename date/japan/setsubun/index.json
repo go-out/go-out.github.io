@@ -1,0 +1,66 @@
+{
+    "url": "date/?id=japan-setsubun",
+    "date": null,
+    "cover": {
+        "title": [
+            "節分",
+            "Setsubun"
+        ],
+        "description": "春の始まり（立春の前日）",
+        "note": [
+            "the day before the beginning of spring",
+            "毎年 二月節分日"
+        ],
+        "directory": null,
+        "url": [
+            null
+        ]
+    },
+    "info": {
+        "index": null,
+        "markdown": "./japan/setsubun/README.md",
+        "links": [
+            {
+                "text": "節分 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/節分",
+                "target": "_blank"
+            },
+            {
+                "text": "追儺 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/追儺",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": [
+        {
+            "date": {
+                "month": 2,
+                "date": "節分日"
+            },
+            "title": [
+                "節分お水汲み祭り",
+                "Setsubun Omizukumi"
+            ],
+            "description": "春と福を呼ぶ大阪キタの風物詩",
+            "note": [
+                "Setsubun Day in February every year",
+                "毎年 二月節分日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/japan/setsubun/kinai/kita-shinchi.md",
+                "links": [
+                    {
+                        "text": "堂島薬師堂 節分お水汲み祭り",
+                        "url": "https://www.kita-shinchi.org/omizukumi.html",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        }
+    ]
+}

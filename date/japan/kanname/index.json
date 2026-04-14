@@ -1,0 +1,107 @@
+{
+    "url": "date/?id=japan-kanname",
+    "date": null,
+    "cover": {
+        "title": [
+            "神嘗祭",
+            "Kanname-sai"
+        ],
+        "description": "新穀（初穂）を神前に奉献する感謝祭",
+        "note": [
+            "October 17th every year",
+            "毎年 十月十七日"
+        ],
+        "directory": null,
+        "url": [
+            null
+        ]
+    },
+    "info": {
+        "index": null,
+        "markdown": "../date/japan/kanname/README.md",
+        "links": [
+            {
+                "text": "神嘗祭 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/神嘗祭",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": [
+        {
+            "title": [
+                "神嘗祭",
+                "伊勢神宮"
+            ],
+            "description": "新穀（初穂）を天照大神に奉げる感謝祭",
+            "note": [
+                "October 17th every year",
+                "毎年 十月十七日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../map/toukai/ise/jingu/kanname.md",
+                "links": [
+                    {
+                        "text": "神宮（伊勢・元伊勢） Gingu",
+                        "url": "../map/?id=toukai&area=ise",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "title": [
+                "宝之市神事",
+                "住吉大社"
+            ],
+            "description": "日本最初の市「升の市」",
+            "note": [
+                "October 17th every year start at 10am",
+                "毎年 十月十七日 午前十時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../map/osaka/city24/sumiyoshi/1017.md",
+                "links": [
+                    {
+                        "text": "住吉津（墨江津） Sumiyoshi, Osaka City",
+                        "url": "../map/?id=osaka-city24&area=sumiyoshi",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "title": [
+                "秋祭（初穂祭）",
+                "生國魂神社"
+            ],
+            "description": "初穂を神饌とともに供える神事",
+            "note": [
+                "October 15th every year",
+                "毎年 十月十五日 午前十時？"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": null,
+                "links": [
+                    {
+                        "text": "上町（上本町・四天王寺周辺） Uemachi Daichi, Osaka City",
+                        "url": "../map/?id=osaka-city24&area=uemachi",
+                        "target": "_self"
+                    }
+                ]
+            }
+        }
+    ]
+}

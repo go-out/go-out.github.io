@@ -1,14 +1,18 @@
 {
-    "features": [
-        {
-            "title": "イランとイラクの世界遺産",
-            "description": "世界最古の文明「メソポタミア」が発祥した最古の都市国家・古代ペルシア（歴史的イラン世界）の遺産",
-            "link": "./?name=iran-iraq"
-        },
-        {
-            "title": "The West of Saudi Arabia (Makkah, Madinah and more)",
-            "description": "イスラームの聖地「メッカ（マッカ）」「メディナ（マディーナ）」など、サウジアラビア西部の名所",
-            "link": "./?name=makkah-madinah-and-more"
-        }
-    ]
+    "description": "JSONファイルを読み込み、コレクションを表示",
+    "info": {
+        "markdown": "../README.md",
+        "links": [
+            {
+                "text": "イランとイラクの世界遺産",
+                "url": "./?id=json&name=iran-iraq",
+                "target": "_self"
+            },
+            {
+                "text": "The West of Saudi Arabia (Makkah, Madinah and more)",
+                "url": "./?id=json&name=makkah-madinah-and-more",
+                "target": "_self"
+            }
+        ]
+    }
 }

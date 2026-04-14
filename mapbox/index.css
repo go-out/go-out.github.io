@@ -1,31 +1,62 @@
+header h1#title,
 main,
-main section #links,
+#collection #links,
 #weather {
     display: flex;
+}
+
+#collection #links[hidden],
+#weather[hidden] {
+    display: none;
+}
+
+header h1#title {
+    align-items: center;
+}
+
+header h1#title,
+#collection #links {
+    gap: 0.5rem;
 }
 
 main section #links {
     flex-flow: column;
 }
 
+header h1#title,
+#collection #links,
 #weather {
     flex-wrap: wrap;
+}
+
+header h1#title,
+#weather {
     justify-content: space-between;
 }
 
-main section #notes,
+header h1#title u,
+#collection #notes,
+#collection #links,
 #weather {
-    font-family: 'KikaiChokoku', 'Zen Maru Gothic', sans-serif;
+    font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
 }
 
 main section #links {
-    font-family: "Kristina", "KikaiChokoku", 'Zen Maru Gothic', sans-serif;
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
     font-weight: 900;
 }
 
-main section #links u,
+header p {
+    font-family: "DiaPro", "Zen Maru Gothic", sans-serif;
+}
+
+#collection #links u,
 #weather p u {
     font-size: 90%;
+}
+
+header h1#title {
+    font-size: 100%;
 }
 
 main section #links a,
@@ -37,21 +68,42 @@ details summary {
     font-size: 125%;
 }
 
-footer button {
-    font-size: 150%;
+header h1#title strong {
+    font-size: 175%;
 }
 
+header h1#title strong {
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lemonchiffon,
+        0.3rem 0.3rem 0.3rem lemonchiffon,
+        0.2rem 0.2rem 0.2rem lemonchiffon;
+}
+
+header h1#title u,
 main section #notes,
-main section #links a:hover {
+main section #links a:hover,
+#collection #links a {
     background: #fff;
 }
 
-main section #links a,
+#collection #links u,
 #weather strong,
 #weather marquee,
 footer button {
     color: lightskyblue;
+}
+
+#collection #links a {
+    color: #000;
+}
+
+header h1#title u,
+#collection #links a {
     text-decoration: none;
+}
+
+#collection #links u {
+    text-decoration: underline wavy;
 }
 
 #weather p u {
@@ -66,8 +118,13 @@ section#mapbox #map {
     border-radius: 0.5rem;
 }
 
+#collection #links a,
 #weather p u {
     border-radius: 0.25rem;
+}
+
+#collection #links a {
+    box-shadow: 0.1rem 0.1rem #111, 0.2rem 0.2rem #111;
 }
 
 main h2 {
@@ -80,14 +137,18 @@ main h3 {
     transform: skew(0deg, -2.5deg);
 }
 
+main article,
 main section,
 main section #notes p,
 main section #links a,
 main section #links u,
-#weather p,
-#weather marquee {
+#weather p {
     padding: 0.5rem;
-    margin: 0;
+}
+
+header h1#title u,
+#collection #links a {
+    padding: 0.25rem 0.5rem;
 }
 
 #weather p u {
@@ -102,8 +163,29 @@ details#index[open] {
     padding-bottom: 0.25rem;
 }
 
-footer button {
-    padding: 0.5rem 0.5rem 0;
+header h1#title,
+header p {
+    padding: 0.5rem;
+}
+
+#collection #notes {
+    padding: 0.25rem 0;
+}
+
+header h1#title,
+header p,
+main article,
+main section,
+main section #notes p,
+main section #links a,
+main section #links u,
+#weather p {
+    margin: 0;
+}
+
+#collection #notes,
+#collection #links {
+    margin: 1rem 0;
 }
 
 main section #links,
@@ -112,7 +194,7 @@ main section #links,
 }
 
 details div {
-    margin: 0.25rem;
+    margin: 0.25rem 0.5rem;
 }
 
 details summary b {
@@ -125,6 +207,7 @@ details summary b {
 }
 
 footer button,
+#collection #links u,
 #weather marquee {
     width: 100%;
 }
@@ -138,13 +221,22 @@ main {
 }
 
 @media (orientation: portrait) {
+
     main {
         flex-flow: column;
     }
 
+    main#collection {
+        flex-flow: column-reverse;
+    }
+
     main section#mapbox {
         height: 123vw;
-        max-height: calc(100svh - 1rem);
+        max-height: calc(100dvh - 1rem);
+    }
+
+    aside#links {
+        margin: 1rem 0;
     }
 }
 
@@ -153,14 +245,19 @@ main {
         flex-flow: row;
     }
 
+    main#collection {
+        flex-flow: row-reverse;
+    }
+
+    main article,
     main section {
         width: 50%;
-        min-height: calc(100dvh - 3rem);
+        min-height: calc(100dvh - 0rem);
     }
 
     main section#mapbox {
         position: sticky;
         top: 0;
-        height: calc(100dvh - 3rem);
+        height: calc(100dvh - 0rem);
     }
 }

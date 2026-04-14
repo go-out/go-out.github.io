@@ -1,0 +1,34 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.73090596280406,
+                    35.362810380368956
+                ]
+            },
+            "properties": {
+                "title": "富士山（山梨・静岡）",
+                "description": "___",
+                "zoom": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.00898326266582,
+                    34.86613773087865
+                ]
+            },
+            "properties": {
+                "title": "伊豆半島と伊豆・小笠原諸島",
+                "description": "___",
+                "zoom": 8
+            }
+        }
+    ]
+}

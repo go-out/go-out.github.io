@@ -1,0 +1,79 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.91896944443383,
+                    31.886230555640328
+                ]
+            },
+            "properties": {
+                "title": "天孫降臨（てんそんこうりん）の地",
+                "description": "朝日のただ射す国、夕日の日照る国「建日向日豊久士比泥別」",
+                "zoom": 7.75
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.68125969,
+                    33.74795452
+                ]
+            },
+            "properties": {
+                "title": "白日別・豊日別（福岡・大分）",
+                "description": "光豊かな・明るい太陽の国「筑紫国（筑前・筑後）」「豊国（豊前・豊後）」",
+                "zoom": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.08049744908686,
+                    32.97298488987241
+                ]
+            },
+            "properties": {
+                "title": "火国・肥の国（長崎・佐賀・熊本）",
+                "description": "勇ましく太陽に向かい豊かに霊異あるもの「建日向日豊久士比泥別」",
+                "zoom": 8.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    129.69081111113232,
+                    33.85510000016954
+                ]
+            },
+            "properties": {
+                "title": "伊伎島・津島（長崎）",
+                "description": "朝鮮半島との国境の島「対馬（つしま）」「壱岐島（いきのしま）」",
+                "zoom": 8.64
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.64520056432536,
+                    26.195362980361836
+                ]
+            },
+            "properties": {
+                "title": "琉球國 ルーチュークク",
+                "description": "琉球文化圏に属する大隅諸島以南の島々",
+                "zoom": 6.06
+            }
+        }
+    ]
+}

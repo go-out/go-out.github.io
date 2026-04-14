@@ -1,0 +1,49 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.41350662418193,
+                    38.060675380193516
+                ]
+            },
+            "properties": {
+                "title": "佐渡島（新潟）",
+                "description": "国産み/大八島No.7、トキ（Nipponia nippon）が生息する日本海側で最も大きな離島、日本最大の金の産出地",
+                "zoom": 8.64
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.64776418570398,
+                    36.57827300504472
+                ]
+            },
+            "properties": {
+                "title": "北陸地方",
+                "description": "___",
+                "zoom": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.76116393863663,
+                    36.15534850758006
+                ]
+            },
+            "properties": {
+                "title": "白山と白川郷・五箇山",
+                "description": "日本三霊山の一つ「白山（はくさん）」を中心とした信仰\n日本の原風景と評価される世界遺産「白川郷」「五箇山」の合掌造り集落",
+                "zoom": 9.5
+            }
+        }
+    ]
+}

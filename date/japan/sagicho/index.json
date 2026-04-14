@@ -1,0 +1,277 @@
+{
+    "url": "date/?id=japan-sagicho",
+    "date": null,
+    "cover": {
+        "title": [
+            "左義長",
+            "Sagicho (Tondo, Dondo, etc.)"
+        ],
+        "description": "日本の火祭り 🔥 Japanese Fire Festivals",
+        "note": [
+            "Around January 14th - 15th every year",
+            "毎年 一月十四・十五日 など"
+        ],
+        "directory": null,
+        "url": [
+            null
+        ]
+    },
+    "info": {
+        "index": null,
+        "markdown": "./japan/sagicho/README.md",
+        "links": [
+            {
+                "text": "左義長 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/左義長",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": [
+        {
+            "date": {
+                "month": 1,
+                "date": "中旬"
+            },
+            "title": [
+                "大磯の左義長",
+                "大磯北浜海岸"
+            ],
+            "note": [
+                "Sunday of Mid-January every year",
+                "例年 一月十四日に近い日曜日 午後六時半"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": "中旬"
+            },
+            "title": [
+                "御火試・粥試神事",
+                "阿射加神社（小阿坂町）"
+            ],
+            "description": "市指定無形民俗文化財",
+            "note": [
+                "Saturday of Mid-January every year",
+                "毎年 一月十四日に近い土曜日 午後七時頃"
+            ],
+            "info": {
+                "markdown": "../date/japan/sagicho/matsusaka_mie.md",
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": "中旬"
+            },
+            "title": [
+                "邑町のサイノカミ",
+                "富山県入善町上野（邑町地区）"
+            ],
+            "note": [
+                "Sunday of Mid-January every year",
+                "例年 一月十五日に近い日曜日 午後六時半"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    14
+                ]
+            },
+            "title": [
+                "上新田天神社とんど祭",
+                "上新田天神社"
+            ],
+            "note": [
+                "January 14th every year at 8pm",
+                "毎年 一月十四日 夕刻から"
+            ],
+            "description": "豊中市指定無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/japan/sagicho/osaka/toyonaka.md",
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    14
+                ]
+            },
+            "title": [
+                "陀々堂の鬼はしり",
+                "念仏寺"
+            ],
+            "note": [
+                "January 14th every year",
+                "例年 一月十四日 午後九時"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    15
+                ]
+            },
+            "title": [
+                "三島のサイノカミ",
+                "福島県三島町"
+            ],
+            "note": [
+                "January 15th every year",
+                "例年 一月十五日 午後六時半"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "title": [
+                "五十猛のグロ",
+                "島根県大田市五十猛町（大浦地区）"
+            ],
+            "note": [
+                "January 11th - 15th every year",
+                "例年 一月十一から十五日"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": "中旬"
+            },
+            "title": [
+                "今尾の左義長祭",
+                "今尾秋葉神社"
+            ],
+            "note": [
+                "Second Sunday of Febrary every year",
+                "例年 二月第二日曜日 午後一時"
+            ],
+            "description": "岐阜県重要無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 2,
+                "date": "下旬"
+            },
+            "title": [
+                "勝山左義長",
+                "福井県勝山市"
+            ],
+            "note": [
+                "Last Saturday and Sunday of Febrary every year",
+                "例年 二月最終土日曜日 午後一時"
+            ],
+            "description": "福井県指定無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": null,
+                "markdown": null,
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 3,
+                "date": "中旬"
+            },
+            "title": [
+                "左義長まつり",
+                "日牟禮八幡宮"
+            ],
+            "note": [
+                "Saturday and Sunday of Mid-March every year",
+                "例年 三月十四・十五日に近い土日曜日"
+            ],
+            "description": "国指定重要無形民俗文化財",
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/japan/sagicho/oumi8.md",
+                "links": null
+            }
+        }
+    ]
+}

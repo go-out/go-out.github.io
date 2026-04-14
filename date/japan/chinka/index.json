@@ -1,0 +1,181 @@
+{
+    "url": "date/?id=japan-chinka",
+    "date": null,
+    "cover": {
+        "title": [
+            "鎮花祭",
+            "Chinka (Hana Shizume) sai"
+        ],
+        "description": "春の花が散る頃に疫病を鎮める神事",
+        "note": [
+            "Every year when the spring flowers fall",
+            "毎年 春の花が散る頃"
+        ],
+        "directory": null,
+        "url": [
+            null
+        ]
+    },
+    "info": {
+        "index": null,
+        "markdown": "../date/japan/chinka/README.md",
+        "links": null
+    },
+    "events": [
+        {
+            "date": {
+                "month": 4,
+                "date": [
+                    5
+                ]
+            },
+            "title": [
+                "鎮花祭",
+                "水谷神社（春日大社摂社）"
+            ],
+            "description": "「春日大社社伝神楽・禰宜座狂言」奉納",
+            "note": [
+                "April 5th every year",
+                "毎年 四月五日 午前十時"
+            ],
+            "info": {
+                "markdown": "../date/japan/chinka/kasuga.md",
+                "links": [
+                    {
+                        "text": "南都・平城京 Nanto, Nara",
+                        "url": "../map/?id=kinai&area=nara-nanto",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "神楽 Kagura",
+                        "url": "../date/?id=kagura",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 4,
+                "date": [
+                    17
+                ]
+            },
+            "title": [
+                "鎮花祭",
+                "少彦名神社"
+            ],
+            "description": "御神酒「忍冬酒」振る舞い",
+            "note": [
+                "April 17th every year",
+                "毎年 四月十七日 午前九時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "note": [
+                    "鎮花祭 ～はなしずめのまつり",
+                    "御神酒「忍冬酒」が振る舞われる"
+                ],
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 4,
+                "date": [
+                    18
+                ]
+            },
+            "title": [
+                "鎮花祭",
+                "大神神社"
+            ],
+            "description": "神楽「奇魂の舞・浦安の舞」奉納など",
+            "note": [
+                "April 18th every year",
+                "毎年 四月十八日 午前十時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/japan/chinka/oomiwa.md",
+                "links": [
+                    {
+                        "text": "三輪山（御諸山） Miwa, Nara",
+                        "url": "../map/?id=kinai&area=nara-miwa",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "神楽 Kagura",
+                        "url": "../date/?id=kagura",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 4,
+                "date": [
+                    25
+                ]
+            },
+            "title": [
+                "鎮花祭",
+                "大阪天満宮"
+            ],
+            "description": "「浪花神楽・舞楽」奉納など",
+            "note": [
+                "April 25th every year",
+                "毎年 四月二十五日 午後一時"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/kagura/naniwa/0425.md",
+                "links": [
+                    {
+                        "text": "毛馬桜の宮公園 Sakuranomiya (Okawa) Riverside",
+                        "url": "../map/?id=osaka-city24&area=kita&name=sakuranomiya",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "浪速神楽 Naniwa Kagura",
+                        "url": "../date/?id=kagura-naniwa",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 4,
+                "date": "第二日曜日"
+            },
+            "title": [
+                "やすらい祭",
+                "京都市北区"
+            ],
+            "description": "安楽祭・夜須礼祭（花鎮めの祭）",
+            "note": [
+                "Second Sunday of April every year",
+                "毎年 四月第二日曜日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/japan/chinka/yasurai.md",
+                "links": null
+            }
+        }
+    ]
+}

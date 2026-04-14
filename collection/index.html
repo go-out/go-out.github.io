@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
 
+    <title>Go Out | View the Collection</title>
+    <meta content="JSONファイルを読み込み、コレクションを表示" name="description" />
+
     <link rel="icon" href="./icon/favicon.png" />
     <link rel="icon" href="./icon/mobile.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="./icon/mobile.png" sizes="180x180" />
 
-    <title>Go Out | View the Collection</title>
-    <meta content="JSONファイルを読み込み、コレクションを表示" name="description" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./fonts/style.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/form.css" />
-    <link rel="stylesheet" href="./css/spot.css" />
+    <link rel="stylesheet" href="./css/events.css">
     <link rel="stylesheet" href="./css/list.css" />
+    <link rel="stylesheet" href="./css/spot.css" />
     <link rel="stylesheet" href="./css/cover.css" />
     <link rel="stylesheet" href="../mapbox/index.css" />
-    <link rel="stylesheet" href="../mapbox/popup/style.css" />
 
     <!-- Mapbox -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
@@ -29,112 +33,139 @@
 
 <body>
     <header>
-        <button type="button"></button>
+        <h1 id="title">
+            <strong>
+                <label for="file">JSONファイルを選択</label><br>
+                <input type="file" name="file" id="file" onchange="previewFile()" accept="application/json">
+            </strong>
+            <u></u>
+        </h1>
         <ul id="cover" hidden></ul>
     </header>
-    <main>
-        <section>
-            <h1>
-                <button onclick="location.reload()">Go Out</button>
-                <strong id="by">View the Collection</strong>
-            </h1>
-            <h2>
-                <b id="title">
-                    <label for="file">JSONファイルを選択</label><br>
-                    <input type="file" name="file" id="file" onchange="previewFile()" accept="application/json">
-                </b>
-            </h2>
-            <h3>
-                <b id="description">JSONファイルを読み込み、コレクションを表示</b>
-            </h3>
-            <div id="notes"></div>
-            <aside id="links"></aside>
-        </section>
-        <section id="mapbox">
-            <div id="map"></div>
-        </section>
-    </main>
 
     <dialog id="spot">
         <div>
-            <button type="button">(閉じる)</button>
+            <button type="button" class="close">(閉じる)</button>
+            <h2>
+                <strong>Go Out</strong>
+                <small id="year">YYYY</small>
+            </h2>
             <h3>
-                <strong hidden>Fancy and Relaxin'</strong>
-                <small id="year" hidden>YYYY</small>
-                <hr>
-                <b id="month" hidden>MM</b>
-                <b id="date" hidden>DD</b>
+                <strong id="month">MM</strong>
+                <strong id="date">DD</strong>
             </h3>
+            <canvas id="video" hidden></canvas>
             <nav id="vewAll"></nav>
         </div>
-        <article id="info" hidden>
-            <section></section>
-            <aside></aside>
+        <h4 id="thisDescription"></h4>
+        <article id="info">
+            <section hidden></section>
+            <aside hidden>
+                <u>関連ページ Related Pages</u>
+            </aside>
         </article>
+        <select name="log" id="log" hidden></select>
     </dialog>
 
-    <details id="index">
-        <summary>コレクションを表示</summary>
-        <ul id="list"></ul>
-        <div id="weather" hidden></div>
-    </details>
+    <dialog id="thisEvent">
+        <button type="button" class="close">( 閉じる )</button>
+        <article id="thisInfo"></article>
+        <aside id="thisLink" hidden></aside>
+    </dialog>
+
+    <main id="collection">
+        <section id="mapbox">
+            <div id="map"></div>
+        </section>
+        <article>
+            <h3 id="description"><b></b></h3>
+            <div id="notes"></div>
+            <aside id="links" hidden>
+                <u>関連ページ Related Pages</u>
+            </aside>
+            <input type="button" onclick="history.back()" value="🔙">
+        </article>
+    </main>
+
+    <footer>
+        <article id="events" hidden>
+            <fieldset>
+                <legend>四季の出来事</legend>
+                <input type="radio" name="siki" id="spring">
+                <label for="spring">
+                    <strong>春</strong>
+                    <small>March</small>
+                    <small>April</small>
+                    <small>May</small>
+                </label>
+                <input type="radio" name="siki" id="summer">
+                <label for="summer">
+                    <strong>夏</strong>
+                    <small>June</small>
+                    <small>July</small>
+                    <small>August</small>
+                </label>
+                <input type="radio" name="siki" id="autumne">
+                <label for="autumne">
+                    <strong>秋</strong>
+                    <small>September</small>
+                    <small>October</small>
+                    <small>November</small>
+                </label>
+                <input type="radio" name="siki" id="winter">
+                <label for="winter">
+                    <strong>冬</strong>
+                    <small>December</small>
+                    <small>January</small>
+                    <small>February</small>
+                </label>
+                <input type="radio" name="siki" id="all">
+                <label for="all">
+                    <strong>毎月</strong>
+                    <small>every month</small>
+                </label>
+            </fieldset>
+        </article>
+        <details id="index">
+            <summary>コレクションを表示 | View the Collection</summary>
+            <ul id="list"></ul>
+            <div id="weather" hidden></div>
+        </details>
+    </footer>
 
     <script src="../mapbox/marker/script.js"></script>
     <script src="../index.js"></script>
     <script src="./js/script.js"></script>
-    <script src="./js/readJSON.js"></script>
     <script src="./js/weather.js"></script>
+    <script src="./js/readJSON.js"></script>
     <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
-        let map, style = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17', center, bounds, zoom;
-
         // collection/?id=ID&area=エリア&name=名前
         const params = new URLSearchParams(location.search);
         if (location.search) {
             let thisJson = "", thisID, thisArea, thisSpot;
             if (params.get("id")) {
-                thisID = params.get("id").replace("-", '/');
-                thisJson = `../index/${thisID}/`;
+                thisID = params.get("id").replace("-", "/");
+                thisJson = `./${thisID}`;
             } else {
-                thisJson = "./json/";
+                thisJson = ".";
+            };
+            if (params.get("area")) {
+                thisArea = params.get("area").replaceAll("-", '/');
+                thisJson += `/${thisArea}`;
             };
             if (params.get("name")) {
-                thisJson += `${params.get("name")}.json`;
+                thisJson += `/${params.get("name")}.json`;
             } else {
-                thisJson += "index.json";
+                thisJson += "/index.json";
             };
             collectionJSON(thisJson);
         } else if (!location.search) {
-            document.querySelector('header button').addEventListener("click", () => {
-                history.back()
-            }, false);
-            map = new mapboxgl.Map({
-                container: 'map',
-                center: [getRandomInt(0, 360), getRandomInt(-90, 90)],
-                style: style,
-                bearing: 0,
-                pitch: 0,
-                zoom: getRandomInt(1.5, 3),
-                scrollZoom: 1,
-                projection: 'globe',
-                attributionControl: false
-            });
-            map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-            createIndex("index.json");
-            document.querySelector("#weather").remove();
-            // 右クリックイベント
-            map.on("contextmenu", (e) => { // ポップアップに投稿フォームを表示
-                new mapboxgl.Popup({
-                    className: "goout"
-                })
-                    .setLngLat([e.lngLat.lng, e.lngLat.lat])
-                    .setHTML(`${e.lngLat.lng}, ${e.lngLat.lat}`).addTo(map);
-            });
+            collectionJSON("index.json");
         };
 
         window.addEventListener("load", function () {
-            const index = document.querySelector('#index');
-            index.addEventListener('toggle', () => {
+            const index = document.querySelector("#index");
+            index.addEventListener("toggle", () => {
                 if (index.open) {
                     index.scrollIntoView({
                         behavior: "smooth"

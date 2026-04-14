@@ -1,0 +1,236 @@
+{
+    "url": "date/?id=japan-sanganichi",
+    "date": null,
+    "cover": {
+        "title": [
+            "歳旦祭・元始祭",
+            "beginning of a new year"
+        ],
+        "description": "年始を祝う祭祀 🇯🇵 Japanese New Year",
+        "note": [
+            "January 1st and 3rd every year",
+            "毎年 元日・一月三日"
+        ],
+        "directory": null,
+        "url": [
+            null
+        ]
+    },
+    "info": {
+        "index": null,
+        "markdown": "./japan/sanganichi/README.md",
+        "links": [
+            {
+                "text": "歳旦祭 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/歳旦祭",
+                "target": "_blank"
+            },
+            {
+                "text": "元始祭 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/元始祭",
+                "target": "_blank"
+            }
+        ]
+    },
+    "events": [
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    1
+                ]
+            },
+            "title": [
+                "繞道祭",
+                "大神神社"
+            ],
+            "description": "大和の年初を飾る勇壮な火の祭典",
+            "note": [
+                "January 1st every year",
+                "毎年 一月一日 元旦 午前一時"
+            ],
+            "info": {
+                "markdown": "../date/japan/sanganichi/oomiwa.md",
+                "links": [
+                    {
+                        "text": "三輪山（御諸山） Miwa, Nara",
+                        "url": "../map/?id=kinai&area=nara-miwa",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    1
+                ]
+            },
+            "title": [
+                "歳旦祭",
+                "平安神宮"
+            ],
+            "description": "神楽「浦安の舞」奉納",
+            "note": [
+                "January 1st every year",
+                "毎年 一月一日 元旦 午前六時"
+            ],
+            "info": {
+                "markdown": "../date/japan/sanganichi/heian.md",
+                "links": null
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    1
+                ]
+            },
+            "title": [
+                "御神楽祭",
+                "大和神社"
+            ],
+            "description": "歳旦祭・新年初神楽奉仕",
+            "note": [
+                "January 1st every year",
+                "毎年 一月一日 元旦 午後二時"
+            ],
+            "info": {
+                "markdown": "../date/japan/sanganichi/ooyamato.md",
+                "links": [
+                    {
+                        "text": "天理 Tenri, Nara",
+                        "url": "../map/?id=kinai&area=nara-tenri",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    1
+                ]
+            },
+            "title": [
+                "歳旦祭",
+                "誉田八幡宮"
+            ],
+            "description": "神酒・地元河内産の赤ワイン「日の丸神酒」授与",
+            "note": [
+                "January 1st every year",
+                "毎年 一月一日 元日 午前八時半"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/japan/sanganichi/kondahachimangu.md",
+                "links": [
+                    {
+                        "text": "古市古墳群 Habikino - Fujiidera, Osaka",
+                        "url": "../map/?id=osaka&area=kawachi-minami-furuichi",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    3
+                ]
+            },
+            "title": [
+                "神楽始式",
+                "春日大社"
+            ],
+            "description": "社伝神楽 秘曲「神おろし」奉奏",
+            "note": [
+                "January 3rd every year",
+                "毎年 一月三日 午前十一時"
+            ],
+            "info": {
+                "markdown": "../date/japan/sanganichi/kasuga.md",
+                "links": [
+                    {
+                        "text": "南都・平城京 Nanto, Nara",
+                        "url": "../map/?id=kinai&area=nara-nanto",
+                        "target": "_self"
+                    },
+                    {
+                        "text": "神楽 Kagura",
+                        "url": "../date/?id=kagura",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    2,
+                    3
+                ]
+            },
+            "title": [
+                "二日祭・元始祭",
+                "厳島神社"
+            ],
+            "description": "Bugaku Hōnō ⛩️ Itsukushima Jinja",
+            "note": [
+                "January 2nd and 3rd",
+                "毎年 一月二・三日"
+            ],
+            "cover": {
+                "directory": null,
+                "url": null
+            },
+            "info": {
+                "markdown": "../date/gagaku/tennoji/itsukushima.md",
+                "links": [
+                    {
+                        "text": "安芸国（あきのくに、広島） Hiroshima, Japan",
+                        "url": "../map/?id=sanyo&area=hiroshima",
+                        "target": "_self"
+                    }
+                ]
+            }
+        },
+        {
+            "date": {
+                "month": 1,
+                "date": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "title": [
+                "住吉踊奉納",
+                "住吉大社"
+            ],
+            "description": "午後一時から午後四時（三十分毎）",
+            "note": [
+                "January 1st - 3rd every year",
+                "毎年 一月一・二・三日"
+            ],
+            "info": {
+                "markdown": "../date/japan/sanganichi/sumiyoshi.md",
+                "links": [
+                    {
+                        "text": "住吉津（墨江津） Sumiyoshi, Osaka City",
+                        "url": "../map/?id=osaka-city24&area=sumiyoshi",
+                        "target": "_self"
+                    }
+                ]
+            }
+        }
+    ]
+}

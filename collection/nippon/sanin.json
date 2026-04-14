@@ -1,0 +1,64 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    133.1758806432581,
+                    36.13688050396591
+                ]
+            },
+            "properties": {
+                "title": "隠伎之三子島（おきのみつごのしま）",
+                "description": "国産み/大八島No.3、天之忍許呂別（あめのおしころわけ）「隠岐諸島（おきしょとう）」",
+                "zoom": 9.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    133.1787249999576,
+                    35.15579999976688
+                ]
+            },
+            "properties": {
+                "title": "出雲の国と伯耆・因幡国（島根・鳥取）",
+                "description": "八雲立つ 出雲八重垣 妻籠に 八重垣作る その八重垣を",
+                "zoom": 9.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    132.10409141808378,
+                    34.894083969337174
+                ]
+            },
+            "properties": {
+                "title": "石見国（いわみのくに、島根）",
+                "description": "___",
+                "zoom": 9.25
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.19198578971344,
+                    35.570143495330356
+                ]
+            },
+            "properties": {
+                "title": "丹波国造（京都・兵庫）",
+                "description": "美しい丹色（朱色に似た魔除けの色）の波、和の上品さが立つところ",
+                "zoom": 9
+            }
+        }
+    ]
+}

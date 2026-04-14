@@ -1,0 +1,375 @@
+html {
+    height: -webkit-fill-available;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#cover h1,
+#cover h2,
+#readme nav,
+#links {
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+#cover header,
+#readme section {
+    font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+input[type="button"],
+button[type="button"] {
+    appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+#cover h1 u,
+#readme section div,
+#readme nav button:hover,
+#links a {
+    background: #fff;
+}
+
+#cover {
+    background: lightskyblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background: lemonchiffon;
+}
+
+#cover header input[type="button"] {
+    color: #fff;
+}
+
+#cover h1 strong,
+#readme nav button ruby rt b {
+    color: lightskyblue;
+}
+
+#cover h2 {
+    color: lemonchiffon;
+}
+
+#cover h1,
+#cover h1 strong,
+#readme nav button ruby rt b {
+    font-size: 200%;
+}
+
+#cover h1 b,
+#cover h2,
+#readme nav {
+    font-size: 150%;
+}
+
+#cover header input[type="button"],
+#readme nav button ruby {
+    font-size: 125%;
+}
+
+#cover h2 i {
+    font-size: 111%;
+    font-style: normal;
+}
+
+#cover h2 small,
+#readme nav h3,
+#readme nav button {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+#cover h1 u,
+#cover h1 small,
+sup {
+    font-size: 75%;
+}
+
+#cover h1 {
+    text-align: center;
+    width: calc(100% - 1rem);
+}
+
+#readme nav button ruby rt {
+    text-align: left;
+}
+
+#readme nav button {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#cover h1 strong {
+    line-height: 123%;
+}
+
+#cover h2 {
+    writing-mode: vertical-lr;
+}
+
+#cover h1 u,
+#readme section div,
+#readme nav button,
+#links a {
+    border-radius: 0.25rem;
+}
+
+#cover h1 u,
+#links a {
+    color: #000;
+    text-decoration: none;
+}
+
+#cover h1 strong {
+    transform: scale(1, 1.75);
+}
+
+#cover h1 strong {
+    text-shadow:
+        0.1rem -0.1rem 0 lemonchiffon,
+        -0.1rem -0.1rem 0 lemonchiffon,
+        -0.1rem 0.1rem 0 lemonchiffon,
+        0.1rem 0.1rem 0 lemonchiffon;
+}
+
+#cover h2 {
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+header input[type="button"] {
+    text-shadow: 0.1rem 0.1rem 0 #000;
+}
+
+#readme nav h3,
+#links::before {
+    text-decoration: underline wavy lightskyblue;
+}
+
+body,
+#cover h1,
+#cover h2,
+#readme nav h3 {
+    margin: 0;
+}
+
+#readme nav button {
+    margin: 0.25rem 0;
+}
+
+#cover h1 strong {
+    margin: 10rem 0 0;
+}
+
+#links,
+#links a {
+    padding: 0.25rem;
+}
+
+#readme nav button ruby rt {
+    padding: 0.5rem 0;
+}
+
+#readme nav button ruby rt b {
+    padding: 0 0.5rem;
+}
+
+header,
+#readme nav,
+#readme nav h3,
+#readme section div {
+    padding: 0.5rem;
+}
+
+#cover h1 u {
+    padding: 0.5rem 1rem;
+}
+
+#readme section {
+    padding: 1rem;
+}
+
+#cover h2 {
+    padding: 1rem 0.5rem;
+}
+
+#readme nav button {
+    padding: 1rem 0.5rem 0;
+}
+
+#cover,
+#readme {
+    position: relative;
+}
+
+#cover h1,
+#cover h2 {
+    position: absolute;
+}
+
+#cover header {
+    position: sticky;
+    z-index: 2;
+}
+
+#cover header {
+    top: 0;
+    left: 0;
+}
+
+#cover h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cover h2 {
+    bottom: 0;
+    left: 0;
+    max-height: 95%;
+}
+
+#cover h1,
+#cover h2 {
+    z-index: 1;
+}
+
+#cover,
+#readme,
+#links,
+#links::before {
+    width: 100%;
+}
+
+#readme nav button {
+    max-width: 100%;
+}
+
+#cover {
+    height: 100svh;
+    max-height: -webkit-fill-available;
+}
+
+#readme[hidden],
+#links[hidden] {
+    display: none;
+}
+
+#cover h1,
+#readme,
+#readme nav,
+#links {
+    display: flex;
+}
+
+#cover h1,
+#readme nav {
+    flex-flow: column;
+}
+
+#readme nav {
+    align-items: start;
+    gap: 0.25rem;
+}
+
+#cover h1 {
+    align-items: center;
+}
+
+#readme {
+    justify-content: space-between;
+    min-height: 100svh;
+}
+
+#readme,
+#links {
+    flex-flow: wrap;
+    place-items: start;
+}
+
+#readme nav {
+    max-width: calc(100% / 3 * 2);
+}
+
+#readme section {
+    width: calc(100% / 3 - 1rem);
+    max-width: calc(100% / 3 - 1rem);
+}
+
+#links {
+    gap: 0.5rem;
+    place-self: end;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #cover {
+        font-size: 1.5vw;
+    }
+
+    #readme section {
+        padding: 0;
+    }
+
+    #readme nav,
+    #readme section {
+        width: calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+    }
+
+    #readme section {
+        margin: 0.5rem auto;
+    }
+}
+
+@media (orientation: landscape) {
+
+    #readme section {
+        position: sticky;
+        top: 0rem;
+        overflow: auto;
+        max-height: calc(100vh - 0rem);
+    }
+}
+
+@media (orientation: portrait) {
+    #cover {
+        font-size: 2.5vw;
+    }
+
+    #readme nav,
+    #readme section {
+        padding: 0;
+    }
+
+    #readme nav,
+    #readme section {
+        margin: 0.5rem auto;
+    }
+
+    #readme nav {
+        width: calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+    }
+}
+
+@media screen and (width: 1280px) and (height: 720px) {
+    #cover header input[type="button"] {
+        display: none;
+    }
+}
+
+#links::before {
+    content: "関連ページ Related Pages";
+}
