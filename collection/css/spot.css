@@ -6,14 +6,19 @@ dialog#spot h3 strong#date::after {
     content: "日";
 }
 
-dialog#spot h2,
-dialog#spot #thisDescription {
-    font-family: "Kristina", "KikaiChokoku", 'Arial Narrow', sans-serif;
+dialog#spot h3 strong {
+    font-family: "Kristina", "KikaiChokoku","Zen Maru Gothic", sans-serif;
 }
 
+dialog#spot h2 {
+    font-family: "DiaPro", "KikaiChokoku","Zen Maru Gothic", sans-serif;
+}
+
+dialog#spot h3 strong::after,
+dialog#spot #thisDescription,
 dialog#spot button,
 dialog#spot #info {
-    font-family: "KikaiChokoku", sans-serif;
+    font-family: "KikaiChokoku","Zen Maru Gothic", sans-serif;
 }
 
 dialog#spot h2 strong,
@@ -64,12 +69,21 @@ dialog#spot h2 small#year {
     color: #fff;
 }
 
+dialog#spot aside a {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    box-shadow: 0.1rem 0.1rem #111, 0.2rem 0.2rem #111;
+    border-radius: 0.25rem;
+}
+
 dialog#spot {
     padding: 0;
     overflow: auto;
 }
 
-dialog#spot button {
+dialog#spot button,
+dialog#spot aside a {
     padding: 0.25rem 0.5rem;
 }
 
@@ -106,7 +120,6 @@ dialog#spot #info section p {
 dialog#spot #info aside u {
     margin-bottom: 0.25rem;
 }
-
 
 dialog#spot #vewAll label {
     border: solid 2.5px #000;
