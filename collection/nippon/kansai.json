@@ -1,0 +1,153 @@
+{
+    "type": "FeatureCollection",
+    "url": "https://go-out.github.io/kansai/",
+    "title": [
+        "Kansai, Japan",
+        "関西地方（京阪神大都市圏）"
+    ],
+    "description": "古代は「畿内（大和・山城・河内・和泉・摂津の五ヵ国）」と呼ばれていた天皇の都（首都）があった地域と、その付近",
+    "info": {
+        "note": [
+            "「近畿地方（奈良・大阪・兵庫・京都・滋賀・和歌山・三重の2府5県）」のうち、近江逢坂・箱根関の以西の地",
+            "また、古代日本の律令制の「畿内」に属さない地を含まない（近畿地方の2府5県のうち、和歌山・三重・京都と兵庫の一部を除く）地域",
+            "（一般的には、大阪府・京都府・兵庫県・奈良県・和歌山県・滋賀県の2府4県が関西にあたる）"
+        ],
+        "links": [
+            {
+                "text": "関西 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/関西",
+                "target": "_blank"
+            },
+            {
+                "text": "近畿地方 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/近畿地方",
+                "target": "_blank"
+            },
+            {
+                "text": "近畿地方 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/近畿地方",
+                "target": "_blank"
+            },
+            {
+                "text": "畿内 - Wikipedia",
+                "url": "https://ja.wikipedia.org/wiki/畿内",
+                "target": "_blank"
+            }
+        ]
+    },
+    "map": {
+        "center": [
+            135.66767547965816,
+            34.84186768653112
+        ],
+        "bounds": [
+            [
+                135.03186059599284,
+                33.859254644097675
+            ],
+            [
+                136.44457021918464,
+                35.70395422202549
+            ]
+        ],
+        "zoom": 8.5
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.79098583015343,
+                    34.48677207653428
+                ]
+            },
+            "properties": {
+                "title": "大和国（奈良）",
+                "description": "国のまほろば たたなづく青垣（あをかき） 山籠（やまごも）れる 倭し麗（うるは）し",
+                "note": [
+                    "神武天皇の時代、奈良盆地の東南地域に設置された「倭国造（やまとのくにのみやつこ・やまとこくぞう）」が起源",
+                    "東に笠置山地（大和高原）、西に生駒・金剛山地、南に吉野地域（紀伊山地）と四方を山に囲まれた美しい場所"
+                ],
+                "links": [
+                    {
+                        "text": "大和国（奈良） Yamato, Nara, Japan",
+                        "url": "?id=nara",
+                        "target": "_self"
+                    }
+                ],
+                "zoom": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.5230412005792,
+                    34.67991567674672
+                ]
+            },
+            "properties": {
+                "title": "摂津・河内・和泉（大阪）",
+                "description": "（外交を）摂する津（水都）\n（大和の）河の内／王陵（大規模古跡）の国",
+                "note": [
+                    "人口は約883万人（全国3位/人口密度は全国2位）・面積は全国で2番目に小さく、森林面積が最も小さい（森林率はワースト2位）"
+                ],
+                "links": [
+                    {
+                        "text": "摂津・河内・和泉 Osaka, Kansai, Japan",
+                        "url": "?id=osaka",
+                        "target": "_self"
+                    }
+                ],
+                "zoom": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.20230304617598,
+                    34.681386105994164
+                ]
+            },
+            "properties": {
+                "title": "播磨・播州と阪神間（兵庫）",
+                "description": "___",
+                "zoom": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.76330691910562,
+                    35.0232931816781
+                ]
+            },
+            "properties": {
+                "title": "山城国（京都）",
+                "description": "___",
+                "zoom": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.05446504574468,
+                    35.199891834065426
+                ]
+            },
+            "properties": {
+                "title": "近江国（滋賀）",
+                "description": "___",
+                "zoom": 9.25
+            }
+        }
+    ]
+}

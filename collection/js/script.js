@@ -219,6 +219,36 @@ function createMap(obj) {
         document.querySelector("#index").hidden = false;
     };
 
+
+
+    if (obj.line || obj.lineJSON) {
+        const lineAllArr = []
+        new Promise(async (resolve) => {
+            if (obj.line) {
+                for (const each of obj.line) {
+                    lineAllArr.push(each);
+                };
+            };
+            if (obj.lineJSON) {
+                for (const json of obj.lineJSON) {
+                    const request = new Request(json);
+                    const response = await fetch(request);
+                    const jsonIndex = await response.text();
+                    const index = JSON.parse(jsonIndex);
+                    if (index.line) {
+                        for (const each of index.line) {
+                            lineAllArr.push(each);
+                        };
+                    };
+                };
+                document.querySelector("#index").hidden = false;
+            };
+            resolve();
+        }).then(() => {
+            addLine(lineAllArr);
+        }, false);
+    };
+
     spotClose.addEventListener("click", () => {
         spotOpen.close();
     }, false);

@@ -60,10 +60,10 @@ function addMarker(each) {
         if (each.properties.googlePhotos || each.properties.archive) {
             new Promise((resolve) => {
                 thisSpot(each.properties);
-                if (each.properties.googlePhotos) {
-                    spotImage(each.properties, each.properties.googlePhotos[0]);
-                } else if (each.properties.archive[0].cover) {
+                if (each.properties.archive) {
                     spotVideo(each.properties, each.properties.archive[0]);
+                } else if (each.properties.googlePhotos) {
+                    spotImage(each.properties, each.properties.googlePhotos[0]);
                 };
                 resolve();
             }).then(() => {
@@ -147,92 +147,92 @@ function thisSpot(info) {
         spotLinks.hidden = true;
     };
 
-    if (info.googlePhotos) {
-        if (info.googlePhotos.length > 1) {
-            console.log(info.googlePhotos);
-            selectLog.hidden = false;
-            for (let i = 0; i < info.googlePhotos.length; i++) {
-                if (info.googlePhotos[i].year && info.googlePhotos[i].month) {
-                    const option = document.createElement("option");
-                    option.innerHTML = `${info.googlePhotos[i].year}年${info.googlePhotos[i].month}月${info.googlePhotos[i].date}日`;
-                    if (info.googlePhotos[i].title) {
-                        option.textContent += info.googlePhotos[i].title;
+    if (info.archive || info.googlePhotos) {
+        let i = 0;
+
+        if (info.archive) {
+            info.archive.forEach((archiveEach, index) => {
+                i == i++;
+                const option = document.createElement("option");
+                option.value = "archive-" + index;
+                selectLog.appendChild(option);
+
+                if (archiveEach.year && archiveEach.month) {
+                    option.innerHTML = `${archiveEach.year}年${archiveEach.month}月${archiveEach.date}日`;
+                } else {
+                    option.innerHTML = "[" + i + "] ";
+                    if (archiveEach.title) {
+                        option.textContent += archiveEach.title;
+                    } else {
+                        option.textContent += info.title;
                     };
-                    option.value = i;
-                    selectLog.appendChild(option);
                 };
+
+                if (i == 2) {
+                    selectLog.hidden = false;
+                };
+            });
+        };
+
+        if (info.googlePhotos) {
+            info.googlePhotos.forEach((imageEach, index) => {
+                i == i++;
+                const option = document.createElement("option");
+                option.value = "image-" + index;
+                selectLog.appendChild(option);
+
+                if (imageEach.year && imageEach.month) {
+                    option.innerHTML = `${imageEach.year}年${imageEach.month}月${imageEach.date}日`;
+                } else {
+                    option.innerHTML = "[" + i + "] ";
+                    if (imageEach.title) {
+                        option.textContent += imageEach.title;
+                    } else {
+                        option.textContent += info.title;
+                    };
+                };
+
+                if (i == 2) {
+                    selectLog.hidden = false;
+                };
+            });
+        };
+
+        selectLog.addEventListener("change", (e) => {
+            for (const removeEl of document.querySelectorAll("#vewAll input, #vewAll label")) {
+                removeEl.remove();
             };
 
-            selectLog.addEventListener("change", () => {
-                for (const removeEl of document.querySelectorAll("#vewAll input, #vewAll label")) {
-                    removeEl.remove();
-                };
-                spotImage(info, info.googlePhotos[Number(selectLog.value)]);
-            });
-        } else {
-            selectLog.hidden = true;
-        };
-    } else if (info.archive) {
-        if (info.archive.length > 1) {
-            selectLog.hidden = false;
-            for (let i = 0; i < info.archive.length; i++) {
-                if (info.archive[i].year && info.archive[i].month) {
-                    const option = document.createElement("option");
-                    option.innerHTML = `${info.archive[i].year}年${info.archive[i].month}月${info.archive[i].date}日`;
-                    if (info.archive[i].title) {
-                        option.textContent += info.archive[i].title;
-                    };
-                    option.value = i;
-                    selectLog.appendChild(option);
-                };
+            if (e.target.value.includes("archive")) {
+                let archiveCH = e.target.value.split("-");
+                console.log(e.target.value, "archive: " + Number(archiveCH[1]));
+                spotVideo(info, info.archive[Number(archiveCH[1])]);
+            } else if (e.target.value.includes("image")) {
+                let imageCH = e.target.value.split("-");
+                console.log(e.target.value, "image: " + Number(imageCH[1]));
+                spotImage(info, info.googlePhotos[Number(imageCH[1])]);
             };
-
-            selectLog.addEventListener("change", () => {
-                for (const removeEl of document.querySelectorAll("#vewAll input, #vewAll label")) {
-                    removeEl.remove();
-                };
-                spotVideo(info, info.archive[Number(selectLog.value)]);
-            });
-        } else {
-            selectLog.hidden = true;
-        };
+        });
     } else {
         selectLog.hidden = true;
-    };
-
-    document.querySelector("#spot button.close").addEventListener("click", () => {
-        document.querySelector("#spot").close();
-        resetAll();
-    }, false);
-};
-
-function resetAll() {
-    stop("dialog#spot #vewAll label video");
-    document.querySelector("#spot div").style.backgroundImage = null;
-    document.querySelector("#spot h2").className = null;
-    document.querySelector("#spot h3").hidden = false;
-    document.querySelector("#spot #video").hidden = true;
-
-    for (const resetEl of document.querySelectorAll("#spot h2 strong, #spot h2 #year, #spot h3 #month, #spot h3 #date")) {
-        resetEl.textContent = "";
-    };
-
-    for (const removeEl of document.querySelectorAll("#vewAll input, #vewAll label, #spot #info section p, #spot #info aside a, #spot select#log option")) {
-        removeEl.remove();
     };
 };
 
 function spotImage(info, imgArr) {
+    document.querySelector("#spot h2").className = null;
+    document.querySelector("#spot #video").hidden = true;
+
     const spotTitle = document.querySelector("#spot h2 strong"),
         logYYYY = document.querySelector("#spot h2 #year"),
         logMM = document.querySelector("#spot h3 #month"),
         logDD = document.querySelector("#spot h3 #date");
 
-    spotTitle.hidden = false;
     if (imgArr.title) {
         spotTitle.innerHTML = imgArr.title;
+        spotTitle.hidden = false;
     } else {
         spotTitle.innerHTML = info.title;
+        spotTitle.hidden = false;
     };
 
     if (imgArr.year) {
@@ -278,10 +278,16 @@ function spotImage(info, imgArr) {
             });
         };
     };
+
+    document.querySelector("#spot button.close").addEventListener("click", () => {
+        document.querySelector("#spot").close();
+        resetAll();
+    }, false);
 };
 
 function spotVideo(info, videoArr) {
-    const spotTitle = document.querySelector("#spot h2 strong"),
+    const videoPlayPause = document.querySelector("#spot h2"),
+        spotTitle = document.querySelector("#spot h2 strong"),
         logYYYY = document.querySelector("#spot h2 #year"),
         logMM = document.querySelector("#spot h3 #month"),
         logDD = document.querySelector("#spot h3 #date");
@@ -292,7 +298,8 @@ function spotVideo(info, videoArr) {
     } else {
         thisTitle = info.title;
     };
-    document.querySelector("#spot h2").dataset.title = thisTitle;
+
+    videoPlayPause.dataset.title = thisTitle;
     spotTitle.hidden = false;
 
     if (videoArr.year) {
@@ -321,6 +328,9 @@ function spotVideo(info, videoArr) {
     let coverImg = `${directory}${videoArr.identifier}/${videoArr.identifier}.thumbs/${videoArr.cover}`;
     if (videoArr.files) {
         spotTitle.innerHTML = "▶️ " + thisTitle;
+        canvas.hidden = false;
+        videoPlayPause.className = "start";
+
         const playAll = shuffle(videoArr.files);
         if (!playAll.length == 0) {
             for (let i = 0; i < videoArr.count; i++) {
@@ -384,10 +394,68 @@ function spotVideo(info, videoArr) {
                 }, false);
             };
         };
-        document.querySelector("#spot h2").className = "start";
     } else {
         spotTitle.innerHTML = thisTitle;
         canvas.hidden = true;
     };
     document.querySelector("#spot div").style.backgroundImage = `url(${coverImg})`;
+
+    document.querySelector("#spot button.close").addEventListener("click", () => {
+        document.querySelector("#spot").close();
+        stopAllVideos();
+        resetAll();
+    }, false);
 };
+
+function resetAll() {
+    document.querySelector("#spot div").style.backgroundImage = null;
+    document.querySelector("#spot h2").className = null;
+    document.querySelector("#spot h3").hidden = false;
+    document.querySelector("#spot #video").hidden = true;
+
+    for (const resetEl of document.querySelectorAll("#spot h2 strong, #spot h2 #year, #spot h3 #month, #spot h3 #date")) {
+        resetEl.textContent = "";
+    };
+
+    for (const removeEl of document.querySelectorAll("#vewAll input, #vewAll label, #spot #info section p, #spot #info aside a, #spot select#log option")) {
+        removeEl.remove();
+    };
+};
+
+function playAllVideos() {
+    document.querySelectorAll("dialog#spot #vewAll label video").forEach(video => {
+        video.play();
+    });
+};
+
+function stopAllVideos() {
+    document.querySelectorAll("dialog#spot #vewAll label video").forEach(video => {
+        video.pause();
+    });
+};
+
+window.addEventListener("load", function () {
+    const videoPlayPause = document.querySelector("#spot h2"),
+        spotTitle = document.querySelector("#spot h2 strong"),
+        logYYYY = document.querySelector("#spot h2 #year"),
+        logMM = document.querySelector("#spot h3 #month"),
+        logDD = document.querySelector("#spot h3 #date");
+
+    videoPlayPause.addEventListener("click", () => {
+        if (videoPlayPause.className == "start") {
+            spotTitle.innerHTML = "⏸️";
+            logYYYY.hidden = true;
+            logMM.hidden = true;
+            logDD.hidden = true;
+            videoPlayPause.className = "pause";
+            playAllVideos();
+        } else if (videoPlayPause.className == "pause") {
+            spotTitle.innerHTML = "▶️ " + videoPlayPause.dataset.title;
+            logYYYY.hidden = false;
+            logMM.hidden = false;
+            logDD.hidden = false;
+            videoPlayPause.className = "start";
+            stopAllVideos();
+        };
+    });
+}, false);

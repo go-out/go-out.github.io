@@ -70,14 +70,7 @@
         "../date/japan/index.json"
     ],
     "featuresJSON": [
-        "./nippon/nankai.json",
-        "./nippon/sanin.json",
-        "./nippon/kyushu.json",
-        "./nippon/hokuriku.json",
-        "./nippon/kinki.json",
-        "./nippon/sanyo.json",
-        "./nippon/toukai.json",
-        "./nippon/tousan.json"
+        "./nippon/kansai.json"
     ],
     "line": [
         {
@@ -228,12 +221,7 @@
             "properties": {
                 "title": "木曽山脈（中央アルプス）",
                 "description": null,
-                "zoom": 8.75,
-                "googlePhotos": [
-                    {
-                        "url": null
-                    }
-                ]
+                "zoom": 8.75
             }
         },
         {
@@ -269,5 +257,8 @@
                 "zoom": 8.75
             }
         }
+    ],
+    "lineJSON": [
+        "./nippon/kansai.json"
     ]
 }
