@@ -88,14 +88,14 @@ ul#list li {
 
 dialog#modal button,
 #mapbox summary b {
-    font-family: "Kristina", "KikaiChokoku", "Arial Narrow", sans-serif;
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
 }
 
 dialog#modal,
 ul#list,
 #index,
 #readme section {
-    font-family: "KikaiChokoku", sans-serif;
+    font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
 }
 
 dialog#modal button,

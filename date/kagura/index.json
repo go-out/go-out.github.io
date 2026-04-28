@@ -1,4 +1,5 @@
 {
+    "path": "../",
     "url": "date/?id=kagura",
     "date": null,
     "cover": {
@@ -16,7 +17,7 @@
     },
     "info": {
         "index": null,
-        "markdown": "./kagura/README.md",
+        "markdown": "kagura/README.md",
         "links": [
             {
                 "text": "神楽 - Wikipedia",

@@ -101,10 +101,19 @@ function createCover(obj) {
             };
         };
 
-        let directory;
+        let directory, path = "";
+        if (~location.pathname.indexOf(obj.url)) {
+            if (obj.path) {
+                path = obj.path;
+            };
+        };
         const cover = document.querySelector("#cover");
         if (obj.cover.directory && obj.cover.url) {
-            directory = obj.cover.directory;
+            if (!obj.cover.directory.indexOf("http")) {
+                directory = obj.cover.directory;
+            } else {
+                directory = path + obj.cover.directory;
+            };
             cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]})`;
         } else if (!obj.cover.directory && obj.cover.url) {
             directory = "https://lh5.googleusercontent.com/";
@@ -113,10 +122,10 @@ function createCover(obj) {
     };
 };
 
-function readmeThis(info, obj) {
+function readmeThis(path, info, obj) {
     let textAll = "";
     if (info.markdown) {
-        fetchText(info.markdown);
+        fetchText(path + info.markdown);
     } else {
         textAll = `${obj.title[0]} ${obj.title[1]}`;
         textAll += "<p>" + obj.note[1] + "<br>" + obj.note[0] + "</p>";
@@ -135,9 +144,13 @@ function readmeThis(info, obj) {
         links.hidden = false;
         for (const eachLink of info.links) {
             const a = document.createElement("a");
-            a.href = eachLink.url;
             a.textContent = eachLink.text;
             a.setAttribute("target", eachLink.target);
+            if (!a.href.indexOf("http")) {
+                a.href = eachLink.url;
+            } else {
+                a.href = path + eachLink.url;
+            };
             links.appendChild(a);
         };
     } else {
@@ -148,6 +161,15 @@ function readmeThis(info, obj) {
 async function createMenu(json, obj) {
     // 更新日時を取得
     const latestUpdate = document.querySelector(`#cover header input[type="button"]`);
+
+    let path = "";
+    if (~location.pathname.indexOf(obj.url)) {
+        console.log(obj.path + obj.url);
+        if (obj.path) {
+            path = obj.path;
+        };
+    };
+
     if (!obj.date) {
         //　データを非同期で取得
         const modified = getModified(await gateDate(json));
@@ -161,20 +183,10 @@ async function createMenu(json, obj) {
         e.preventDefault();
         createCover(obj);
 
-        if (obj.cover.url) {
-            if (obj.cover.directory) {
-                directory = obj.cover.directory;
-            } else {
-                directory = "https://lh3.googleusercontent.com/";
-            };
-            cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]})`;
-        } else {
-            cover.style.backgroundImage = null;
+        if (obj.info) {
+            readmeThis(path, obj.info, obj.cover);
         };
 
-        if (obj.info) {
-            readmeThis(obj.info, obj.cover);
-        };
         document.querySelector("#cover").scrollIntoView({
             top: 0,
             behavior: "smooth"
@@ -185,7 +197,7 @@ async function createMenu(json, obj) {
         if (obj.info.index) {
             readmeH3.textContent = obj.info.index;
         };
-        readmeThis(obj.info, obj.cover);
+        readmeThis(path, obj.info, obj.cover);
     };
 
     const menu = document.querySelector("#readme nav");
@@ -241,7 +253,11 @@ async function createMenu(json, obj) {
                 if (indexEach.cover && indexEach.cover.url) {
                     coverTitle(indexEach);
                     if (indexEach.cover.directory) {
-                        directory = indexEach.cover.directory;
+                        if (!indexEach.cover.directory.indexOf("http")) {
+                            directory = indexEach.cover.directory;
+                        } else {
+                            directory = path + indexEach.cover.directory;
+                        };
                         cover.style.backgroundImage = `url(${directory}${indexEach.cover.url[0]})`;
                     } else if (!indexEach.cover.directory) {
                         directory = "https://lh3.googleusercontent.com/";
@@ -256,7 +272,7 @@ async function createMenu(json, obj) {
                     createCover(obj);
                     if (obj.cover.url) {
                         if (obj.cover.directory) {
-                            directory = obj.cover.directory;
+                            directory = path + obj.cover.directory;
                         } else {
                             directory = "https://lh3.googleusercontent.com/";
                         };
@@ -271,7 +287,7 @@ async function createMenu(json, obj) {
                 };
 
                 if (indexEach.info) {
-                    readmeThis(indexEach.info, indexEach);
+                    readmeThis(path, indexEach.info, indexEach);
                 };
             });
         };

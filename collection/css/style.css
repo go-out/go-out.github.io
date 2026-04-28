@@ -141,13 +141,13 @@ h2 b,
 
 .mapboxgl-marker.goout {
     border-radius: 50%;
-    width: 1.11rem;
-    height: 1.11rem;
+    width: 1.23rem;
+    height: 1.23rem;
 }
 
 .mapboxgl-marker.goout:hover {
-    width: 1.23rem;
-    height: 1.23rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 dialog hr {

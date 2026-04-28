@@ -1,5 +1,6 @@
 {
-    "url": "date/?id=japan",
+    "path": "../",
+    "url": "date/",
     "cover": {
         "date": null,
         "title": [
@@ -67,11 +68,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/sanganichi/README.md",
+                "markdown": "date/japan/sanganichi/README.md",
                 "links": [
                     {
                         "text": "歳旦祭・元始祭 beginning of a new year",
-                        "url": "../date/?id=japan-sanganichi",
+                        "url": "date/?id=japan-sanganichi",
                         "target": "_self"
                     }
                 ]
@@ -99,11 +100,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/sagicho/README.md",
+                "markdown": "date/japan/sagicho/README.md",
                 "links": [
                     {
                         "text": "左義長 Sagicho Fire Festivals",
-                        "url": "../date/?id=japan-sagicho",
+                        "url": "date/?id=japan-sagicho",
                         "target": "_self"
                     }
                 ]
@@ -128,11 +129,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/setsubun/README.md",
+                "markdown": "date/japan/setsubun/README.md",
                 "links": [
                     {
                         "text": "節分 Setsubun",
-                        "url": "../date/?id=japan-setsubun",
+                        "url": "date/?id=japan-setsubun",
                         "target": "_self"
                     }
                 ]
@@ -159,11 +160,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/dengaku/nara/hirose.md",
+                "markdown": "date/dengaku/nara/hirose.md",
                 "links": [
                     {
                         "text": "田楽 Dengaku",
-                        "url": "../date/?id=dengaku",
+                        "url": "date/?id=dengaku",
                         "target": "_self"
                     }
                 ]
@@ -187,7 +188,7 @@
             ],
             "cover": null,
             "info": {
-                "markdown": "../date/japan/kigen/README.md",
+                "markdown": "date/japan/kigen/README.md",
                 "links": null
             }
         },
@@ -212,7 +213,7 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/kinen/README.md",
+                "markdown": "date/japan/kinen/README.md",
                 "links": null
             }
         },
@@ -235,11 +236,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../map/kinai/nara/tatsuta-fujin.md",
+                "markdown": "map/kinai/nara/tatsuta-fujin.md",
                 "links": [
                     {
                         "text": "龍田古道・亀の瀬 Kashiwara Osaka - Tatsuta Nara",
-                        "url": "../map/?id=kinai&area=nara&name=tatsuta",
+                        "url": "map/?id=kinai&area=nara&name=tatsuta",
                         "target": "_self"
                     }
                 ]
@@ -266,11 +267,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/chinka/README.md",
+                "markdown": "date/japan/chinka/README.md",
                 "links": [
                     {
                         "text": "鎮花祭 Chinka (Hana Shizume) sai",
-                        "url": "../date/?id=japan-chinka",
+                        "url": "date/?id=japan-chinka",
                         "target": "_self"
                     }
                 ]
@@ -297,11 +298,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../map/kinai/nara/miwa/saikusa.md",
+                "markdown": "map/kinai/nara/miwa/saikusa.md",
                 "links": [
                     {
                         "text": "三輪山（御諸山） Miwa, Nara",
-                        "url": "../map/?id=kinai&area=nara-miwa",
+                        "url": "map/?id=kinai&area=nara-miwa",
                         "target": "_self"
                     }
                 ]
@@ -324,17 +325,17 @@
                 "毎年 六月三十日"
             ],
             "cover": {
-                "directory": "../date/",
+                "directory": "date/",
                 "url": [
                     "japan/nagoshi/000.png"
                 ]
             },
             "info": {
-                "markdown": "../date/japan/nagoshi/README.md",
+                "markdown": "date/japan/nagoshi/README.md",
                 "links": [
                     {
                         "text": "夏越の祓 Nagoshi no Harae",
-                        "url": "../date/?id=japan-nagoshi",
+                        "url": "date/?id=japan-nagoshi",
                         "target": "_self"
                     }
                 ]
@@ -361,7 +362,7 @@
                 ]
             },
             "info": {
-                "markdown": "../date/japan/kangetsu/README.md",
+                "markdown": "date/japan/kangetsu/README.md",
                 "links": null
             }
         },
@@ -386,11 +387,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/kanname/README.md",
+                "markdown": "date/japan/kanname/README.md",
                 "links": [
                     {
                         "text": "神嘗祭 Kanname-sai",
-                        "url": "../date/?id=japan-kanname",
+                        "url": "date/?id=japan-kanname",
                         "target": "_self"
                     }
                 ]
@@ -417,11 +418,11 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/niiname/README.md",
+                "markdown": "date/japan/niiname/README.md",
                 "links": [
                     {
                         "text": "新嘗祭 Niiname-sai",
-                        "url": "../date/?id=japan-niiname",
+                        "url": "date/?id=japan-niiname",
                         "target": "_self"
                     }
                 ]
@@ -448,7 +449,7 @@
                 "url": null
             },
             "info": {
-                "markdown": "../date/japan/toshikoshi/README.md",
+                "markdown": "date/japan/toshikoshi/README.md",
                 "links": null
             }
         }
