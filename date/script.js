@@ -91,6 +91,7 @@ function coverTitle(obj) {
 };
 
 function createCover(obj) {
+    const cover = document.querySelector("#cover");
     if (obj.cover) {
         coverTitle(obj.cover);
         if (obj.cover.title) {
@@ -107,18 +108,25 @@ function createCover(obj) {
                 path = obj.path;
             };
         };
-        const cover = document.querySelector("#cover");
-        if (obj.cover.directory && obj.cover.url) {
-            if (!obj.cover.directory.indexOf("http")) {
-                directory = obj.cover.directory;
-            } else {
-                directory = path + obj.cover.directory;
+
+        if (obj.cover.url) {
+            cover.hidden = false;
+            if (obj.cover.directory && obj.cover.url) {
+                if (!obj.cover.directory.indexOf("http")) {
+                    directory = obj.cover.directory;
+                } else {
+                    directory = path + obj.cover.directory;
+                };
+                cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]})`;
+            } else if (!obj.cover.directory && obj.cover.url) {
+                directory = "https://lh5.googleusercontent.com/";
+                cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]}=w1280-h720-k-no)`;
             };
-            cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]})`;
-        } else if (!obj.cover.directory && obj.cover.url) {
-            directory = "https://lh5.googleusercontent.com/";
-            cover.style.backgroundImage = `url(${directory}${obj.cover.url[0]}=w1280-h720-k-no)`;
+        } else {
+            cover.hidden = true;
         };
+    } else {
+        cover.hidden = true;
     };
 };
 
