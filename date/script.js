@@ -154,10 +154,14 @@ function readmeThis(path, info, obj) {
             const a = document.createElement("a");
             a.textContent = eachLink.text;
             a.setAttribute("target", eachLink.target);
-            if (!eachLink.url.indexOf("http") && !eachLink.target == "_self") {
+            if (eachLink.target == "_blank") {
                 a.href = eachLink.url;
             } else {
-                a.href = path + eachLink.url;
+                if (!eachLink.url.indexOf("http")) {
+                    a.href = eachLink.url;
+                } else {
+                    a.href = path + eachLink.url;
+                };
             };
             links.appendChild(a);
         };
