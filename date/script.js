@@ -195,14 +195,21 @@ async function createMenu(json, obj) {
         e.preventDefault();
         createCover(obj);
 
+        if (obj.cover.url) {
+            document.querySelector("#cover").scrollIntoView({
+                top: 0,
+                behavior: "smooth"
+            }, false);
+        } else {
+            document.querySelector("#readme section").scrollIntoView({
+                top: 0,
+                behavior: "smooth"
+            }, false);
+        };
+
         if (obj.info) {
             readmeThis(path, obj.info, obj.cover);
         };
-
-        document.querySelector("#cover").scrollIntoView({
-            top: 0,
-            behavior: "smooth"
-        }, false);
     });
 
     if (obj.info) {

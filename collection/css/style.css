@@ -192,14 +192,14 @@ header button {
     height: 100%;
 }
 
-@media (orientation: portrait) {
-    html {
-        font-size: 2.5vw;
-    }
-}
-
 @media screen and (max-width: 550px) {
-    html {
-        font-size: 3.5vw;
+    .mapboxgl-marker.goout {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .mapboxgl-marker.goout:hover {
+        width: 1.75rem;
+        height: 1.75rem;
     }
 }
